@@ -1,0 +1,30 @@
+- generic [ref=f8e2]:
+  - banner [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - generic [ref=f8e5]:
+        - generic [ref=f8e6]: ESATprep
+        - link "Practice" [ref=f8e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=f8e8]
+          - text: Practice
+        - link "Mock" [ref=f8e10] [cursor=pointer]:
+          - /url: /mock
+          - img [ref=f8e11]
+          - text: Mock
+        - link "Insights" [ref=f8e14] [cursor=pointer]:
+          - /url: /insights
+          - img [ref=f8e15]
+          - text: Insights
+        - link "Ledger" [ref=f8e17] [cursor=pointer]:
+          - /url: /history
+          - img [ref=f8e18]
+          - text: Ledger
+      - button "Toggle theme" [ref=f8e21] [cursor=pointer]:
+        - img [ref=f8e22]
+  - main [ref=f8e24]:
+    - generic [ref=f8e51]:
+      - paragraph [ref=f8e52]: Module 1 of 2
+      - heading "Mathematics 1" [level=1] [ref=f8e53]
+      - paragraph [ref=f8e54]: 27 questions · 40:00 hard limit
+      - paragraph [ref=f8e55]: The clock starts the moment you begin. It cannot be paused.
+      - button "Begin Maths 1" [ref=f8e56] [cursor=pointer]

@@ -1,0 +1,288 @@
+/* Markdown notes body — "Past Paper" theme, token-driven (adapts to light/dark) */
+
+.md-body {
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, 'Segoe UI', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgb(var(--c-text-primary) / 0.92);
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+/* ── Headings ──────────────────────────────────────────────────────────────── */
+.md-body h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0;
+  font-size: 2em;
+  font-weight: 600;
+  color: rgb(var(--c-text-primary));
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgb(var(--c-border-subtle));
+  margin-top: 0;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.md-body h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: rgb(var(--c-text-primary));
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid rgb(var(--c-border-subtle));
+  margin-top: 28px;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.md-body h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: rgb(var(--c-text-primary));
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.md-body h4 {
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  font-size: 0.78em;
+  letter-spacing: 0.08em;
+  color: rgb(var(--c-text-secondary));
+}
+
+/* ── Paragraphs & spacing ─────────────────────────────────────────────────── */
+.md-body p {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: rgb(var(--c-text-primary) / 0.88);
+}
+
+.md-body hr {
+  height: 1px;
+  border: none;
+  background: rgb(var(--c-border-subtle));
+  margin: 24px 0;
+}
+
+/* ── Lists ─────────────────────────────────────────────────────────────────── */
+.md-body ul,
+.md-body ol {
+  padding-left: 1.8em;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.md-body li {
+  margin-bottom: 4px;
+  color: rgb(var(--c-text-primary) / 0.88);
+}
+
+.md-body li + li {
+  margin-top: 2px;
+}
+
+/* ── Bold & italic ────────────────────────────────────────────────────────── */
+.md-body strong {
+  color: rgb(var(--c-text-primary));
+  font-weight: 600;
+}
+
+.md-body em {
+  color: rgb(var(--c-text-primary) / 0.85);
+  font-style: italic;
+}
+
+/* ── Inline code ──────────────────────────────────────────────────────────── */
+.md-body code {
+  font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 0.875em;
+  background: var(--accent-faint);
+  color: var(--accent);
+  padding: 0.18em 0.48em;
+  border-radius: 4px;
+  border: 1px solid rgb(var(--c-border-subtle));
+  font-feature-settings: normal;
+}
+
+/* ── Code blocks ──────────────────────────────────────────────────────────── */
+.md-body pre {
+  background: rgb(var(--c-surface));
+  border: 1px solid rgb(var(--c-border-subtle));
+  border-radius: 8px;
+  padding: 14px 18px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.md-body pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: rgb(var(--c-text-primary) / 0.9);
+  font-size: 0.86em;
+  line-height: 1.65;
+  font-feature-settings: normal;
+}
+
+/* ── Blockquotes ─────────────────────────────────────────────────────────── */
+.md-body blockquote {
+  border-left: 3px solid rgb(var(--c-accent));
+  margin: 12px 0;
+  padding: 8px 14px;
+  background: var(--accent-faint);
+  border-radius: 0 6px 6px 0;
+  color: rgb(var(--c-text-secondary));
+}
+
+.md-body blockquote p {
+  margin: 0;
+  color: rgb(var(--c-text-secondary));
+}
+
+.md-body blockquote strong {
+  color: rgb(var(--c-text-primary));
+}
+
+/* ── Tables ──────────────────────────────────────────────────────────────── */
+.md-body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.md-body thead tr {
+  background: rgb(var(--c-surface));
+}
+
+.md-body th {
+  padding: 7px 12px;
+  border: 1px solid rgb(var(--c-border));
+  font-weight: 600;
+  color: rgb(var(--c-text-primary));
+  text-align: left;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.md-body td {
+  padding: 7px 12px;
+  border: 1px solid rgb(var(--c-border));
+  color: rgb(var(--c-text-primary) / 0.88);
+  vertical-align: top;
+}
+
+.md-body tr:nth-child(even) td {
+  background: rgb(var(--c-text-primary) / 0.018);
+}
+
+/* ── Links ───────────────────────────────────────────────────────────────── */
+.md-body a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.md-body a:hover {
+  text-decoration: underline;
+}
+
+/* ── KaTeX math — inherits ink colour, sits on a faint paper panel ───────── */
+.md-body .katex {
+  font-size: 1.05em;
+  color: inherit;
+}
+
+.md-body .katex-display {
+  margin: 16px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 14px 20px;
+  background: var(--accent-faint);
+  border-radius: 6px;
+  border: 1px solid rgb(var(--c-border-subtle));
+}
+
+.md-body .katex-display > .katex {
+  font-size: 1.15em;
+}
+
+/* ── Technique explanations (matches md-body typography for inline use) ──── */
+.technique-body {
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, 'Segoe UI', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgb(var(--c-text-primary) / 0.88);
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+.technique-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.technique-body p:last-child {
+  margin-bottom: 0;
+}
+
+.technique-body strong {
+  color: rgb(var(--c-text-primary));
+  font-weight: 600;
+}
+
+.technique-body em {
+  color: rgb(var(--c-text-primary) / 0.85);
+  font-style: italic;
+}
+
+.technique-body .katex {
+  font-size: 1.05em;
+  color: inherit;
+}
+
+.technique-body .katex-display {
+  margin: 10px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 16px;
+  background: var(--accent-faint);
+  border-radius: 6px;
+  border: 1px solid rgb(var(--c-border-subtle));
+}
+
+.technique-body .katex-display > .katex {
+  font-size: 1.1em;
+}
+
+.technique-body ul,
+.technique-body ol {
+  padding-left: 1.6em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.technique-body li {
+  margin-bottom: 3px;
+  color: rgb(var(--c-text-primary) / 0.88);
+}
+
+.technique-body code {
+  font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 0.875em;
+  background: var(--accent-faint);
+  color: var(--accent);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  border: 1px solid rgb(var(--c-border-subtle));
+}

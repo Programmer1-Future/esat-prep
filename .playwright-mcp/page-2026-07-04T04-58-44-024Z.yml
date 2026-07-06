@@ -1,0 +1,85 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: ESATprep
+        - link "Dashboard" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8]
+          - text: Dashboard
+        - link "Practice" [ref=e13] [cursor=pointer]:
+          - /url: /practice
+          - img [ref=e14]
+          - text: Practice
+        - link "Mock" [ref=e16] [cursor=pointer]:
+          - /url: /mock
+          - img [ref=e17]
+          - text: Mock
+        - link "Insights" [ref=e20] [cursor=pointer]:
+          - /url: /insights
+          - img [ref=e21]
+          - text: Insights
+        - link "Ledger" [ref=e23] [cursor=pointer]:
+          - /url: /history
+          - img [ref=e24]
+          - text: Ledger
+      - button "Toggle theme" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "Dashboard" [level=1] [ref=e34]
+          - paragraph [ref=e35]: Each module is scored 1.0–9.0 on its own — there is no combined ESAT score.
+        - button "47 reviews due" [ref=e36] [cursor=pointer]:
+          - img [ref=e37]
+          - text: 47 reviews due
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - img [ref=e41]
+          - generic [ref=e45]:
+            - paragraph [ref=e46]: 103 days until ESAT
+            - paragraph [ref=e47]: 14 October 2026
+        - button "Change date" [ref=e48] [cursor=pointer]:
+          - img [ref=e49]
+          - text: Change date
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - paragraph [ref=e56]: Mathematics 1
+            - generic [ref=e57]: "2.1"
+            - paragraph [ref=e58]: projected on exam day · practice accuracy trend
+          - img [ref=e60]
+          - generic [ref=e67]: 28 attempts · 14% correct
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e74]: Mathematics 2
+            - generic [ref=e75]:
+              - paragraph [ref=e76]: No signal yet.
+              - paragraph [ref=e77]: Practice or sit a mock to see a projection.
+          - generic [ref=e80]: 3 attempts · 0% correct
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - paragraph [ref=e86]: Physics
+            - generic [ref=e87]: "1.0"
+            - paragraph [ref=e88]: projected on exam day · practice accuracy trend
+          - img [ref=e90]
+          - generic [ref=e96]: 27 attempts · 11% correct
+      - generic [ref=e100]:
+        - generic [ref=e101]: Wrong
+        - generic [ref=e103]: Slow correct — over target time
+        - generic [ref=e105]: Fast correct
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: Your modules
+          - generic [ref=e110]: Maths 1 + up to 2 optional
+        - generic [ref=e111]:
+          - generic [ref=e112]: Maths 1 · compulsory
+          - button "Maths 2" [ref=e113] [cursor=pointer]
+          - button "Physics" [ref=e114] [cursor=pointer]
+          - button "Chemistry" [disabled] [ref=e115]
+          - button "Biology" [disabled] [ref=e116]
+      - link "Where should I focus? — per-topic and cross-module breakdown" [ref=e117] [cursor=pointer]:
+        - /url: /insights
+        - text: Where should I focus? — per-topic and cross-module breakdown
+        - img [ref=e118]

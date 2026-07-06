@@ -1,0 +1,109 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - generic [ref=f5e5]:
+        - generic [ref=f5e6]: ESATprep
+        - link "Dashboard" [ref=f5e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=f5e8]
+          - text: Dashboard
+        - link "Practice" [ref=f5e13] [cursor=pointer]:
+          - /url: /practice
+          - img [ref=f5e14]
+          - text: Practice
+        - link "Mock" [ref=f5e16] [cursor=pointer]:
+          - /url: /mock
+          - img [ref=f5e17]
+          - text: Mock
+        - link "Insights" [ref=f5e20] [cursor=pointer]:
+          - /url: /insights
+          - img [ref=f5e21]
+          - text: Insights
+        - link "Notes" [ref=f5e23] [cursor=pointer]:
+          - /url: /notes
+          - img [ref=f5e24]
+          - text: Notes
+        - link "Habits" [ref=f5e27] [cursor=pointer]:
+          - /url: /habits
+          - img [ref=f5e28]
+          - text: Habits
+        - link "Ledger" [ref=f5e30] [cursor=pointer]:
+          - /url: /history
+          - img [ref=f5e31]
+          - text: Ledger
+      - button "Toggle theme" [ref=f5e34] [cursor=pointer]:
+        - img [ref=f5e35]
+  - main [ref=f5e37]:
+    - generic [ref=f5e38]:
+      - generic [ref=f5e39]:
+        - generic [ref=f5e40]:
+          - heading "Mock History" [level=1] [ref=f5e41]
+          - paragraph [ref=f5e42]: 3 sittings · scored per module, 1.0–9.0
+        - generic [ref=f5e43]:
+          - button "Log manually" [ref=f5e44] [cursor=pointer]:
+            - img [ref=f5e45]
+            - text: Log manually
+          - link "New mock" [ref=f5e46] [cursor=pointer]:
+            - /url: /mock
+            - img [ref=f5e47]
+            - text: New mock
+      - generic [ref=f5e89]:
+        - generic [ref=f5e90]:
+          - heading "Log a mock manually" [level=3] [ref=f5e91]
+          - button [ref=f5e92] [cursor=pointer]:
+            - img [ref=f5e93]
+        - generic [ref=f5e97]:
+          - paragraph [ref=f5e98]: For a sitting taken outside the app — a real Pearson VUE day or a paper mock. Enter a raw score per module.
+          - generic [ref=f5e99]:
+            - generic [ref=f5e100]: Date
+            - textbox [ref=f5e101]: 2026-07-06
+          - generic [ref=f5e103]:
+            - combobox [ref=f5e104]:
+              - option "Maths 1" [selected]
+              - option "Maths 2"
+              - option "Physics"
+              - option "Chemistry"
+              - option "Biology"
+            - spinbutton "correct" [ref=f5e105]
+            - generic [ref=f5e106]: /
+            - spinbutton [ref=f5e107]: "27"
+          - button "Add another module" [ref=f5e108] [cursor=pointer]:
+            - img [ref=f5e109]
+            - text: Add another module
+          - generic [ref=f5e110]:
+            - button "Save sitting" [ref=f5e111] [cursor=pointer]
+            - button "Cancel" [ref=f5e112] [cursor=pointer]
+      - generic [ref=f5e49]:
+        - generic [ref=f5e50]:
+          - generic [ref=f5e52]: 2026-07-03
+          - generic [ref=f5e53]: 1 module
+        - generic [ref=f5e55]:
+          - paragraph [ref=f5e56]: Maths 1
+          - paragraph [ref=f5e57]: "1.0"
+          - paragraph [ref=f5e58]: 0/27 · 40:00 · timed out
+      - generic [ref=f5e59]:
+        - generic [ref=f5e60]:
+          - generic [ref=f5e62]: 2026-07-03
+          - generic [ref=f5e63]: 2 modules
+        - generic [ref=f5e64]:
+          - generic [ref=f5e65]:
+            - paragraph [ref=f5e66]: Maths 1
+            - paragraph [ref=f5e67]: "1.0"
+            - paragraph [ref=f5e68]: 0/27 · 0:02
+          - generic [ref=f5e69]:
+            - paragraph [ref=f5e70]: Physics
+            - paragraph [ref=f5e71]: "1.0"
+            - paragraph [ref=f5e72]: 0/27 · 40:00 · timed out
+      - generic [ref=f5e73]:
+        - generic [ref=f5e74]:
+          - generic [ref=f5e76]: 2026-07-03
+          - generic [ref=f5e77]: 2 modules
+        - generic [ref=f5e78]:
+          - generic [ref=f5e79]:
+            - paragraph [ref=f5e80]: Maths 1
+            - paragraph [ref=f5e81]: "1.9"
+            - paragraph [ref=f5e82]: 3/27 · 1:38
+          - generic [ref=f5e83]:
+            - paragraph [ref=f5e84]: Physics
+            - paragraph [ref=f5e85]: "1.9"
+            - paragraph [ref=f5e86]: 3/27 · 0:23

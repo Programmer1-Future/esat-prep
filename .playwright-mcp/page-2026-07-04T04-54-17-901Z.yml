@@ -1,0 +1,67 @@
+- generic [ref=f2e2]:
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - generic [ref=f2e6]: ESATprep
+        - link "Dashboard" [ref=f2e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=f2e8]
+          - text: Dashboard
+        - link "Practice" [ref=f2e13] [cursor=pointer]:
+          - /url: /practice
+          - img [ref=f2e14]
+          - text: Practice
+        - link "Mock" [ref=f2e16] [cursor=pointer]:
+          - /url: /mock
+          - img [ref=f2e17]
+          - text: Mock
+        - link "Insights" [ref=f2e20] [cursor=pointer]:
+          - /url: /insights
+          - img [ref=f2e21]
+          - text: Insights
+        - link "Ledger" [ref=f2e23] [cursor=pointer]:
+          - /url: /history
+          - img [ref=f2e24]
+          - text: Ledger
+      - button "Toggle theme" [ref=f2e27] [cursor=pointer]:
+        - img [ref=f2e28]
+  - main [ref=f2e30]:
+    - generic [ref=f2e144]:
+      - generic [ref=f2e145]:
+        - generic [ref=f2e147]:
+          - generic [ref=f2e148]: Q2 / 5
+          - generic [ref=f2e149]: Algebra & functions, polynomials
+        - generic [ref=f2e151]:
+          - img [ref=f2e152]
+          - generic [ref=f2e155]: 1:29
+      - generic [ref=f2e163]: Difficulty 4/5
+      - generic [ref=f2e739]:
+        - paragraph [ref=f2e742]: "Which one of the following is a simplification of a given surd expression? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]"
+        - generic [ref=f2e743]:
+          - button "A —" [ref=f2e744] [cursor=pointer]:
+            - generic [ref=f2e745]: A
+            - paragraph [ref=f2e748]: —
+          - button "B —" [ref=f2e749] [cursor=pointer]:
+            - generic [ref=f2e750]: B
+            - paragraph [ref=f2e753]: —
+          - button "C —" [ref=f2e754] [cursor=pointer]:
+            - generic [ref=f2e755]: C
+            - paragraph [ref=f2e758]: —
+          - button "D —" [ref=f2e759] [cursor=pointer]:
+            - generic [ref=f2e760]: D
+            - paragraph [ref=f2e763]: —
+          - button "E —" [ref=f2e764] [cursor=pointer]:
+            - generic [ref=f2e765]: E
+            - paragraph [ref=f2e768]: —
+          - button "F —" [ref=f2e769] [cursor=pointer]:
+            - generic [ref=f2e770]: F
+            - paragraph [ref=f2e773]: —
+          - button "G —" [ref=f2e774] [cursor=pointer]:
+            - generic [ref=f2e775]: G
+            - paragraph [ref=f2e778]: —
+          - button "H (answer per key)" [ref=f2e779] [cursor=pointer]:
+            - generic [ref=f2e780]: H
+            - paragraph [ref=f2e783]: (answer per key)
+        - generic [ref=f2e784]:
+          - button "Reveal Answer" [ref=f2e785] [cursor=pointer]
+          - button "Skip" [ref=f2e786] [cursor=pointer]

@@ -1,0 +1,204 @@
+- generic [ref=f2e2]:
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - generic [ref=f2e6]: ESATprep
+        - link "Dashboard" [ref=f2e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=f2e8]
+          - text: Dashboard
+        - link "Practice" [ref=f2e13] [cursor=pointer]:
+          - /url: /practice
+          - img [ref=f2e14]
+          - text: Practice
+        - link "Mock" [ref=f2e16] [cursor=pointer]:
+          - /url: /mock
+          - img [ref=f2e17]
+          - text: Mock
+        - link "Insights" [ref=f2e20] [cursor=pointer]:
+          - /url: /insights
+          - img [ref=f2e21]
+          - text: Insights
+        - link "Ledger" [ref=f2e23] [cursor=pointer]:
+          - /url: /history
+          - img [ref=f2e24]
+          - text: Ledger
+      - button "Toggle theme" [ref=f2e27] [cursor=pointer]:
+        - img [ref=f2e28]
+  - main [ref=f2e30]:
+    - generic [ref=f2e144]:
+      - generic [ref=f2e145]:
+        - generic [ref=f2e147]:
+          - generic [ref=f2e148]: Q1 / 5
+          - generic [ref=f2e149]: Trigonometry (A-level)
+        - generic [ref=f2e151]:
+          - img [ref=f2e152]
+          - generic [ref=f2e155]: 1:29
+      - generic [ref=f2e163]: Difficulty 4/5
+      - generic [ref=f2e164]:
+        - paragraph [ref=f2e167]: Tangents are drawn from a point P to a circle of radius 10cm; the centre is C and PC=20cm. Which one of the following is an expression for the shaded area in square centimetres?
+        - generic [ref=f2e168]:
+          - img [ref=f2e169]
+          - generic [ref=f2e173]:
+            - paragraph [ref=f2e174]: Diagram pending
+            - paragraph [ref=f2e175]: circle with two tangent lines from external point P, radius 10cm, PC=20cm, shaded region between tangents and arc
+        - generic [ref=f2e176]:
+          - button "A" [ref=f2e177] [cursor=pointer]:
+            - generic [ref=f2e178]: A
+            - paragraph [ref=f2e181]:
+              - generic [ref=f2e182]:
+                - math [ref=f2e184]:
+                  - generic [ref=f2e186]:
+                    - generic [ref=f2e187]:
+                      - generic [ref=f2e188]: "50"
+                      - generic [ref=f2e189]: "3"
+                    - generic [ref=f2e190]: (
+                    - generic [ref=f2e191]: "6"
+                    - generic [ref=f2e193]: "5"
+                    - generic [ref=f2e194]: −
+                    - generic [ref=f2e195]: π
+                    - generic [ref=f2e196]: )
+                - generic [ref=f2e197]:
+                  - generic [ref=f2e198]:
+                    - generic [ref=f2e203]:
+                      - generic [ref=f2e205]: "3"
+                      - generic [ref=f2e208]: "50"
+                    - text: (6
+                    - generic [ref=f2e215]:
+                      - generic [ref=f2e216]: "5"
+                      - img [ref=f2e218]
+                    - text: −
+                  - generic [ref=f2e223]: π)
+          - button "B" [ref=f2e224] [cursor=pointer]:
+            - generic [ref=f2e225]: B
+            - paragraph [ref=f2e228]:
+              - generic [ref=f2e229]:
+                - math [ref=f2e231]:
+                  - generic [ref=f2e233]:
+                    - generic [ref=f2e234]:
+                      - generic [ref=f2e235]: "100"
+                      - generic [ref=f2e236]: "3"
+                    - generic [ref=f2e237]: (
+                    - generic [ref=f2e238]: "3"
+                    - generic [ref=f2e240]: "3"
+                    - generic [ref=f2e241]: −
+                    - generic [ref=f2e242]: π
+                    - generic [ref=f2e243]: )
+                - generic [ref=f2e244]:
+                  - generic [ref=f2e245]:
+                    - generic [ref=f2e250]:
+                      - generic [ref=f2e252]: "3"
+                      - generic [ref=f2e255]: "100"
+                    - text: (3
+                    - generic [ref=f2e262]:
+                      - generic [ref=f2e263]: "3"
+                      - img [ref=f2e265]
+                    - text: −
+                  - generic [ref=f2e270]: π)
+          - button "C" [ref=f2e271] [cursor=pointer]:
+            - generic [ref=f2e272]: C
+            - paragraph [ref=f2e275]:
+              - generic [ref=f2e276]:
+                - math [ref=f2e278]:
+                  - generic [ref=f2e280]:
+                    - generic [ref=f2e281]:
+                      - generic [ref=f2e282]: "50"
+                      - generic [ref=f2e283]: "3"
+                    - generic [ref=f2e284]: (
+                    - generic [ref=f2e285]: "3"
+                    - generic [ref=f2e287]: "2"
+                    - generic [ref=f2e288]: −
+                    - generic [ref=f2e289]: π
+                    - generic [ref=f2e290]: )
+                - generic [ref=f2e291]:
+                  - generic [ref=f2e292]:
+                    - generic [ref=f2e297]:
+                      - generic [ref=f2e299]: "3"
+                      - generic [ref=f2e302]: "50"
+                    - text: (3
+                    - generic [ref=f2e309]:
+                      - generic [ref=f2e310]: "2"
+                      - img [ref=f2e312]
+                    - text: −
+                  - generic [ref=f2e317]: π)
+          - button "D" [ref=f2e318] [cursor=pointer]:
+            - generic [ref=f2e319]: D
+            - paragraph [ref=f2e322]:
+              - generic [ref=f2e323]:
+                - math [ref=f2e325]:
+                  - generic [ref=f2e327]:
+                    - generic [ref=f2e328]:
+                      - generic [ref=f2e329]: "100"
+                      - generic [ref=f2e330]: "3"
+                    - generic [ref=f2e331]: (
+                    - generic [ref=f2e332]: "3"
+                    - generic [ref=f2e334]: "5"
+                    - generic [ref=f2e335]: −
+                    - generic [ref=f2e336]: π
+                    - generic [ref=f2e337]: )
+                - generic [ref=f2e338]:
+                  - generic [ref=f2e339]:
+                    - generic [ref=f2e344]:
+                      - generic [ref=f2e346]: "3"
+                      - generic [ref=f2e349]: "100"
+                    - text: (3
+                    - generic [ref=f2e356]:
+                      - generic [ref=f2e357]: "5"
+                      - img [ref=f2e359]
+                    - text: −
+                  - generic [ref=f2e364]: π)
+          - button "E" [ref=f2e365] [cursor=pointer]:
+            - generic [ref=f2e366]: E
+            - paragraph [ref=f2e369]:
+              - generic [ref=f2e370]:
+                - math [ref=f2e372]:
+                  - generic [ref=f2e374]:
+                    - generic [ref=f2e375]:
+                      - generic [ref=f2e376]: "50"
+                      - generic [ref=f2e377]: "3"
+                    - generic [ref=f2e378]: (
+                    - generic [ref=f2e379]: "6"
+                    - generic [ref=f2e381]: "3"
+                    - generic [ref=f2e382]: −
+                    - generic [ref=f2e383]: π
+                    - generic [ref=f2e384]: )
+                - generic [ref=f2e385]:
+                  - generic [ref=f2e386]:
+                    - generic [ref=f2e391]:
+                      - generic [ref=f2e393]: "3"
+                      - generic [ref=f2e396]: "50"
+                    - text: (6
+                    - generic [ref=f2e403]:
+                      - generic [ref=f2e404]: "3"
+                      - img [ref=f2e406]
+                    - text: −
+                  - generic [ref=f2e411]: π)
+          - button "F" [ref=f2e412] [cursor=pointer]:
+            - generic [ref=f2e413]: F
+            - paragraph [ref=f2e416]:
+              - generic [ref=f2e417]:
+                - math [ref=f2e419]:
+                  - generic [ref=f2e421]:
+                    - generic [ref=f2e422]:
+                      - generic [ref=f2e423]: "50"
+                      - generic [ref=f2e424]: "3"
+                    - generic [ref=f2e425]: (
+                    - generic [ref=f2e426]: "2"
+                    - generic [ref=f2e428]: "3"
+                    - generic [ref=f2e429]: −
+                    - generic [ref=f2e430]: π
+                    - generic [ref=f2e431]: )
+                - generic [ref=f2e432]:
+                  - generic [ref=f2e433]:
+                    - generic [ref=f2e438]:
+                      - generic [ref=f2e440]: "3"
+                      - generic [ref=f2e443]: "50"
+                    - text: (2
+                    - generic [ref=f2e450]:
+                      - generic [ref=f2e451]: "3"
+                      - img [ref=f2e453]
+                    - text: −
+                  - generic [ref=f2e458]: π)
+        - generic [ref=f2e459]:
+          - button "Reveal Answer" [ref=f2e460] [cursor=pointer]
+          - button "Skip" [ref=f2e461] [cursor=pointer]

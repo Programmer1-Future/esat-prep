@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ───────────────────────────────────────────────────────────────────────────
+   ESAT theme tokens — same mechanism as De-TMUA-guide's design-token system,
+   fresh accent (green, distinct from TMUA's ink-blue).
+   Triplets (--c-*) feed Tailwind's alpha utilities; hex vars feed inline
+   styles and color-mix() tints.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Light */
+  --c-bg: 250 247 242;            /* #FAF7F2 */
+  --c-surface: 255 253 250;       /* #FFFDFA */
+  --c-raised: 255 255 255;        /* #FFFFFF */
+  --c-hover: 242 237 228;         /* #F2EDE4 */
+  --c-border: 221 213 199;        /* #DDD5C7 */
+  --c-border-subtle: 235 229 217; /* #EBE5D9 */
+  --c-text-primary: 33 30 26;     /* #211E1A */
+  --c-text-secondary: 92 86 75;   /* #5C564B */
+  --c-text-muted: 111 105 93;     /* #6F695D */
+  --c-accent: 30 122 90;          /* #1E7A5A ESAT green */
+  --c-accent-dim: 21 87 64;       /* #155740 — darker, safe as text in light */
+  --c-success: 30 122 70;         /* #1E7A46 */
+  --c-warning: 143 100 0;         /* #8F6400 */
+  --c-danger: 180 35 24;          /* #B42318 */
+  --c-info: 14 116 144;           /* #0E7490 */
+
+  --accent-faint: #E7F2ED;          /* solid tint vs --c-bg */
+  --accent-faint-raised: #EBF5F0;   /* solid tint vs --c-raised */
+  --on-accent: #FFFFFF;
+
+  /* hex convenience vars for inline styles / charts / color-mix */
+  --accent: #1E7A5A;
+  --accent-dim: #155740;
+  --success: #1E7A46;
+  --warning: #8F6400;
+  --danger: #B42318;
+  --info: #0E7490;
+  --muted: #6F695D;
+  --ink: #211E1A;
+
+  --grid-line: rgb(33 30 26 / 0.035);
+}
+
+.dark {
+  /* Dark */
+  --c-bg: 20 17 16;               /* #141110 */
+  --c-surface: 28 25 21;          /* #1C1915 */
+  --c-raised: 35 32 26;           /* #23201A */
+  --c-hover: 43 39 32;            /* #2B2720 */
+  --c-border: 56 51 42;           /* #38332A */
+  --c-border-subtle: 42 38 32;    /* #2A2620 */
+  --c-text-primary: 241 236 226;  /* #F1ECE2 */
+  --c-text-secondary: 181 172 156;/* #B5AC9C */
+  --c-text-muted: 152 143 128;    /* #988F80 */
+  --c-accent: 111 201 165;        /* #6FC9A5 green under lamplight */
+  --c-accent-dim: 53 110 89;      /* #356E59 — NON-TEXT in dark (borders/rings only) */
+  --c-success: 98 201 141;        /* #62C98D */
+  --c-warning: 226 181 78;        /* #E2B54E */
+  --c-danger: 240 131 117;        /* #F08375 */
+  --c-info: 111 195 232;          /* #6FC3E8 */
+
+  --accent-faint: #16241E;
+  --accent-faint-raised: #1B2B23;
+  --on-accent: #0E2119;
+
+  --accent: #6FC9A5;
+  --accent-dim: #356E59;
+  --success: #62C98D;
+  --warning: #E2B54E;
+  --danger: #F08375;
+  --info: #6FC3E8;
+  --muted: #988F80;
+  --ink: #F1ECE2;
+
+  --grid-line: rgb(241 236 226 / 0.025);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgb(var(--c-bg));
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 24px 24px;
+    color: rgb(var(--c-text-primary));
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-display {
+    font-variation-settings: 'SOFT' 0, 'WONK' 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--c-border));
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--c-border) / 0.8);
+  }
+
+  select option {
+    background-color: rgb(var(--c-raised));
+    color: rgb(var(--c-text-primary));
+  }
+}
+
+/* Custom utilities outside @layer so they're never silently dropped in browsers
+   that don't support CSS Cascade Layers (Edge < 99, etc.) */
+
+.card-paper {
+  box-shadow: 0 1px 2px rgb(33 30 26 / 0.06), 0 4px 12px rgb(33 30 26 / 0.05);
+}
+
+.dark .card-paper {
+  box-shadow: inset 0 1px 0 rgb(241 236 226 / 0.05);
+}
+
+.card-hover {
+  transition: border-color 150ms ease-out, background-color 150ms ease-out;
+}
+
+.card-hover:hover {
+  border-color: rgb(var(--c-border));
+}
+
+.rule-examiner {
+  display: inline-block;
+  border-bottom: 2px solid rgb(var(--c-accent));
+  padding-bottom: 3px;
+}
+
+.ink-ring {
+  border: 1px solid rgba(30, 122, 90, 0.45);
+  background-color: var(--accent-faint);
+}
+
+.dark .ink-ring {
+  border-color: rgba(111, 201, 165, 0.45);
+}
+
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(var(--c-accent) / 0.4);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
