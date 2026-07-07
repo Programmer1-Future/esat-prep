@@ -21,6 +21,7 @@ import { updateStoredValue, useLocalStorage } from '../hooks/useLocalStorage'
 import { TechniqueRenderer, MathText } from '../components/ui/TechniqueRenderer'
 import { parseDiagrams } from '../lib/diagrams'
 import { DiagramNotice } from '../components/ui/Diagram'
+import { OriginBadge } from '../components/ui/Origin'
 
 // ─── Options ───────────────────────────────────────────────────────────────────
 const TIMER_OPTIONS = [
@@ -448,6 +449,7 @@ function QuizScreen({ questions, timerSecs, onFinish }) {
           ))}
         </div>
         <span className="text-[11px] text-text-muted">Difficulty {q.difficulty}/5</span>
+        <OriginBadge origin={q.origin} source={q.source} className="ml-auto" />
       </div>
 
       <AnimatePresence mode="wait">
@@ -723,6 +725,7 @@ function ResultsModal({ results, onRetry, onNewQuiz }) {
                       <div className="flex items-center gap-2 px-4 pt-4 pb-3">
                         <span className="text-xs font-600 tabular text-text-muted">Q{i + 1}</span>
                         <span className="text-xs font-500" style={{ color: getModuleColor(r.module) }}>{getTopicName(r.topicId)}</span>
+                        <OriginBadge origin={r.q.origin} source={r.q.source} />
                         <span className="ml-auto px-2 py-0.5 rounded text-xs font-600" style={{ color: o.color, background: `${o.color}15` }}>{o.text}</span>
                       </div>
 

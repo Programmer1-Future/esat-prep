@@ -1,0 +1,65 @@
+ENGINEERING AND SCIENCE ADMISSIONS TEST 
+(ESAT) 
+Content Specification 
+For assessment in October 2026 and January 2027 
+
+Overview 
+The purpose of the Engineering and Science Admissions Test is to determine a candidate’s 
+potential to achieve in an academically demanding undergraduate degree course. Questions draw 
+upon a candidate’s ability to use and apply their scientific and mathematical knowledge. The test is 
+designed to be challenging in order to differentiate effectively between able applicants, including 
+those who might have achieved the highest possible grades in school examinations. 
+Format 
+The test consists of five modules: 
+   Mathematics 1 
+   Biology 
+   Chemistry 
+   Physics  
+   Mathematics 2 
+Most courses will require candidates to answer Mathematics 1 and two further modules. 
+Candidates should carefully check the requirements of the course(s) to which they are 
+applying. 
+There are 27 multiple-choice questions in each module. The time allowed to complete each module 
+is 40 minutes. Each module is separately timed. If a candidate finishes a module early, the time will 
+not be carried over to the next module, so candidates should be careful to manage their time 
+accordingly. 
+The ESAT is a computer-based test. Candidates will be provided with an erasable booklet for 
+working. Calculators may NOT be used. 
+
+Content 
+Questions will draw upon the topics listed for each module in Appendix 1. All modules will assume 
+knowledge of the content of Mathematics 1. The knowledge assumed for each module is 
+summarised: 
+Module Knowledge assumed 
+Mathematics 1 topics labelled ‘M’ in Appendix 1 
+Biology topics labelled ‘B’, and topics labelled ‘M’, in Appendix 1 
+Chemistry topics labelled ‘C’, and topics labelled ‘M’, in Appendix 1 
+Physics topics labelled ‘P’, and topics labelled ‘M’, in Appendix 1 
+Mathematics 2 topics labelled ‘M’, and topics labelled ‘MM’, in Appendix 1 
+Candidates are expected to apply conceptual knowledge to solve problems. Some questions 
+involve the straightforward application of this knowledge, but others require more creative thinking 
+and the application of principles in less familiar contexts. 
+Scoring 
+In all modules, each correct answer will score 1 mark. No marks are deducted for incorrect answers. 
+Results for each module will be reported separately. 
+
+Scientific Quantities and Units 
+Throughout this specification, it should be assumed that, where mention is made of a particular 
+quantity, knowledge of the SI unit of that quantity is also expected (including the relationship of the 
+unit to other SI units through the equations linking their quantities).  
+Candidates will be expected to be familiar with the following SI prefixes when used in connection 
+with any SI unit: 
+nano- 10 –9 
+micro- 10 –6 
+milli- 10 –3 
+centi- 10 –2 
+deci- 10 –1 
+kilo- 10 3 
+mega- 10 6 
+giga- 10 9 
+Candidates are expected to be familiar with the use of negative indices in units, for example m s–1 
+for velocity. 
+
+APPENDIX 1: KNOWLEDGE ASSUMED  
+The material that follows outlines the scientific and mathematical knowledge assessed in the 
+Engineering and Science Admissions Test.  

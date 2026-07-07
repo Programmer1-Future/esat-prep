@@ -111,6 +111,7 @@ def main():
     all_violations = []
     seen_ids = {}
     merged = []
+    excluded = 0
 
     for filepath in files:
         filename = Path(filepath).name
@@ -120,6 +121,9 @@ def main():
         for question in questions:
             violations = validate(question, filename, seen_ids)
             all_violations.extend(violations)
+            if question.get("needs_repair"):
+                excluded += 1
+                continue
             merged.append({
                 "id": question.get("id"),
                 "source": question.get("source"),
@@ -148,7 +152,8 @@ def main():
     with open(OUTPUT, "w", encoding="utf-8") as fh:
         json.dump(merged, fh, ensure_ascii=False, indent=2)
 
-    print(f"Merged {len(merged)} questions from {len(files)} files -> {OUTPUT}\n")
+    print(f"Merged {len(merged)} questions from {len(files)} files -> {OUTPUT}")
+    print(f"Excluded {excluded} questions flagged needs_repair (kept in question-bank/ for repair)\n")
 
     by_module = defaultdict(int)
     by_module_topic = defaultdict(lambda: defaultdict(int))

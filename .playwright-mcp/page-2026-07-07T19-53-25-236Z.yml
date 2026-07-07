@@ -1,0 +1,81 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e19]:
+    - generic [ref=f4e20]:
+      - generic [ref=f4e21]:
+        - generic [ref=f4e22]: ESATprep
+        - link "Dashboard" [ref=f4e23] [cursor=pointer]:
+          - /url: /
+          - img [ref=f4e24]
+          - text: Dashboard
+        - link "Practice" [ref=f4e29] [cursor=pointer]:
+          - /url: /practice
+          - img [ref=f4e30]
+          - text: Practice
+        - link "Mock" [ref=f4e32] [cursor=pointer]:
+          - /url: /mock
+          - img [ref=f4e33]
+          - text: Mock
+        - link "Insights" [ref=f4e36] [cursor=pointer]:
+          - /url: /insights
+          - img [ref=f4e37]
+          - text: Insights
+        - link "Notes" [ref=f4e39] [cursor=pointer]:
+          - /url: /notes
+          - img [ref=f4e40]
+          - text: Notes
+        - link "Habits" [ref=f4e43] [cursor=pointer]:
+          - /url: /habits
+          - img [ref=f4e44]
+          - text: Habits
+        - link "Ledger" [ref=f4e46] [cursor=pointer]:
+          - /url: /history
+          - img [ref=f4e47]
+          - text: Ledger
+        - link "Admin" [ref=f4e50] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=f4e51]
+          - text: Admin
+      - generic [ref=f4e53]:
+        - button "Toggle theme" [ref=f4e54] [cursor=pointer]:
+          - img [ref=f4e55]
+        - button "Sign out" [ref=f4e57] [cursor=pointer]:
+          - img [ref=f4e58]
+  - main [ref=f4e61]:
+    - generic [ref=f4e174]:
+      - generic [ref=f4e175]:
+        - generic [ref=f4e177]:
+          - generic [ref=f4e178]: Q1 / 10
+          - generic [ref=f4e179]: Mechanics, forces, energy
+        - generic [ref=f4e181]:
+          - img [ref=f4e182]
+          - generic [ref=f4e185]: 1:29
+      - generic [ref=f4e186]:
+        - generic [ref=f4e193]: Difficulty 3/5
+        - generic [ref=f4e194]: ENGAA 2020 · Past paper
+      - generic [ref=f4e195]:
+        - paragraph [ref=f4e198]: A rocket travelling in space is burning its fuel at a constant rate. By expelling the burnt fuel through a nozzle, the engine applies a constant force to the rocket. What is happening to the magnitude of the acceleration of the rocket?
+        - generic [ref=f4e199]:
+          - button "A It is decreasing at a constant rate." [ref=f4e200] [cursor=pointer]:
+            - generic [ref=f4e201]: A
+            - paragraph [ref=f4e204]: It is decreasing at a constant rate.
+          - button "B It is increasing at a constant rate." [ref=f4e205] [cursor=pointer]:
+            - generic [ref=f4e206]: B
+            - paragraph [ref=f4e209]: It is increasing at a constant rate.
+          - button "C It is decreasing at a decreasing rate." [ref=f4e210] [cursor=pointer]:
+            - generic [ref=f4e211]: C
+            - paragraph [ref=f4e214]: It is decreasing at a decreasing rate.
+          - button "D It is increasing at a decreasing rate." [ref=f4e215] [cursor=pointer]:
+            - generic [ref=f4e216]: D
+            - paragraph [ref=f4e219]: It is increasing at a decreasing rate.
+          - button "E It is not changing." [ref=f4e220] [cursor=pointer]:
+            - generic [ref=f4e221]: E
+            - paragraph [ref=f4e224]: It is not changing.
+          - button "F It is decreasing at an increasing rate." [ref=f4e225] [cursor=pointer]:
+            - generic [ref=f4e226]: F
+            - paragraph [ref=f4e229]: It is decreasing at an increasing rate.
+          - button "G It is increasing at an increasing rate." [ref=f4e230] [cursor=pointer]:
+            - generic [ref=f4e231]: G
+            - paragraph [ref=f4e234]: It is increasing at an increasing rate.
+        - generic [ref=f4e235]:
+          - button "Reveal Answer" [ref=f4e236] [cursor=pointer]
+          - button "Skip" [ref=f4e237] [cursor=pointer]

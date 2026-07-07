@@ -1,0 +1,177 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e19]:
+    - generic [ref=f4e20]:
+      - generic [ref=f4e21]:
+        - generic [ref=f4e22]: ESATprep
+        - link "Dashboard" [ref=f4e23] [cursor=pointer]:
+          - /url: /
+          - img [ref=f4e24]
+          - text: Dashboard
+        - link "Practice" [ref=f4e29] [cursor=pointer]:
+          - /url: /practice
+          - img [ref=f4e30]
+          - text: Practice
+        - link "Mock" [ref=f4e32] [cursor=pointer]:
+          - /url: /mock
+          - img [ref=f4e33]
+          - text: Mock
+        - link "Insights" [ref=f4e36] [cursor=pointer]:
+          - /url: /insights
+          - img [ref=f4e37]
+          - text: Insights
+        - link "Notes" [ref=f4e39] [cursor=pointer]:
+          - /url: /notes
+          - img [ref=f4e40]
+          - text: Notes
+        - link "Habits" [ref=f4e43] [cursor=pointer]:
+          - /url: /habits
+          - img [ref=f4e44]
+          - text: Habits
+        - link "Ledger" [ref=f4e46] [cursor=pointer]:
+          - /url: /history
+          - img [ref=f4e47]
+          - text: Ledger
+        - link "Admin" [ref=f4e50] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=f4e51]
+          - text: Admin
+      - generic [ref=f4e53]:
+        - button "Toggle theme" [ref=f4e54] [cursor=pointer]:
+          - img [ref=f4e55]
+        - button "Sign out" [ref=f4e57] [cursor=pointer]:
+          - img [ref=f4e58]
+  - main [ref=f4e61]:
+    - generic [ref=f4e64]:
+      - generic [ref=f4e65]:
+        - heading "Practice Setup" [level=1] [ref=f4e66]
+        - paragraph [ref=f4e67]: 1027 questions in bank · 724 match your filters
+      - generic [ref=f4e68]:
+        - generic [ref=f4e69]: Modules
+        - generic [ref=f4e70]:
+          - button "Maths 1 · 224" [ref=f4e71] [cursor=pointer]:
+            - text: Maths 1
+            - generic [ref=f4e72]: · 224
+          - button "Maths 2 · 135" [ref=f4e73] [cursor=pointer]:
+            - text: Maths 2
+            - generic [ref=f4e74]: · 135
+          - button "Physics · 365" [ref=f4e75] [cursor=pointer]:
+            - text: Physics
+            - generic [ref=f4e76]: · 365
+          - button "Chemistry · 152" [ref=f4e77] [cursor=pointer]:
+            - text: Chemistry
+            - generic [ref=f4e78]: · 152
+          - button "Biology · 151" [ref=f4e79] [cursor=pointer]:
+            - text: Biology
+            - generic [ref=f4e80]: · 151
+      - generic [ref=f4e81]:
+        - generic [ref=f4e82]: Topics
+        - generic [ref=f4e83]:
+          - generic [ref=f4e84]:
+            - button "Mathematics 1" [ref=f4e85] [cursor=pointer]:
+              - img [ref=f4e87]
+              - generic [ref=f4e89]: Mathematics 1
+            - generic [ref=f4e90]:
+              - button "Units, dimensions, estimation · 3" [ref=f4e91] [cursor=pointer]:
+                - text: Units, dimensions, estimation
+                - generic [ref=f4e92]: · 3
+              - button "Number, indices, surds, standard form · 11" [ref=f4e93] [cursor=pointer]:
+                - text: Number, indices, surds, standard form
+                - generic [ref=f4e94]: · 11
+              - button "Ratio, proportion, percentages · 37" [ref=f4e95] [cursor=pointer]:
+                - text: Ratio, proportion, percentages
+                - generic [ref=f4e96]: · 37
+              - button "Algebra, equations, inequalities · 60" [ref=f4e97] [cursor=pointer]:
+                - text: Algebra, equations, inequalities
+                - generic [ref=f4e98]: · 60
+              - button "Geometry, trigonometry, coordinates · 87" [ref=f4e99] [cursor=pointer]:
+                - text: Geometry, trigonometry, coordinates
+                - generic [ref=f4e100]: · 87
+              - button "Statistics, data interpretation · 7" [ref=f4e101] [cursor=pointer]:
+                - text: Statistics, data interpretation
+                - generic [ref=f4e102]: · 7
+              - button "Probability, basic combinatorics · 19" [ref=f4e103] [cursor=pointer]:
+                - text: Probability, basic combinatorics
+                - generic [ref=f4e104]: · 19
+          - generic [ref=f4e105]:
+            - button "Mathematics 2" [ref=f4e106] [cursor=pointer]:
+              - img [ref=f4e108]
+              - generic [ref=f4e110]: Mathematics 2
+            - generic [ref=f4e111]:
+              - button "Algebra & functions, polynomials · 35" [ref=f4e112] [cursor=pointer]:
+                - text: Algebra & functions, polynomials
+                - generic [ref=f4e113]: · 35
+              - button "Sequences and series · 17" [ref=f4e114] [cursor=pointer]:
+                - text: Sequences and series
+                - generic [ref=f4e115]: · 17
+              - button "Coordinate geometry, circles · 20" [ref=f4e116] [cursor=pointer]:
+                - text: Coordinate geometry, circles
+                - generic [ref=f4e117]: · 20
+              - button "Trigonometry (A-level) · 18" [ref=f4e118] [cursor=pointer]:
+                - text: Trigonometry (A-level)
+                - generic [ref=f4e119]: · 18
+              - button "Exponentials and logarithms · 12" [ref=f4e120] [cursor=pointer]:
+                - text: Exponentials and logarithms
+                - generic [ref=f4e121]: · 12
+              - button "Differentiation · 16" [ref=f4e122] [cursor=pointer]:
+                - text: Differentiation
+                - generic [ref=f4e123]: · 16
+              - button "Integration · 11" [ref=f4e124] [cursor=pointer]:
+                - text: Integration
+                - generic [ref=f4e125]: · 11
+              - button "Graph sketching, transformations · 6" [ref=f4e126] [cursor=pointer]:
+                - text: Graph sketching, transformations
+                - generic [ref=f4e127]: · 6
+          - generic [ref=f4e128]:
+            - button "Physics" [ref=f4e129] [cursor=pointer]:
+              - img [ref=f4e131]
+              - generic [ref=f4e133]: Physics
+            - generic [ref=f4e134]:
+              - button "Electricity, circuits · 62" [ref=f4e135] [cursor=pointer]:
+                - text: Electricity, circuits
+                - generic [ref=f4e136]: · 62
+              - button "Magnetism, induction · 10" [ref=f4e137] [cursor=pointer]:
+                - text: Magnetism, induction
+                - generic [ref=f4e138]: · 10
+              - button "Mechanics, forces, energy · 154" [ref=f4e139] [cursor=pointer]:
+                - text: Mechanics, forces, energy
+                - generic [ref=f4e140]: · 154
+              - button "Thermal physics · 25" [ref=f4e141] [cursor=pointer]:
+                - text: Thermal physics
+                - generic [ref=f4e142]: · 25
+              - button "Properties of matter · 30" [ref=f4e143] [cursor=pointer]:
+                - text: Properties of matter
+                - generic [ref=f4e144]: · 30
+              - button "Waves, optics · 48" [ref=f4e145] [cursor=pointer]:
+                - text: Waves, optics
+                - generic [ref=f4e146]: · 48
+              - button "Radioactivity, nuclear · 36" [ref=f4e147] [cursor=pointer]:
+                - text: Radioactivity, nuclear
+                - generic [ref=f4e148]: · 36
+      - generic [ref=f4e149]:
+        - generic [ref=f4e150]:
+          - generic [ref=f4e151]: Difficulty
+          - generic [ref=f4e152]:
+            - button "1★" [ref=f4e153] [cursor=pointer]
+            - button "2★" [ref=f4e154] [cursor=pointer]
+            - button "3★" [ref=f4e155] [cursor=pointer]
+            - button "4★" [ref=f4e156] [cursor=pointer]
+            - button "5★" [ref=f4e157] [cursor=pointer]
+        - generic [ref=f4e158]:
+          - generic [ref=f4e159]: Time / Question
+          - combobox [ref=f4e161]:
+            - option "No limit"
+            - option "2:30"
+            - option "2:00"
+            - option "1:29 (ESAT pace)" [selected]
+            - option "1:00"
+            - option "0:45"
+        - generic [ref=f4e162]:
+          - generic [ref=f4e163]: Questions
+          - generic [ref=f4e164]:
+            - button "5" [ref=f4e165] [cursor=pointer]
+            - button "10" [ref=f4e166] [cursor=pointer]
+            - button "20" [ref=f4e167] [cursor=pointer]
+            - button "27" [ref=f4e168] [cursor=pointer]
+      - button "Start — 10 Questions" [ref=f4e170] [cursor=pointer]:
+        - img [ref=f4e171]
+        - text: Start — 10 Questions

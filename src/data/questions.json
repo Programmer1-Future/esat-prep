@@ -1,31 +1,5 @@
 [
   {
-    "id": "ENGAA-2016-M1-001",
-    "source": "ENGAA 2016",
-    "year": 2016,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-algebra",
-    "subtopic": "linear inequalities",
-    "difficulty": 3,
-    "question": "Find the complete set of solutions to the inequality (garbled in source extraction; original involves a linear expression in x compared to a constant).",
-    "options": {
-      "A": "x < 4",
-      "B": "x > 4",
-      "C": "x < 20",
-      "D": "x > 20",
-      "E": "x < 22",
-      "F": "x > 22",
-      "G": "x < 28",
-      "H": "x > 28"
-    },
-    "answer": "G",
-    "technique": "Solve the linear inequality for x, being careful to reverse the inequality sign if dividing/multiplying by a negative number. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "ENGAA-2016-PHY-001",
     "source": "ENGAA 2016",
     "year": 2016,
@@ -406,7 +380,7 @@
     "question": "Make $b$ the subject of the formula $a^2 = \\dfrac{2b^2+1}{3b^2-1}$.",
     "options": {
       "A": "—",
-      "B": "$b=\\pm\\sqrt{\\dfrac{a^2+1}{3a^2-2}}$ (answer per key)",
+      "B": "$b=\\pm\\sqrt{\\dfrac{a^2+1}{3a^2-2}}$",
       "C": "—",
       "D": "—",
       "E": "—",
@@ -490,30 +464,6 @@
     },
     "answer": "D",
     "technique": "Balls P and Q (at 30 °C) are hotter than their surrounding room air (20 °C), so they lose heat by convection to the surrounding air. Balls R and S are at the same temperature as their room (40 °C), so there is no net convective loss. For radiation, dull (matte) surfaces are better emitters than shiny surfaces at a given temperature; among P (shiny, 30°C), Q (dull, 30°C), R (shiny, 40°C), S (dull, 40°C), the highest temperature combined with a dull surface gives the greatest radiation rate: ball S.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2016-M1-011",
-    "source": "ENGAA 2016",
-    "year": 2016,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "simplifying algebraic fractions",
-    "difficulty": 3,
-    "question": "Which one of the following is a simplification of $\\dfrac{x^2+4x-4}{2x-4}$ (reconstructed form; original garbled in extraction)?",
-    "options": {
-      "A": "$\\dfrac{3-x}{2}$ (answer per key)",
-      "B": "—",
-      "C": "—",
-      "D": "—",
-      "E": "—",
-      "F": "—"
-    },
-    "answer": "A",
-    "technique": "Simplify the algebraic fraction by factoring numerator and denominator and cancelling common factors. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -607,7 +557,7 @@
       "A": "$3^9$",
       "B": "$3^{n-2}$",
       "C": "$3^{2n-2}$",
-      "D": "$3^{4n}$ (answer per key)",
+      "D": "$3^{4n}$",
       "E": "$3^{6-n}$",
       "F": "$3^6$"
     },
@@ -686,29 +636,6 @@
     },
     "answer": "G",
     "technique": "Round trip time to nearer building: $t_1=2\\times48/320=0.3$ s. Round trip time to farther building: $t_2=2\\times80/320=0.5$ s. For every echo to coincide with a click, the click period must be a common factor of both 0.3 s and 0.5 s; the largest such period (giving highest, i.e. correct, frequency where this first happens) is $\\gcd(0.3,0.5)=0.1$ s. Frequency $=1/0.1=10$ Hz.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2016-M2-001",
-    "source": "ENGAA 2016",
-    "year": 2016,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "solving for unknown coefficient in cubic",
-    "difficulty": 5,
-    "question": "When $x=2$ is substituted in the expression $x^3+px^2+qx+2p+2$ the result is 0. When $x=1$ is substituted into the same expression, the result is (value garbled in extraction). Find all possible value(s) of $p$.",
-    "options": {
-      "A": "$p=\\dfrac{-1\\pm\\sqrt6}{3}$",
-      "B": "$p=1$ or $p=-3$",
-      "C": "$p=1$ (answer per key)",
-      "D": "$p=1\\pm\\sqrt7$",
-      "E": "there are no values for $p$"
-    },
-    "answer": "C",
-    "technique": "Substitute the given x-values into the cubic to form simultaneous equations in $p$ and $q$, then solve. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -891,29 +818,6 @@
     "spec_status": null
   },
   {
-    "id": "ENGAA-2016-M2-005",
-    "source": "ENGAA 2016",
-    "year": 2016,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-trig",
-    "subtopic": "trig identities, quadratic in cos/sin",
-    "difficulty": 5,
-    "question": "Given that $\\sin\\theta - 7\\tan\\theta\\cos\\theta = ...$ (equation garbled in extraction, resulting in a quadratic in $\\cos\\theta$), which one of the following is true?",
-    "options": {
-      "A": "$\\cos\\theta=-\\dfrac35$ or $-\\dfrac12$",
-      "B": "$\\cos\\theta=-\\dfrac35$ or $\\dfrac12$",
-      "C": "$\\cos\\theta=\\dfrac35$ or $\\dfrac12$",
-      "D": "$\\cos\\theta=\\dfrac35$ or $-\\dfrac12$ (answer per key)",
-      "E": "—"
-    },
-    "answer": "D",
-    "technique": "Use $\\tan\\theta=\\sin\\theta/\\cos\\theta$ to rewrite the equation purely in terms of $\\cos\\theta$ (using $\\sin^2\\theta=1-\\cos^2\\theta$), forming a quadratic in $\\cos\\theta$ and solving. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "ENGAA-2016-PHY-018",
     "source": "ENGAA 2016",
     "year": 2016,
@@ -953,7 +857,7 @@
       "D": "$-4<a<8$",
       "E": "$a<-4, a>8$",
       "F": "$-8<a<4$",
-      "G": "$a<-8, a>4$ (answer per key)",
+      "G": "$a<-8, a>4$",
       "H": "all values of $a$"
     },
     "answer": "G",
@@ -1149,7 +1053,7 @@
     "options": {
       "A": "$x<\\dfrac12, x>4$",
       "B": "$\\dfrac12<x<4$",
-      "C": "$x<-2,\\ -\\dfrac12<x<\\dfrac12,\\ x>2$ (answer per key)",
+      "C": "$x<-2,\\ -\\dfrac12<x<\\dfrac12,\\ x>2$",
       "D": "$-2<x<-\\dfrac12,\\ \\dfrac12<x<2$",
       "E": "$-2<x<2$"
     },
@@ -1292,7 +1196,7 @@
     "options": {
       "A": "no values of $k$",
       "B": "$-12<k<15$",
-      "C": "$15<k<20$ (answer per key)",
+      "C": "$15<k<20$",
       "D": "$k>20$",
       "E": "$7<k<20$",
       "F": "all values of $k$"
@@ -3972,7 +3876,7 @@
       "B": "—",
       "C": "—",
       "D": "—",
-      "E": "(answer per key)",
+      "E": "",
       "F": "—",
       "G": "—"
     },
@@ -4070,7 +3974,7 @@
       "A": "—",
       "B": "—",
       "C": "—",
-      "D": "(answer per key)",
+      "D": "",
       "E": "—",
       "F": "—"
     },
@@ -4377,7 +4281,7 @@
     "difficulty": 5,
     "question": "For a particular function $f(x)$, it is given that: $2\\displaystyle\\int_{-2}^{2}f(x)\\,dx+\\int_{2}^{4}f(x)\\,dx=4$ and also: $5\\displaystyle\\int_{-2}^{2}f(x)\\,dx-\\int_{-4}^{2}f(x)\\,dx=7$ [DIAGRAM: integral limits and coefficients garbled by PDF extraction]. Find the value of $\\displaystyle\\int_{2}^{4}f(x)\\,dx$.",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "$\\frac{11}{7}$",
       "C": "$\\frac{11}{6}$",
       "D": "$\\frac{13}{6}$",
@@ -5926,7 +5830,7 @@
       "A": "—",
       "B": "—",
       "C": "—",
-      "D": "(answer per key)",
+      "D": "",
       "E": "—",
       "F": "—",
       "G": "—",
@@ -6176,7 +6080,7 @@
       "C": "—",
       "D": "—",
       "E": "—",
-      "F": "(answer per key)",
+      "F": "",
       "G": "—"
     },
     "answer": "F",
@@ -6369,7 +6273,7 @@
     "options": {
       "A": "$-12$",
       "B": "$-\\frac{1}{4}$",
-      "C": "(answer per key)",
+      "C": "",
       "D": "$-\\frac{63}{16}$",
       "E": "5",
       "F": "—",
@@ -6763,7 +6667,7 @@
       "E": "$1+\\sqrt2$",
       "F": "$3(1+\\sqrt2)$",
       "G": "$3\\left(\\sqrt3+\\frac{1}{\\sqrt2}\\right)$",
-      "H": "(answer per key)"
+      "H": ""
     },
     "answer": "H",
     "technique": "The exact structure of this series (numerators and denominators) was badly mangled by PDF text extraction and could not be confidently reconstructed. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -6862,7 +6766,7 @@
       "B": "$\\dfrac{xz^2}{y^{5/3}}$",
       "C": "$x^{1/2}z^2 y^{-5/9}$",
       "D": "$\\dfrac{x^2 z^{4/9}}{}$",
-      "E": "(answer per key)",
+      "E": "",
       "F": "$\\dfrac{x^5 z^2}{y^{5/9}}$"
     },
     "answer": "E",
@@ -7011,7 +6915,7 @@
     "options": {
       "A": "$\\dfrac{(x-4)(x+2)}{(x-3)(x+4)}$",
       "B": "$\\dfrac{(x-3)(x+2)}{(5x-3)(x-3)}$",
-      "C": "(answer per key)",
+      "C": "",
       "D": "$\\dfrac{(x-4)(x-3)}{(x-6)(5x-3)}$",
       "E": "$\\dfrac{x+2}{5x+3}$",
       "F": "$\\dfrac{(x+4)(x+6)}{(5x+3)(x+2)}$",
@@ -7210,7 +7114,7 @@
       "B": "$y=\\dfrac{3x-6}{8x-32}$",
       "C": "$y=\\dfrac{3x-2}{x-6}$",
       "D": "$y=\\dfrac{3x-3}{x-4}$",
-      "E": "(answer per key)",
+      "E": "",
       "F": "$y=\\dfrac{3x-6}{2x-8}$"
     },
     "answer": "E",
@@ -7233,7 +7137,7 @@
       "A": "[DIAGRAM: induced voltage vs time graph option A]",
       "B": "[DIAGRAM: induced voltage vs time graph option B]",
       "C": "[DIAGRAM: induced voltage vs time graph option C]",
-      "D": "(answer per key)",
+      "D": "",
       "E": "[DIAGRAM: induced voltage vs time graph option E]",
       "F": "[DIAGRAM: induced voltage vs time graph option F]"
     },
@@ -7258,7 +7162,7 @@
       "B": "$\\dfrac{1}{10}$",
       "C": "$\\dfrac{3}{10}$",
       "D": "$\\dfrac{1}{3}$",
-      "E": "(answer per key)",
+      "E": "",
       "F": "$\\dfrac{2}{3}$",
       "G": "$\\dfrac{4}{5}$"
     },
@@ -7306,7 +7210,7 @@
       "A": "-14",
       "B": "-7",
       "C": "-5",
-      "D": "(answer per key)",
+      "D": "",
       "E": "1",
       "F": "5",
       "G": "7",
@@ -7353,7 +7257,7 @@
     "difficulty": 4,
     "question": "Find the value of $\\displaystyle\\int_1^4 \\dfrac{x-2}{\\sqrt{x}}\\,dx$ [integrand reconstructed approximately from garbled source].",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "$\\dfrac{37}{3}$",
       "C": "$\\dfrac{53}{3}$",
       "D": "$\\dfrac{73}{4}$",
@@ -7499,7 +7403,7 @@
     "difficulty": 4,
     "question": "Which one of the following expressions is equal to $\\dfrac{(2+\\sqrt3)^2}{(2+\\sqrt{20})(1+\\sqrt5)}$ [expression reconstructed approximately from garbled source]?",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "$\\sqrt5-\\tfrac12$",
       "C": "$\\tfrac16(5\\sqrt5-1)$",
       "D": "$\\tfrac13(5\\sqrt5-1)$",
@@ -7597,7 +7501,7 @@
     "difficulty": 4,
     "question": "What is the complete set of real values of $x$ for which $x^2(x^2+4) < 21$ [expression reconstructed approximately from garbled source]?",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "$-\\sqrt7<x<\\sqrt7$",
       "C": "$x<-3$ or $x>3$",
       "D": "$x<-\\sqrt7$ or $x>\\sqrt7$",
@@ -7800,7 +7704,7 @@
       "C": "$\\dfrac{4\\sqrt2+2}{2\\sqrt2}$",
       "D": "$\\dfrac{6\\sqrt2+2}{2\\sqrt2}$",
       "E": "$4+\\log_2\\left(\\tfrac12\\cdot13\\right)$",
-      "F": "(answer per key)"
+      "F": ""
     },
     "answer": "F",
     "technique": "This is an exponential equation reducible to a quadratic in $y=2^x$; the sum of real solutions follows from $x_1+x_2=\\log_2(y_1y_2)$ via Vieta's formulas. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -9071,7 +8975,7 @@
     "difficulty": 3,
     "question": "Which one of the following is a simplification of the given algebraic fraction? [NOTE: the original formula's layout could not be reliably reconstructed from PDF text extraction; the answer below is confirmed correct via the official answer key, but verify exact notation against the source PDF.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -9118,7 +9022,7 @@
     "difficulty": 3,
     "question": "Which one of the following expressions is equivalent to the given expression involving powers of 3, 9 and 27? [NOTE: the original formula's layout could not be reliably reconstructed from PDF text extraction; the answer below is confirmed correct via the official answer key, but verify exact notation against the source PDF.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -9239,7 +9143,7 @@
     "difficulty": 3,
     "question": "A straight line is drawn joining two points whose coordinates are given in terms of a constant p. What is the complete set of values of p for which the gradient of this line is finite and greater than zero? [NOTE: the original formula's layout could not be reliably reconstructed from PDF text extraction; the answer below is confirmed correct via the official answer key, but verify exact notation against the source PDF.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -9639,7 +9543,7 @@
     "difficulty": 4,
     "question": "Bronze is a mixture of tin and copper. A sample contains 10% tin by volume. What percentage of the mass of the sample is tin? (Density of tin = Y, density of copper = X.) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer below is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -10793,7 +10697,7 @@
     "difficulty": 4,
     "question": "Given that $7\\sin\\theta\\tan\\theta-3\\cos\\theta=1$, which one of the following is true? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer below is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—"
@@ -10839,7 +10743,7 @@
     "difficulty": 4,
     "question": "The complete set of values of a for which a certain quadratic equation (parametrised by a) has two real distinct roots is: [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer below is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -10939,7 +10843,7 @@
     "difficulty": 4,
     "question": "$f(x)$ is a cubic function of x involving a positive constant a. Find the complete set of values of x for which f(x) is an increasing function. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer below is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -11088,7 +10992,7 @@
     "difficulty": 4,
     "question": "An equation gives y in terms of x. Which one of the following is a rearrangement for x in terms of y? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -11188,7 +11092,7 @@
     "difficulty": 3,
     "question": "Which one of the following is a simplification of a given algebraic fraction? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -11236,7 +11140,7 @@
     "difficulty": 3,
     "question": "What is the value of x that makes a given cubic expression equal to 24? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -11403,7 +11307,7 @@
     "difficulty": 4,
     "question": "A square has side x cm. A circle centred at the midpoint O of one side passes through two corners of the square, with that side part of a diameter. What is the area of the shaded part of the semicircle? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -11627,7 +11531,7 @@
     "difficulty": 4,
     "question": "Plutonium-239 absorbs a neutron and fissions into xenon and zirconium daughter nuclei, with some integers replaced by letters w, x, y, z in the nuclear equation. Which equation is correct? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -12551,32 +12455,6 @@
     "spec_status": null
   },
   {
-    "id": "NSAA-2017-BIO-009",
-    "source": "NSAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "biology",
-    "topic": "bio-plant-physiology",
-    "subtopic": "gravitropism, clinostat",
-    "difficulty": 4,
-    "question": "A clinostat rotates a plant to counter gravity's effect on root growth. [DIAGRAM: clinostat apparatus with rotating seedling, opaque cover] Clinostat 1 has the motor running; Clinostat 2 has it stationary. In which direction does the root grow in each after 2 days?",
-    "options": {
-      "A": "(per key, row A)",
-      "B": "(per key, row B)",
-      "C": "(per key, row C)",
-      "D": "(per key, row D)",
-      "E": "(per key, row E)",
-      "F": "(per key, row F)",
-      "G": "(per key, row G)",
-      "H": "(per key, row H)"
-    },
-    "answer": "D",
-    "technique": "With the motor running (clinostat 1), gravity's directional pull is averaged out over rotation, so the root grows roughly horizontally/along the tube; with the motor off (clinostat 2), gravitropism causes the root to grow downwards.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "NSAA-2017-BIO-010",
     "source": "NSAA 2017",
     "year": 2017,
@@ -12813,7 +12691,7 @@
     "difficulty": 4,
     "question": "Which one of the following is a simplification of a given surd expression? [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "options": {
-      "A": "(answer per key)",
+      "A": "",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -15503,31 +15381,6 @@
     "spec_status": null
   },
   {
-    "id": "NSAA-2019-M1-003",
-    "source": "NSAA 2019",
-    "year": 2019,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-algebra",
-    "subtopic": "Rearranging equations / inverse functions",
-    "difficulty": 4,
-    "question": "The equation gives $y$ in terms of $x$: $1-\\left(\\frac{4x-3}{4}\\right)^2 = \\left(\\frac{y}{2}\\right)^2$ [layout uncertain due to PDF extraction]. Which one of the following is a rearrangement for $x$ in terms of $y$?",
-    "options": {
-      "A": "$x = -\\frac{2\\sqrt{2}}{4} - ...$ (garbled) —",
-      "B": "—",
-      "C": "—",
-      "D": "$x = \\frac{3 \\pm \\sqrt{4-y^2}}{4}$ (answer per key)",
-      "E": "—",
-      "F": "—",
-      "G": "—"
-    },
-    "answer": "D",
-    "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "NSAA-2019-M1-004",
     "source": "NSAA 2019",
     "year": 2019,
@@ -15590,7 +15443,7 @@
       "A": "—",
       "B": "—",
       "C": "—",
-      "D": "$\\frac{x^2-4x+4}{x-1}$ (answer per key)",
+      "D": "$\\frac{x^2-4x+4}{x-1}$",
       "E": "—",
       "F": "—"
     },
@@ -15659,7 +15512,7 @@
     "difficulty": 4,
     "question": "Given that $27^{x} \\times 81^{1-2x} = \\frac{1}{9^{...}}$ [PDF layout of exponents is garbled], what is the value of $x$?",
     "options": {
-      "A": "$-\\frac{2}{3}$ (answer per key)",
+      "A": "$-\\frac{2}{3}$",
       "B": "$-\\frac{2}{5}$",
       "C": "$-\\frac{1}{3}$",
       "D": "$-\\frac{1}{4}$",
@@ -17141,7 +16994,7 @@
     "difficulty": 3,
     "question": "The graphs below show the oxygen uptake before, during and after a period of strenuous physical exercise. [DIAGRAM: six graph options (A-F) each showing oxygen uptake vs time across rest-exercise-rest phases, with a different shaded area in each]. Which shaded area correctly represents the additional oxygen taken in to repay the oxygen debt acquired through anaerobic respiration?",
     "options": {
-      "A": "shaded area above resting level during the post-exercise recovery period (answer per key)",
+      "A": "shaded area above resting level during the post-exercise recovery period",
       "B": "—",
       "C": "—",
       "D": "—",
@@ -17436,7 +17289,7 @@
     "question": "Which one of the following is the real solution of the equation $3\\times5^{2x} - 5^{x+1} - 2 = 0$ [PDF layout of exponents is garbled]?",
     "options": {
       "A": "$x=\\log_5\\left(\\frac13\\right)$",
-      "B": "$x=\\log_5\\left(\\frac25\\right)$ (answer per key)",
+      "B": "$x=\\log_5\\left(\\frac25\\right)$",
       "C": "$x=\\log_5\\left(\\frac35\\right)$",
       "D": "$x=\\log_5\\left(\\frac23\\right)$",
       "E": "$x=\\log_5\\left(\\frac35\\right)$",
@@ -17484,7 +17337,7 @@
     "difficulty": 5,
     "question": "For a particular function f(x), it is given that: $2\\int_{-2}^{2}f(x)\\,dx + \\int_{2}^{4}f(x)\\,dx = 4$ and also: $5\\int_{-2}^{2}f(x)\\,dx - \\int_{-4}^{2}f(x)\\,dx = 7$ [PDF layout of the integral bounds/coefficients is garbled]. Find the value of $\\int_{2}^{4}f(x)\\,dx$.",
     "options": {
-      "A": "$\\frac13$ (answer per key)",
+      "A": "$\\frac13$",
       "B": "$\\frac{11}{7}$",
       "C": "$\\frac{11}{6}$",
       "D": "$\\frac{13}{6}$",
@@ -17535,7 +17388,7 @@
       "B": "162",
       "C": "$\\frac{2835}{4}$",
       "D": "3024",
-      "E": "5670 (answer per key)",
+      "E": "5670",
       "F": "15120",
       "G": "22680"
     },
@@ -17827,7 +17680,7 @@
       "C": "$\\frac{1}{2}$",
       "D": "-4",
       "E": "-13",
-      "F": "(answer per key)",
+      "F": "",
       "G": "-26",
       "H": "-34"
     },
@@ -17857,31 +17710,6 @@
     },
     "answer": "B",
     "technique": "By the law of sines, the circumradius satisfies $2R=\\frac{a}{\\sin A}=\\frac{8}{\\sin 60°}$, so $R=\\frac{4}{\\sin 60°}$. Circumference $=2\\pi R=\\frac{8}{\\sin 60°}\\pi$.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "NSAA-2020-M1-009",
-    "source": "NSAA 2020",
-    "year": 2020,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-algebra",
-    "subtopic": "simplifying algebraic fractions",
-    "difficulty": 4,
-    "question": "Which one of the following expressions is equivalent to $\\frac{a}{bc}-\\frac{ba}{c}$ (original algebraic fraction expression, garbled in extraction)?",
-    "options": {
-      "A": "0",
-      "B": "—",
-      "C": "—",
-      "D": "—",
-      "E": "(answer per key)",
-      "F": "—",
-      "G": "—"
-    },
-    "answer": "E",
-    "technique": "The answer is E, confirmed via the official answer key. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -18185,7 +18013,7 @@
     "question": "[DIAGRAM: A diagram represents the structure of a charged atom (ion) of one isotope of an element, showing the nucleus (protons and neutrons) and surrounding electrons. Answer options A-G show different nucleus/electron configurations.]\nThe diagram represents the structure of a charged atom (ion) of one isotope of an element. Which diagram represents the structure of an oppositely charged ion of a different isotope of the same element?",
     "options": {
       "A": "—",
-      "B": "(answer per key)",
+      "B": "",
       "C": "—",
       "D": "—",
       "E": "—",
@@ -18983,7 +18811,7 @@
       "A": "—",
       "B": "—",
       "C": "—",
-      "D": "(answer per key)",
+      "D": "",
       "E": "—",
       "F": "—"
     },
@@ -19516,7 +19344,7 @@
     "options": {
       "A": "—",
       "B": "—",
-      "C": "(answer per key)",
+      "C": "",
       "D": "—",
       "E": "—",
       "F": "—"
@@ -19693,7 +19521,7 @@
       "C": "—",
       "D": "—",
       "E": "—",
-      "F": "(answer per key)",
+      "F": "",
       "G": "—",
       "H": "—"
     },
@@ -19717,7 +19545,7 @@
       "A": "—",
       "B": "—",
       "C": "—",
-      "D": "(answer per key)",
+      "D": "",
       "E": "—",
       "F": "—",
       "G": "—",
@@ -19967,7 +19795,7 @@
       "C": "—",
       "D": "—",
       "E": "—",
-      "F": "(answer per key)",
+      "F": "",
       "G": "—"
     },
     "answer": "F",
@@ -19991,7 +19819,7 @@
       "B": "—",
       "C": "—",
       "D": "—",
-      "E": "(answer per key)",
+      "E": "",
       "F": "—",
       "G": "—",
       "H": "—"
@@ -20120,7 +19948,7 @@
       "E": "—",
       "F": "—",
       "G": "—",
-      "H": "(answer per key)"
+      "H": ""
     },
     "answer": "H",
     "technique": "Journey length in km $=\\dfrac{m}{x}$. Fuel used $=\\dfrac{m}{xf}$ litres. Cost in pence $=\\dfrac{mp}{xf}$. Cost in pounds $=\\dfrac{mp}{100xf}$. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -20786,7 +20614,7 @@
       "B": "—",
       "C": "—",
       "D": "—",
-      "E": "(answer per key)",
+      "E": "",
       "F": "—"
     },
     "answer": "E",
@@ -20907,7 +20735,7 @@
     "question": "[DIAGRAM: Two-way chromatogram showing final positions of four amino acids after development in solvent 1 then solvent 2 (rotated 90°).] Which of the following statements is correct?",
     "options": {
       "A": "Leucine travels further relative to the solvent front in solvent 2 than in solvent 1.",
-      "B": "(answer per key)",
+      "B": "",
       "C": "Solvent 1 alone could be used to separate all four amino acids.",
       "D": "Solvent 2 alone could be used to separate all four amino acids.",
       "E": "The Rf value of tyrosine in solvent 1 is 0.6 and in solvent 2 is 0.7."
@@ -21369,7 +21197,7 @@
     "options": {
       "A": "—",
       "B": "—",
-      "C": "(answer per key)",
+      "C": "",
       "D": "—",
       "E": "—",
       "F": "—"
@@ -21520,7 +21348,7 @@
       "B": "—",
       "C": "—",
       "D": "—",
-      "E": "(answer per key)"
+      "E": ""
     },
     "answer": "E",
     "technique": "Enzyme activity typically increases with temperature up to an optimum (due to increased kinetic energy and collision frequency), then decreases sharply above the optimum as the enzyme denatures (tertiary structure/active site disrupted by breaking of hydrogen and other bonds). The correct graph shows this characteristic rise-then-sharp-fall (bell-shaped) curve with a single peak at the optimum temperature.",
@@ -21647,7 +21475,7 @@
       "B": "$\\dfrac{xz^2}{y^5}$",
       "C": "$\\dfrac{x^{1/2}z^2}{y^{5/9}}$",
       "D": "$\\dfrac{x^2z^4}{y^9}$",
-      "E": "(answer per key)",
+      "E": "",
       "F": "$\\dfrac{x^5z^2}{y^{5/9}}$"
     },
     "answer": "E",
@@ -21774,31 +21602,6 @@
     },
     "answer": "D",
     "technique": "10th term of T: $(10-3)^2=49$. 5th term of V: $3(5)+p=15+p$. Given $49=2(15+p)$, so $15+p=24.5$, $p=9.5$. 4th term of V $=3(4)+9.5=12+9.5=21.5$.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "NSAA-2022-M1-007",
-    "source": "NSAA 2022",
-    "year": 2022,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-algebra",
-    "subtopic": "Simplifying algebraic fractions",
-    "difficulty": 4,
-    "question": "Which one of the following is a simplification of $\\dfrac{x^2-5x-17x+12}{x^2-25}\\div\\dfrac{x^2-12}{9x-6}$ (exact algebraic fraction division, original layout garbled in extraction)?",
-    "options": {
-      "A": "$\\dfrac{(x-4)(x-2)}{(x-3)(x+4)}$",
-      "B": "$\\dfrac{(x-3)(x-2)}{(5x-3)(x+3)}$",
-      "C": "(answer per key)",
-      "D": "$\\dfrac{(x-4)(x-3)}{(x-3)(x-6)}$",
-      "E": "$\\dfrac{(x+2)}{(5x+3)}$",
-      "F": "$\\dfrac{(x+4)(x+6)}{(5x+3)(x+2)}$",
-      "G": "$\\dfrac{(x-3)(x+2)}{(x+5)(x+3)}$"
-    },
-    "answer": "C",
-    "technique": "This is a rational-expression simplification (factorising quadratics in numerator and denominator, then dividing by another fraction). The exact original quadratic terms were badly garbled by PDF extraction, so the working could not be reliably reconstructed. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -21976,30 +21779,6 @@
     "spec_status": null
   },
   {
-    "id": "NSAA-2022-M1-015",
-    "source": "NSAA 2022",
-    "year": 2022,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-algebra",
-    "subtopic": "Changing the subject of a formula",
-    "difficulty": 4,
-    "question": "The variables $x$ and $y$ are related by an equation of the form $x=\\dfrac{3y+2}{1-5y}$ type expression (exact layout garbled in extraction). Which of the following is a rearrangement to make $y$ the subject?",
-    "options": {
-      "A": "$y=\\dfrac{x-3}{8x-48}$",
-      "B": "$y=\\dfrac{x-3}{8x-32}$",
-      "C": "$y=\\dfrac{x-3}{6x-2}$",
-      "D": "$y=\\dfrac{x-3}{3x-4}$",
-      "E": "(answer per key)",
-      "F": "$y=\\dfrac{x-3}{6x-2 \\cdot 8}$"
-    },
-    "answer": "E",
-    "technique": "This is a change-of-subject problem for a rational function of $y$. The exact fraction/coefficients in the original equation were mangled by PDF extraction and could not be reliably recovered. Standard approach: cross-multiply to clear the fraction, collect all $y$ terms on one side, factor out $y$, and divide. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "NSAA-2022-M1-016",
     "source": "NSAA 2022",
     "year": 2022,
@@ -22069,32 +21848,6 @@
     },
     "answer": "A",
     "technique": "Let P have $n$ sides. Interior angle formula: $180-\\dfrac{360}{n}$. Q has $3n$ sides, R has $6n$ sides. Angle Q $-$ Angle P $=\\dfrac{360}{n}-\\dfrac{360}{3n}=\\dfrac{240}{n}=10 \\Rightarrow n=24$. So P has 24, Q has 72, R has 144 sides. Angle Q $=180-360/72=175°$; Angle R $=180-360/144=177.5°$. Difference $=2.5°=2\\tfrac12°$.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "NSAA-2022-M1-019",
-    "source": "NSAA 2022",
-    "year": 2022,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-geometry",
-    "subtopic": "Vector translations",
-    "difficulty": 3,
-    "question": "The point $(-1,5)$ is translated to the point $(3,2)$ by two successive translations. The first translation is by a vector involving constant $p$, and the second by a vector involving constant $q$ (exact vector components garbled in extraction). What is the value of $p+q$?",
-    "options": {
-      "A": "-14",
-      "B": "-7",
-      "C": "-5",
-      "D": "-1",
-      "E": "1",
-      "F": "5",
-      "G": "(answer per key)",
-      "H": "14"
-    },
-    "answer": "G",
-    "technique": "This problem requires solving simultaneous equations from two translation vectors (given in terms of $p$ and $q$) whose sum equals the total displacement $(3-(-1), 2-5)=(4,-3)$. The exact vector component layout was lost in PDF extraction (ambiguous which entries correspond to $x$ vs $y$), so the working could not be reliably reconstructed. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -22505,7 +22258,7 @@
       "A": "[graph A]",
       "B": "[graph B]",
       "C": "[graph C]",
-      "D": "(answer per key)",
+      "D": "",
       "E": "[graph E]",
       "F": "[graph F]"
     },
@@ -22949,7 +22702,7 @@
       "B": "[structure B]",
       "C": "[structure C]",
       "D": "[structure D]",
-      "E": "(answer per key)"
+      "E": ""
     },
     "answer": "E",
     "technique": "Moles CO2 $=144/24=6$ mol, so X has 6 carbon atoms. X has one C=C double bond (reacts with exactly 1 mol H2) and its saturated hydrogenation product is branched, so X is a branched hexene. The repeat unit's Mr (between ~66.7 and 100) combined with the mention of fluorine's Ar value suggests a fluorinated branched alkene structure, matching structure E per the diagram and answer key. [NOTE: exact structural formula could not be reconstructed from text extraction since it is diagram-based; the answer is confirmed via the official answer key.]",
@@ -23737,58 +23490,6 @@
     "spec_status": null
   },
   {
-    "id": "NSAA-2023-M1-006",
-    "source": "NSAA 2023",
-    "year": 2023,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-algebra",
-    "subtopic": "Simplifying algebraic fractions",
-    "difficulty": 4,
-    "question": "Which of the following is a simplification of $\\frac{x-2}{4x+8} \\div \\frac{x-4}{4x-12} \\times \\frac{x-3}{6-x^2} \\div \\frac{x-6}{36}$ (as printed in the original paper — expression garbled by PDF extraction)?",
-    "options": {
-      "A": "\\frac{1}{4}",
-      "B": "\\frac{1}{4x}",
-      "C": "4",
-      "D": "4x",
-      "E": "\\frac{(x+4)(x-6)}{x-6}",
-      "F": "\\frac{(x-4)(x+6)}{x-6}",
-      "G": "\\frac{x(x+2)}{4x-6}",
-      "H": "\\frac{x(x-2)}{4x-6}"
-    },
-    "answer": "D",
-    "technique": "[NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "NSAA-2023-M1-007",
-    "source": "NSAA 2023",
-    "year": 2023,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-number",
-    "subtopic": "Indices equation",
-    "difficulty": 4,
-    "question": "Given that $\\frac{27^{(x-3)} \\times (81)^{-2}}{9} = \\left(\\frac{1}{3}\\right)^{2x-3}$ (equation garbled by PDF extraction; solve using the printed answer key value), what is the value of x?",
-    "options": {
-      "A": "0",
-      "B": "2.5",
-      "C": "3",
-      "D": "6",
-      "E": "7.5",
-      "F": "9",
-      "G": "10.5",
-      "H": "12"
-    },
-    "answer": "D",
-    "technique": "[NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "NSAA-2023-M1-008",
     "source": "NSAA 2023",
     "year": 2023,
@@ -23958,30 +23659,6 @@
     },
     "answer": "D",
     "technique": "$y = \\frac{k}{x^2}$: $20 = \\frac{k}{9} \\Rightarrow k=180$, so $y=\\frac{180}{x^2}$. When $y=80$: $x^2 = \\frac{180}{80}=2.25 \\Rightarrow x=1.5$. $z = mx$: $1.2 = 6m \\Rightarrow m=0.2$. So $z = 0.2 \\times 1.5 = 0.3$.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "NSAA-2023-M1-015",
-    "source": "NSAA 2023",
-    "year": 2023,
-    "paper": "Section 1",
-    "module": "maths1",
-    "topic": "m1-number",
-    "subtopic": "Exponential equation with two solutions",
-    "difficulty": 5,
-    "question": "The equation $10^{2a} + 10^{4a} \\times \\left(\\frac{1}{3 \\times 10^9}\\right) = 2 \\times 10^{-a} \\times 8 \\times 10^3$ (equation garbled by PDF extraction) has two solutions for a. What is the positive difference between these two solutions?",
-    "options": {
-      "A": "0",
-      "B": "2\\sqrt{5}",
-      "C": "4\\sqrt{5}",
-      "D": "20\\sqrt{5}",
-      "E": "40\\sqrt{5}",
-      "F": "200\\sqrt{5}"
-    },
-    "answer": "B",
-    "technique": "[NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
