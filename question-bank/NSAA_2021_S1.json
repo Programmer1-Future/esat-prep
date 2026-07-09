@@ -623,7 +623,8 @@
   "answer": "F",
   "technique": "Neutrons of first nuclide: $(7-3x)-x=7-4x$. Neutrons of second: $(2x+3)-x=x+3$. Given first has 6 more neutrons than second: $7-4x=(x+3)+6 \\Rightarrow 7-4x=x+9 \\Rightarrow -5x=2$... solving with the official relation yields $x=8$ (per key), giving mass number $3(8)+1=25$, neutrons $=25-8=17$; cross-checked against the answer key value of 33 neutrons requires the reconstructed atomic number $x$ that satisfies the key. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
   "origin": "past-paper",
-  "quality_tier": 1
+  "quality_tier": 3,
+  "needs_repair": true
  },
  {
   "id": "NSAA-2021-PHY-007",

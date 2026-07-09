@@ -13,6 +13,7 @@ import { updateStoredValue, useLocalStorage } from '../hooks/useLocalStorage'
 import { MathText } from '../components/ui/TechniqueRenderer'
 import { parseDiagrams } from '../lib/diagrams'
 import { DiagramNotice } from '../components/ui/Diagram'
+import { OriginBadge } from '../components/ui/Origin'
 
 // Pearson VUE environment clone. Fidelity rules (per Build Prompt Phase 4):
 // one module per timed block, hard 40:00 auto-submit, flag-and-review grid,
@@ -579,7 +580,15 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
 }
 
 // ─── Sitting results — per-module cards, never a combined figure ────────────────
-function SittingResults({ moduleResults, onDone }) {
+// Origin badges appear here only — never inside the timed sitting (VUE fidelity).
+const REVIEW_OUTCOME = {
+  correct: { text: 'Correct', color: 'var(--success)' },
+  wrong: { text: 'Wrong', color: 'var(--danger)' },
+  skip: { text: 'Unanswered', color: 'var(--muted)' },
+}
+
+function SittingResults({ moduleResults, questionsByModule, onDone }) {
+  const [openReview, setOpenReview] = useState(null)
   return (
     <motion.div
       className="max-w-2xl mx-auto p-6 space-y-4"
@@ -596,6 +605,7 @@ function SittingResults({ moduleResults, onDone }) {
       {moduleResults.map(r => {
         const m = getModule(r.module)
         const answered = r.results.filter(x => x.outcome !== 'skip').length
+        const open = openReview === r.module
         return (
           <Card key={r.module}>
             <div className="flex items-center justify-between px-5 py-4">
@@ -613,6 +623,28 @@ function SittingResults({ moduleResults, onDone }) {
                 <p className="text-[10px] font-600 uppercase tracking-widest text-text-muted">projected</p>
               </div>
             </div>
+            <button
+              onClick={() => setOpenReview(open ? null : r.module)}
+              className="w-full flex items-center justify-between px-5 py-2.5 border-t border-border-subtle text-xs font-600 text-text-muted hover:text-text-secondary transition-colors"
+            >
+              {open ? 'Hide questions' : 'Review questions'}
+              <ChevronRight size={12} className={cn('transition-transform duration-150', open && 'rotate-90')} />
+            </button>
+            {open && (
+              <div className="px-5 pb-4 space-y-1.5">
+                {r.results.map((res, i) => {
+                  const o = REVIEW_OUTCOME[res.outcome] || REVIEW_OUTCOME.skip
+                  const q = questionsByModule[r.module][i]
+                  return (
+                    <div key={res.qId} className="flex items-center gap-3 text-xs">
+                      <span className="w-7 tabular text-text-muted flex-shrink-0">Q{i + 1}</span>
+                      <span className="font-600" style={{ color: o.color }}>{o.text}</span>
+                      <OriginBadge origin={q.origin} source={q.source} className="ml-auto" />
+                    </div>
+                  )
+                })}
+              </div>
+            )}
           </Card>
         )
       })}
@@ -763,7 +795,7 @@ export default function MockExam() {
       )}
       {phase === 'results' && (
         <motion.div key="results" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-          <SittingResults moduleResults={moduleResults} onDone={() => navigate('/mocks')} />
+          <SittingResults moduleResults={moduleResults} questionsByModule={sitting.questionsByModule} onDone={() => navigate('/mocks')} />
         </motion.div>
       )}
     </AnimatePresence>

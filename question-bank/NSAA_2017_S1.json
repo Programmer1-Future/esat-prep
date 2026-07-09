@@ -806,11 +806,11 @@
   "difficulty": 3,
   "question": "Car X travels at 1.5× the speed of car Y, with mass $\\frac45$ that of car Y. How do their kinetic energies compare?",
   "options": {
-   "A": "KE_X = 0.90 × KE_Y",
-   "B": "KE_X = 0.96 × KE_Y",
-   "C": "KE_X = 1.20 × KE_Y",
-   "D": "KE_X = 1.44 × KE_Y",
-   "E": "KE_X = 1.80 × KE_Y"
+   "A": "$\\text{KE}_X = 0.90 \\times \\text{KE}_Y$",
+   "B": "$\\text{KE}_X = 0.96 \\times \\text{KE}_Y$",
+   "C": "$\\text{KE}_X = 1.20 \\times \\text{KE}_Y$",
+   "D": "$\\text{KE}_X = 1.44 \\times \\text{KE}_Y$",
+   "E": "$\\text{KE}_X = 1.80 \\times \\text{KE}_Y$"
   },
   "answer": "E",
   "technique": "$\\dfrac{KE_X}{KE_Y}=\\dfrac{m_X}{m_Y}\\left(\\dfrac{v_X}{v_Y}\\right)^2=0.8\\times1.5^2=0.8\\times2.25=1.8$.",

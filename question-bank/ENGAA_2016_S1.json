@@ -592,7 +592,8 @@
   "answer": "D",
   "technique": "Express all terms as powers of 3 and combine exponents using index laws to simplify. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
   "origin": "past-paper",
-  "quality_tier": 1
+  "quality_tier": 3,
+  "needs_repair": true
  },
  {
   "id": "ENGAA-2016-PHY-012",
@@ -925,7 +926,8 @@
   "answer": "G",
   "technique": "Expand into a quadratic in $x$ and apply the discriminant condition $b^2-4ac>0$ for two distinct real roots, solving the resulting inequality in $a$. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
   "origin": "past-paper",
-  "quality_tier": 1
+  "quality_tier": 3,
+  "needs_repair": true
  },
  {
   "id": "ENGAA-2016-PHY-019",
@@ -1103,7 +1105,7 @@
   "topic": "m2-algebra",
   "subtopic": "solving quartic inequality",
   "difficulty": 5,
-  "question": "The complete set of values of $x$ for which $4x^4-17x^2+4>0$ (reconstructed form; original garbled in extraction) is:",
+  "question": "The complete set of values of $x$ for which $4x^4-17x^2+4>0$ is:",
   "options": {
    "A": "$x<\\dfrac12, x>4$",
    "B": "$\\dfrac12<x<4$",
@@ -1112,8 +1114,8 @@
    "E": "$-2<x<2$"
   },
   "answer": "C",
-  "technique": "Treating the quartic as factorable into $(x^2-4)(4x^2-1)$, the roots are $x=\\pm2,\\pm\\tfrac12$. Since the quartic opens upward, it is positive outside the outer roots and between the inner roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$.",
-  "origin": "past-paper",
+  "technique": "Factorise: $4x^4-17x^2+4=(4x^2-1)(x^2-4)$, giving roots $x=\\pm\\tfrac12$ and $x=\\pm2$. The quartic has positive leading coefficient, so it is positive outside the outermost roots and between the innermost roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$.",
+  "origin": "adapted",
   "quality_tier": 1
  },
  {
@@ -1240,7 +1242,7 @@
   "topic": "m2-algebra",
   "subtopic": "quartic with exactly four distinct real roots",
   "difficulty": 5,
-  "question": "A curve has equation $y=3x^4-4x^3-12x^2+20$ (reconstructed form; original garbled in extraction). What is the complete set of values of the constant $k$ for which the equation $3x^4-4x^3-12x^2+20=k$ has exactly four distinct real roots?",
+  "question": "A curve has equation $y=3x^4-4x^3-12x^2+20$. What is the complete set of values of the constant $k$ for which the equation $3x^4-4x^3-12x^2+20=k$ has exactly four distinct real roots?",
   "options": {
    "A": "no values of $k$",
    "B": "$-12<k<15$",
@@ -1250,8 +1252,8 @@
    "F": "all values of $k$"
   },
   "answer": "C",
-  "technique": "Find the local maxima and minima of the quartic by differentiating and setting $y'=0$; the equation $y=k$ has four distinct real roots for $k$ strictly between the lower local maximum value and the higher of the two local minimum values (for a W-shaped quartic). [NOTE: this formula could not be reliably reconstructed with full confidence from PDF text extraction; the answer is confirmed via the official answer key.]",
-  "origin": "past-paper",
+  "technique": "$y'=12x^3-12x^2-24x=12x(x-2)(x+1)$, so the stationary points are at $x=-1,\\ 0,\\ 2$ with $y(-1)=3+4-12+20=15$ (local minimum), $y(0)=20$ (local maximum) and $y(2)=48-32-48+20=-12$ (local minimum). The horizontal line $y=k$ cuts this W-shaped quartic in exactly four distinct points when $k$ lies strictly between the local maximum and the higher local minimum: $15<k<20$.",
+  "origin": "adapted",
   "quality_tier": 1
  },
  {

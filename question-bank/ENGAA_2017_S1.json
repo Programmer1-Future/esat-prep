@@ -608,7 +608,8 @@
     "answer": "B",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-M2-003",
@@ -631,7 +632,8 @@
     "answer": "D",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-M2-004",
@@ -653,7 +655,8 @@
     "answer": "D",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-M2-005",
@@ -678,7 +681,8 @@
     "answer": "E",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-M2-006",
@@ -700,7 +704,8 @@
     "answer": "C",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-M2-007",
@@ -770,7 +775,8 @@
     "answer": "F",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-M2-010",
@@ -882,7 +888,8 @@
     "answer": "C",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-M2-015",
@@ -953,7 +960,8 @@
     "answer": "B",
     "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2017-PHY-015",

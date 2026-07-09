@@ -1655,7 +1655,8 @@
   "answer": "F",
   "technique": "This question requires reading species presence/abundance directly from the kite diagram at specific transect points (35m and 5m) and comparing shading widths for species T, V, W. Based on the diagram (not fully recoverable from text extraction), statements 1 (highest diversity at 35m) and 3 (only species Q present at 5m) are correct, while statement 2 (equal abundance of T, V, W) is not supported by the diagram's shading widths.",
   "origin": "past-paper",
-  "quality_tier": 1
+  "quality_tier": 3,
+  "needs_repair": true
  },
  {
   "id": "NSAA-2022-BIO-011",

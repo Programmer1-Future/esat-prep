@@ -12,11 +12,11 @@
   "options": {
    "A": "R = 5r",
    "B": "R = 12r",
-   "C": "R = 2\\sqrt{5}r",
-   "D": "R = \\frac{1}{2}\\sqrt{10}r",
-   "E": "R = \\sqrt{10}r",
-   "F": "R = \\frac{3}{2}\\sqrt{10}r",
-   "G": "R = \\sqrt{15}r"
+   "C": "$R = 2\\sqrt{5}r$",
+   "D": "$R = \\frac{1}{2}\\sqrt{10}r$",
+   "E": "$R = \\sqrt{10}r$",
+   "F": "$R = \\frac{3}{2}\\sqrt{10}r$",
+   "G": "$R = \\sqrt{15}r$"
   },
   "answer": "A",
   "technique": "Total surface area of one closed cylinder = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$. For 10 cylinders: $100\\pi r^2$. Set equal to sphere area: $4\\pi R^2 = 100\\pi r^2 \\Rightarrow R^2 = 25r^2 \\Rightarrow R = 5r$.",
@@ -59,12 +59,12 @@
   "difficulty": 3,
   "question": "Which of the following is a correct rearrangement of $y = \\frac{p-q}{s-x}$ to make x the subject?",
   "options": {
-   "A": "x = s - \\frac{p-q}{y}",
-   "B": "x = \\frac{p-q}{y} - s",
-   "C": "x = s - \\frac{p-q}{y}",
-   "D": "x = \\frac{p-q}{y} - s",
-   "E": "x = s - \\frac{y}{p-q}",
-   "F": "x = \\frac{y}{p-q} - s"
+   "A": "$x = s - \\frac{p-q}{y}$",
+   "B": "$x = \\frac{p-q}{y} - s$",
+   "C": "$x = s - \\frac{p-q}{y}$",
+   "D": "$x = \\frac{p-q}{y} - s$",
+   "E": "$x = s - \\frac{y}{p-q}$",
+   "F": "$x = \\frac{y}{p-q} - s$"
   },
   "answer": "C",
   "technique": "$y(s-x) = p-q \\Rightarrow ys - yx = p - q \\Rightarrow yx = ys-(p-q) \\Rightarrow x = s - \\frac{p-q}{y}$. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -105,12 +105,12 @@
   "difficulty": 4,
   "question": "[DIAGRAM: Square WXYZ of side length 1, with points M on WX, N on XY, P on YZ. WM:MX = 1:2, XN:NY = 3:1, YP:PZ = 4:1.] What is the area of triangle MNP?",
   "options": {
-   "A": "\\frac{1}{3}",
-   "B": "\\frac{2}{5}",
-   "C": "\\frac{9}{20}",
-   "D": "\\frac{1}{30}",
-   "E": "\\frac{19}{60}",
-   "F": "\\frac{23}{60}"
+   "A": "$\\frac{1}{3}$",
+   "B": "$\\frac{2}{5}$",
+   "C": "$\\frac{9}{20}$",
+   "D": "$\\frac{1}{30}$",
+   "E": "$\\frac{19}{60}$",
+   "F": "$\\frac{23}{60}$"
   },
   "answer": "F",
   "technique": "Place W=(0,1), X=(1,1), Y=(1,0), Z=(0,0). M on WX with WM:MX=1:2 gives M=(1/3, 1). N on XY with XN:NY=3:1 gives N=(1, 1/4). P on YZ with YP:PZ=4:1 gives P=(1/5, 0). Area of triangle MNP via shoelace formula: $\\frac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)|$. Computing gives area = 23/60, matching the answer key.",
@@ -180,14 +180,14 @@
   "difficulty": 4,
   "question": "The solutions of the equation $3x^2 - 6x - 2 = 0$ are p and q, where p > q. What is the value of $3p + 2q$?",
   "options": {
-   "A": "-10 - \\frac{2\\sqrt{15}}{3}",
-   "B": "-10 - \\frac{2\\sqrt{3}}{3}",
-   "C": "-5 - \\frac{1\\sqrt{15}}{3}",
-   "D": "-5 - \\frac{1\\sqrt{3}}{3}",
-   "E": "5 + \\frac{1\\sqrt{15}}{3}",
-   "F": "5 + \\frac{1\\sqrt{3}}{3}",
-   "G": "10 + \\frac{2\\sqrt{15}}{3}",
-   "H": "10 + \\frac{2\\sqrt{3}}{3}"
+   "A": "$-10 - \\frac{2\\sqrt{15}}{3}$",
+   "B": "$-10 - \\frac{2\\sqrt{3}}{3}$",
+   "C": "$-5 - \\frac{1\\sqrt{15}}{3}$",
+   "D": "$-5 - \\frac{1\\sqrt{3}}{3}$",
+   "E": "$5 + \\frac{1\\sqrt{15}}{3}$",
+   "F": "$5 + \\frac{1\\sqrt{3}}{3}$",
+   "G": "$10 + \\frac{2\\sqrt{15}}{3}$",
+   "H": "$10 + \\frac{2\\sqrt{3}}{3}$"
   },
   "answer": "E",
   "technique": "By the quadratic formula, $p,q = \\frac{6 \\pm \\sqrt{36+24}}{6} = 1 \\pm \\frac{\\sqrt{15}}{3}$. So $p = 1+\\frac{\\sqrt{15}}{3}$, $q = 1-\\frac{\\sqrt{15}}{3}$. Then $3p+2q = 3+\\sqrt{15} + 2 - \\frac{2\\sqrt{15}}{3} = 5 + \\frac{\\sqrt{15}}{3}$.",
@@ -207,10 +207,10 @@
   "options": {
    "A": "46%",
    "B": "57%",
-   "C": "61\\frac{3}{5}\\%",
-   "D": "66\\frac{2}{3}\\%",
+   "C": "$61\\frac{3}{5}\\%$",
+   "D": "$66\\frac{2}{3}\\%$",
    "E": "77%",
-   "F": "83\\frac{1}{3}\\%"
+   "F": "$83\\frac{1}{3}\\%$"
   },
   "answer": "D",
   "technique": "Let player's old salary = 1, coach's old salary = 0.8. New coach salary = $0.8 \\times 1.15 = 0.92$. New player salary = $1 \\times 1.38 = 1.38$. Percentage = $\\frac{0.92}{1.38} \\times 100\\% = 66\\frac{2}{3}\\%$.",
@@ -228,13 +228,13 @@
   "difficulty": 4,
   "question": "Two of the angles of a triangle are 90° and θ, where $\\tan\\theta = 2$. The length of the hypotenuse of the triangle is $3\\sqrt{6}$ cm. What is the area of the triangle, in cm²?",
   "options": {
-   "A": "\\frac{9\\sqrt{2}}{2}",
-   "B": "9\\sqrt{2}",
-   "C": "9\\sqrt{3}",
-   "D": "9\\sqrt{6}",
-   "E": "18\\sqrt{2}",
-   "F": "18\\sqrt{3}",
-   "G": "18\\sqrt{6}"
+   "A": "$\\frac{9\\sqrt{2}}{2}$",
+   "B": "$9\\sqrt{2}$",
+   "C": "$9\\sqrt{3}$",
+   "D": "$9\\sqrt{6}$",
+   "E": "$18\\sqrt{2}$",
+   "F": "$18\\sqrt{3}$",
+   "G": "$18\\sqrt{6}$"
   },
   "answer": "B",
   "technique": "[NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -274,12 +274,12 @@
   "difficulty": 3,
   "question": "The line joining the points with coordinates $(q, 2-q)$ and $(2q+2, q-4)$ is perpendicular to the line with equation $3x - 4y + 5 = 0$. What is the value of q?",
   "options": {
-   "A": "-\\frac{2}{5}",
-   "B": "-\\frac{1}{6}",
+   "A": "$-\\frac{2}{5}$",
+   "B": "$-\\frac{1}{6}$",
    "C": "1",
-   "D": "\\frac{18}{11}",
-   "E": "\\frac{16}{7}",
-   "F": "\\frac{5}{2}",
+   "D": "$\\frac{18}{11}$",
+   "E": "$\\frac{16}{7}$",
+   "F": "$\\frac{5}{2}$",
    "G": "6"
   },
   "answer": "C",
@@ -298,14 +298,14 @@
   "difficulty": 4,
   "question": "Two objects X and Y are similar. The surface area of object Y is double the surface area of object X. The volume of object Y is $7\\sqrt{2}$ cm³ more than the volume of object X. What is the volume of object X, in cm³?",
   "options": {
-   "A": "14 - 7\\sqrt{2}",
-   "B": "14 + 7\\sqrt{2}",
-   "C": "\\frac{42-7\\sqrt{2}}{17}",
-   "D": "\\frac{42+7\\sqrt{2}}{17}",
-   "E": "\\frac{7\\sqrt{2}}{3}",
-   "F": "7\\sqrt{2}",
-   "G": "4-\\sqrt{2}",
-   "H": "4+\\sqrt{2}"
+   "A": "$14 - 7\\sqrt{2}$",
+   "B": "$14 + 7\\sqrt{2}$",
+   "C": "$\\frac{42-7\\sqrt{2}}{17}$",
+   "D": "$\\frac{42+7\\sqrt{2}}{17}$",
+   "E": "$\\frac{7\\sqrt{2}}{3}$",
+   "F": "$7\\sqrt{2}$",
+   "G": "$4-\\sqrt{2}$",
+   "H": "$4+\\sqrt{2}$"
   },
   "answer": "H",
   "technique": "Surface area ratio 2:1 gives linear scale factor $\\sqrt{2}$, so volume scale factor $(\\sqrt{2})^3=2\\sqrt{2}$. Let volume of X = v: $2\\sqrt{2}v - v = 7\\sqrt{2} \\Rightarrow v(2\\sqrt{2}-1)=7\\sqrt{2}$. Rationalising: $v = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{(2\\sqrt{2})^2-1^2} = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{7} = \\sqrt{2}(2\\sqrt{2}+1) = 4+\\sqrt{2}$.",
@@ -419,11 +419,11 @@
   "question": "The 2nd term of a linear (arithmetic) sequence is equal to twice the 8th term. The 5th term is $\\frac{9}{4}$. What is the 20th term of the sequence?",
   "options": {
    "A": "-9",
-   "B": "-\\frac{7}{4}",
-   "C": "-\\frac{3}{2}",
+   "B": "$-\\frac{7}{4}$",
+   "C": "$-\\frac{3}{2}$",
    "D": "6",
-   "E": "\\frac{31}{4}",
-   "F": "\\frac{27}{2}"
+   "E": "$\\frac{31}{4}$",
+   "F": "$\\frac{27}{2}$"
   },
   "answer": "C",
   "technique": "Let first term $a$, common difference $d$. $a+d = 2(a+7d) \\Rightarrow a = -13d$. 5th term: $a+4d = -13d+4d = -9d = \\frac{9}{4} \\Rightarrow d = -\\frac{1}{4}$, so $a=\\frac{13}{4}$. 20th term $= a+19d = \\frac{13}{4} - \\frac{19}{4} = -\\frac{6}{4} = -\\frac{3}{2}$.",
@@ -441,9 +441,9 @@
   "difficulty": 3,
   "question": "Find the maximum value of $2^{\\sin x} \\times 3^{-\\sin x}$ where $0° \\le x \\le 360°$.",
   "options": {
-   "A": "\\frac{2}{3}",
+   "A": "$\\frac{2}{3}$",
    "B": "1",
-   "C": "\\frac{3}{2}",
+   "C": "$\\frac{3}{2}$",
    "D": "2",
    "E": "3",
    "F": "6"
@@ -464,14 +464,14 @@
   "difficulty": 5,
   "question": "Two bags contain counters which are identical except for colour. The first bag contains 3 blue and 2 yellow counters. The second bag contains x red, 1 blue and 2 yellow counters. A counter is picked at random from the first bag and placed in the second bag. A counter is then picked at random from the second bag. The probability that this counter is yellow is 0.2. What is the probability that this counter is red?",
   "options": {
-   "A": "\\frac{1}{4}",
-   "B": "\\frac{3}{11}",
-   "C": "\\frac{3}{10}",
-   "D": "\\frac{1}{3}",
-   "E": "\\frac{2}{3}",
-   "F": "\\frac{7}{10}",
-   "G": "\\frac{8}{11}",
-   "H": "\\frac{3}{4}"
+   "A": "$\\frac{1}{4}$",
+   "B": "$\\frac{3}{11}$",
+   "C": "$\\frac{3}{10}$",
+   "D": "$\\frac{1}{3}$",
+   "E": "$\\frac{2}{3}$",
+   "F": "$\\frac{7}{10}$",
+   "G": "$\\frac{8}{11}$",
+   "H": "$\\frac{3}{4}$"
   },
   "answer": "E",
   "technique": "P(yellow moved)=2/5 → bag2 has x,1,3 (total x+4), P(yellow drawn)=3/(x+4). P(non-yellow moved)=3/5 → bag2 has x,2,2, P(yellow drawn)=2/(x+4). Total P(yellow) = $\\frac{2}{5}\\cdot\\frac{3}{x+4} + \\frac{3}{5}\\cdot\\frac{2}{x+4} = \\frac{12/5}{x+4} = 0.2 \\Rightarrow x+4=12 \\Rightarrow x=8$. In both branches bag2 has 12 counters with 8 red (x doesn't change when a blue/yellow moves in), so P(red) $= \\frac{8}{12} = \\frac{2}{3}$.",
@@ -489,14 +489,14 @@
   "difficulty": 3,
   "question": "An object has mass m and weight W on the Moon. The Moon has no atmosphere. The object is released from rest at height h above the surface of the Moon. Which expression gives the speed of the object as it reaches the surface?",
   "options": {
-   "A": "\\sqrt{\\frac{hm}{W}}",
-   "B": "\\sqrt{\\frac{hm}{2W}}",
-   "C": "\\sqrt{\\frac{2mh}{W}}",
-   "D": "2\\sqrt{mhW}",
-   "E": "\\sqrt{2mhW}",
-   "F": "\\frac{h m}{W}",
-   "G": "\\sqrt{\\frac{2Wh}{m}}",
-   "H": "\\frac{2mh}{W}"
+   "A": "$\\sqrt{\\frac{hm}{W}}$",
+   "B": "$\\sqrt{\\frac{hm}{2W}}$",
+   "C": "$\\sqrt{\\frac{2mh}{W}}$",
+   "D": "$2\\sqrt{mhW}$",
+   "E": "$\\sqrt{2mhW}$",
+   "F": "$\\frac{h m}{W}$",
+   "G": "$\\sqrt{\\frac{2Wh}{m}}$",
+   "H": "$\\frac{2mh}{W}$"
   },
   "answer": "G",
   "technique": "On the Moon, $g_{moon} = W/m$. Using $v^2 = 2g_{moon}h = \\frac{2Wh}{m}$, so $v = \\sqrt{\\frac{2Wh}{m}}$.",
@@ -589,8 +589,8 @@
    "B": "6.0",
    "C": "10",
    "D": "17",
-   "E": "\\frac{20}{3}",
-   "F": "\\frac{40}{3}"
+   "E": "$\\frac{20}{3}$",
+   "F": "$\\frac{40}{3}$"
   },
   "answer": "B",
   "technique": "Total distance $= 5t + 10(20-t) = 200-5t$. Average speed $= \\frac{200-5t}{20} = 8.5 \\Rightarrow 200-5t=170 \\Rightarrow t=6.0$ s.",
@@ -633,14 +633,14 @@
   "difficulty": 3,
   "question": "The nuclide symbol for helium-3 is $^3_2\\text{He}$. A nuclide of element X has double the nuclear charge and four times the mass of helium-3. This nuclide of X decays by a single beta (β⁻) emission to form a nuclide of element Z. What is the nuclide symbol for this nuclide of Z?",
   "options": {
-   "A": "^8_2Z",
-   "B": "^8_4Z",
-   "C": "^{12}_4Z",
-   "D": "^8_5Z",
-   "E": "^{12}_5Z",
-   "F": "^{16}_5Z",
-   "G": "^7_8Z",
-   "H": "^{16}_8Z"
+   "A": "${}^{8}_{2}Z$",
+   "B": "${}^{8}_{4}Z$",
+   "C": "${}^{12}_{4}Z$",
+   "D": "${}^{8}_{5}Z$",
+   "E": "${}^{12}_{5}Z$",
+   "F": "${}^{16}_{5}Z$",
+   "G": "${}^{7}_{8}Z$",
+   "H": "${}^{16}_{8}Z$"
   },
   "answer": "E",
   "technique": "X has charge $2\\times2=4$ and mass $4\\times3=12$, so X is $^{12}_4X$. In β⁻ decay a neutron converts to a proton, so mass number stays 12 and atomic number increases by 1 to 5: $^{12}_5Z$.",
@@ -658,12 +658,12 @@
   "difficulty": 3,
   "question": "A solid, cylindrical metal bar has a uniform cross-sectional area of 12 cm² and a volume of 180 cm³. The bar rests on a horizontal surface on one of its circular faces. The pressure on the surface due to the bar is 0.45 N cm⁻². What is the density of the metal, in g cm⁻³? (gravitational field strength = 10 N kg⁻¹)",
   "options": {
-   "A": "2.5 gcm^{-3}",
-   "B": "3.0 gcm^{-3}",
-   "C": "3.75 gcm^{-3}",
-   "D": "7.5 gcm^{-3}",
-   "E": "15 gcm^{-3}",
-   "F": "33 gcm^{-3}"
+   "A": "$2.5\\ \\text{g cm}^{-3}$",
+   "B": "$3.0\\ \\text{g cm}^{-3}$",
+   "C": "$3.75\\ \\text{g cm}^{-3}$",
+   "D": "$7.5\\ \\text{g cm}^{-3}$",
+   "E": "$15\\ \\text{g cm}^{-3}$",
+   "F": "$33\\ \\text{g cm}^{-3}$"
   },
   "answer": "B",
   "technique": "Weight $= \\text{Pressure} \\times \\text{Area} = 0.45 \\times 12 = 5.4$ N. Mass $= \\frac{5.4}{10} = 0.54$ kg $= 540$ g. Density $= \\frac{540}{180} = 3.0$ g cm⁻³.",
@@ -843,11 +843,11 @@
   "difficulty": 3,
   "question": "A transverse wave with an amplitude of 3.0 cm travels along a stretched string. The wave has a frequency of 12Hz and a wavelength of 0.25 m. What is the average speed of a particle in the string as the string oscillates during a time of 2.0 s?",
   "options": {
-   "A": "36 cms^{-1}",
-   "B": "72 cms^{-1}",
-   "C": "125 cms^{-1}",
-   "D": "144 cms^{-1}",
-   "E": "300 cms^{-1}"
+   "A": "$36\\ \\text{cm s}^{-1}$",
+   "B": "$72\\ \\text{cm s}^{-1}$",
+   "C": "$125\\ \\text{cm s}^{-1}$",
+   "D": "$144\\ \\text{cm s}^{-1}$",
+   "E": "$300\\ \\text{cm s}^{-1}$"
   },
   "answer": "D",
   "technique": "In each period, a particle travels a distance of 4 × amplitude $= 4 \\times 3.0 = 12$ cm. Number of periods in 2.0s $= f \\times t = 12 \\times 2.0 = 24$. Total distance $= 24 \\times 12 = 288$ cm. Average speed $= \\frac{288}{2.0} = 144$ cm/s.",
@@ -890,12 +890,12 @@
   "difficulty": 3,
   "question": "A battery and two resistors X and Y are connected in series. The power transferred by the battery is 6W. The resistance of X is 10Ω. The voltage across Y is 4V. What is the current in the circuit?",
   "options": {
-   "A": "\\frac{2}{5}A",
-   "B": "\\frac{3}{5}A",
-   "C": "\\frac{3}{4}A",
+   "A": "$\\frac{2}{5}\\text{A}$",
+   "B": "$\\frac{3}{5}\\text{A}$",
+   "C": "$\\frac{3}{4}\\text{A}$",
    "D": "1A",
-   "E": "\\frac{3}{10}A",
-   "F": "\\frac{3}{5}A"
+   "E": "$\\frac{3}{10}\\text{A}$",
+   "F": "$\\frac{3}{5}\\text{A}$"
   },
   "answer": "B",
   "technique": "$P = I^2R_X + IV_Y = 10I^2+4I = 6 \\Rightarrow 5I^2+2I-3=0$. Solving: $I = \\frac{-2\\pm\\sqrt{4+60}}{10} = \\frac{-2\\pm8}{10}$, taking the positive root, $I = 0.6 = \\frac{3}{5}$ A.",
@@ -913,12 +913,12 @@
   "difficulty": 4,
   "question": "A cubic block of wood of side length L floats in water with the top face of the block horizontal and above the surface. The block is displaced downwards by a small distance $\\frac{L}{10}$ without becoming fully submerged, and then released. The density of the wood is 0.80 g cm⁻³ and the density of water is 1.0 g cm⁻³. What is the initial acceleration of the block after it is released? (gravitational field strength = 10 N kg⁻¹)",
   "options": {
-   "A": "0.80 ms^{-2}",
-   "B": "1.0 ms^{-2}",
-   "C": "1.25 ms^{-2}",
-   "D": "1.80 ms^{-2}",
-   "E": "8.0 ms^{-2}",
-   "F": "11.0 ms^{-2}"
+   "A": "$0.80\\ \\text{m s}^{-2}$",
+   "B": "$1.0\\ \\text{m s}^{-2}$",
+   "C": "$1.25\\ \\text{m s}^{-2}$",
+   "D": "$1.80\\ \\text{m s}^{-2}$",
+   "E": "$8.0\\ \\text{m s}^{-2}$",
+   "F": "$11.0\\ \\text{m s}^{-2}$"
   },
   "answer": "C",
   "technique": "At equilibrium, weight = buoyancy already. Extra buoyant (restoring) force when displaced down by $x=L/10$: $F = \\rho_{water}\\,g\\,A\\,x = 1000 \\times 10 \\times L^2 \\times \\frac{L}{10} = 1000 gL^3/10$. Mass of block $= \\rho_{wood}L^3 = 800L^3$. Acceleration $a = F/m = \\frac{1000L^3}{800L^3} = 1.25$ m/s².",
@@ -936,14 +936,14 @@
   "difficulty": 4,
   "question": "A diver at the bottom of a lake of depth d fills a syringe with an ideal gas and seals the nozzle. The piston remains free to move. The volume of the gas in the syringe at the bottom of the lake is 90 cm³. As the diver returns to the surface, the temperature of the gas does not change. At the surface of the lake the gas in the syringe is at atmospheric pressure and the volume of the gas is 720 cm³. What is the volume of the gas in the syringe at a depth $\\frac{d}{2}$?",
   "options": {
-   "A": "160 cm^3",
-   "B": "180 cm^3",
-   "C": "206 cm^3",
-   "D": "225 cm^3",
-   "E": "288 cm^3",
-   "F": "315 cm^3",
-   "G": "360 cm^3",
-   "H": "405 cm^3"
+   "A": "$160\\ \\text{cm}^{3}$",
+   "B": "$180\\ \\text{cm}^{3}$",
+   "C": "$206\\ \\text{cm}^{3}$",
+   "D": "$225\\ \\text{cm}^{3}$",
+   "E": "$288\\ \\text{cm}^{3}$",
+   "F": "$315\\ \\text{cm}^{3}$",
+   "G": "$360\\ \\text{cm}^{3}$",
+   "H": "$405\\ \\text{cm}^{3}$"
   },
   "answer": "A",
   "technique": "By Boyle's law, $P_1V_1=P_2V_2$: bottom pressure $P_{bottom} = P_{atm}\\times\\frac{720}{90}=8P_{atm}$, so $\\rho g d = 7P_{atm}$. At depth $d/2$: $P = P_{atm}+3.5P_{atm}=4.5P_{atm}$. Volume $= \\frac{8P_{atm}\\times90}{4.5P_{atm}} = \\frac{720}{4.5}=160$ cm³.",
@@ -1120,12 +1120,12 @@
   "difficulty": 3,
   "question": "A simple ion of an element has a mass number x, an atomic number $\\frac{x-1}{2}$ and a charge of -1. How many protons, neutrons and electrons are present in this ion?",
   "options": {
-   "A": "protons=\\frac{x-1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x-1}{2}",
-   "B": "protons=\\frac{x-1}{2}, neutrons=\\frac{x+1}{2}, electrons=\\frac{x+1}{2}",
-   "C": "protons=\\frac{x-1}{2}, neutrons=\\frac{x+1}{2}, electrons=\\frac{x-1}{2}",
-   "D": "protons=\\frac{x-1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x+1}{2}",
-   "E": "protons=\\frac{x+1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x+1}{2}",
-   "F": "protons=\\frac{x+1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x-1}{2}"
+   "A": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x-1}{2}$",
+   "B": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x+1}{2},\\ \\text{electrons}=\\frac{x+1}{2}$",
+   "C": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x+1}{2},\\ \\text{electrons}=\\frac{x-1}{2}$",
+   "D": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x+1}{2}$",
+   "E": "$\\text{protons}=\\frac{x+1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x+1}{2}$",
+   "F": "$\\text{protons}=\\frac{x+1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x-1}{2}$"
   },
   "answer": "B",
   "technique": "Protons $= \\frac{x-1}{2}$ (given atomic number). Neutrons $=$ mass number $-$ protons $= x - \\frac{x-1}{2} = \\frac{x+1}{2}$. For a charge of $-1$, electrons $=$ protons $+1 = \\frac{x-1}{2}+1 = \\frac{x+1}{2}$.",
@@ -1165,14 +1165,14 @@
   "difficulty": 4,
   "question": "Ethene gas and hydrogen gas react to form ethane gas. The energy change for this reaction is -150 kJmol⁻¹. Using the provided data, what is the mean C-H bond energy? (Bond energy data: H-H = 430 kJmol⁻¹; C-C = 350 kJmol⁻¹; C=C = 600 kJmol⁻¹)",
   "options": {
-   "A": "115 kJmol^{-1}",
-   "B": "200 kJmol^{-1}",
-   "C": "230 kJmol^{-1}",
-   "D": "265 kJmol^{-1}",
-   "E": "400 kJmol^{-1}",
-   "F": "415 kJmol^{-1}",
-   "G": "465 kJmol^{-1}",
-   "H": "830 kJmol^{-1}"
+   "A": "$115\\ \\text{kJ mol}^{-1}$",
+   "B": "$200\\ \\text{kJ mol}^{-1}$",
+   "C": "$230\\ \\text{kJ mol}^{-1}$",
+   "D": "$265\\ \\text{kJ mol}^{-1}$",
+   "E": "$400\\ \\text{kJ mol}^{-1}$",
+   "F": "$415\\ \\text{kJ mol}^{-1}$",
+   "G": "$465\\ \\text{kJ mol}^{-1}$",
+   "H": "$830\\ \\text{kJ mol}^{-1}$"
   },
   "answer": "F",
   "technique": "Ethene has 1 C=C + 4 C-H; ethane has 1 C-C + 6 C-H. $\\Delta H = (\\text{bonds broken}) - (\\text{bonds formed}) = (600+4x+430)-(350+6x) = 680-2x = -150$, where x is the mean C-H bond energy. So $2x=830 \\Rightarrow x=415$ kJ/mol.",
@@ -1190,12 +1190,12 @@
   "difficulty": 3,
   "question": "A water treatment unit processes 355 000 dm³ of drinking water each day. 0.4 mg of chlorine gas is used to kill the bacteria in 1 dm³ of the source water. What volume of chlorine gas, if measured at room temperature and pressure, is used each day at the water treatment unit? (Ar value: Cl = 35.5. Assume that one mole of a gas occupies 24 dm³ at room temperature and pressure.)",
   "options": {
-   "A": "6 dm^3",
-   "B": "12 dm^3",
-   "C": "48 dm^3",
-   "D": "96 dm^3",
-   "E": "300 dm^3",
-   "F": "600 dm^3"
+   "A": "$6\\ \\text{dm}^{3}$",
+   "B": "$12\\ \\text{dm}^{3}$",
+   "C": "$48\\ \\text{dm}^{3}$",
+   "D": "$96\\ \\text{dm}^{3}$",
+   "E": "$300\\ \\text{dm}^{3}$",
+   "F": "$600\\ \\text{dm}^{3}$"
   },
   "answer": "C",
   "technique": "Total mass Cl2 $= 355000 \\times 0.4$ mg $=142000$ mg $=142$ g. Molar mass Cl2 $=71$ g/mol. Moles $=142/71=2$ mol. Volume $=2\\times24=48$ dm³.",
@@ -1309,13 +1309,13 @@
   "difficulty": 3,
   "question": "A student electroplates a solid metal ball with copper. The student dissolves 80.0 g of anhydrous copper(II) sulfate in water and makes up the solution to exactly 500 cm³ to use as the electrolyte. Two electrodes are placed in this solution; one is the ball to be electroplated, the other is an inert graphite electrode. After some time, the ball is removed and found to be coated with 8.00 g of copper. Water is added to the remaining solution to give a final volume of exactly 500 cm³. What is the final concentration of copper(II) ions in solution? (Ar values: O=16; S=32; Cu=64)",
   "options": {
-   "A": "0.25 mol dm^{-3}",
-   "B": "0.38 mol dm^{-3}",
-   "C": "0.45 mol dm^{-3}",
-   "D": "0.50 mol dm^{-3}",
-   "E": "0.75 mol dm^{-3}",
-   "F": "0.90 mol dm^{-3}",
-   "G": "1.0 mol dm^{-3}"
+   "A": "$0.25\\ \\text{mol dm}^{-3}$",
+   "B": "$0.38\\ \\text{mol dm}^{-3}$",
+   "C": "$0.45\\ \\text{mol dm}^{-3}$",
+   "D": "$0.50\\ \\text{mol dm}^{-3}$",
+   "E": "$0.75\\ \\text{mol dm}^{-3}$",
+   "F": "$0.90\\ \\text{mol dm}^{-3}$",
+   "G": "$1.0\\ \\text{mol dm}^{-3}$"
   },
   "answer": "E",
   "technique": "Molar mass CuSO4 $=64+32+64=160$ g/mol. Moles CuSO4 $=80/160=0.5$ mol. Moles Cu deposited $=8.00/64=0.125$ mol, removing 0.125 mol Cu²⁺. Remaining Cu²⁺ $=0.5-0.125=0.375$ mol in 500 cm³ (0.5 dm³). Concentration $=0.375/0.5=0.75$ mol dm⁻³.",
@@ -1333,14 +1333,14 @@
   "difficulty": 4,
   "question": "The structure of cyclohexa-1,4-diene is: [DIAGRAM: six-membered ring with two C=C double bonds at the 1,4 positions]. Bromine is dissolved in inert organic solvent to form 0.250 mol dm⁻³ of bromine solution. What is the minimum volume of this bromine solution required to react completely with 0.10 cm³ of cyclohexa-1,4-diene? (Mr value: cyclohexa-1,4-diene = 80. Density = 0.84 gcm⁻³)",
   "options": {
-   "A": "0.042 cm^3",
-   "B": "0.084 cm^3",
-   "C": "0.0042 cm^3",
-   "D": "0.0084 cm^3",
-   "E": "0.042 dm^3",
-   "F": "0.084 dm^3",
-   "G": "0.0042 dm^3",
-   "H": "0.0084 dm^3"
+   "A": "$0.042\\ \\text{cm}^{3}$",
+   "B": "$0.084\\ \\text{cm}^{3}$",
+   "C": "$0.0042\\ \\text{cm}^{3}$",
+   "D": "$0.0084\\ \\text{cm}^{3}$",
+   "E": "$0.042\\ \\text{dm}^{3}$",
+   "F": "$0.084\\ \\text{dm}^{3}$",
+   "G": "$0.0042\\ \\text{dm}^{3}$",
+   "H": "$0.0084\\ \\text{dm}^{3}$"
   },
   "answer": "H",
   "technique": "Mass of diene $=0.10 \\times 0.84 = 0.084$ g. Moles $=0.084/80=1.05\\times10^{-3}$ mol. Cyclohexa-1,4-diene has 2 C=C double bonds, so it reacts with 2 mol Br2 per mol diene: moles Br2 $=2.10\\times10^{-3}$ mol. Volume of Br2 solution $=\\frac{2.10\\times10^{-3}}{0.250}=8.4\\times10^{-3}$ dm³ $=0.0084$ dm³.",
@@ -1528,14 +1528,14 @@
   "difficulty": 3,
   "question": "The diagram shows a bubble potometer at the start of an experiment, with a glass tube of internal diameter 1 mm and a scale marked 0-12 cm. [DIAGRAM: potometer with air bubble positioned initially, e.g. at the 1 cm mark.] After five minutes, one end of the air bubble had moved to the 4 cm mark on the scale. Which row is correct?",
   "options": {
-   "A": "translocation, \\pi(0.5)^2 \\times 10",
-   "B": "translocation, \\pi(0.5)^2 \\times 15",
-   "C": "translocation, 2\\pi(0.5) \\times 10",
-   "D": "translocation, 2\\pi(0.5) \\times 15",
-   "E": "transpiration, \\pi(0.5)^2 \\times 10",
-   "F": "transpiration, \\pi(0.5)^2 \\times 15",
-   "G": "transpiration, 2\\pi(0.5) \\times 10",
-   "H": "transpiration, 2\\pi(0.5) \\times 15"
+   "A": "$\\text{translocation},\\ \\pi(0.5)^2 \\times 10$",
+   "B": "$\\text{translocation},\\ \\pi(0.5)^2 \\times 15$",
+   "C": "$\\text{translocation},\\ 2\\pi(0.5) \\times 10$",
+   "D": "$\\text{translocation},\\ 2\\pi(0.5) \\times 15$",
+   "E": "$\\text{transpiration},\\ \\pi(0.5)^2 \\times 10$",
+   "F": "$\\text{transpiration},\\ \\pi(0.5)^2 \\times 15$",
+   "G": "$\\text{transpiration},\\ 2\\pi(0.5) \\times 10$",
+   "H": "$\\text{transpiration},\\ 2\\pi(0.5) \\times 15$"
   },
   "answer": "F",
   "technique": "A potometer measures water uptake by a shoot, which approximates transpiration (not translocation, which refers to phloem transport of sugars). Volume of water taken up = volume of tube the bubble traversed = $\\pi r^2 \\times \\text{distance moved}$, with r=0.5mm. Based on the diagram, the bubble moved 15mm (from its starting position to the 4cm mark), giving volume $=\\pi(0.5)^2\\times15$ mm³.",
@@ -1578,14 +1578,14 @@
   "difficulty": 3,
   "question": "A student viewed a bacterial cell using a microscope. The cell was measured with a microscope ruler; each division on the ruler measures 2.5µm, and the cell spanned 5 divisions. [DIAGRAM: bacterial cell aligned against a graduated microscope ruler.] The student made a drawing of this cell, 5.0 cm in length, including the structures expected to be seen. Which row of the table gives the magnification of the student's drawing and one structure that should be included?",
   "options": {
-   "A": "2.5\\times10^{-4}, cell wall",
-   "B": "2.5\\times10^{-4}, nucleus",
-   "C": "4.0\\times10^{-1}, cell wall",
-   "D": "4.0\\times10^{-1}, nucleus",
-   "E": "4.0\\times10^{3}, cell wall",
-   "F": "4.0\\times10^{3}, nucleus",
-   "G": "2.0\\times10^{4}, cell wall",
-   "H": "2.0\\times10^{4}, nucleus"
+   "A": "$2.5\\times10^{-4}$, cell wall",
+   "B": "$2.5\\times10^{-4}$, nucleus",
+   "C": "$4.0\\times10^{-1}$, cell wall",
+   "D": "$4.0\\times10^{-1}$, nucleus",
+   "E": "$4.0\\times10^{3}$, cell wall",
+   "F": "$4.0\\times10^{3}$, nucleus",
+   "G": "$2.0\\times10^{4}$, cell wall",
+   "H": "$2.0\\times10^{4}$, nucleus"
   },
   "answer": "E",
   "technique": "Actual cell length $=5 \\times 2.5\\mu m = 12.5\\mu m$. Drawing length $=5.0$cm $=50000\\mu m$. Magnification $=\\frac{50000}{12.5}=4000=4.0\\times10^3$. Bacteria are prokaryotic and have no nucleus, but they do have a cell wall, so 'cell wall' is the structure that should be included.",

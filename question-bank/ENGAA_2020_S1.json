@@ -301,7 +301,8 @@
     "answer": "G",
     "technique": "[NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.] (answer per key)",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 3,
+    "needs_repair": true
   },
   {
     "id": "ENGAA-2020-M2-005",

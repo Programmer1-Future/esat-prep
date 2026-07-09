@@ -544,30 +544,6 @@
     "spec_status": null
   },
   {
-    "id": "ENGAA-2016-M1-014",
-    "source": "ENGAA 2016",
-    "year": 2016,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "simplifying expressions with indices",
-    "difficulty": 4,
-    "question": "Which one of the following expressions is equivalent to $\\dfrac{3^9\\times9^{n+1}}{27^{n-4}\\times3^{2n}}$ (reconstructed form; original garbled in extraction)?",
-    "options": {
-      "A": "$3^9$",
-      "B": "$3^{n-2}$",
-      "C": "$3^{2n-2}$",
-      "D": "$3^{4n}$",
-      "E": "$3^{6-n}$",
-      "F": "$3^6$"
-    },
-    "answer": "D",
-    "technique": "Express all terms as powers of 3 and combine exponents using index laws to simplify. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "ENGAA-2016-PHY-012",
     "source": "ENGAA 2016",
     "year": 2016,
@@ -841,32 +817,6 @@
     "spec_status": null
   },
   {
-    "id": "ENGAA-2016-M2-006",
-    "source": "ENGAA 2016",
-    "year": 2016,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "discriminant condition for real distinct roots",
-    "difficulty": 5,
-    "question": "The complete set of values of $a$ for which the equation $(x+a)^2=3(2x-3)$ (reconstructed form; original garbled in extraction) has two real distinct roots is:",
-    "options": {
-      "A": "no values of $a$",
-      "B": "$-2\\sqrt4<a<2\\sqrt4$",
-      "C": "$a<-2\\sqrt4, a>2\\sqrt4$",
-      "D": "$-4<a<8$",
-      "E": "$a<-4, a>8$",
-      "F": "$-8<a<4$",
-      "G": "$a<-8, a>4$",
-      "H": "all values of $a$"
-    },
-    "answer": "G",
-    "technique": "Expand into a quadratic in $x$ and apply the discriminant condition $b^2-4ac>0$ for two distinct real roots, solving the resulting inequality in $a$. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "ENGAA-2016-PHY-019",
     "source": "ENGAA 2016",
     "year": 2016,
@@ -1049,7 +999,7 @@
     "topic": "m2-algebra",
     "subtopic": "solving quartic inequality",
     "difficulty": 5,
-    "question": "The complete set of values of $x$ for which $4x^4-17x^2+4>0$ (reconstructed form; original garbled in extraction) is:",
+    "question": "The complete set of values of $x$ for which $4x^4-17x^2+4>0$ is:",
     "options": {
       "A": "$x<\\dfrac12, x>4$",
       "B": "$\\dfrac12<x<4$",
@@ -1058,8 +1008,8 @@
       "E": "$-2<x<2$"
     },
     "answer": "C",
-    "technique": "Treating the quartic as factorable into $(x^2-4)(4x^2-1)$, the roots are $x=\\pm2,\\pm\\tfrac12$. Since the quartic opens upward, it is positive outside the outer roots and between the inner roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$.",
-    "origin": "past-paper",
+    "technique": "Factorise: $4x^4-17x^2+4=(4x^2-1)(x^2-4)$, giving roots $x=\\pm\\tfrac12$ and $x=\\pm2$. The quartic has positive leading coefficient, so it is positive outside the outermost roots and between the innermost roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$.",
+    "origin": "adapted",
     "quality_tier": 1,
     "spec_status": null
   },
@@ -1192,7 +1142,7 @@
     "topic": "m2-algebra",
     "subtopic": "quartic with exactly four distinct real roots",
     "difficulty": 5,
-    "question": "A curve has equation $y=3x^4-4x^3-12x^2+20$ (reconstructed form; original garbled in extraction). What is the complete set of values of the constant $k$ for which the equation $3x^4-4x^3-12x^2+20=k$ has exactly four distinct real roots?",
+    "question": "A curve has equation $y=3x^4-4x^3-12x^2+20$. What is the complete set of values of the constant $k$ for which the equation $3x^4-4x^3-12x^2+20=k$ has exactly four distinct real roots?",
     "options": {
       "A": "no values of $k$",
       "B": "$-12<k<15$",
@@ -1202,8 +1152,8 @@
       "F": "all values of $k$"
     },
     "answer": "C",
-    "technique": "Find the local maxima and minima of the quartic by differentiating and setting $y'=0$; the equation $y=k$ has four distinct real roots for $k$ strictly between the lower local maximum value and the higher of the two local minimum values (for a W-shaped quartic). [NOTE: this formula could not be reliably reconstructed with full confidence from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
+    "technique": "$y'=12x^3-12x^2-24x=12x(x-2)(x+1)$, so the stationary points are at $x=-1,\\ 0,\\ 2$ with $y(-1)=3+4-12+20=15$ (local minimum), $y(0)=20$ (local maximum) and $y(2)=48-32-48+20=-12$ (local minimum). The horizontal line $y=k$ cuts this W-shaped quartic in exactly four distinct points when $k$ lies strictly between the local maximum and the higher local minimum: $15<k<20$.",
+    "origin": "adapted",
     "quality_tier": 1,
     "spec_status": null
   },
@@ -1844,127 +1794,6 @@
     "spec_status": null
   },
   {
-    "id": "ENGAA-2017-M2-002",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "Rearranging a quadratic equation for x",
-    "difficulty": 4,
-    "question": "The equation gives y in terms of x:\n$y=-2\\left(\\dfrac{x}{3}-\\dfrac52\\right)^2-1$\nWhich one of the following is a rearrangement for x in terms of y?",
-    "options": {
-      "A": "$x=\\pm\\sqrt{\\dfrac{y}{-2}}-\\dfrac53$",
-      "B": "—",
-      "C": "—",
-      "D": "—",
-      "E": "—",
-      "F": "—",
-      "G": "—"
-    },
-    "answer": "B",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2017-M2-003",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "Simplifying an algebraic fraction",
-    "difficulty": 4,
-    "question": "Which one of the following is a simplification of $\\dfrac{9-4x^2}{2x^2-3x}$?",
-    "options": {
-      "A": "$-1-\\dfrac{x}{2}$",
-      "B": "—",
-      "C": "$\\dfrac{5-x}{2}$",
-      "D": "—",
-      "E": "$\\dfrac{5-x}{3}$",
-      "F": "$\\dfrac{5+x}{3}$"
-    },
-    "answer": "D",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2017-M2-004",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "Solving a cubic equation",
-    "difficulty": 4,
-    "question": "What is the value of x that makes the following expression correct?\n$2x^3+4x^2-8x=24$",
-    "options": {
-      "A": "−2.25",
-      "B": "−1.75",
-      "C": "−1.5",
-      "D": "−1.5",
-      "E": "−0.25"
-    },
-    "answer": "D",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2017-M2-005",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "Simplifying nested surd/fraction expression",
-    "difficulty": 5,
-    "question": "Which one of the following is a simplification of $\\left(\\dfrac{1}{\\sqrt3}-\\sqrt6\\right)^{2}\\div\\left(\\sqrt3-\\sqrt2\\right)$?",
-    "options": {
-      "A": "$-\\dfrac34$",
-      "B": "$\\dfrac34$",
-      "C": "—",
-      "D": "—",
-      "E": "$-3\\sqrt3-4$",
-      "F": "—",
-      "G": "$-\\dfrac32$",
-      "H": "$\\dfrac32$"
-    },
-    "answer": "E",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2017-M2-006",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-trig",
-    "subtopic": "Simultaneous trig equations - counting solutions",
-    "difficulty": 5,
-    "question": "k is the smallest positive value of x which is a solution to both the equations $2\\sin x+1=0$ and $2\\cos x-\\sqrt2=0$.\nHow many values of x in the range $0\\le x\\le k$ are solutions to at least one of these equations?",
-    "options": {
-      "A": "0",
-      "B": "2",
-      "C": "3",
-      "D": "4",
-      "E": "8"
-    },
-    "answer": "C",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "ENGAA-2017-M2-007",
     "source": "ENGAA 2017",
     "year": 2017,
@@ -2007,32 +1836,6 @@
     },
     "answer": "C",
     "technique": "Major arc length $22\\pi=r\\theta_{major}$ where $\\theta_{major}=2\\pi-\\pi/6=11\\pi/6$, giving $r=\\dfrac{22\\pi}{11\\pi/6}=12$ mm. With $OP=OS=r+18=30$ mm and angle $\\pi/6$ at O, the keyhole area is the large sector/triangle area minus the small circular sector area: area $=132\\pi+225\\text{ mm}^2$ (per official answer key). [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2017-M2-009",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-exp-log",
-    "subtopic": "Manipulating logarithms with given exponential relations",
-    "difficulty": 5,
-    "question": "It is given that $y=8^p$ and $z=\\left(\\dfrac12\\right)^{2q}$ where p and q are real numbers.\nWhich of the following expressions is a simplification of $\\log_2\\left(\\dfrac{y^2}{z^3}\\right)$?",
-    "options": {
-      "A": "—",
-      "B": "—",
-      "C": "—",
-      "D": "—",
-      "E": "—",
-      "F": "$9p+4q$",
-      "G": "—",
-      "H": "—"
-    },
-    "answer": "F",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -2132,29 +1935,6 @@
     "spec_status": null
   },
   {
-    "id": "ENGAA-2017-M2-014",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-sequences",
-    "subtopic": "Linear recurrence relation with unknown constant",
-    "difficulty": 4,
-    "question": "The sequence of numbers $u_1, u_2, u_3, u_4, \\ldots, u_n, \\ldots$ is given by\n$u_1=2$\n$u_{n+1}=3u_n+p$\nwhere p is an integer.\nThe fourth term, $u_4$, is equal to $-7$.\nWhat is the value of $u_1+u_2+u_3+u_4$?",
-    "options": {
-      "A": "−10",
-      "B": "−2",
-      "C": "−1",
-      "D": "8",
-      "E": "26"
-    },
-    "answer": "C",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "ENGAA-2017-M2-015",
     "source": "ENGAA 2017",
     "year": 2017,
@@ -2200,30 +1980,6 @@
     },
     "answer": "H",
     "technique": "Stretching $y=\\sin x$ by scale factor $\\frac12$ parallel to the x-axis gives $y=\\sin(2x)$. Translating by $\\frac{\\pi}{4}$ in the negative x-direction replaces $x$ with $x+\\frac{\\pi}{4}$: $y=\\sin\\left(2\\left(x+\\frac{\\pi}{4}\\right)\\right)=\\sin\\left(2x+\\frac{\\pi}{2}\\right)$.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2017-M2-017",
-    "source": "ENGAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-coord-geom",
-    "subtopic": "Perpendicular lines with a parameter",
-    "difficulty": 5,
-    "question": "The equations of two straight lines are $y=px+\\dfrac32(p-x)$ and $y=(2p-7)x+2p$, where p is a real constant.\nFor certain values of p, the two lines are perpendicular.\nWhich of the following numbers is closest to the greatest such value of p?",
-    "options": {
-      "A": "2.00",
-      "B": "1.75",
-      "C": "1.50",
-      "D": "1.00",
-      "E": "−0.25",
-      "F": "−0.50"
-    },
-    "answer": "B",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -5199,32 +4955,6 @@
     "spec_status": null
   },
   {
-    "id": "ENGAA-2020-PHY-009",
-    "source": "ENGAA 2020",
-    "year": 2020,
-    "paper": "Section 1",
-    "module": "physics",
-    "topic": "phy-mechanics",
-    "subtopic": "spring energy, SHM-style energy conservation",
-    "difficulty": 4,
-    "question": "A light spring of unstretched length 0.10m has spring constant 20 N/m. It hangs vertically with a 0.050kg load attached. The load is pulled down until the spring length is 0.30m, then released. What is the speed of the load at the instant the spring returns to its unstretched length? (g = 10 N/kg; resistive forces negligible)",
-    "options": {
-      "A": "0 m/s",
-      "B": "4.0 m/s",
-      "C": "6.0 m/s",
-      "D": "12 m/s",
-      "E": "16 m/s",
-      "F": "6 m/s",
-      "G": "12 m/s",
-      "H": "30 m/s"
-    },
-    "answer": "G",
-    "technique": "[NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.] (answer per key)",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "ENGAA-2020-M2-005",
     "source": "ENGAA 2020",
     "year": 2020,
@@ -7747,14 +7477,14 @@
     "topic": "m1-geometry",
     "subtopic": "surface area of sphere vs cylinders",
     "difficulty": 2,
-    "question": "The surface area of a solid sphere of radius R is equal to the total surface area of 10 solid closed cylinders of radius r and height 4r. Which of the following is an expression for R in terms of r? (The surface area of a sphere of radius R is 4\\pi R^2.)",
+    "question": "The surface area of a solid sphere of radius R is equal to the total surface area of 10 solid closed cylinders of radius r and height 4r. Which of the following is an expression for R in terms of r? (The surface area of a sphere of radius $R$ is $4\\pi R^2$.)",
     "options": {
       "A": "R = 5r",
       "B": "R = 12r",
-      "C": "R = 2\\sqrt{5}\\,r",
-      "D": "R = \\frac{1}{10}\\sqrt{2}\\,r",
+      "C": "$R = 2\\sqrt{5}\\,r$",
+      "D": "$R = \\frac{1}{10}\\sqrt{2}\\,r$",
       "E": "R = 10r",
-      "F": "R = \\frac{3}{10}\\sqrt{2}\\,r",
+      "F": "$R = \\frac{3}{10}\\sqrt{2}\\,r$",
       "G": "R = 15r"
     },
     "answer": "A",
@@ -7774,12 +7504,12 @@
     "difficulty": 3,
     "question": "Which of the following is a correct rearrangement of $y = p - \\dfrac{q-r}{s-x}$ to make x the subject?",
     "options": {
-      "A": "x = s - \\dfrac{p-y}{q-r}",
-      "B": "x = \\dfrac{p-y}{q-r} - s",
-      "C": "x = s - \\dfrac{p-y}{q-r}",
-      "D": "x = \\dfrac{p-y}{q-r} - s",
-      "E": "x = s - \\dfrac{y-p}{q-r}",
-      "F": "x = \\dfrac{y-p}{q-r} - s"
+      "A": "$x = s - \\dfrac{p-y}{q-r}$",
+      "B": "$x = \\dfrac{p-y}{q-r} - s$",
+      "C": "$x = s - \\dfrac{p-y}{q-r}$",
+      "D": "$x = \\dfrac{p-y}{q-r} - s$",
+      "E": "$x = s - \\dfrac{y-p}{q-r}$",
+      "F": "$x = \\dfrac{y-p}{q-r} - s$"
     },
     "answer": "C",
     "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -7848,12 +7578,12 @@
     "difficulty": 4,
     "question": "WXYZ is a square of side length 1. Points M, N, P lie on sides WX, XY, YZ respectively (in that cyclic order around the square), with WM:MX = 1:2, XN:NY = 3:1, YP:PZ = 4:1. [DIAGRAM: square WXYZ with points M, N, P marked on three sides as described]. What is the area of triangle MNP?",
     "options": {
-      "A": "\\frac{1}{3}",
-      "B": "\\frac{2}{5}",
-      "C": "\\frac{9}{20}",
-      "D": "\\frac{1}{30}",
-      "E": "\\frac{19}{60}",
-      "F": "\\frac{23}{60}"
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{2}{5}$",
+      "C": "$\\frac{9}{20}$",
+      "D": "$\\frac{1}{30}$",
+      "E": "$\\frac{19}{60}$",
+      "F": "$\\frac{23}{60}$"
     },
     "answer": "F",
     "technique": "Place $W=(0,0)$, $X=(1,0)$, $Y=(1,1)$, $Z=(0,1)$. Then $M = W + \\tfrac{1}{3}(X-W) = (1/3,0)$, $N = X + \\tfrac{3}{4}(Y-X) = (1,3/4)$, $P = Y + \\tfrac{4}{5}(Z-Y) = (1/5,1)$. Using the shoelace formula, area $= \\tfrac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)| = \\tfrac{23}{60}$.",
@@ -7924,12 +7654,12 @@
     "difficulty": 2,
     "question": "A solid, cylindrical metal bar has a uniform cross-sectional area of 12 cm$^2$ and a volume of 180 cm$^3$. The bar rests on a horizontal surface on one of its circular faces. The pressure on the surface due to the bar is 0.45 N/cm$^2$. What is the density of the metal, in g/cm$^3$? (gravitational field strength = 10 N/kg)",
     "options": {
-      "A": "2.5 g/cm^3",
-      "B": "3.0 g/cm^3",
-      "C": "3.75 g/cm^3",
-      "D": "7.5 g/cm^3",
-      "E": "15 g/cm^3",
-      "F": "33 g/cm^3"
+      "A": "$2.5\\ \\text{g/cm}^{3}$",
+      "B": "$3.0\\ \\text{g/cm}^{3}$",
+      "C": "$3.75\\ \\text{g/cm}^{3}$",
+      "D": "$7.5\\ \\text{g/cm}^{3}$",
+      "E": "$15\\ \\text{g/cm}^{3}$",
+      "F": "$33\\ \\text{g/cm}^{3}$"
     },
     "answer": "B",
     "technique": "Weight $= P \\times A = 0.45 \\times 12 = 5.4$ N, so mass $= 5.4/10 = 0.54$ kg $= 540$ g. Density $= 540/180 = 3.0\\text{ g/cm}^3$.",
@@ -7950,10 +7680,10 @@
     "options": {
       "A": "46%",
       "B": "57%",
-      "C": "61\\frac{3}{5}\\%",
-      "D": "66\\frac{2}{3}\\%",
+      "C": "$61\\frac{3}{5}\\%$",
+      "D": "$66\\frac{2}{3}\\%$",
       "E": "77%",
-      "F": "83\\frac{1}{3}\\%"
+      "F": "$83\\frac{1}{3}\\%$"
     },
     "answer": "D",
     "technique": "Let old player salary = 1. Old coach salary = 0.8. New coach $= 0.8\\times1.15 = 0.92$. New player $= 1\\times1.38 = 1.38$. Ratio $= 0.92/1.38 = 2/3 = 66\\tfrac{2}{3}\\%$.",
@@ -8042,14 +7772,14 @@
     "difficulty": 4,
     "question": "Two objects X and Y are similar. The surface area of object Y is double the surface area of object X. The volume of object Y is $7\\sqrt{2}$ cm$^3$ more than the volume of object X. What is the volume of object X, in cm$^3$?",
     "options": {
-      "A": "14 - 7\\sqrt{2}",
-      "B": "14 + 7\\sqrt{2}",
-      "C": "\\frac{42-7\\sqrt{2}}{17}",
-      "D": "\\frac{42+7\\sqrt{2}}{17}",
-      "E": "\\frac{7\\sqrt{2}}{3}",
-      "F": "7\\sqrt{2}",
-      "G": "4-\\sqrt{2}",
-      "H": "4+\\sqrt{2}"
+      "A": "$14 - 7\\sqrt{2}$",
+      "B": "$14 + 7\\sqrt{2}$",
+      "C": "$\\frac{42-7\\sqrt{2}}{17}$",
+      "D": "$\\frac{42+7\\sqrt{2}}{17}$",
+      "E": "$\\frac{7\\sqrt{2}}{3}$",
+      "F": "$7\\sqrt{2}$",
+      "G": "$4-\\sqrt{2}$",
+      "H": "$4+\\sqrt{2}$"
     },
     "answer": "H",
     "technique": "Linear scale factor $k$ satisfies $k^2=2$ so $k=\\sqrt2$, and volume ratio $k^3=2\\sqrt2$. Let $V_X$ be X's volume: $2\\sqrt2\\,V_X - V_X = 7\\sqrt2 \\Rightarrow V_X(2\\sqrt2-1)=7\\sqrt2 \\Rightarrow V_X = \\dfrac{7\\sqrt2}{2\\sqrt2-1} = \\dfrac{7\\sqrt2(2\\sqrt2+1)}{(2\\sqrt2)^2-1^2} = \\dfrac{7\\sqrt2(2\\sqrt2+1)}{7} = \\sqrt2(2\\sqrt2+1) = 4+\\sqrt2$.",
@@ -8076,30 +7806,6 @@
     },
     "answer": "C",
     "technique": "Power delivered to town $= 33000 \\times 1500 = 4.95\\times10^7$ W. This equals the power on the transmission line, so line voltage $= P/450 = 110000$ V. This is the secondary voltage of the step-up transformer, which steps up by a factor $1500/300=5$. Station output $= 110000/5 = 22000$ V.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
-    "id": "ENGAA-2023-M2-002",
-    "source": "ENGAA 2023",
-    "year": 2023,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-algebra",
-    "subtopic": "solving simultaneous exponential equations",
-    "difficulty": 4,
-    "question": "The equation $10^{2a+4} \\times 2\\times10^{a}= 8\\times10^{9} \\times 3\\times10^{-1}\\ /\\ (\\text{approx. reconstructed from garbled source})$ has two solutions for a. What is the positive difference between these two solutions?",
-    "options": {
-      "A": "0",
-      "B": "2\\sqrt{5}",
-      "C": "4\\sqrt{5}",
-      "D": "20\\sqrt{5}",
-      "E": "40\\sqrt{5}",
-      "F": "200\\sqrt{5}"
-    },
-    "answer": "B",
-    "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -8162,12 +7868,12 @@
     "difficulty": 3,
     "question": "A battery and two resistors X and Y are connected in series. The power transferred by the battery is 6 W. The resistance of X is 10 $\\Omega$. The voltage across Y is 4 V. What is the current in the circuit?",
     "options": {
-      "A": "\\frac{2}{5}\\text{ A}",
-      "B": "\\frac{3}{5}\\text{ A}",
-      "C": "\\frac{3}{4}\\text{ A}",
-      "D": "1\\text{ A}",
-      "E": "\\frac{3}{10}\\text{ A}",
-      "F": "\\frac{3}{5}\\text{ A}"
+      "A": "$\\frac{2}{5}\\text{ A}$",
+      "B": "$\\frac{3}{5}\\text{ A}$",
+      "C": "$\\frac{3}{4}\\text{ A}$",
+      "D": "$1\\text{ A}$",
+      "E": "$\\frac{3}{10}\\text{ A}$",
+      "F": "$\\frac{3}{5}\\text{ A}$"
     },
     "answer": "B",
     "technique": "Total EMF $V = IR_X + V_Y = 10I+4$. Power: $P=IV=I(10I+4)=6 \\Rightarrow 10I^2+4I-6=0 \\Rightarrow 5I^2+2I-3=0$. Factoring: $(5I-3)(I+1)=0$, so $I = 3/5$ A (taking the positive root).",
@@ -8186,9 +7892,9 @@
     "difficulty": 4,
     "question": "Find the maximum value of $\\sin^2 x \\,(3-\\sin x)$ [expression reconstructed approximately from garbled source] where $0° \\le x \\le 360°$.",
     "options": {
-      "A": "\\frac{2}{3}",
+      "A": "$\\frac{2}{3}$",
       "B": "1",
-      "C": "\\frac{3}{2}",
+      "C": "$\\frac{3}{2}$",
       "D": "2",
       "E": "3",
       "F": "6"
@@ -8210,14 +7916,14 @@
     "difficulty": 4,
     "question": "A diver at the bottom of a lake of depth d fills a syringe with an ideal gas and seals the nozzle. The piston remains free to move. The volume of the gas in the syringe at the bottom of the lake is 90 cm$^3$. As the diver returns to the surface, the temperature of the gas does not change. At the surface of the lake the gas in the syringe is at atmospheric pressure and the volume of the gas is 720 cm$^3$. What is the volume of the gas in the syringe at a depth $d/2$?",
     "options": {
-      "A": "160 cm^3",
-      "B": "180 cm^3",
-      "C": "206 cm^3",
-      "D": "225 cm^3",
-      "E": "288 cm^3",
-      "F": "315 cm^3",
-      "G": "360 cm^3",
-      "H": "405 cm^3"
+      "A": "$160\\ \\text{cm}^{3}$",
+      "B": "$180\\ \\text{cm}^{3}$",
+      "C": "$206\\ \\text{cm}^{3}$",
+      "D": "$225\\ \\text{cm}^{3}$",
+      "E": "$288\\ \\text{cm}^{3}$",
+      "F": "$315\\ \\text{cm}^{3}$",
+      "G": "$360\\ \\text{cm}^{3}$",
+      "H": "$405\\ \\text{cm}^{3}$"
     },
     "answer": "A",
     "technique": "By Boyle's law: $P_{bottom}\\times90 = P_{atm}\\times720 \\Rightarrow P_{bottom}=8P_{atm}$. Since pressure increases linearly with depth, $P_{bottom}=P_{atm}+\\rho g d = 8P_{atm} \\Rightarrow \\rho g d = 7P_{atm}$. At depth $d/2$: $P(d/2) = P_{atm}+3.5P_{atm}=4.5P_{atm}$. Then $V(d/2) = P_{bottom}\\times90/P(d/2) = 8P_{atm}\\times90/(4.5P_{atm}) = 160\\text{ cm}^3$.",
@@ -8239,8 +7945,8 @@
       "A": "-39",
       "B": "-21",
       "C": "-3",
-      "D": "-\\frac{3}{5}",
-      "E": "\\frac{3}{5}",
+      "D": "$-\\frac{3}{5}$",
+      "E": "$\\frac{3}{5}$",
       "F": "3",
       "G": "21",
       "H": "39"
@@ -8285,10 +7991,10 @@
     "difficulty": 3,
     "question": "An arithmetic progression has first term a and common difference d. The sum of the first 9 terms plus the sum of the first 10 terms is equal to the sum of the first 11 terms. Which of the following is a correct expression for a in terms of d?",
     "options": {
-      "A": "a = -\\frac{13}{4}d",
-      "B": "a = -\\frac{15}{4}d",
-      "C": "a = -\\frac{16}{3}d",
-      "D": "a = -\\frac{19}{3}d",
+      "A": "$a = -\\frac{13}{4}d$",
+      "B": "$a = -\\frac{15}{4}d$",
+      "C": "$a = -\\frac{16}{3}d$",
+      "D": "$a = -\\frac{19}{3}d$",
       "E": "a = -7d",
       "F": "a = -8d"
     },
@@ -8336,10 +8042,10 @@
     "options": {
       "A": "-54",
       "B": "-27",
-      "C": "-13\\frac{1}{2}",
+      "C": "$-13\\frac{1}{2}$",
       "D": "-2",
       "E": "2",
-      "F": "13\\frac{1}{2}",
+      "F": "$13\\frac{1}{2}$",
       "G": "27",
       "H": "54"
     },
@@ -8363,11 +8069,11 @@
       "A": "450 W",
       "B": "900 W",
       "C": "4500 W",
-      "D": "4500\\sqrt{3}\\text{ W}",
+      "D": "$4500\\sqrt{3}\\text{ W}$",
       "E": "6750 W",
       "F": "9000 W",
       "G": "13500 W",
-      "H": "9000\\sqrt{3}\\text{ W}"
+      "H": "$9000\\sqrt{3}\\text{ W}$"
     },
     "answer": "C",
     "technique": "Constant speed means friction balances the component of gravity along the slope: $f = mg\\sin\\theta = 60\\times10\\times\\sin30° = 300$ N. Rate of thermal energy production $= f\\times v = 300\\times15=4500$ W.",
@@ -8435,12 +8141,12 @@
     "options": {
       "A": "2",
       "B": "7",
-      "C": "3-\\frac{\\sqrt2}{2}",
-      "D": "3-7\\sqrt2",
-      "E": "4-3\\sqrt2",
-      "F": "4\\sqrt2-6",
-      "G": "4\\sqrt2-12",
-      "H": "7\\sqrt2-18"
+      "C": "$3-\\frac{\\sqrt2}{2}$",
+      "D": "$3-7\\sqrt2$",
+      "E": "$4-3\\sqrt2$",
+      "F": "$4\\sqrt2-6$",
+      "G": "$4\\sqrt2-12$",
+      "H": "$7\\sqrt2-18$"
     },
     "answer": "F",
     "technique": "$f(x)=2(x^2-3x)+4 = 2\\left[(x-\\tfrac32)^2-\\tfrac94\\right]+4 = 2(x-\\tfrac32)^2-\\tfrac92+4=2(x-\\tfrac32)^2-\\tfrac12$. So $p=2$, $q=-\\tfrac32$, $r=-\\tfrac12$. Then $p(r-q) = 2\\left(-\\tfrac12-(-\\tfrac32)\\right) = 2(1) = 2$. [Note: numeric check gives 2, matching option A in a straightforward reading, but the official key indicates F; the constants may involve $\\sqrt2$ terms not fully captured by plain completing-the-square if the original coefficients differ from this reconstruction.] [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -8460,12 +8166,12 @@
     "question": "Two identical, uniform, thin planks, each of mass 40 kg, are propped up against one another in equilibrium on a rough surface, forming an A-frame shape. Each plank is at an angle of 30° to the vertical. [DIAGRAM: two planks leaning against each other at their tops, each at 30° to vertical, with point P marked at the base of one plank on the ground]. What is the magnitude of the friction force at point P? (gravitational field strength = 10 N/kg)",
     "options": {
       "A": "100 N",
-      "B": "\\frac{200}{\\sqrt3}\\text{ N}",
+      "B": "$\\frac{200}{\\sqrt3}\\text{ N}$",
       "C": "200 N",
-      "D": "200\\sqrt3\\text{ N}",
-      "E": "\\frac{400}{\\sqrt3}\\text{ N}",
+      "D": "$200\\sqrt3\\text{ N}$",
+      "E": "$\\frac{400}{\\sqrt3}\\text{ N}$",
       "F": "400 N",
-      "G": "400\\sqrt3\\text{ N}"
+      "G": "$400\\sqrt3\\text{ N}$"
     },
     "answer": "B",
     "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -8485,11 +8191,11 @@
     "question": "Which of the following is equal to $\\displaystyle\\int (3x-5)^{-2/3}\\,dx$ evaluated between appropriate limits [expression reconstructed approximately from garbled source text]?",
     "options": {
       "A": "0",
-      "B": "\\frac{2}{3}",
-      "C": "\\frac{8}{3}",
+      "B": "$\\frac{2}{3}$",
+      "C": "$\\frac{8}{3}$",
       "D": "4",
-      "E": "\\frac{28-12\\sqrt5}{3}",
-      "F": "28-12\\sqrt5"
+      "E": "$\\frac{28-12\\sqrt5}{3}$",
+      "F": "$28-12\\sqrt5$"
     },
     "answer": "E",
     "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -8535,11 +8241,11 @@
     "options": {
       "A": "-5",
       "B": "-4",
-      "C": "-\\frac{7}{5}",
+      "C": "$-\\frac{7}{5}$",
       "D": "-1",
-      "E": "\\frac{9}{5}",
+      "E": "$\\frac{9}{5}$",
       "F": "2",
-      "G": "\\frac{14}{5}",
+      "G": "$\\frac{14}{5}$",
       "H": "3"
     },
     "answer": "C",
@@ -8585,10 +8291,10 @@
     "difficulty": 3,
     "question": "Find the real value of x that satisfies $\\log_3(x^2+3x+2) = 2+\\log_3(x^2+2x)$.",
     "options": {
-      "A": "\\frac{1}{8}",
-      "B": "\\frac{1}{7}",
-      "C": "\\frac{1}{6}",
-      "D": "\\frac{1}{2}",
+      "A": "$\\frac{1}{8}$",
+      "B": "$\\frac{1}{7}$",
+      "C": "$\\frac{1}{6}$",
+      "D": "$\\frac{1}{2}$",
       "E": "2",
       "F": "7"
     },
@@ -8609,12 +8315,12 @@
     "difficulty": 3,
     "question": "A 20 V battery of negligible internal resistance is connected in series with a 20 $\\Omega$ resistor and a cylindrical conductor. The current in the circuit is 0.20 A. The cylindrical conductor is now removed, melted and re-formed into a new cylinder. After the cylinder has cooled to its original temperature, its length is 4 times greater than that of the original cylinder. What is the resistance of the new cylinder?",
     "options": {
-      "A": "5.0 \\Omega",
-      "B": "20 \\Omega",
-      "C": "320 \\Omega",
-      "D": "400 \\Omega",
-      "E": "1280 \\Omega",
-      "F": "1600 \\Omega"
+      "A": "$5.0\\ \\Omega$",
+      "B": "$20\\ \\Omega$",
+      "C": "$320\\ \\Omega$",
+      "D": "$400\\ \\Omega$",
+      "E": "$1280\\ \\Omega$",
+      "F": "$1600\\ \\Omega$"
     },
     "answer": "E",
     "technique": "Original: $V_{cyl} = 20 - 0.2\\times20 = 16$ V, so $R_{cyl} = 16/0.2 = 80\\,\\Omega$. When re-formed with the same volume but 4x the length, the cross-sectional area becomes $A/4$. Since $R=\\rho L/A$, $R_{new}/R_{old} = (4L/L)/(\\tfrac14A/A) = 4\\times4=16$. $R_{new} = 80\\times16=1280\\,\\Omega$.",
@@ -8633,12 +8339,12 @@
     "difficulty": 3,
     "question": "What is the constant term in the simplified binomial expansion of $\\left(\\dfrac{x}{4}+\\dfrac{2}{x}\\right)^8$?",
     "options": {
-      "A": "\\frac{7}{2}",
-      "B": "\\frac{35}{8}",
-      "C": "\\frac{1}{16}",
-      "D": "\\frac{7}{256}",
-      "E": "\\frac{35}{1024}",
-      "F": "\\frac{1}{2048}"
+      "A": "$\\frac{7}{2}$",
+      "B": "$\\frac{35}{8}$",
+      "C": "$\\frac{1}{16}$",
+      "D": "$\\frac{7}{256}$",
+      "E": "$\\frac{35}{1024}$",
+      "F": "$\\frac{1}{2048}$"
     },
     "answer": "B",
     "technique": "General term: $\\binom{8}{k}\\left(\\dfrac{x}{4}\\right)^{8-k}\\left(\\dfrac{2}{x}\\right)^k = \\binom{8}{k}\\left(\\dfrac14\\right)^{8-k}2^k\\,x^{8-2k}$. Constant term needs $8-2k=0 \\Rightarrow k=4$: $\\binom{8}{4}\\left(\\dfrac14\\right)^4 2^4 = 70\\times\\dfrac{1}{256}\\times16 = \\dfrac{70\\times16}{256}=\\dfrac{1120}{256}=\\dfrac{35}{8}$.",
@@ -8657,11 +8363,11 @@
     "difficulty": 5,
     "question": "A sound wave can travel from a source at P to a detector at R directly or by reflecting at Q. The angle between PR and PQ is 30° and the distance from P to R is d. [DIAGRAM: source P, detector R, reflecting surface with reflection point Q; angle QPR = 30°, distance PR = d]. There is a phase difference of $\\pi$ radians between the incident and reflected wave at Q. Waves that reach R via Q are in phase with waves that reach R directly from P. Which expression gives the greatest wavelength of sound waves for which this is true?",
     "options": {
-      "A": "2d\\left(\\dfrac{2}{\\sqrt3}-1\\right)",
-      "B": "d\\left(\\dfrac{2}{\\sqrt3}-1\\right)",
-      "C": "d(2-\\sqrt3)",
-      "D": "\\dfrac{4d}{3}",
-      "E": "\\dfrac{2d}{3}"
+      "A": "$2d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
+      "B": "$d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
+      "C": "$d(2-\\sqrt3)$",
+      "D": "$\\dfrac{4d}{3}$",
+      "E": "$\\dfrac{2d}{3}$"
     },
     "answer": "A",
     "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -8680,14 +8386,14 @@
     "difficulty": 4,
     "question": "Given that $x^2+y^2=1$, what is the greatest possible value of $2x+3y$?",
     "options": {
-      "A": "\\frac{7}{2}",
+      "A": "$\\frac{7}{2}$",
       "B": "3",
-      "C": "\\frac{5\\sqrt2}{2}",
+      "C": "$\\frac{5\\sqrt2}{2}$",
       "D": "7",
       "E": "10",
-      "F": "\\frac{13\\sqrt{10}}{10}",
-      "G": "\\sqrt{13}",
-      "H": "\\frac{12\\sqrt{13}}{13}"
+      "F": "$\\frac{13\\sqrt{10}}{10}$",
+      "G": "$\\sqrt{13}$",
+      "H": "$\\frac{12\\sqrt{13}}{13}$"
     },
     "answer": "G",
     "technique": "By the Cauchy-Schwarz inequality (or writing $x=\\cos\\theta,y=\\sin\\theta$), the maximum of $ax+by$ subject to $x^2+y^2=1$ is $\\sqrt{a^2+b^2}$. Here $\\sqrt{2^2+3^2}=\\sqrt{13}$.",
@@ -11774,11 +11480,11 @@
     "difficulty": 3,
     "question": "Car X travels at 1.5× the speed of car Y, with mass $\\frac45$ that of car Y. How do their kinetic energies compare?",
     "options": {
-      "A": "KE_X = 0.90 × KE_Y",
-      "B": "KE_X = 0.96 × KE_Y",
-      "C": "KE_X = 1.20 × KE_Y",
-      "D": "KE_X = 1.44 × KE_Y",
-      "E": "KE_X = 1.80 × KE_Y"
+      "A": "$\\text{KE}_X = 0.90 \\times \\text{KE}_Y$",
+      "B": "$\\text{KE}_X = 0.96 \\times \\text{KE}_Y$",
+      "C": "$\\text{KE}_X = 1.20 \\times \\text{KE}_Y$",
+      "D": "$\\text{KE}_X = 1.44 \\times \\text{KE}_Y$",
+      "E": "$\\text{KE}_X = 1.80 \\times \\text{KE}_Y$"
     },
     "answer": "E",
     "technique": "$\\dfrac{KE_X}{KE_Y}=\\dfrac{m_X}{m_Y}\\left(\\dfrac{v_X}{v_Y}\\right)^2=0.8\\times1.5^2=0.8\\times2.25=1.8$.",
@@ -13150,11 +12856,11 @@
     "question": "A cuboid has sides of length x, 2x and (x + 2), measured in cm. The volume, in cm3, of the cuboid is numerically equal to twice the total surface area, in cm2, of the cuboid. What is the value of x?",
     "options": {
       "A": "10",
-      "B": "6 + 2\\sqrt{2}",
+      "B": "$6 + 2\\sqrt{2}$",
       "C": "5",
-      "D": "3 + \\sqrt{2}",
+      "D": "$3 + \\sqrt{2}$",
       "E": "5/2",
-      "F": "(3 + 2\\sqrt{2})/2"
+      "F": "$(3 + 2\\sqrt{2})/2$"
     },
     "answer": "B",
     "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -13201,15 +12907,15 @@
     "options": {
       "A": "6",
       "B": "3",
-      "C": "3\\sqrt{2}",
-      "D": "2\\sqrt{15}",
-      "E": "4\\sqrt{6}",
+      "C": "$3\\sqrt{2}$",
+      "D": "$2\\sqrt{15}$",
+      "E": "$4\\sqrt{6}$",
       "F": "12",
-      "G": "12\\sqrt{2}",
-      "H": "8\\sqrt{15}"
+      "G": "$12\\sqrt{2}$",
+      "H": "$8\\sqrt{15}$"
     },
     "answer": "D",
-    "technique": "Let QR = a, PQ = 2a. Area = 2a^2 = 96 \\Rightarrow a^2 = 48. The diagonal of the rectangle is a diameter: $\\text{diag}^2 = (2a)^2+a^2 = 5a^2 = 240$, so diag $=\\sqrt{240}=4\\sqrt{15}$. Radius $= \\tfrac12 \\times 4\\sqrt{15} = 2\\sqrt{15}$.",
+    "technique": "Let $QR = a$, $PQ = 2a$. Area $= 2a^2 = 96 \\Rightarrow a^2 = 48$. The diagonal of the rectangle is a diameter: $\\text{diag}^2 = (2a)^2+a^2 = 5a^2 = 240$, so diag $=\\sqrt{240}=4\\sqrt{15}$. Radius $= \\tfrac12 \\times 4\\sqrt{15} = 2\\sqrt{15}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -13305,7 +13011,7 @@
       "F": "258"
     },
     "answer": "C",
-    "technique": "Find the three vertices: (5x+2y=20)\\cap(y=3x-23) gives (6,-5); (5x+2y=20)\\cap(x=0) gives (0,10); (y=3x-23)\\cap(x=0) gives (0,-23). Using the shoelace formula on (6,-5),(0,10),(0,-23): Area $=\\tfrac12|6(10-(-23))+0(-23-(-5))+0(-5-10)| = \\tfrac12|6\\times33| = 99$.",
+    "technique": "Find the three vertices: $(5x+2y=20)\\cap(y=3x-23)$ gives $(6,-5)$; $(5x+2y=20)\\cap(x=0)$ gives $(0,10)$; $(y=3x-23)\\cap(x=0)$ gives $(0,-23)$. Using the shoelace formula on (6,-5),(0,10),(0,-23): Area $=\\tfrac12|6(10-(-23))+0(-23-(-5))+0(-5-10)| = \\tfrac12|6\\times33| = 99$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -13331,7 +13037,7 @@
       "H": "400000π"
     },
     "answer": "E",
-    "technique": "Volume scales as (length scale)^3: model volume $=12\\pi \\times \\left(\\tfrac{1}{40}\\right)^3 \\text{ m}^3 = \\dfrac{12\\pi \\times 10^6}{64000}\\text{ cm}^3 = 187.5\\pi\\text{ cm}^3$. Mass $=$ volume $\\times$ density $=187.5\\pi \\times \\tfrac{4}{3} = 250\\pi$ g.",
+    "technique": "Volume scales as $(\\text{length scale})^3$: model volume $=12\\pi \\times \\left(\\tfrac{1}{40}\\right)^3 \\text{ m}^3 = \\dfrac{12\\pi \\times 10^6}{64000}\\text{ cm}^3 = 187.5\\pi\\text{ cm}^3$. Mass $=$ volume $\\times$ density $=187.5\\pi \\times \\tfrac{4}{3} = 250\\pi$ g.",
     "origin": "past-paper",
     "quality_tier": 1,
     "spec_status": null
@@ -13616,16 +13322,16 @@
     "topic": "phy-waves",
     "subtopic": "Wave speed, frequency and wavelength (EM spectrum)",
     "difficulty": 3,
-    "question": "When travelling in a vacuum, visible light has a wavelength between 400nm and 700nm. The speed of light in a vacuum is 3.0×10^8 ms-1. What can be concluded about ultraviolet radiation from this information?",
+    "question": "When travelling in a vacuum, visible light has a wavelength between $400\\text{ nm}$ and $700\\text{ nm}$. The speed of light in a vacuum is $3.0\\times10^8\\ \\text{m s}^{-1}$. What can be concluded about ultraviolet radiation from this information?",
     "options": {
-      "A": "It has a maximum frequency of 2.7×10^14 Hz",
-      "B": "It has a maximum frequency of 4.3×10^14 Hz",
-      "C": "It has a maximum frequency of 7.5×10^14 Hz",
-      "D": "It has a maximum frequency of 1.0×10^15 Hz",
-      "E": "It has a minimum frequency of 2.7×10^14 Hz",
-      "F": "It has a minimum frequency of 4.3×10^14 Hz",
-      "G": "It has a minimum frequency of 7.5×10^14 Hz",
-      "H": "It has a minimum frequency of 1.0×10^15 Hz"
+      "A": "It has a maximum frequency of $2.7\\times10^{14}\\text{ Hz}$",
+      "B": "It has a maximum frequency of $4.3\\times10^{14}\\text{ Hz}$",
+      "C": "It has a maximum frequency of $7.5\\times10^{14}\\text{ Hz}$",
+      "D": "It has a maximum frequency of $1.0\\times10^{15}\\text{ Hz}$",
+      "E": "It has a minimum frequency of $2.7\\times10^{14}\\text{ Hz}$",
+      "F": "It has a minimum frequency of $4.3\\times10^{14}\\text{ Hz}$",
+      "G": "It has a minimum frequency of $7.5\\times10^{14}\\text{ Hz}$",
+      "H": "It has a minimum frequency of $1.0\\times10^{15}\\text{ Hz}$"
     },
     "answer": "G",
     "technique": "Ultraviolet has shorter wavelength (higher frequency) than visible light. The boundary is at the shortest visible wavelength, 400nm: $f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\\times10^8}{400\\times10^{-9}}=7.5\\times10^{14}$ Hz. Since UV frequencies are all above this, UV has a minimum frequency of $7.5\\times10^{14}$ Hz.",
@@ -13862,7 +13568,7 @@
     "topic": "phy-mechanics",
     "subtopic": "Terminal velocity and air resistance constant from graph",
     "difficulty": 4,
-    "question": "A skydiver of weight 1000N falls vertically. [DIAGRAM: distance-time graph for the skydiver, distance axis 0-500m, time axis 0-12s, curve approaching a straight line (terminal velocity) at large t]. The air resistance F (in N) acting on the skydiver travelling at velocity v (in m s-1) is given by the equation F = kv^2 where k (in N m-2 s2) is a constant. What is the numerical value of k for the skydiver?",
+    "question": "A skydiver of weight 1000N falls vertically. [DIAGRAM: distance-time graph for the skydiver, distance axis 0-500m, time axis 0-12s, curve approaching a straight line (terminal velocity) at large t]. The air resistance $F$ (in $\\text{N}$) acting on the skydiver travelling at velocity $v$ (in $\\text{m s}^{-1}$) is given by the equation $F = kv^2$ where $k$ (in $\\text{N m}^{-2}\\,\\text{s}^2$) is a constant. What is the numerical value of $k$ for the skydiver?",
     "options": {
       "A": "0.050",
       "B": "0.40",
@@ -14906,7 +14612,7 @@
     "topic": "m1-geometry",
     "subtopic": "Area between a parabola and a horizontal line",
     "difficulty": 2,
-    "question": "Curve C has equation y = 9 - x^2. Line L has equation y = 5. What is the area enclosed between C and L?",
+    "question": "Curve $C$ has equation $y = 9 - x^2$. Line $L$ has equation $y = 5$. What is the area enclosed between $C$ and $L$?",
     "options": {
       "A": "32/3",
       "B": "62/3",
@@ -14955,7 +14661,7 @@
     "topic": "m2-trig",
     "subtopic": "Trigonometric equation - number of solutions",
     "difficulty": 4,
-    "question": "How many solutions of the equation 2 sin^3(θ) = sin(θ) lie in the interval -π/2 ≤ θ ≤ π?",
+    "question": "How many solutions of the equation $2\\sin^3\\theta = \\sin\\theta$ lie in the interval $-\\tfrac{\\pi}{2} \\le \\theta \\le \\pi$?",
     "options": {
       "A": "2",
       "B": "3",
@@ -15003,7 +14709,7 @@
     "topic": "m2-coord-geom",
     "subtopic": "Tangent line to a parabola (discriminant condition)",
     "difficulty": 3,
-    "question": "The line y = x + k, where k is a constant, is a tangent to the curve y = 3x^2 - 2x + 1. What is the value of k?",
+    "question": "The line $y = x + k$, where $k$ is a constant, is a tangent to the curve $y = 3x^2 - 2x + 1$. What is the value of $k$?",
     "options": {
       "A": "-2",
       "B": "-1",
@@ -15148,7 +14854,7 @@
     "topic": "m2-coord-geom",
     "subtopic": "Tangent length to a circle",
     "difficulty": 3,
-    "question": "Circle C has equation (x + 3)^2 + (y - 2)^2 = 5. The length of the tangent from the circle C to the point P is 5√3. What is the shortest distance from P to C?",
+    "question": "Circle $C$ has equation $(x + 3)^2 + (y - 2)^2 = 5$. The length of the tangent from the circle $C$ to the point $P$ is $5\\sqrt{3}$. What is the shortest distance from $P$ to $C$?",
     "options": {
       "A": "5√3",
       "B": "5√3 + 5",
@@ -15195,7 +14901,7 @@
     "topic": "m2-algebra",
     "subtopic": "Binomial expansion coefficient",
     "difficulty": 3,
-    "question": "What is the coefficient of x^3 in the expansion of (1 - 2x)^5 (1 + 2x)^5?",
+    "question": "What is the coefficient of $x^3$ in the expansion of $(1 - 2x)^5 (1 + 2x)^5$?",
     "options": {
       "A": "-6400",
       "B": "-640",
@@ -15237,30 +14943,6 @@
     "spec_status": null
   },
   {
-    "id": "NSAA-2018-M2-007",
-    "source": "NSAA 2018",
-    "year": 2018,
-    "paper": "Section 1",
-    "module": "maths2",
-    "topic": "m2-integration",
-    "subtopic": "Definite integrals with an unknown parameter",
-    "difficulty": 4,
-    "question": "Given that ∫[0 to 2] (16x - x^2) dx = 7/... and ∫[0 to 2] (9x - 2x^2) dx = m + 32/..., find the value of m. [DIAGRAM/garbled: two definite integral expressions with numeric results, solve for parameter m]",
-    "options": {
-      "A": "-11/2",
-      "B": "-9/2",
-      "C": "-22/29",
-      "D": "7/22",
-      "E": "5/2",
-      "F": "7/2"
-    },
-    "answer": "E",
-    "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "NSAA-2018-PHY-026",
     "source": "NSAA 2018",
     "year": 2018,
@@ -15294,11 +14976,11 @@
     "difficulty": 4,
     "question": "The dimensions of a solid cuboid, in cm, are x, 2x and y. The volume of the cuboid is 576cm3. At this volume, the surface area of the cuboid has its maximum value. What is the area, in cm2, of the face that has the largest area?",
     "options": {
-      "A": "(2882)^(2/3)",
+      "A": "$(2882)^{2/3}$",
       "B": "72",
       "C": "96",
       "D": "432",
-      "E": "(1444)^(2/3)"
+      "E": "$(1444)^{2/3}$"
     },
     "answer": "C",
     "technique": "Volume: $2x^2y=576 \\Rightarrow y=\\dfrac{288}{x^2}$. Surface area: $S=2(2x^2+xy+2xy)=4x^2+6xy=4x^2+\\dfrac{1728}{x}$. Setting $\\dfrac{dS}{dx}=8x-\\dfrac{1728}{x^2}=0 \\Rightarrow 8x^3=1728 \\Rightarrow x^3=216 \\Rightarrow x=6$. Then $y=\\dfrac{288}{36}=8$. The three distinct face areas are $x(2x)=72$, $xy=48$, $2xy=96$. The largest face area is $96\\text{ cm}^2$.",
@@ -20107,31 +19789,6 @@
     "spec_status": null
   },
   {
-    "id": "NSAA-2021-PHY-006",
-    "source": "NSAA 2021",
-    "year": 2021,
-    "paper": "Section 1",
-    "module": "physics",
-    "topic": "phy-radioactivity",
-    "subtopic": "Nuclide notation and neutron number",
-    "difficulty": 4,
-    "question": "Q is an element with several isotopes. The nuclide with mass number $(7-3x)$ and atomic number $x$ contains 6 neutrons more than the nuclide with mass number $(2x+3)$ and atomic number $x$. Another isotope of Q is the nuclide with mass number $(3x+1)$ and atomic number $x$. How many neutrons does the nuclide $(3x+1, x)$ contain?",
-    "options": {
-      "A": "9",
-      "B": "16",
-      "C": "19",
-      "D": "21",
-      "E": "25",
-      "F": "33",
-      "G": "49"
-    },
-    "answer": "F",
-    "technique": "Neutrons of first nuclide: $(7-3x)-x=7-4x$. Neutrons of second: $(2x+3)-x=x+3$. Given first has 6 more neutrons than second: $7-4x=(x+3)+6 \\Rightarrow 7-4x=x+9 \\Rightarrow -5x=2$... solving with the official relation yields $x=8$ (per key), giving mass number $3(8)+1=25$, neutrons $=25-8=17$; cross-checked against the answer key value of 33 neutrons requires the reconstructed atomic number $x$ that satisfies the key. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "NSAA-2021-PHY-007",
     "source": "NSAA 2021",
     "year": 2021,
@@ -23085,32 +22742,6 @@
     "spec_status": null
   },
   {
-    "id": "NSAA-2022-BIO-010",
-    "source": "NSAA 2022",
-    "year": 2022,
-    "paper": "Section 1",
-    "module": "biology",
-    "topic": "bio-ecosystems",
-    "subtopic": "Kite diagram interpretation (belt transect)",
-    "difficulty": 3,
-    "question": "Students collected data using a belt transect on a beach and recorded results in a kite diagram (six species Q, R, S, T, V, W; shading width represents abundance; data recorded every 5m) [DIAGRAM: kite diagram along a 0-50m transect]. Which of the following statements is/are correct? (1) The sampling site with the highest number of different species is at 35m. (2) The abundance of species T, V and W is the same. (3) At a distance of 5m, species Q is the only species present.",
-    "options": {
-      "A": "none of them",
-      "B": "1 only",
-      "C": "2 only",
-      "D": "3 only",
-      "E": "1 and 2 only",
-      "F": "1 and 3 only",
-      "G": "2 and 3 only",
-      "H": "1, 2 and 3"
-    },
-    "answer": "F",
-    "technique": "This question requires reading species presence/abundance directly from the kite diagram at specific transect points (35m and 5m) and comparing shading widths for species T, V, W. Based on the diagram (not fully recoverable from text extraction), statements 1 (highest diversity at 35m) and 3 (only species Q present at 5m) are correct, while statement 2 (equal abundance of T, V, W) is not supported by the diagram's shading widths.",
-    "origin": "past-paper",
-    "quality_tier": 1,
-    "spec_status": null
-  },
-  {
     "id": "NSAA-2022-BIO-011",
     "source": "NSAA 2022",
     "year": 2022,
@@ -23379,11 +23010,11 @@
     "options": {
       "A": "R = 5r",
       "B": "R = 12r",
-      "C": "R = 2\\sqrt{5}r",
-      "D": "R = \\frac{1}{2}\\sqrt{10}r",
-      "E": "R = \\sqrt{10}r",
-      "F": "R = \\frac{3}{2}\\sqrt{10}r",
-      "G": "R = \\sqrt{15}r"
+      "C": "$R = 2\\sqrt{5}r$",
+      "D": "$R = \\frac{1}{2}\\sqrt{10}r$",
+      "E": "$R = \\sqrt{10}r$",
+      "F": "$R = \\frac{3}{2}\\sqrt{10}r$",
+      "G": "$R = \\sqrt{15}r$"
     },
     "answer": "A",
     "technique": "Total surface area of one closed cylinder = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$. For 10 cylinders: $100\\pi r^2$. Set equal to sphere area: $4\\pi R^2 = 100\\pi r^2 \\Rightarrow R^2 = 25r^2 \\Rightarrow R = 5r$.",
@@ -23428,12 +23059,12 @@
     "difficulty": 3,
     "question": "Which of the following is a correct rearrangement of $y = \\frac{p-q}{s-x}$ to make x the subject?",
     "options": {
-      "A": "x = s - \\frac{p-q}{y}",
-      "B": "x = \\frac{p-q}{y} - s",
-      "C": "x = s - \\frac{p-q}{y}",
-      "D": "x = \\frac{p-q}{y} - s",
-      "E": "x = s - \\frac{y}{p-q}",
-      "F": "x = \\frac{y}{p-q} - s"
+      "A": "$x = s - \\frac{p-q}{y}$",
+      "B": "$x = \\frac{p-q}{y} - s$",
+      "C": "$x = s - \\frac{p-q}{y}$",
+      "D": "$x = \\frac{p-q}{y} - s$",
+      "E": "$x = s - \\frac{y}{p-q}$",
+      "F": "$x = \\frac{y}{p-q} - s$"
     },
     "answer": "C",
     "technique": "$y(s-x) = p-q \\Rightarrow ys - yx = p - q \\Rightarrow yx = ys-(p-q) \\Rightarrow x = s - \\frac{p-q}{y}$. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -23476,12 +23107,12 @@
     "difficulty": 4,
     "question": "[DIAGRAM: Square WXYZ of side length 1, with points M on WX, N on XY, P on YZ. WM:MX = 1:2, XN:NY = 3:1, YP:PZ = 4:1.] What is the area of triangle MNP?",
     "options": {
-      "A": "\\frac{1}{3}",
-      "B": "\\frac{2}{5}",
-      "C": "\\frac{9}{20}",
-      "D": "\\frac{1}{30}",
-      "E": "\\frac{19}{60}",
-      "F": "\\frac{23}{60}"
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{2}{5}$",
+      "C": "$\\frac{9}{20}$",
+      "D": "$\\frac{1}{30}$",
+      "E": "$\\frac{19}{60}$",
+      "F": "$\\frac{23}{60}$"
     },
     "answer": "F",
     "technique": "Place W=(0,1), X=(1,1), Y=(1,0), Z=(0,0). M on WX with WM:MX=1:2 gives M=(1/3, 1). N on XY with XN:NY=3:1 gives N=(1, 1/4). P on YZ with YP:PZ=4:1 gives P=(1/5, 0). Area of triangle MNP via shoelace formula: $\\frac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)|$. Computing gives area = 23/60, matching the answer key.",
@@ -23500,14 +23131,14 @@
     "difficulty": 4,
     "question": "The solutions of the equation $3x^2 - 6x - 2 = 0$ are p and q, where p > q. What is the value of $3p + 2q$?",
     "options": {
-      "A": "-10 - \\frac{2\\sqrt{15}}{3}",
-      "B": "-10 - \\frac{2\\sqrt{3}}{3}",
-      "C": "-5 - \\frac{1\\sqrt{15}}{3}",
-      "D": "-5 - \\frac{1\\sqrt{3}}{3}",
-      "E": "5 + \\frac{1\\sqrt{15}}{3}",
-      "F": "5 + \\frac{1\\sqrt{3}}{3}",
-      "G": "10 + \\frac{2\\sqrt{15}}{3}",
-      "H": "10 + \\frac{2\\sqrt{3}}{3}"
+      "A": "$-10 - \\frac{2\\sqrt{15}}{3}$",
+      "B": "$-10 - \\frac{2\\sqrt{3}}{3}$",
+      "C": "$-5 - \\frac{1\\sqrt{15}}{3}$",
+      "D": "$-5 - \\frac{1\\sqrt{3}}{3}$",
+      "E": "$5 + \\frac{1\\sqrt{15}}{3}$",
+      "F": "$5 + \\frac{1\\sqrt{3}}{3}$",
+      "G": "$10 + \\frac{2\\sqrt{15}}{3}$",
+      "H": "$10 + \\frac{2\\sqrt{3}}{3}$"
     },
     "answer": "E",
     "technique": "By the quadratic formula, $p,q = \\frac{6 \\pm \\sqrt{36+24}}{6} = 1 \\pm \\frac{\\sqrt{15}}{3}$. So $p = 1+\\frac{\\sqrt{15}}{3}$, $q = 1-\\frac{\\sqrt{15}}{3}$. Then $3p+2q = 3+\\sqrt{15} + 2 - \\frac{2\\sqrt{15}}{3} = 5 + \\frac{\\sqrt{15}}{3}$.",
@@ -23528,10 +23159,10 @@
     "options": {
       "A": "46%",
       "B": "57%",
-      "C": "61\\frac{3}{5}\\%",
-      "D": "66\\frac{2}{3}\\%",
+      "C": "$61\\frac{3}{5}\\%$",
+      "D": "$66\\frac{2}{3}\\%$",
       "E": "77%",
-      "F": "83\\frac{1}{3}\\%"
+      "F": "$83\\frac{1}{3}\\%$"
     },
     "answer": "D",
     "technique": "Let player's old salary = 1, coach's old salary = 0.8. New coach salary = $0.8 \\times 1.15 = 0.92$. New player salary = $1 \\times 1.38 = 1.38$. Percentage = $\\frac{0.92}{1.38} \\times 100\\% = 66\\frac{2}{3}\\%$.",
@@ -23550,13 +23181,13 @@
     "difficulty": 4,
     "question": "Two of the angles of a triangle are 90° and θ, where $\\tan\\theta = 2$. The length of the hypotenuse of the triangle is $3\\sqrt{6}$ cm. What is the area of the triangle, in cm²?",
     "options": {
-      "A": "\\frac{9\\sqrt{2}}{2}",
-      "B": "9\\sqrt{2}",
-      "C": "9\\sqrt{3}",
-      "D": "9\\sqrt{6}",
-      "E": "18\\sqrt{2}",
-      "F": "18\\sqrt{3}",
-      "G": "18\\sqrt{6}"
+      "A": "$\\frac{9\\sqrt{2}}{2}$",
+      "B": "$9\\sqrt{2}$",
+      "C": "$9\\sqrt{3}$",
+      "D": "$9\\sqrt{6}$",
+      "E": "$18\\sqrt{2}$",
+      "F": "$18\\sqrt{3}$",
+      "G": "$18\\sqrt{6}$"
     },
     "answer": "B",
     "technique": "[NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
@@ -23598,12 +23229,12 @@
     "difficulty": 3,
     "question": "The line joining the points with coordinates $(q, 2-q)$ and $(2q+2, q-4)$ is perpendicular to the line with equation $3x - 4y + 5 = 0$. What is the value of q?",
     "options": {
-      "A": "-\\frac{2}{5}",
-      "B": "-\\frac{1}{6}",
+      "A": "$-\\frac{2}{5}$",
+      "B": "$-\\frac{1}{6}$",
       "C": "1",
-      "D": "\\frac{18}{11}",
-      "E": "\\frac{16}{7}",
-      "F": "\\frac{5}{2}",
+      "D": "$\\frac{18}{11}$",
+      "E": "$\\frac{16}{7}$",
+      "F": "$\\frac{5}{2}$",
       "G": "6"
     },
     "answer": "C",
@@ -23623,14 +23254,14 @@
     "difficulty": 4,
     "question": "Two objects X and Y are similar. The surface area of object Y is double the surface area of object X. The volume of object Y is $7\\sqrt{2}$ cm³ more than the volume of object X. What is the volume of object X, in cm³?",
     "options": {
-      "A": "14 - 7\\sqrt{2}",
-      "B": "14 + 7\\sqrt{2}",
-      "C": "\\frac{42-7\\sqrt{2}}{17}",
-      "D": "\\frac{42+7\\sqrt{2}}{17}",
-      "E": "\\frac{7\\sqrt{2}}{3}",
-      "F": "7\\sqrt{2}",
-      "G": "4-\\sqrt{2}",
-      "H": "4+\\sqrt{2}"
+      "A": "$14 - 7\\sqrt{2}$",
+      "B": "$14 + 7\\sqrt{2}$",
+      "C": "$\\frac{42-7\\sqrt{2}}{17}$",
+      "D": "$\\frac{42+7\\sqrt{2}}{17}$",
+      "E": "$\\frac{7\\sqrt{2}}{3}$",
+      "F": "$7\\sqrt{2}$",
+      "G": "$4-\\sqrt{2}$",
+      "H": "$4+\\sqrt{2}$"
     },
     "answer": "H",
     "technique": "Surface area ratio 2:1 gives linear scale factor $\\sqrt{2}$, so volume scale factor $(\\sqrt{2})^3=2\\sqrt{2}$. Let volume of X = v: $2\\sqrt{2}v - v = 7\\sqrt{2} \\Rightarrow v(2\\sqrt{2}-1)=7\\sqrt{2}$. Rationalising: $v = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{(2\\sqrt{2})^2-1^2} = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{7} = \\sqrt{2}(2\\sqrt{2}+1) = 4+\\sqrt{2}$.",
@@ -23724,11 +23355,11 @@
     "question": "The 2nd term of a linear (arithmetic) sequence is equal to twice the 8th term. The 5th term is $\\frac{9}{4}$. What is the 20th term of the sequence?",
     "options": {
       "A": "-9",
-      "B": "-\\frac{7}{4}",
-      "C": "-\\frac{3}{2}",
+      "B": "$-\\frac{7}{4}$",
+      "C": "$-\\frac{3}{2}$",
       "D": "6",
-      "E": "\\frac{31}{4}",
-      "F": "\\frac{27}{2}"
+      "E": "$\\frac{31}{4}$",
+      "F": "$\\frac{27}{2}$"
     },
     "answer": "C",
     "technique": "Let first term $a$, common difference $d$. $a+d = 2(a+7d) \\Rightarrow a = -13d$. 5th term: $a+4d = -13d+4d = -9d = \\frac{9}{4} \\Rightarrow d = -\\frac{1}{4}$, so $a=\\frac{13}{4}$. 20th term $= a+19d = \\frac{13}{4} - \\frac{19}{4} = -\\frac{6}{4} = -\\frac{3}{2}$.",
@@ -23747,9 +23378,9 @@
     "difficulty": 3,
     "question": "Find the maximum value of $2^{\\sin x} \\times 3^{-\\sin x}$ where $0° \\le x \\le 360°$.",
     "options": {
-      "A": "\\frac{2}{3}",
+      "A": "$\\frac{2}{3}$",
       "B": "1",
-      "C": "\\frac{3}{2}",
+      "C": "$\\frac{3}{2}$",
       "D": "2",
       "E": "3",
       "F": "6"
@@ -23771,14 +23402,14 @@
     "difficulty": 5,
     "question": "Two bags contain counters which are identical except for colour. The first bag contains 3 blue and 2 yellow counters. The second bag contains x red, 1 blue and 2 yellow counters. A counter is picked at random from the first bag and placed in the second bag. A counter is then picked at random from the second bag. The probability that this counter is yellow is 0.2. What is the probability that this counter is red?",
     "options": {
-      "A": "\\frac{1}{4}",
-      "B": "\\frac{3}{11}",
-      "C": "\\frac{3}{10}",
-      "D": "\\frac{1}{3}",
-      "E": "\\frac{2}{3}",
-      "F": "\\frac{7}{10}",
-      "G": "\\frac{8}{11}",
-      "H": "\\frac{3}{4}"
+      "A": "$\\frac{1}{4}$",
+      "B": "$\\frac{3}{11}$",
+      "C": "$\\frac{3}{10}$",
+      "D": "$\\frac{1}{3}$",
+      "E": "$\\frac{2}{3}$",
+      "F": "$\\frac{7}{10}$",
+      "G": "$\\frac{8}{11}$",
+      "H": "$\\frac{3}{4}$"
     },
     "answer": "E",
     "technique": "P(yellow moved)=2/5 → bag2 has x,1,3 (total x+4), P(yellow drawn)=3/(x+4). P(non-yellow moved)=3/5 → bag2 has x,2,2, P(yellow drawn)=2/(x+4). Total P(yellow) = $\\frac{2}{5}\\cdot\\frac{3}{x+4} + \\frac{3}{5}\\cdot\\frac{2}{x+4} = \\frac{12/5}{x+4} = 0.2 \\Rightarrow x+4=12 \\Rightarrow x=8$. In both branches bag2 has 12 counters with 8 red (x doesn't change when a blue/yellow moves in), so P(red) $= \\frac{8}{12} = \\frac{2}{3}$.",
@@ -23797,14 +23428,14 @@
     "difficulty": 3,
     "question": "An object has mass m and weight W on the Moon. The Moon has no atmosphere. The object is released from rest at height h above the surface of the Moon. Which expression gives the speed of the object as it reaches the surface?",
     "options": {
-      "A": "\\sqrt{\\frac{hm}{W}}",
-      "B": "\\sqrt{\\frac{hm}{2W}}",
-      "C": "\\sqrt{\\frac{2mh}{W}}",
-      "D": "2\\sqrt{mhW}",
-      "E": "\\sqrt{2mhW}",
-      "F": "\\frac{h m}{W}",
-      "G": "\\sqrt{\\frac{2Wh}{m}}",
-      "H": "\\frac{2mh}{W}"
+      "A": "$\\sqrt{\\frac{hm}{W}}$",
+      "B": "$\\sqrt{\\frac{hm}{2W}}$",
+      "C": "$\\sqrt{\\frac{2mh}{W}}$",
+      "D": "$2\\sqrt{mhW}$",
+      "E": "$\\sqrt{2mhW}$",
+      "F": "$\\frac{h m}{W}$",
+      "G": "$\\sqrt{\\frac{2Wh}{m}}$",
+      "H": "$\\frac{2mh}{W}$"
     },
     "answer": "G",
     "technique": "On the Moon, $g_{moon} = W/m$. Using $v^2 = 2g_{moon}h = \\frac{2Wh}{m}$, so $v = \\sqrt{\\frac{2Wh}{m}}$.",
@@ -23901,8 +23532,8 @@
       "B": "6.0",
       "C": "10",
       "D": "17",
-      "E": "\\frac{20}{3}",
-      "F": "\\frac{40}{3}"
+      "E": "$\\frac{20}{3}$",
+      "F": "$\\frac{40}{3}$"
     },
     "answer": "B",
     "technique": "Total distance $= 5t + 10(20-t) = 200-5t$. Average speed $= \\frac{200-5t}{20} = 8.5 \\Rightarrow 200-5t=170 \\Rightarrow t=6.0$ s.",
@@ -23947,14 +23578,14 @@
     "difficulty": 3,
     "question": "The nuclide symbol for helium-3 is $^3_2\\text{He}$. A nuclide of element X has double the nuclear charge and four times the mass of helium-3. This nuclide of X decays by a single beta (β⁻) emission to form a nuclide of element Z. What is the nuclide symbol for this nuclide of Z?",
     "options": {
-      "A": "^8_2Z",
-      "B": "^8_4Z",
-      "C": "^{12}_4Z",
-      "D": "^8_5Z",
-      "E": "^{12}_5Z",
-      "F": "^{16}_5Z",
-      "G": "^7_8Z",
-      "H": "^{16}_8Z"
+      "A": "${}^{8}_{2}Z$",
+      "B": "${}^{8}_{4}Z$",
+      "C": "${}^{12}_{4}Z$",
+      "D": "${}^{8}_{5}Z$",
+      "E": "${}^{12}_{5}Z$",
+      "F": "${}^{16}_{5}Z$",
+      "G": "${}^{7}_{8}Z$",
+      "H": "${}^{16}_{8}Z$"
     },
     "answer": "E",
     "technique": "X has charge $2\\times2=4$ and mass $4\\times3=12$, so X is $^{12}_4X$. In β⁻ decay a neutron converts to a proton, so mass number stays 12 and atomic number increases by 1 to 5: $^{12}_5Z$.",
@@ -23973,12 +23604,12 @@
     "difficulty": 3,
     "question": "A solid, cylindrical metal bar has a uniform cross-sectional area of 12 cm² and a volume of 180 cm³. The bar rests on a horizontal surface on one of its circular faces. The pressure on the surface due to the bar is 0.45 N cm⁻². What is the density of the metal, in g cm⁻³? (gravitational field strength = 10 N kg⁻¹)",
     "options": {
-      "A": "2.5 gcm^{-3}",
-      "B": "3.0 gcm^{-3}",
-      "C": "3.75 gcm^{-3}",
-      "D": "7.5 gcm^{-3}",
-      "E": "15 gcm^{-3}",
-      "F": "33 gcm^{-3}"
+      "A": "$2.5\\ \\text{g cm}^{-3}$",
+      "B": "$3.0\\ \\text{g cm}^{-3}$",
+      "C": "$3.75\\ \\text{g cm}^{-3}$",
+      "D": "$7.5\\ \\text{g cm}^{-3}$",
+      "E": "$15\\ \\text{g cm}^{-3}$",
+      "F": "$33\\ \\text{g cm}^{-3}$"
     },
     "answer": "B",
     "technique": "Weight $= \\text{Pressure} \\times \\text{Area} = 0.45 \\times 12 = 5.4$ N. Mass $= \\frac{5.4}{10} = 0.54$ kg $= 540$ g. Density $= \\frac{540}{180} = 3.0$ g cm⁻³.",
@@ -24166,11 +23797,11 @@
     "difficulty": 3,
     "question": "A transverse wave with an amplitude of 3.0 cm travels along a stretched string. The wave has a frequency of 12Hz and a wavelength of 0.25 m. What is the average speed of a particle in the string as the string oscillates during a time of 2.0 s?",
     "options": {
-      "A": "36 cms^{-1}",
-      "B": "72 cms^{-1}",
-      "C": "125 cms^{-1}",
-      "D": "144 cms^{-1}",
-      "E": "300 cms^{-1}"
+      "A": "$36\\ \\text{cm s}^{-1}$",
+      "B": "$72\\ \\text{cm s}^{-1}$",
+      "C": "$125\\ \\text{cm s}^{-1}$",
+      "D": "$144\\ \\text{cm s}^{-1}$",
+      "E": "$300\\ \\text{cm s}^{-1}$"
     },
     "answer": "D",
     "technique": "In each period, a particle travels a distance of 4 × amplitude $= 4 \\times 3.0 = 12$ cm. Number of periods in 2.0s $= f \\times t = 12 \\times 2.0 = 24$. Total distance $= 24 \\times 12 = 288$ cm. Average speed $= \\frac{288}{2.0} = 144$ cm/s.",
@@ -24215,12 +23846,12 @@
     "difficulty": 3,
     "question": "A battery and two resistors X and Y are connected in series. The power transferred by the battery is 6W. The resistance of X is 10Ω. The voltage across Y is 4V. What is the current in the circuit?",
     "options": {
-      "A": "\\frac{2}{5}A",
-      "B": "\\frac{3}{5}A",
-      "C": "\\frac{3}{4}A",
+      "A": "$\\frac{2}{5}\\text{A}$",
+      "B": "$\\frac{3}{5}\\text{A}$",
+      "C": "$\\frac{3}{4}\\text{A}$",
       "D": "1A",
-      "E": "\\frac{3}{10}A",
-      "F": "\\frac{3}{5}A"
+      "E": "$\\frac{3}{10}\\text{A}$",
+      "F": "$\\frac{3}{5}\\text{A}$"
     },
     "answer": "B",
     "technique": "$P = I^2R_X + IV_Y = 10I^2+4I = 6 \\Rightarrow 5I^2+2I-3=0$. Solving: $I = \\frac{-2\\pm\\sqrt{4+60}}{10} = \\frac{-2\\pm8}{10}$, taking the positive root, $I = 0.6 = \\frac{3}{5}$ A.",
@@ -24239,12 +23870,12 @@
     "difficulty": 4,
     "question": "A cubic block of wood of side length L floats in water with the top face of the block horizontal and above the surface. The block is displaced downwards by a small distance $\\frac{L}{10}$ without becoming fully submerged, and then released. The density of the wood is 0.80 g cm⁻³ and the density of water is 1.0 g cm⁻³. What is the initial acceleration of the block after it is released? (gravitational field strength = 10 N kg⁻¹)",
     "options": {
-      "A": "0.80 ms^{-2}",
-      "B": "1.0 ms^{-2}",
-      "C": "1.25 ms^{-2}",
-      "D": "1.80 ms^{-2}",
-      "E": "8.0 ms^{-2}",
-      "F": "11.0 ms^{-2}"
+      "A": "$0.80\\ \\text{m s}^{-2}$",
+      "B": "$1.0\\ \\text{m s}^{-2}$",
+      "C": "$1.25\\ \\text{m s}^{-2}$",
+      "D": "$1.80\\ \\text{m s}^{-2}$",
+      "E": "$8.0\\ \\text{m s}^{-2}$",
+      "F": "$11.0\\ \\text{m s}^{-2}$"
     },
     "answer": "C",
     "technique": "At equilibrium, weight = buoyancy already. Extra buoyant (restoring) force when displaced down by $x=L/10$: $F = \\rho_{water}\\,g\\,A\\,x = 1000 \\times 10 \\times L^2 \\times \\frac{L}{10} = 1000 gL^3/10$. Mass of block $= \\rho_{wood}L^3 = 800L^3$. Acceleration $a = F/m = \\frac{1000L^3}{800L^3} = 1.25$ m/s².",
@@ -24263,14 +23894,14 @@
     "difficulty": 4,
     "question": "A diver at the bottom of a lake of depth d fills a syringe with an ideal gas and seals the nozzle. The piston remains free to move. The volume of the gas in the syringe at the bottom of the lake is 90 cm³. As the diver returns to the surface, the temperature of the gas does not change. At the surface of the lake the gas in the syringe is at atmospheric pressure and the volume of the gas is 720 cm³. What is the volume of the gas in the syringe at a depth $\\frac{d}{2}$?",
     "options": {
-      "A": "160 cm^3",
-      "B": "180 cm^3",
-      "C": "206 cm^3",
-      "D": "225 cm^3",
-      "E": "288 cm^3",
-      "F": "315 cm^3",
-      "G": "360 cm^3",
-      "H": "405 cm^3"
+      "A": "$160\\ \\text{cm}^{3}$",
+      "B": "$180\\ \\text{cm}^{3}$",
+      "C": "$206\\ \\text{cm}^{3}$",
+      "D": "$225\\ \\text{cm}^{3}$",
+      "E": "$288\\ \\text{cm}^{3}$",
+      "F": "$315\\ \\text{cm}^{3}$",
+      "G": "$360\\ \\text{cm}^{3}$",
+      "H": "$405\\ \\text{cm}^{3}$"
     },
     "answer": "A",
     "technique": "By Boyle's law, $P_1V_1=P_2V_2$: bottom pressure $P_{bottom} = P_{atm}\\times\\frac{720}{90}=8P_{atm}$, so $\\rho g d = 7P_{atm}$. At depth $d/2$: $P = P_{atm}+3.5P_{atm}=4.5P_{atm}$. Volume $= \\frac{8P_{atm}\\times90}{4.5P_{atm}} = \\frac{720}{4.5}=160$ cm³.",
@@ -24455,12 +24086,12 @@
     "difficulty": 3,
     "question": "A simple ion of an element has a mass number x, an atomic number $\\frac{x-1}{2}$ and a charge of -1. How many protons, neutrons and electrons are present in this ion?",
     "options": {
-      "A": "protons=\\frac{x-1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x-1}{2}",
-      "B": "protons=\\frac{x-1}{2}, neutrons=\\frac{x+1}{2}, electrons=\\frac{x+1}{2}",
-      "C": "protons=\\frac{x-1}{2}, neutrons=\\frac{x+1}{2}, electrons=\\frac{x-1}{2}",
-      "D": "protons=\\frac{x-1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x+1}{2}",
-      "E": "protons=\\frac{x+1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x+1}{2}",
-      "F": "protons=\\frac{x+1}{2}, neutrons=\\frac{x-1}{2}, electrons=\\frac{x-1}{2}"
+      "A": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x-1}{2}$",
+      "B": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x+1}{2},\\ \\text{electrons}=\\frac{x+1}{2}$",
+      "C": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x+1}{2},\\ \\text{electrons}=\\frac{x-1}{2}$",
+      "D": "$\\text{protons}=\\frac{x-1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x+1}{2}$",
+      "E": "$\\text{protons}=\\frac{x+1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x+1}{2}$",
+      "F": "$\\text{protons}=\\frac{x+1}{2},\\ \\text{neutrons}=\\frac{x-1}{2},\\ \\text{electrons}=\\frac{x-1}{2}$"
     },
     "answer": "B",
     "technique": "Protons $= \\frac{x-1}{2}$ (given atomic number). Neutrons $=$ mass number $-$ protons $= x - \\frac{x-1}{2} = \\frac{x+1}{2}$. For a charge of $-1$, electrons $=$ protons $+1 = \\frac{x-1}{2}+1 = \\frac{x+1}{2}$.",
@@ -24502,14 +24133,14 @@
     "difficulty": 4,
     "question": "Ethene gas and hydrogen gas react to form ethane gas. The energy change for this reaction is -150 kJmol⁻¹. Using the provided data, what is the mean C-H bond energy? (Bond energy data: H-H = 430 kJmol⁻¹; C-C = 350 kJmol⁻¹; C=C = 600 kJmol⁻¹)",
     "options": {
-      "A": "115 kJmol^{-1}",
-      "B": "200 kJmol^{-1}",
-      "C": "230 kJmol^{-1}",
-      "D": "265 kJmol^{-1}",
-      "E": "400 kJmol^{-1}",
-      "F": "415 kJmol^{-1}",
-      "G": "465 kJmol^{-1}",
-      "H": "830 kJmol^{-1}"
+      "A": "$115\\ \\text{kJ mol}^{-1}$",
+      "B": "$200\\ \\text{kJ mol}^{-1}$",
+      "C": "$230\\ \\text{kJ mol}^{-1}$",
+      "D": "$265\\ \\text{kJ mol}^{-1}$",
+      "E": "$400\\ \\text{kJ mol}^{-1}$",
+      "F": "$415\\ \\text{kJ mol}^{-1}$",
+      "G": "$465\\ \\text{kJ mol}^{-1}$",
+      "H": "$830\\ \\text{kJ mol}^{-1}$"
     },
     "answer": "F",
     "technique": "Ethene has 1 C=C + 4 C-H; ethane has 1 C-C + 6 C-H. $\\Delta H = (\\text{bonds broken}) - (\\text{bonds formed}) = (600+4x+430)-(350+6x) = 680-2x = -150$, where x is the mean C-H bond energy. So $2x=830 \\Rightarrow x=415$ kJ/mol.",
@@ -24528,12 +24159,12 @@
     "difficulty": 3,
     "question": "A water treatment unit processes 355 000 dm³ of drinking water each day. 0.4 mg of chlorine gas is used to kill the bacteria in 1 dm³ of the source water. What volume of chlorine gas, if measured at room temperature and pressure, is used each day at the water treatment unit? (Ar value: Cl = 35.5. Assume that one mole of a gas occupies 24 dm³ at room temperature and pressure.)",
     "options": {
-      "A": "6 dm^3",
-      "B": "12 dm^3",
-      "C": "48 dm^3",
-      "D": "96 dm^3",
-      "E": "300 dm^3",
-      "F": "600 dm^3"
+      "A": "$6\\ \\text{dm}^{3}$",
+      "B": "$12\\ \\text{dm}^{3}$",
+      "C": "$48\\ \\text{dm}^{3}$",
+      "D": "$96\\ \\text{dm}^{3}$",
+      "E": "$300\\ \\text{dm}^{3}$",
+      "F": "$600\\ \\text{dm}^{3}$"
     },
     "answer": "C",
     "technique": "Total mass Cl2 $= 355000 \\times 0.4$ mg $=142000$ mg $=142$ g. Molar mass Cl2 $=71$ g/mol. Moles $=142/71=2$ mol. Volume $=2\\times24=48$ dm³.",
@@ -24652,13 +24283,13 @@
     "difficulty": 3,
     "question": "A student electroplates a solid metal ball with copper. The student dissolves 80.0 g of anhydrous copper(II) sulfate in water and makes up the solution to exactly 500 cm³ to use as the electrolyte. Two electrodes are placed in this solution; one is the ball to be electroplated, the other is an inert graphite electrode. After some time, the ball is removed and found to be coated with 8.00 g of copper. Water is added to the remaining solution to give a final volume of exactly 500 cm³. What is the final concentration of copper(II) ions in solution? (Ar values: O=16; S=32; Cu=64)",
     "options": {
-      "A": "0.25 mol dm^{-3}",
-      "B": "0.38 mol dm^{-3}",
-      "C": "0.45 mol dm^{-3}",
-      "D": "0.50 mol dm^{-3}",
-      "E": "0.75 mol dm^{-3}",
-      "F": "0.90 mol dm^{-3}",
-      "G": "1.0 mol dm^{-3}"
+      "A": "$0.25\\ \\text{mol dm}^{-3}$",
+      "B": "$0.38\\ \\text{mol dm}^{-3}$",
+      "C": "$0.45\\ \\text{mol dm}^{-3}$",
+      "D": "$0.50\\ \\text{mol dm}^{-3}$",
+      "E": "$0.75\\ \\text{mol dm}^{-3}$",
+      "F": "$0.90\\ \\text{mol dm}^{-3}$",
+      "G": "$1.0\\ \\text{mol dm}^{-3}$"
     },
     "answer": "E",
     "technique": "Molar mass CuSO4 $=64+32+64=160$ g/mol. Moles CuSO4 $=80/160=0.5$ mol. Moles Cu deposited $=8.00/64=0.125$ mol, removing 0.125 mol Cu²⁺. Remaining Cu²⁺ $=0.5-0.125=0.375$ mol in 500 cm³ (0.5 dm³). Concentration $=0.375/0.5=0.75$ mol dm⁻³.",
@@ -24677,14 +24308,14 @@
     "difficulty": 4,
     "question": "The structure of cyclohexa-1,4-diene is: [DIAGRAM: six-membered ring with two C=C double bonds at the 1,4 positions]. Bromine is dissolved in inert organic solvent to form 0.250 mol dm⁻³ of bromine solution. What is the minimum volume of this bromine solution required to react completely with 0.10 cm³ of cyclohexa-1,4-diene? (Mr value: cyclohexa-1,4-diene = 80. Density = 0.84 gcm⁻³)",
     "options": {
-      "A": "0.042 cm^3",
-      "B": "0.084 cm^3",
-      "C": "0.0042 cm^3",
-      "D": "0.0084 cm^3",
-      "E": "0.042 dm^3",
-      "F": "0.084 dm^3",
-      "G": "0.0042 dm^3",
-      "H": "0.0084 dm^3"
+      "A": "$0.042\\ \\text{cm}^{3}$",
+      "B": "$0.084\\ \\text{cm}^{3}$",
+      "C": "$0.0042\\ \\text{cm}^{3}$",
+      "D": "$0.0084\\ \\text{cm}^{3}$",
+      "E": "$0.042\\ \\text{dm}^{3}$",
+      "F": "$0.084\\ \\text{dm}^{3}$",
+      "G": "$0.0042\\ \\text{dm}^{3}$",
+      "H": "$0.0084\\ \\text{dm}^{3}$"
     },
     "answer": "H",
     "technique": "Mass of diene $=0.10 \\times 0.84 = 0.084$ g. Moles $=0.084/80=1.05\\times10^{-3}$ mol. Cyclohexa-1,4-diene has 2 C=C double bonds, so it reacts with 2 mol Br2 per mol diene: moles Br2 $=2.10\\times10^{-3}$ mol. Volume of Br2 solution $=\\frac{2.10\\times10^{-3}}{0.250}=8.4\\times10^{-3}$ dm³ $=0.0084$ dm³.",
@@ -24880,14 +24511,14 @@
     "difficulty": 3,
     "question": "The diagram shows a bubble potometer at the start of an experiment, with a glass tube of internal diameter 1 mm and a scale marked 0-12 cm. [DIAGRAM: potometer with air bubble positioned initially, e.g. at the 1 cm mark.] After five minutes, one end of the air bubble had moved to the 4 cm mark on the scale. Which row is correct?",
     "options": {
-      "A": "translocation, \\pi(0.5)^2 \\times 10",
-      "B": "translocation, \\pi(0.5)^2 \\times 15",
-      "C": "translocation, 2\\pi(0.5) \\times 10",
-      "D": "translocation, 2\\pi(0.5) \\times 15",
-      "E": "transpiration, \\pi(0.5)^2 \\times 10",
-      "F": "transpiration, \\pi(0.5)^2 \\times 15",
-      "G": "transpiration, 2\\pi(0.5) \\times 10",
-      "H": "transpiration, 2\\pi(0.5) \\times 15"
+      "A": "$\\text{translocation},\\ \\pi(0.5)^2 \\times 10$",
+      "B": "$\\text{translocation},\\ \\pi(0.5)^2 \\times 15$",
+      "C": "$\\text{translocation},\\ 2\\pi(0.5) \\times 10$",
+      "D": "$\\text{translocation},\\ 2\\pi(0.5) \\times 15$",
+      "E": "$\\text{transpiration},\\ \\pi(0.5)^2 \\times 10$",
+      "F": "$\\text{transpiration},\\ \\pi(0.5)^2 \\times 15$",
+      "G": "$\\text{transpiration},\\ 2\\pi(0.5) \\times 10$",
+      "H": "$\\text{transpiration},\\ 2\\pi(0.5) \\times 15$"
     },
     "answer": "F",
     "technique": "A potometer measures water uptake by a shoot, which approximates transpiration (not translocation, which refers to phloem transport of sugars). Volume of water taken up = volume of tube the bubble traversed = $\\pi r^2 \\times \\text{distance moved}$, with r=0.5mm. Based on the diagram, the bubble moved 15mm (from its starting position to the 4cm mark), giving volume $=\\pi(0.5)^2\\times15$ mm³.",
@@ -24932,14 +24563,14 @@
     "difficulty": 3,
     "question": "A student viewed a bacterial cell using a microscope. The cell was measured with a microscope ruler; each division on the ruler measures 2.5µm, and the cell spanned 5 divisions. [DIAGRAM: bacterial cell aligned against a graduated microscope ruler.] The student made a drawing of this cell, 5.0 cm in length, including the structures expected to be seen. Which row of the table gives the magnification of the student's drawing and one structure that should be included?",
     "options": {
-      "A": "2.5\\times10^{-4}, cell wall",
-      "B": "2.5\\times10^{-4}, nucleus",
-      "C": "4.0\\times10^{-1}, cell wall",
-      "D": "4.0\\times10^{-1}, nucleus",
-      "E": "4.0\\times10^{3}, cell wall",
-      "F": "4.0\\times10^{3}, nucleus",
-      "G": "2.0\\times10^{4}, cell wall",
-      "H": "2.0\\times10^{4}, nucleus"
+      "A": "$2.5\\times10^{-4}$, cell wall",
+      "B": "$2.5\\times10^{-4}$, nucleus",
+      "C": "$4.0\\times10^{-1}$, cell wall",
+      "D": "$4.0\\times10^{-1}$, nucleus",
+      "E": "$4.0\\times10^{3}$, cell wall",
+      "F": "$4.0\\times10^{3}$, nucleus",
+      "G": "$2.0\\times10^{4}$, cell wall",
+      "H": "$2.0\\times10^{4}$, nucleus"
     },
     "answer": "E",
     "technique": "Actual cell length $=5 \\times 2.5\\mu m = 12.5\\mu m$. Drawing length $=5.0$cm $=50000\\mu m$. Magnification $=\\frac{50000}{12.5}=4000=4.0\\times10^3$. Bacteria are prokaryotic and have no nucleus, but they do have a cell wall, so 'cell wall' is the structure that should be included.",
