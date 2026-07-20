@@ -88,6 +88,17 @@ def validate(question, filename, seen_ids):
         elif isinstance(options, dict) and answer not in options:
             violations.append(f"{filename}:{qid}: answer '{answer}' not present in options {sorted(options.keys())}")
 
+    # An empty option renders as a blank button — and 'answer in options' above
+    # still passes when the keyed value is "", so check the values too. A bare
+    # dash is a placeholder from a failed extraction, not a real option.
+    if isinstance(options, dict):
+        for letter in sorted(options):
+            value = str(options[letter]).strip()
+            if not value:
+                violations.append(f"{filename}:{qid}: option '{letter}' is empty")
+            elif value in ("—", "-", "–"):
+                violations.append(f"{filename}:{qid}: option '{letter}' is a placeholder dash")
+
     difficulty = question.get("difficulty")
     if difficulty is not None:
         if not isinstance(difficulty, (int, float)) or not (DIFFICULTY_MIN <= difficulty <= DIFFICULTY_MAX):
