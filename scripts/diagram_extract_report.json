@@ -1,0 +1,129 @@
+{
+  "figures": [
+    {
+      "id": "ENGAA-2019-M1-009",
+      "page": 15,
+      "size": [
+        1396,
+        851
+      ],
+      "match": 0.89
+    },
+    {
+      "id": "ENGAA-2019-M2-005",
+      "page": 25,
+      "size": [
+        1012,
+        1116
+      ],
+      "match": 1.0
+    },
+    {
+      "id": "ENGAA-2019-PHY-001",
+      "page": 5,
+      "size": [
+        1411,
+        1782
+      ],
+      "match": 1.0
+    },
+    {
+      "id": "ENGAA-2019-PHY-008",
+      "page": 14,
+      "size": [
+        1125,
+        1387
+      ],
+      "match": 1.0
+    },
+    {
+      "id": "ENGAA-2019-PHY-012",
+      "page": 24,
+      "size": [
+        1297,
+        1445
+      ],
+      "match": 0.59
+    },
+    {
+      "id": "ENGAA-2019-PHY-013",
+      "page": 26,
+      "size": [
+        1237,
+        573
+      ],
+      "match": 0.64
+    },
+    {
+      "id": "ENGAA-2019-PHY-015",
+      "page": 29,
+      "size": [
+        1084,
+        1386
+      ],
+      "match": 1.0
+    },
+    {
+      "id": "ENGAA-2019-PHY-017",
+      "page": 32,
+      "size": [
+        1414,
+        301
+      ],
+      "match": 0.68
+    }
+  ],
+  "no_figure": [
+    {
+      "id": "ENGAA-2019-M1-006",
+      "reason": "no matching ink region"
+    },
+    {
+      "id": "ENGAA-2019-M2-006",
+      "reason": "no matching ink region"
+    },
+    {
+      "id": "ENGAA-2019-M2-007",
+      "reason": "no matching ink region"
+    }
+  ],
+  "unmapped": [],
+  "orphan_figures": [
+    {
+      "page": 7,
+      "stem": "Two electromagnetic waves P and Q travel in a vacuum and the"
+    },
+    {
+      "page": 10,
+      "stem": "Two tanks of water are connected by a solid cylindrical copp"
+    },
+    {
+      "page": 10,
+      "stem": "water at temperature  water at 90 \u00b0\u2103 For which of the follow"
+    },
+    {
+      "page": 11,
+      "stem": "The radioactive isotope X becomes the stable isotope Y after"
+    },
+    {
+      "page": 12,
+      "stem": "The diagram shows a right-angled triangle, with sides of len"
+    },
+    {
+      "page": 16,
+      "stem": "A block is designed with a cylindrical channel to accommodat"
+    },
+    {
+      "page": 17,
+      "stem": "[diagram not to scale] The volume of the pyramid, in cm3, is"
+    },
+    {
+      "page": 21,
+      "stem": "mass of 500 kg and is travelling at 20 m s-1. The collision "
+    },
+    {
+      "page": 33,
+      "stem": "0.0 10.0 5.0 20.0 25.0 time /s What is the magnitude of the "
+    }
+  ]
+}
