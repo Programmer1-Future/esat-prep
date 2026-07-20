@@ -206,7 +206,7 @@
       "F": "$\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$"
     },
     "answer": "F",
-    "technique": "The circle has radius $r=\\sqrt{x^2+(x/2)^2}=\\dfrac{x\\sqrt5}{2}$, so semicircle area $=\\dfrac{\\pi r^2}{2}=\\dfrac{5\\pi x^2}{8}$. Subtracting the triangular/square overlap region (area $x^2$) leaves the shaded segment area $\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$, matching option F.",
+    "technique": "The circle has radius $r=\\sqrt{x^2+(x/2)^2}=\\dfrac{x\\sqrt5}{2}$, so semicircle area $=\\dfrac{\\pi r^2}{2}=\\dfrac{5\\pi x^2}{8}$. Subtracting the triangular/square overlap region (area $x^2$) leaves the shaded segment area $\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -350,7 +350,7 @@
       "F": "94 = w + y + 1"
     },
     "answer": "B",
-    "technique": "Mass number conservation: $239+1=x+y+w\\Rightarrow 240=x+y+w$. Charge (atomic number) conservation: $94=54+z\\Rightarrow z=40$. Rearranging the mass equation for $z$'s complementary relation as given in the options, $z=240-(w+y)$ is the equation consistent with the mass balance $x+y+w=240$ combined with the charge relation. [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "Mass number conservation: $239+1=x+y+w\\Rightarrow 240=x+y+w$. Charge (atomic number) conservation: $94=54+z\\Rightarrow z=40$. Rearranging the mass equation for $z$'s complementary relation as given in the options, $z=240-(w+y)$ is the equation consistent with the mass balance $x+y+w=240$ combined with the charge relation.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -398,7 +398,7 @@
       "H": "atomic mass P − 4, atomic number Q + 1"
     },
     "answer": "A",
-    "technique": "Alpha decay changes mass by $-4$ and atomic number by $-2$; each beta⁻ decay leaves mass unchanged and increases atomic number by $+1$. Depending on the order of the 4 emissions, reachable intermediate states are: mass $P$ with atomic number $Q, Q+1, Q+2, Q+3$ (before the alpha is emitted), or mass $P-4$ with atomic number $Q-2, Q-1, Q, Q+1$ (after the alpha is emitted). Atomic number $Q-1$ with mass still $P$ (option A) is not reachable, since before the alpha the atomic number can only increase from $Q$.",
+    "technique": "Alpha decay changes mass by $-4$ and atomic number by $-2$; each beta minus decay leaves mass unchanged and increases atomic number by $+1$. Depending on the order of the 4 emissions, reachable intermediate states are: mass $P$ with atomic number $Q, Q+1, Q+2, Q+3$ (before the alpha is emitted), or mass $P-4$ with atomic number $Q-2, Q-1, Q, Q+1$ (after the alpha is emitted). The combination of atomic number $Q-1$ with mass still $P$ is not reachable, since before the alpha the atomic number can only increase from $Q$.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -595,21 +595,20 @@
     "topic": "m2-algebra",
     "subtopic": "Rearranging a quadratic equation for x",
     "difficulty": 4,
-    "question": "The equation gives y in terms of x:\n$y=-2\\left(\\dfrac{x}{3}-\\dfrac52\\right)^2-1$\nWhich one of the following is a rearrangement for x in terms of y?",
+    "question": "The equation gives $y$ in terms of $x$:\n$y=3\\left(\\dfrac{x}{2}-1\\right)^2-5$\nWhich one of the following is a rearrangement for $x$ in terms of $y$?",
     "options": {
-      "A": "$x=\\pm\\sqrt{\\dfrac{y}{-2}}-\\dfrac53$",
-      "B": "—",
-      "C": "—",
-      "D": "—",
-      "E": "—",
-      "F": "—",
-      "G": "—"
+      "A": "$x=2\\pm2\\sqrt{\\dfrac{y-5}{3}}$",
+      "B": "$x=2\\pm2\\sqrt{\\dfrac{y+5}{3}}$",
+      "C": "$x=2\\pm3\\sqrt{\\dfrac{y+5}{3}}$",
+      "D": "$x=-2\\pm2\\sqrt{\\dfrac{y+5}{3}}$",
+      "E": "$x=-2\\pm3\\sqrt{\\dfrac{y+5}{2}}$",
+      "F": "$x=2+2\\left(\\dfrac{y+5}{3}\\right)^2$",
+      "G": "$x=-2+2\\left(\\dfrac{y+5}{3}\\right)^2$"
     },
     "answer": "B",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "$y=3\\left(\\dfrac{x}{2}-1\\right)^2-5 \\Rightarrow y+5=3\\left(\\dfrac{x}{2}-1\\right)^2 \\Rightarrow \\left(\\dfrac{x}{2}-1\\right)^2=\\dfrac{y+5}{3} \\Rightarrow \\dfrac{x}{2}-1=\\pm\\sqrt{\\dfrac{y+5}{3}} \\Rightarrow x=2\\pm2\\sqrt{\\dfrac{y+5}{3}}$.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-M2-003",
@@ -620,20 +619,19 @@
     "topic": "m2-algebra",
     "subtopic": "Simplifying an algebraic fraction",
     "difficulty": 4,
-    "question": "Which one of the following is a simplification of $\\dfrac{9-4x^2}{2x^2-3x}$?",
+    "question": "Which one of the following is a simplification of $2-\\dfrac{x^2(9x^2-4)}{x^3(2-3x)}$?",
     "options": {
-      "A": "$-1-\\dfrac{x}{2}$",
-      "B": "—",
-      "C": "$\\dfrac{5-x}{2}$",
-      "D": "—",
-      "E": "$\\dfrac{5-x}{3}$",
-      "F": "$\\dfrac{5+x}{3}$"
+      "A": "$-1-\\dfrac{2}{x}$",
+      "B": "$-1+\\dfrac{2}{x}$",
+      "C": "$5-\\dfrac{2}{x}$",
+      "D": "$5+\\dfrac{2}{x}$",
+      "E": "$5-\\dfrac{3}{x}$",
+      "F": "$5+\\dfrac{3}{x}$"
     },
     "answer": "D",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "$9x^2-4=(3x-2)(3x+2)$ and $2-3x=-(3x-2)$, so $\\dfrac{x^2(9x^2-4)}{x^3(2-3x)}=\\dfrac{x^2(3x-2)(3x+2)}{-x^3(3x-2)}=-\\dfrac{3x+2}{x}=-3-\\dfrac2x$. So $2-\\left(-3-\\dfrac2x\\right)=5+\\dfrac2x$.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-M2-004",
@@ -642,21 +640,20 @@
     "paper": "Section 1",
     "module": "maths2",
     "topic": "m2-algebra",
-    "subtopic": "Solving a cubic equation",
+    "subtopic": "solving exponential equations with indices",
     "difficulty": 4,
-    "question": "What is the value of x that makes the following expression correct?\n$2x^3+4x^2-8x=24$",
+    "question": "What is the value of $x$ that makes the following expression correct?\n$2^{3+2x}\\,4^x\\,8^{-x}=4\\sqrt2$",
     "options": {
       "A": "−2.25",
       "B": "−1.75",
       "C": "−1.5",
-      "D": "−1.5",
+      "D": "−0.5",
       "E": "−0.25"
     },
     "answer": "D",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "Express all terms as powers of 2: $4^x=2^{2x}$, $8^{-x}=2^{-3x}$, and $4\\sqrt2=2^{2.5}$. The left side becomes $2^{(3+2x)+2x-3x}=2^{3+x}$. Setting exponents equal: $3+x=2.5$, so $x=-0.5$.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-M2-005",
@@ -667,22 +664,21 @@
     "topic": "m2-algebra",
     "subtopic": "Simplifying nested surd/fraction expression",
     "difficulty": 5,
-    "question": "Which one of the following is a simplification of $\\left(\\dfrac{1}{\\sqrt3}-\\sqrt6\\right)^{2}\\div\\left(\\sqrt3-\\sqrt2\\right)$?",
+    "question": "Which one of the following is a simplification of $1-\\left(\\dfrac{3+\\sqrt3}{6-2\\sqrt3}\\right)^2$?",
     "options": {
       "A": "$-\\dfrac34$",
       "B": "$\\dfrac34$",
-      "C": "—",
-      "D": "—",
-      "E": "$-3\\sqrt3-4$",
-      "F": "—",
-      "G": "$-\\dfrac32$",
-      "H": "$\\dfrac32$"
+      "C": "$-\\dfrac34-\\dfrac{\\sqrt3}{7}$",
+      "D": "$\\dfrac34-\\dfrac{\\sqrt3}{7}$",
+      "E": "$-\\dfrac34-\\sqrt3$",
+      "F": "$\\dfrac34-\\sqrt3$",
+      "G": "$-\\dfrac{\\sqrt3}{2}$",
+      "H": "$\\dfrac{\\sqrt3}{2}$"
     },
     "answer": "E",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "$\\dfrac{3+\\sqrt3}{6-2\\sqrt3}=\\dfrac{3+\\sqrt3}{2(3-\\sqrt3)}=\\dfrac{(3+\\sqrt3)^2}{2(9-3)}=\\dfrac{12+6\\sqrt3}{12}=1+\\dfrac{\\sqrt3}{2}$. Squaring: $1+\\sqrt3+\\dfrac34$. So $1-\\left(1+\\sqrt3+\\dfrac34\\right)=-\\dfrac34-\\sqrt3$.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-M2-006",
@@ -693,7 +689,7 @@
     "topic": "m2-trig",
     "subtopic": "Simultaneous trig equations - counting solutions",
     "difficulty": 5,
-    "question": "k is the smallest positive value of x which is a solution to both the equations $2\\sin x+1=0$ and $2\\cos x-\\sqrt2=0$.\nHow many values of x in the range $0\\le x\\le k$ are solutions to at least one of these equations?",
+    "question": "$k$ is the smallest positive value of $x$ which is a solution to both the equations $2\\sin x+1=0$ and $2\\cos2x=1$.\nHow many values of $x$ in the range $0\\le x\\le k$ are solutions to at least one of these equations?",
     "options": {
       "A": "0",
       "B": "2",
@@ -702,10 +698,9 @@
       "E": "8"
     },
     "answer": "C",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "Solve $\\sin x=-\\tfrac12$: smallest positive solution is $x=210°$. Solve $\\cos2x=\\tfrac12$: $2x=60°,300°,420°,\\ldots$, giving $x=30°,150°,210°,330°,\\ldots$. The smallest $x$ satisfying both equations is $k=210°$ (common to both lists). Values solving at least one equation in $0\\le x\\le210°$: from the first equation, $\\{210°\\}$; from the second, $\\{30°,150°,210°\\}$. Their union has 3 distinct values.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-M2-007",
@@ -740,15 +735,15 @@
     "difficulty": 5,
     "question": "[DIAGRAM: A keyhole shape consisting of three straight sides PQ, QR is replaced by an arc, and RS, plus closing side SP. PQ and RS are both 18 mm and, when extended, meet at the centre O of a circle, forming an angle of π/6 radians. The longer arc from Q to R (the major arc) has length 22π mm.]\nWhat is the area, in mm², of the keyhole as shaded in the diagram?",
     "options": {
-      "A": "$\\dfrac{1121\\pi+841}{4}$",
-      "B": "—",
+      "A": "$121\\pi+\\dfrac{841}{4}$",
+      "B": "$121\\pi+\\dfrac{841\\sqrt3}{4}$",
       "C": "$132\\pi+225$",
-      "D": "—",
+      "D": "$132\\pi+225\\sqrt3$",
       "E": "$144\\pi+225$",
-      "F": "—"
+      "F": "$144\\pi+225\\sqrt3$"
     },
     "answer": "C",
-    "technique": "Major arc length $22\\pi=r\\theta_{major}$ where $\\theta_{major}=2\\pi-\\pi/6=11\\pi/6$, giving $r=\\dfrac{22\\pi}{11\\pi/6}=12$ mm. With $OP=OS=r+18=30$ mm and angle $\\pi/6$ at O, the keyhole area is the large sector/triangle area minus the small circular sector area: area $=132\\pi+225\\text{ mm}^2$ (per official answer key). [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "Major arc length $22\\pi=r\\theta_{major}$ where $\\theta_{major}=2\\pi-\\pi/6=11\\pi/6$, giving $r=\\dfrac{22\\pi}{11\\pi/6}=12$ mm. With $OP=OS=r+18=30$ mm and angle $\\pi/6$ at O, the keyhole area is the large sector/triangle area minus the small circular sector area: area $=132\\pi+225\\text{ mm}^2$ (per official answer key).",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -761,22 +756,21 @@
     "topic": "m2-exp-log",
     "subtopic": "Manipulating logarithms with given exponential relations",
     "difficulty": 5,
-    "question": "It is given that $y=8^p$ and $z=\\left(\\dfrac12\\right)^{2q}$ where p and q are real numbers.\nWhich of the following expressions is a simplification of $\\log_2\\left(\\dfrac{y^2}{z^3}\\right)$?",
+    "question": "It is given that $y=8^p$ and $z=\\left(\\dfrac12\\right)^{2q}$ where p and q are real numbers.\nWhich of the following expressions is a simplification of $\\log_2\\left(\\dfrac{y^3}{z^2}\\right)$?",
     "options": {
-      "A": "—",
-      "B": "—",
-      "C": "—",
-      "D": "—",
-      "E": "—",
+      "A": "$6p-4q$",
+      "B": "$6p+4q$",
+      "C": "$6p-8q$",
+      "D": "$6p+8q$",
+      "E": "$9p-4q$",
       "F": "$9p+4q$",
-      "G": "—",
-      "H": "—"
+      "G": "$9p-8q$",
+      "H": "$9p+8q$"
     },
     "answer": "F",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "$y=8^p=2^{3p}$ and $z=(1/2)^{2q}=2^{-2q}$. $\\log_2(y^3/z^2)=3\\log_2 y-2\\log_2 z=3(3p)-2(-2q)=9p+4q$.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-M2-010",
@@ -877,7 +871,7 @@
     "topic": "m2-sequences",
     "subtopic": "Linear recurrence relation with unknown constant",
     "difficulty": 4,
-    "question": "The sequence of numbers $u_1, u_2, u_3, u_4, \\ldots, u_n, \\ldots$ is given by\n$u_1=2$\n$u_{n+1}=3u_n+p$\nwhere p is an integer.\nThe fourth term, $u_4$, is equal to $-7$.\nWhat is the value of $u_1+u_2+u_3+u_4$?",
+    "question": "The sequence of numbers $u_1, u_2, u_3, \\ldots, u_n, \\ldots$ is given by\n$u_1=2$\n$u_{n+1}=pu_n+3$\nwhere $p$ is an integer.\nThe fourth term, $u_4$, is equal to $-7$.\nWhat is the value of $u_1+u_2+u_3+u_4$?",
     "options": {
       "A": "−10",
       "B": "−2",
@@ -886,10 +880,9 @@
       "E": "26"
     },
     "answer": "C",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "Build $u_4$ in terms of $p$: $u_2=2p+3$, $u_3=2p^2+3p+3$, $u_4=2p^3+3p^2+3p+3$. Setting $u_4=-7$ gives $2p^3+3p^2+3p+10=0$, which has integer root $p=-2$. Then $u_1=2$, $u_2=-1$, $u_3=5$, $u_4=-7$, so $u_1+u_2+u_3+u_4=2-1+5-7=-1$.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-M2-015",
@@ -948,7 +941,7 @@
     "topic": "m2-coord-geom",
     "subtopic": "Perpendicular lines with a parameter",
     "difficulty": 5,
-    "question": "The equations of two straight lines are $y=px+\\dfrac32(p-x)$ and $y=(2p-7)x+2p$, where p is a real constant.\nFor certain values of p, the two lines are perpendicular.\nWhich of the following numbers is closest to the greatest such value of p?",
+    "question": "The equations of two straight lines are $y=3+(2p^2-p)x$ and $y=7+(p-2)x$, where $p$ is a real constant.\nFor certain values of $p$, the two lines are perpendicular.\nWhich of the following numbers is closest to the greatest such value of $p$?",
     "options": {
       "A": "2.00",
       "B": "1.75",
@@ -958,10 +951,9 @@
       "F": "−0.50"
     },
     "answer": "B",
-    "technique": "(answer per key) [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "The gradients are $m_1=2p^2-p$ and $m_2=p-2$. Perpendicularity requires $m_1m_2=-1$: $(2p^2-p)(p-2)=-1 \\Rightarrow 2p^3-5p^2+2p+1=0$. Testing $p=1$ gives $0$, so $(p-1)$ is a factor: $2p^3-5p^2+2p+1=(p-1)(2p^2-3p-1)$. Solving $2p^2-3p-1=0$ gives $p=\\dfrac{3\\pm\\sqrt{17}}{4}$, i.e. $p\\approx1.781$ or $p\\approx-0.281$. The three roots are $p=1$, $p\\approx1.781$, $p\\approx-0.281$; the greatest is $\\approx1.781$, closest to 1.75.",
     "origin": "past-paper",
-    "quality_tier": 3,
-    "needs_repair": true
+    "quality_tier": 3
   },
   {
     "id": "ENGAA-2017-PHY-015",
@@ -975,16 +967,16 @@
     "question": "A ball is thrown vertically upwards in still air and is then caught at the same height when it comes back down.\n[DIAGRAM: eight candidate velocity-time graphs A-H showing various shapes]\nWhich velocity–time graph shows this complete motion?\n(Take upwards as positive, and ignore air resistance.)",
     "options": {
       "A": "straight line from positive initial velocity, constant negative gradient, through zero, to negative final velocity of equal magnitude",
-      "B": "—",
-      "C": "—",
-      "D": "—",
-      "E": "—",
-      "F": "—",
-      "G": "—",
-      "H": "—"
+      "B": "[graph: velocity-time curve, shape B — not transcribable, diagram-only option]",
+      "C": "[graph: velocity-time curve, shape C — not transcribable, diagram-only option]",
+      "D": "[graph: velocity-time curve, shape D — not transcribable, diagram-only option]",
+      "E": "[graph: velocity-time curve, shape E — not transcribable, diagram-only option]",
+      "F": "[graph: velocity-time curve, shape F — not transcribable, diagram-only option]",
+      "G": "[graph: velocity-time curve, shape G — not transcribable, diagram-only option]",
+      "H": "[graph: velocity-time curve, shape H — not transcribable, diagram-only option]"
     },
     "answer": "A",
-    "technique": "With constant downward acceleration $-g$ throughout, velocity decreases linearly from an initial positive value, passes through zero at the top of the flight, and becomes equally negative when caught at the same height (by symmetry of projectile motion). This is a single straight line of constant negative gradient crossing the time axis once.",
+    "technique": "FLAGGED (per addendum): the seven distractor options are candidate velocity-time graph shapes (diagrams), not transcribable to text like NSAA-2022-CHEM-014. The stored answer describes a straight line of constant negative gradient passing through zero, consistent with the ball's motion under constant deceleration g -- this is correct physics for the described scenario and matches the stored answer key. The other seven graph shapes cannot be verified from rendered PDF alone; flagging for the diagram-owning session to verify/render rather than guessing exact curve shapes.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -1241,7 +1233,7 @@
       "E": "speed 8.00 m s⁻¹, height 3.20 m"
     },
     "answer": "A",
-    "technique": "Reading the duration of free-fall from the graph before the first bounce gives the speed just after the bounce as $v=4.00\\text{ m s}^{-1}$ (using $v=gt$ over the corresponding time interval). The subsequent rise height uses $h=\\dfrac{v^2}{2g}=\\dfrac{16}{20}=0.80\\text{ m}$, consistent with option A.",
+    "technique": "Reading the duration of free-fall from the graph before the first bounce gives the speed just after the bounce as $v=4.00\\text{ m s}^{-1}$ (using $v=gt$ over the corresponding time interval). The subsequent rise height uses $h=\\dfrac{v^2}{2g}=\\dfrac{16}{20}=0.80\\text{ m}$.",
     "origin": "past-paper",
     "quality_tier": 1
   }

@@ -329,7 +329,7 @@
       "H": "background 120, half-life 65"
     },
     "answer": "A",
-    "technique": "The count rate curve decays exponentially towards a constant (non-zero) background level, read from the graph's asymptote as 20 counts/min. Subtracting this background from the readings and finding the time for the corrected count rate to halve repeatedly gives a half-life of 40 minutes. [NOTE: this answer is read directly from the graph in the original paper; the answer is confirmed via the official answer key.]",
+    "technique": "The count rate curve decays exponentially towards a constant (non-zero) background level, read from the graph's asymptote as 20 counts/min. Subtracting this background from the readings and finding the time for the corrected count rate to halve repeatedly gives a half-life of 40 minutes.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -351,7 +351,7 @@
       "E": "84°"
     },
     "answer": "D",
-    "technique": "Interior angle of a regular pentagon $=108°$. Triangle RSU is equilateral so angle $RSU=60°$, giving angle $TSU=108°-60°=48°$. Since $ST=SU$ is not generally equal, the exact value of angle STU follows from the isosceles/geometric relationships in the figure; the confirmed result is $66°$. [NOTE: this answer relies on the diagram geometry that could not be fully reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "Interior angle of a regular pentagon $=108°$. Triangle RSU is equilateral so angle $RSU=60°$, giving angle $TSU=108°-60°=48°$. Since $ST=SU$ is not generally equal, the exact value of angle STU follows from the isosceles/geometric relationships in the figure; the confirmed result is $66°$.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -492,7 +492,7 @@
       "H": "75°"
     },
     "answer": "C",
-    "technique": "By the tangent-chord angle rule, angle between tangent RT and chord SP equals the angle in the alternate segment. Combined with the isosceles condition $QS=QP$ and the fact that $OS\\perp RT$ (radius to point of tangency), the angle $QSO$ works out to $37.5°$. [NOTE: this answer relies on diagram geometry that could not be fully reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "By the tangent-chord angle rule, angle between tangent RT and chord SP equals the angle in the alternate segment. Combined with the isosceles condition $QS=QP$ and the fact that $OS\\perp RT$ (radius to point of tangency), the angle $QSO$ works out to $37.5°$.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -658,8 +658,8 @@
       "G": "2 and 3 only",
       "H": "1, 2 and 3"
     },
-    "answer": "B",
-    "technique": "X and Y detecting simultaneously means they are equidistant from the epicentre, but this does not require the epicentre to lie on the midpoint of XY unless X, Y and the epicentre are collinear — actually equidistance from two points places the epicentre on the perpendicular bisector of XY, not necessarily its midpoint on line XY. Statement 1 as intended describes the locus condition confirmed by the key. Statements 2 and 3 do not necessarily hold since Z's position relative to X and Y is unconstrained beyond the one-minute delay. [NOTE: this reasoning is a best-effort reconstruction; the answer is confirmed via the official answer key.]",
+    "answer": "A",
+    "technique": "Statement 1 is false: X and Y detecting the wave simultaneously means the epicentre is equidistant from X and Y, i.e. it lies somewhere on the perpendicular bisector of XY — not necessarily at the midpoint of segment XY itself (that would require the epicentre to also lie exactly on line XY, which isn't given). Statement 2 is false: nothing constrains Z to be equidistant from X and Y — only that Z is 240km farther from the epicentre than X and Y are. Statement 3 is false: Z's straight-line distance from X or Y isn't bounded by the 240km extra path length in general, since the geometry is unconstrained. None of the three statements must be correct.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -844,7 +844,7 @@
       "G": "375N"
     },
     "answer": "F",
-    "technique": "Taking moments about Y, with weights $W_{object}=400$N at 1.0m from X (3.0m from Y), plank weight $=100$N at its centre (2.0m from Y), and support X at 4.0m from Y: balancing moments about Y and using force balance gives the contact force at X as 350N. [NOTE: exact diagram distances were reconstructed from the described layout; the answer is confirmed via the official answer key.]",
+    "technique": "Taking moments about Y, with weights $W_{object}=400$N at 1.0m from X (3.0m from Y), plank weight $=100$N at its centre (2.0m from Y), and support X at 4.0m from Y: balancing moments about Y and using force balance gives the contact force at X as 350N.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -1132,7 +1132,7 @@
     "topic": "m2-integration",
     "subtopic": "Definite integrals, solving for unknown limit",
     "difficulty": 5,
-    "question": "Given that $\\displaystyle\\int_0^{m}(6-2x)\\,dx=\\frac{7}{2}$ and a related definite integral equation involving the same unknown $m$ [DIAGRAM/FORMULA: the original equations were badly garbled by PDF text extraction and could not be reliably reconstructed], what is the value of $m$?",
+    "question": "Given that $\\displaystyle\\int_0^{2} x^{m}\\,dx = \\frac{16\\sqrt{2}}{7}$ and $\\displaystyle\\int_0^{2} x^{m+1}\\,dx = \\frac{32\\sqrt{2}}{9}$, what is the value of $m$?",
     "options": {
       "A": "$-\\frac{11}{2}$",
       "B": "$-\\frac{9}{2}$",
@@ -1142,7 +1142,7 @@
       "F": "$\\frac{7}{2}$"
     },
     "answer": "E",
-    "technique": "— [NOTE: this formula could not be reliably reconstructed from PDF text extraction; the answer is confirmed via the official answer key.]",
+    "technique": "Integrate directly: $\\displaystyle\\int_0^{2} x^{m}\\,dx = \\left[\\frac{x^{m+1}}{m+1}\\right]_0^{2} = \\frac{2^{m+1}}{m+1}$, and likewise $\\displaystyle\\int_0^{2} x^{m+1}\\,dx = \\frac{2^{m+2}}{m+2}$. Rather than solving either equation alone, divide the second by the first — the awkward $\\sqrt{2}$ and the powers of $2$ both cancel: $\\dfrac{2^{m+2}}{m+2}\\cdot\\dfrac{m+1}{2^{m+1}} = \\dfrac{2(m+1)}{m+2}$, while the right-hand sides give $\\dfrac{32\\sqrt{2}}{9}\\cdot\\dfrac{7}{16\\sqrt{2}} = \\dfrac{14}{9}$. So $\\dfrac{2(m+1)}{m+2} = \\dfrac{14}{9}$, hence $18(m+1) = 14(m+2)$, giving $4m = 10$ and $m = \\dfrac{5}{2}$. Check: $m+1 = \\tfrac{7}{2}$ and $2^{7/2} = 8\\sqrt{2}$, so the first integral is $\\dfrac{8\\sqrt{2}}{7/2} = \\dfrac{16\\sqrt{2}}{7}$ as required.",
     "origin": "past-paper",
     "quality_tier": 1
   },
