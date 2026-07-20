@@ -251,6 +251,39 @@
   color: inherit;
 }
 
+/* Data tables restored into question stems. These are part of the question as the
+   paper printed it, not a UI widget — so a plain hairline grid, no zebra striping,
+   no card wrapper. Scrolls rather than overflows on narrow screens. */
+.technique-body table {
+  border-collapse: collapse;
+  width: auto;
+  max-width: 100%;
+  margin: 12px 0;
+  font-size: 0.95em;
+  display: block;
+  overflow-x: auto;
+}
+
+.technique-body th,
+.technique-body td {
+  border: 1px solid rgb(var(--c-border-subtle));
+  padding: 6px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.technique-body th {
+  font-weight: 600;
+  color: rgb(var(--c-text-primary));
+}
+
+/* Inline variant: option text sits inside a flex row, so the markdown paragraph
+   must not introduce block flow or vertical margin. */
+.technique-inline p {
+  display: inline;
+  margin: 0;
+}
+
 .technique-body .katex-display {
   margin: 10px 0;
   overflow-x: auto;

@@ -42,12 +42,29 @@ export function TechniqueRenderer({ text, className = '' }) {
   )
 }
 
-// Inline math renderer for question stems and options — no paragraph reflow, just
-// LaTeX + light markdown. ESAT question text and options carry $...$ spans that
-// the TMUA source never had (it rendered stems as plain text).
+// Block renderer for question stems — no paragraph reflow, just LaTeX + markdown.
+// Must be a <div>: react-markdown emits block elements, and stems carry GFM tables
+// (the papers' data tables, flattened by extraction and now being restored). A
+// <table> nested in a <span> is invalid HTML and cannot lay out.
 export function MathText({ text, className = '' }) {
   return (
-    <span className={`technique-body ${className}`}>
+    <div className={`technique-body ${className}`}>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm, remarkMath]}
+        rehypePlugins={[rehypeKatex]}
+      >
+        {text || ''}
+      </ReactMarkdown>
+    </div>
+  )
+}
+
+// Inline variant for short values that sit inside a flex row — option text, and the
+// answer values in the review list. Keeps the <span> so the row doesn't break; block
+// constructs (tables, lists) are not expected here.
+export function InlineMath({ text, className = '' }) {
+  return (
+    <span className={`technique-body technique-inline ${className}`}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkMath]}
         rehypePlugins={[rehypeKatex]}

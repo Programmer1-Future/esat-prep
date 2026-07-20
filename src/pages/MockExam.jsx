@@ -10,9 +10,9 @@ import { logEvent } from '../lib/eventLog'
 import { enqueueMisses } from '../lib/reviewQueue'
 import { projectScore, formatProjected } from '../lib/mockScore'
 import { updateStoredValue, useLocalStorage } from '../hooks/useLocalStorage'
-import { MathText } from '../components/ui/TechniqueRenderer'
+import { MathText, InlineMath } from '../components/ui/TechniqueRenderer'
 import { parseDiagrams } from '../lib/diagrams'
-import { DiagramNotice } from '../components/ui/Diagram'
+import { DiagramFigure } from '../components/ui/Diagram'
 import { OriginBadge } from '../components/ui/Origin'
 
 // Pearson VUE environment clone. Fidelity rules (per Build Prompt Phase 4):
@@ -315,7 +315,7 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
   }, [submit])
 
   const q = questions[idx]
-  const { stem, diagrams } = useMemo(() => parseDiagrams(q?.question), [q])
+  const { stem, diagrams } = useMemo(() => parseDiagrams(q?.question, q?.id), [q])
   const optionEntries = useMemo(
     () => Object.entries(q?.options || {}).sort(([a], [b]) => a.localeCompare(b)),
     [q]
@@ -380,7 +380,7 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
             <div className="text-[16px] text-text-primary leading-[1.7] mb-4 font-body">
               <MathText text={stem} />
             </div>
-            {diagrams.map((caption, i) => <DiagramNotice key={i} caption={caption} />)}
+            {diagrams.map((d, i) => <DiagramFigure key={i} caption={d.caption} src={d.src} eager />)}
 
             {/* Fixed A–E letters — mock mode never shuffles (exam fidelity) */}
             <div className="space-y-2">
@@ -403,7 +403,7 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
                     )}>
                       {letter}
                     </span>
-                    <span className="text-sm leading-relaxed flex-1"><MathText text={String(text)} /></span>
+                    <span className="text-sm leading-relaxed flex-1"><InlineMath text={String(text)} /></span>
                   </button>
                 )
               })}

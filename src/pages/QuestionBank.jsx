@@ -18,9 +18,9 @@ import { logEvent } from '../lib/eventLog'
 import { enqueueMisses, enqueueSkips } from '../lib/reviewQueue'
 import { ERROR_TAGS } from '../lib/errorTags'
 import { updateStoredValue, useLocalStorage } from '../hooks/useLocalStorage'
-import { TechniqueRenderer, MathText } from '../components/ui/TechniqueRenderer'
+import { TechniqueRenderer, MathText, InlineMath } from '../components/ui/TechniqueRenderer'
 import { parseDiagrams } from '../lib/diagrams'
-import { DiagramNotice } from '../components/ui/Diagram'
+import { DiagramFigure } from '../components/ui/Diagram'
 import { OriginBadge } from '../components/ui/Origin'
 
 // ─── Options ───────────────────────────────────────────────────────────────────
@@ -340,7 +340,7 @@ function QuizScreen({ questions, timerSecs, onFinish }) {
 
   const q = questions[idx]
   const isLast = idx === questions.length - 1
-  const { stem, diagrams } = useMemo(() => parseDiagrams(q?.question), [q])
+  const { stem, diagrams } = useMemo(() => parseDiagrams(q?.question, q?.id), [q])
 
   // Options shuffled + re-lettered: the stored answer key skews toward B/C, so
   // fixed positions would be guessable (anti-memorisation, carried from TMUA).
@@ -465,8 +465,8 @@ function QuizScreen({ questions, timerSecs, onFinish }) {
             <MathText text={stem} />
           </div>
 
-          {/* Diagram placeholders — quarantined, never rendered as stem text */}
-          {diagrams.map((caption, i) => <DiagramNotice key={i} caption={caption} />)}
+          {/* Figures from the source paper — never rendered as stem text */}
+          {diagrams.map((d, i) => <DiagramFigure key={i} caption={d.caption} src={d.src} eager />)}
 
           {/* Options */}
           <div className="space-y-2 mb-5">
@@ -494,7 +494,7 @@ function QuizScreen({ questions, timerSecs, onFinish }) {
                   )}
                 >
                   <span className="text-xs font-mono font-600 w-4 flex-shrink-0 mt-1 tabular">{letter}</span>
-                  <span className="text-sm leading-relaxed flex-1"><MathText text={String(text)} /></span>
+                  <span className="text-sm leading-relaxed flex-1"><InlineMath text={String(text)} /></span>
                   {revealed && isCorrect && <Check size={14} className="text-success flex-shrink-0 mt-1" />}
                   {revealed && isSelected && !isCorrect && <X size={14} className="text-danger flex-shrink-0 mt-1" />}
                 </button>
@@ -713,7 +713,7 @@ function ResultsModal({ results, onRetry, onNewQuiz }) {
               <motion.div key="mistakes" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-3">
                 {missed.map((r, i) => {
                   const o = OUTCOME_LABEL[r.outcome] || OUTCOME_LABEL.wrong
-                  const { stem, diagrams } = parseDiagrams(r.q.question)
+                  const { stem, diagrams } = parseDiagrams(r.q.question, r.q.id)
                   const gaveAnswer = r.selected && r.selected !== r.q.answer
                   return (
                     <motion.div
@@ -731,7 +731,7 @@ function ResultsModal({ results, onRetry, onNewQuiz }) {
 
                       {/* Question stem */}
                       <div className="px-4 text-[15px] text-text-primary leading-relaxed mb-3"><MathText text={stem} /></div>
-                      <div className="px-4">{diagrams.map((c, j) => <DiagramNotice key={j} caption={c} />)}</div>
+                      <div className="px-4">{diagrams.map((d, j) => <DiagramFigure key={j} caption={d.caption} src={d.src} />)}</div>
 
                       {/* Answer comparison — each on its own labelled row */}
                       <div className="px-4 space-y-2">
@@ -740,7 +740,7 @@ function ResultsModal({ results, onRetry, onNewQuiz }) {
                             <X size={15} className="text-danger mt-0.5 flex-shrink-0" />
                             <div className="min-w-0">
                               <p className="text-[10px] font-600 uppercase tracking-widest text-danger/70 mb-0.5">Your answer</p>
-                              <div className="text-sm text-text-primary"><MathText text={String(r.q.options?.[r.selected] ?? '')} /></div>
+                              <div className="text-sm text-text-primary"><InlineMath text={String(r.q.options?.[r.selected] ?? '')} /></div>
                             </div>
                           </div>
                         )}
@@ -748,7 +748,7 @@ function ResultsModal({ results, onRetry, onNewQuiz }) {
                           <Check size={15} className="text-success mt-0.5 flex-shrink-0" />
                           <div className="min-w-0">
                             <p className="text-[10px] font-600 uppercase tracking-widest text-success/70 mb-0.5">Correct answer</p>
-                            <div className="text-sm text-text-primary"><MathText text={String(r.q.options?.[r.q.answer] ?? '')} /></div>
+                            <div className="text-sm text-text-primary"><InlineMath text={String(r.q.options?.[r.q.answer] ?? '')} /></div>
                           </div>
                         </div>
                         {r.outcome === 'skip' && !gaveAnswer && (

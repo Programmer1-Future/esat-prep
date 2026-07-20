@@ -27,3 +27,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Diagram extraction working artifacts. public/diagrams/ is the shipped set and IS
+# tracked; these are the staging copy, the pre-swap backup, the OCR cache and the
+# review contact sheets — all reproducible from scripts/extract_diagrams.py.
+public/diagrams_v2/
+public/diagrams_old/
+scripts/.ocr_cache/
+scripts/__pycache__/
+diagram-review/
+
+# Browser-automation scratch (Playwright MCP snapshots and verification screenshots)
+.playwright-mcp/
+/*.png

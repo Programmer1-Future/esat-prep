@@ -5,6 +5,7 @@ Fails loudly and merges nothing if any record violates the schema.
 """
 import json
 import glob
+import re
 import sys
 from pathlib import Path
 from collections import defaultdict
@@ -48,6 +49,14 @@ REQUIRED_FIELDS = [
 ]
 
 DIFFICULTY_MIN, DIFFICULTY_MAX = 1, 5
+
+# An option carrying the author's unfinished working renders as garbage to a student
+# but is neither empty nor a dash, so it slips past those checks. One shipped reading
+# "$34\sqrt3$... wait recheck" before this existed.
+SCRATCH_RE = re.compile(
+    r"\b(wait|recheck|re-check|check this|TODO|FIXME|XXX|unsure|not sure)\b|\?\?|\.\.\.",
+    re.IGNORECASE,
+)
 
 
 def validate(question, filename, seen_ids):
@@ -98,6 +107,10 @@ def validate(question, filename, seen_ids):
                 violations.append(f"{filename}:{qid}: option '{letter}' is empty")
             elif value in ("—", "-", "–"):
                 violations.append(f"{filename}:{qid}: option '{letter}' is a placeholder dash")
+            elif SCRATCH_RE.search(value):
+                violations.append(
+                    f"{filename}:{qid}: option '{letter}' contains unfinished working: {value!r}"
+                )
 
     difficulty = question.get("difficulty")
     if difficulty is not None:
