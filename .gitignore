@@ -37,6 +37,11 @@ scripts/.ocr_cache/
 scripts/__pycache__/
 diagram-review/
 
+# Fabrication-audit working data: Gemini transcriptions of the source papers, cached
+# so a re-run never re-buys tokens. Reproducible from scripts/gemini_transcribe.py,
+# and large — the scripts are tracked, the fetched data is not.
+scripts/.fabrication_audit/
+
 # Browser-automation scratch (Playwright MCP snapshots and verification screenshots)
 .playwright-mcp/
 /*.png
