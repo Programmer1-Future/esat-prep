@@ -48,6 +48,17 @@ def norm(s: str) -> str:
     never match. Getting either wrong manufactures false mismatches.
     """
     s = str(s)
+    # Unicode and LaTeX spellings of the same symbol must collapse together, or every
+    # option carrying a Greek letter or an equilibrium arrow reads as a mismatch.
+    for uni, name in (("ω", "omega"), ("Ω", "omega"), ("θ", "theta"), ("λ", "lambda"),
+                      ("μ", "mu"), ("Δ", "delta"), ("δ", "delta"), ("α", "alpha"),
+                      ("β", "beta"), ("γ", "gamma"), ("ρ", "rho"), ("σ", "sigma"),
+                      ("⇌", "rightleftharpoons"), ("→", "rightarrow"),
+                      ("⟶", "rightarrow"), ("≈", "approx"), ("∞", "infty")):
+        s = s.replace(uni, name)
+    # Brace-less LaTeX: \frac12 means \frac{1}{2}. The braced pattern below cannot
+    # see it, so it would survive as the literal "frac12" and never compare equal.
+    s = re.sub(r"\\[dt]?frac\s*(\d)\s*(\d)", r"(\1)/(\2)", s)
     # Formatting wrappers carry no value: \text{ m} is the same quantity as m.
     for _ in range(4):
         s, n = re.subn(
@@ -80,12 +91,17 @@ def tokens(s: str) -> set:
     return {w for w in re.findall(r"[a-z0-9]+", str(s).lower()) if len(w) > 3}
 
 
-def load_stored() -> dict:
+def load_stored(extra_mapping: Path | None = None) -> dict:
+    """`extra_mapping` overlays proposed id->qnum mappings that are not yet adopted
+    into question-bank/, so questions recovered by scripts/map_unmapped.py can be
+    audited without editing another session's files."""
+    extra = json.load(open(extra_mapping, encoding="utf-8")) if extra_mapping else {}
     out = {}
     for src in sorted(QB.glob("*_S1.json")):
         paper = src.stem
         mf = MAP_DIR / f"{paper}.json"
         qmap = json.load(open(mf, encoding="utf-8")) if mf.exists() else {}
+        qmap = {**qmap, **extra.get(paper, {})}
         for q in json.load(open(src, encoding="utf-8")):
             qnum = qmap.get(q.get("id"))
             if qnum is None:
@@ -123,13 +139,16 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--show", default="MISMATCH,DRIFT",
                     help="comma-separated verdicts to list in full")
+    ap.add_argument("--extra-mapping", type=Path,
+                    help="overlay proposed mappings (see scripts/map_unmapped.py) "
+                         "without editing question-bank/")
     ap.add_argument("--resolve", action="store_true",
                     help="for each MISMATCH, hunt the stored question elsewhere in "
                          "the same paper (distinguishes a mapping error from a "
                          "fabrication)")
     args = ap.parse_args()
 
-    stored, gem = load_stored(), load_gemini()
+    stored, gem = load_stored(args.extra_mapping), load_gemini()
     if not gem:
         return print(f"no transcriptions in {CACHE}; run gemini_transcribe.py") or 1
 
