@@ -142,9 +142,9 @@ Physics/chem/bio: steps-only is fine; many won’t get Mafs.
 
 **Acceptance**
 
-- [ ] Every question has `solution.steps`
-- [ ] `technique` still present as backup
-- [ ] Full-bank validate clean
+- [x] Every question has `solution.steps`
+- [x] `technique` still present as backup
+- [x] Full-bank validate clean
 
 ### Phase 3 — Mafs for eligible maths
 

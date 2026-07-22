@@ -62,7 +62,23 @@
     "answer": "D",
     "technique": "Mass number drops by 4 (214→210), so exactly 1 alpha particle is emitted (mass -4, charge -2). This alone would drop atomic number by 2 (82→80), but atomic number stays at 82, so 2 beta emissions are needed to raise Z back by 2 (each beta: Z+1, mass unchanged). Answer: 1 alpha and 2 beta.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Mass number drops by so exactly alpha particle",
+          "content": "Mass number drops by 4 (214→210), so exactly 1 alpha particle is emitted (mass -4, charge -2)."
+        },
+        {
+          "title": "This alone would drop atomic number by but",
+          "content": "This alone would drop atomic number by 2 (82→80), but atomic number stays at 82, so 2 beta emissions are needed to raise Z back by 2 (each beta: Z+1, mass unchanged)."
+        },
+        {
+          "title": "Answer alpha and beta",
+          "content": "Answer: 1 alpha and 2 beta."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-002",
@@ -127,7 +143,35 @@
     "answer": "F",
     "technique": "The graph is a straight line through the origin with gradient $10/2.0 = 5$. Option 3: $a = F/m = 100/20 = 5\\ \\text{m s}^{-2}$, so $v = 5t$, a straight line of gradient 5 — fits. Option 4: $W = Fd = 5d$, gradient 5 — fits. Option 1: $KE = \\tfrac{1}{2}mv^2 = 5v^2$ is quadratic, not linear — doesn't fit. Option 2: $PE = mgh = 200h$, gradient 200 — doesn't fit. So options 3 and 4 match.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The graph is a straight line through the",
+          "content": "The graph is a straight line through the origin with gradient $10/2.0 = 5$."
+        },
+        {
+          "title": "Option so a straight line of gradient fits",
+          "content": "Option 3: $a = F/m = 100/20 = 5\\ \\text{m s}^{-2}$, so $v = 5t$, a straight line of gradient 5 — fits."
+        },
+        {
+          "title": "Option gradient fits",
+          "content": "Option 4: $W = Fd = 5d$, gradient 5 — fits."
+        },
+        {
+          "title": "Option is quadratic not linear doesn t fit",
+          "content": "Option 1: $KE = \\tfrac{1}{2}mv^2 = 5v^2$ is quadratic, not linear — doesn't fit."
+        },
+        {
+          "title": "Option gradient doesn t fit",
+          "content": "Option 2: $PE = mgh = 200h$, gradient 200 — doesn't fit."
+        },
+        {
+          "title": "So options and match",
+          "content": "So options 3 and 4 match."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-003",
@@ -191,7 +235,27 @@
     "answer": "C",
     "technique": "Diagram 1 is invalid because it shows a proton bombarding the uranium nucleus rather than a neutron, which does not represent standard fission. Diagram 2: check conservation — mass numbers $235+1 = 96+137+3 = 236$ ✓, atomic numbers $92 = 38+54 = 92$ ✓, valid. Diagram 3: mass numbers $235+1=236$ but products give $145+87+3=235$ — does not balance, invalid. Only diagram 2 is valid.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Diagram is invalid because it shows a proton",
+          "content": "Diagram 1 is invalid because it shows a proton bombarding the uranium nucleus rather than a neutron, which does not represent standard fission."
+        },
+        {
+          "title": "Diagram check conservation mass numbers atomic numbers valid",
+          "content": "Diagram 2: check conservation — mass numbers $235+1 = 96+137+3 = 236$ ✓, atomic numbers $92 = 38+54 = 92$ ✓, valid."
+        },
+        {
+          "title": "Diagram mass numbers but products give does not",
+          "content": "Diagram 3: mass numbers $235+1=236$ but products give $145+87+3=235$ — does not balance, invalid."
+        },
+        {
+          "title": "Only diagram is valid",
+          "content": "Only diagram 2 is valid."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-004",
@@ -253,7 +317,27 @@
     "answer": "D",
     "technique": "Maximum power in the 5.0 Ω resistor occurs at maximum current, i.e., minimum total resistance, i.e., variable resistor at 3.0 Ω. Total resistance $= 5.0+3.0=8.0\\,\\Omega$. Current $I = 24/8.0 = 3.0$ A. Power $= I^2 R = 3.0^2 \\times 5.0 = 45$ W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Maximum power in the resistor occurs at maximum",
+          "content": "Maximum power in the 5.0 Ω resistor occurs at maximum current, i.e., minimum total resistance, i.e., variable resistor at 3.0 Ω."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Total resistance $= 5.0+3.0=8.0\\,\\Omega$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Current $one = 24/8.0 = 3.0$ A."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Power $= one^2 R = 3.0^2 \\times 5.0 = 45$ W."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-005",
@@ -315,7 +399,23 @@
     "answer": "D",
     "technique": "New power $= k(100R)^2(T/2)^4 = kR^2T^4 \\times 100^2 \\times (1/2)^4 = kR^2T^4 \\times 10000 \\times 0.0625 = 625 \\times kR^2T^4$. So $P_{new} = 625 \\times 4.0\\times10^{26} = 2.5\\times10^{29}$ W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "New power k R T kR T kR",
+          "content": "New power $= k(100R)^2(T/2)^4 = kR^2T^4 \\times 100^2 \\times (1/2)^4 = kR^2T^4 \\times 10000 \\times 0.0625"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "= 625 \\times kR^2T^4$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $P_{new} = 625 \\times 4.0\\times10^{26} = 2.5\\times10^{29}$ W."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-006",
@@ -376,7 +476,23 @@
     "answer": "E",
     "technique": "In one full oscillation, a particle travels a distance of $4\\times$ amplitude $= 4\\times3.0=12$ cm. In one second there are 5 oscillations, so distance per second $= 5\\times12=60$ cm. In one minute (60 s): $60\\times60=3600$ cm.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In one full oscillation a particle travels a",
+          "content": "In one full oscillation, a particle travels a distance of $4\\times$ amplitude $= 4\\times3.0=12$ cm."
+        },
+        {
+          "title": "In one second there are oscillations so distance",
+          "content": "In one second there are 5 oscillations, so distance per second $= 5\\times12=60$ cm."
+        },
+        {
+          "title": "In one minute s cm",
+          "content": "In one minute (60 s): $60\\times60=3600$ cm."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-007",
@@ -436,7 +552,19 @@
     "answer": "H",
     "technique": "Tension in the rope supporting the mass: $T = m(g+a) = 5.0\\times(10+0.80)=54$ N. Since the rope passes over a single fixed pulley with the same tension throughout, and the coupling supports both sides of the rope pulling down on the pulley, the coupling must withstand $2T = 2\\times54=108$ N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Tension in the rope supporting the mass N",
+          "content": "Tension in the rope supporting the mass: $T = m(g+a) = 5.0\\times(10+0.80)=54$ N."
+        },
+        {
+          "title": "Since the rope passes over a single fixed",
+          "content": "Since the rope passes over a single fixed pulley with the same tension throughout, and the coupling supports both sides of the rope pulling down on the pulley, the coupling must withstand $2T = 2\\times54=108$ N."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-008",
@@ -500,7 +628,27 @@
     "answer": "F",
     "technique": "Current $I = V/R_{total} = 6.0/15=0.40$ A. Charge in 180 s: $Q=It=0.40\\times180=72$ C. Power in heater $= 180\\text{ J}/180\\text{ s}=1.0$ W $=I^2R_{heater}$, so $R_{heater}=1.0/0.40^2=6.25\\,\\Omega$. Voltage across heater $=IR_{heater}=0.40\\times6.25=2.5$ V.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Current $one = V/R_{total} = 6.0/15=0.40$ A."
+        },
+        {
+          "title": "Charge in s C",
+          "content": "Charge in 180 s: $Q=It=0.40\\times180=72$ C."
+        },
+        {
+          "title": "Power in heater W so",
+          "content": "Power in heater $= 180\\text{ J}/180\\text{ s}=1.0$ W $=one^2R_{heater}$, so $R_{heater}=1.0/0.40^2=6.25\\,\\Omega$."
+        },
+        {
+          "title": "Voltage across heater V",
+          "content": "Voltage across heater $=IR_{heater}=0.40\\times6.25=2.5$ V."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-009",
@@ -565,7 +713,31 @@
     "answer": "F",
     "technique": "Volume of solid cube $= 10^3=1000\\text{ cm}^3$. Volume of square-cross-section hole (5 cm × 5 cm, through 10 cm) $=5\\times5\\times10=250\\text{ cm}^3$. Net volume $=1000-250=750\\text{ cm}^3$. Mass $=W/g=30/10=3\\text{ kg}=3000\\text{ g}$. Density $=3000/750=4.0\\text{ g cm}^{-3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Volume of solid cube",
+          "content": "Volume of solid cube $= 10^3=1000\\text{ cm}^3$."
+        },
+        {
+          "title": "Volume of square cross section hole cm cm",
+          "content": "Volume of square-cross-section hole (5 cm \\times 5 cm, through 10 cm) $=5\\times5\\times10=250\\text{ cm}^3$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Net volume $=1000-250=750\\text{ cm}^3$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Mass $=W/g=30/10=3\\text{ kg}=3000\\text{ g}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Density $=3000/750=4.0\\text{ g cm}^{-3}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-010",
@@ -625,7 +797,23 @@
     "answer": "D",
     "technique": "Balls P and Q (at 30 °C) are hotter than their surrounding room air (20 °C), so they lose heat by convection to the surrounding air. Balls R and S are at the same temperature as their room (40 °C), so there is no net convective loss. For radiation, dull (matte) surfaces are better emitters than shiny surfaces at a given temperature; among P (shiny, 30°C), Q (dull, 30°C), R (shiny, 40°C), S (dull, 40°C), the highest temperature combined with a dull surface gives the greatest radiation rate: ball S.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Balls P and Q at C are hotter",
+          "content": "Balls P and Q (at 30 ^\\circ\\mathrm{C}) are hotter than their surrounding room air (20 ^\\circ\\mathrm{C}), so they lose heat by convection to the surrounding air."
+        },
+        {
+          "title": "Balls R and S are at the same",
+          "content": "Balls R and S are at the same temperature as their room (40 ^\\circ\\mathrm{C}), so there is no net convective loss."
+        },
+        {
+          "title": "For radiation dull matte surfaces are better emitters",
+          "content": "For radiation, dull (matte) surfaces are better emitters than shiny surfaces at a given temperature; among P (shiny, 30^\\circ\\mathrm{C}), Q (dull, 30^\\circ\\mathrm{C}), R (shiny, 40^\\circ\\mathrm{C}), S (dull, 40^\\circ\\mathrm{C}), the highest temperature combined with a dull surface gives the greatest radiation rate: ball S."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-011",
@@ -685,7 +873,35 @@
     "answer": "A",
     "technique": "From the v-t graph: velocity is $8.0\\text{ m s}^{-1}$ at $t=0$, decreasing linearly to $0$ at $t=20\\text{s}$, then continuing to $-2.0\\text{ m s}^{-1}$ at $t=30\\text{s}$. Distance for $0$-$20$s $=\\frac12\\times20\\times8.0=80$m (forward). Distance for $20$-$30$s $=\\frac12\\times10\\times2.0=10$m (backward). Total distance travelled $=80+10=90$m. Displacement (net distance from start) $=80-10=70$m. Average speed $=90/30=3.0\\text{ m s}^{-1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "From the v t graph velocity is at",
+          "content": "From the v-t graph: velocity is $8.0\\text{ m s}^{-1}$ at $t=0$, decreasing linearly to $0$ at $t=20\\text{s}$, then continuing to $-2.0\\text{ m s}^{-1}$ at $t=30\\text{s}$."
+        },
+        {
+          "title": "Distance for s m forward",
+          "content": "Distance for $0$-$20$s $=\\frac12\\times20\\times8.0=80$m (forward)."
+        },
+        {
+          "title": "Distance for s m backward",
+          "content": "Distance for $20$-$30$s $=\\frac12\\times10\\times2.0=10$m (backward)."
+        },
+        {
+          "title": "Total distance travelled m",
+          "content": "Total distance travelled $=80+10=90$m."
+        },
+        {
+          "title": "Displacement net distance from start m",
+          "content": "Displacement (net distance from start) $=80-10=70$m."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Average speed $=90/30=3.0\\text{ m s}^{-1}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-012",
@@ -817,7 +1033,19 @@
     "answer": "D",
     "technique": "By conservation of momentum, the thorium nucleus and alpha particle recoil with equal and opposite momenta. Kinetic energy $=p^2/2m$, so KE is shared inversely proportional to mass: $KE_\\alpha = E\\times\\dfrac{m_{Th}}{m_{Th}+m_\\alpha}=E\\times\\dfrac{234}{238}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "By conservation of momentum the thorium nucleus and",
+          "content": "By conservation of momentum, the thorium nucleus and alpha particle recoil with equal and opposite momenta."
+        },
+        {
+          "title": "Kinetic energy so KE is shared inversely proportional",
+          "content": "Kinetic energy $=p^2/2m$, so KE is shared inversely proportional to mass: $KE_\\alpha = E\\times\\dfrac{m_{Th}}{m_{Th}+m_\\alpha}=E\\times\\dfrac{234}{238}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-015",
@@ -881,7 +1109,27 @@
     "answer": "G",
     "technique": "Round trip time to nearer building: $t_1=2\\times48/320=0.3$ s. Round trip time to farther building: $t_2=2\\times80/320=0.5$ s. For every echo to coincide with a click, the click period must be a common factor of both 0.3 s and 0.5 s; the largest such period (giving highest, i.e. correct, frequency where this first happens) is $\\gcd(0.3,0.5)=0.1$ s. Frequency $=1/0.1=10$ Hz.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Round trip time to nearer building s",
+          "content": "Round trip time to nearer building: $t_1=2\\times48/320=0.3$ s."
+        },
+        {
+          "title": "Round trip time to farther building s",
+          "content": "Round trip time to farther building: $t_2=2\\times80/320=0.5$ s."
+        },
+        {
+          "title": "For every echo to coincide with a click",
+          "content": "For every echo to coincide with a click, the click period must be a common factor of both 0.3 s and 0.5 s; the largest such period (giving highest, i.e. correct, frequency where this first happens) is $\\gcd(0.3,0.5)=0.1$ s."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Frequency $=1/0.1=10$ Hz."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-001",
@@ -903,7 +1151,19 @@
     "answer": "C",
     "technique": "Substitute the given x-values into the cubic to form simultaneous equations in $p$ and $q$, then solve.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Substitute known values",
+          "content": "Substitute the given x-values into the cubic to form simultaneous equations in $p$ and $q$, then solve."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-014",
@@ -928,7 +1188,23 @@
     "answer": "C",
     "technique": "Newton's Third Law applies to the interaction pair between the two contacting bodies (parachute and parachutist): the force from the parachute on the parachutist (P) and the force from the parachutist on the parachute (N) are equal and opposite in magnitude, giving $N=P$ (equation 4). Equations 1, 2 and 5 follow from equilibrium (Newton's first/second law at terminal velocity, since each object is in equilibrium), not from the third law. Equation 3 ($L=Q$) is not a required equality by any law.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Newton s Third Law applies to the interaction",
+          "content": "Newton's Third Law applies to the interaction pair between the two contacting bodies (parachute and parachutist): the force from the parachute on the parachutist (P) and the force from the parachutist on the parachute (N) are equal and opposite in magnitude, giving $N=P$ (equation 4)."
+        },
+        {
+          "title": "Equations and follow from equilibrium Newton s first",
+          "content": "Equations 1, 2 and 5 follow from equilibrium (Newton's first/second law at terminal velocity, since each object is in equilibrium), not from the third law."
+        },
+        {
+          "title": "Equation is not a required equality by any",
+          "content": "Equation 3 ($L=Q$) is not a required equality by any law."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-002",
@@ -953,7 +1229,23 @@
     "answer": "C",
     "technique": "Side length $PQ = 1-(-5)=6$, so the square has side 6 with $S=(-5,6)$, $R=(1,6)$. The inscribed circle has diameter equal to the side (6), so radius 3, centred at the square's centre $(-2,3)$. Equation: $(x+2)^2+(y-3)^2=9 \\Rightarrow x^2+4x+4+y^2-6y+9=9 \\Rightarrow x^2+y^2+4x-6y+4=0$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Side length so the square has side with",
+          "content": "Side length $PQ = 1-(-5)=6$, so the square has side 6 with $S=(-5,6)$, $R=(1,6)$."
+        },
+        {
+          "title": "The inscribed circle has diameter equal to the",
+          "content": "The inscribed circle has diameter equal to the side (6), so radius 3, centred at the square's centre $(-2,3)$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Equation: $(x+2)^2+(y-3)^2=9 \\Rightarrow x^2+4x+4+y^2-6y+9=9 \\Rightarrow x^2+y^2+4x-6y+4=0$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-015",
@@ -978,7 +1270,19 @@
     "answer": "C",
     "technique": "Considering the crate alone: $T-mg=ma \\Rightarrow T=m(g+a)=800\\times(10+2.0)=800\\times12=9600$ N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Considering the crate alone N",
+          "content": "Considering the crate alone: $T-mg=ma \\Rightarrow T=m(g+a)=800\\times(10+2.0)=800\\times12=9600$ N."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-003",
@@ -1002,7 +1306,23 @@
     "answer": "C",
     "technique": "$ar^4=2$ with $a=8$ gives $r^4=1/4$, so $r^2=1/2$ and $r=\\pm\\dfrac{1}{\\sqrt2}$. The sixth term $ar^5$ must be positive; since $a>0$, this requires $r^5>0$, i.e. $r>0$, so $r=\\dfrac{1}{\\sqrt2}$. Sum to infinity $=\\dfrac{8}{1-\\frac{1}{\\sqrt2}}=\\dfrac{8\\sqrt2}{\\sqrt2-1}=\\dfrac{8\\sqrt2(\\sqrt2+1)}{(\\sqrt2-1)(\\sqrt2+1)}=\\dfrac{8(2+\\sqrt2)}{1}=8(2+\\sqrt2)=16+8\\sqrt2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "With gives so and",
+          "content": "$ar^4=2$ with $a=8$ gives $r^4=1/4$, so $r^2=1/2$ and $r=\\pm\\dfrac{1}{\\sqrt{2}}$."
+        },
+        {
+          "title": "The sixth term must be positive since this",
+          "content": "The sixth term $ar^5$ must be positive; since $a>0$, this requires $r^5>0$, i.e. $r>0$, so $r=\\dfrac{1}{\\sqrt{2}}$."
+        },
+        {
+          "title": "Sum to infinity",
+          "content": "Sum to infinity $=\\dfrac{8}{1-\\frac{1}{\\sqrt{2}}}=\\dfrac{8\\sqrt{2}}{\\sqrt{2}-1}=\\dfrac{8\\sqrt{2}(\\sqrt{2}+1)}{(\\sqrt{2}-1)(\\sqrt{2}+1)}=\\dfrac{8(2+\\sqrt{2})}{1}=8(2+\\sqrt{2})=16+8\\sqrt{2}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-016",
@@ -1025,7 +1345,23 @@
     "answer": "A",
     "technique": "Vertical component of push (downward, since pushed below horizontal) $=50\\sin37°=50\\times0.60=30$ N. Normal force $= 350+30=380$ N. Work done by push $=$ horizontal component $\\times$ distance $=(50\\cos37°)\\times15=(50\\times0.80)\\times15=40\\times15=600$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Vertical component of push downward since pushed below",
+          "content": "Vertical component of push (downward, since pushed below horizontal) $=50\\sin37^\\circ=50\\times0.60=30$ N."
+        },
+        {
+          "title": "Normal force N",
+          "content": "Normal force $= 350+30=380$ N."
+        },
+        {
+          "title": "Work done by push horizontal component distance J",
+          "content": "Work done by push $=$ horizontal component $\\times$ distance $=(50\\cos37^\\circ)\\times15=(50\\times0.80)\\times15=40\\times15=600$ J."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-004",
@@ -1048,7 +1384,31 @@
     "answer": "A",
     "technique": "Tangent length: $PT=\\sqrt{PC^2-r^2}=\\sqrt{400-100}=\\sqrt{300}=10\\sqrt3$ cm. Angle $PCT$: $\\cos(\\angle PCT)=r/PC=10/20=0.5 \\Rightarrow \\angle PCT=60°$, so the angle between the two radii to the tangent points is $120°=\\tfrac{2\\pi}{3}$ rad. Area of kite $PT_1CT_2 = 2\\times\\tfrac12\\times10\\times10\\sqrt3=100\\sqrt3$. Sector area $=\\tfrac12r^2\\theta=\\tfrac12\\times100\\times\\tfrac{2\\pi}{3}=\\tfrac{100\\pi}{3}$. Shaded area $=100\\sqrt3-\\tfrac{100\\pi}{3}=\\dfrac{100}{3}(3\\sqrt3-\\pi)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Tangent length cm",
+          "content": "Tangent length: $PT=\\sqrt{PC^2-r^2}=\\sqrt{400-100}=\\sqrt{300}=10\\sqrt{3}$ cm."
+        },
+        {
+          "title": "Angle so the angle between the two radii",
+          "content": "Angle $PCT$: $\\cos(\\angle PCT)=r/PC=10/20=0.5 \\Rightarrow \\angle PCT=60^\\circ$, so the angle between the two radii to the tangent points is $120^\\circ=\\tfrac{2\\pi}{3}$ rad."
+        },
+        {
+          "title": "Area of kite",
+          "content": "Area of kite $PT_1CT_2 = 2\\times\\tfrac12\\times10\\times10\\sqrt{3}=100\\sqrt{3}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Sector area $=\\tfrac12r^2\\theta=\\tfrac12\\times100\\times\\tfrac{2\\pi}{3}=\\tfrac{100\\pi}{3}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Shaded area $=100\\sqrt{3}-\\tfrac{100\\pi}{3}=\\dfrac{100}{3}(3\\sqrt{3}-\\pi)$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-017",
@@ -1073,7 +1433,23 @@
     "answer": "H",
     "technique": "Taking moments about the pivot: boy's moment $=350\\times1.20=420$ N·m, woman's moment $=600\\times0.80=480$ N·m (opposing). For balance, the plank's own weight (150 N) must supply the remaining $480-420=60$ N·m on the boy's side: $150d=60 \\Rightarrow d=0.40$ m (on the side opposite the woman, per the diagram, 'to the right' of the pivot). Force from pivot on plank supports the total weight: $350+600+150=1100$ N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Taking moments about the pivot boy s moment",
+          "content": "Taking moments about the pivot: boy's moment $=350\\times1.20=420$ N·m, woman's moment $=600\\times0.80=480$ N·m (opposing)."
+        },
+        {
+          "title": "For balance the plank s own weight N",
+          "content": "For balance, the plank's own weight (150 N) must supply the remaining $480-420=60$ N·m on the boy's side: $150d=60 \\Rightarrow d=0.40$ m (on the side opposite the woman, per the diagram, 'to the right' of the pivot)."
+        },
+        {
+          "title": "Force from pivot on plank supports the total",
+          "content": "Force from pivot on plank supports the total weight: $350+600+150=1100$ N."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-005",
@@ -1094,7 +1470,27 @@
     "answer": "D",
     "technique": "$7\\cos\\theta-3\\sin\\theta\\tan\\theta=1 \\Rightarrow 7\\cos\\theta-\\dfrac{3\\sin^2\\theta}{\\cos\\theta}=1$. Multiply by $\\cos\\theta$: $7\\cos^2\\theta-3\\sin^2\\theta=\\cos\\theta$. Using $\\sin^2\\theta=1-\\cos^2\\theta$: $7\\cos^2\\theta-3(1-\\cos^2\\theta)=\\cos\\theta \\Rightarrow 10\\cos^2\\theta-\\cos\\theta-3=0$. Solving: $\\cos\\theta=\\dfrac{1\\pm11}{20}=\\dfrac35$ or $-\\dfrac12$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$7\\cos\\theta-3\\sin\\theta\\tan\\theta=1 \\Rightarrow 7\\cos\\theta-\\dfrac{3\\sin^2\\theta}{\\cos\\theta}=1$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Multiply by $\\cos\\theta$: $7\\cos^2\\theta-3\\sin^2\\theta=\\cos\\theta$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Using $\\sin^2\\theta=1-\\cos^2\\theta$: $7\\cos^2\\theta-3(1-\\cos^2\\theta)=\\cos\\theta \\Rightarrow 10\\cos^2\\theta-\\cos\\theta-3=0$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Solving: $\\cos\\theta=\\dfrac{1\\pm11}{20}=\\dfrac35$ or $-\\dfrac12$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-018",
@@ -1116,7 +1512,23 @@
     "answer": "B",
     "technique": "Total energy at X $=\\tfrac12(200)(5.0)^2+200\\times10\\times8.0=2500+16000=18500$ J. Total energy at Y $=\\tfrac12(200)(9.0)^2+200\\times10\\times2.0=8100+4000=12100$ J. Energy lost to resistive forces $=18500-12100=6400$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total energy at X J",
+          "content": "Total energy at X $=\\tfrac12(200)(5.0)^2+200\\times10\\times8.0=2500+16000=18500$ J."
+        },
+        {
+          "title": "Total energy at Y J",
+          "content": "Total energy at Y $=\\tfrac12(200)(9.0)^2+200\\times10\\times2.0=8100+4000=12100$ J."
+        },
+        {
+          "title": "Energy lost to resistive forces J",
+          "content": "Energy lost to resistive forces $=18500-12100=6400$ J."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-006",
@@ -1141,7 +1553,19 @@
     "answer": "G",
     "technique": "Expand into a quadratic in $x$ and apply the discriminant condition $b^2-4ac>0$ for two distinct real roots, solving the resulting inequality in $a$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Expand into a quadratic in and apply the",
+          "content": "Expand into a quadratic in $x$ and apply the discriminant condition $b^2-4ac>0$ for two distinct real roots, solving the resulting inequality in $a$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-019",
@@ -1164,7 +1588,19 @@
     "answer": "B",
     "technique": "Since the cube is stationary and P is a horizontal applied force, friction must exactly balance P horizontally for equilibrium — it is not possible to have zero friction (ruling out statement 1), and by the diagram's geometry friction acts to the left (statement 2 correct, statement 3 wrong direction). Statement 4 is false because P is not applied at the top edge at the full height $d$ above the pivot edge, so its moment arm is not simply $d$ (the diagram shows it applied at an angled point, not straight up).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since the cube is stationary and P is",
+          "content": "Since the cube is stationary and P is a horizontal applied force, friction must exactly balance P horizontally for equilibrium — it is not possible to have zero friction (ruling out statement 1), and by the diagram's geometry friction acts to the left (statement 2 correct, statement 3 wrong direction)."
+        },
+        {
+          "title": "Statement is false because P is not applied",
+          "content": "Statement 4 is false because P is not applied at the top edge at the full height $d$ above the pivot edge, so its moment arm is not simply $d$ (the diagram shows it applied at an angled point, not straight up)."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-007",
@@ -1187,7 +1623,35 @@
     "answer": "D",
     "technique": "Since the lines are perpendicular, $mp=-1 \\Rightarrow p=-1/m$. L (x-intercept of $y=mx+3$): $0=mx+3\\Rightarrow x=-3/m$. M (x-intercept of $y=px+2$): $0=px+2\\Rightarrow x=-2/p=2m$. Distance $LM=|2m-(-3/m)|=|2m+3/m|=5$. For $m>1$ both terms positive: $2m+3/m=5\\Rightarrow2m^2-5m+3=0\\Rightarrow m=\\dfrac{5\\pm1}{4}$, giving $m=1.5$ or $m=1$; since $m\\neq1$, $m=1.5$. Then $p=-1/1.5=-2/3$. $m+p=1.5-2/3=5/6$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since the lines are perpendicular",
+          "content": "Since the lines are perpendicular, $mp=-1 \\Rightarrow p=-1/m$."
+        },
+        {
+          "title": "L x intercept of",
+          "content": "L (x-intercept of $y=mx+3$): $0=mx+3\\Rightarrow x=-3/m$."
+        },
+        {
+          "title": "M x intercept of",
+          "content": "M (x-intercept of $y=px+2$): $0=px+2\\Rightarrow x=-2/p=2m$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Distance $LM=|2m-(-3/m)|=|2m+3/m|=5$."
+        },
+        {
+          "title": "For both terms positive giving or since",
+          "content": "For $m>1$ both terms positive: $2m+3/m=5\\Rightarrow2m^2-5m+3=0\\Rightarrow m=\\dfrac{5\\pm1}{4}$, giving $m=1.5$ or $m=1$; since $m\\neq1$, $m=1.5$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $p=-1/1.5=-2/3$. $m+p=1.5-2/3=5/6$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-020",
@@ -1210,7 +1674,19 @@
     "answer": "A",
     "technique": "Based on the diagram, each block's height changes by $(a-b)$ between the two arrangements, and there are two blocks, so the total PE difference is $2mg(a-b)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Based on the diagram each block s height",
+          "content": "Based on the diagram, each block's height changes by $(a-b)$ between the two arrangements, and there are two blocks, so the total PE difference is $2mg(a-b)$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-008",
@@ -1235,7 +1711,19 @@
     "answer": "G",
     "technique": "$f'(x)=3x^2-a^2$. For $f$ increasing, $f'(x)\\ge0 \\Rightarrow x^2\\ge a^2/3 \\Rightarrow x\\le-\\dfrac{a}{\\sqrt3}$ or $x\\ge\\dfrac{a}{\\sqrt3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$f'(x)=3x^2-a^2$."
+        },
+        {
+          "title": "For increasing or",
+          "content": "For $f$ increasing, $f'(x)\\ge0 \\Rightarrow x^2\\ge a^2/3 \\Rightarrow x\\le-\\dfrac{a}{\\sqrt{3}}$ or $x\\ge\\dfrac{a}{\\sqrt{3}}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-021",
@@ -1260,7 +1748,19 @@
     "answer": "G",
     "technique": "Using $v^2=u^2-2gh$: $2.0^2=8.0^2-2(10)h \\Rightarrow 4=64-20h \\Rightarrow h=3.0$ m. Using $h=ut-\\tfrac12gt^2$: $3=8t-5t^2 \\Rightarrow 5t^2-8t+3=0 \\Rightarrow t=\\dfrac{8\\pm2}{10}$, giving $t=0.6$ s (on the way up) or $t=1.0$ s (on the way down).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Using $v^2=u^2-2gh$: $2.0^2=8.0^2-2(10)h \\Rightarrow 4=64-20h \\Rightarrow h=3.0$ m."
+        },
+        {
+          "title": "Using giving s on the way up or",
+          "content": "Using $h=ut-\\tfrac12gt^2$: $3=8t-5t^2 \\Rightarrow 5t^2-8t+3=0 \\Rightarrow t=\\dfrac{8\\pm2}{10}$, giving $t=0.6$ s (on the way up) or $t=1.0$ s (on the way down)."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-009",
@@ -1285,7 +1785,23 @@
     "answer": "E",
     "technique": "Translating $y=x^2$ by $(4,3)$ gives $y=(x-4)^2+3$. Reflecting in the line $y=-1$ maps a point at height $y$ to height $-2-y$ (since the distance from $y=-1$ is preserved: new $y = -1-(y-(-1))=-2-y$). So the new curve is $y=-2-[(x-4)^2+3]=-5-(x-4)^2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Translating by gives",
+          "content": "Translating $y=x^2$ by $(4,3)$ gives $y=(x-4)^2+3$."
+        },
+        {
+          "title": "Reflecting in the line maps a point at",
+          "content": "Reflecting in the line $y=-1$ maps a point at height $y$ to height $-2-y$ (since the distance from $y=-1$ is preserved: new $y = -1-(y-(-1))=-2-y$)."
+        },
+        {
+          "title": "So the new curve is",
+          "content": "So the new curve is $y=-2-[(x-4)^2+3]=-5-(x-4)^2$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-022",
@@ -1308,7 +1824,27 @@
     "answer": "E",
     "technique": "Momentum conservation: $4.0\\times10=4.0v_P+2.0\\times10 \\Rightarrow 40=4v_P+20 \\Rightarrow v_P=5.0\\text{ m s}^{-1}$ to the right. KE before $=\\tfrac12(4.0)(10)^2=200$ J. KE after $=\\tfrac12(4.0)(5.0)^2+\\tfrac12(2.0)(10)^2=50+100=150$ J. KE lost $=200-150=50$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Momentum conservation to the right",
+          "content": "Momentum conservation: $4.0\\times10=4.0v_P+2.0\\times10 \\Rightarrow 40=4v_P+20 \\Rightarrow v_P=5.0\\text{ m s}^{-1}$ to the right."
+        },
+        {
+          "title": "KE before J",
+          "content": "KE before $=\\tfrac12(4.0)(10)^2=200$ J."
+        },
+        {
+          "title": "KE after J",
+          "content": "KE after $=\\tfrac12(4.0)(5.0)^2+\\tfrac12(2.0)(10)^2=50+100=150$ J."
+        },
+        {
+          "title": "KE lost J",
+          "content": "KE lost $=200-150=50$ J."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-010",
@@ -1330,7 +1866,19 @@
     "answer": "C",
     "technique": "Factorise: $4x^4-17x^2+4=(4x^2-1)(x^2-4)$, giving roots $x=\\pm\\tfrac12$ and $x=\\pm2$. The quartic has positive leading coefficient, so it is positive outside the outermost roots and between the innermost roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$.",
     "origin": "adapted",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Factorise giving roots and",
+          "content": "Factorise: $4x^4-17x^2+4=(4x^2-1)(x^2-4)$, giving roots $x=\\pm\\tfrac12$ and $x=\\pm2$."
+        },
+        {
+          "title": "The quartic has positive leading coefficient so it",
+          "content": "The quartic has positive leading coefficient, so it is positive outside the outermost roots and between the innermost roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-023",
@@ -1353,7 +1901,27 @@
     "answer": "A",
     "technique": "Resultant of the two perpendicular forces: $\\sqrt{9.0^2+12.0^2}=\\sqrt{81+144}=\\sqrt{225}=15$ N. Friction force (once moving) $=\\mu mg=0.25\\times2.0\\times10=5.0$ N. Net force $=15-5.0=10$ N. Acceleration $=10/2.0=5.0\\text{ m s}^{-2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Resultant of the two perpendicular forces N",
+          "content": "Resultant of the two perpendicular forces: $\\sqrt{9.0^2+12.0^2}=\\sqrt{81+144}=\\sqrt{225}=15$ N."
+        },
+        {
+          "title": "Friction force once moving N",
+          "content": "Friction force (once moving) $=\\mu mg=0.25\\times2.0\\times10=5.0$ N."
+        },
+        {
+          "title": "Net force N",
+          "content": "Net force $=15-5.0=10$ N."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Acceleration $=10/2.0=5.0\\text{ m s}^{-2}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-011",
@@ -1375,7 +1943,35 @@
     "answer": "B",
     "technique": "The cursor traces $y=10$ for $x\\le0$. Minimise $|10-f(x)|$ for $x\\le0$ where $f(x)=4x^3-12x^2-36x-15$. $f'(x)=12x^2-24x-36=12(x-3)(x+1)$, critical points at $x=3$ and $x=-1$. For $x\\le0$, the relevant critical point is $x=-1$: $f(-1)=-4-12+36-15=5$. Distance $=|10-5|=5$. As $x\\to-\\infty$, $f(x)\\to-\\infty$ so the distance grows; at $x=0$, $f(0)=-15$, distance $=25$. So the minimum on $x\\le0$ is 5, at $x=-1$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The cursor traces for",
+          "content": "The cursor traces $y=10$ for $x\\le0$."
+        },
+        {
+          "title": "Minimise for where critical points at and",
+          "content": "Minimise $|10-f(x)|$ for $x\\le0$ where $f(x)=4x^3-12x^2-36x-15$. $f'(x)=12x^2-24x-36=12(x-3)(x+1)$, critical points at $x=3$ and $x=-1$."
+        },
+        {
+          "title": "For the relevant critical point is",
+          "content": "For $x\\le0$, the relevant critical point is $x=-1$: $f(-1)=-4-12+36-15=5$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Distance $=|10-5|=5$."
+        },
+        {
+          "title": "As so the distance grows at distance",
+          "content": "As $x\\to-\\infty$, $f(x)\\to-\\infty$ so the distance grows; at $x=0$, $f(0)=-15$, distance $=25$."
+        },
+        {
+          "title": "So the minimum on is at",
+          "content": "So the minimum on $x\\le0$ is 5, at $x=-1$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-024",
@@ -1399,7 +1995,19 @@
     "answer": "C",
     "technique": "For the falling 30 kg mass: $mg-T=ma \\Rightarrow 300-T=30(2.5)=75 \\Rightarrow T=225$ N. For the 20 kg object on the incline: $T-mg\\sin30°-f=ma \\Rightarrow 225-20(10)(0.5)-f=20(2.5) \\Rightarrow 225-100-f=50 \\Rightarrow f=75$ N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "For the falling kg mass N",
+          "content": "For the falling 30 kg mass: $mg-T=ma \\Rightarrow 300-T=30(2.5)=75 \\Rightarrow T=225$ N."
+        },
+        {
+          "title": "For the kg object on the incline N",
+          "content": "For the 20 kg object on the incline: $T-mg\\sin30^\\circ-f=ma \\Rightarrow 225-20(10)(0.5)-f=20(2.5) \\Rightarrow 225-100-f=50 \\Rightarrow f=75$ N."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-012",
@@ -1422,7 +2030,23 @@
     "answer": "A",
     "technique": "At $x=7$: $7-4=3(y-1)^2 \\Rightarrow (y-1)^2=1 \\Rightarrow y=0$ or $y=2$. Area $=\\displaystyle\\int_0^2\\left[7-\\left(3(y-1)^2+4\\right)\\right]dy=\\int_0^2\\left[3-3(y-1)^2\\right]dy$. Substituting $u=y-1$ (limits $-1$ to $1$): $\\int_{-1}^{1}(3-3u^2)\\,du=[3u-u^3]_{-1}^{1}=(3-1)-(-3+1)=2-(-2)=4$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "At $x=7$: $7-4=3(y-1)^2 \\Rightarrow (y-1)^2=1 \\Rightarrow y=0$ or $y=2$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Area $=\\displaystyle\\int_0^2\\left[7-\\left(3(y-1)^2+4\\right)\\right]dy=\\int_0^2\\left[3-3(y-1)^2\\right]dy$."
+        },
+        {
+          "title": "Substitute known values",
+          "content": "Substituting $u=y-1$ (limits $-1$ to $1$): $\\int_{-1}^{1}(3-3u^2)\\,du=[3u-u^3]_{-1}^{1}=(3-1)-(-3+1)=2-(-2)=4$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-025",
@@ -1445,7 +2069,31 @@
     "answer": "F",
     "technique": "Let $m$ = mass of fuel ejected. Fuel's velocity relative to Earth $=7500-1425=6075\\text{ m s}^{-1}$ (ejected backwards relative to the now-faster spacecraft). Momentum conservation: $4000\\times7425=(4000-m)\\times7500+m\\times6075$. So $29\\,700\\,000=30\\,000\\,000-7500m+6075m=30\\,000\\,000-1425m$. Thus $1425m=300\\,000 \\Rightarrow m\\approx210$ kg.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let mass of fuel ejected",
+          "content": "Let $m$ = mass of fuel ejected."
+        },
+        {
+          "title": "Fuel s velocity relative to Earth ejected backwards",
+          "content": "Fuel's velocity relative to Earth $=7500-1425=6075\\text{ m s}^{-1}$ (ejected backwards relative to the now-faster spacecraft)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Momentum conservation: $4000\\times7425=(4000-m)\\times7500+m\\times6075$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $29\\,700\\,000=30\\,000\\,000-7500m+6075m=30\\,000\\,000-1425m$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Thus $1425m=300\\,000 \\Rightarrow m\\approx210$ kg."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M2-013",
@@ -1468,7 +2116,19 @@
     "answer": "C",
     "technique": "$y'=12x^3-12x^2-24x=12x(x-2)(x+1)$, so the stationary points are at $x=-1,\\ 0,\\ 2$ with $y(-1)=3+4-12+20=15$ (local minimum), $y(0)=20$ (local maximum) and $y(2)=48-32-48+20=-12$ (local minimum). The horizontal line $y=k$ cuts this W-shaped quartic in exactly four distinct points when $k$ lies strictly between the local maximum and the higher local minimum: $15<k<20$.",
     "origin": "adapted",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "So the stationary points are at with local",
+          "content": "$y'=12x^3-12x^2-24x=12x(x-2)(x+1)$, so the stationary points are at $x=-1,\\ 0,\\ 2$ with $y(-1)=3+4-12+20=15$ (local minimum), $y(0)=20$ (local maximum) and $y(2)=48-32-48+20=-12$ (local minimum)."
+        },
+        {
+          "title": "The horizontal line cuts this W shaped quartic",
+          "content": "The horizontal line $y=k$ cuts this W-shaped quartic in exactly four distinct points when $k$ lies strictly between the local maximum and the higher local minimum: $15<k<20$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-026",
@@ -1491,6 +2151,26 @@
     "answer": "B",
     "technique": "At the new equilibrium, $\\tan\\theta=30/40=0.75$, giving a 3-4-5 triangle where $\\cos\\theta=0.8$ (with the string at angle $\\theta$ from vertical). New vertical distance below the pivot $=L\\cos\\theta=0.35\\times0.8=0.28$ m, compared to the original $L=0.35$ m hanging vertically. Rise in height $=0.35-0.28=0.07$ m. Increase in PE $=mgh=40\\times0.07=2.8$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At the new equilibrium giving a triangle where",
+          "content": "At the new equilibrium, $\\tan\\theta=30/40=0.75$, giving a 3-4-5 triangle where $\\cos\\theta=0.8$ (with the string at angle $\\theta$ from vertical)."
+        },
+        {
+          "title": "New vertical distance below the pivot m compared",
+          "content": "New vertical distance below the pivot $=L\\cos\\theta=0.35\\times0.8=0.28$ m, compared to the original $L=0.35$ m hanging vertically."
+        },
+        {
+          "title": "Rise in height m",
+          "content": "Rise in height $=0.35-0.28=0.07$ m."
+        },
+        {
+          "title": "Increase in PE J",
+          "content": "Increase in PE $=mgh=40\\times0.07=2.8$ J."
+        }
+      ]
+    }
   }
 ]

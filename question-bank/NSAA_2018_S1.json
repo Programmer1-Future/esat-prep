@@ -21,7 +21,19 @@
     "answer": "E",
     "technique": "Women who passed = 200 - 143 = 57. Men who passed = total passed - women who passed = 167 - 57 = 110.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Women who passed",
+          "content": "Women who passed = 200 - 143 = 57."
+        },
+        {
+          "title": "Men who passed total passed women who passed",
+          "content": "Men who passed = total passed - women who passed = 167 - 57 = 110."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-002",
@@ -44,7 +56,23 @@
     "answer": "B",
     "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Write volume and surface area",
+          "content": "The sides are $x$, $x\\sqrt{2}$ and $2x$. Volume: $$V = x \\cdot x\\sqrt{2} \\cdot 2x = 2\\sqrt{2}\\, x^3.$$ Total surface area: $$S = 2\\bigl(x\\cdot x\\sqrt{2} + x\\cdot 2x + x\\sqrt{2}\\cdot 2x\\bigr) = 2x^2\\bigl(2 + 3\\sqrt{2}\\bigr).$$"
+        },
+        {
+          "title": "Impose the numerical condition",
+          "content": "$$V = 2S \\implies 2\\sqrt{2}\\, x^3 = 4x^2\\bigl(2 + 3\\sqrt{2}\\bigr).$$ For $x \\neq 0$, $$\\sqrt{2}\\, x = 2\\bigl(2 + 3\\sqrt{2}\\bigr) = 4 + 6\\sqrt{2}.$$"
+        },
+        {
+          "title": "Solve for x",
+          "content": "$$x = \\dfrac{4 + 6\\sqrt{2}}{\\sqrt{2}} = 2\\sqrt{2} + 6 = 6 + 2\\sqrt{2}.$$"
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-003",
@@ -69,7 +97,23 @@
     "answer": "H",
     "technique": "Gradient of given line: $2x+3y+1=0 \\Rightarrow y=-\\tfrac{2}{3}x-\\tfrac{1}{3}$, gradient $=-\\tfrac{2}{3}$. Gradient of joining segment: $\\dfrac{2p-(p-1)}{(1-p)-p}=\\dfrac{p+1}{1-2p}$. Setting equal: $\\dfrac{p+1}{1-2p}=-\\tfrac{2}{3} \\Rightarrow 3(p+1)=-2(1-2p) \\Rightarrow 3p+3=-2+4p \\Rightarrow p=5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Gradient of given line gradient",
+          "content": "Gradient of given line: $2x+3y+1=0 \\Rightarrow y=-\\tfrac{2}{3}x-\\tfrac{1}{3}$, gradient $=-\\tfrac{2}{3}$."
+        },
+        {
+          "title": "Gradient of joining segment",
+          "content": "Gradient of joining segment: $\\dfrac{2p-(p-1)}{(1-p)-p}=\\dfrac{p+1}{1-2p}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Setting equal: $\\dfrac{p+1}{1-2p}=-\\tfrac{2}{3} \\Rightarrow 3(p+1)=-2(1-2p) \\Rightarrow 3p+3=-2+4p \\Rightarrow p=5$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-004",
@@ -94,7 +138,31 @@
     "answer": "D",
     "technique": "Let $QR = a$, $PQ = 2a$. Area $= 2a^2 = 96 \\Rightarrow a^2 = 48$. The diagonal of the rectangle is a diameter: $\\text{diag}^2 = (2a)^2+a^2 = 5a^2 = 240$, so diag $=\\sqrt{240}=4\\sqrt{15}$. Radius $= \\tfrac12 \\times 4\\sqrt{15} = 2\\sqrt{15}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Let $QR = a$, $PQ = 2a$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Area $= 2a^2 = 96 \\Rightarrow a^2 = 48$."
+        },
+        {
+          "title": "The diagonal of the rectangle is a diameter",
+          "content": "The diagonal of the rectangle is a diameter: $\\text{diag}^2 = (2a)^2+a^2 = 5a^2"
+        },
+        {
+          "title": "Work step 4",
+          "content": "= 240$, so diag $=\\sqrt{240}=4\\sqrt{15}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Radius $= \\tfrac12 \\times 4\\sqrt{15} = 2\\sqrt{15}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-005",
@@ -117,7 +185,27 @@
     "answer": "C",
     "technique": "Let expected = $kT^2$. From 16°C data: $64=k(16)^2 \\Rightarrow k=0.25$. Expected on the warmer day $=0.25T^2$, and actual sold $=256=$ expected $+31$, so expected $=225$. Then $0.25T^2=225 \\Rightarrow T^2=900 \\Rightarrow T=30$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Let expected = $kT^2$."
+        },
+        {
+          "title": "From C data",
+          "content": "From 16^\\circ\\mathrm{C} data: $64=k(16)^2 \\Rightarrow k=0.25$."
+        },
+        {
+          "title": "Expected on the warmer day and actual sold",
+          "content": "Expected on the warmer day $=0.25T^2$, and actual sold $=256=$ expected $+31$, so expected $=225$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $0.25T^2=225 \\Rightarrow T^2=900 \\Rightarrow T=30$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-006",
@@ -140,7 +228,19 @@
     "answer": "E",
     "technique": "Volume scale factor $=\\left(\\tfrac{5}{4}\\right)^3 = \\tfrac{125}{64}$. Large volume $=320\\times\\tfrac{125}{64}=625\\text{ cm}^3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Volume scale factor",
+          "content": "Volume scale factor $=\\left(\\tfrac{5}{4}\\right)^3 = \\tfrac{125}{64}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Large volume $=320\\times\\tfrac{125}{64}=625\\text{ cm}^3$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-007",
@@ -163,7 +263,27 @@
     "answer": "A",
     "technique": "Sum of all $n$ numbers $=np$. Sum of the two numbers $=2q$; sum of remaining $(n-2)$ numbers $=10(n-2)$. So $np = 2q+10(n-2) = 2q+10n-20$. Rearranging: $np-10n = 2q-20 \\Rightarrow n(p-10)=2(q-10) \\Rightarrow n=\\dfrac{2(q-10)}{p-10}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Sum of all numbers",
+          "content": "Sum of all $n$ numbers $=np$."
+        },
+        {
+          "title": "Sum of the two numbers sum of remaining",
+          "content": "Sum of the two numbers $=2q$; sum of remaining $(n-2)$ numbers $=10(n-2)$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $np = 2q+10(n-2) = 2q+10n-20$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Rearranging: $np-10n = 2q-20 \\Rightarrow n(p-10)=2(q-10) \\Rightarrow n=\\dfrac{2(q-10)}{p-10}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-008",
@@ -186,7 +306,19 @@
     "answer": "C",
     "technique": "Find the three vertices: $(5x+2y=20)\\cap(y=3x-23)$ gives $(6,-5)$; $(5x+2y=20)\\cap(x=0)$ gives $(0,10)$; $(y=3x-23)\\cap(x=0)$ gives $(0,-23)$. Using the shoelace formula on (6,-5),(0,10),(0,-23): Area $=\\tfrac12|6(10-(-23))+0(-23-(-5))+0(-5-10)| = \\tfrac12|6\\times33| = 99$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Find the three vertices gives gives gives",
+          "content": "Find the three vertices: $(5x+2y=20)\\cap(y=3x-23)$ gives $(6,-5)$; $(5x+2y=20)\\cap(x=0)$ gives $(0,10)$; $(y=3x-23)\\cap(x=0)$ gives $(0,-23)$."
+        },
+        {
+          "title": "Using the shoelace formula on Area",
+          "content": "Using the shoelace formula on (6,-5),(0,10),(0,-23): Area $=\\tfrac12|6(10-(-23))+0(-23-(-5))+0(-5-10)| = \\tfrac12|6\\times33| = 99$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-009",
@@ -211,7 +343,19 @@
     "answer": "E",
     "technique": "Volume scales as $(\\text{length scale})^3$: model volume $=12\\pi \\times \\left(\\tfrac{1}{40}\\right)^3 \\text{ m}^3 = \\dfrac{12\\pi \\times 10^6}{64000}\\text{ cm}^3 = 187.5\\pi\\text{ cm}^3$. Mass $=$ volume $\\times$ density $=187.5\\pi \\times \\tfrac{4}{3} = 250\\pi$ g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Volume scales as model volume",
+          "content": "Volume scales as $(\\text{length scale})^3$: model volume $=12\\pi \\times \\left(\\tfrac{1}{40}\\right)^3 \\text{ m}^3 = \\dfrac{12\\pi \\times 10^6}{64000}\\text{ cm}^3 = 187.5\\pi\\text{ cm}^3$."
+        },
+        {
+          "title": "Mass volume density g",
+          "content": "Mass $=$ volume $\\times$ density $=187.5\\pi \\times \\tfrac{4}{3} = 250\\pi$ g."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-010",
@@ -233,7 +377,27 @@
     "answer": "D",
     "technique": "Interior angle of a regular pentagon $=108°$. Triangle STU is isosceles with $ST = TU$ (since $TU$ relates via the pentagon side and equilateral triangle side, both equal to the pentagon's side length), and angle $TSU = 108° - 60° = 48°$ (interior angle of pentagon at S minus the equilateral triangle's angle). Solving the isosceles triangle STU gives angle STU $= 66°$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Interior angle of a regular pentagon",
+          "content": "Interior angle of a regular pentagon $=108^\\circ$."
+        },
+        {
+          "title": "Triangle STU is isosceles with since relates via",
+          "content": "Triangle STU is isosceles with $ST = TU$ (since $TU$ relates via the pentagon side and equilateral triangle side, both equal to the pentagon's side length), and angle $TSU = 108^\\circ - 60^\\circ"
+        },
+        {
+          "title": "Interior angle of pentagon at S minus the",
+          "content": "= 48^\\circ$ (interior angle of pentagon at S minus the equilateral triangle's angle)."
+        },
+        {
+          "title": "Solving the isosceles triangle STU gives angle STU",
+          "content": "Solving the isosceles triangle STU gives angle STU $= 66^\\circ$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-011",
@@ -255,7 +419,23 @@
     "answer": "C",
     "technique": "After a 125% increase: price $=2.25p$. After a 40% decrease: $q = 2.25p \\times 0.6 = 1.35p = \\tfrac{27}{20}p$. So $m=\\tfrac{27}{20}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "After a increase price",
+          "content": "After a 125% increase: price $=2.25p$."
+        },
+        {
+          "title": "After a decrease",
+          "content": "After a 40% decrease: $q = 2.25p \\times 0.6 = 1.35p = \\tfrac{27}{20}p$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $m=\\tfrac{27}{20}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-012",
@@ -280,7 +460,23 @@
     "answer": "F",
     "technique": "$0.8\\times\\text{first} = \\tfrac{2}{3}\\times\\text{second} \\Rightarrow \\dfrac{\\text{first}}{\\text{second}} = \\dfrac{2/3}{4/5} = \\dfrac{2}{3}\\times\\dfrac{5}{4} = \\dfrac{5}{6}$. So $x:y = 5:6$, and $x-y = -1$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "First second first second",
+          "content": "$0.8\\times\\text{first} = \\tfrac{2}{3}\\times\\text{second} \\Rightarrow \\dfrac{\\text{first}}{\\text{second}} = \\dfrac{2/3}{4/5}"
+        },
+        {
+          "title": "Work step 2",
+          "content": "= \\dfrac{2}{3}\\times\\dfrac{5}{4} = \\dfrac{5}{6}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $x:y = 5:6$, and $x-y = -1$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-013",
@@ -304,7 +500,19 @@
     "answer": "E",
     "technique": "The turn from bearing 065° to 155° is exactly 90°, and PQ = QR = 5 km, so triangle PQR is an isosceles right angle triangle at Q. By symmetry, the bearing of R from P is $065°+45°=110°$, so the bearing of P from R is $110°+180°=290°$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The turn from bearing to is exactly and",
+          "content": "The turn from bearing 065^\\circ to 155^\\circ is exactly 90^\\circ, and PQ = QR = 5 km, so triangle PQR is an isosceles right angle triangle at Q."
+        },
+        {
+          "title": "By symmetry the bearing of R from P",
+          "content": "By symmetry, the bearing of R from P is $065^\\circ+45^\\circ=110^\\circ$, so the bearing of P from R is $110^\\circ+180^\\circ=290^\\circ$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-014",
@@ -326,7 +534,27 @@
     "answer": "A",
     "technique": "Only-mayonnaise probability: $\\dfrac{3n-1}{7n+5}=\\dfrac13 \\Rightarrow 9n-3=7n+5 \\Rightarrow n=4$. Only-tomato $=(3n+1)-n=2n+1=9$. Total $=7(4)+5=33$. Probability of only tomato sauce $=\\dfrac{9}{33}=\\dfrac{3}{11}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Only mayonnaise probability",
+          "content": "Only-mayonnaise probability: $\\dfrac{3n-1}{7n+5}=\\dfrac13 \\Rightarrow 9n-3=7n+5 \\Rightarrow n=4$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Only-tomato $=(3n+1)-n=2n+1=9$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Total $=7(4)+5=33$."
+        },
+        {
+          "title": "Probability of only tomato sauce",
+          "content": "Probability of only tomato sauce $=\\dfrac{9}{33}=\\dfrac{3}{11}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-015",
@@ -351,7 +579,19 @@
     "answer": "C",
     "technique": "By the tangent-chord (alternate segment) angle theorem, the angle between tangent and chord equals the inscribed angle in the alternate segment. Combined with the isosceles condition QS = QP and OS perpendicular to the tangent RT (radius-tangent property), working through the angle chase gives angle QSO $= \\tfrac12 \\times 75° = 37.5°$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "By the tangent chord alternate segment angle theorem",
+          "content": "By the tangent-chord (alternate segment) angle theorem, the angle between tangent and chord equals the inscribed angle in the alternate segment."
+        },
+        {
+          "title": "Combined with the isosceles condition QS QP and",
+          "content": "Combined with the isosceles condition QS = QP and OS perpendicular to the tangent RT (radius-tangent property), working through the angle chase gives angle QSO $= \\tfrac12 \\times 75^\\circ = 37.5^\\circ$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-016",
@@ -374,7 +614,23 @@
     "answer": "C",
     "technique": "$h=b+3$. Area $=\\tfrac12 b h = 14 \\Rightarrow b(b+3)=28 \\Rightarrow b^2+3b-28=0 \\Rightarrow b=4$ (taking positive root), so $h=7$. Half-base $=2$, so $s=\\sqrt{2^2+7^2}=\\sqrt{53}\\approx7.28$, which lies in $7<s<8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$h=b+3$."
+        },
+        {
+          "title": "Area taking positive root so",
+          "content": "Area $=\\tfrac12 b h = 14 \\Rightarrow b(b+3)=28 \\Rightarrow b^2+3b-28=0 \\Rightarrow b=4$ (taking positive root), so $h=7$."
+        },
+        {
+          "title": "Half base so which lies in",
+          "content": "Half-base $=2$, so $s=\\sqrt{2^2+7^2}=\\sqrt{53}\\approx7.28$, which lies in $7<s<8$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-017",
@@ -399,7 +655,19 @@
     "answer": "A",
     "technique": "$n=1: p+q=2$. $n=2: 4p+q=17$. Subtracting: $3p=15 \\Rightarrow p=5$, so $q=-3$. $\\dfrac{p+q}{p-q}=\\dfrac{2}{8}=\\dfrac14$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$n=1: p+q=2$. $n=2: 4p+q=17$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Subtracting: $3p=15 \\Rightarrow p=5$, so $q=-3$. $\\dfrac{p+q}{p-q}=\\dfrac{2}{8}=\\dfrac14$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-018",
@@ -422,7 +690,19 @@
     "answer": "B",
     "technique": "Only one red sweet is ever taken (the last one), so \"more green than red\" means at least 2 green sweets are drawn before the red. $P(\\text{red first})=\\tfrac{6}{12}=\\tfrac12$. $P(\\text{green then red})=\\tfrac{6}{12}\\times\\tfrac{6}{11}=\\tfrac{3}{11}$. So $P(\\geq 2\\text{ green before red}) = 1-\\tfrac12-\\tfrac{3}{11} = \\tfrac{22-11-6}{22}=\\tfrac{5}{22}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Only one red sweet is ever taken the",
+          "content": "Only one red sweet is ever taken (the last one), so \"more green than red\" means at least 2 green sweets are drawn before the red. $P(\\text{red first})=\\tfrac{6}{12}=\\tfrac12$. $P(\\text{green then red})=\\tfrac{6}{12}\\times\\tfrac{6}{11}=\\tfrac{3}{11}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $P(\\geq 2\\text{ green before red}) = 1-\\tfrac12-\\tfrac{3}{11} = \\tfrac{22-11-6}{22}=\\tfrac{5}{22}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-001",
@@ -447,7 +727,23 @@
     "answer": "B",
     "technique": "Each alpha particle removes 2 protons: $5\\times2=10$ protons lost. Each beta-minus decay converts a neutron to a proton, adding 1 proton: $2\\times1=2$ protons gained. Net change $=-10+2=-8$, so Y has 8 fewer protons than X.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Each alpha particle removes protons protons lost",
+          "content": "Each alpha particle removes 2 protons: $5\\times2=10$ protons lost."
+        },
+        {
+          "title": "Each beta minus decay converts a neutron to",
+          "content": "Each beta-minus decay converts a neutron to a proton, adding 1 proton: $2\\times1=2$ protons gained."
+        },
+        {
+          "title": "Net change so Y has fewer protons than",
+          "content": "Net change $=-10+2=-8$, so Y has 8 fewer protons than X."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-002",
@@ -471,7 +767,23 @@
     "answer": "B",
     "technique": "Original total resistance $=12+15+3=30\\Omega$, so battery voltage $=0.20\\times30=6.0$V. Removing R3: new resistance $=27\\Omega$. New current $=\\dfrac{6.0}{27}\\approx0.22$A.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Original total resistance so battery voltage V",
+          "content": "Original total resistance $=12+15+3=30\\Omega$, so battery voltage $=0.20\\times30=6.0$V."
+        },
+        {
+          "title": "Removing R new resistance",
+          "content": "Removing R3: new resistance $=27\\Omega$."
+        },
+        {
+          "title": "New current A",
+          "content": "New current $=\\dfrac{6.0}{27}\\approx0.22$A."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-003",
@@ -496,7 +808,23 @@
     "answer": "G",
     "technique": "Ultraviolet has shorter wavelength (higher frequency) than visible light. The boundary is at the shortest visible wavelength, 400nm: $f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\\times10^8}{400\\times10^{-9}}=7.5\\times10^{14}$ Hz. Since UV frequencies are all above this, UV has a minimum frequency of $7.5\\times10^{14}$ Hz.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Ultraviolet has shorter wavelength higher frequency than",
+          "content": "Ultraviolet has shorter wavelength (higher frequency) than visible light."
+        },
+        {
+          "title": "The boundary is at the shortest visible wavelength",
+          "content": "The boundary is at the shortest visible wavelength, 400nm: $f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\\times10^8}{400\\times10^{-9}}=7.5\\times10^{14}$ Hz."
+        },
+        {
+          "title": "Since UV frequencies are all above this UV",
+          "content": "Since UV frequencies are all above this, UV has a minimum frequency of $7.5\\times10^{14}$ Hz."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-004",
@@ -520,7 +848,20 @@
     "answer": "E",
     "technique": "Average speed = total distance (area under speed-time graph) divided by total time. Reading the graph's trapezoidal areas and total time gives an average speed of 9.0 ms⁻¹.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Average speed total distance area under speed time",
+          "content": "Average speed = total distance (area under speed-time graph) divided by total time."
+        },
+        {
+          "title": "Reading the graph s ms",
+          "content": "Reading the graph's 0 ms⁻¹."
+        }
+      ],
+      "trap": "trapezoidal areas and total time gives an average speed of 9."
+    }
   },
   {
     "id": "NSAA-2018-PHY-005",
@@ -543,7 +884,19 @@
     "answer": "E",
     "technique": "Useful power $=5\\%\\times100=5$W, so wasted power $=95$W. Over 10 minutes (600s): wasted energy $=95\\times600=57000$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Useful power W so wasted power W",
+          "content": "Useful power $=5\\%\\times100=5$W, so wasted power $=95$W."
+        },
+        {
+          "title": "Over minutes s wasted energy J",
+          "content": "Over 10 minutes (600s): wasted energy $=95\\times600=57000$ J."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-006",
@@ -568,7 +921,19 @@
     "answer": "C",
     "technique": "Standard thermal conduction proportionality (Fourier's Law): rate of heat flow is proportional to cross-sectional area and temperature difference, and inversely proportional to length: $P \\propto \\dfrac{A(T_1-T_2)}{l}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Standard thermal conduction proportionality Fourier s Law",
+          "content": "Standard thermal conduction proportionality (Fourier's Law): rate of heat flow is proportional to cross-sectional area and temperature difference, and inversely proportional to length: $P \\propto \\dfrac{A(T_1-T_2)}{l}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-007",
@@ -590,7 +955,23 @@
     "answer": "C",
     "technique": "Electrical power $=VI=400\\times1250=500000$W. Useful (mechanical) power $=45\\%\\times500000=225000$W. Over 4.0s, kinetic energy gained $=225000\\times4.0=900000$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Electrical power W",
+          "content": "Electrical power $=VI=400\\times1250=500000$W."
+        },
+        {
+          "title": "Useful mechanical power W",
+          "content": "Useful (mechanical) power $=45\\%\\times500000=225000$W."
+        },
+        {
+          "title": "Over s kinetic energy gained J",
+          "content": "Over 4.0s, kinetic energy gained $=225000\\times4.0=900000$ J."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-008",
@@ -612,7 +993,19 @@
     "answer": "A",
     "technique": "$KE=\\dfrac{p^2}{2m} \\Rightarrow 96=\\dfrac{24^2}{2m}=\\dfrac{576}{2m} \\Rightarrow 2m=6 \\Rightarrow m=3.0$ kg.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$KE=\\dfrac{p^2}{2m} \\Rightarrow 96=\\dfrac{24^2}{2m}=\\dfrac{576}{2m} \\Rightarrow 2m=6 \\Rightarrow m=3.0$ kg."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-009",
@@ -637,7 +1030,19 @@
     "answer": "A",
     "technique": "Reading the graph: the count rate levels off (long-term) at the background rate of 20 counts/min. Subtracting background from the decay curve and finding where the corrected count rate halves gives a half-life of 40 minutes.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reading the graph the count rate levels off",
+          "content": "Reading the graph: the count rate levels off (long-term) at the background rate of 20 counts/min."
+        },
+        {
+          "title": "Subtracting background from the decay curve and finding",
+          "content": "Subtracting background from the decay curve and finding where the corrected count rate halves gives a half-life of 40 minutes."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-010",
@@ -662,7 +1067,19 @@
     "answer": "C",
     "technique": "Resultant force $=mg-F_{air}=ma$. $10m-12=2m \\Rightarrow 8m=12 \\Rightarrow m=1.5$ kg.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Resultant force $=mg-F_{air}=ma$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$10m-12=2m \\Rightarrow 8m=12 \\Rightarrow m=1.5$ kg."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-011",
@@ -685,7 +1102,23 @@
     "answer": "E",
     "technique": "In one full oscillation period, a particle travels 4 amplitudes $=4\\times4.0=16$ cm. Number of periods in 20s $=20\\times10=200$. Total distance $=200\\times16\\text{ cm}=3200\\text{ cm}=32$ m.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In one full oscillation period a particle travels",
+          "content": "In one full oscillation period, a particle travels 4 amplitudes $=4\\times4.0=16$ cm."
+        },
+        {
+          "title": "Number of periods in s",
+          "content": "Number of periods in 20s $=20\\times10=200$."
+        },
+        {
+          "title": "Total distance m",
+          "content": "Total distance $=200\\times16\\text{ cm}=3200\\text{ cm}=32$ m."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-012",
@@ -707,7 +1140,31 @@
     "answer": "C",
     "technique": "Let cylinder mass $=m$. Water: $m+1.0V=290$. Oil: $m+0.9V=270$. Subtracting: $0.1V=20 \\Rightarrow V=200\\text{ cm}^3$. Then $m=290-200=90$ g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let cylinder mass",
+          "content": "Let cylinder mass $=m$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Water: $m+1.0V=290$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Oil: $m+0.9V=270$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Subtracting: $0.1V=20 \\Rightarrow V=200\\text{ cm}^3$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $m=290-200=90$ g."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-013",
@@ -729,7 +1186,19 @@
     "answer": "B",
     "technique": "At terminal velocity, air resistance equals weight: $1000=kv_{term}^2$. Reading the terminal (constant) gradient from the distance-time graph gives $v_{term}\\approx50$ ms⁻¹, so $k=\\dfrac{1000}{50^2}=\\dfrac{1000}{2500}=0.40$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At terminal velocity air resistance equals weight",
+          "content": "At terminal velocity, air resistance equals weight: $1000=kv_{term}^2$."
+        },
+        {
+          "title": "Reading the terminal constant gradient from the distance",
+          "content": "Reading the terminal (constant) gradient from the distance-time graph gives $v_{term}\\approx50$ ms⁻¹, so $k=\\dfrac{1000}{50^2}=\\dfrac{1000}{2500}=0.40$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-014",
@@ -752,7 +1221,19 @@
     "answer": "E",
     "technique": "Frequency is constant: $f=\\dfrac{v_1}{\\lambda_1}=\\dfrac{v_2}{\\lambda_2}$, and $v_1-v_2=18$. Since $v_1=v_2+18$: $\\dfrac{v_2+18}{1.5}=\\dfrac{v_2}{1.2} \\Rightarrow 1.2(v_2+18)=1.5v_2 \\Rightarrow 1.2v_2+21.6=1.5v_2 \\Rightarrow 0.3v_2=21.6 \\Rightarrow v_2=72\\text{ cm s}^{-1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Frequency is constant and",
+          "content": "Frequency is constant: $f=\\dfrac{v_1}{\\lambda_1}=\\dfrac{v_2}{\\lambda_2}$, and $v_1-v_2=18$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Since $v_1=v_2+18$: $\\dfrac{v_2+18}{1.5}=\\dfrac{v_2}{1.2} \\Rightarrow 1.2(v_2+18)=1.5v_2 \\Rightarrow 1.2v_2+21.6=1.5v_2 \\Rightarrow 0.3v_2=21.6 \\Rightarrow v_2=72\\text{ cm s}^{-1}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-015",
@@ -777,7 +1258,23 @@
     "answer": "H",
     "technique": "Mass number balance: $235+1=88+145+x \\Rightarrow x=3$ neutrons emitted. Proton (atomic number) balance: $92=35+Z_{La} \\Rightarrow Z_{La}=57$. Beta-minus decay of La-145 increases proton number by 1: $57+1=58$ protons in the decay product.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Mass number balance neutrons emitted",
+          "content": "Mass number balance: $235+1=88+145+x \\Rightarrow x=3$ neutrons emitted."
+        },
+        {
+          "title": "Proton atomic number balance",
+          "content": "Proton (atomic number) balance: $92=35+Z_{La} \\Rightarrow Z_{La}=57$."
+        },
+        {
+          "title": "Beta minus decay of La increases proton number",
+          "content": "Beta-minus decay of La-145 increases proton number by 1: $57+1=58$ protons in the decay product."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-016",
@@ -801,7 +1298,23 @@
     "answer": "C",
     "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Find the equivalent resistance",
+          "content": "Identical resistors $X$ and $Y$ are in parallel, and that combination is in series with $Z$. With each resistance equal to $R$, $$R_{\\mathrm{eq}} = \\dfrac{R}{2} + R = \\dfrac{3}{2}R.$$"
+        },
+        {
+          "title": "Share total power by resistance",
+          "content": "The same battery current flows through the parallel block and through $Z$, so power splits in the ratio of those resistances: $$P_{X\\parallel Y} : P_Z = \\dfrac{R}{2} : R = 1 : 2.$$ Of the $18\\,\\mathrm{W}$ supplied, $P_{X\\parallel Y} = 6\\,\\mathrm{W}$ and $P_Z = 12\\,\\mathrm{W}$."
+        },
+        {
+          "title": "Split the parallel power",
+          "content": "$X$ and $Y$ are identical, so each dissipates half of $6\\,\\mathrm{W}$: $$P_X = 3.0\\,\\mathrm{W}.$$"
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-017",
@@ -824,7 +1337,19 @@
     "answer": "E",
     "technique": "At I=2.0A, reading the lamp's V-I graph gives lamp voltage ≈4V; voltage across variable resistor $=2.0\\times4.0=8$V, so supply voltage $=4+8=12$V. With the variable resistor at zero, all 12V is across the lamp; reading the graph at V=12V gives a current of about 3.5A, so power $=VI\\approx12\\times3.5=42$W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At one A reading the lamp s V",
+          "content": "At one=2.0A, reading the lamp's V-one graph gives lamp voltage ≈4V; voltage across variable resistor $=2.0\\times4.0=8$V, so supply voltage $=4+8=12$V."
+        },
+        {
+          "title": "With the variable resistor at zero all V",
+          "content": "With the variable resistor at zero, all 12V is across the lamp; reading the graph at V=12V gives a current of about 3.5A, so power $=VI\\approx12\\times3.5=42$W."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-018",
@@ -849,7 +1374,23 @@
     "answer": "A",
     "technique": "X and Y detecting simultaneously only means they are equidistant from the epicentre — not that the epicentre lies at the midpoint of XY (many points are equidistant from X and Y, forming a perpendicular bisector, not just the midpoint of the segment). Z detecting 60s later just means the epicentre-to-Z distance is $4.0\\times60=240$km greater than the epicentre-to-X distance — this says nothing definite about the distance between Z and X/Y directly (depends on geometry), nor about Z being equidistant from X and Y. None of the statements must be correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "X and Y detecting simultaneously only means they",
+          "content": "X and Y detecting simultaneously only means they are equidistant from the epicentre — not that the epicentre lies at the midpoint of XY (many points are equidistant from X and Y, forming a perpendicular bisector, not just the midpoint of the segment)."
+        },
+        {
+          "title": "Z detecting s later just means the epicentre",
+          "content": "Z detecting 60s later just means the epicentre-to-Z distance is $4.0\\times60=240$km greater than the epicentre-to-X distance — this says nothing definite about the distance between Z and X/Y directly (depends on geometry), nor about Z being equidistant from X and Y."
+        },
+        {
+          "title": "None of the statements must be correct",
+          "content": "None of the statements must be correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-001",
@@ -872,7 +1413,23 @@
     "answer": "C",
     "technique": "Protons = atomic number = 29. Neutrons = mass number - protons = 64 - 29 = 35. Electrons = protons - charge = 29 - 2 = 27 (for the 2+ ion).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Protons atomic number",
+          "content": "Protons = atomic number = 29."
+        },
+        {
+          "title": "Neutrons mass number protons",
+          "content": "Neutrons = mass number - protons = 64 - 29 = 35."
+        },
+        {
+          "title": "Electrons protons charge for the ion",
+          "content": "Electrons = protons - charge = 29 - 2 = 27 (for the 2+ ion)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-002",
@@ -894,7 +1451,19 @@
     "answer": "C",
     "technique": "1: Increasing temperature shifts an exothermic equilibrium towards the endothermic (reverse) direction — alters position. 2: Adding water (a product) shifts equilibrium towards reactants (Le Chatelier) — alters position. 3: A catalyst speeds up both directions equally, so it does not alter equilibrium position. 4: Adding ethanol (a reactant) shifts equilibrium towards products — alters position. So 1, 2 and 4 alter the position.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Increasing temperature shifts an exothermic equilibrium t",
+          "content": "1: Increasing temperature shifts an exothermic equilibrium towards the endothermic (reverse) direction — alters position. 2: Adding water (a product) shifts equilibrium towards reactants (Le Chatelier) — alters position. 3: A catalyst speeds up both directions equally, so it does not alter equilibrium position. 4: Adding ethanol (a reactant) shifts equilibrium towards products — alters position."
+        },
+        {
+          "title": "So and alter the position",
+          "content": "So 1, 2 and 4 alter the position."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-003",
@@ -916,7 +1485,19 @@
     "answer": "A",
     "technique": "In dilute aqueous solutions, water is preferentially reduced at the cathode over Na+ (which is too reactive to be discharged), producing hydrogen gas: $2H^+ + 2e^- \\rightarrow H_2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "In dilute aqueous solutions water is preferentially reduced",
+          "content": "In dilute aqueous solutions, water is preferentially reduced at the cathode over Na+ (which is too reactive to be discharged), producing hydrogen gas: $2H^+ + 2e^- \\rightarrow H_2$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-004",
@@ -939,7 +1520,19 @@
     "answer": "D",
     "technique": "Atomic number 5 = Boron, which is in Period 2, Group 13. Using the isotopic abundances read from the mass spectrum (boron is naturally ~20% B-10 and ~80% B-11), the weighted average relative atomic mass is approximately 10.8, matching boron's known Ar.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Atomic number Boron which is in Period Group",
+          "content": "Atomic number 5 = Boron, which is in Period 2, Group 13."
+        },
+        {
+          "title": "Using the isotopic abundances read from the mass",
+          "content": "Using the isotopic abundances read from the mass spectrum (boron is naturally ~20% B-10 and ~80% B-11), the weighted average relative atomic mass is approximately 10.8, matching boron's known Ar."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-005",
@@ -962,7 +1555,23 @@
     "answer": "B",
     "technique": "In fractional distillation, the substance with the lowest boiling point boils off (is collected) first. Ordering by boiling point (lowest to highest): nitrogen (-196°C), argon (-186°C), oxygen (-183°C). Collection order: nitrogen, argon, oxygen.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In fractional distillation the substance with the lowest",
+          "content": "In fractional distillation, the substance with the lowest boiling point boils off (is collected) first."
+        },
+        {
+          "title": "Ordering by boiling point lowest to highest nitrogen",
+          "content": "Ordering by boiling point (lowest to highest): nitrogen (-196^\\circ\\mathrm{C}), argon (-186^\\circ\\mathrm{C}), oxygen (-183^\\circ\\mathrm{C})."
+        },
+        {
+          "title": "Collection order nitrogen argon oxygen",
+          "content": "Collection order: nitrogen, argon, oxygen."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-006",
@@ -985,7 +1594,23 @@
     "answer": "E",
     "technique": "Electrolysis of brine produces Cl2 at the anode, H2 at the cathode, and leaves behind NaOH solution (alkaline, pH ≈12). Cl2 gas is more reactive than Br2 and displaces bromine from NaBr solution, forming orange Br2: $Cl_2 + 2NaBr \\rightarrow 2NaCl + Br_2$. H2 does not react with NaBr, so no observable change at the cathode gas test.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Electrolysis of brine produces Cl at the anode",
+          "content": "Electrolysis of brine produces Cl2 at the anode, H2 at the cathode, and leaves behind NaOH solution (alkaline, pH ≈12)."
+        },
+        {
+          "title": "Cl gas is more reactive than Br and",
+          "content": "Cl2 gas is more reactive than Br2 and displaces bromine from NaBr solution, forming orange Br2: $Cl_2 + 2NaBr \\rightarrow 2NaCl + Br_2$."
+        },
+        {
+          "title": "H does not react with NaBr so no",
+          "content": "H2 does not react with NaBr, so no observable change at the cathode gas test."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-007",
@@ -1010,7 +1635,23 @@
     "answer": "F",
     "technique": "In $CO_2 + C \\rightarrow 2CO$, carbon in $CO_2$ goes from oxidation state +4 to +2 in CO — this is a reduction of CO2. $CaCO_3 \\rightarrow CaO + CO_2$ is a thermal decomposition with no change in oxidation states — neither oxidised nor reduced. $CaO + SiO_2 \\rightarrow CaSiO_3$ is an acid-base (not redox) reaction — CaO is neither oxidised nor reduced.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In carbon in goes from oxidation state to",
+          "content": "In $CO_2 + C \\rightarrow 2CO$, carbon in $CO_2$ goes from oxidation state +4 to +2 in CO — this is a reduction of CO2."
+        },
+        {
+          "title": "Is a thermal decomposition with no change in",
+          "content": "$CaCO_3 \\rightarrow CaO + CO_2$ is a thermal decomposition with no change in oxidation states — neither oxidised nor reduced."
+        },
+        {
+          "title": "Is an acid base not redox reaction CaO",
+          "content": "$CaO + SiO_2 \\rightarrow CaSiO_3$ is an acid-base (not redox) reaction — CaO is neither oxidised nor reduced."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-008",
@@ -1032,7 +1673,23 @@
     "answer": "A",
     "technique": "X, Y, Z are isoelectronic (same number of electrons). Y is an anion, meaning it gained electrons relative to its neutral atom, so its proton count (atomic number) is lower than X's — since X and Y have equal electrons but Y has a negative charge, Y must have fewer protons than X. This is always true for isoelectronic species.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "X Y Z are isoelectronic same number of",
+          "content": "X, Y, Z are isoelectronic (same number of electrons)."
+        },
+        {
+          "title": "Y is an anion meaning it gained electrons",
+          "content": "Y is an anion, meaning it gained electrons relative to its neutral atom, so its proton count (atomic number) is lower than X's — since X and Y have equal electrons but Y has a negative charge, Y must have fewer protons than X."
+        },
+        {
+          "title": "This is always true for isoelectronic species",
+          "content": "This is always true for isoelectronic species."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-009",
@@ -1055,7 +1712,31 @@
     "answer": "E",
     "technique": "SO2 reacted $=0.80\\times5.00=4.00$ mol. O2 used $=4.00\\times0.5=2.00$ mol. At equilibrium: SO2 $=5.00-4.00=1.00$ mol, O2 $=11.0-2.00=9.00$ mol, SO3 $=4.00$ mol. Total moles $=1.00+9.00+4.00=14.0$ mol. Volume $=14.0\\times60.0=840\\text{ dm}^3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "SO reacted mol",
+          "content": "SO2 reacted $=0.80\\times5.00=4.00$ mol."
+        },
+        {
+          "title": "O used mol",
+          "content": "O2 used $=4.00\\times0.5=2.00$ mol."
+        },
+        {
+          "title": "At equilibrium SO mol O mol SO mol",
+          "content": "At equilibrium: SO2 $=5.00-4.00=1.00$ mol, O2 $=11.0-2.00=9.00$ mol, SO3 $=4.00$ mol."
+        },
+        {
+          "title": "Total moles mol",
+          "content": "Total moles $=1.00+9.00+4.00=14.0$ mol."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Volume $=14.0\\times60.0=840\\text{ dm}^3$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-010",
@@ -1080,7 +1761,20 @@
     "answer": "C",
     "technique": "Boiling involves overcoming intermolecular forces (van der Waals forces between molecules), not breaking covalent bonds within the molecules. Statements 1 and 3 incorrectly attribute the boiling point difference to covalent bond breaking. Only statement 2 (stronger intermolecular forces in the larger PCl5 molecule, due to greater surface area/more electrons) correctly explains the higher boiling point.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Boiling involves overcoming intermolecular forces van der",
+          "content": "Boiling involves overcoming intermolecular forces (van der Waals forces between molecules), not breaking covalent bonds within the molecules."
+        },
+        {
+          "title": "Statements and Only statement stronger intermolecular for",
+          "content": "Statements 1 and 3  Only statement 2 (stronger intermolecular forces in the larger PCl5 molecule, due to greater surface area/more electrons) correctly explains the higher boiling point."
+        }
+      ],
+      "trap": "incorrectly attribute the boiling point difference to covalent bond breaking."
+    }
   },
   {
     "id": "NSAA-2018-CHEM-011",
@@ -1103,7 +1797,31 @@
     "answer": "A",
     "technique": "Mr(CuSO4) = 64+32+64=160. Mass needed for 0.250dm3 × 0.200mol/dm3 = 0.0500 mol: mass $=0.0500\\times160=8.00$g. Mr(CuSO4·5H2O) = 160+5(18)=250. Moles of hydrate in 8.00g $=\\dfrac{8.00}{250}=0.0320$ mol. New concentration $=\\dfrac{0.0320}{0.250}=0.128\\text{ mol dm}^{-3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Mr(CuSO4) = 64+32+64=160."
+        },
+        {
+          "title": "Mass needed for dm mol dm mol mass",
+          "content": "Mass needed for 0.250dm3 \\times 0.200mol/dm3 = 0.0500 mol: mass $=0.0500\\times160=8.00$g."
+        },
+        {
+          "title": "Mr CuSO H O",
+          "content": "Mr(CuSO4·5H2O) = 160+5(18)=250."
+        },
+        {
+          "title": "Moles of hydrate in g mol",
+          "content": "Moles of hydrate in 8.00g $=\\dfrac{8.00}{250}=0.0320$ mol."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "New concentration $=\\dfrac{0.0320}{0.250}=0.128\\text{ mol dm}^{-3}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-012",
@@ -1128,7 +1846,19 @@
     "answer": "D",
     "technique": "1: Reactivity decreases down Group 17, so bromine (less reactive than chlorine) cannot displace/oxidise chloride ions — false. 2: Chlorine (bp -34°C, gas at RT) has a lower boiling point than bromine (bp 59°C, liquid at RT) — statement is false (reversed). 3: CaBr2 has Mr $=40+2(80)=200$; %Br by mass $=\\dfrac{160}{200}\\times100=80\\%$ — true. Only statement 3 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reactivity decreases down Group so bromine less reactive",
+          "content": "1: Reactivity decreases down Group 17, so bromine (less reactive than chlorine) cannot displace/oxidise chloride ions — false. 2: Chlorine (bp -34^\\circ\\mathrm{C}, gas at RT) has a lower boiling point than bromine (bp 59^\\circ\\mathrm{C}, liquid at RT) — statement is false (reversed). 3: CaBr2 has Mr $=40+2(80)=200$; %Br by mass $=\\dfrac{160}{200}\\times100=80\\%$ — true."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 3 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-013",
@@ -1150,7 +1880,19 @@
     "answer": "B",
     "technique": "Statement 3 is false: glycine (Rf 0.26) is less mobile than glutamic acid (Rf 0.30), so glycine — not glutamic acid — is the least mobile. Statements 1 and 2 must be checked against the chromatogram spot positions shown in the diagram; per the answer key, mixture P contains valine and glycine (spots at Rf 0.61 and 0.26), and mixtures P and Q both contain asparagine (spot at Rf 0.50), giving statements 1 and 4 as correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Statement is false glycine Rf is less mobile",
+          "content": "Statement 3 is false: glycine (Rf 0.26) is less mobile than glutamic acid (Rf 0.30), so glycine — not glutamic acid — is the least mobile."
+        },
+        {
+          "title": "Statements and must be checked against the chromatogram",
+          "content": "Statements 1 and 2 must be checked against the chromatogram spot positions shown in the diagram; per the answer key, mixture P contains valine and glycine (spots at Rf 0.61 and 0.26), and mixtures P and Q both contain asparagine (spot at Rf 0.50), giving statements 1 and 4 as correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-014",
@@ -1173,7 +1915,31 @@
     "answer": "A",
     "technique": "Mg + 2HCl → MgCl2 + H2 (1 mol Mg produces 1 mol H2). From the graph, volume of H2 at t=2s ≈ 16cm3 = 0.016dm3. Moles of H2 $=\\dfrac{0.016}{24}\\approx6.67\\times10^{-4}$ mol = moles Mg reacted. Mass of Mg $=6.67\\times10^{-4}\\times24\\approx0.016$g. Rate $=\\dfrac{0.016}{2}\\approx0.012\\text{ g s}^{-1}$ (using graph reading), consistent with the answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Mg HCl MgCl H mol Mg produces mol",
+          "content": "Mg + 2HCl → MgCl2 + H2 (1 mol Mg produces 1 mol H2)."
+        },
+        {
+          "title": "From the graph volume of H at t",
+          "content": "From the graph, volume of H2 at t=2s ≈ 16cm3 = 0.016dm3."
+        },
+        {
+          "title": "Moles of H mol moles Mg reacted",
+          "content": "Moles of H2 $=\\dfrac{0.016}{24}\\approx6.67\\times10^{-4}$ mol = moles Mg reacted."
+        },
+        {
+          "title": "Mass of Mg g",
+          "content": "Mass of Mg $=6.67\\times10^{-4}\\times24\\approx0.016$g."
+        },
+        {
+          "title": "Rate using graph reading consistent with the answer",
+          "content": "Rate $=\\dfrac{0.016}{2}\\approx0.012\\text{ g s}^{-1}$ (using graph reading), consistent with the answer key."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-015",
@@ -1197,7 +1963,23 @@
     "answer": "C",
     "technique": "Copper balance: $b=3$. Electron balance: each Cu loses 2e⁻ (3Cu loses 6e⁻ total); each N (+5→+2 in NO) gains 3e⁻, so $3d=6 \\Rightarrow d=2$. Nitrogen balance: $a=2b+d=6+2=8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Copper balance: $b=3$."
+        },
+        {
+          "title": "Electron balance each Cu loses e Cu loses",
+          "content": "Electron balance: each Cu loses 2e⁻ (3Cu loses 6e⁻ total); each N (+5→+2 in NO) gains 3e⁻, so $3d=6 \\Rightarrow d=2$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Nitrogen balance: $a=2b+d=6+2=8$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-016",
@@ -1220,7 +2002,31 @@
     "answer": "C",
     "technique": "Total HCl $=50.00\\times0.1000=5.00$ mmol. Excess HCl (neutralised by NaOH, 1:1) $=12.50\\times0.1000=1.250$ mmol. HCl reacted with CaCO3 $=5.00-1.25=3.75$ mmol. Moles CaCO3 $=\\dfrac{3.75}{2}=1.875$ mmol $=0.001875$ mol. Mass $=0.001875\\times100.0=0.1875$ g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total HCl mmol",
+          "content": "Total HCl $=50.00\\times0.1000=5.00$ mmol."
+        },
+        {
+          "title": "Excess HCl neutralised by NaOH mmol",
+          "content": "Excess HCl (neutralised by NaOH, 1:1) $=12.50\\times0.1000=1.250$ mmol."
+        },
+        {
+          "title": "HCl reacted with CaCO mmol",
+          "content": "HCl reacted with CaCO3 $=5.00-1.25=3.75$ mmol."
+        },
+        {
+          "title": "Moles CaCO mmol mol",
+          "content": "Moles CaCO3 $=\\dfrac{3.75}{2}=1.875$ mmol $=0.001875$ mol."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Mass $=0.001875\\times100.0=0.1875$ g."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-017",
@@ -1244,7 +2050,35 @@
     "answer": "B",
     "technique": "Moles Li $=\\dfrac{2.80}{7}=0.400$ mol. Moles O2 $=\\dfrac{1.20}{24.0}=0.0500$ mol. Equation: $4Li+O_2\\rightarrow2Li_2O$. Li needed for all the O2: $4\\times0.0500=0.200$ mol — since 0.400 mol Li is available (excess), O2 is limiting. Li2O formed $=2\\times0.0500=0.100$ mol. Mr(Li2O)$=2(7)+16=30$. Mass $=0.100\\times30=3.00$ g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Moles Li mol",
+          "content": "Moles Li $=\\dfrac{2.80}{7}=0.400$ mol."
+        },
+        {
+          "title": "Moles O mol",
+          "content": "Moles O2 $=\\dfrac{1.20}{24.0}=0.0500$ mol."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Equation: $4Li+O_2\\rightarrow2Li_2O$."
+        },
+        {
+          "title": "Li needed for all the O mol since",
+          "content": "Li needed for all the O2: $4\\times0.0500=0.200$ mol — since 0.400 mol Li is available (excess), O2 is limiting."
+        },
+        {
+          "title": "Li O formed mol",
+          "content": "Li2O formed $=2\\times0.0500=0.100$ mol."
+        },
+        {
+          "title": "Mr Li O Mass g",
+          "content": "Mr(Li2O)$=2(7)+16=30$. Mass $=0.100\\times30=3.00$ g."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-CHEM-018",
@@ -1268,7 +2102,19 @@
     "answer": "E",
     "technique": "From the stoichiometry, forming $z$ mol NO2 requires $\\dfrac{z}{2}$ mol O2 to have reacted (since 2 mol NO2 forms per 1 mol O2). Heat released $=116\\times\\dfrac{z}{2}=58z$ kJ.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "From the stoichiometry forming mol NO requires mol",
+          "content": "From the stoichiometry, forming $z$ mol NO2 requires $\\dfrac{z}{2}$ mol O2 to have reacted (since 2 mol NO2 forms per 1 mol O2)."
+        },
+        {
+          "title": "Heat released kJ",
+          "content": "Heat released $=116\\times\\dfrac{z}{2}=58z$ kJ."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-001",
@@ -1293,7 +2139,23 @@
     "answer": "F",
     "technique": "Stonefly larvae require high dissolved oxygen (clean water indicator), while bloodworms tolerate low oxygen (pollution-tolerant indicator). Point 1 (upstream of/before pollution) has clean water = stonefly; point 2 (near/after the pollution source, low oxygen) = bloodworm; point 3 (further downstream, oxygen recovered) = stonefly again.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Stonefly larvae require high dissolved oxygen clean water",
+          "content": "Stonefly larvae require high dissolved oxygen (clean water indicator), while bloodworms tolerate low oxygen (pollution-tolerant indicator)."
+        },
+        {
+          "title": "Point upstream of before pollution has clean water",
+          "content": "Point 1 (upstream of/before pollution) has clean water = stonefly; point 2 (near/after the pollution source, low oxygen) = bloodworm; point 3 (further downstream, oxygen recovered)"
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "= stonefly again."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-002",
@@ -1318,7 +2180,19 @@
     "answer": "D",
     "technique": "1: The passage doesn't support a claim specifically about anaerobic respiration rates — this is an unsupported overreach, false. 2: Sickle cell anaemia (homozygous) sufferers rarely survive to adulthood regardless of malaria presence — the malaria advantage applies to carriers (heterozygotes), not those with the disease — false. 3: Carriers (heterozygous for the sickle allele) have a survival advantage against malaria, so natural selection favours the allele's persistence in malaria-endemic regions — true. Only statement 3 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The passage doesn t support a claim specifically",
+          "content": "1: The passage doesn't support a claim specifically about anaerobic respiration rates — this is an unsupported overreach, false. 2: Sickle cell anaemia (homozygous) sufferers rarely survive to adulthood regardless of malaria presence — the malaria advantage applies to carriers (heterozygotes), not those with the disease — false. 3: Carriers (heterozygous for the sickle allele) have a survival advantage against malaria, so natural selection favours the allele's persistence in malaria-endemic regions — true."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 3 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-003",
@@ -1343,7 +2217,19 @@
     "answer": "E",
     "technique": "Based on the micrograph (per the official answer key), cells X and Y are both part of the same tissue in the organ and were both produced by ordinary mitotic cell division (statements 1 and 2 correct); however, since the organ shown is an animal organ, the cells lack cell walls (statement 3 false).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Based on the micrograph per the official answer",
+          "content": "Based on the micrograph (per the official answer key), cells X and Y are both part of the same tissue in the organ and were both produced by ordinary mitotic cell division (statements 1 and 2 correct); however, since the organ shown is an animal organ, the cells lack cell walls (statement 3 false)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-004",
@@ -1368,7 +2254,19 @@
     "answer": "E",
     "technique": "1: Volume per sweep $=0.1\\times0.2\\times1=0.02\\text{ m}^3$ — true. 2: Frequency of occurrence = proportion of sweeps containing at least one tadpole $=9/10=90\\%$ (only sweep 4 had zero) — true. 3: Because all sweeps were taken only at the pond edge (a biased, non-random sample of one habitat zone), the data cannot give an accurate estimate of the whole-pond population even if total volume is known — false.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Volume per sweep true Frequency of occurrence proportion",
+          "content": "1: Volume per sweep $=0.1\\times0.2\\times1=0.02\\text{ m}^3$ — true. 2: Frequency of occurrence = proportion of sweeps containing at least one tadpole $=9/10=90\\%$ (only sweep 4 had zero) — true."
+        },
+        {
+          "title": "Because all sweeps were taken only at the",
+          "content": "3: Because all sweeps were taken only at the pond edge (a biased, non-random sample of one habitat zone), the data cannot give an accurate estimate of the whole-pond population even if total volume is known — false."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-005",
@@ -1392,7 +2290,27 @@
     "answer": "E",
     "technique": "Gen 1: 1 pair → 8 offspring (4 male, 4 female). Gen 2: 4 male-female pairs each produce 8 offspring → $4\\times8=32$ (16 male). Gen 3: 16 pairs × 8 = 128 (64 male). Gen 4: 64 pairs × 8 = 512 offspring, of which half (256) are male (XY).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Gen pair offspring male female",
+          "content": "Gen 1: 1 pair → 8 offspring (4 male, 4 female)."
+        },
+        {
+          "title": "Gen male female pairs each produce offspring male",
+          "content": "Gen 2: 4 male-female pairs each produce 8 offspring → $4\\times8=32$ (16 male)."
+        },
+        {
+          "title": "Gen pairs male",
+          "content": "Gen 3: 16 pairs \\times 8 = 128 (64 male)."
+        },
+        {
+          "title": "Gen pairs offspring of which half are male",
+          "content": "Gen 4: 64 pairs \\times 8 = 512 offspring, of which half (256) are male (XY)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-006",
@@ -1415,7 +2333,19 @@
     "answer": "E",
     "technique": "Three successive mitotic divisions each double the cell number: $1\\rightarrow2\\rightarrow4\\rightarrow8$ primary spermatocytes. Each primary spermatocyte then undergoes meiosis (two divisions) to produce 4 haploid sperm cells: $8\\times4=32$ haploid cells.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Three successive mitotic divisions each double the cell",
+          "content": "Three successive mitotic divisions each double the cell number: $1\\rightarrow2\\rightarrow4\\rightarrow8$ primary spermatocytes."
+        },
+        {
+          "title": "Each primary spermatocyte then undergoes meiosis two divi",
+          "content": "Each primary spermatocyte then undergoes meiosis (two divisions) to produce 4 haploid sperm cells: $8\\times4=32$ haploid cells."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-007",
@@ -1440,7 +2370,19 @@
     "answer": "H",
     "technique": "Phototropic growth requires: glucose (as a respiratory substrate providing energy for cell elongation/growth), an uneven distribution of auxin (the plant hormone causing differential growth on the shaded vs lit side), and oxygen (needed for aerobic respiration to release energy from glucose). All three conditions are required.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Phototropic growth requires glucose as a respiratory subs",
+          "content": "Phototropic growth requires: glucose (as a respiratory substrate providing energy for cell elongation/growth), an uneven distribution of auxin (the plant hormone causing differential growth on the shaded vs lit side), and oxygen (needed for aerobic respiration to release energy from glucose)."
+        },
+        {
+          "title": "All three conditions are required",
+          "content": "All three conditions are required."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-008",
@@ -1465,7 +2407,19 @@
     "answer": "G",
     "technique": "1: At equilibrium, concentrations equalise (both approach the same value, not exceeding the external 4%, and certainly not 6%) — false. 2: At equilibrium, water molecules continue to move across the membrane in both directions, but the net movement is zero — statement is considered true (molecular movement continues). 3: Osmosis rate depends on the concentration gradient, which is greatest at the start — true. Statements 2 and 3 are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At equilibrium concentrations equalise both approach the",
+          "content": "1: At equilibrium, concentrations equalise (both approach the same value, not exceeding the external 4%, and certainly not 6%) — false. 2: At equilibrium, water molecules continue to move across the membrane in both directions, but the net movement is zero — statement is considered true (molecular movement continues). 3: Osmosis rate depends on the concentration gradient, which is greatest at the start — true."
+        },
+        {
+          "title": "Statements and are correct",
+          "content": "Statements 2 and 3 are correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-009",
@@ -1488,7 +2442,35 @@
     "answer": "A",
     "technique": "Total bases = 50. Adenine = 14% of 50 = 7. By Chargaff's rule, thymine = adenine = 7 (not 14, so statement 3 is false). Remaining bases: $50-7-7=36$ split equally between guanine and cytosine (since G=C in dsDNA): $G=C=18$ (so statement 4, claiming 36 guanine, is false). Statement 1: $A+C=7+18=25$ — true. Statement 2: $A+G=7+18=25=50\\%$ of 50 — true. Statements 1 and 2 are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total bases Adenine of",
+          "content": "Total bases = 50. Adenine = 14% of 50 = 7."
+        },
+        {
+          "title": "By Chargaff s rule thymine adenine not so",
+          "content": "By Chargaff's rule, thymine = adenine = 7 (not 14, so statement 3 is false)."
+        },
+        {
+          "title": "Remaining bases split equally between guanine and cytosine",
+          "content": "Remaining bases: $50-7-7=36$ split equally between guanine and cytosine (since G=C in dsDNA): $G=C=18$ (so statement 4, claiming 36 guanine, is false)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Statement 1: $A+C=7+18=25$ — true."
+        },
+        {
+          "title": "Statement of true",
+          "content": "Statement 2: $A+G=7+18=25=50\\%$ of 50 — true."
+        },
+        {
+          "title": "Statements and are correct",
+          "content": "Statements 1 and 2 are correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-010",
@@ -1513,7 +2495,19 @@
     "answer": "B",
     "technique": "1: Serine, aspartic acid and histidine form the classic catalytic triad found in many active sites (e.g. lipases and proteases), so this trio being in the active site is plausible — true. 2: Different mutations (e.g. different amino acid substitutions) at the same location could have different effects on enzyme function — not all mutations there would have the same effect — false. 3: Lipase hydrolyses lipids to release fatty acids, which lower the pH as reaction proceeds; so pH should be lower, not higher, at Q (later time, more product) — false. Only statement 1 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Serine aspartic acid and histidine form the classic",
+          "content": "1: Serine, aspartic acid and histidine form the classic catalytic triad found in many active sites (e.g. lipases and proteases), so this trio being in the active site is plausible — true. 2: Different mutations (e.g. different amino acid substitutions) at the same location could have different effects on enzyme function — not all mutations there would have the same effect — false. 3: Lipase hydrolyses lipids to release fatty acids, which lower the pH as reaction proceeds; so pH should be lower, not higher, at Q (later time, more product) — false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 1 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-011",
@@ -1538,7 +2532,19 @@
     "answer": "F",
     "technique": "Since this is a fully-penetrant dominant condition (all carriers show symptoms), R could have inherited the mutant allele from an affected parent whose mutation traces back through the pedigree to P, or R could represent a new (de novo) mutation arising directly in R. Per the pedigree shown and answer key, the mutation could have originated in P (inherited down to R) or arisen as a new mutation in R itself; it could not have originated in Q's father, since that lineage does not connect to R showing the condition without other family members also being affected.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since this is a fully penetrant dominant condition",
+          "content": "Since this is a fully-penetrant dominant condition (all carriers show symptoms), R could have inherited the mutant allele from an affected parent whose mutation traces back through the pedigree to P, or R could represent a new (de novo) mutation arising directly in R."
+        },
+        {
+          "title": "Per the pedigree shown and answer key the",
+          "content": "Per the pedigree shown and answer key, the mutation could have originated in P (inherited down to R) or arisen as a new mutation in R itself; it could not have originated in Q's father, since that lineage does not connect to R showing the condition without other family members also being affected."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-012",
@@ -1560,7 +2566,31 @@
     "answer": "E",
     "technique": "Dolly was produced by somatic cell nuclear transfer (SCNT), not genetic engineering (no genes were inserted or altered) — statement 1 false. The early embryo develops via repeated mitosis — statement 2 true. Meiosis is not directly required for SCNT itself, but egg cells are gametes originally produced by meiosis, and per the answer key this is counted as required — statement 3 true. The mammary gland donor cell was already a differentiated cell (differentiation occurred to produce it) — statement 4 true. Answer: 2, 3 and 4 only.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Dolly was produced by somatic cell nuclear transfer",
+          "content": "Dolly was produced by somatic cell nuclear transfer (SCNT), not genetic engineering (no genes were inserted or altered) — statement 1 false."
+        },
+        {
+          "title": "The early embryo develops via repeated mitosis statement",
+          "content": "The early embryo develops via repeated mitosis — statement 2 true."
+        },
+        {
+          "title": "Meiosis is not directly required for SCNT itself",
+          "content": "Meiosis is not directly required for SCNT itself, but egg cells are gametes originally produced by meiosis, and per the answer key this is counted as required — statement 3 true."
+        },
+        {
+          "title": "The mammary gland donor cell was already a",
+          "content": "The mammary gland donor cell was already a differentiated cell (differentiation occurred to produce it) — statement 4 true."
+        },
+        {
+          "title": "Answer and only",
+          "content": "Answer: 2, 3 and 4 only."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-013",
@@ -1585,7 +2615,19 @@
     "answer": "A",
     "technique": "1: In section X (rising phase), higher temperature increases the kinetic energy of reacting molecules, increasing collision frequency and rate — true. 2: In declining section Y, it cannot be concluded with certainty that temperature alone is the limiting factor (enzyme denaturation, not simple limitation, is occurring) — considered false per the key's strict reading. 3: While enzyme denaturation is a plausible explanation for the decline, it is not stated as certain from the data alone — considered false per the key. 4: Section Y (declining) does not represent the maximum rate — the maximum occurs at the peak before Y — false. Only statement 1 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In section X rising phase higher temperature increases",
+          "content": "1: In section X (rising phase), higher temperature increases the kinetic energy of reacting molecules, increasing collision frequency and rate — true. 2: In declining section Y, it cannot be concluded with certainty that temperature alone is the limiting factor (enzyme denaturation, not simple limitation, is occurring) — considered false per the key's strict reading. 3: While enzyme denaturation is a plausible explanation for the decline, it is not stated as certain from the data alone — considered false per the key. 4: Section Y (declining) does not represent the maximum rate — the maximum occurs at the peak before Y — false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 1 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-014",
@@ -1609,7 +2651,19 @@
     "answer": "C",
     "technique": "The recombinant plasmid has an intact penicillin resistance gene (grows on penicillin agar: yes) but its tetracycline resistance gene has been disrupted by the inserted herbicide-resistance gene (does not grow on tetracycline agar: no) — this is insertional inactivation, used to screen for successful recombinants. The original (non-recombinant) plasmid has both genes intact, so it grows on both types of agar (yes, yes).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The recombinant plasmid has an intact penicillin resistance",
+          "content": "The recombinant plasmid has an intact penicillin resistance gene (grows on penicillin agar: yes) but its tetracycline resistance gene has been disrupted by the inserted herbicide-resistance gene (does not grow on tetracycline agar: no) — this is insertional inactivation, used to screen for successful recombinants."
+        },
+        {
+          "title": "The original non recombinant plasmid has both genes",
+          "content": "The original (non-recombinant) plasmid has both genes intact, so it grows on both types of agar (yes, yes)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-015",
@@ -1634,7 +2688,19 @@
     "answer": "H",
     "technique": "1: Since the gene is present and functional in E. coli (a bacterium, which does not perform photosynthesis or possess chlorophyll), this gene cannot code specifically for chlorophyll — true. 2: E. coli is prokaryotic (DNA in the cytoplasm, no nucleus) while the others are eukaryotic (DNA typically in the nucleus) — the gene is found in the nucleus in eukaryotes or cytoplasm in bacteria — true. 3: Comparing the shown sequences, oak tree and mushroom share more matching codons/bases (e.g. both start 'GAA') than either does with human or E. coli — supporting greater similarity between plant and fungus — true. All three conclusions are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since the gene is present and functional in",
+          "content": "1: Since the gene is present and functional in E. coli (a bacterium, which does not perform photosynthesis or possess chlorophyll), this gene cannot code specifically for chlorophyll — true. 2: E. coli is prokaryotic (DNA in the cytoplasm, no nucleus) while the others are eukaryotic (DNA typically in the nucleus) — the gene is found in the nucleus in eukaryotes or cytoplasm in bacteria — true. 3: Comparing the shown sequences, oak tree and mushroom share more matching codons/bases (e.g. both start 'GAA') than either does with human or E. coli — supporting greater similarity between plant and fungus — true."
+        },
+        {
+          "title": "All three conclusions are correct",
+          "content": "All three conclusions are correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-016",
@@ -1659,7 +2725,24 @@
     "answer": "G",
     "technique": "Reading the graph: the DNA mass doubles during S phase and halves sharply at division (mitosis), and cell mass halves abruptly at each division point. Two abrupt drops in cell mass are visible in the 0-60 hour window, indicating two cell divisions occurred (statement 2 true) — but per the graph these occur at times other than exactly 12 and 36 hours (statement 1 false). Given the ~24-hour cycle length observed, the next division would be expected at approximately 72 hours (extrapolating the pattern) — statement 3 true. Statements 2 and 3 are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reading the graph the DNA mass doubles during",
+          "content": "Reading the graph: the DNA mass doubles during S phase and halves sharply at division (mitosis), and cell mass halves abruptly at each division point."
+        },
+        {
+          "title": "Two abrupt drops in cell mass are visible",
+          "content": "Two abrupt drops in cell mass are visible in the 0-60 hour window, indicating two cell divisions occurred (statement 2 true) — but per the graph these occur at times other than exactly 12 and 36 hours (statement 1 false)."
+        },
+        {
+          "title": "Given the hour cycle length observed the next",
+          "content": "Given the ~24-hour cycle length observed, the next division would be expected at approximately 72 hours (ex Statements 2 and 3 are correct."
+        }
+      ],
+      "trap": "trapolating the pattern) — statement 3 true."
+    }
   },
   {
     "id": "NSAA-2018-BIO-017",
@@ -1684,7 +2767,19 @@
     "answer": "F",
     "technique": "1: Since resistance is recessive, offspring of a resistant (homozygous recessive) insect and a sensitive (non-carrier) insect from the refugia will be heterozygous and phenotypically sensitive to the pesticide — this dilutes the resistant phenotype in the population — true. 2: Pesticide exposure does not cause resistance mutations to occur (mutations arise randomly regardless of exposure; pesticide only selects for pre-existing resistant alleles) — false. 3: Refugia maintain a reservoir of sensitive alleles/genetic variation, preventing the resistant allele from dominating the gene pool — true. Statements 1 and 3 are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since resistance is recessive offspring of a resistant",
+          "content": "1: Since resistance is recessive, offspring of a resistant (homozygous recessive) insect and a sensitive (non-carrier) insect from the refugia will be heterozygous and phenotypically sensitive to the pesticide — this dilutes the resistant phenotype in the population — true. 2: Pesticide exposure does not cause resistance mutations to occur (mutations arise randomly regardless of exposure; pesticide only selects for pre-existing resistant alleles) — false. 3: Refugia maintain a reservoir of sensitive alleles/genetic variation, preventing the resistant allele from dominating the gene pool — true."
+        },
+        {
+          "title": "Statements and are correct",
+          "content": "Statements 1 and 3 are correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-BIO-018",
@@ -1709,7 +2804,19 @@
     "answer": "B",
     "technique": "1: A gene mutation changes the specific allele's base sequence but does not remove or add gene loci — both daughter cells still have the same set of genes present (same gene loci) — true. 2: The mutation changed the allele in one daughter cell to a non-functional version, so the two daughter cells now have different alleles for that gene — false. 3: Since the allele sequence itself was altered by the mutation in one cell, the base sequence differs between the two daughter cells for that allele — false. Only statement 1 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "A gene mutation changes the specific allele s",
+          "content": "1: A gene mutation changes the specific allele's base sequence but does not remove or add gene loci — both daughter cells still have the same set of genes present (same gene loci) — true. 2: The mutation changed the allele in one daughter cell to a non-functional version, so the two daughter cells now have different alleles for that gene — false. 3: Since the allele sequence itself was altered by the mutation in one cell, the base sequence differs between the two daughter cells for that allele — false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 1 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-019",
@@ -1731,7 +2838,19 @@
     "answer": "A",
     "technique": "Intersections: $9-x^2=5 \\Rightarrow x^2=4 \\Rightarrow x=\\pm2$. Area $=\\displaystyle\\int_{-2}^{2}\\left[(9-x^2)-5\\right]dx=\\int_{-2}^{2}(4-x^2)dx=\\left[4x-\\tfrac{x^3}{3}\\right]_{-2}^{2}=\\left(8-\\tfrac83\\right)-\\left(-8+\\tfrac83\\right)=16-\\tfrac{16}{3}=\\tfrac{32}{3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Intersections: $9-x^2=5 \\Rightarrow x^2=4 \\Rightarrow x=\\pm2$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Area $=\\displaystyle\\int_{-2}^{2}\\left[(9-x^2)-5\\right]dx=\\int_{-2}^{2}(4-x^2)dx=\\left[4x-\\tfrac{x^3}{3}\\right]_{-2}^{2}=\\left(8-\\tfrac83\\right)-\\left(-8+\\tfrac83\\right)=16-\\tfrac{16}{3}=\\tfrac{32}{3}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-019",
@@ -1756,7 +2875,19 @@
     "answer": "E",
     "technique": "Using $v^2=u^2+2as$ with $u=0$: $80^2=2a(1600) \\Rightarrow 6400=3200a \\Rightarrow a=2.0\\text{ ms}^{-2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Using $v^2=u^2+2as$ with $u=0$: $80^2=2a(1600) \\Rightarrow 6400=3200a \\Rightarrow a=2.0\\text{ ms}^{-2}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M2-001",
@@ -1779,7 +2910,23 @@
     "answer": "D",
     "technique": "$2\\sin^3\\theta=\\sin\\theta \\Rightarrow \\sin\\theta(2\\sin^2\\theta-1)=0$, so $\\sin\\theta=0$ or $\\sin^2\\theta=\\tfrac12 \\Rightarrow \\sin\\theta=\\pm\\tfrac{\\sqrt2}{2}$. In $[-\\pi/2,\\pi]$: $\\sin\\theta=0$ at $\\theta=0,\\pi$ (2 solutions); $\\sin\\theta=\\tfrac{\\sqrt2}{2}$ at $\\theta=\\pi/4, 3\\pi/4$ (2 solutions); $\\sin\\theta=-\\tfrac{\\sqrt2}{2}$ at $\\theta=-\\pi/4$ (1 solution, since $\\theta=-3\\pi/4$ is out of range). Total: $2+2+1=5$ solutions.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$2\\sin^3\\theta=\\sin\\theta \\Rightarrow \\sin\\theta(2\\sin^2\\theta-1)=0$, so $\\sin\\theta=0$ or $\\sin^2\\theta=\\tfrac12 \\Rightarrow \\sin\\theta=\\pm\\tfrac{\\sqrt{2}}{2}$."
+        },
+        {
+          "title": "In at solutions at solutions at solution since",
+          "content": "In $[-\\pi/2,\\pi]$: $\\sin\\theta=0$ at $\\theta=0,\\pi$ (2 solutions); $\\sin\\theta=\\tfrac{\\sqrt{2}}{2}$ at $\\theta=\\pi/4, 3\\pi/4$ (2 solutions); $\\sin\\theta=-\\tfrac{\\sqrt{2}}{2}$ at $\\theta=-\\pi/4$ (1 solution, since $\\theta=-3\\pi/4$ is out of range)."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Total: $2+2+1=5$ solutions."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-020",
@@ -1802,7 +2949,19 @@
     "answer": "F",
     "technique": "Since the mass moves at constant speed (constant velocity) in a straight line, by Newton's first law the net (resultant) force acting on it must be zero, regardless of how many individual forces are involved or their exact directions.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Since the mass moves at constant speed constant",
+          "content": "Since the mass moves at constant speed (constant velocity) in a straight line, by Newton's first law the net (resultant) force acting on it must be zero, regardless of how many individual forces are involved or their exact directions."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M2-002",
@@ -1827,7 +2986,19 @@
     "answer": "C",
     "technique": "Setting the curve equal to the line: $3x^2-2x+1=x+k \\Rightarrow 3x^2-3x+(1-k)=0$. For tangency, the discriminant is zero: $(-3)^2-4(3)(1-k)=0 \\Rightarrow 9-12+12k=0 \\Rightarrow 12k=3 \\Rightarrow k=\\tfrac14$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Setting the curve equal to the line",
+          "content": "Setting the curve equal to the line: $3x^2-2x+1=x+k \\Rightarrow 3x^2-3x+(1-k)=0$."
+        },
+        {
+          "title": "For tangency the discriminant is zero",
+          "content": "For tangency, the discriminant is zero: $(-3)^2-4(3)(1-k)=0 \\Rightarrow 9-12+12k=0 \\Rightarrow 12k=3 \\Rightarrow k=\\tfrac14$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-021",
@@ -1849,7 +3020,19 @@
     "answer": "D",
     "technique": "Total mass $=3+4+6+2=15$ kg, so acceleration $a=\\dfrac{30}{15}=2.0\\text{ ms}^{-2}$. The tension in the rod between X and Y provides the force to accelerate everything beyond that rod, based on the exact force-application point in the diagram; working through the connected-particles system with the answer key gives $T_{XY}=14$N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total mass kg so acceleration",
+          "content": "Total mass $=3+4+6+2=15$ kg, so acceleration $a=\\dfrac{30}{15}=2.0\\text{ ms}^{-2}$."
+        },
+        {
+          "title": "The tension in the rod between X and",
+          "content": "The tension in the rod between X and Y provides the force to accelerate everything beyond that rod, based on the exact force-application point in the diagram; working through the connected-particles system with the answer key gives $T_{XY}=14$N."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M2-003",
@@ -1872,7 +3055,23 @@
     "answer": "E",
     "technique": "Let first term $a$, common difference $d$. $a+12d=6a \\Rightarrow 12d=5a$ (i). $a+10d=2(a+4d)-1 \\Rightarrow a+10d=2a+8d-1 \\Rightarrow 2d=a-1 \\Rightarrow a=2d+1$ (ii). Substituting (ii) into (i): $12d=5(2d+1)=10d+5 \\Rightarrow 2d=5 \\Rightarrow d=2.5$, so $a=2(2.5)+1=6$. Third term $=a+2d=6+5=11$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let first term common difference i ii",
+          "content": "Let first term $a$, common difference $d$. $a+12d=6a \\Rightarrow 12d=5a$ (i). $a+10d=2(a+4d)-1 \\Rightarrow a+10d=2a+8d-1 \\Rightarrow 2d=a-1 \\Rightarrow a=2d+1$ (ii)."
+        },
+        {
+          "title": "Substitute known values",
+          "content": "Substituting (ii) into (i): $12d=5(2d+1)=10d+5 \\Rightarrow 2d=5 \\Rightarrow d=2.5$, so $a=2(2.5)+1=6$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Third term $=a+2d=6+5=11$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-022",
@@ -1896,7 +3095,27 @@
     "answer": "F",
     "technique": "Set X at position 0. Object at 1.0m from X; plank's centre of mass at $1.0+1.0=2.0$m from X; support Y at $2.0+2.0=4.0$m from X. Taking moments about Y: $F_X\\times4.0 = (400\\text{N})\\times(4.0-1.0) + (100\\text{N})\\times(4.0-2.0) = 1200+200=1400$. So $F_X=\\dfrac{1400}{4.0}=350$N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set X at position",
+          "content": "Set X at position 0."
+        },
+        {
+          "title": "Object at m from X plank s centre",
+          "content": "Object at 1.0m from X; plank's centre of mass at $1.0+1.0=2.0$m from X; support Y at $2.0+2.0=4.0$m from X."
+        },
+        {
+          "title": "Taking moments about Y",
+          "content": "Taking moments about Y: $F_X\\times4.0 = (400\\text{N})\\times(4.0-1.0) + (100\\text{N})\\times(4.0-2.0) = 1200+200=1400$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $F_X=\\dfrac{1400}{4.0}=350$N."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M2-004",
@@ -1919,7 +3138,19 @@
     "answer": "C",
     "technique": "This is a telescoping sum: $\\log_2\\tfrac54+\\log_2\\tfrac65+\\cdots+\\log_2\\tfrac{64}{63} = \\log_2\\left(\\tfrac54\\times\\tfrac65\\times\\cdots\\times\\tfrac{64}{63}\\right) = \\log_2\\left(\\tfrac{64}{4}\\right) = \\log_2(16) = 4$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "This is a telescoping sum",
+          "content": "This is a telescoping sum: $\\log_2\\tfrac54+\\log_2\\tfrac65+\\cdots+\\log_2\\tfrac{64}{63} = \\log_2\\left(\\tfrac54\\times\\tfrac65\\times\\cdots\\times\\tfrac{64}{63}\\right) = \\log_2\\left(\\tfrac{64}{4}\\right)"
+        },
+        {
+          "title": "Obtain the result",
+          "content": "= \\log_2(16) = 4$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-023",
@@ -1941,7 +3172,23 @@
     "answer": "D",
     "technique": "Impulse on X $=F\\times t=5.0\\times3.0=15\\text{ N s}$, giving $\\Delta v=\\dfrac{15}{2.0}=7.5\\text{ ms}^{-1}$. New speed of X $=4.5+7.5=12\\text{ ms}^{-1}$. Momentum conservation in the collision: $2.0(12)=(2.0+3.0)v' \\Rightarrow 24=5.0v' \\Rightarrow v'=4.8\\text{ ms}^{-1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Impulse on X giving",
+          "content": "Impulse on X $=F\\times t=5.0\\times3.0=15\\text{ N s}$, giving $\\Delta v=\\dfrac{15}{2.0}=7.5\\text{ ms}^{-1}$."
+        },
+        {
+          "title": "New speed of X",
+          "content": "New speed of X $=4.5+7.5=12\\text{ ms}^{-1}$."
+        },
+        {
+          "title": "Momentum conservation in the collision",
+          "content": "Momentum conservation in the collision: $2.0(12)=(2.0+3.0)v' \\Rightarrow 24=5.0v' \\Rightarrow v'=4.8\\text{ ms}^{-1}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M2-005",
@@ -1963,7 +3210,27 @@
     "answer": "C",
     "technique": "Radius $r=\\sqrt5$. Tangent length formula: $(\\text{tangent length})^2 = d^2 - r^2$ where $d$ = distance from P to centre. $(5\\sqrt3)^2 = d^2-5 \\Rightarrow 75=d^2-5 \\Rightarrow d^2=80 \\Rightarrow d=4\\sqrt5$. Shortest distance from P to the circle $= d - r = 4\\sqrt5-\\sqrt5=3\\sqrt5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Radius $r=\\sqrt{5}$."
+        },
+        {
+          "title": "Tangent length formula where distance from P to",
+          "content": "Tangent length formula: $(\\text{tangent length})^2 = d^2 - r^2$ where $d$ = distance from P to centre. $(5\\sqrt{3})^2"
+        },
+        {
+          "title": "D d d d",
+          "content": "= d^2-5 \\Rightarrow 75=d^2-5 \\Rightarrow d^2=80 \\Rightarrow d=4\\sqrt{5}$."
+        },
+        {
+          "title": "Shortest distance from P to the circle",
+          "content": "Shortest distance from P to the circle $= d - r = 4\\sqrt{5}-\\sqrt{5}=3\\sqrt{5}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-024",
@@ -1986,7 +3253,31 @@
     "answer": "F",
     "technique": "Take X's initial direction as positive: X moves at $+v$, Y moves at $-2v$ (opposite direction). Momentum before: $m(v)+2m(-2v)=-3mv$. X's velocity after collision is $-v$ (given by the graph). Momentum conservation: $-3mv = m(-v)+2m(v_Y') \\Rightarrow -3mv=-mv+2mv_Y' \\Rightarrow -2mv=2mv_Y' \\Rightarrow v_Y'=-v$. So Y's velocity changes from $-2v$ to $-v$ -- a slowing down in the same direction.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Take X s initial direction as positive X",
+          "content": "Take X's initial direction as positive: X moves at $+v$, Y moves at $-2v$ (opposite direction)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Momentum before: $m(v)+2m(-2v)=-3mv$."
+        },
+        {
+          "title": "X s velocity after collision is given by",
+          "content": "X's velocity after collision is $-v$ (given by the graph)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Momentum conservation: $-3mv = m(-v)+2m(v_Y') \\Rightarrow -3mv=-mv+2mv_Y' \\Rightarrow -2mv=2mv_Y' \\Rightarrow v_Y'=-v$."
+        },
+        {
+          "title": "So Y s velocity changes from to a",
+          "content": "So Y's velocity changes from $-2v$ to $-v$ -- a slowing down in the same direction."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M2-006",
@@ -2010,7 +3301,19 @@
     "answer": "D",
     "technique": "$(1-2x)^5(1+2x)^5 = [(1-2x)(1+2x)]^5 = (1-4x^2)^5$. This expansion only contains even powers of x, so the coefficient of $x^3$ is $0$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$(1-2x)^5(1+2x)^5 = [(1-2x)(1+2x)]^5 = (1-4x^2)^5$."
+        },
+        {
+          "title": "This expansion only contains even powers of x",
+          "content": "This expansion only contains even powers of x, so the coefficient of $x^3$ is $0$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-025",
@@ -2034,7 +3337,19 @@
     "answer": "A",
     "technique": "Resolving horizontally, the horizontal component of the cable tension balances P: $P = T\\sin30° = T\\times\\tfrac12 = \\tfrac{T}{2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Resolve the forces",
+          "content": "Resolving horizontally, the horizontal component of the cable tension balances P: $P = T\\sin30^\\circ = T\\times\\tfrac12"
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "= \\tfrac{T}{2}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M2-007",
@@ -2057,7 +3372,35 @@
     "answer": "E",
     "technique": "Integrate directly: $\\displaystyle\\int_0^{2} x^{m}\\,dx = \\left[\\frac{x^{m+1}}{m+1}\\right]_0^{2} = \\frac{2^{m+1}}{m+1}$, and likewise $\\displaystyle\\int_0^{2} x^{m+1}\\,dx = \\frac{2^{m+2}}{m+2}$. Rather than solving either equation alone, divide the second by the first — the awkward $\\sqrt{2}$ and the powers of $2$ both cancel: $\\dfrac{2^{m+2}}{m+2}\\cdot\\dfrac{m+1}{2^{m+1}} = \\dfrac{2(m+1)}{m+2}$, while the right-hand sides give $\\dfrac{32\\sqrt{2}}{9}\\cdot\\dfrac{7}{16\\sqrt{2}} = \\dfrac{14}{9}$. So $\\dfrac{2(m+1)}{m+2} = \\dfrac{14}{9}$, hence $18(m+1) = 14(m+2)$, giving $4m = 10$ and $m = \\dfrac{5}{2}$. Check: $m+1 = \\tfrac{7}{2}$ and $2^{7/2} = 8\\sqrt{2}$, so the first integral is $\\dfrac{8\\sqrt{2}}{7/2} = \\dfrac{16\\sqrt{2}}{7}$ as required.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Integrate directly and likewise x m dx",
+          "content": "Integrate directly: $\\displaystyle\\int_0^{2} x^{m}\\,dx = \\left[\\frac{x^{m+1}}{m+1}\\right]_0^{2} = \\frac{2^{m+1}}{m+1}$, and likewise $\\displaystyle\\int_0^{2} x^{m+1}\\,dx"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "= \\frac{2^{m+2}}{m+2}$."
+        },
+        {
+          "title": "Rather than solving either equation alone divide the",
+          "content": "Rather than solving either equation alone, divide the second by the first — the awkward $\\sqrt{2}$ and the powers of $2$ both cancel: $\\dfrac{2^{m+2}}{m+2}\\cdot\\dfrac{m+1}{2^{m+1}} = \\dfrac{2(m+1)}{m+2}$, while the right-hand sides give $\\dfrac{32\\sqrt{2}}{9}\\cdot\\dfrac{7}{16\\sqrt{2}} = \\dfrac{14}{9}$."
+        },
+        {
+          "title": "So hence giving and",
+          "content": "So $\\dfrac{2(m+1)}{m+2} = \\dfrac{14}{9}$, hence $18(m+1) = 14(m+2)$, giving $4m = 10$ and $m = \\dfrac{5}{2}$."
+        },
+        {
+          "title": "Check and so the first integral is",
+          "content": "Check: $m+1 = \\tfrac{7}{2}$ and $2^{7/2} = 8\\sqrt{2}$, so the first integral is $\\dfrac{8\\sqrt{2}}{7/2}"
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "= \\dfrac{16\\sqrt{2}}{7}$ as required."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-026",
@@ -2079,7 +3422,23 @@
     "answer": "A",
     "technique": "Using energy conservation, $\\tfrac12mv^2=mgh$, so $v=\\sqrt{2gh}$. From the diagram's geometry (string length 50cm, horizontal offset 30cm), the vertical height drop from X to Y is $h=0.20$m. Then $v=\\sqrt{2\\times10\\times0.20}=\\sqrt{4}=2\\text{ ms}^{-1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Using energy conservation so",
+          "content": "Using energy conservation, $\\tfrac12mv^2=mgh$, so $v=\\sqrt{2gh}$."
+        },
+        {
+          "title": "From the diagram s geometry string length cm",
+          "content": "From the diagram's geometry (string length 50cm, horizontal offset 30cm), the vertical height drop from X to Y is $h=0.20$m."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $v=\\sqrt{2\\times10\\times0.20}=\\sqrt{4}=2\\text{ ms}^{-1}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-M1-020",
@@ -2101,7 +3460,35 @@
     "answer": "C",
     "technique": "Volume: $2x^2y=576 \\Rightarrow y=\\dfrac{288}{x^2}$. Surface area: $S=2(2x^2+xy+2xy)=4x^2+6xy=4x^2+\\dfrac{1728}{x}$. Setting $\\dfrac{dS}{dx}=8x-\\dfrac{1728}{x^2}=0 \\Rightarrow 8x^3=1728 \\Rightarrow x^3=216 \\Rightarrow x=6$. Then $y=\\dfrac{288}{36}=8$. The three distinct face areas are $x(2x)=72$, $xy=48$, $2xy=96$. The largest face area is $96\\text{ cm}^2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Volume: $2x^2y=576 \\Rightarrow y=\\dfrac{288}{x^2}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Surface area: $S=2(2x^2+xy+2xy)=4x^2+6xy=4x^2+\\dfrac{1728}{x}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Setting $\\dfrac{dS}{dx}=8x-\\dfrac{1728}{x^2}=0 \\Rightarrow 8x^3=1728 \\Rightarrow x^3=216 \\Rightarrow x=6$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Then $y=\\dfrac{288}{36}=8$."
+        },
+        {
+          "title": "The three distinct face areas are",
+          "content": "The three distinct face areas are $x(2x)=72$, $xy=48$, $2xy=96$."
+        },
+        {
+          "title": "The largest face area is",
+          "content": "The largest face area is $96\\text{ cm}^2$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2018-PHY-027",
@@ -2123,6 +3510,22 @@
     "answer": "B",
     "technique": "Object 1 (thrown up at $u=40\\text{ m s}^{-1}$) returns to ground level when $0=ut-\\tfrac12gt^2\\Rightarrow t=\\dfrac{2u}{g}=\\dfrac{2(40)}{10}=8\\text{ s}$. Object 2 is released 2.0 s later and must land at the same absolute time, so it falls for $8-2=6\\text{ s}$. Height: $h=\\tfrac12gt^2=\\tfrac12(10)(6)^2=180\\text{ m}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Object thrown up at returns to ground level",
+          "content": "Object 1 (thrown up at $u=40\\text{ m s}^{-1}$) returns to ground level when $0=ut-\\tfrac12gt^2\\Rightarrow t=\\dfrac{2u}{g}=\\dfrac{2(40)}{10}=8\\text{ s}$."
+        },
+        {
+          "title": "Object is released s later and must land",
+          "content": "Object 2 is released 2.0 s later and must land at the same absolute time, so it falls for $8-2=6\\text{ s}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Height: $h=\\tfrac12gt^2=\\tfrac12(10)(6)^2=180\\text{ m}$."
+        }
+      ]
+    }
   }
 ]

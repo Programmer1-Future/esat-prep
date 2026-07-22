@@ -20,7 +20,19 @@
     "answer": "F",
     "technique": "$\\sqrt{12}=2\\sqrt3$, so $\\dfrac{\\sqrt{12}+\\sqrt3}{\\sqrt{12}-\\sqrt3}=\\dfrac{2\\sqrt3+\\sqrt3}{2\\sqrt3-\\sqrt3}=\\dfrac{3\\sqrt3}{\\sqrt3}=3$. Squaring gives $9$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$\\sqrt{12}=2\\sqrt{3}$, so $\\dfrac{\\sqrt{12}+\\sqrt{3}}{\\sqrt{12}-\\sqrt{3}}=\\dfrac{2\\sqrt{3}+\\sqrt{3}}{2\\sqrt{3}-\\sqrt{3}}=\\dfrac{3\\sqrt{3}}{\\sqrt{3}}=3$."
+        },
+        {
+          "title": "Squaring gives",
+          "content": "Squaring gives $9$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-002",
@@ -44,7 +56,23 @@
     "answer": "G",
     "technique": "$2x+5y=P$, $3x+2y=Q$. Multiply first by 3 and second by 2: $6x+15y=3P$, $6x+4y=2Q$. Subtracting: $11y=3P-2Q$, so $y=\\dfrac{3P-2Q}{11}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$2x+5y=P$, $3x+2y=Q$."
+        },
+        {
+          "title": "Multiply first by and second by",
+          "content": "Multiply first by 3 and second by 2: $6x+15y=3P$, $6x+4y=2Q$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Subtracting: $11y=3P-2Q$, so $y=\\dfrac{3P-2Q}{11}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-003",
@@ -69,7 +97,19 @@
     "answer": "E",
     "technique": "$P=kQ^2$: $2=k(16)\\Rightarrow k=\\frac18$, so $P=\\frac{Q^2}{8}$. $Q=\\frac{c}{R}$: $2=\\frac{c}{5}\\Rightarrow c=10$, so $Q=\\frac{10}{R}$. Then $P=\\dfrac{(10/R)^2}{8}=\\dfrac{100}{8R^2}=\\dfrac{25}{2R^2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$P=kQ^2$: $2=k(16)\\Rightarrow k=\\frac18$, so $P=\\frac{Q^2}{8}$. $Q=\\frac{c}{R}$: $2=\\frac{c}{5}\\Rightarrow c=10$, so $Q=\\frac{10}{R}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $P=\\dfrac{(10/R)^2}{8}=\\dfrac{100}{8R^2}=\\dfrac{25}{2R^2}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-004",
@@ -93,7 +133,23 @@
     "answer": "F",
     "technique": "Total girls $=3X$; girls doing French $=X$; girls doing Spanish $=35-Y$. Girls doing German $=3X-X-(35-Y)=2X+Y-35$. Total German $=$ German girls $+$ German boys $=(2X+Y-35)+2Y=2X+3Y-35$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total girls girls doing French girls doing Spanish",
+          "content": "Total girls $=3X$; girls doing French $=X$; girls doing Spanish $=35-Y$."
+        },
+        {
+          "title": "Girls doing German",
+          "content": "Girls doing German $=3X-X-(35-Y)=2X+Y-35$."
+        },
+        {
+          "title": "Total German German girls German boys",
+          "content": "Total German $=$ German girls $+$ German boys $=(2X+Y-35)+2Y=2X+3Y-35$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-005",
@@ -117,7 +173,23 @@
     "answer": "C",
     "technique": "Exterior angle of $n$-gon is $\\frac{360}{n}$. So $\\frac{360}{n}-\\frac{360}{n+3}=4$. This gives $\\frac{360\\times3}{n(n+3)}=4\\Rightarrow n(n+3)=270\\Rightarrow n^2+3n-270=0\\Rightarrow (n-15)(n+18)=0\\Rightarrow n=15$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Exterior angle of gon is",
+          "content": "Exterior angle of $n$-gon is $\\frac{360}{n}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $\\frac{360}{n}-\\frac{360}{n+3}=4$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "This gives $\\frac{360\\times3}{n(n+3)}=4\\Rightarrow n(n+3)=270\\Rightarrow n^2+3n-270=0\\Rightarrow (n-15)(n+18)=0\\Rightarrow n=15$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-006",
@@ -139,7 +211,27 @@
     "answer": "B",
     "technique": "Bearing of L from R $=220°-180°=40°$. Since C is due north of R, the angle LRC between RC (north) and RL is $40°$. As LC $=$ RC, triangle LRC is isosceles, so angle RLC $=$ angle LRC $=40°$, giving angle RCL $=180°-40°-40°=100°$. Since RC points due south from C, the bearing of L from C is $180°-100°=080°$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Bearing of L from R",
+          "content": "Bearing of L from R $=220^\\circ-180^\\circ=40^\\circ$."
+        },
+        {
+          "title": "Since C is due north of R the",
+          "content": "Since C is due north of R, the angle LRC between RC (north) and RL is $40^\\circ$."
+        },
+        {
+          "title": "As LC RC triangle LRC is isosceles so",
+          "content": "As LC $=$ RC, triangle LRC is isosceles, so angle RLC $=$ angle LRC $=40^\\circ$, giving angle RCL $=180^\\circ-40^\\circ-40^\\circ=100^\\circ$."
+        },
+        {
+          "title": "Since RC points due south from C the",
+          "content": "Since RC points due south from C, the bearing of L from C is $180^\\circ-100^\\circ=080^\\circ$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-007",
@@ -161,7 +253,27 @@
     "answer": "B",
     "technique": "At 4:00 the hour hand is at $120°$ from 12. In 40 minutes the hour hand moves $0.5°\\times40=20°$, reaching $140°$. The minute hand at 40 minutes is at $40\\times6°=240°$. The angle between them is $|240-140|=100°$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At the hour hand is at from",
+          "content": "At 4:00 the hour hand is at $120^\\circ$ from 12."
+        },
+        {
+          "title": "In minutes the hour hand moves reaching",
+          "content": "In 40 minutes the hour hand moves $0.5^\\circ\\times40=20^\\circ$, reaching $140^\\circ$."
+        },
+        {
+          "title": "The minute hand at minutes is at",
+          "content": "The minute hand at 40 minutes is at $40\\times6^\\circ=240^\\circ$."
+        },
+        {
+          "title": "The angle between them is",
+          "content": "The angle between them is $|240-140|=100^\\circ$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-008",
@@ -185,7 +297,19 @@
     "answer": "C",
     "technique": "$P(\\text{both male})=\\dfrac{x}{x+4}\\cdot\\dfrac{x-1}{x+3}=\\dfrac13$. So $3x(x-1)=(x+4)(x+3)\\Rightarrow 3x^2-3x=x^2+7x+12\\Rightarrow 2x^2-10x-12=0\\Rightarrow x^2-5x-6=0\\Rightarrow (x-6)(x+1)=0$, so $x=6$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$P(\\text{both male})=\\dfrac{x}{x+4}\\cdot\\dfrac{x-1}{x+3}=\\dfrac13$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $3x(x-1)=(x+4)(x+3)\\Rightarrow 3x^2-3x=x^2+7x+12\\Rightarrow 2x^2-10x-12=0\\Rightarrow x^2-5x-6=0\\Rightarrow (x-6)(x+1)=0$, so $x=6$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-009",
@@ -208,7 +332,19 @@
     "answer": "F",
     "technique": "The circle has radius $r=\\sqrt{x^2+(x/2)^2}=\\dfrac{x\\sqrt5}{2}$, so semicircle area $=\\dfrac{\\pi r^2}{2}=\\dfrac{5\\pi x^2}{8}$. Subtracting the triangular/square overlap region (area $x^2$) leaves the shaded segment area $\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The circle has radius so semicircle area",
+          "content": "The circle has radius $r=\\sqrt{x^2+(x/2)^2}=\\dfrac{x\\sqrt{5}}{2}$, so semicircle area $=\\dfrac{\\pi r^2}{2}=\\dfrac{5\\pi x^2}{8}$."
+        },
+        {
+          "title": "Subtracting the triangular square overlap region area leaves",
+          "content": "Subtracting the triangular/square overlap region (area $x^2$) leaves the shaded segment area $\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M1-010",
@@ -233,7 +369,23 @@
     "answer": "G",
     "technique": "External radius $=5$, internal radius $=4$. Volume $=\\pi(5^2-4^2)\\times16=\\pi\\times9\\times16=144\\pi\\text{ cm}^3$. Mass $=144\\pi\\times8=1152\\pi$ g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "External radius internal radius",
+          "content": "External radius $=5$, internal radius $=4$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Volume $=\\pi(5^2-4^2)\\times16=\\pi\\times9\\times16=144\\pi\\text{ cm}^3$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Mass $=144\\pi\\times8=1152\\pi$ g."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-001",
@@ -258,7 +410,20 @@
     "answer": "B",
     "technique": "The distance travelled during deceleration is the area under the velocity-time graph over the deceleration interval (a triangle/trapezium region). Reading the graph values gives a distance of $500\\text{ m}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "The distance travelled during deceleration is the area",
+          "content": "The distance travelled during deceleration is the area under the velocity-time graph over the deceleration interval (a triangle/ Reading the graph values gives a distance of $500\\text{ m}$."
+        }
+      ],
+      "trap": "trapezium region)."
+    }
   },
   {
     "id": "ENGAA-2017-PHY-002",
@@ -283,7 +448,23 @@
     "answer": "G",
     "technique": "Heating water causes thermal expansion: a fixed mass occupies a larger volume (statement 3 true) and so has lower density (statement 2 true). Statement 1 is false — mass of a fixed volume actually decreases as it expands. Lower density water rises, driving convection, so statements 2 and 3 explain it.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Heating water causes thermal expansion a fixed mass",
+          "content": "Heating water causes thermal expansion: a fixed mass occupies a larger volume (statement 3 true) and so has lower density (statement 2 true)."
+        },
+        {
+          "title": "Statement is false mass of a fixed volume",
+          "content": "Statement 1 is false — mass of a fixed volume actually decreases as it expands."
+        },
+        {
+          "title": "Lower density water rises driving convection so statements",
+          "content": "Lower density water rises, driving convection, so statements 2 and 3 explain it."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-003",
@@ -306,7 +487,23 @@
     "answer": "D",
     "technique": "Useful output of motor $=0.75\\times28=21\\text{ kJ}$. Gravitational PE gained by car $=mgh=1200\\times10\\times1.0=12{,}000\\text{ J}=12\\text{ kJ}$. Total energy lost to surroundings $=$ total input $-$ PE gained $=28-12=16\\text{ kJ}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Useful output of motor",
+          "content": "Useful output of motor $=0.75\\times28=21\\text{ kJ}$."
+        },
+        {
+          "title": "Gravitational PE gained by car",
+          "content": "Gravitational PE gained by car $=mgh=1200\\times10\\times1.0=12{,}000\\text{ J}=12\\text{ kJ}$."
+        },
+        {
+          "title": "Total energy lost to surroundings total input PE",
+          "content": "Total energy lost to surroundings $=$ total input $-$ PE gained $=28-12=16\\text{ kJ}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-004",
@@ -329,7 +526,19 @@
     "answer": "D",
     "technique": "If the source is a distance $d$ from Q, the path difference between the two gamma-rays is $2d$. Time difference $\\Delta t=\\dfrac{2d}{c}\\Rightarrow d=\\dfrac{\\Delta t\\, c}{2}=\\dfrac{4.0\\times10^{-10}\\times3.0\\times10^8}{2}=0.06\\text{ m}=6.0\\text{ cm}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "If the source is a distance from Q",
+          "content": "If the source is a distance $d$ from Q, the path difference between the two gamma-rays is $2d$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Time difference $\\Delta t=\\dfrac{2d}{c}\\Rightarrow d=\\dfrac{\\Delta t\\, c}{2}=\\dfrac{4.0\\times10^{-10}\\times3.0\\times10^8}{2}=0.06\\text{ m}=6.0\\text{ cm}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-005",
@@ -352,7 +561,23 @@
     "answer": "B",
     "technique": "Mass number conservation: $239+1=x+y+w\\Rightarrow 240=x+y+w$. Charge (atomic number) conservation: $94=54+z\\Rightarrow z=40$. Rearranging the mass equation for $z$'s complementary relation as given in the options, $z=240-(w+y)$ is the equation consistent with the mass balance $x+y+w=240$ combined with the charge relation.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Mass number conservation",
+          "content": "Mass number conservation: $239+1=x+y+w\\Rightarrow 240=x+y+w$."
+        },
+        {
+          "title": "Charge atomic number conservation",
+          "content": "Charge (atomic number) conservation: $94=54+z\\Rightarrow z=40$."
+        },
+        {
+          "title": "Rearranging the mass equation for s complementary relation",
+          "content": "Rearranging the mass equation for $z$'s complementary relation as given in the options, $z=240-(w+y)$ is the equation consistent with the mass balance $x+y+w=240$ combined with the charge relation."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-006",
@@ -375,7 +600,27 @@
     "answer": "F",
     "technique": "Useful work $=mgh=20\\times10\\times6=1200\\text{ J}$. Since system is 80% efficient, electrical energy input $=\\dfrac{1200}{0.8}=1500\\text{ J}$. Power $=\\dfrac{1500}{5.0}=300\\text{ W}$. Current $I=\\dfrac{P}{V}=\\dfrac{300}{12}=25\\text{ A}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Useful work $=mgh=20\\times10\\times6=1200\\text{ J}$."
+        },
+        {
+          "title": "Since system is efficient electrical energy input",
+          "content": "Since system is 80% efficient, electrical energy input $=\\dfrac{1200}{0.8}=1500\\text{ J}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Power $=\\dfrac{1500}{5.0}=300\\text{ W}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Current $one=\\dfrac{P}{V}=\\dfrac{300}{12}=25\\text{ A}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-007",
@@ -400,7 +645,23 @@
     "answer": "A",
     "technique": "Alpha decay changes mass by $-4$ and atomic number by $-2$; each beta minus decay leaves mass unchanged and increases atomic number by $+1$. Depending on the order of the 4 emissions, reachable intermediate states are: mass $P$ with atomic number $Q, Q+1, Q+2, Q+3$ (before the alpha is emitted), or mass $P-4$ with atomic number $Q-2, Q-1, Q, Q+1$ (after the alpha is emitted). The combination of atomic number $Q-1$ with mass still $P$ is not reachable, since before the alpha the atomic number can only increase from $Q$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Alpha decay changes mass by and atomic number",
+          "content": "Alpha decay changes mass by $-4$ and atomic number by $-2$; each beta minus decay leaves mass unchanged and increases atomic number by $+1$."
+        },
+        {
+          "title": "Depending on the order of the emissions reachable",
+          "content": "Depending on the order of the 4 emissions, reachable intermediate states are: mass $P$ with atomic number $Q, Q+1, Q+2, Q+3$ (before the alpha is emitted), or mass $P-4$ with atomic number $Q-2, Q-1, Q, Q+1$ (after the alpha is emitted)."
+        },
+        {
+          "title": "The combination of atomic number with mass still",
+          "content": "The combination of atomic number $Q-1$ with mass still $P$ is not reachable, since before the alpha the atomic number can only increase from $Q$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-008",
@@ -423,7 +684,23 @@
     "answer": "A",
     "technique": "Since almost all the atom's mass is in the nucleus, the mass is roughly equal for atom and nucleus. Volume scales as radius cubed, so volume ratio (atom:nucleus) is $(3.0\\times10^4)^3$. Density is inversely proportional to volume for equal mass, so the density ratio is $(3.0\\times10^4)^{-3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since almost all the atom s mass is",
+          "content": "Since almost all the atom's mass is in the nucleus, the mass is roughly equal for atom and nucleus."
+        },
+        {
+          "title": "Volume scales as radius cubed so volume ratio",
+          "content": "Volume scales as radius cubed, so volume ratio (atom:nucleus) is $(3.0\\times10^4)^3$."
+        },
+        {
+          "title": "Density is inversely proportional to volume for equal",
+          "content": "Density is inversely proportional to volume for equal mass, so the density ratio is $(3.0\\times10^4)^{-3}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-009",
@@ -446,7 +723,19 @@
     "answer": "E",
     "technique": "Wave speed $=\\dfrac{\\text{distance}}{\\text{time}}$. Reading the fractional periods/wavelengths represented by $(t_2-t_1)$ and $(x_2-x_1)$ on the two graphs gives speed $=\\dfrac{3(x_2-x_1)}{t_2-t_1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Wave speed $=\\dfrac{\\text{distance}}{\\text{time}}$."
+        },
+        {
+          "title": "Reading the fractional periods wavelengths represented by",
+          "content": "Reading the fractional periods/wavelengths represented by $(t_2-t_1)$ and $(x_2-x_1)$ on the two graphs gives speed $=\\dfrac{3(x_2-x_1)}{t_2-t_1}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-010",
@@ -469,7 +758,23 @@
     "answer": "C",
     "technique": "Current $I=\\dfrac{P}{V}=\\dfrac{150}{12}=12.5\\text{ A}$. Time $t=20\\times60=1200\\text{ s}$. Charge $Q=It=12.5\\times1200=15{,}000\\text{ C}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Current $one=\\dfrac{P}{V}=\\dfrac{150}{12}=12.5\\text{ A}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Time $t=20\\times60=1200\\text{ s}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Charge $Q=It=12.5\\times1200=15{,}000\\text{ C}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-011",
@@ -491,7 +796,23 @@
     "answer": "C",
     "technique": "Freight train mass $=3(130)+7(30)=390+210=600$ tonnes, momentum $=600\\times2.0=1200$ (tonne·m/s). For the system to stop completely, total momentum $=0$: passenger train mass $\\times5.0=1200\\Rightarrow$ mass $=240$ tonnes. Passenger train mass $=2(70)+10n=140+10n=240\\Rightarrow n=10$ carriages.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Freight train mass tonnes momentum tonne m s",
+          "content": "Freight train mass $=3(130)+7(30)=390+210=600$ tonnes, momentum $=600\\times2.0=1200$ (tonne·m/s)."
+        },
+        {
+          "title": "For the system to stop completely total momentum",
+          "content": "For the system to stop completely, total momentum $=0$: passenger train mass $\\times5.0=1200\\Rightarrow$ mass $=240$ tonnes."
+        },
+        {
+          "title": "Passenger train mass carriages",
+          "content": "Passenger train mass $=2(70)+10n=140+10n=240\\Rightarrow n=10$ carriages."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-012",
@@ -516,7 +837,27 @@
     "answer": "C",
     "technique": "$KE=\\frac12mv^2=\\frac12(72)(5^2)=900\\text{ J}$, not 1800 J, so statement 1 is false. Rate of loss of PE $=mgv=72\\times10\\times5=3600\\text{ J/s}$, so statement 2 is true. Air resistance and gravity act on the *same* object (the parachutist), so they cannot be a Newton's third law pair (which requires forces on two different objects); statement 3 is false. Only statement 2 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Not J so statement is false",
+          "content": "$KE=\\frac12mv^2=\\frac12(72)(5^2)=900\\text{ J}$, not 1800 J, so statement 1 is false."
+        },
+        {
+          "title": "Rate of loss of PE so statement is",
+          "content": "Rate of loss of PE $=mgv=72\\times10\\times5=3600\\text{ J/s}$, so statement 2 is true."
+        },
+        {
+          "title": "Air resistance and gravity act on the same",
+          "content": "Air resistance and gravity act on the *same* object (the parachutist), so they cannot be a Newton's third law pair (which requires forces on two different objects); statement 3 is false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 2 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-013",
@@ -539,7 +880,35 @@
     "answer": "D",
     "technique": "Let initial atoms of each $=N$. After 6h ($=2$ half-lives of X), X remaining $=N/4$, decayed $=3N/4$. After 6h ($=3$ half-lives of Y), Y remaining $=N/8$, decayed $=7N/8$. Total Z $=3N/4+7N/8=13N/8$. Total atoms now $=N/4+N/8+13N/8=2N$. Fraction Z $=\\dfrac{13N/8}{2N}=\\dfrac{13}{16}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let initial atoms of each",
+          "content": "Let initial atoms of each $=N$."
+        },
+        {
+          "title": "After h half lives of X X remaining",
+          "content": "After 6h ($=2$ half-lives of X), X remaining $=N/4$, decayed $=3N/4$."
+        },
+        {
+          "title": "After h half lives of Y Y remaining",
+          "content": "After 6h ($=3$ half-lives of Y), Y remaining $=N/8$, decayed $=7N/8$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Total Z $=3N/4+7N/8=13N/8$."
+        },
+        {
+          "title": "Total atoms now",
+          "content": "Total atoms now $=N/4+N/8+13N/8=2N$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Fraction Z $=\\dfrac{13N/8}{2N}=\\dfrac{13}{16}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-014",
@@ -561,7 +930,19 @@
     "answer": "E",
     "technique": "$\\dfrac{KE_X}{KE_Y}=\\dfrac{m_X v_X^2}{m_Y v_Y^2}=\\dfrac45\\times1.5^2=\\dfrac45\\times2.25=1.8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$\\dfrac{KE_X}{KE_Y}=\\dfrac{m_X v_X^2}{m_Y v_Y^2}=\\dfrac45\\times1.5^2=\\dfrac45\\times2.25=1.8$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-001",
@@ -584,7 +965,23 @@
     "answer": "E",
     "technique": "Factorise: $2x^2+x-15=(x+3)(2x-5)$. Roots at $x=-3$ and $x=2.5$. Since the parabola opens upward, $2x^2+x-15\\ge0$ outside the roots: $x\\le-3$ or $x\\ge2.5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Factorise: $2x^2+x-15=(x+3)(2x-5)$."
+        },
+        {
+          "title": "Roots at and",
+          "content": "Roots at $x=-3$ and $x=2.5$."
+        },
+        {
+          "title": "Since the parabola opens upward outside the roots",
+          "content": "Since the parabola opens upward, $2x^2+x-15\\ge0$ outside the roots: $x\\le-3$ or $x\\ge2.5$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-002",
@@ -608,7 +1005,19 @@
     "answer": "B",
     "technique": "$y=3\\left(\\dfrac{x}{2}-1\\right)^2-5 \\Rightarrow y+5=3\\left(\\dfrac{x}{2}-1\\right)^2 \\Rightarrow \\left(\\dfrac{x}{2}-1\\right)^2=\\dfrac{y+5}{3} \\Rightarrow \\dfrac{x}{2}-1=\\pm\\sqrt{\\dfrac{y+5}{3}} \\Rightarrow x=2\\pm2\\sqrt{\\dfrac{y+5}{3}}$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$y=3\\left(\\dfrac{x}{2}-1\\right)^2-5 \\Rightarrow y+5=3\\left(\\dfrac{x}{2}-1\\right)^2 \\Rightarrow \\left(\\dfrac{x}{2}-1\\right)^2=\\dfrac{y+5}{3} \\Rightarrow \\dfrac{x}{2}-1=\\pm\\sqrt{\\dfrac{y+5}{3}} \\Rightarrow x=2\\pm2\\sqrt{\\dfrac{y+5}{3}}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-003",
@@ -631,7 +1040,19 @@
     "answer": "D",
     "technique": "$9x^2-4=(3x-2)(3x+2)$ and $2-3x=-(3x-2)$, so $\\dfrac{x^2(9x^2-4)}{x^3(2-3x)}=\\dfrac{x^2(3x-2)(3x+2)}{-x^3(3x-2)}=-\\dfrac{3x+2}{x}=-3-\\dfrac2x$. So $2-\\left(-3-\\dfrac2x\\right)=5+\\dfrac2x$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$9x^2-4=(3x-2)(3x+2)$ and $2-3x=-(3x-2)$, so $\\dfrac{x^2(9x^2-4)}{x^3(2-3x)}=\\dfrac{x^2(3x-2)(3x+2)}{-x^3(3x-2)}=-\\dfrac{3x+2}{x}=-3-\\dfrac2x$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $2-\\left(-3-\\dfrac2x\\right)=5+\\dfrac2x$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-004",
@@ -653,7 +1074,23 @@
     "answer": "D",
     "technique": "Express all terms as powers of 2: $4^x=2^{2x}$, $8^{-x}=2^{-3x}$, and $4\\sqrt2=2^{2.5}$. The left side becomes $2^{(3+2x)+2x-3x}=2^{3+x}$. Setting exponents equal: $3+x=2.5$, so $x=-0.5$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Express all terms as powers of and",
+          "content": "Express all terms as powers of 2: $4^x=2^{2x}$, $8^{-x}=2^{-3x}$, and $4\\sqrt{2}=2^{2.5}$."
+        },
+        {
+          "title": "The left side becomes",
+          "content": "The left side becomes $2^{(3+2x)+2x-3x}=2^{3+x}$."
+        },
+        {
+          "title": "Setting exponents equal so",
+          "content": "Setting exponents equal: $3+x=2.5$, so $x=-0.5$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-005",
@@ -678,7 +1115,23 @@
     "answer": "E",
     "technique": "$\\dfrac{3+\\sqrt3}{6-2\\sqrt3}=\\dfrac{3+\\sqrt3}{2(3-\\sqrt3)}=\\dfrac{(3+\\sqrt3)^2}{2(9-3)}=\\dfrac{12+6\\sqrt3}{12}=1+\\dfrac{\\sqrt3}{2}$. Squaring: $1+\\sqrt3+\\dfrac34$. So $1-\\left(1+\\sqrt3+\\dfrac34\\right)=-\\dfrac34-\\sqrt3$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$\\dfrac{3+\\sqrt{3}}{6-2\\sqrt{3}}=\\dfrac{3+\\sqrt{3}}{2(3-\\sqrt{3})}=\\dfrac{(3+\\sqrt{3})^2}{2(9-3)}=\\dfrac{12+6\\sqrt{3}}{12}=1+\\dfrac{\\sqrt{3}}{2}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Squaring: $1+\\sqrt{3}+\\dfrac34$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $1-\\left(1+\\sqrt{3}+\\dfrac34\\right)=-\\dfrac34-\\sqrt{3}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-006",
@@ -700,7 +1153,31 @@
     "answer": "C",
     "technique": "Solve $\\sin x=-\\tfrac12$: smallest positive solution is $x=210°$. Solve $\\cos2x=\\tfrac12$: $2x=60°,300°,420°,\\ldots$, giving $x=30°,150°,210°,330°,\\ldots$. The smallest $x$ satisfying both equations is $k=210°$ (common to both lists). Values solving at least one equation in $0\\le x\\le210°$: from the first equation, $\\{210°\\}$; from the second, $\\{30°,150°,210°\\}$. Their union has 3 distinct values.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Solve smallest positive solution is",
+          "content": "Solve $\\sin x=-\\tfrac12$: smallest positive solution is $x=210^\\circ$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Solve $\\cos2x=\\tfrac12$: $2x=60^\\circ,300^\\circ,420^\\circ,\\ldots$, giving $x=30^\\circ,150^\\circ,210^\\circ,330^\\circ,\\ldots$."
+        },
+        {
+          "title": "The smallest satisfying both equations is common to",
+          "content": "The smallest $x$ satisfying both equations is $k=210^\\circ$ (common to both lists)."
+        },
+        {
+          "title": "Values solving at least one equation in from",
+          "content": "Values solving at least one equation in $0\\le x\\le210^\\circ$: from the first equation, $\\{210^\\circ\\}$; from the second, $\\{30^\\circ,150^\\circ,210^\\circ\\}$."
+        },
+        {
+          "title": "Their union has distinct values",
+          "content": "Their union has 3 distinct values."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-007",
@@ -722,7 +1199,19 @@
     "answer": "B",
     "technique": "$3^{2x+1}=6\\cdot3^x\\Rightarrow 3\\cdot(3^x)^2=6\\cdot3^x\\Rightarrow 3^x=2$ (dividing both sides by $3^x\\ne0$ and by 3). So $x=\\log_3 2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Dividing both sides by and by",
+          "content": "$3^{2x+1}=6\\cdot3^x\\Rightarrow 3\\cdot(3^x)^2=6\\cdot3^x\\Rightarrow 3^x=2$ (dividing both sides by $3^x\\ne0$ and by 3)."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $x=\\log_3 2$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-008",
@@ -745,7 +1234,19 @@
     "answer": "C",
     "technique": "Major arc length $22\\pi=r\\theta_{major}$ where $\\theta_{major}=2\\pi-\\pi/6=11\\pi/6$, giving $r=\\dfrac{22\\pi}{11\\pi/6}=12$ mm. With $OP=OS=r+18=30$ mm and angle $\\pi/6$ at O, the keyhole area is the large sector/triangle area minus the small circular sector area: area $=132\\pi+225\\text{ mm}^2$ (per official answer key).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Major arc length where giving mm",
+          "content": "Major arc length $22\\pi=r\\theta_{major}$ where $\\theta_{major}=2\\pi-\\pi/6=11\\pi/6$, giving $r=\\dfrac{22\\pi}{11\\pi/6}=12$ mm."
+        },
+        {
+          "title": "With mm and angle at O the keyhole",
+          "content": "With $OP=OS=r+18=30$ mm and angle $\\pi/6$ at O, the keyhole area is the large sector/triangle area minus the small circular sector area: area $=132\\pi+225\\text{ mm}^2$ (per official answer key)."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-009",
@@ -770,7 +1271,19 @@
     "answer": "F",
     "technique": "$y=8^p=2^{3p}$ and $z=(1/2)^{2q}=2^{-2q}$. $\\log_2(y^3/z^2)=3\\log_2 y-2\\log_2 z=3(3p)-2(-2q)=9p+4q$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$y=8^p=2^{3p}$ and $z=(1/2)^{2q}=2^{-2q}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$\\log_2(y^3/z^2)=3\\log_2 y-2\\log_2 z=3(3p)-2(-2q)=9p+4q$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-010",
@@ -793,7 +1306,23 @@
     "answer": "D",
     "technique": "$y'=3x^2+2px+q$ has roots $x=2,4$. Sum of roots $=6=-\\dfrac{2p}{3}\\Rightarrow p=-9$. Product of roots $=8=\\dfrac{q}{3}\\Rightarrow q=24$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$y'=3x^2+2px+q$ has roots $x=2,4$."
+        },
+        {
+          "title": "Sum of roots",
+          "content": "Sum of roots $=6=-\\dfrac{2p}{3}\\Rightarrow p=-9$."
+        },
+        {
+          "title": "Product of roots",
+          "content": "Product of roots $=8=\\dfrac{q}{3}\\Rightarrow q=24$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-011",
@@ -816,7 +1345,23 @@
     "answer": "D",
     "technique": "Area $=\\frac12\\cdot PQ\\cdot QR\\cdot\\sin60°=\\frac12(4x)(8-3x)\\cdot\\dfrac{\\sqrt3}{2}=\\sqrt3(8x-3x^2)$ (using $\\sin60°=\\frac{\\sqrt3}{2}$). Maximise: $\\dfrac{d}{dx}(8x-3x^2)=8-6x=0\\Rightarrow x=\\dfrac43$. Area $=\\sqrt3\\left(\\dfrac{32}{3}-\\dfrac{16}{3}\\right)=\\sqrt3\\cdot\\dfrac{16}{3}=\\dfrac{16\\sqrt3}{3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Area $=\\frac12\\cdot PQ\\cdot QR\\cdot\\sin60^\\circ=\\frac12(4x)(8-3x)\\cdot\\dfrac{\\sqrt{3}}{2}=\\sqrt{3}(8x-3x^2)$ (using $\\sin60^\\circ=\\frac{\\sqrt{3}}{2}$)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Maximise: $\\dfrac{d}{dx}(8x-3x^2)=8-6x=0\\Rightarrow x=\\dfrac43$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Area $=\\sqrt{3}\\left(\\dfrac{32}{3}-\\dfrac{16}{3}\\right)=\\sqrt{3}\\cdot\\dfrac{16}{3}=\\dfrac{16\\sqrt{3}}{3}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-012",
@@ -838,7 +1383,23 @@
     "answer": "E",
     "technique": "$\\dfrac{dy}{dx}=6(3x+2)^5\\cdot3=18(3x+2)^5$. Coefficient of $x^3$ in $(3x+2)^5$ is $\\binom{5}{3}(3)^3(2)^2=10\\times27\\times4=1080$. Multiplying by 18 gives $19{,}440$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$\\dfrac{dy}{dx}=6(3x+2)^5\\cdot3=18(3x+2)^5$."
+        },
+        {
+          "title": "Coefficient of in is",
+          "content": "Coefficient of $x^3$ in $(3x+2)^5$ is $\\binom{5}{3}(3)^3(2)^2=10\\times27\\times4=1080$."
+        },
+        {
+          "title": "Multiplying by gives",
+          "content": "Multiplying by 18 gives $19{,}440$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-013",
@@ -860,7 +1421,31 @@
     "answer": "A",
     "technique": "Sum to infinity $=\\dfrac{1}{1-r}=\\dfrac43\\Rightarrow 1-r=\\dfrac34\\Rightarrow r=\\dfrac14$. So $\\dfrac12\\sin(2x)=\\dfrac14\\Rightarrow\\sin(2x)=\\dfrac12$. For $x\\in[\\pi,2\\pi]$, $2x\\in[2\\pi,4\\pi]$. Solving $\\sin\\theta=\\frac12$ for $\\theta\\in[2\\pi,4\\pi]$ gives $\\theta=2\\pi+\\frac{\\pi}{6}=\\frac{13\\pi}{6}$ or $\\theta=2\\pi+\\frac{5\\pi}{6}=\\frac{17\\pi}{6}$. Dividing by 2: $x=\\dfrac{13\\pi}{12}$ or $\\dfrac{17\\pi}{12}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Sum to infinity",
+          "content": "Sum to infinity $=\\dfrac{1}{1-r}=\\dfrac43\\Rightarrow 1-r=\\dfrac34\\Rightarrow r=\\dfrac14$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $\\dfrac12\\sin(2x)=\\dfrac14\\Rightarrow\\sin(2x)=\\dfrac12$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "For $x\\in[\\pi,2\\pi]$, $2x\\in[2\\pi,4\\pi]$."
+        },
+        {
+          "title": "Solving for gives or",
+          "content": "Solving $\\sin\\theta=\\frac12$ for $\\theta\\in[2\\pi,4\\pi]$ gives $\\theta=2\\pi+\\frac{\\pi}{6}=\\frac{13\\pi}{6}$ or $\\theta=2\\pi+\\frac{5\\pi}{6}=\\frac{17\\pi}{6}$."
+        },
+        {
+          "title": "Dividing by or",
+          "content": "Dividing by 2: $x=\\dfrac{13\\pi}{12}$ or $\\dfrac{17\\pi}{12}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-014",
@@ -882,7 +1467,23 @@
     "answer": "C",
     "technique": "Build $u_4$ in terms of $p$: $u_2=2p+3$, $u_3=2p^2+3p+3$, $u_4=2p^3+3p^2+3p+3$. Setting $u_4=-7$ gives $2p^3+3p^2+3p+10=0$, which has integer root $p=-2$. Then $u_1=2$, $u_2=-1$, $u_3=5$, $u_4=-7$, so $u_1+u_2+u_3+u_4=2-1+5-7=-1$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Build in terms of",
+          "content": "Build $u_4$ in terms of $p$: $u_2=2p+3$, $u_3=2p^2+3p+3$, $u_4=2p^3+3p^2+3p+3$."
+        },
+        {
+          "title": "Setting gives which has integer root",
+          "content": "Setting $u_4=-7$ gives $2p^3+3p^2+3p+10=0$, which has integer root $p=-2$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $u_1=2$, $u_2=-1$, $u_3=5$, $u_4=-7$, so $u_1+u_2+u_3+u_4=2-1+5-7=-1$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-015",
@@ -905,7 +1506,27 @@
     "answer": "A",
     "technique": "Testing $x=1$: $1-6+9-4=0$, so $(x-1)$ is a factor. Dividing: $x^3-6x^2+9x-4=(x-1)^2(x-4)$. So the expression is $\\dfrac{(x-1)^2(x-4)}{x}$. Since $(x-1)^2\\ge0$ always, the sign is determined by $\\dfrac{x-4}{x}$ (excluding $x=1$, where the expression equals 0, not $>0$). $\\dfrac{x-4}{x}>0$ when $x<0$ or $x>4$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Testing so is a factor",
+          "content": "Testing $x=1$: $1-6+9-4=0$, so $(x-1)$ is a factor."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Dividing: $x^3-6x^2+9x-4=(x-1)^2(x-4)$."
+        },
+        {
+          "title": "So the expression is",
+          "content": "So the expression is $\\dfrac{(x-1)^2(x-4)}{x}$."
+        },
+        {
+          "title": "Since always the sign is determined by excluding",
+          "content": "Since $(x-1)^2\\ge0$ always, the sign is determined by $\\dfrac{x-4}{x}$ (excluding $x=1$, where the expression equals 0, not $>0$). $\\dfrac{x-4}{x}>0$ when $x<0$ or $x>4$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-016",
@@ -930,7 +1551,19 @@
     "answer": "H",
     "technique": "Stretching $y=\\sin x$ by scale factor $\\frac12$ parallel to the x-axis gives $y=\\sin(2x)$. Translating by $\\frac{\\pi}{4}$ in the negative x-direction replaces $x$ with $x+\\frac{\\pi}{4}$: $y=\\sin\\left(2\\left(x+\\frac{\\pi}{4}\\right)\\right)=\\sin\\left(2x+\\frac{\\pi}{2}\\right)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Stretching by scale factor parallel to the x",
+          "content": "Stretching $y=\\sin x$ by scale factor $\\frac12$ parallel to the x-axis gives $y=\\sin(2x)$."
+        },
+        {
+          "title": "Translating by in the negative x direction replaces",
+          "content": "Translating by $\\frac{\\pi}{4}$ in the negative x-direction replaces $x$ with $x+\\frac{\\pi}{4}$: $y=\\sin\\left(2\\left(x+\\frac{\\pi}{4}\\right)\\right)=\\sin\\left(2x+\\frac{\\pi}{2}\\right)$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-M2-017",
@@ -953,7 +1586,31 @@
     "answer": "B",
     "technique": "The gradients are $m_1=2p^2-p$ and $m_2=p-2$. Perpendicularity requires $m_1m_2=-1$: $(2p^2-p)(p-2)=-1 \\Rightarrow 2p^3-5p^2+2p+1=0$. Testing $p=1$ gives $0$, so $(p-1)$ is a factor: $2p^3-5p^2+2p+1=(p-1)(2p^2-3p-1)$. Solving $2p^2-3p-1=0$ gives $p=\\dfrac{3\\pm\\sqrt{17}}{4}$, i.e. $p\\approx1.781$ or $p\\approx-0.281$. The three roots are $p=1$, $p\\approx1.781$, $p\\approx-0.281$; the greatest is $\\approx1.781$, closest to 1.75.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "The gradients are and",
+          "content": "The gradients are $m_1=2p^2-p$ and $m_2=p-2$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Perpendicularity requires $m_1m_2=-1$: $(2p^2-p)(p-2)=-1 \\Rightarrow 2p^3-5p^2+2p+1=0$."
+        },
+        {
+          "title": "Testing gives so is a factor",
+          "content": "Testing $p=1$ gives $0$, so $(p-1)$ is a factor: $2p^3-5p^2+2p+1=(p-1)(2p^2-3p-1)$."
+        },
+        {
+          "title": "Solving gives i e or",
+          "content": "Solving $2p^2-3p-1=0$ gives $p=\\dfrac{3\\pm\\sqrt{17}}{4}$, i.e. $p\\approx1.781$ or $p\\approx-0.281$."
+        },
+        {
+          "title": "The three roots are the greatest is closest",
+          "content": "The three roots are $p=1$, $p\\approx1.781$, $p\\approx-0.281$; the greatest is $\\approx1.781$, closest to 1.75."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-015",
@@ -978,7 +1635,23 @@
     "answer": "A",
     "technique": "FLAGGED (per addendum): the seven distractor options are candidate velocity-time graph shapes (diagrams), not transcribable to text like NSAA-2022-CHEM-014. The stored answer describes a straight line of constant negative gradient passing through zero, consistent with the ball's motion under constant deceleration g -- this is correct physics for the described scenario and matches the stored answer key. The other seven graph shapes cannot be verified from rendered PDF alone; flagging for the diagram-owning session to verify/render rather than guessing exact curve shapes.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "FLAGGED per addendum the seven distractor options are",
+          "content": "FLAGGED (per addendum): the seven distractor options are candidate velocity-time graph shapes (diagrams), not transcribable to text like NSAA-2022-CHEM-014."
+        },
+        {
+          "title": "The stored answer describes a straight line of",
+          "content": "The stored answer describes a straight line of constant negative gradient passing through zero, consistent with the ball's motion under constant deceleration g -- this is correct physics for the described scenario and matches the stored answer key."
+        },
+        {
+          "title": "The other seven graph shapes cannot be verified",
+          "content": "The other seven graph shapes cannot be verified from rendered PDF alone; flagging for the diagram-owning session to verify/render rather than guessing exact curve shapes."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-016",
@@ -1000,7 +1673,19 @@
     "answer": "C",
     "technique": "Constant speed in a straight line means zero acceleration, so by Newton's second law the resultant (net) force must be zero.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Constant speed in a straight line means zero",
+          "content": "Constant speed in a straight line means zero acceleration, so by Newton's second law the resultant (net) force must be zero."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-017",
@@ -1025,7 +1710,23 @@
     "answer": "E",
     "technique": "Taking moments about the pivot: weight of bar $=60\\times10=600$ N acts at the centre, 2.0 m from the pivot, giving moment $=600\\times2.0=1200$ N·m. The moment of F is $F\\sin60°\\times4.0$. Equating: $4F\\sin60°=1200\\Rightarrow F=\\dfrac{300}{\\sin60°}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Taking moments about the pivot weight of bar",
+          "content": "Taking moments about the pivot: weight of bar $=60\\times10=600$ N acts at the centre, 2.0 m from the pivot, giving moment $=600\\times2.0=1200$ N·m."
+        },
+        {
+          "title": "The moment of F is",
+          "content": "The moment of F is $F\\sin60^\\circ\\times4.0$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Equating: $4F\\sin60^\\circ=1200\\Rightarrow F=\\dfrac{300}{\\sin60^\\circ}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-018",
@@ -1048,7 +1749,19 @@
     "answer": "D",
     "technique": "$v^2=u^2-2as=40^2-2(14.4)(20)=1600-576=1024\\Rightarrow v=\\sqrt{1024}=32.0\\text{ m s}^{-1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$v^2=u^2-2as=40^2-2(14.4)(20)=1600-576=1024\\Rightarrow v=\\sqrt{1024}=32.0\\text{ m s}^{-1}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-019",
@@ -1072,7 +1785,19 @@
     "answer": "F",
     "technique": "The hanging 1.0 kg load is in equilibrium (system stationary), so the tension in the string supporting it equals its weight: $T=mg=1.0\\times10=10\\text{ N}$. This tension is transmitted through the force meter, so it reads 10 N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The hanging kg load is in equilibrium system",
+          "content": "The hanging 1.0 kg load is in equilibrium (system stationary), so the tension in the string supporting it equals its weight: $T=mg=1.0\\times10=10\\text{ N}$."
+        },
+        {
+          "title": "This tension is transmitted through the force meter",
+          "content": "This tension is transmitted through the force meter, so it reads 10 N."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-020",
@@ -1094,7 +1819,23 @@
     "answer": "A",
     "technique": "PE lost $=mgh=0.1\\times10\\times4=4.0\\text{ J}$. KE gained $=\\frac12mv^2=\\frac12(0.1)(8^2)=3.2\\text{ J}$. Work done against resistance $=$ PE lost $-$ KE gained $=4.0-3.2=0.80\\text{ J}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "PE lost $=mgh=0.1\\times10\\times4=4.0\\text{ J}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "KE gained $=\\frac12mv^2=\\frac12(0.1)(8^2)=3.2\\text{ J}$."
+        },
+        {
+          "title": "Work done against resistance PE lost KE gained",
+          "content": "Work done against resistance $=$ PE lost $-$ KE gained $=4.0-3.2=0.80\\text{ J}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-021",
@@ -1119,7 +1860,23 @@
     "answer": "A",
     "technique": "By symmetry, the stone passes the top of the cliff moving downward at 13 m s⁻¹ (same speed as it was launched upward). Using $s=ut+\\frac12at^2$ with $s=6.0$, $u=13$, $a=10$: $6=13t+5t^2\\Rightarrow5t^2+13t-6=0$. Solving: $t=\\dfrac{-13+\\sqrt{169+120}}{10}=\\dfrac{-13+17}{10}=0.40\\text{ s}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "By symmetry the stone passes the top of",
+          "content": "By symmetry, the stone passes the top of the cliff moving downward at 13 m s⁻¹ (same speed as it was launched upward)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Using $s=ut+\\frac12at^2$ with $s=6.0$, $u=13$, $a=10$: $6=13t+5t^2\\Rightarrow5t^2+13t-6=0$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Solving: $t=\\dfrac{-13+\\sqrt{169+120}}{10}=\\dfrac{-13+17}{10}=0.40\\text{ s}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-022",
@@ -1144,7 +1901,19 @@
     "answer": "B",
     "technique": "Work done $=$ area under graph (triangle) $=\\frac12\\times0.40\\times192=38.4\\text{ J}=$ kinetic energy of arrow. Maximum height: $KE=mgh\\Rightarrow h=\\dfrac{38.4}{0.024\\times10}=\\dfrac{38.4}{0.24}=160\\text{ m}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work done area under graph triangle kinetic energy",
+          "content": "Work done $=$ area under graph (triangle) $=\\frac12\\times0.40\\times192=38.4\\text{ J}=$ kinetic energy of arrow."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Maximum height: $KE=mgh\\Rightarrow h=\\dfrac{38.4}{0.024\\times10}=\\dfrac{38.4}{0.24}=160\\text{ m}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-023",
@@ -1169,7 +1938,19 @@
     "answer": "H",
     "technique": "At $20°$, constant speed means friction balances gravity's slope component: $\\mu mg\\cos20°=mg\\sin20°\\Rightarrow\\mu=\\tan20°$. At $25°$, net force down the slope $=mg\\sin25°-\\mu mg\\cos25°=mg(\\sin25°-\\cos25°\\tan20°)$, so acceleration $=g(\\sin25°-\\cos25°\\tan20°)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At constant speed means friction balances gravity s",
+          "content": "At $20^\\circ$, constant speed means friction balances gravity's slope component: $\\mu mg\\cos20^\\circ=mg\\sin20^\\circ\\Rightarrow\\mu=\\tan20^\\circ$."
+        },
+        {
+          "title": "At net force down the slope so acceleration",
+          "content": "At $25^\\circ$, net force down the slope $=mg\\sin25^\\circ-\\mu mg\\cos25^\\circ=mg(\\sin25^\\circ-\\cos25^\\circ\\tan20^\\circ)$, so acceleration $=g(\\sin25^\\circ-\\cos25^\\circ\\tan20^\\circ)$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-024",
@@ -1191,7 +1972,19 @@
     "answer": "B",
     "technique": "The suitcase moves at constant speed (zero acceleration) along the belt, so along the slope, friction must exactly balance the component of gravity down the slope: $F_{friction}=mg\\sin\\theta$. This is static friction and not necessarily at its maximum value $\\mu mg\\cos\\theta$, consistent with the suitcase not slipping even if θ increases slightly.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The suitcase moves at constant speed zero acceleration",
+          "content": "The suitcase moves at constant speed (zero acceleration) along the belt, so along the slope, friction must exactly balance the component of gravity down the slope: $F_{friction}=mg\\sin\\theta$."
+        },
+        {
+          "title": "This is static friction and not necessarily at",
+          "content": "This is static friction and not necessarily at its maximum value $\\mu mg\\cos\\theta$, consistent with the suitcase not slipping even if θ increases slightly."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-025",
@@ -1213,7 +2006,19 @@
     "answer": "B",
     "technique": "Impulse (area under F-t graph, here approximated as $F(t_2-t_1)$) equals the change in momentum: $J=mv-(-mu)=mv+mu$ (taking the direction the ball leaves in as positive, so its initial momentum is $-mu$). Rearranging, the final momentum $mv=J-mu=F(t_2-t_1)-mu$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Impulse area under F t graph here approximated",
+          "content": "Impulse (area under F-t graph, here approximated as $F(t_2-t_1)$) equals the change in momentum: $J=mv-(-mu)=mv+mu$ (taking the direction the ball leaves in as positive, so its initial momentum is $-mu$)."
+        },
+        {
+          "title": "Rearranging the final momentum",
+          "content": "Rearranging, the final momentum $mv=J-mu=F(t_2-t_1)-mu$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-026",
@@ -1235,7 +2040,19 @@
     "answer": "A",
     "technique": "Reading the duration of free-fall from the graph before the first bounce gives the speed just after the bounce as $v=4.00\\text{ m s}^{-1}$ (using $v=gt$ over the corresponding time interval). The subsequent rise height uses $h=\\dfrac{v^2}{2g}=\\dfrac{16}{20}=0.80\\text{ m}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reading the duration of free fall from the",
+          "content": "Reading the duration of free-fall from the graph before the first bounce gives the speed just after the bounce as $v=4.00\\text{ m s}^{-1}$ (using $v=gt$ over the corresponding time interval)."
+        },
+        {
+          "title": "The subsequent rise height uses",
+          "content": "The subsequent rise height uses $h=\\dfrac{v^2}{2g}=\\dfrac{16}{20}=0.80\\text{ m}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2017-PHY-027",
@@ -1258,6 +2075,18 @@
     "answer": "B",
     "technique": "New load moment $=400(15)=6000$; increase from the original ($400\\times10=4000$) is $2000$ (in mass×distance units, since g cancels on both sides of the balance). This must be matched by the counterweight moving $\\Delta$ further out: $2000\\Delta=2000\\Rightarrow\\Delta=1.0$m, further from P (to the right).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "New load moment increase from the original is",
+          "content": "New load moment $=400(15)=6000$; increase from the original ($400\\times10=4000$) is $2000$ (in mass\\timesdistance units, since g cancels on both sides of the balance)."
+        },
+        {
+          "title": "This must be matched by the counterweight moving",
+          "content": "This must be matched by the counterweight moving $\\Delta$ further out: $2000\\Delta=2000\\Rightarrow\\Delta=1.0$m, further from P (to the right)."
+        }
+      ]
+    }
   }
 ]

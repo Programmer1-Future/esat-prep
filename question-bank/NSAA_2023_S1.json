@@ -21,7 +21,23 @@
     "answer": "A",
     "technique": "Total surface area of one closed cylinder = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$. For 10 cylinders: $100\\pi r^2$. Set equal to sphere area: $4\\pi R^2 = 100\\pi r^2 \\Rightarrow R^2 = 25r^2 \\Rightarrow R = 5r$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total surface area of one closed cylinder",
+          "content": "Total surface area of one closed cylinder = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "For 10 cylinders: $100\\pi r^2$."
+        },
+        {
+          "title": "Set equal to sphere area",
+          "content": "Set equal to sphere area: $4\\pi R^2 = 100\\pi r^2 \\Rightarrow R^2 = 25r^2 \\Rightarrow R = 5r$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-002",
@@ -46,7 +62,23 @@
     "answer": "E",
     "technique": "Statement 1: cross-multiplying both sides gives $\\frac{47 \\times 71}{93 \\times 33}$ on both sides, so it is true. Statement 2: $a\\% \\text{ of } b = \\frac{a}{100}b = \\frac{b}{100}a = b\\% \\text{ of } a$, always true. Statement 3 as printed does not hold under the exact original exponent arrangement in this paper (verified false via official answer key), giving statements 1 and 2 only as correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Statement cross multiplying both sides gives on both",
+          "content": "Statement 1: cross-multiplying both sides gives $\\frac{47 \\times 71}{93 \\times 33}$ on both sides, so it is true."
+        },
+        {
+          "title": "Statement always true",
+          "content": "Statement 2: $a\\% \\text{ of } b = \\frac{a}{100}b = \\frac{b}{100}a = b\\% \\text{ of } a$, always true."
+        },
+        {
+          "title": "Statement as printed does not hold under the",
+          "content": "Statement 3 as printed does not hold under the exact original exponent arrangement in this paper (verified false via official answer key), giving statements 1 and 2 only as correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-003",
@@ -69,7 +101,19 @@
     "answer": "C",
     "technique": "$y(s-x) = p-q \\Rightarrow ys - yx = p - q \\Rightarrow yx = ys-(p-q) \\Rightarrow x = s - \\frac{p-q}{y}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$y(s-x) = p-q \\Rightarrow ys - yx = p - q \\Rightarrow yx = ys-(p-q) \\Rightarrow x = s - \\frac{p-q}{y}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-004",
@@ -92,7 +136,27 @@
     "answer": "A",
     "technique": "Median of 6 numbers = average of 3rd and 4th values: $\\frac{x+y}{2} = 7.25 \\Rightarrow x+y = 14.5$. Sum of all six = $12 \\times 6 = 72$: $2 + 2x + y + 23.5+27.5 = 72 \\Rightarrow 2x+y = 19$. Subtracting: $x = 4.5$, so $y = 10$. The mode is the most frequent value, x = 4.5 (appears twice).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Median of numbers average of rd and th",
+          "content": "Median of 6 numbers = average of 3rd and 4th values: $\\frac{x+y}{2} = 7.25 \\Rightarrow x+y = 14.5$."
+        },
+        {
+          "title": "Sum of all six",
+          "content": "Sum of all six = $12 \\times 6 = 72$: $2 + 2x + y + 23.5+27.5 = 72 \\Rightarrow 2x+y = 19$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Subtracting: $x = 4.5$, so $y = 10$."
+        },
+        {
+          "title": "The mode is the most frequent value x",
+          "content": "The mode is the most frequent value, x = 4.5 (appears twice)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-005",
@@ -115,7 +179,35 @@
     "answer": "F",
     "technique": "Place W=(0,1), X=(1,1), Y=(1,0), Z=(0,0). M on WX with WM:MX=1:2 gives M=(1/3, 1). N on XY with XN:NY=3:1 gives N=(1, 1/4). P on YZ with YP:PZ=4:1 gives P=(1/5, 0). Area of triangle MNP via shoelace formula: $\\frac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)|$. Computing gives area = 23/60, matching the answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Place W X Y Z",
+          "content": "Place W=(0,1), X=(1,1), Y=(1,0), Z=(0,0)."
+        },
+        {
+          "title": "M on WX with WM MX gives M",
+          "content": "M on WX with WM:MX=1:2 gives M=(1/3, 1)."
+        },
+        {
+          "title": "N on XY with XN NY gives N",
+          "content": "N on XY with XN:NY=3:1 gives N=(1, 1/4)."
+        },
+        {
+          "title": "P on YZ with YP PZ gives P",
+          "content": "P on YZ with YP:PZ=4:1 gives P=(1/5, 0)."
+        },
+        {
+          "title": "Area of triangle MNP via shoelace formula",
+          "content": "Area of triangle MNP via shoelace formula: $\\frac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)|$."
+        },
+        {
+          "title": "Computing gives area matching the answer key",
+          "content": "Computing gives area = 23/60, matching the answer key."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-006",
@@ -140,7 +232,19 @@
     "answer": "D",
     "technique": "Factor each part: $4x-8=4(x-2)$, $x^2+4x-12=(x+6)(x-2)$, $x^3-36x=x(x-6)(x+6)$. The expression becomes $\\frac{4(x-2)}{(x+6)(x-2)}\\div\\frac{x-6}{x(x-6)(x+6)}=\\frac{4}{x+6}\\times\\frac{x(x-6)(x+6)}{x-6}=4x$ (the $(x-2)$ and $(x-6)$ factors cancel, as does one $(x+6)$).",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Factor each part",
+          "content": "Factor each part: $4x-8=4(x-2)$, $x^2+4x-12=(x+6)(x-2)$, $x^3-36x=x(x-6)(x+6)$."
+        },
+        {
+          "title": "The expression becomes the and factors cancel as",
+          "content": "The expression becomes $\\frac{4(x-2)}{(x+6)(x-2)}\\div\\frac{x-6}{x(x-6)(x+6)}=\\frac{4}{x+6}\\times\\frac{x(x-6)(x+6)}{x-6}=4x$ (the $(x-2)$ and $(x-6)$ factors cancel, as does one $(x+6)$)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-007",
@@ -165,7 +269,19 @@
     "answer": "D",
     "technique": "Express all terms as powers of 3: $27^{2(x-2)}=3^{6(x-2)}=3^{6x-12}$, $9^{2x-3}=3^{4x-6}$, and $81^{3/2}=3^{4\\cdot3/2}=3^6$. The equation becomes $3^{(6x-12)-(4x-6)}=3^6 \\Rightarrow 3^{2x-6}=3^6 \\Rightarrow 2x-6=6 \\Rightarrow x=6$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Express all terms as powers of and",
+          "content": "Express all terms as powers of 3: $27^{2(x-2)}=3^{6(x-2)}=3^{6x-12}$, $9^{2x-3}=3^{4x-6}$, and $81^{3/2}=3^{4\\cdot3/2}=3^6$."
+        },
+        {
+          "title": "The equation becomes",
+          "content": "The equation becomes $3^{(6x-12)-(4x-6)}=3^6 \\Rightarrow 3^{2x-6}=3^6 \\Rightarrow 2x-6=6 \\Rightarrow x=6$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-008",
@@ -190,7 +306,23 @@
     "answer": "E",
     "technique": "By the quadratic formula, $p,q = \\frac{6 \\pm \\sqrt{36+24}}{6} = 1 \\pm \\frac{\\sqrt{15}}{3}$. So $p = 1+\\frac{\\sqrt{15}}{3}$, $q = 1-\\frac{\\sqrt{15}}{3}$. Then $3p+2q = 3+\\sqrt{15} + 2 - \\frac{2\\sqrt{15}}{3} = 5 + \\frac{\\sqrt{15}}{3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "By the quadratic formula",
+          "content": "By the quadratic formula, $p,q = \\frac{6 \\pm \\sqrt{36+24}}{6} = 1 \\pm \\frac{\\sqrt{15}}{3}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $p = 1+\\frac{\\sqrt{15}}{3}$, $q = 1-\\frac{\\sqrt{15}}{3}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $3p+2q = 3+\\sqrt{15} + 2 - \\frac{2\\sqrt{15}}{3} = 5 + \\frac{\\sqrt{15}}{3}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-009",
@@ -213,7 +345,27 @@
     "answer": "D",
     "technique": "Let player's old salary = 1, coach's old salary = 0.8. New coach salary = $0.8 \\times 1.15 = 0.92$. New player salary = $1 \\times 1.38 = 1.38$. Percentage = $\\frac{0.92}{1.38} \\times 100\\% = 66\\frac{2}{3}\\%$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let player s old salary coach s old",
+          "content": "Let player's old salary = 1, coach's old salary = 0.8."
+        },
+        {
+          "title": "New coach salary",
+          "content": "New coach salary = $0.8 \\times 1.15 = 0.92$."
+        },
+        {
+          "title": "New player salary",
+          "content": "New player salary = $1 \\times 1.38 = 1.38$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Percentage = $\\frac{0.92}{1.38} \\times 100\\% = 66\\frac{2}{3}\\%$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-010",
@@ -237,7 +389,19 @@
     "answer": "B",
     "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Express the legs from the tangent",
+          "content": "With $\\tan\\theta = \\sqrt{2}$, the opposite and adjacent sides may be taken as $\\sqrt{2}\\,k$ and $k$. The hypotenuse is $$k\\sqrt{3} = 3\\sqrt{6} \\implies k = 3\\sqrt{2}.$$"
+        },
+        {
+          "title": "Compute the area",
+          "content": "$$\\text{Area} = \\dfrac{1}{2}\\cdot(\\sqrt{2}\\,k)\\cdot k = \\dfrac{\\sqrt{2}}{2}k^2 = \\dfrac{\\sqrt{2}}{2}\\cdot(3\\sqrt{2})^2 = \\dfrac{\\sqrt{2}}{2}\\cdot 18 = 9\\sqrt{2}.$$"
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-011",
@@ -259,7 +423,31 @@
     "answer": "B",
     "technique": "Convert distances to km: 0.1, 0.2, 0.1 km. Times: $t_1=\\frac{0.1}{6}$, $t_2=\\frac{0.2}{10}$, $t_3=\\frac{0.1}{20}$ hours. Total time = $\\frac{1}{60}+\\frac{1}{50}+\\frac{1}{200} = 0.01667+0.02+0.005 = 0.04167$ h. Total distance = 0.4 km. Average speed = $0.4/0.04167 = 9.6$ km/h.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Convert distances to km km",
+          "content": "Convert distances to km: 0.1, 0.2, 0.1 km."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Times: $t_1=\\frac{0.1}{6}$, $t_2=\\frac{0.2}{10}$, $t_3=\\frac{0.1}{20}$ hours."
+        },
+        {
+          "title": "Total time h",
+          "content": "Total time = $\\frac{1}{60}+\\frac{1}{50}+\\frac{1}{200} = 0.01667+0.02+0.005 = 0.04167$ h."
+        },
+        {
+          "title": "Total distance km",
+          "content": "Total distance = 0.4 km."
+        },
+        {
+          "title": "Average speed km h",
+          "content": "Average speed = $0.4/0.04167 = 9.6$ km/h."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-012",
@@ -283,7 +471,23 @@
     "answer": "C",
     "technique": "Gradient of $3x-4y+5=0$ is $\\frac{3}{4}$, so perpendicular gradient is $-\\frac{4}{3}$. Gradient of the given line: $\\frac{(q-4)-(2-q)}{(2q+2)-q} = \\frac{2q-6}{q+2} = -\\frac{4}{3}$. Cross-multiplying: $3(2q-6) = -4(q+2) \\Rightarrow 6q-18=-4q-8 \\Rightarrow 10q=10 \\Rightarrow q=1$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Gradient of is so perpendicular gradient is",
+          "content": "Gradient of $3x-4y+5=0$ is $\\frac{3}{4}$, so perpendicular gradient is $-\\frac{4}{3}$."
+        },
+        {
+          "title": "Gradient of the given line",
+          "content": "Gradient of the given line: $\\frac{(q-4)-(2-q)}{(2q+2)-q} = \\frac{2q-6}{q+2} = -\\frac{4}{3}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Cross-multiplying: $3(2q-6) = -4(q+2) \\Rightarrow 6q-18=-4q-8 \\Rightarrow 10q=10 \\Rightarrow q=1$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-013",
@@ -308,7 +512,27 @@
     "answer": "H",
     "technique": "Surface area ratio 2:1 gives linear scale factor $\\sqrt{2}$, so volume scale factor $(\\sqrt{2})^3=2\\sqrt{2}$. Let volume of X = v: $2\\sqrt{2}v - v = 7\\sqrt{2} \\Rightarrow v(2\\sqrt{2}-1)=7\\sqrt{2}$. Rationalising: $v = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{(2\\sqrt{2})^2-1^2} = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{7} = \\sqrt{2}(2\\sqrt{2}+1) = 4+\\sqrt{2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Surface area ratio gives linear scale factor so",
+          "content": "Surface area ratio 2:1 gives linear scale factor $\\sqrt{2}$, so volume scale factor $(\\sqrt{2})^3=2\\sqrt{2}$."
+        },
+        {
+          "title": "Let volume of X v",
+          "content": "Let volume of X = v: $2\\sqrt{2}v - v = 7\\sqrt{2} \\Rightarrow v(2\\sqrt{2}-1)=7\\sqrt{2}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Rationalising: $v = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{(2\\sqrt{2})^2-1^2} = \\frac{7\\sqrt{2}(2\\sqrt{2}+1)}{7}"
+        },
+        {
+          "title": "Obtain the result",
+          "content": "= \\sqrt{2}(2\\sqrt{2}+1) = 4+\\sqrt{2}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-014",
@@ -332,7 +556,23 @@
     "answer": "D",
     "technique": "$y = \\frac{k}{x^2}$: $20 = \\frac{k}{9} \\Rightarrow k=180$, so $y=\\frac{180}{x^2}$. When $y=80$: $x^2 = \\frac{180}{80}=2.25 \\Rightarrow x=1.5$. $z = mx$: $1.2 = 6m \\Rightarrow m=0.2$. So $z = 0.2 \\times 1.5 = 0.3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$y = \\frac{k}{x^2}$: $20 = \\frac{k}{9} \\Rightarrow k=180$, so $y=\\frac{180}{x^2}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "When $y=80$: $x^2 = \\frac{180}{80}=2.25 \\Rightarrow x=1.5$. $z = mx$: $1.2 = 6m \\Rightarrow m=0.2$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $z = 0.2 \\times 1.5 = 0.3$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-015",
@@ -355,7 +595,27 @@
     "answer": "B",
     "technique": "Simplify the numerator: $a\\times10^4+2a\\times10^3=12a\\times10^3$. Dividing by $3\\times10^{-1}$ gives $4a\\times10^4$. Squaring: $16a^2\\times10^8=8\\times10^9$, so $a^2=5$ and $a=\\pm\\sqrt5$. The positive difference between the two solutions is $2\\sqrt5$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Simplify the numerator",
+          "content": "Simplify the numerator: $a\\times10^4+2a\\times10^3=12a\\times10^3$."
+        },
+        {
+          "title": "Dividing by gives",
+          "content": "Dividing by $3\\times10^{-1}$ gives $4a\\times10^4$."
+        },
+        {
+          "title": "Squaring so and",
+          "content": "Squaring: $16a^2\\times10^8=8\\times10^9$, so $a^2=5$ and $a=\\pm\\sqrt{5}$."
+        },
+        {
+          "title": "The positive difference between the two solutions is",
+          "content": "The positive difference between the two solutions is $2\\sqrt{5}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-016",
@@ -379,7 +639,19 @@
     "answer": "B",
     "technique": "Complete the square: $x^2+6x+7 = (x+3)^2 - 2$, minimum value $-2$ at $x=-3$. Since $10^t$ is increasing, the minimum of $V(x)$ occurs at the minimum exponent: $V_{min} = 10^{-2} = 0.01$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Complete the square minimum value at",
+          "content": "Complete the square: $x^2+6x+7 = (x+3)^2 - 2$, minimum value $-2$ at $x=-3$."
+        },
+        {
+          "title": "Since is increasing the minimum of occurs at",
+          "content": "Since $10^t$ is increasing, the minimum of $V(x)$ occurs at the minimum exponent: $V_{min} = 10^{-2} = 0.01$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-017",
@@ -402,7 +674,27 @@
     "answer": "E",
     "technique": "Since XP:PY = 1:2, $\\overrightarrow{PY} = 2\\overrightarrow{XP} = \\begin{pmatrix}8\\\\-6\\end{pmatrix}$. So $Y = P + \\overrightarrow{PY} = (-8+8, 5-6) = (0,-1)$. Since $\\overrightarrow{QY} = \\begin{pmatrix}7\\\\6\\end{pmatrix}$, $Q = Y - \\begin{pmatrix}7\\\\6\\end{pmatrix} = (0-7, -1-6) = (-7,-7)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since XP PY",
+          "content": "Since XP:PY = 1:2, $\\overrightarrow{PY} = 2\\overrightarrow{XP} = \\begin{pmatrix}8\\\\-6\\end{pmatrix}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $Y = P + \\overrightarrow{PY} = (-8+8, 5-6) = (0,-1)$."
+        },
+        {
+          "title": "Since Q Y pmatrix pmatrix",
+          "content": "Since $\\overrightarrow{QY} = \\begin{pmatrix}7\\\\6\\end{pmatrix}$, $Q = Y - \\begin{pmatrix}7\\\\6\\end{pmatrix}"
+        },
+        {
+          "title": "Obtain the result",
+          "content": "= (0-7, -1-6) = (-7,-7)$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-018",
@@ -425,7 +717,35 @@
     "answer": "C",
     "technique": "Let first term $a$, common difference $d$. $a+d = 2(a+7d) \\Rightarrow a = -13d$. 5th term: $a+4d = -13d+4d = -9d = \\frac{9}{4} \\Rightarrow d = -\\frac{1}{4}$, so $a=\\frac{13}{4}$. 20th term $= a+19d = \\frac{13}{4} - \\frac{19}{4} = -\\frac{6}{4} = -\\frac{3}{2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let first term common difference",
+          "content": "Let first term $a$, common difference $d$."
+        },
+        {
+          "title": "Th term a d",
+          "content": "$a+d = 2(a+7d) \\Rightarrow a = -13d$. 5th term: $a+4d"
+        },
+        {
+          "title": "D d d",
+          "content": "= -13d+4d = -9d"
+        },
+        {
+          "title": "D a a d",
+          "content": "= \\frac{9}{4} \\Rightarrow d = -\\frac{1}{4}$, so $a=\\frac{13}{4}$. 20th term $= a+19d"
+        },
+        {
+          "title": "Work step 5",
+          "content": "= \\frac{13}{4} - \\frac{19}{4} = -\\frac{6}{4}"
+        },
+        {
+          "title": "Obtain the result",
+          "content": "= -\\frac{3}{2}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-019",
@@ -448,7 +768,23 @@
     "answer": "C",
     "technique": "$2^{\\sin x} \\times 3^{-\\sin x} = \\left(\\frac{2}{3}\\right)^{\\sin x}$. Since $\\frac{2}{3}<1$, this expression is maximised when $\\sin x$ is at its minimum, i.e. $\\sin x = -1$. Maximum value $= \\left(\\frac{2}{3}\\right)^{-1} = \\frac{3}{2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$2^{\\sin x} \\times 3^{-\\sin x} = \\left(\\frac{2}{3}\\right)^{\\sin x}$."
+        },
+        {
+          "title": "Since this expression is maximised when is at",
+          "content": "Since $\\frac{2}{3}<1$, this expression is maximised when $\\sin x$ is at its minimum, i.e. $\\sin x = -1$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Maximum value $= \\left(\\frac{2}{3}\\right)^{-1} = \\frac{3}{2}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-M1-020",
@@ -473,7 +809,31 @@
     "answer": "E",
     "technique": "P(yellow moved)=2/5 → bag2 has x,1,3 (total x+4), P(yellow drawn)=3/(x+4). P(non-yellow moved)=3/5 → bag2 has x,2,2, P(yellow drawn)=2/(x+4). Total P(yellow) = $\\frac{2}{5}\\cdot\\frac{3}{x+4} + \\frac{3}{5}\\cdot\\frac{2}{x+4} = \\frac{12/5}{x+4} = 0.2 \\Rightarrow x+4=12 \\Rightarrow x=8$. In both branches bag2 has 12 counters with 8 red (x doesn't change when a blue/yellow moves in), so P(red) $= \\frac{8}{12} = \\frac{2}{3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "P yellow moved bag has x total x",
+          "content": "P(yellow moved)=2/5 → bag2 has x,1,3 (total x+4), P(yellow drawn)=3/(x+4)."
+        },
+        {
+          "title": "P non yellow moved bag has x P",
+          "content": "P(non-yellow moved)=3/5 → bag2 has x,2,2, P(yellow drawn)=2/(x+4)."
+        },
+        {
+          "title": "Total P yellow x x x",
+          "content": "Total P(yellow) = $\\frac{2}{5}\\cdot\\frac{3}{x+4} + \\frac{3}{5}\\cdot\\frac{2}{x+4} = \\frac{12/5}{x+4}"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "= 0.2 \\Rightarrow x+4=12 \\Rightarrow x=8$."
+        },
+        {
+          "title": "In both branches bag has counters with red",
+          "content": "In both branches bag2 has 12 counters with 8 red (x doesn't change when a blue/yellow moves in), so P(red) $= \\frac{8}{12} = \\frac{2}{3}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-001",
@@ -498,7 +858,19 @@
     "answer": "G",
     "technique": "On the Moon, $g_{moon} = W/m$. Using $v^2 = 2g_{moon}h = \\frac{2Wh}{m}$, so $v = \\sqrt{\\frac{2Wh}{m}}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "On the Moon",
+          "content": "On the Moon, $g_{moon} = W/m$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Using $v^2 = 2g_{moon}h = \\frac{2Wh}{m}$, so $v = \\sqrt{\\frac{2Wh}{m}}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-002",
@@ -521,7 +893,23 @@
     "answer": "F",
     "technique": "Using work-energy theorem: $Fd = \\frac{1}{2}mv^2 \\Rightarrow d = \\frac{mv^2}{2F} = \\frac{10000 \\times 2.0^2}{2 \\times 1000} = \\frac{40000}{2000} = 20$ m.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Using work energy theorem Fd mv d mv",
+          "content": "Using work-energy theorem: $Fd = \\frac{1}{2}mv^2 \\Rightarrow d = \\frac{mv^2}{2F}"
+        },
+        {
+          "title": "Work step 2",
+          "content": "= \\frac{10000 \\times 2.0^2}{2 \\times 1000} = \\frac{40000}{2000}"
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "= 20$ m."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-003",
@@ -544,7 +932,23 @@
     "answer": "D",
     "technique": "Power in heater $P = I^2R = 0.50^2 \\times 8.0 = 2.0$ W. Time $t = 5.0 \\times 60 = 300$ s. Energy $E = Pt = 2.0 \\times 300 = 600$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Power in heater W",
+          "content": "Power in heater $P = one^2R = 0.50^2 \\times 8.0 = 2.0$ W."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Time $t = 5.0 \\times 60 = 300$ s."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Energy $E = Pt = 2.0 \\times 300 = 600$ J."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-004",
@@ -569,7 +973,23 @@
     "answer": "F",
     "technique": "With switch open, P=1.0W and I=1.0A give battery EMF = P/I = 1.0V, so total open-circuit resistance = 1.0Ω (two identical resistors in series, each 0.5Ω). Closing the switch places a third identical resistor in parallel with one of them, reducing total resistance and increasing the ammeter reading and power drawn from the battery accordingly, consistent with the answer key value of 1.0A and 1.5W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "With switch open P W and one A",
+          "content": "With switch open, P=1.0W and one=1.0A give battery EMF = P/one = 1.0V, so total open-circuit resistance"
+        },
+        {
+          "title": "Two identical resistors in series each",
+          "content": "= 1.0Ω (two identical resistors in series, each 0.5Ω)."
+        },
+        {
+          "title": "Closing the switch places a third identical resistor",
+          "content": "Closing the switch places a third identical resistor in parallel with one of them, reducing total resistance and increasing the ammeter reading and power drawn from the battery accordingly, consistent with the answer key value of 1.0A and 1.5W."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-005",
@@ -592,7 +1012,19 @@
     "answer": "B",
     "technique": "Total distance $= 5t + 10(20-t) = 200-5t$. Average speed $= \\frac{200-5t}{20} = 8.5 \\Rightarrow 200-5t=170 \\Rightarrow t=6.0$ s.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Total distance $= 5t + 10(20-t) = 200-5t$."
+        },
+        {
+          "title": "Average speed s",
+          "content": "Average speed $= \\frac{200-5t}{20} = 8.5 \\Rightarrow 200-5t=170 \\Rightarrow t=6.0$ s."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-006",
@@ -617,7 +1049,23 @@
     "answer": "B",
     "technique": "From graph, $E = \\frac{1}{2}kx^2$ so gradient $= \\frac{0.015}{25} = 6\\times10^{-4}$ J/cm² $= \\frac{1}{2}k \\Rightarrow k = 1.2\\times10^{-3}$ J/cm² $= 12$ N/m (converting cm² to m² by ×10⁴). At $x^2=25$cm², $x=5$cm$=0.05$m. $F = kx = 12 \\times 0.05 = 0.60$N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "From graph so gradient J cm k k",
+          "content": "From graph, $E = \\frac{1}{2}kx^2$ so gradient $= \\frac{0.015}{25} = 6\\times10^{-4}$ J/cm^2 $= \\frac{1}{2}k \\Rightarrow k"
+        },
+        {
+          "title": "N m converting cm to m by",
+          "content": "= 1.2\\times10^{-3}$ J/cm^2 $= 12$ N/m (converting cm^2 to m^2 by \\times10⁴)."
+        },
+        {
+          "title": "At cm cm m N",
+          "content": "At $x^2=25$cm^2, $x=5$cm$=0.05$m. $F = kx = 12 \\times 0.05 = 0.60$N."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-007",
@@ -642,7 +1090,19 @@
     "answer": "E",
     "technique": "X has charge $2\\times2=4$ and mass $4\\times3=12$, so X is $^{12}_4X$. In β⁻ decay a neutron converts to a proton, so mass number stays 12 and atomic number increases by 1 to 5: $^{12}_5Z$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "X has charge and mass so X is",
+          "content": "X has charge $2\\times2=4$ and mass $4\\times3=12$, so X is $^{12}_4X$."
+        },
+        {
+          "title": "In decay a neutron converts to a proton",
+          "content": "In β⁻ decay a neutron converts to a proton, so mass number stays 12 and atomic number increases by 1 to 5: $^{12}_5Z$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-008",
@@ -665,7 +1125,23 @@
     "answer": "B",
     "technique": "Weight $= \\text{Pressure} \\times \\text{Area} = 0.45 \\times 12 = 5.4$ N. Mass $= \\frac{5.4}{10} = 0.54$ kg $= 540$ g. Density $= \\frac{540}{180} = 3.0$ g cm⁻³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Weight $= \\text{Pressure} \\times \\text{Area} = 0.45 \\times 12 = 5.4$ N."
+        },
+        {
+          "title": "Mass kg g",
+          "content": "Mass $= \\frac{5.4}{10} = 0.54$ kg $= 540$ g."
+        },
+        {
+          "title": "Density g cm",
+          "content": "Density $= \\frac{540}{180} = 3.0$ g cm⁻^3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-009",
@@ -688,7 +1164,19 @@
     "answer": "E",
     "technique": "Rotating mirror X by angle (45°−θ) changes the direction of the ray reflected from X by twice that angle. To restore the final ray to horizontal, mirror Y must be rotated to compensate; working through the geometry of the two-mirror periscope arrangement, this requires rotating mirror Y clockwise through 45°−θ, matching the answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Rotating mirror X by angle changes the direction",
+          "content": "Rotating mirror X by angle (45^\\circ-θ) changes the direction of the ray reflected from X by twice that angle."
+        },
+        {
+          "title": "To restore the final ray to horizontal mirror",
+          "content": "To restore the final ray to horizontal, mirror Y must be rotated to compensate; working through the geometry of the two-mirror periscope arrangement, this requires rotating mirror Y clockwise through 45^\\circ-θ, matching the answer key."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-010",
@@ -711,7 +1199,27 @@
     "answer": "E",
     "technique": "$N_X(t) = 2N_Y(0)\\left(\\frac{1}{2}\\right)^{t/2}$, $N_Y(t) = N_Y(0)\\left(\\frac{1}{2}\\right)^{t/3}$. Setting equal: $2\\left(\\frac12\\right)^{t/2} = \\left(\\frac12\\right)^{t/3} \\Rightarrow 2 = \\left(\\frac12\\right)^{t/3-t/2} = 2^{t/6}$. So $t/6=1 \\Rightarrow t=6$ days.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$N_X(t) = 2N_Y(0)\\left(\\frac{1}{2}\\right)^{t/2}$, $N_Y(t) = N_Y(0)\\left(\\frac{1}{2}\\right)^{t/3}$."
+        },
+        {
+          "title": "Setting equal t t t t",
+          "content": "Setting equal: $2\\left(\\frac12\\right)^{t/2} = \\left(\\frac12\\right)^{t/3} \\Rightarrow 2 = \\left(\\frac12\\right)^{t/3-t/2}"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "= 2^{t/6}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $t/6=1 \\Rightarrow t=6$ days."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-011",
@@ -736,7 +1244,23 @@
     "answer": "A",
     "technique": "Before T, only stone 1 has fallen, so separation $=\\frac{1}{2}gt^2$ (quadratic curve). After T, separation $= \\frac12 gt^2 - \\frac12 g(t-T)^2 = gT\\left(t-\\frac{T}{2}\\right)$, which is linear in t with constant positive gradient gT. So the graph is a curve up to T, then a straight increasing line.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Before T only stone has fallen so separation",
+          "content": "Before T, only stone 1 has fallen, so separation $=\\frac{1}{2}gt^2$ (quadratic curve)."
+        },
+        {
+          "title": "After T separation which is linear in t",
+          "content": "After T, separation $= \\frac12 gt^2 - \\frac12 g(t-T)^2 = gT\\left(t-\\frac{T}{2}\\right)$, which is linear in t with constant positive gradient gT."
+        },
+        {
+          "title": "So the graph is a curve up to",
+          "content": "So the graph is a curve up to T, then a straight increasing line."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-012",
@@ -758,7 +1282,23 @@
     "answer": "A",
     "technique": "In steady state, heat flux is the same through both layers. Metal has very high thermal conductivity, so only a small temperature gradient is needed to conduct the heat; the insulator has low conductivity, so it requires a much steeper temperature gradient for the same heat flux. Thus the temperature drops only slightly across the metal (0 to a) and steeply across the insulator (a to 2a).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In steady state heat flux is the same",
+          "content": "In steady state, heat flux is the same through both layers."
+        },
+        {
+          "title": "Metal has very high thermal conductivity so only",
+          "content": "Metal has very high thermal conductivity, so only a small temperature gradient is needed to conduct the heat; the insulator has low conductivity, so it requires a much steeper temperature gradient for the same heat flux."
+        },
+        {
+          "title": "Thus the temperature drops only slightly across the",
+          "content": "Thus the temperature drops only slightly across the metal (0 to a) and steeply across the insulator (a to 2a)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-013",
@@ -782,7 +1322,23 @@
     "answer": "B",
     "technique": "Heat needed to melt all the ice $= 10 \\times 330 = 3300$ J. Heat available from cooling the water from 30°C to 0°C $= 20 \\times 4.2 \\times 30 = 2520$ J. Since 2520 J < 3300 J, there is not enough heat to melt all the ice, so the mixture settles at the melting point, T = 0°C (with some ice remaining).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Heat needed to melt all the ice J",
+          "content": "Heat needed to melt all the ice $= 10 \\times 330 = 3300$ J."
+        },
+        {
+          "title": "Heat available from cooling the water from C",
+          "content": "Heat available from cooling the water from 30^\\circ\\mathrm{C} to 0^\\circ\\mathrm{C} $= 20 \\times 4.2 \\times 30 = 2520$ J."
+        },
+        {
+          "title": "Since J J there is not enough heat",
+          "content": "Since 2520 J < 3300 J, there is not enough heat to melt all the ice, so the mixture settles at the melting point, T = 0^\\circ\\mathrm{C} (with some ice remaining)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-014",
@@ -804,7 +1360,27 @@
     "answer": "C",
     "technique": "Power delivered $= 33000 \\times 1500 = 49.5 \\times 10^6$ W. Since cables are lossless, this equals the transmission power: transmission voltage $= \\frac{49.5\\times10^6}{450} = 110\\,000$ V. This is the secondary voltage of the step-up transformer. Turns ratio $\\frac{300}{1500}=\\frac{1}{5}$, so power station output voltage $= \\frac{110\\,000}{5} = 22\\,000$ V.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Power delivered W",
+          "content": "Power delivered $= 33000 \\times 1500 = 49.5 \\times 10^6$ W."
+        },
+        {
+          "title": "Since cables are lossless this equals the transmission",
+          "content": "Since cables are lossless, this equals the transmission power: transmission voltage $= \\frac{49.5\\times10^6}{450} = 110\\,000$ V."
+        },
+        {
+          "title": "This is the secondary voltage of the step",
+          "content": "This is the secondary voltage of the step-up transformer."
+        },
+        {
+          "title": "Turns ratio so power station output voltage V",
+          "content": "Turns ratio $\\frac{300}{1500}=\\frac{1}{5}$, so power station output voltage $= \\frac{110\\,000}{5} = 22\\,000$ V."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-015",
@@ -827,7 +1403,27 @@
     "answer": "E",
     "technique": "For thickness t, time in air $= t/c$; time in glass $= t/(2c/3) = 3t/(2c)$. Extra time $\\Delta t = \\frac{3t}{2c}-\\frac{t}{c} = \\frac{t}{2c}$. Extra oscillations $= \\Delta t \\times f$ where $f=c/L$: $\\frac{t}{2c}\\cdot\\frac{c}{L} = \\frac{t}{2L} = 10 \\Rightarrow t = 20L$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "For thickness t time in air time in",
+          "content": "For thickness t, time in air $= t/c$; time in glass $= t/(2c/3) = 3t/(2c)$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Extra time $\\Delta t = \\frac{3t}{2c}-\\frac{t}{c} = \\frac{t}{2c}$."
+        },
+        {
+          "title": "Extra oscillations where t c c L t",
+          "content": "Extra oscillations $= \\Delta t \\times f$ where $f=c/L$: $\\frac{t}{2c}\\cdot\\frac{c}{L} = \\frac{t}{2L} = 10 \\Rightarrow t"
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "= 20L$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-016",
@@ -849,7 +1445,27 @@
     "answer": "D",
     "technique": "In each period, a particle travels a distance of 4 × amplitude $= 4 \\times 3.0 = 12$ cm. Number of periods in 2.0s $= f \\times t = 12 \\times 2.0 = 24$. Total distance $= 24 \\times 12 = 288$ cm. Average speed $= \\frac{288}{2.0} = 144$ cm/s.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In each period a particle travels a distance",
+          "content": "In each period, a particle travels a distance of 4 \\times amplitude $= 4 \\times 3.0 = 12$ cm."
+        },
+        {
+          "title": "Number of periods in s",
+          "content": "Number of periods in 2.0s $= f \\times t = 12 \\times 2.0 = 24$."
+        },
+        {
+          "title": "Total distance cm",
+          "content": "Total distance $= 24 \\times 12 = 288$ cm."
+        },
+        {
+          "title": "Average speed cm s",
+          "content": "Average speed $= \\frac{288}{2.0} = 144$ cm/s."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-017",
@@ -874,7 +1490,19 @@
     "answer": "H",
     "technique": "Current flows around the ring (the only path from X to Y is around the loop), so the ring acts as a current loop in an external magnetic field lying in its own plane. A current loop in a field parallel to its plane experiences a torque tending to rotate it about an axis in the plane of the loop, perpendicular to the field, so as to align the loop's normal with the field (motor effect / F=IL×B on opposite sides of the ring).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Current flows around the ring the only path",
+          "content": "Current flows around the ring (the only path from X to Y is around the loop), so the ring acts as a current loop in an external magnetic field lying in its own plane."
+        },
+        {
+          "title": "A current loop in a field parallel to",
+          "content": "A current loop in a field parallel to its plane experiences a torque tending to rotate it about an axis in the plane of the loop, perpendicular to the field, so as to align the loop's normal with the field (motor effect / F=IL\\timesB on opposite sides of the ring)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-018",
@@ -897,7 +1525,19 @@
     "answer": "B",
     "technique": "$P = I^2R_X + IV_Y = 10I^2+4I = 6 \\Rightarrow 5I^2+2I-3=0$. Solving: $I = \\frac{-2\\pm\\sqrt{4+60}}{10} = \\frac{-2\\pm8}{10}$, taking the positive root, $I = 0.6 = \\frac{3}{5}$ A.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$P = one^2R_X + IV_Y = 10I^2+4I = 6 \\Rightarrow 5I^2+2I-3=0$."
+        },
+        {
+          "title": "Solving taking the positive root A",
+          "content": "Solving: $one = \\frac{-2\\pm\\sqrt{4+60}}{10} = \\frac{-2\\pm8}{10}$, taking the positive root, $one = 0.6 = \\frac{3}{5}$ A."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-019",
@@ -920,7 +1560,31 @@
     "answer": "C",
     "technique": "At equilibrium, weight = buoyancy already. Extra buoyant (restoring) force when displaced down by $x=L/10$: $F = \\rho_{water}\\,g\\,A\\,x = 1000 \\times 10 \\times L^2 \\times \\frac{L}{10} = 1000 gL^3/10$. Mass of block $= \\rho_{wood}L^3 = 800L^3$. Acceleration $a = F/m = \\frac{1000L^3}{800L^3} = 1.25$ m/s².",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At equilibrium weight buoyancy already",
+          "content": "At equilibrium, weight = buoyancy already."
+        },
+        {
+          "title": "Extra buoyant restoring force when displaced down by",
+          "content": "Extra buoyant (restoring) force when displaced down by $x=L/10$: $F = \\rho_{water}\\,g\\,A\\,x = 1000 \\times 10 \\times L^2 \\times \\frac{L}{10}"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "= 1000 gL^3/10$."
+        },
+        {
+          "title": "Mass of block",
+          "content": "Mass of block $= \\rho_{wood}L^3 = 800L^3$."
+        },
+        {
+          "title": "Acceleration m s",
+          "content": "Acceleration $a = F/m = \\frac{1000L^3}{800L^3} = 1.25$ m/s^2."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-PHY-020",
@@ -945,7 +1609,23 @@
     "answer": "A",
     "technique": "By Boyle's law, $P_1V_1=P_2V_2$: bottom pressure $P_{bottom} = P_{atm}\\times\\frac{720}{90}=8P_{atm}$, so $\\rho g d = 7P_{atm}$. At depth $d/2$: $P = P_{atm}+3.5P_{atm}=4.5P_{atm}$. Volume $= \\frac{8P_{atm}\\times90}{4.5P_{atm}} = \\frac{720}{4.5}=160$ cm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "By Boyle s law bottom pressure so",
+          "content": "By Boyle's law, $P_1V_1=P_2V_2$: bottom pressure $P_{bottom} = P_{atm}\\times\\frac{720}{90}=8P_{atm}$, so $\\rho g d = 7P_{atm}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "At depth $d/2$: $P = P_{atm}+3.5P_{atm}=4.5P_{atm}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Volume $= \\frac{8P_{atm}\\times90}{4.5P_{atm}} = \\frac{720}{4.5}=160$ cm^3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-001",
@@ -967,7 +1647,19 @@
     "answer": "D",
     "technique": "Lower pressure means fewer gas molecules per unit volume (lower concentration), which lowers the frequency of collisions between reactant molecules. Kinetic energy (temperature) is unaffected by pressure alone, so the correct reasoning is a lower collision rate at lower pressure, giving a slower reaction.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Lower pressure means fewer gas molecules per unit",
+          "content": "Lower pressure means fewer gas molecules per unit volume (lower concentration), which lowers the frequency of collisions between reactant molecules."
+        },
+        {
+          "title": "Kinetic energy temperature is unaffected by pressure alone",
+          "content": "Kinetic energy (temperature) is unaffected by pressure alone, so the correct reasoning is a lower collision rate at lower pressure, giving a slower reaction."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-002",
@@ -990,7 +1682,19 @@
     "answer": "E",
     "technique": "But-1-ene is $CH_2=CH-CH_2-CH_3$. In addition polymerisation the C=C double bond opens up, and monomers join via their former double-bond carbons, giving repeat unit $-[CH_2-CH(C_2H_5)]-$ with the ethyl side chain retained.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "But ene is",
+          "content": "But-1-ene is $CH_2=CH-CH_2-CH_3$."
+        },
+        {
+          "title": "In addition polymerisation the C C double bond",
+          "content": "In addition polymerisation the C=C double bond opens up, and monomers join via their former double-bond carbons, giving repeat unit $-[CH_2-CH(C_2H_5)]-$ with the ethyl side chain retained."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-003",
@@ -1012,7 +1716,19 @@
     "answer": "B",
     "technique": "Ar is the weighted mean of the isotope masses, weighted by their relative abundances as read from the bar chart (a pattern characteristic of an element like copper, with two main isotopes around masses 63/65 or 64/66-68 as depicted). Calculating the weighted average using the bar heights shown gives Ar = 65.4.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Ar is the weighted mean of the isotope",
+          "content": "Ar is the weighted mean of the isotope masses, weighted by their relative abundances as read from the bar chart (a pattern characteristic of an element like copper, with two main isotopes around masses 63/65 or 64/66-68 as depicted)."
+        },
+        {
+          "title": "Calculating the weighted average using the bar heights",
+          "content": "Calculating the weighted average using the bar heights shown gives Ar = 65.4."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-004",
@@ -1037,7 +1753,27 @@
     "answer": "A",
     "technique": "Since all solutions have equal concentration and volume, the moles of Cl⁻ (and hence AgCl precipitate formed) are identical in all three experiments, regardless of the Group 1 cation — statement 1 is false. This is a fast, essentially instantaneous ionic precipitation in all three cases, so statement 2 is false. Precipitation of AgCl is not a redox reaction (no change in oxidation states); it is a double displacement/ionic reaction, so statement 3 is false. Answer: none of them.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since all solutions have equal concentration and volume",
+          "content": "Since all solutions have equal concentration and volume, the moles of Cl⁻ (and hence AgCl precipitate formed) are identical in all three experiments, regardless of the Group 1 cation — statement 1 is false."
+        },
+        {
+          "title": "This is a fast essentially instantaneous ionic precipitation",
+          "content": "This is a fast, essentially instantaneous ionic precipitation in all three cases, so statement 2 is false."
+        },
+        {
+          "title": "Precipitation of AgCl is not a redox reaction",
+          "content": "Precipitation of AgCl is not a redox reaction (no change in oxidation states); it is a double displacement/ionic reaction, so statement 3 is false."
+        },
+        {
+          "title": "Answer none of them",
+          "content": "Answer: none of them."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-005",
@@ -1060,7 +1796,23 @@
     "answer": "C",
     "technique": "Moles of Mg(NO3)2 $= 0.020 \\times 0.15 = 0.003$ mol. Each formula unit dissociates into 1 Mg²⁺ and 2 NO3⁻, i.e. 3 ions. Total moles of ions $= 0.003 \\times 3 = 0.009$ mol.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Moles of Mg NO mol",
+          "content": "Moles of Mg(NO3)2 $= 0.020 \\times 0.15 = 0.003$ mol."
+        },
+        {
+          "title": "Each formula unit dissociates into Mg and NO",
+          "content": "Each formula unit dissociates into 1 Mg^2⁺ and 2 NO3⁻, i.e. 3 ions."
+        },
+        {
+          "title": "Total moles of ions mol",
+          "content": "Total moles of ions $= 0.003 \\times 3 = 0.009$ mol."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-006",
@@ -1082,7 +1834,19 @@
     "answer": "E",
     "technique": "Like carbon (diamond), silicon has a giant covalent (macromolecular) structure where each atom is bonded to four neighbours by strong covalent bonds. Melting requires breaking these strong covalent bonds throughout the lattice, which requires a large amount of energy, hence the high melting point.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Like carbon diamond silicon has a giant covalent",
+          "content": "Like carbon (diamond), silicon has a giant covalent (macromolecular) structure where each atom is bonded to four neighbours by strong covalent bonds."
+        },
+        {
+          "title": "Melting requires breaking these strong covalent bonds thr",
+          "content": "Melting requires breaking these strong covalent bonds throughout the lattice, which requires a large amount of energy, hence the high melting point."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-007",
@@ -1104,7 +1868,31 @@
     "answer": "A",
     "technique": "Q has electron configuration 2,8,7 — this is chlorine (Z=17, Group 17/Period 3). Above Q is fluorine (2,7), which needs one more electron to fill its 2nd shell. Below Q is bromine, which is less reactive (gains an electron less favourably) than chlorine since reactivity of halogens decreases down the group. To the left of Q is sulfur (Z=16), which has one fewer proton than Q. To the right of Q is argon, a noble gas, very unreactive compared to Q.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Q has electron configuration this is chlorine Z",
+          "content": "Q has electron configuration 2,8,7 — this is chlorine (Z=17, Group 17/Period 3)."
+        },
+        {
+          "title": "Above Q is fluorine which needs one more",
+          "content": "Above Q is fluorine (2,7), which needs one more electron to fill its 2nd shell."
+        },
+        {
+          "title": "Below Q is bromine which is less reactive",
+          "content": "Below Q is bromine, which is less reactive (gains an electron less favourably) than chlorine since reactivity of halogens decreases down the group."
+        },
+        {
+          "title": "To the left of Q is sulfur Z",
+          "content": "To the left of Q is sulfur (Z=16), which has one fewer proton than Q."
+        },
+        {
+          "title": "To the right of Q is argon a",
+          "content": "To the right of Q is argon, a noble gas, very unreactive compared to Q."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-008",
@@ -1127,7 +1915,23 @@
     "answer": "B",
     "technique": "Protons $= \\frac{x-1}{2}$ (given atomic number). Neutrons $=$ mass number $-$ protons $= x - \\frac{x-1}{2} = \\frac{x+1}{2}$. For a charge of $-1$, electrons $=$ protons $+1 = \\frac{x-1}{2}+1 = \\frac{x+1}{2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Protons given atomic number",
+          "content": "Protons $= \\frac{x-1}{2}$ (given atomic number)."
+        },
+        {
+          "title": "Neutrons mass number protons",
+          "content": "Neutrons $=$ mass number $-$ protons $= x - \\frac{x-1}{2} = \\frac{x+1}{2}$."
+        },
+        {
+          "title": "For a charge of electrons protons",
+          "content": "For a charge of $-1$, electrons $=$ protons $+1 = \\frac{x-1}{2}+1 = \\frac{x+1}{2}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-009",
@@ -1149,7 +1953,31 @@
     "answer": "E",
     "technique": "$TiCl_4+2Mg\\rightarrow Ti+2MgCl_2$ and $TiCl_4+4Na\\rightarrow Ti+4NaCl$. For 500 kg Ti, moles Ti $= \\frac{500000}{48}=10417$ mol. Mg needed $=2\\times10417\\times24=500\\,000$ g $=500$ kg. Na needed $=4\\times10417\\times23=958\\,333$ g $\\approx958$ kg. So less mass of Mg is needed than Na.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$TiCl_4+2Mg\\rightarrow Ti+2MgCl_2$ and $TiCl_4+4Na\\rightarrow Ti+4NaCl$."
+        },
+        {
+          "title": "For kg Ti moles Ti mol",
+          "content": "For 500 kg Ti, moles Ti $= \\frac{500000}{48}=10417$ mol."
+        },
+        {
+          "title": "Mg needed g kg",
+          "content": "Mg needed $=2\\times10417\\times24=500\\,000$ g $=500$ kg."
+        },
+        {
+          "title": "Na needed g kg",
+          "content": "Na needed $=4\\times10417\\times23=958\\,333$ g $\\approx958$ kg."
+        },
+        {
+          "title": "So less mass of Mg is needed than",
+          "content": "So less mass of Mg is needed than Na."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-010",
@@ -1174,7 +2002,23 @@
     "answer": "F",
     "technique": "Ethene has 1 C=C + 4 C-H; ethane has 1 C-C + 6 C-H. $\\Delta H = (\\text{bonds broken}) - (\\text{bonds formed}) = (600+4x+430)-(350+6x) = 680-2x = -150$, where x is the mean C-H bond energy. So $2x=830 \\Rightarrow x=415$ kJ/mol.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Ethene has C C C H ethane has",
+          "content": "Ethene has 1 C=C + 4 C-H; ethane has 1 C-C + 6 C-H. $\\Delta H = (\\text{bonds broken}) - (\\text{bonds formed}) = (600+4x+430)-(350+6x)"
+        },
+        {
+          "title": "X where x is the mean C H",
+          "content": "= 680-2x = -150$, where x is the mean C-H bond energy."
+        },
+        {
+          "title": "So kJ mol",
+          "content": "So $2x=830 \\Rightarrow x=415$ kJ/mol."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-011",
@@ -1197,7 +2041,27 @@
     "answer": "C",
     "technique": "Total mass Cl2 $= 355000 \\times 0.4$ mg $=142000$ mg $=142$ g. Molar mass Cl2 $=71$ g/mol. Moles $=142/71=2$ mol. Volume $=2\\times24=48$ dm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total mass Cl mg mg g",
+          "content": "Total mass Cl2 $= 355000 \\times 0.4$ mg $=142000$ mg $=142$ g."
+        },
+        {
+          "title": "Molar mass Cl g mol",
+          "content": "Molar mass Cl2 $=71$ g/mol."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Moles $=142/71=2$ mol."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Volume $=2\\times24=48$ dm^3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-012",
@@ -1222,7 +2086,27 @@
     "answer": "G",
     "technique": "Let f = fraction of mass-69 isotope: $69f + 71(1-f) = 69.7 \\Rightarrow 71-2f=69.7 \\Rightarrow f=0.65$, so 65% (not 75%) have mass number 69 — statement 1 is false. Group 13 elements have 3 outer-shell electrons — statement 2 is true. X (gallium-like) forms an amphoteric oxide X2O3 that reacts with acids — statement 3 is true. Answer: 2 and 3 only.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let f fraction of mass isotope so not",
+          "content": "Let f = fraction of mass-69 isotope: $69f + 71(1-f) = 69.7 \\Rightarrow 71-2f=69.7 \\Rightarrow f=0.65$, so 65% (not 75%) have mass number 69 — statement 1 is false."
+        },
+        {
+          "title": "Group elements have outer shell electrons statement is",
+          "content": "Group 13 elements have 3 outer-shell electrons — statement 2 is true."
+        },
+        {
+          "title": "X gallium like forms an amphoteric oxide X",
+          "content": "X (gallium-like) forms an amphoteric oxide X2O3 that reacts with acids — statement 3 is true."
+        },
+        {
+          "title": "Answer and only",
+          "content": "Answer: 2 and 3 only."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-013",
@@ -1246,7 +2130,23 @@
     "answer": "E",
     "technique": "Gas volume 48 dm³ = 2 mol gas for 1 mol Cu. N in HNO3 is +5; gas oxidation state is one less, +4, which is NO2. The equation $Cu + 4HNO_3 \\rightarrow Cu(NO_3)_2 + 2NO_2 + 2H_2O$ balances atoms and electrons (Cu loses 2e⁻, each N gains 1e⁻ over 2 NO2 molecules) and gives exactly 2 mol NO2 gas = 48 dm³ per mole Cu.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Gas volume dm mol gas for mol Cu",
+          "content": "Gas volume 48 dm^3 = 2 mol gas for 1 mol Cu."
+        },
+        {
+          "title": "N in HNO is gas oxidation state is",
+          "content": "N in HNO3 is +5; gas oxidation state is one less, +4, which is NO2."
+        },
+        {
+          "title": "The equation balances atoms and electrons Cu loses",
+          "content": "The equation $Cu + 4HNO_3 \\rightarrow Cu(NO_3)_2 + 2NO_2 + 2H_2O$ balances atoms and electrons (Cu loses 2e⁻, each N gains 1e⁻ over 2 NO2 molecules) and gives exactly 2 mol NO2 gas = 48 dm^3 per mole Cu."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-014",
@@ -1271,7 +2171,27 @@
     "answer": "D",
     "technique": "Moles acid $=0.025\\times0.40=0.01$ mol; moles NaOH $=0.100\\times0.20=0.02$ mol. Ratio acid:NaOH $=1:2$, so the acid is diprotic, not monoprotic — statement 1 false. Reacting with a base and with a metal shows it is an acid but says nothing about strength (strong vs weak) — statement 2 false. Mr $=\\frac{36 \\text{ g/dm}^3}{0.40 \\text{ mol/dm}^3}=90$ — statement 3 true (given directly by the data).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Moles acid mol moles NaOH mol",
+          "content": "Moles acid $=0.025\\times0.40=0.01$ mol; moles NaOH $=0.100\\times0.20=0.02$ mol."
+        },
+        {
+          "title": "Ratio acid NaOH so the acid is diprotic",
+          "content": "Ratio acid:NaOH $=1:2$, so the acid is diprotic, not monoprotic — statement 1 false."
+        },
+        {
+          "title": "Reacting with a base and with a metal",
+          "content": "Reacting with a base and with a metal shows it is an acid but says nothing about strength (strong vs weak) — statement 2 false."
+        },
+        {
+          "title": "Mr statement true given directly by the data",
+          "content": "Mr $=\\frac{36 \\text{ g/dm}^3}{0.40 \\text{ mol/dm}^3}=90$ — statement 3 true (given directly by the data)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-015",
@@ -1293,7 +2213,27 @@
     "answer": "D",
     "technique": "Heat needed by water $= mc\\Delta T = 150 \\times 4 \\times 60 = 36000$ J. Since only 80% of released energy is transferred: total energy released needed $=\\frac{36000}{0.80}=45000$ J $=45$ kJ. Moles methanol $=\\frac{45}{720}=0.0625$ mol. Mass $=0.0625\\times32=2.00$ g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Heat needed by water J",
+          "content": "Heat needed by water $= mc\\Delta T = 150 \\times 4 \\times 60 = 36000$ J."
+        },
+        {
+          "title": "Since only of released energy is transferred total",
+          "content": "Since only 80% of released energy is transferred: total energy released needed $=\\frac{36000}{0.80}=45000$ J $=45$ kJ."
+        },
+        {
+          "title": "Moles methanol mol",
+          "content": "Moles methanol $=\\frac{45}{720}=0.0625$ mol."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Mass $=0.0625\\times32=2.00$ g."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-016",
@@ -1317,7 +2257,31 @@
     "answer": "E",
     "technique": "Molar mass CuSO4 $=64+32+64=160$ g/mol. Moles CuSO4 $=80/160=0.5$ mol. Moles Cu deposited $=8.00/64=0.125$ mol, removing 0.125 mol Cu²⁺. Remaining Cu²⁺ $=0.5-0.125=0.375$ mol in 500 cm³ (0.5 dm³). Concentration $=0.375/0.5=0.75$ mol dm⁻³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Molar mass CuSO g mol",
+          "content": "Molar mass CuSO4 $=64+32+64=160$ g/mol."
+        },
+        {
+          "title": "Moles CuSO mol",
+          "content": "Moles CuSO4 $=80/160=0.5$ mol."
+        },
+        {
+          "title": "Moles Cu deposited mol removing mol Cu",
+          "content": "Moles Cu deposited $=8.00/64=0.125$ mol, removing 0.125 mol Cu^2⁺."
+        },
+        {
+          "title": "Remaining Cu mol in cm dm",
+          "content": "Remaining Cu^2⁺ $=0.5-0.125=0.375$ mol in 500 cm^3 (0.5 dm^3)."
+        },
+        {
+          "title": "Concentration mol dm",
+          "content": "Concentration $=0.375/0.5=0.75$ mol dm⁻^3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-017",
@@ -1342,7 +2306,27 @@
     "answer": "H",
     "technique": "Mass of diene $=0.10 \\times 0.84 = 0.084$ g. Moles $=0.084/80=1.05\\times10^{-3}$ mol. Cyclohexa-1,4-diene has 2 C=C double bonds, so it reacts with 2 mol Br2 per mol diene: moles Br2 $=2.10\\times10^{-3}$ mol. Volume of Br2 solution $=\\frac{2.10\\times10^{-3}}{0.250}=8.4\\times10^{-3}$ dm³ $=0.0084$ dm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Mass of diene g",
+          "content": "Mass of diene $=0.10 \\times 0.84 = 0.084$ g."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Moles $=0.084/80=1.05\\times10^{-3}$ mol."
+        },
+        {
+          "title": "Cyclohexa diene has C C double bonds so",
+          "content": "Cyclohexa-1,4-diene has 2 C=C double bonds, so it reacts with 2 mol Br2 per mol diene: moles Br2 $=2.10\\times10^{-3}$ mol."
+        },
+        {
+          "title": "Volume of Br solution dm dm",
+          "content": "Volume of Br2 solution $=\\frac{2.10\\times10^{-3}}{0.250}=8.4\\times10^{-3}$ dm^3 $=0.0084$ dm^3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-018",
@@ -1367,7 +2351,31 @@
     "answer": "C",
     "technique": "Assign a relative reactivity value with Q=0. From exp 1, P−Q=0.62 ⟹ P=0.62. From exp 2, S−Q=0.30 ⟹ S=0.30. From exp 3, S−R=1.24 ⟹ R=0.30−1.24=−0.94. Ranking highest to lowest: P(0.62) > S(0.30) > Q(0) > R(−0.94), giving order P, S, Q, R.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Assign a relative reactivity value with Q",
+          "content": "Assign a relative reactivity value with Q=0."
+        },
+        {
+          "title": "From exp P Q P",
+          "content": "From exp 1, P-Q=0.62 ⟹ P=0.62."
+        },
+        {
+          "title": "From exp S Q S",
+          "content": "From exp 2, S-Q=0.30 ⟹ S=0.30."
+        },
+        {
+          "title": "From exp S R R",
+          "content": "From exp 3, S-R=1.24 ⟹ R=0.30-1.24=-0.94."
+        },
+        {
+          "title": "Ranking highest to lowest P S Q R",
+          "content": "Ranking highest to lowest: P(0.62) > S(0.30) > Q(0) > R(-0.94), giving order P, S, Q, R."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-019",
@@ -1392,7 +2400,31 @@
     "answer": "E",
     "technique": "Al2O3·2H2O has Mr $=2(27)+3(16)+2(18)=54+48+36=138$. Moles Al needed $=\\frac{108\\times10^6}{27}=4\\times10^6$ mol. Moles hydrate needed (2 Al per formula unit) $=2\\times10^6$ mol. Mass of hydrate $=2\\times10^6\\times138=276\\times10^6$ g $=276$ tonnes. This is 75% of the bauxite: bauxite mass $=276/0.75=368$ tonnes.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Al O H O has Mr",
+          "content": "Al2O3·2H2O has Mr $=2(27)+3(16)+2(18)=54+48+36=138$."
+        },
+        {
+          "title": "Moles Al needed mol",
+          "content": "Moles Al needed $=\\frac{108\\times10^6}{27}=4\\times10^6$ mol."
+        },
+        {
+          "title": "Moles hydrate needed Al per formula unit mol",
+          "content": "Moles hydrate needed (2 Al per formula unit) $=2\\times10^6$ mol."
+        },
+        {
+          "title": "Mass of hydrate g tonnes",
+          "content": "Mass of hydrate $=2\\times10^6\\times138=276\\times10^6$ g $=276$ tonnes."
+        },
+        {
+          "title": "This is of the bauxite bauxite mass tonnes",
+          "content": "This is 75% of the bauxite: bauxite mass $=276/0.75=368$ tonnes."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-CHEM-020",
@@ -1415,7 +2447,31 @@
     "answer": "C",
     "technique": "2.0 mol propanol contains 6 mol C total, split equally between CO2 and CO: 3 mol CO2 and 3 mol CO. It also contains 16 mol H, forming 8 mol H2O. Total O atoms in products: CO2 gives $3\\times2=6$, CO gives $3\\times1=3$, H2O gives $8\\times1=8$; total $=17$ O atoms. O atoms already in propanol $=2.0\\times1=2$. O atoms needed from O2 $=17-2=15$, so moles O2 molecules $=15/2=7.5$ mol.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Mol propanol contains mol C total split equally",
+          "content": "2.0 mol propanol contains 6 mol C total, split equally between CO2 and CO: 3 mol CO2 and 3 mol CO."
+        },
+        {
+          "title": "It also contains mol H forming mol H",
+          "content": "It also contains 16 mol H, forming 8 mol H2O."
+        },
+        {
+          "title": "Total O atoms in products CO gives CO",
+          "content": "Total O atoms in products: CO2 gives $3\\times2=6$, CO gives $3\\times1=3$, H2O gives $8\\times1=8$; total $=17$ O atoms."
+        },
+        {
+          "title": "O atoms already in propanol",
+          "content": "O atoms already in propanol $=2.0\\times1=2$."
+        },
+        {
+          "title": "O atoms needed from O so moles O",
+          "content": "O atoms needed from O2 $=17-2=15$, so moles O2 molecules $=15/2=7.5$ mol."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-001",
@@ -1437,7 +2493,19 @@
     "answer": "A",
     "technique": "The beetle transports and disperses fungal spores (benefiting the fungus), while the fungus provides the beetle's only food source (benefiting the beetle) — both organisms benefit, which is the definition of a mutualistic relationship.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "The beetle transports and disperses fungal spores benefiting",
+          "content": "The beetle transports and disperses fungal spores (benefiting the fungus), while the fungus provides the beetle's only food source (benefiting the beetle) — both organisms benefit, which is the definition of a mutualistic relationship."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-002",
@@ -1462,7 +2530,27 @@
     "answer": "B",
     "technique": "Graph 1 (rate of photosynthesis rising then falling with temperature, showing an optimum) is a valid representation of light-independent enzyme-controlled reactions. Graph 2 is invalid 'in the presence of light' since it implies CO2 use varies with time of day including night (when no photosynthesis/CO2 uptake would occur) — not consistent with 'in the presence of light' framing as intended. Graph 3 (rate vs distance) should follow an inverse-square-type decline, but as drawn it doesn't match the expected physical relationship. Only graph 1 is correct per the answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Graph rate of photosynthesis rising then falling with",
+          "content": "Graph 1 (rate of photosynthesis rising then falling with temperature, showing an optimum) is a valid representation of light-independent enzyme-controlled reactions."
+        },
+        {
+          "title": "Graph is invalid in the presence of light",
+          "content": "Graph 2 is invalid 'in the presence of light' since it implies CO2 use varies with time of day including night (when no photosynthesis/CO2 uptake would occur) — not consistent with 'in the presence of light' framing as intended."
+        },
+        {
+          "title": "Graph rate vs distance should follow an inverse",
+          "content": "Graph 3 (rate vs distance) should follow an inverse-square-type decline, but as drawn it doesn't match the expected physical relationship."
+        },
+        {
+          "title": "Only graph is correct per the answer key",
+          "content": "Only graph 1 is correct per the answer key."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-003",
@@ -1487,7 +2575,27 @@
     "answer": "B",
     "technique": "Statement 1: $\\frac{1860}{3000}\\times100\\%=62\\%$ — true. Statement 2: the diagram only shows energy flow in grass/cow, not carbon fixation by photosynthesis or return of CO2 by respiration/combustion elsewhere in the ecosystem — false, it does not illustrate all carbon cycle processes. Statement 3: energy absorbed by the cow's cells (assimilated) $=3000-1860=1140$ kJ; growth is $120/1140\\approx10.5\\%$, not 4% — false. Only statement 1 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Statement 1: $\\frac{1860}{3000}\\times100\\%=62\\%$ — true."
+        },
+        {
+          "title": "Statement the diagram only shows energy flow in",
+          "content": "Statement 2: the diagram only shows energy flow in grass/cow, not carbon fixation by photosynthesis or return of CO2 by respiration/combustion elsewhere in the ecosystem — false, it does not illustrate all carbon cycle processes."
+        },
+        {
+          "title": "Statement energy absorbed by the cow s cells",
+          "content": "Statement 3: energy absorbed by the cow's cells (assimilated) $=3000-1860=1140$ kJ; growth is $120/1140\\approx10.5\\%$, not 4% — false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 1 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-004",
@@ -1512,7 +2620,27 @@
     "answer": "F",
     "technique": "From the diagram, the clear zone radius around W is twice that around X, so area (∝r²) is 4× — statement 1 true. Amylase digests starch (giving a clear zone), but protease does not act on starch, so well X (which shows digestion) could not have contained protease — statement 2 false. A boiled (denatured) enzyme in well Z would show no clear zone, similar to the water control — statement 3 true. Statements 1 and 3 correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "From the diagram the clear zone radius around",
+          "content": "From the diagram, the clear zone radius around W is twice that around X, so area (∝r^2) is 4\\times — statement 1 true."
+        },
+        {
+          "title": "Amylase digests starch giving a clear zone but",
+          "content": "Amylase digests starch (giving a clear zone), but protease does not act on starch, so well X (which shows digestion) could not have contained protease — statement 2 false."
+        },
+        {
+          "title": "A boiled denatured enzyme in well Z would",
+          "content": "A boiled (denatured) enzyme in well Z would show no clear zone, similar to the water control — statement 3 true."
+        },
+        {
+          "title": "Statements and correct",
+          "content": "Statements 1 and 3 correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-005",
@@ -1537,7 +2665,23 @@
     "answer": "F",
     "technique": "A potometer measures water uptake by a shoot, which approximates transpiration (not translocation, which refers to phloem transport of sugars). Volume of water taken up = volume of tube the bubble traversed = $\\pi r^2 \\times \\text{distance moved}$, with r=0.5mm. Based on the diagram, the bubble moved 15mm (from its starting position to the 4cm mark), giving volume $=\\pi(0.5)^2\\times15$ mm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "A potometer measures water uptake by a shoot",
+          "content": "A potometer measures water uptake by a shoot, which approximates transpiration (not translocation, which refers to phloem transport of sugars)."
+        },
+        {
+          "title": "Volume of water taken up volume of tube",
+          "content": "Volume of water taken up = volume of tube the bubble traversed = $\\pi r^2 \\times \\text{distance moved}$, with r=0.5mm."
+        },
+        {
+          "title": "Based on the diagram the bubble moved mm",
+          "content": "Based on the diagram, the bubble moved 15mm (from its starting position to the 4cm mark), giving volume $=\\pi(0.5)^2\\times15$ mm^3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-006",
@@ -1562,7 +2706,27 @@
     "answer": "D",
     "technique": "If chromosome separation is blocked (e.g. spindle fibres/cohesin cannot function properly), the cell cannot complete anaphase/cytokinesis and remains a single cell containing the diploid number of replicated (doubled) chromosomes — statement 3 true. There are not four daughter cells from mitosis in any scenario (mitosis produces two, and division is blocked here anyway) — statement 1 false. This is mitosis, not meiosis, so gametes are not produced — statement 2 false. Only statement 3 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "If chromosome separation is blocked e g spindle",
+          "content": "If chromosome separation is blocked (e.g. spindle fibres/cohesin cannot function properly), the cell cannot complete anaphase/cytokinesis and remains a single cell containing the diploid number of replicated (doubled) chromosomes — statement 3 true."
+        },
+        {
+          "title": "There are not four daughter cells from mitosis",
+          "content": "There are not four daughter cells from mitosis in any scenario (mitosis produces two, and division is blocked here anyway) — statement 1 false."
+        },
+        {
+          "title": "This is mitosis not meiosis so gametes are",
+          "content": "This is mitosis, not meiosis, so gametes are not produced — statement 2 false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 3 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-007",
@@ -1587,7 +2751,27 @@
     "answer": "E",
     "technique": "Actual cell length $=5 \\times 2.5\\mu m = 12.5\\mu m$. Drawing length $=5.0$cm $=50000\\mu m$. Magnification $=\\frac{50000}{12.5}=4000=4.0\\times10^3$. Bacteria are prokaryotic and have no nucleus, but they do have a cell wall, so 'cell wall' is the structure that should be included.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Actual cell length",
+          "content": "Actual cell length $=5 \\times 2.5\\mu m = 12.5\\mu m$."
+        },
+        {
+          "title": "Drawing length cm",
+          "content": "Drawing length $=5.0$cm $=50000\\mu m$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Magnification $=\\frac{50000}{12.5}=4000=4.0\\times10^3$."
+        },
+        {
+          "title": "Bacteria are prokaryotic and have no nucleus but",
+          "content": "Bacteria are prokaryotic and have no nucleus, but they do have a cell wall, so 'cell wall' is the structure that should be included."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-008",
@@ -1612,7 +2796,31 @@
     "answer": "F",
     "technique": "Cross V (Hh × hh) offspring are 50% Hh (horned), 50% hh (hornless). Pairing two offspring: Hh×Hh gives 25% hornless; Hh×hh gives 50% hornless; hh×hh gives 100% hornless — statement 1 true. Cross W (Gg×Gg) offspring with dominant phenotype could be GG or Gg — genotype is NOT distinguishable by phenotype alone — statement 2 false. Cross Y (ww × WW) gives all Ww offspring (round seeds); self/cross-pollinating Ww×Ww gives 1:2:1 WW:Ww:ww, so 50% are homozygous (WW+ww = 25%+25%) — statement 3 true. Statements 1 and 3 correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Cross V Hh hh offspring are Hh horned",
+          "content": "Cross V (Hh \\times hh) offspring are 50% Hh (horned), 50% hh (hornless)."
+        },
+        {
+          "title": "Pairing two offspring Hh gives hornless Hh gives",
+          "content": "Pairing two offspring: Hh\\timesHh gives 25% hornless; Hh\\timeshh gives 50% hornless; hh\\timeshh gives 100% hornless — statement 1 true."
+        },
+        {
+          "title": "Cross W Gg offspring with dominant phenotype could",
+          "content": "Cross W (Gg\\timesGg) offspring with dominant phenotype could be GG or Gg — genotype is NOT distinguishable by phenotype alone — statement 2 false."
+        },
+        {
+          "title": "Cross Y ww WW gives all Ww offspring",
+          "content": "Cross Y (ww \\times WW) gives all Ww offspring (round seeds); self/cross-pollinating Ww\\timesWw gives 1:2:1 WW:Ww:ww, so 50% are homozygous (WW+ww = 25%+25%) — statement 3 true."
+        },
+        {
+          "title": "Statements and correct",
+          "content": "Statements 1 and 3 correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-009",
@@ -1637,7 +2845,27 @@
     "answer": "A",
     "technique": "Statement 1: if output were directly proportional to heart rate, output/rate would be constant, but it clearly is not (e.g. 4.0/55 ≠ 4.6/175) — false. Statement 2: $\\frac{5.0-4.0}{4.0}\\times100\\%=25\\%$, not 20% — false. Statement 3: the left ventricle pumps to the body, and the right ventricle (equal stroke volume in a healthy heart) pumps to the lungs, so blood output to lungs equals that to the body, not less — false. None of them correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Statement if output were directly proportional to heart",
+          "content": "Statement 1: if output were directly proportional to heart rate, output/rate would be constant, but it clearly is not (e.g. 4.0/55 ≠ 4.6/175) — false."
+        },
+        {
+          "title": "Statement not false",
+          "content": "Statement 2: $\\frac{5.0-4.0}{4.0}\\times100\\%=25\\%$, not 20% — false."
+        },
+        {
+          "title": "Statement the left ventricle pumps to the body",
+          "content": "Statement 3: the left ventricle pumps to the body, and the right ventricle (equal stroke volume in a healthy heart) pumps to the lungs, so blood output to lungs equals that to the body, not less — false."
+        },
+        {
+          "title": "None of them correct",
+          "content": "None of them correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-010",
@@ -1662,7 +2890,27 @@
     "answer": "E",
     "technique": "Hormone 1 (FSH) stimulates follicle maturation and oestrogen (hormone 3) release from the follicle — statement 1 true. Hormone 4 (progesterone, from the corpus luteum) maintains the uterus lining — statement 2 true. The sharp peak of hormone 1 (FSH) and hormone 2 (LH) occurs mid-cycle (triggering ovulation), not at the end of the cycle; menstruation is triggered by a drop in progesterone/oestrogen (as the corpus luteum degenerates), not by an FSH/LH peak at cycle end — statement 3 false. Statements 1 and 2 correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Hormone FSH stimulates follicle maturation and oestrogen",
+          "content": "Hormone 1 (FSH) stimulates follicle maturation and oestrogen (hormone 3) release from the follicle — statement 1 true."
+        },
+        {
+          "title": "Hormone progesterone from the corpus luteum maintains the",
+          "content": "Hormone 4 (progesterone, from the corpus luteum) maintains the uterus lining — statement 2 true."
+        },
+        {
+          "title": "The sharp peak of hormone FSH and hormone",
+          "content": "The sharp peak of hormone 1 (FSH) and hormone 2 (LH) occurs mid-cycle (triggering ovulation), not at the end of the cycle; menstruation is triggered by a drop in progesterone/oestrogen (as the corpus luteum degenerates), not by an FSH/LH peak at cycle end — statement 3 false."
+        },
+        {
+          "title": "Statements and correct",
+          "content": "Statements 1 and 2 correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-011",
@@ -1687,7 +2935,23 @@
     "answer": "F",
     "technique": "As substrate (milk) concentration increases at fixed enzyme concentration, the reaction rate increases, so time to reach the colour-change endpoint decreases, levelling off once substrate is no longer the limiting factor. Since temperature is held at optimum throughout, the limiting factor being varied is substrate concentration. Lipase produces fatty acids, which lower the pH of the alkaline mixture, turning the indicator colourless due to a decrease in pH.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "As substrate milk concentration increases at fixed enzyme",
+          "content": "As substrate (milk) concentration increases at fixed enzyme concentration, the reaction rate increases, so time to reach the colour-change endpoint decreases, levelling off once substrate is no longer the limiting factor."
+        },
+        {
+          "title": "Since temperature is held at optimum throughout the",
+          "content": "Since temperature is held at optimum throughout, the limiting factor being varied is substrate concentration."
+        },
+        {
+          "title": "Lipase produces fatty acids which lower the pH",
+          "content": "Lipase produces fatty acids, which lower the pH of the alkaline mixture, turning the indicator colourless due to a decrease in pH."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-012",
@@ -1709,7 +2973,31 @@
     "answer": "A",
     "technique": "CO2 is a product of both anaerobic (alcoholic) fermentation and aerobic respiration, so it is produced throughout — statement 1 true. From the graph, glucose runs out at ~10 hours and ethanol is then consumed until it reaches zero at ~32 hours, i.e. ethanol is the sole substrate for about 22 hours — statement 2 true. Since oxygen is present in the open flask throughout, but yeast still consumes glucose anaerobically by preference from the start — statement 3 true. Glucose falls from ~40 g/dm³ to 0 over 10 hours = 4 g/dm³ per hour, but since the question asks for total grams (100cm³=0.1dm³ flask), this would be 0.4 g/hour, not 4 g/hour — statement 4 false. Statements 1, 2 and 3 correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "CO is a product of both anaerobic alcoholic",
+          "content": "CO2 is a product of both anaerobic (alcoholic) fermentation and aerobic respiration, so it is produced throughout — statement 1 true."
+        },
+        {
+          "title": "From the graph glucose runs out at hours",
+          "content": "From the graph, glucose runs out at ~10 hours and ethanol is then consumed until it reaches zero at ~32 hours, i.e. ethanol is the sole substrate for about 22 hours — statement 2 true."
+        },
+        {
+          "title": "Since oxygen is present in the open flask",
+          "content": "Since oxygen is present in the open flask throughout, but yeast still consumes glucose anaerobically by preference from the start — statement 3 true."
+        },
+        {
+          "title": "Glucose falls from g dm to over hours",
+          "content": "Glucose falls from ~40 g/dm^3 to 0 over 10 hours = 4 g/dm^3 per hour, but since the question asks for total grams (100cm^3=0.1dm^3 flask), this would be 0.4 g/hour, not 4 g/hour — statement 4 false."
+        },
+        {
+          "title": "Statements and correct",
+          "content": "Statements 1, 2 and 3 correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-013",
@@ -1734,7 +3022,19 @@
     "answer": "G",
     "technique": "Processes producing organic (carbon-and-hydrogen-containing) products include photosynthesis (produces glucose), feeding/assimilation (produces animal biomass/organic molecules), and processes producing biomass in decomposers — these correspond to arrows 3, 4, 5 and 6 per the diagram, while arrows representing respiration or combustion (producing CO2, an inorganic product) are excluded, matching the answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Processes producing organic carbon and hydrogen containin",
+          "content": "Processes producing organic (carbon-and-hydrogen-containing) products include photosynthesis (produces glucose), feeding/assimilation (produces animal biomass/organic molecules), and processes producing biomass in decomposers — these correspond to arrows 3, 4, 5 and 6 per the diagram, while arrows representing respiration or combustion (producing CO2, an inorganic product) are excluded, matching the answer key."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-014",
@@ -1759,7 +3059,23 @@
     "answer": "D",
     "technique": "The concentration where % mass change = 0 is where the external solution's concentration matches the cell sap's concentration, but this is only approximately equal to the cell's true internal concentration (osmosis is about water potential, not just solute concentration, and 'must be' is too strong a claim) — statement 1 false. Osmosis is the diffusion of water from a region of HIGH water potential (low solute concentration) to LOW water potential (high solute concentration) — the statement has it backwards — statement 2 false. The greatest concentration difference (steepest osmotic gradient) is at the highest NaCl concentration (0.8 mol dm⁻³), giving the fastest rate of water movement — statement 3 true.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The concentration where mass change is where the",
+          "content": "The concentration where % mass change = 0 is where the external solution's concentration matches the cell sap's concentration, but this is only approximately equal to the cell's true internal concentration (osmosis is about water potential, not just solute concentration, and 'must be' is too strong a claim) — statement 1 false."
+        },
+        {
+          "title": "Osmosis is the diffusion of water from a",
+          "content": "Osmosis is the diffusion of water from a region of HIGH water potential (low solute concentration) to LOW water potential (high solute concentration) — the statement has it backwards — statement 2 false."
+        },
+        {
+          "title": "The greatest concentration difference steepest osmotic gr",
+          "content": "The greatest concentration difference (steepest osmotic gradient) is at the highest NaCl concentration (0.8 mol dm⁻^3), giving the fastest rate of water movement — statement 3 true."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-015",
@@ -1784,7 +3100,27 @@
     "answer": "E",
     "technique": "Comparing sequences: triplet 4 differs (CCC vs CCG) and triplet 5 differs (TTG vs TTA) — two single-base substitutions. Since a single base-substitution mutation event could plausibly account for the differences (e.g. one point mutation affecting overlapping reading), and due to the degeneracy of the genetic code, different codons (e.g. TTG and TTA on the coding strand context) can code for the same amino acid, both people could still have the same phenotype — statements 1 and 2 can both be correct. Statement 3 is incorrect since the section has 6 triplets = 18 bases, not up to 6 bases.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Comparing sequences triplet differs CCC vs CCG and",
+          "content": "Comparing sequences: triplet 4 differs (CCC vs CCG) and triplet 5 differs (TTG vs TTA) — two single-base substitutions."
+        },
+        {
+          "title": "Since a single base substitution mutation event could",
+          "content": "Since a single base-substitution mutation event could plausibly account for the differences (e.g. one point mutation affecting overlapping reading), and due to the degeneracy of the genetic code, different codons (e.g."
+        },
+        {
+          "title": "TTG and TTA on the coding strand context",
+          "content": "TTG and TTA on the coding strand context) can code for the same amino acid, both people could still have the same phenotype — statements 1 and 2 can both be correct."
+        },
+        {
+          "title": "Statement is incorrect since the section has triplets",
+          "content": "Statement 3 is incorrect since the section has 6 triplets = 18 bases, not up to 6 bases."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-016",
@@ -1809,7 +3145,35 @@
     "answer": "B",
     "technique": "The tree contains 7 individuals: 4 females (the unlabelled grandmother, individual 1, individual 3, and the affected granddaughter) and 3 males (the unlabelled grandfather, individual 2, and individual 4). Each female contributes 2 X chromosomes and each male contributes 1 X and 1 Y, giving 8+3=11 X chromosomes and 3 Y chromosomes, a ratio of 11:3=3.67:1 — statement 1 is correct. Individual 2 (male) inherits a single X from the grandmother; individual 3 (female) inherits one X from the same grandmother and one from the grandfather. Since the grandmother carries two X chromosomes and passes one at random to each child, individual 2 and individual 3 are not guaranteed to inherit the same maternal X, so statement 2's claim of 100% is false. The affected granddaughter is homozygous recessive, so both her parents — individual 3 and individual 4 — must be unaffected carriers, making individual 3 definitely a carrier; individual 2's genotype depends on the unstated genotypes of the grandparents, only one of whom is guaranteed to carry the recessive allele, so the family tree does not give enough information to fix the probability in statement 3 at 50%. Only statement 1 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The tree contains individuals females the unlabelled gran",
+          "content": "The tree contains 7 individuals: 4 females (the unlabelled grandmother, individual 1, individual 3, and the affected granddaughter) and 3 males (the unlabelled grandfather, individual 2, and individual 4)."
+        },
+        {
+          "title": "Each female contributes X chromosomes and each male",
+          "content": "Each female contributes 2 X chromosomes and each male contributes 1 X and 1 Y, giving 8+3=11 X chromosomes and 3 Y chromosomes, a ratio of 11:3=3.67:1 — statement 1 is correct."
+        },
+        {
+          "title": "Individual male inherits a single X from the",
+          "content": "Individual 2 (male) inherits a single X from the grandmother; individual 3 (female) inherits one X from the same grandmother and one from the grandfather."
+        },
+        {
+          "title": "Since the grandmother carries two X chromosomes and",
+          "content": "Since the grandmother carries two X chromosomes and passes one at random to each child, individual 2 and individual 3 are not guaranteed to inherit the same maternal X, so statement 2's claim of 100% is false."
+        },
+        {
+          "title": "The affected granddaughter is homozygous recessive so both",
+          "content": "The affected granddaughter is homozygous recessive, so both her parents — individual 3 and individual 4 — must be unaffected carriers, making individual 3 definitely a carrier; individual 2's genotype depends on the unstated genotypes of the grandparents, only one of whom is guaranteed to carry the recessive allele, so the family tree does not give enough information to fix the probability in statement 3 at 50%."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 1 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-017",
@@ -1834,7 +3198,27 @@
     "answer": "E",
     "technique": "Five different triplets = 15 nucleotides, each with a 5-carbon sugar, giving $15\\times5=75$ carbons in the sugar-phosphate backbone — statement 1 true. To form 5 different triplets (out of the possible combinations using the 4 DNA bases), the minimum number of different bases needed is 2 (e.g. using two bases in different orders can create multiple distinct triplets) — statement 2 true. In a single DNA strand, the number of sugar-to-phosphate (phosphodiester) bonds is one fewer than the number of nucleotides (bonds link consecutive nucleotides), not equal — statement 3 false. Statements 1 and 2 correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Five different triplets nucleotides each with a carbon",
+          "content": "Five different triplets = 15 nucleotides, each with a 5-carbon sugar, giving $15\\times5=75$ carbons in the sugar-phosphate backbone — statement 1 true."
+        },
+        {
+          "title": "To form different triplets out of the possible",
+          "content": "To form 5 different triplets (out of the possible combinations using the 4 DNA bases), the minimum number of different bases needed is 2 (e.g. using two bases in different orders can create multiple distinct triplets) — statement 2 true."
+        },
+        {
+          "title": "In a single DNA strand the number of",
+          "content": "In a single DNA strand, the number of sugar-to-phosphate (phosphodiester) bonds is one fewer than the number of nucleotides (bonds link consecutive nucleotides), not equal — statement 3 false."
+        },
+        {
+          "title": "Statements and correct",
+          "content": "Statements 1 and 2 correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-018",
@@ -1859,7 +3243,31 @@
     "answer": "G",
     "technique": "The pressure in the pleural space becomes more negative during inhalation (as the diaphragm contracts and the thorax expands) and less negative during exhalation. Reading the graph, pressure is becoming less negative (rising) between 0 and 1.5s, consistent with breathing out — but per the answer key this specific interval assignment (statement 1) is false. Between 2 and 3s, the diaphragm is relaxing (pressure rising back towards less negative values) — statement 2 true. One full breathing cycle takes 4 seconds, giving a rate of $\\frac{60}{4}=15$ breaths per minute — statement 3 true. Statements 2 and 3 correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The pressure in the pleural space becomes more",
+          "content": "The pressure in the pleural space becomes more negative during inhalation (as the diaphragm contracts and the thorax expands) and less negative during exhalation."
+        },
+        {
+          "title": "Reading the graph pressure is becoming less negative",
+          "content": "Reading the graph, pressure is becoming less negative (rising) between 0 and 1.5s, consistent with breathing out — but per the answer key this specific interval assignment (statement 1) is false."
+        },
+        {
+          "title": "Between and s the diaphragm is relaxing pressure",
+          "content": "Between 2 and 3s, the diaphragm is relaxing (pressure rising back towards less negative values) — statement 2 true."
+        },
+        {
+          "title": "One full breathing cycle takes seconds giving a",
+          "content": "One full breathing cycle takes 4 seconds, giving a rate of $\\frac{60}{4}=15$ breaths per minute — statement 3 true."
+        },
+        {
+          "title": "Statements and correct",
+          "content": "Statements 2 and 3 correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-019",
@@ -1884,7 +3292,27 @@
     "answer": "E",
     "technique": "Speed along neurone $=\\frac{0.45}{3.0\\times10^{-3}}=150$ m/s. Speed across synapse $=\\frac{20\\times10^{-9}}{4.0\\times10^{-10}}=50$ m/s. Ratio: $150/50=3$, so synaptic transmission is 3 times slower than along the neurone. Transmission across a synapse is via chemical neurotransmitters that diffuse across the synaptic cleft, i.e. chemical, by diffusion.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Speed along neurone m s",
+          "content": "Speed along neurone $=\\frac{0.45}{3.0\\times10^{-3}}=150$ m/s."
+        },
+        {
+          "title": "Speed across synapse m s",
+          "content": "Speed across synapse $=\\frac{20\\times10^{-9}}{4.0\\times10^{-10}}=50$ m/s."
+        },
+        {
+          "title": "Ratio so synaptic transmission is times slower than",
+          "content": "Ratio: $150/50=3$, so synaptic transmission is 3 times slower than along the neurone."
+        },
+        {
+          "title": "Transmission across a synapse is via chemical neurotransm",
+          "content": "Transmission across a synapse is via chemical neurotransmitters that diffuse across the synaptic cleft, i.e. chemical, by diffusion."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2023-BIO-020",
@@ -1907,6 +3335,26 @@
     "answer": "C",
     "technique": "A cell about to start cytokinesis (end of mitosis, chromosomes already separated to opposite poles but not yet divided into two cells) contains double the diploid number: 2×46=92 chromosomes. A cell actively producing antibodies is a plasma cell (a differentiated B-lymphocyte), a normal diploid somatic cell: 46 chromosomes. Cells that cannot use oxygen for respiration are mature red blood cells, which are anucleate (no nucleus) and so contain 0 chromosomes each. Total: 92+46+0+0=138.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "A cell about to start cytokinesis end of",
+          "content": "A cell about to start cytokinesis (end of mitosis, chromosomes already separated to opposite poles but not yet divided into two cells) contains double the diploid number: 2\\times46=92 chromosomes."
+        },
+        {
+          "title": "A cell actively producing antibodies is a plasma",
+          "content": "A cell actively producing antibodies is a plasma cell (a differentiated B-lymphocyte), a normal diploid somatic cell: 46 chromosomes."
+        },
+        {
+          "title": "Cells that cannot use oxygen for respiration are",
+          "content": "Cells that cannot use oxygen for respiration are mature red blood cells, which are anucleate (no nucleus) and so contain 0 chromosomes each."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Total: 92+46+0+0=138."
+        }
+      ]
+    }
   }
 ]

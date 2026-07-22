@@ -22,7 +22,27 @@
     "answer": "E",
     "technique": "Combine powers of 5: $5^{1-3+1}=5^{-1}$. Powers of x: $x^{1-6+2}=x^{-3}$. Powers of y: $y^{2-3+1}=y^0=1$. Result: $\\frac{1}{5x^3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Combine powers of",
+          "content": "Combine powers of 5: $5^{1-3+1}=5^{-1}$."
+        },
+        {
+          "title": "Powers of x",
+          "content": "Powers of x: $x^{1-6+2}=x^{-3}$."
+        },
+        {
+          "title": "Powers of y",
+          "content": "Powers of y: $y^{2-3+1}=y^0=1$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Result: $\\frac{1}{5x^3}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-001",
@@ -45,7 +65,19 @@
     "answer": "E",
     "technique": "For an ideal gas at constant temperature, $PV=nRT$ so $P \\propto 1/V \\propto \\rho$ (since $\\rho=m/V$ and mass is fixed). A 20% increase in P gives a 20% increase in density: $\\rho_{new}=1.20\\rho$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "For an ideal gas at constant temperature so",
+          "content": "For an ideal gas at constant temperature, $PV=nRT$ so $P \\propto 1/V \\propto \\rho$ (since $\\rho=m/V$ and mass is fixed)."
+        },
+        {
+          "title": "A increase in P gives a increase in",
+          "content": "A 20% increase in P gives a 20% increase in density: $\\rho_{new}=1.20\\rho$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-002",
@@ -70,7 +102,19 @@
     "answer": "D",
     "technique": "$\\dfrac{3}{q} = \\dfrac{4}{r} - \\dfrac{p}{2} = \\dfrac{8-pr}{2r}$, so $q = \\dfrac{3}{\\left(\\frac{8-pr}{2r}\\right)} = \\dfrac{6r}{8-pr}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$\\dfrac{3}{q} = \\dfrac{4}{r} - \\dfrac{p}{2} = \\dfrac{8-pr}{2r}$, so $q"
+        },
+        {
+          "title": "Pr r r pr",
+          "content": "= \\dfrac{3}{\\left(\\frac{8-pr}{2r}\\right)} = \\dfrac{6r}{8-pr}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-002",
@@ -95,7 +139,27 @@
     "answer": "F",
     "technique": "$V_p = 3000/12.5 = 240\\text{ V}$. Ideal secondary voltage: $V_s = 240\\times(25/100)=60\\text{ V}$. Output power $=60\\times40=2400\\text{ W}$. Efficiency $=2400/3000=80\\%$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$V_p = 3000/12.5 = 240\\text{ V}$."
+        },
+        {
+          "title": "Ideal secondary voltage",
+          "content": "Ideal secondary voltage: $V_s = 240\\times(25/100)=60\\text{ V}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Output power $=60\\times40=2400\\text{ W}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Efficiency $=2400/3000=80\\%$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-003",
@@ -119,7 +183,23 @@
     "answer": "C",
     "technique": "P: radius $x/2$, height $y$: $SA_P=2\\pi(x/2)^2+2\\pi(x/2)y=\\frac{\\pi x^2}{2}+\\pi xy$. Q: radius $y/2$, height $x$: $SA_Q=\\frac{\\pi y^2}{2}+\\pi xy$. Difference $=\\frac{\\pi}{2}(x^2-y^2)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "P radius height",
+          "content": "P: radius $x/2$, height $y$: $SA_P=2\\pi(x/2)^2+2\\pi(x/2)y=\\frac{\\pi x^2}{2}+\\pi xy$."
+        },
+        {
+          "title": "Q radius height",
+          "content": "Q: radius $y/2$, height $x$: $SA_Q=\\frac{\\pi y^2}{2}+\\pi xy$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Difference $=\\frac{\\pi}{2}(x^2-y^2)$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-003",
@@ -142,7 +222,23 @@
     "answer": "C",
     "technique": "Compression $x=0.02$ m. Weight $=0.5\\times10=5$ N $=kx \\Rightarrow k=5/0.02=250$ N/m. Energy $=\\frac{1}{2}kx^2=\\frac{1}{2}\\times250\\times0.02^2=0.05$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Compression $x=0.02$ m."
+        },
+        {
+          "title": "Weight N N m",
+          "content": "Weight $=0.5\\times10=5$ N $=kx \\Rightarrow k=5/0.02=250$ N/m."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Energy $=\\frac{1}{2}kx^2=\\frac{1}{2}\\times250\\times0.02^2=0.05$ J."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-004",
@@ -164,7 +260,23 @@
     "answer": "A",
     "technique": "P: $\\times0.9\\times1.1=0.99$ (lower). Q: $\\times1.1\\times0.9=0.99$ (lower). Both end up 1% lower than original, regardless of order.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "P: $\\times0.9\\times1.1=0.99$ (lower)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Q: $\\times1.1\\times0.9=0.99$ (lower)."
+        },
+        {
+          "title": "Both end up lower than original regardless of",
+          "content": "Both end up 1% lower than original, regardless of order."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-004",
@@ -186,7 +298,23 @@
     "answer": "D",
     "technique": "Let each lamp have resistance $r$ and supply voltage $V$. Originally $P=V^2/(20r)$. After one lamp shorts, total resistance is $19r$, so new power $=V^2/(19r) = \\left(\\frac{20}{19}\\right)P$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let each lamp have resistance and supply voltage",
+          "content": "Let each lamp have resistance $r$ and supply voltage $V$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Originally $P=V^2/(20r)$."
+        },
+        {
+          "title": "After one lamp shorts total resistance is so",
+          "content": "After one lamp shorts, total resistance is $19r$, so new power $=V^2/(19r) = \\left(\\frac{20}{19}\\right)P$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-005",
@@ -209,7 +337,23 @@
     "answer": "D",
     "technique": "In right triangle SQT (right angle at Q): $ST=8$ (hypotenuse), $QT=4$, so $SQ=\\sqrt{8^2-4^2}=\\sqrt{48}=4\\sqrt3$. Since SR:RQ=1:3, $RQ=\\frac34 SQ=3\\sqrt3$. In right triangle QRP (right angle at Q): $PR=8$ (hypotenuse), $RQ=3\\sqrt3$, so $PQ=\\sqrt{64-27}=\\sqrt{37}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In right triangle SQT right angle at Q",
+          "content": "In right triangle SQT (right angle at Q): $ST=8$ (hypotenuse), $QT=4$, so $SQ=\\sqrt{8^2-4^2}=\\sqrt{48}=4\\sqrt{3}$."
+        },
+        {
+          "title": "Since SR RQ",
+          "content": "Since SR:RQ=1:3, $RQ=\\frac34 SQ=3\\sqrt{3}$."
+        },
+        {
+          "title": "In right triangle QRP right angle at Q",
+          "content": "In right triangle QRP (right angle at Q): $PR=8$ (hypotenuse), $RQ=3\\sqrt{3}$, so $PQ=\\sqrt{64-27}=\\sqrt{37}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-005",
@@ -234,7 +378,19 @@
     "answer": "E",
     "technique": "Net force = rate of change of momentum = gradient of graph $\\approx (12\\times10^6)/4 = 3.0\\times10^6$ N. Net force = motor force $-$ friction, so motor force $=3.0\\times10^6+1.8\\times10^7=2.1\\times10^7$ N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Net force rate of change of momentum gradient",
+          "content": "Net force = rate of change of momentum = gradient of graph $\\approx (12\\times10^6)/4 = 3.0\\times10^6$ N."
+        },
+        {
+          "title": "Net force motor force friction so motor force",
+          "content": "Net force = motor force $-$ friction, so motor force $=3.0\\times10^6+1.8\\times10^7=2.1\\times10^7$ N."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-006",
@@ -258,7 +414,23 @@
     "answer": "F",
     "technique": "Setting equal: $x^2-4x+5=2x+c \\Rightarrow x^2-6x+(5-c)=0$. Sum of roots $p+q=6$, product $pq=5-c$. $(q-p)^2=(p+q)^2-4pq=36-4(5-c)=16+4c$. Setting $(q-p)^2=64$: $16+4c=64 \\Rightarrow c=12$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Setting equal: $x^2-4x+5=2x+c \\Rightarrow x^2-6x+(5-c)=0$."
+        },
+        {
+          "title": "Sum of roots product",
+          "content": "Sum of roots $p+q=6$, product $pq=5-c$. $(q-p)^2=(p+q)^2-4pq=36-4(5-c)=16+4c$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Setting $(q-p)^2=64$: $16+4c=64 \\Rightarrow c=12$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-006",
@@ -283,7 +455,19 @@
     "answer": "H",
     "technique": "Since ship and wave move toward each other, the relative (encounter) speed is $8.0+3.0=11$ m/s. The 8.0 s period observed is the encounter period, so $\\lambda = v_{rel}\\times T = 11\\times8=88$ m.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Since ship and wave move toward each other",
+          "content": "Since ship and wave move toward each other, the relative (encounter) speed is $8.0+3.0=11$ m/s."
+        },
+        {
+          "title": "The s period observed is the encounter period",
+          "content": "The 8.0 s period observed is the encounter period, so $\\lambda = v_{rel}\\times T = 11\\times8=88$ m."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-001",
@@ -307,7 +491,19 @@
     "answer": "F",
     "technique": "$\\sin60°=\\frac{\\sqrt3}{2}$ and $\\cos60°=\\frac12$, so $y=\\dfrac{\\frac{\\sqrt3}{2}-1}{\\frac12}=\\sqrt3-2$. Then $y^3=(\\sqrt3-2)^3=3\\sqrt3-3(3)(2)+3(\\sqrt3)(4)-8=3\\sqrt3-18+12\\sqrt3-8=15\\sqrt3-26$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$\\sin60^\\circ=\\frac{\\sqrt{3}}{2}$ and $\\cos60^\\circ=\\frac12$, so $y=\\dfrac{\\frac{\\sqrt{3}}{2}-1}{\\frac12}=\\sqrt{3}-2$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $y^3=(\\sqrt{3}-2)^3=3\\sqrt{3}-3(3)(2)+3(\\sqrt{3})(4)-8=3\\sqrt{3}-18+12\\sqrt{3}-8=15\\sqrt{3}-26$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-007",
@@ -330,7 +526,23 @@
     "answer": "B",
     "technique": "Voltage across the 8.0 Ω resistor $=0.25\\times8=2.0$ V. Voltage across the lamp $=6.0-2.0=4.0$ V. The correct graph must pass through $(I,V)=(0.25\\text{ A}, 4.0\\text{ V})$ with a curve typical of a filament lamp (resistance increasing with current).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Voltage across the resistor V",
+          "content": "Voltage across the 8.0 Ω resistor $=0.25\\times8=2.0$ V."
+        },
+        {
+          "title": "Voltage across the lamp V",
+          "content": "Voltage across the lamp $=6.0-2.0=4.0$ V."
+        },
+        {
+          "title": "The correct graph must pass through with a",
+          "content": "The correct graph must pass through $(one,V)=(0.25\\text{ A}, 4.0\\text{ V})$ with a curve typical of a filament lamp (resistance increasing with current)."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-007",
@@ -354,7 +566,19 @@
     "answer": "B",
     "technique": "Let $r$ = number of red sweets. $P(\\text{no green})=\\binom{r}{2}/\\binom{9}{2}=5/12$. $\\binom{9}{2}=36$, so $\\binom{r}{2}=15 \\Rightarrow r(r-1)=30 \\Rightarrow r=6$. So green count $=3$. $P(\\text{2 green})=\\binom{3}{2}/\\binom{9}{2}=3/36=1/12$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let number of red sweets so",
+          "content": "Let $r$ = number of red sweets. $P(\\text{no green})=\\binom{r}{2}/\\binom{9}{2}=5/12$. $\\binom{9}{2}=36$, so $\\binom{r}{2}=15 \\Rightarrow r(r-1)=30 \\Rightarrow r=6$."
+        },
+        {
+          "title": "So green count",
+          "content": "So green count $=3$. $P(\\text{2 green})=\\binom{3}{2}/\\binom{9}{2}=3/36=1/12$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-008",
@@ -377,7 +601,27 @@
     "answer": "C",
     "technique": "Let initial number of each $=N_0$. After $4T$: X remaining fraction $=(1/2)^{4T/T}=1/16$, so $R=N_0+(N_0-N_0/16)=\\frac{31}{16}N_0$. Y remaining fraction $=(1/2)^{4T/2T}=1/4$, so $S=N_0+(N_0-N_0/4)=\\frac{7}{4}N_0=\\frac{28}{16}N_0$. Ratio $S/R=28/31$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let initial number of each",
+          "content": "Let initial number of each $=N_0$."
+        },
+        {
+          "title": "After X remaining fraction so",
+          "content": "After $4T$: X remaining fraction $=(1/2)^{4T/T}=1/16$, so $R=N_0+(N_0-N_0/16)=\\frac{31}{16}N_0$."
+        },
+        {
+          "title": "Y remaining fraction so",
+          "content": "Y remaining fraction $=(1/2)^{4T/2T}=1/4$, so $S=N_0+(N_0-N_0/4)=\\frac{7}{4}N_0=\\frac{28}{16}N_0$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Ratio $S/R=28/31$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-008",
@@ -400,7 +644,19 @@
     "answer": "A",
     "technique": "Original cuboid has dimensions double the small one: $4,\\,6,\\,2x$. Its space diagonal satisfies $4^2+6^2+(2x)^2=(\\sqrt{77})^2=77 \\Rightarrow 16+36+4x^2=77 \\Rightarrow 4x^2=25 \\Rightarrow x=\\frac52$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Original cuboid has dimensions double the small one",
+          "content": "Original cuboid has dimensions double the small one: $4,\\,6,\\,2x$."
+        },
+        {
+          "title": "Its space diagonal satisfies",
+          "content": "Its space diagonal satisfies $4^2+6^2+(2x)^2=(\\sqrt{77})^2=77 \\Rightarrow 16+36+4x^2=77 \\Rightarrow 4x^2=25 \\Rightarrow x=\\frac52$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-009",
@@ -423,7 +679,19 @@
     "answer": "D",
     "technique": "Heat lost by warm water = heat to melt ice + heat to warm melted ice to $T$: $180\\times4\\times(25-T)=20\\times300+20\\times4\\times T$. This gives $18000-720T=6000+80T \\Rightarrow 12000=800T \\Rightarrow T=15.0°C$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Heat lost by warm water heat to melt",
+          "content": "Heat lost by warm water = heat to melt ice + heat to warm melted ice to $T$: $180\\times4\\times(25-T)=20\\times300+20\\times4\\times T$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "This gives $18000-720T=6000+80T \\Rightarrow 12000=800T \\Rightarrow T=15.0^\\circ\\mathrm{C}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M1-009",
@@ -448,7 +716,27 @@
     "answer": "H",
     "technique": "Journey length in km $=m/x$. Litres used $=(m/x)/f=m/(fx)$. Cost in pence $=\\frac{m}{fx}\\times p=\\frac{mp}{fx}$. Cost in pounds $=\\frac{mp}{100fx}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Journey length in km",
+          "content": "Journey length in km $=m/x$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Litres used $=(m/x)/f=m/(fx)$."
+        },
+        {
+          "title": "Cost in pence",
+          "content": "Cost in pence $=\\frac{m}{fx}\\times p=\\frac{mp}{fx}$."
+        },
+        {
+          "title": "Cost in pounds",
+          "content": "Cost in pounds $=\\frac{mp}{100fx}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-010",
@@ -471,7 +759,23 @@
     "answer": "E",
     "technique": "Speed of sound in rod $v=2L/t_2$ (from the far-end echo). Distance to crack $d=v t_1/2 = L t_1/t_2$. Distance from crack to far end $=L-d=L\\left(1-\\frac{t_1}{t_2}\\right)=\\frac{(t_2-t_1)}{t_2}L$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Speed of sound in rod from the far",
+          "content": "Speed of sound in rod $v=2L/t_2$ (from the far-end echo)."
+        },
+        {
+          "title": "Distance to crack",
+          "content": "Distance to crack $d=v t_1/2 = L t_1/t_2$."
+        },
+        {
+          "title": "Distance from crack to far end",
+          "content": "Distance from crack to far end $=L-d=L\\left(1-\\frac{t_1}{t_2}\\right)=\\frac{(t_2-t_1)}{t_2}L$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-002",
@@ -493,7 +797,19 @@
     "answer": "C",
     "technique": "Let u=2sqrt(x)-1/(2sqrt(x)). du/dx = x^(-1/2) + (1/4)x^(-3/2). At x=1/2: u=sqrt(2)/2, du/dx=sqrt(2)+ (1/4)(2sqrt(2))=(3sqrt(2))/2. dy/dx=2u(du/dx)=2*(sqrt(2)/2)*(3sqrt(2)/2)=3.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let u sqrt x sqrt x du dx",
+          "content": "Let u=2sqrt(x)-1/(2sqrt(x)). du/dx = x^(-1/2) + (1/4)x^(-3/2)."
+        },
+        {
+          "title": "At x u sqrt du dx sqrt sqrt",
+          "content": "At x=1/2: u=sqrt(2)/2, du/dx=sqrt(2)+ (1/4)(2sqrt(2))=(3sqrt(2))/2. dy/dx=2u(du/dx)=2*(sqrt(2)/2)*(3sqrt(2)/2)=3."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-011",
@@ -518,7 +834,19 @@
     "answer": "G",
     "technique": "For P (constant velocity): $2F=mg\\sin60°=2.4\\times10\\times\\frac{\\sqrt3}{2}=12\\sqrt3$ N, so $F=6\\sqrt3$ N. For Q: $a=F/m=6\\sqrt3/0.75\\approx13.8$ m s$^{-2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "For P constant velocity N so N",
+          "content": "For P (constant velocity): $2F=mg\\sin60^\\circ=2.4\\times10\\times\\frac{\\sqrt{3}}{2}=12\\sqrt{3}$ N, so $F=6\\sqrt{3}$ N."
+        },
+        {
+          "title": "For Q m s",
+          "content": "For Q: $a=F/m=6\\sqrt{3}/0.75\\approx13.8$ m s$^{-2}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-003",
@@ -543,7 +871,19 @@
     "answer": "G",
     "technique": "$S_{n+1}-S_{n-1}=a_n+a_{n+1}$ where $a_n=a+(n-1)d$ and $a_{n+1}=a+nd$. Sum $=2a+(2n-1)d$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$S_{n+1}-S_{n-1}=a_n+a_{n+1}$ where $a_n=a+(n-1)d$ and $a_{n+1}=a+nd$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Sum $=2a+(2n-1)d$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-012",
@@ -566,7 +906,23 @@
     "answer": "B",
     "technique": "From the diagram, the 33 cm span corresponds to 2.5 wavelengths, giving $\\lambda=33/2.5=13.2$ cm $=0.132$ m. Frequency $=v/\\lambda=330/0.132=2500$ Hz. The displacement direction at P is read from the diagram's waveform shape (to the left).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "From the diagram the cm span corresponds to",
+          "content": "From the diagram, the 33 cm span corresponds to 2.5 wavelengths, giving $\\lambda=33/2.5=13.2$ cm $=0.132$ m."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Frequency $=v/\\lambda=330/0.132=2500$ Hz."
+        },
+        {
+          "title": "The displacement direction at P is read from",
+          "content": "The displacement direction at P is read from the diagram's waveform shape (to the left)."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-004",
@@ -588,7 +944,27 @@
     "answer": "D",
     "technique": "$x^2+4x+3=\\pm1$. Case $+1$: $x^2+4x+2=0$, discriminant $=16-8=8>0$, gives 2 real roots. Case $-1$: $x^2+4x+4=0 \\Rightarrow (x+2)^2=0$, gives 1 real (repeated) root. Total distinct real solutions $=2+1=3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$x^2+4x+3=\\pm1$."
+        },
+        {
+          "title": "Case discriminant gives real roots",
+          "content": "Case $+1$: $x^2+4x+2=0$, discriminant $=16-8=8>0$, gives 2 real roots."
+        },
+        {
+          "title": "Case gives real repeated root",
+          "content": "Case $-1$: $x^2+4x+4=0 \\Rightarrow (x+2)^2=0$, gives 1 real (repeated) root."
+        },
+        {
+          "title": "Total distinct real solutions",
+          "content": "Total distinct real solutions $=2+1=3$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-013",
@@ -610,7 +986,27 @@
     "answer": "D",
     "technique": "$P=I^2R \\Rightarrow 9=I_4^2\\times4 \\Rightarrow I_4=1.5$ A. Voltage across the parallel section $V_4=1.5\\times4=6$ V. Voltage across the 8.0 Ω series resistor $=30-6=24$ V, giving total current $I=24/8=3$ A. Current through R: $I_R=I-I_4=3-1.5=1.5$ A. $R=V_4/I_R=6/1.5=4.0$ Ω.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$P=one^2R \\Rightarrow 9=I_4^2\\times4 \\Rightarrow I_4=1.5$ A."
+        },
+        {
+          "title": "Voltage across the parallel section V",
+          "content": "Voltage across the parallel section $V_4=1.5\\times4=6$ V."
+        },
+        {
+          "title": "Voltage across the series resistor V giving total",
+          "content": "Voltage across the 8.0 Ω series resistor $=30-6=24$ V, giving total current $one=24/8=3$ A."
+        },
+        {
+          "title": "Current through R A",
+          "content": "Current through R: $I_R=one-I_4=3-1.5=1.5$ A. $R=V_4/I_R=6/1.5=4.0$ Ω."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-005",
@@ -635,7 +1031,19 @@
     "answer": "H",
     "technique": "Radius $r=2$, chord at $x=1$, so distance from centre $d=1$. $\\cos(\\theta/2)=d/r=1/2 \\Rightarrow \\theta/2=\\pi/3 \\Rightarrow \\theta=2\\pi/3$... using the reflex angle for the minor segment on the far side, $\\theta_{major}=2\\pi-2\\pi/3$; computing directly: minor segment area $=\\frac12 r^2(\\theta-\\sin\\theta)$ with $\\theta=\\frac{4\\pi}{3}$ (angle subtended by the minor segment's arc) $=\\frac12(4)\\left(\\frac{4\\pi}{3}-\\sin\\frac{4\\pi}{3}\\right)=\\frac{4\\pi}{3}-\\sqrt3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Radius chord at so distance from centre",
+          "content": "Radius $r=2$, chord at $x=1$, so distance from centre $d=1$."
+        },
+        {
+          "title": "Using the reflex angle for the minor segment",
+          "content": "$\\cos(\\theta/2)=d/r=1/2 \\Rightarrow \\theta/2=\\pi/3 \\Rightarrow \\theta=2\\pi/3$. using the reflex angle for the minor segment on the far side, $\\theta_{major}=2\\pi-2\\pi/3$; computing directly: minor segment area $=\\frac12 r^2(\\theta-\\sin\\theta)$ with $\\theta=\\frac{4\\pi}{3}$ (angle subtended by the minor segment's arc) $=\\frac12(4)\\left(\\frac{4\\pi}{3}-\\sin\\frac{4\\pi}{3}\\right)=\\frac{4\\pi}{3}-\\sqrt{3}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-014",
@@ -658,7 +1066,23 @@
     "answer": "D",
     "technique": "Taking moments about the pivot: weight $W$ acts at the plank's centre, distance $2.5-1.0=1.5$ m from pivot. Cable acts at the far end, distance $5.0-1.0=4.0$ m from pivot, vertical component $=75\\sin60°$. Balance: $W\\times1.5=75\\sin60°\\times4 \\Rightarrow W=\\frac{75\\times\\frac{\\sqrt3}{2}\\times4}{1.5}=100\\sqrt3$ N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Taking moments about the pivot weight acts at",
+          "content": "Taking moments about the pivot: weight $W$ acts at the plank's centre, distance $2.5-1.0=1.5$ m from pivot."
+        },
+        {
+          "title": "Cable acts at the far end distance m",
+          "content": "Cable acts at the far end, distance $5.0-1.0=4.0$ m from pivot, vertical component $=75\\sin60^\\circ$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Balance: $W\\times1.5=75\\sin60^\\circ\\times4 \\Rightarrow W=\\frac{75\\times\\frac{\\sqrt{3}}{2}\\times4}{1.5}=100\\sqrt{3}$ N."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-006",
@@ -681,7 +1105,19 @@
     "answer": "E",
     "technique": "Mean $=\\frac13\\log_{10}(27\\times64\\times216)=\\frac13\\log_{10}(373248)$. Since $373248=72^3$, mean $=\\frac13\\log_{10}(72^3)=\\log_{10}72$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Mean $=\\frac13\\log_{10}(27\\times64\\times216)=\\frac13\\log_{10}(373248)$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Since $373248=72^3$, mean $=\\frac13\\log_{10}(72^3)=\\log_{10}72$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-015",
@@ -704,7 +1140,23 @@
     "answer": "B",
     "technique": "For constant acceleration, distances in successive equal time intervals increase by $at^2$ each interval. With 4 droplets (3 intervals), the gap grows from $x$ (interval 1) to $y=x+2at^2$ (interval 3). So $y-x=2at^2 \\Rightarrow a=\\dfrac{y-x}{2t^2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "For constant acceleration distances in successive equal time",
+          "content": "For constant acceleration, distances in successive equal time intervals increase by $at^2$ each interval."
+        },
+        {
+          "title": "With droplets intervals the gap grows from interval",
+          "content": "With 4 droplets (3 intervals), the gap grows from $x$ (interval 1) to $y=x+2at^2$ (interval 3)."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $y-x=2at^2 \\Rightarrow a=\\dfrac{y-x}{2t^2}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-007",
@@ -727,7 +1179,19 @@
     "answer": "A",
     "technique": "$\\cos$ is decreasing on $[0,\\pi/2]$, so among the cosines $\\cos0.5\\approx0.878$ is largest. $\\sin$ is increasing, so among the sines $\\sin1\\approx0.841$ is largest. Comparing the two: $\\cos0.5>\\sin1$, so $\\cos0.5$ is overall largest.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Is decreasing on so among the cosines is",
+          "content": "$\\cos$ is decreasing on $[0,\\pi/2]$, so among the cosines $\\cos0.5\\approx0.878$ is largest. $\\sin$ is increasing, so among the sines $\\sin1\\approx0.841$ is largest."
+        },
+        {
+          "title": "Comparing the two so is overall largest",
+          "content": "Comparing the two: $\\cos0.5>\\sin1$, so $\\cos0.5$ is overall largest."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-016",
@@ -750,7 +1214,19 @@
     "answer": "C",
     "technique": "Force $=7.2\\times10=72$ N. $E=\\dfrac{FL}{A\\Delta L}=\\dfrac{72\\times2.5}{1.8\\times10^{-6}\\times5\\times10^{-4}}=\\dfrac{180}{9\\times10^{-10}}=2.0\\times10^{11}$ Pa. Energy stored $=\\frac12F\\Delta L=\\frac12\\times72\\times5\\times10^{-4}=0.018$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Force N Pa",
+          "content": "Force $=7.2\\times10=72$ N. $E=\\dfrac{FL}{A\\Delta L}=\\dfrac{72\\times2.5}{1.8\\times10^{-6}\\times5\\times10^{-4}}=\\dfrac{180}{9\\times10^{-10}}=2.0\\times10^{11}$ Pa."
+        },
+        {
+          "title": "Energy stored J",
+          "content": "Energy stored $=\\frac12F\\Delta L=\\frac12\\times72\\times5\\times10^{-4}=0.018$ J."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-008",
@@ -772,7 +1248,23 @@
     "answer": "B",
     "technique": "$\\frac{a}{1-r}=\\frac85$. Even terms: $u_2+u_4+\\ldots=\\frac{ar}{1-r^2}=\\frac{a}{1-r}\\cdot\\frac{r}{1+r}=\\frac85\\cdot\\frac{r}{1+r}=\\frac35 \\Rightarrow \\frac{r}{1+r}=\\frac38 \\Rightarrow 8r=3+3r \\Rightarrow r=\\frac35$. Then $\\frac{a}{1-3/5}=\\frac85 \\Rightarrow a=\\frac{16}{25}$. $a+r=\\frac{16}{25}+\\frac{15}{25}=\\frac{31}{25}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$\\frac{a}{1-r}=\\frac85$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Even terms: $u_2+u_4+\\ldots=\\frac{ar}{1-r^2}=\\frac{a}{1-r}\\cdot\\frac{r}{1+r}=\\frac85\\cdot\\frac{r}{1+r}=\\frac35 \\Rightarrow \\frac{r}{1+r}=\\frac38 \\Rightarrow 8r=3+3r \\Rightarrow r=\\frac35$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $\\frac{a}{1-3/5}=\\frac85 \\Rightarrow a=\\frac{16}{25}$. $a+r=\\frac{16}{25}+\\frac{15}{25}=\\frac{31}{25}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-017",
@@ -794,7 +1286,19 @@
     "answer": "D",
     "technique": "Total initial momentum $=(30+10)\\times4=160$ kg m s$^{-1}$. After jump, child is stationary (zero momentum), so all momentum belongs to the sledge: $10\\times v=160 \\Rightarrow v=16$ m s$^{-1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total initial momentum kg m s",
+          "content": "Total initial momentum $=(30+10)\\times4=160$ kg m s$^{-1}$."
+        },
+        {
+          "title": "After jump child is stationary zero momentum so",
+          "content": "After jump, child is stationary (zero momentum), so all momentum belongs to the sledge: $10\\times v=160 \\Rightarrow v=16$ m s$^{-1}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-009",
@@ -817,7 +1321,27 @@
     "answer": "C",
     "technique": "Note $-x^2+8x-16=-(x-4)^2$. Setting curves equal: $(x-4)(x^2-2x-8)+(x-4)^2=0 \\Rightarrow (x-4)\\left[(x^2-2x-8)+(x-4)\\right]=0 \\Rightarrow (x-4)(x^2-x-12)=0$. Since $x^2-x-12=(x-4)(x+3)$: $(x-4)^2(x+3)=0$, giving $x=4$ (double) and $x=-3$. This is 2 distinct points.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Note $-x^2+8x-16=-(x-4)^2$."
+        },
+        {
+          "title": "Setting curves equal",
+          "content": "Setting curves equal: $(x-4)(x^2-2x-8)+(x-4)^2=0 \\Rightarrow (x-4)\\left[(x^2-2x-8)+(x-4)\\right]=0 \\Rightarrow (x-4)(x^2-x-12)=0$."
+        },
+        {
+          "title": "Since giving double and",
+          "content": "Since $x^2-x-12=(x-4)(x+3)$: $(x-4)^2(x+3)=0$, giving $x=4$ (double) and $x=-3$."
+        },
+        {
+          "title": "This is distinct points",
+          "content": "This is 2 distinct points."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-018",
@@ -841,7 +1365,23 @@
     "answer": "G",
     "technique": "Resistance $R=\\rho L/A$. Volume is conserved: halving the diameter quarters the cross-sectional area ($A'=A/4$), so length quadruples ($L'=4L$) to conserve volume. New resistance $R'=\\rho(4L)/(A/4)=16\\rho L/A=16R$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Resistance $R=\\rho L/A$."
+        },
+        {
+          "title": "Volume is conserved halving the diameter quarters the",
+          "content": "Volume is conserved: halving the diameter quarters the cross-sectional area ($A'=A/4$), so length quadruples ($L'=4L$) to conserve volume."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "New resistance $R'=\\rho(4L)/(A/4)=16\\rho L/A=16R$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-010",
@@ -866,7 +1406,23 @@
     "answer": "H",
     "technique": "Each term 3/(sqrt(a)+sqrt(b)) rationalises to (sqrt(a)-sqrt(b))/2 since a-b=6 throughout. Summing the telescoping series of 7 terms (a=27,24,...,9) leaves sqrt(27)+sqrt(24)-sqrt(6)-sqrt(3) = 3sqrt(3)+2sqrt(6)-sqrt(6)-sqrt(3)=2sqrt(3)+sqrt(6)=sqrt(3)(2+sqrt(2)). Dividing by 2: sqrt(3)(1+sqrt(2)/2).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Each term sqrt a sqrt b rationalises to",
+          "content": "Each term 3/(sqrt(a)+sqrt(b)) rationalises to (sqrt(a)-sqrt(b))/2 since a-b=6 throughout."
+        },
+        {
+          "title": "Summing the telescoping series of terms a leaves",
+          "content": "Summing the telescoping series of 7 terms (a=27,24,.,9) leaves sqrt(27)+sqrt(24)-sqrt(6)-sqrt(3) = 3sqrt(3)+2sqrt(6)-sqrt(6)-sqrt(3)=2sqrt(3)+sqrt(6)=sqrt(3)(2+sqrt(2))."
+        },
+        {
+          "title": "Dividing by sqrt sqrt",
+          "content": "Dividing by 2: sqrt(3)(1+sqrt(2)/2)."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-019",
@@ -891,7 +1447,19 @@
     "answer": "D",
     "technique": "$v=\\int a\\,dt=4t-0.18t^2$ (from rest). $s=\\int v\\,dt=2t^2-0.06t^3$. At $t=10$: $s=2(100)-0.06(1000)=200-60=140$ m.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$v=\\int a\\,dt=4t-0.18t^2$ (from rest). $s=\\int v\\,dt=2t^2-0.06t^3$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "At $t=10$: $s=2(100)-0.06(1000)=200-60=140$ m."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-M2-011",
@@ -914,7 +1482,23 @@
     "answer": "B",
     "technique": "Let $Q=(15,0)$, $P=(p,0)$, $S=(p,\\sqrt p)$ on the curve, $R=(15,\\sqrt p)$. Area $A(p)=(15-p)\\sqrt p=15p^{1/2}-p^{3/2}$. $A'(p)=7.5p^{-1/2}-1.5p^{1/2}=0 \\Rightarrow 7.5=1.5p \\Rightarrow p=5$. Maximum area $=(15-5)\\sqrt5=10\\sqrt5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let on the curve",
+          "content": "Let $Q=(15,0)$, $P=(p,0)$, $S=(p,\\sqrt{p})$ on the curve, $R=(15,\\sqrt{p})$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Area $A(p)=(15-p)\\sqrt{p}=15p^{1/2}-p^{3/2}$. $A'(p)=7.5p^{-1/2}-1.5p^{1/2}=0 \\Rightarrow 7.5=1.5p \\Rightarrow p=5$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Maximum area $=(15-5)\\sqrt{5}=10\\sqrt{5}$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2021-PHY-020",
@@ -939,6 +1523,22 @@
     "answer": "E",
     "technique": "Momentum conservation (initial 0): $mv_1=4mv_2 \\Rightarrow v_1=4v_2$. $KE_1=\\frac12m(4v_2)^2=8mv_2^2$, $KE_2=\\frac12(4m)v_2^2=2mv_2^2$. Total $KE=10mv_2^2=W \\Rightarrow mv_2^2=W/10$. $KE_1=8W/10=4W/5$, $KE_2=2W/10=W/5$. Difference $=4W/5-W/5=3W/5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Momentum conservation initial",
+          "content": "Momentum conservation (initial 0): $mv_1=4mv_2 \\Rightarrow v_1=4v_2$. $KE_1=\\frac12m(4v_2)^2=8mv_2^2$, $KE_2=\\frac12(4m)v_2^2=2mv_2^2$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Total $KE=10mv_2^2=W \\Rightarrow mv_2^2=W/10$. $KE_1=8W/10=4W/5$, $KE_2=2W/10=W/5$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Difference $=4W/5-W/5=3W/5$."
+        }
+      ]
+    }
   }
 ]

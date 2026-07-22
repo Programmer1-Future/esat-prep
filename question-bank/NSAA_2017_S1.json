@@ -20,7 +20,19 @@
     "answer": "F",
     "technique": "$\\sqrt{12}=2\\sqrt3$, so this is $\\dfrac{(3\\sqrt3)^2}{(\\sqrt3)^2}=\\dfrac{27}{3}=9$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "So this is",
+          "content": "$\\sqrt{12}=2\\sqrt{3}$, so this is $\\dfrac{(3\\sqrt{3})^2}{(\\sqrt{3})^2}=\\dfrac{27}{3}=9$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-002",
@@ -43,7 +55,19 @@
     "answer": "E",
     "technique": "$x^2-2x-15\\ge0\\Rightarrow(x-5)(x+3)\\ge0\\Rightarrow x\\le-3$ or $x\\ge5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$x^2-2x-15\\ge0\\Rightarrow(x-5)(x+3)\\ge0\\Rightarrow x\\le-3$ or $x\\ge5$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-003",
@@ -67,7 +91,19 @@
     "answer": "B",
     "technique": "Isolate the squared term, take the square root of both sides (keeping the +- sign), then solve for x; this rearrangement gives x=2+-2sqrt((y+5)/3).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Isolate the squared term take the square root",
+          "content": "Isolate the squared term, take the square root of both sides (keeping the +- sign), then solve for x; this rearrangement gives x=2+-2sqrt((y+5)/3)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-004",
@@ -91,7 +127,19 @@
     "answer": "G",
     "technique": "$2x+5y=P$, $3x+2y=Q$. Eliminate x: $3P-2Q=11y\\Rightarrow y=\\dfrac{3P-2Q}{11}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$2x+5y=P$, $3x+2y=Q$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Eliminate x: $3P-2Q=11y\\Rightarrow y=\\dfrac{3P-2Q}{11}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-005",
@@ -116,7 +164,19 @@
     "answer": "E",
     "technique": "$P=kQ^2$: $2=16k\\Rightarrow k=1/8$. $Q=c/R$: $2=c/5\\Rightarrow c=10$, so $Q=10/R$. $P=\\frac18(10/R)^2=\\dfrac{25}{2R^2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$P=kQ^2$: $2=16k\\Rightarrow k=1/8$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$Q=c/R$: $2=c/5\\Rightarrow c=10$, so $Q=10/R$. $P=\\frac18(10/R)^2=\\dfrac{25}{2R^2}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-006",
@@ -139,7 +199,19 @@
     "answer": "C",
     "technique": "At $n=7$: $S=50,T=50$ (equal). At $n=8$: $S=57,T=35$, so $S>T$ first at $n=8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "At $n=7$: $S=50,T=50$ (equal)."
+        },
+        {
+          "title": "At so first at",
+          "content": "At $n=8$: $S=57,T=35$, so $S>T$ first at $n=8$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-007",
@@ -162,7 +234,19 @@
     "answer": "D",
     "technique": "Combine the algebraic fraction over a common denominator and simplify by cancelling common factors; this reduces to 5 + 2/x.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Combine the algebraic fraction over a common denominator",
+          "content": "Combine the algebraic fraction over a common denominator and simplify by cancelling common factors; this reduces to 5 + 2/x."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-008",
@@ -185,7 +269,19 @@
     "answer": "B",
     "technique": "For a parallelogram OPQR, $P=Q-R+O$. Area $=|\\vec{OR}\\times\\vec{OP}|=1.5a(a+1)=9\\Rightarrow a^2+a-6=0\\Rightarrow a=2$. $P=(2a-1.5a,\\,a+1)=(1,3)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "For a parallelogram OPQR",
+          "content": "For a parallelogram OPQR, $P=Q-R+O$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Area $=|\\vec{OR}\\times\\vec{OP}|=1.5a(a+1)=9\\Rightarrow a^2+a-6=0\\Rightarrow a=2$. $P=(2a-1.5a,\\,a+1)=(1,3)$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-009",
@@ -207,7 +303,23 @@
     "answer": "D",
     "technique": "Express everything in base 2: $4^x=2^{2x}$, $8^{-x}=2^{-3x}$, and $4\\sqrt2=2^2\\times2^{0.5}=2^{2.5}$. The left side becomes $2^{3+2x}\\times2^{2x}\\times2^{-3x}=2^{3+x}$. Setting exponents equal: $3+x=2.5\\Rightarrow x=-0.5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Express everything in base and",
+          "content": "Express everything in base 2: $4^x=2^{2x}$, $8^{-x}=2^{-3x}$, and $4\\sqrt{2}=2^2\\times2^{0.5}=2^{2.5}$."
+        },
+        {
+          "title": "The left side becomes",
+          "content": "The left side becomes $2^{3+2x}\\times2^{2x}\\times2^{-3x}=2^{3+x}$."
+        },
+        {
+          "title": "Setting exponents equal",
+          "content": "Setting exponents equal: $3+x=2.5\\Rightarrow x=-0.5$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-010",
@@ -231,7 +343,19 @@
     "answer": "F",
     "technique": "Girls: French$=X$, Spanish$=35-Y$, so German girls$=3X-X-(35-Y)=2X-35+Y$. German total $=$ German girls $+$ German boys $(2Y)=2X+3Y-35$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Girls French Spanish so German girls",
+          "content": "Girls: French$=X$, Spanish$=35-Y$, so German girls$=3X-X-(35-Y)=2X-35+Y$."
+        },
+        {
+          "title": "German total German girls German boys",
+          "content": "German total $=$ German girls $+$ German boys $(2Y)=2X+3Y-35$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-011",
@@ -255,7 +379,19 @@
     "answer": "C",
     "technique": "$\\dfrac{360}{n}-\\dfrac{360}{n+3}=4\\Rightarrow\\dfrac{1080}{n(n+3)}=4\\Rightarrow n^2+3n-270=0\\Rightarrow n=15$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$\\dfrac{360}{n}-\\dfrac{360}{n+3}=4\\Rightarrow\\dfrac{1080}{n(n+3)}=4\\Rightarrow n^2+3n-270=0\\Rightarrow n=15$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-012",
@@ -277,7 +413,19 @@
     "answer": "B",
     "technique": "Setting L at the origin and solving the isosceles-triangle geometry with the given bearing gives the bearing of L from C as 080°.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Setting L at the origin and solving the",
+          "content": "Setting L at the origin and solving the isosceles-triangle geometry with the given bearing gives the bearing of L from C as 080^\\circ."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-013",
@@ -299,7 +447,23 @@
     "answer": "B",
     "technique": "Hour hand at 4:40: $4(30)+40(0.5)=140°$. Minute hand at 40 min: $240°$. Difference $=100°$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Hour hand at",
+          "content": "Hour hand at 4:40: $4(30)+40(0.5)=140^\\circ$."
+        },
+        {
+          "title": "Minute hand at min",
+          "content": "Minute hand at 40 min: $240^\\circ$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Difference $=100^\\circ$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-014",
@@ -321,7 +485,23 @@
     "answer": "D",
     "technique": "Large cake cost $=6.80/1.7=£4.00$. Small cake volume $=1/8$ of large, cost$=£0.50$ each, 6 cost $£3.00$. Profit $=6.50-3.00=£3.50$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Large cake cost",
+          "content": "Large cake cost $=6.80/1.7=£4.00$."
+        },
+        {
+          "title": "Small cake volume of large cost each cost",
+          "content": "Small cake volume $=1/8$ of large, cost$=£0.50$ each, 6 cost $£3.00$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Profit $=6.50-3.00=£3.50$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-015",
@@ -345,7 +525,19 @@
     "answer": "C",
     "technique": "$\\dfrac{x}{x+4}\\cdot\\dfrac{x-1}{x+3}=\\dfrac13\\Rightarrow3x(x-1)=(x+4)(x+3)\\Rightarrow x^2-5x-6=0\\Rightarrow x=6$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$\\dfrac{x}{x+4}\\cdot\\dfrac{x-1}{x+3}=\\dfrac13\\Rightarrow3x(x-1)=(x+4)(x+3)\\Rightarrow x^2-5x-6=0\\Rightarrow x=6$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-016",
@@ -368,7 +560,19 @@
     "answer": "F",
     "technique": "The circle has radius r=sqrt(x^2+(x/2)^2)=x*sqrt(5)/2, so the semicircle area = pi*r^2/2 = 5*pi*x^2/8. Subtracting the triangular/square overlap region (area x^2) leaves the shaded segment area ((5*pi-8)/8)*x^2.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The circle has radius r sqrt x x",
+          "content": "The circle has radius r=sqrt(x^2+(x/2)^2)=x*sqrt(5)/2, so the semicircle area = pi*r^2/2 = 5*pi*x^2/8."
+        },
+        {
+          "title": "Subtracting the triangular square overlap region area x",
+          "content": "Subtracting the triangular/square overlap region (area x^2) leaves the shaded segment area ((5*pi-8)/8)*x^2."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-017",
@@ -393,7 +597,19 @@
     "answer": "G",
     "technique": "Volume $=\\pi(5^2-4^2)(16)=144\\pi\\text{cm}^3$. Mass $=144\\pi\\times8=1152\\pi$g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Volume $=\\pi(5^2-4^2)(16)=144\\pi\\text{cm}^3$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Mass $=144\\pi\\times8=1152\\pi$g."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M1-018",
@@ -418,7 +634,23 @@
     "answer": "E",
     "technique": "The distance across flats $=2\\times$apothem$=12\\Rightarrow$apothem$=6$. Side $s=12/\\sqrt3=4\\sqrt3$. Area $=\\frac{3\\sqrt3}{2}s^2=72\\sqrt3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The distance across flats apothem apothem",
+          "content": "The distance across flats $=2\\times$apothem$=12\\Rightarrow$apothem$=6$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Side $s=12/\\sqrt{3}=4\\sqrt{3}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Area $=\\frac{3\\sqrt{3}}{2}s^2=72\\sqrt{3}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-001",
@@ -443,7 +675,19 @@
     "answer": "B",
     "technique": "Read the area under the deceleration segment of the v-t graph.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Read the area under the deceleration segment of",
+          "content": "Read the area under the deceleration segment of the v-t graph."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-002",
@@ -468,7 +712,19 @@
     "answer": "G",
     "technique": "Heated water expands (fixed mass, volume increases) and becomes less dense, causing it to rise — statements 2 and 3.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Heated water expands fixed mass volume increases and",
+          "content": "Heated water expands (fixed mass, volume increases) and becomes less dense, causing it to rise — statements 2 and 3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-003",
@@ -491,7 +747,19 @@
     "answer": "E",
     "technique": "Wave 3 ($\\lambda=0.1$m, sound): $f=300/0.1=3000$Hz, audible. Wave 4 ($\\lambda=5\\times10^{-7}$m, EM): $f=6\\times10^{14}$Hz, in the visible range.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Wave m sound Hz audible",
+          "content": "Wave 3 ($\\lambda=0.1$m, sound): $f=300/0.1=3000$Hz, audible."
+        },
+        {
+          "title": "Wave m EM Hz in the visible range",
+          "content": "Wave 4 ($\\lambda=5\\times10^{-7}$m, EM): $f=6\\times10^{14}$Hz, in the visible range."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-004",
@@ -514,7 +782,19 @@
     "answer": "E",
     "technique": "$I=Q/t=60/30=2$A. $R=V/I=10/2=5.0\\Omega$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$one=Q/t=60/30=2$A. $R=V/one=10/2=5.0\\Omega$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-005",
@@ -537,7 +817,19 @@
     "answer": "D",
     "technique": "PE gained $=1200\\times10\\times1=12000$J$=12$kJ. Energy lost $=$input$-$useful $=28-12=16$kJ.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "PE gained J kJ",
+          "content": "PE gained $=1200\\times10\\times1=12000$J$=12$kJ."
+        },
+        {
+          "title": "Energy lost input useful kJ",
+          "content": "Energy lost $=$input$-$useful $=28-12=16$kJ."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-006",
@@ -560,7 +852,19 @@
     "answer": "D",
     "technique": "Path difference $=c\\Delta t=3\\times10^8\\times4\\times10^{-10}=0.12$m. This equals $2x$ (extra path to far detector), so $x=0.06$m$=6.0$cm.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Path difference m",
+          "content": "Path difference $=c\\Delta t=3\\times10^8\\times4\\times10^{-10}=0.12$m."
+        },
+        {
+          "title": "This equals extra path to far detector so",
+          "content": "This equals $2x$ (extra path to far detector), so $x=0.06$m$=6.0$cm."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-007",
@@ -583,7 +887,19 @@
     "answer": "B",
     "technique": "By conservation of mass number (nucleon number) across the fission equation, the sum of the daughter nuclei mass numbers plus any released neutrons must equal the mass number of the absorbing nucleus plus the absorbed neutron (239+1=240). Rearranging this conservation equation for the unknown z gives z = 240-(w+y).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "By conservation of mass number nucleon number across",
+          "content": "By conservation of mass number (nucleon number) across the fission equation, the sum of the daughter nuclei mass numbers plus any released neutrons must equal the mass number of the absorbing nucleus plus the absorbed neutron (239+1=240)."
+        },
+        {
+          "title": "Rearranging this conservation equation for the unknown z",
+          "content": "Rearranging this conservation equation for the unknown z gives z = 240-(w+y)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-008",
@@ -606,7 +922,19 @@
     "answer": "F",
     "technique": "Useful PE gained $=20\\times10\\times6=1200$J. Input $=1200/0.8=1500$J over 5s $=300$W. $I=P/V=300/12=25$A.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Useful PE gained J",
+          "content": "Useful PE gained $=20\\times10\\times6=1200$J."
+        },
+        {
+          "title": "Input J over s W A",
+          "content": "Input $=1200/0.8=1500$J over 5s $=300$W. $one=P/V=300/12=25$A."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-009",
@@ -631,7 +959,19 @@
     "answer": "A",
     "technique": "Beta decay changes Z by +1 without changing mass; alpha decay changes mass by -4 and Z by -2. A mass-unchanged nuclide (mass still P) can only arise from beta decays alone (Z increasing), so (P, Q-1) — same mass but decreased Z — is impossible.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Beta decay changes Z by without changing mass",
+          "content": "Beta decay changes Z by +1 without changing mass; alpha decay changes mass by -4 and Z by -2."
+        },
+        {
+          "title": "A mass unchanged nuclide mass still P can",
+          "content": "A mass-unchanged nuclide (mass still P) can only arise from beta decays alone (Z increasing), so (P, Q-1) — same mass but decreased Z — is impossible."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-010",
@@ -654,7 +994,19 @@
     "answer": "A",
     "technique": "Same mass, so density ratio $=$ inverse volume ratio $=(r_{nucleus}/r_{atom})^3=(3.0\\times10^4)^{-3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Same mass so density ratio inverse volume ratio",
+          "content": "Same mass, so density ratio $=$ inverse volume ratio $=(r_{nucleus}/r_{atom})^3=(3.0\\times10^4)^{-3}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-011",
@@ -677,7 +1029,19 @@
     "answer": "E",
     "technique": "Wave speed $=\\lambda/T$; reading the marked fractions of a full cycle on each graph and scaling $(x_2-x_1)$ and $(t_2-t_1)$ to full wavelength/period gives this multiple.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Wave speed reading the marked fractions of a",
+          "content": "Wave speed $=\\lambda/T$; reading the marked fractions of a full cycle on each graph and scaling $(x_2-x_1)$ and $(t_2-t_1)$ to full wavelength/period gives this multiple."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-012",
@@ -700,7 +1064,19 @@
     "answer": "C",
     "technique": "$I=P/V=150/12=12.5$A. $Q=It=12.5\\times1200=15000$C.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$one=P/V=150/12=12.5$A."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$Q=It=12.5\\times1200=15000$C."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-013",
@@ -722,7 +1098,19 @@
     "answer": "C",
     "technique": "Freight mass $=390+210=600$t, momentum $=1200$t·m/s. For momenta to cancel: $(140+10n)(5)=1200\\Rightarrow140+10n=240\\Rightarrow n=10$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Freight mass t momentum t m s",
+          "content": "Freight mass $=390+210=600$t, momentum $=1200$t·m/s."
+        },
+        {
+          "title": "For momenta to cancel",
+          "content": "For momenta to cancel: $(140+10n)(5)=1200\\Rightarrow140+10n=240\\Rightarrow n=10$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-014",
@@ -745,7 +1133,19 @@
     "answer": "C",
     "technique": "1: $200/5=40$kg ✓. 4: $200\\text{N}/5\\text{ms}^{-2}=40$kg (Newton's 2nd law) ✓. 2 gives Newtons, 3 gives kg/m⁶.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Kg kg Newton s nd law gives Newtons",
+          "content": "1: $200/5=40$kg ✓. 4: $200\\text{N}/5\\text{ms}^{-2}=40$kg (Newton's 2nd law) ✓. 2 gives Newtons, 3 gives kg/m⁶."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-015",
@@ -770,7 +1170,23 @@
     "answer": "C",
     "technique": "$KE=\\frac12(72)(5^2)=900$J not 1800J (1 false). Rate of PE loss $=mgv=72\\times10\\times5=3600$J/s (2 true). Air resistance and weight act on the same body, so they cannot be a Newton's 3rd law pair (3 false).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "J not J false",
+          "content": "$KE=\\frac12(72)(5^2)=900$J not 1800J (1 false)."
+        },
+        {
+          "title": "Rate of PE loss J s true",
+          "content": "Rate of PE loss $=mgv=72\\times10\\times5=3600$J/s (2 true)."
+        },
+        {
+          "title": "Air resistance and weight act on the same",
+          "content": "Air resistance and weight act on the same body, so they cannot be a Newton's 3rd law pair (3 false)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-016",
@@ -793,7 +1209,27 @@
     "answer": "D",
     "technique": "After 6h (2 half-lives of X, 3 of Y), from $N_0$ each: X remaining $=N_0/4$, Y remaining $=N_0/8$. Z formed $=3N_0/4+7N_0/8=13N_0/8$. Total $=2N_0$. Fraction Z $=13/16$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "After h half lives of X of Y",
+          "content": "After 6h (2 half-lives of X, 3 of Y), from $N_0$ each: X remaining $=N_0/4$, Y remaining $=N_0/8$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Z formed $=3N_0/4+7N_0/8=13N_0/8$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Total $=2N_0$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Fraction Z $=13/16$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-017",
@@ -815,7 +1251,19 @@
     "answer": "E",
     "technique": "$\\dfrac{KE_X}{KE_Y}=\\dfrac{m_X}{m_Y}\\left(\\dfrac{v_X}{v_Y}\\right)^2=0.8\\times1.5^2=0.8\\times2.25=1.8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$\\dfrac{KE_X}{KE_Y}=\\dfrac{m_X}{m_Y}\\left(\\dfrac{v_X}{v_Y}\\right)^2=0.8\\times1.5^2=0.8\\times2.25=1.8$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-018",
@@ -837,7 +1285,19 @@
     "answer": "E",
     "technique": "$I_{12\\Omega}$: $12=I^2(12)\\Rightarrow I=1$A, so $V=12$V across the parallel combination. $P_{4\\Omega}=V^2/R=144/4=36$W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "A so V across the parallel combination",
+          "content": "$I_{12\\Omega}$: $12=one^2(12)\\Rightarrow one=1$A, so $V=12$V across the parallel combination."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$P_{4\\Omega}=V^2/R=144/4=36$W."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-001",
@@ -862,7 +1322,19 @@
     "answer": "F",
     "technique": "Both $^{16}_8$O²⁻ and $^{24}_{12}$Mg²⁺ have 10 electrons — neon configuration (1 true). $^{32}_{16}$S²⁻ has 16 neutrons vs $^{18}_8$O's 10 — not double (2 false). Electrons: $^{16}_8$O²⁻ (10) + $^{18}_8$O (8) = 18 = electrons in $^{32}_{16}$S²⁻ (18) (3 true).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Both O and Mg have electrons neon configuration",
+          "content": "Both $^{16}_8$O^2⁻ and $^{24}_{12}$Mg^2⁺ have 10 electrons — neon configuration (1 true). $^{32}_{16}$S^2⁻ has 16 neutrons vs $^{18}_8$O's 10 — not double (2 false)."
+        },
+        {
+          "title": "Electrons O O electrons in S true",
+          "content": "Electrons: $^{16}_8$O^2⁻ (10) + $^{18}_8$O (8) = 18 = electrons in $^{32}_{16}$S^2⁻ (18) (3 true)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-002",
@@ -885,7 +1357,23 @@
     "answer": "B",
     "technique": "Reaction 1 is oxidation (Ca loses electrons). Reaction 3: CO is oxidised to CO2 (C: +2→+4). Reactions 2 and 4 involve no oxidation.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reaction is oxidation Ca loses electrons",
+          "content": "Reaction 1 is oxidation (Ca loses electrons)."
+        },
+        {
+          "title": "Reaction CO is oxidised to CO C",
+          "content": "Reaction 3: CO is oxidised to CO2 (C: +2→+4)."
+        },
+        {
+          "title": "Reactions and involve no oxidation",
+          "content": "Reactions 2 and 4 involve no oxidation."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-003",
@@ -910,7 +1398,19 @@
     "answer": "H",
     "technique": "All three properties depend only on the acid being present (turning litmus red, reacting with carbonate) or on moles of acid for full neutralisation (same concentration/volume) — these hold regardless of acid strength.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "All three properties depend only on the acid",
+          "content": "All three properties depend only on the acid being present (turning litmus red, reacting with carbonate) or on moles of acid for full neutralisation (same concentration/volume) — these hold regardless of acid strength."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-004",
@@ -935,7 +1435,19 @@
     "answer": "A",
     "technique": "Increasing temperature increases rate for both but only increases yield for the endothermic reaction (R), decreasing it for the exothermic one (Q). Pressure and catalysts affect rate but not equilibrium yield here — no single action satisfies both criteria for both reactions.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Increasing temperature increases rate for both but only",
+          "content": "Increasing temperature increases rate for both but only increases yield for the endothermic reaction (R), decreasing it for the exothermic one (Q)."
+        },
+        {
+          "title": "Pressure and catalysts affect rate but not equilibrium",
+          "content": "Pressure and catalysts affect rate but not equilibrium yield here — no single action satisfies both criteria for both reactions."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-005",
@@ -960,7 +1472,19 @@
     "answer": "D",
     "technique": "Reading spot positions relative to the solvent front and baseline on the chromatogram, only the Rf=0.7 claim for spot (v) is supported.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Reading spot positions relative to the solvent front",
+          "content": "Reading spot positions relative to the solvent front and baseline on the chromatogram, only the Rf=0.7 claim for spot (v) is supported."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-006",
@@ -985,7 +1509,19 @@
     "answer": "C",
     "technique": "Calcium (Z=20) forms Ca²⁺, giving oxide CaO (formula XO). This is an ionic metal oxide, which is basic.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Calcium Z forms Ca giving oxide CaO formula",
+          "content": "Calcium (Z=20) forms Ca^2⁺, giving oxide CaO (formula XO)."
+        },
+        {
+          "title": "This is an ionic metal oxide which is",
+          "content": "This is an ionic metal oxide, which is basic."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-007",
@@ -1008,7 +1544,19 @@
     "answer": "D",
     "technique": "Balancing charge and atoms for Cu3(PO4)2 formation gives $3Cu^{2+}(aq)+2PO_4^{3-}(aq)\\to Cu_3(PO_4)_2(s)$; spectator ions (Cl⁻, Li⁺) are excluded from the ionic equation.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Balancing charge and atoms for Cu PO formation",
+          "content": "Balancing charge and atoms for Cu3(PO4)2 formation gives $3Cu^{2+}(aq)+2PO_4^{3-}(aq)\\to Cu_3(PO_4)_2(s)$; spectator ions (Cl⁻, Li⁺) are excluded from the ionic equation."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-008",
@@ -1031,7 +1579,19 @@
     "answer": "D",
     "technique": "$2Li+2H_2O\\to2LiOH+H_2$: 7g Li (1mol) gives 0.5mol H2 = 1g (not 2g, so 2 false). Reaction is redox (1 true) and produces alkaline LiOH (3 true). 14g Li (2mol) needs 2mol water = 36g exactly (4 true).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "G Li mol gives mol H g not",
+          "content": "$2Li+2H_2O\\to2LiOH+H_2$: 7g Li (1mol) gives 0.5mol H2 = 1g (not 2g, so 2 false)."
+        },
+        {
+          "title": "Reaction is redox true and produces alkaline LiOH",
+          "content": "Reaction is redox (1 true) and produces alkaline LiOH (3 true). 14g Li (2mol) needs 2mol water = 36g exactly (4 true)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-009",
@@ -1053,7 +1613,19 @@
     "answer": "D",
     "technique": "Reduction (gain of electrons) occurs at the cathode: $Cu^{2+}+2e^-\\to Cu$. Oxidation occurs at the anode: $2Cl^-\\to Cl_2+2e^-$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reduction gain of electrons occurs at the cathode",
+          "content": "Reduction (gain of electrons) occurs at the cathode: $Cu^{2+}+2e^-\\to Cu$."
+        },
+        {
+          "title": "Oxidation occurs at the anode",
+          "content": "Oxidation occurs at the anode: $2Cl^-\\to Cl_2+2e^-$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-010",
@@ -1076,7 +1648,35 @@
     "answer": "E",
     "technique": "In 81g of compound, mass F = 57g, so mass C = 24g. Moles C = 24/12 = 2, moles F = 57/19 = 3, giving empirical formula C2F3 (empirical mass = 2(12)+3(19) = 81, consistent with the given 81g sample). Since molecular mass is double the empirical mass, molecular mass = 162, so molecular formula = C4F6 (mass = 4(12)+6(19) = 48+114 = 162). This is exactly double the empirical formula, confirming C4F6.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "In g of compound mass F g so",
+          "content": "In 81g of compound, mass F = 57g, so mass C = 24g. Moles C = 24/12 = 2, moles F"
+        },
+        {
+          "title": "Giving empirical formula C F empirical mass",
+          "content": "= 57/19 = 3, giving empirical formula C2F3 (empirical mass"
+        },
+        {
+          "title": "Consistent with the given g sample",
+          "content": "= 2(12)+3(19) = 81, consistent with the given 81g sample)."
+        },
+        {
+          "title": "Since molecular mass is double the empirical mass",
+          "content": "Since molecular mass is double the empirical mass, molecular mass = 162, so molecular formula = C4F6 (mass"
+        },
+        {
+          "title": "Work step 5",
+          "content": "= 4(12)+6(19) = 48+114 = 162)."
+        },
+        {
+          "title": "This is exactly double the empirical formula confirming",
+          "content": "This is exactly double the empirical formula, confirming C4F6."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-011",
@@ -1101,7 +1701,19 @@
     "answer": "E",
     "technique": "1: 2mol CO+1mol O2→2mol CO2, net gas moles change $=3-2=-1$mol per 2mol CO; for 2mol CO (56g), $\\Delta n=-1$mol$=-24$dm³ ✓. 2: 2mol H2O(g)→3mol gas, for 1mol H2O(18g)... for 2mol(36g): $\\Delta n=3-2=1$mol$=24$dm³ ✓. 3: 2NO+O2→2NO2, $\\Delta n=2-3=-1$mol per 2mol NO(60g); for 30g(1mol NO): $\\Delta n=-0.5$mol, not 24dm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Mol CO mol O mol CO net gas",
+          "content": "1: 2mol CO+1mol O2→2mol CO2, net gas moles change $=3-2=-1$mol per 2mol CO; for 2mol CO (56g), $\\Delta n=-1$mol$=-24$dm^3 ✓."
+        },
+        {
+          "title": "Mol H O g mol gas for mol",
+          "content": "2: 2mol H2O(g)→3mol gas, for 1mol H2O(18g). for 2mol(36g): $\\Delta n=3-2=1$mol$=24$dm^3 ✓. 3: 2NO+O2→2NO2, $\\Delta n=2-3=-1$mol per 2mol NO(60g); for 30g(1mol NO): $\\Delta n=-0.5$mol, not 24dm^3."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-012",
@@ -1124,7 +1736,31 @@
     "answer": "F",
     "technique": "Moles Mg $=1.2/24=0.05$mol. For P: moles acid $=1.0\\times0.040=0.04$mol $<0.05$mol Mg, so acid is limiting, giving H$_2$=0.04mol. For Q (2.0 mol/dm$^3$, same volume): moles acid $=0.08$mol $>0.05$mol Mg, so Mg becomes limiting, H$_2$=0.05mol (higher volume than P, and faster due to higher concentration) — matches curve 3. For R (0.5 mol/dm$^3$): moles acid $=0.02$mol $<0.05$mol, acid limiting, H$_2$=0.02mol (lower volume than P, and slower) — matches curve 5. So Q=3, R=5.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Moles Mg mol",
+          "content": "Moles Mg $=1.2/24=0.05$mol."
+        },
+        {
+          "title": "For P moles acid mol mol Mg so",
+          "content": "For P: moles acid $=1.0\\times0.040=0.04$mol $<0.05$mol Mg, so acid is limiting, giving H$_2$=0.04mol."
+        },
+        {
+          "title": "For Q mol dm same volume moles acid",
+          "content": "For Q (2.0 mol/dm$^3$, same volume): moles acid $=0.08$mol $>0.05$mol Mg, so Mg becomes limiting, H$_2$=0.05mol (higher volume than P, and faster due to higher concentration) — matches curve 3."
+        },
+        {
+          "title": "For R mol dm moles acid mol mol",
+          "content": "For R (0.5 mol/dm$^3$): moles acid $=0.02$mol $<0.05$mol, acid limiting, H$_2$=0.02mol (lower volume than P, and slower) — matches curve 5."
+        },
+        {
+          "title": "So Q R",
+          "content": "So Q=3, R=5."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-013",
@@ -1147,7 +1783,19 @@
     "answer": "E",
     "technique": "$\\Delta H=$ bonds broken $-$ bonds formed: $-93=(E_{N\\equiv N}+3\\times436)-(6\\times391)=E_{N\\equiv N}+1308-2346$. $E_{N\\equiv N}=-93-1308+2346=945$kJ/mol.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Bonds broken bonds formed",
+          "content": "$\\Delta H=$ bonds broken $-$ bonds formed: $-93=(E_{N\\equiv N}+3\\times436)-(6\\times391)=E_{N\\equiv N}+1308-2346$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$E_{N\\equiv N}=-93-1308+2346=945$kJ/mol."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-014",
@@ -1172,7 +1820,23 @@
     "answer": "B",
     "technique": "Reduction always occurs at the cathode (negative electrode) — statement 1 true. In brine, H2 (not a metal) forms at the cathode, so 3 is false. The differing negative-electrode products (Pb vs H2) mean equal masses don't correspond to equal Cl2 volumes, so 2 is false.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reduction always occurs at the cathode negative electrode",
+          "content": "Reduction always occurs at the cathode (negative electrode) — statement 1 true."
+        },
+        {
+          "title": "In brine H not a metal forms at",
+          "content": "In brine, H2 (not a metal) forms at the cathode, so 3 is false."
+        },
+        {
+          "title": "The differing negative electrode products Pb vs H",
+          "content": "The differing negative-electrode products (Pb vs H2) mean equal masses don't correspond to equal Cl2 volumes, so 2 is false."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-015",
@@ -1195,7 +1859,19 @@
     "answer": "A",
     "technique": "Moles AgNO3 $=0.050\\times0.1=0.005$mol. Stoichiometric Zn $=0.0025$mol $=0.0025\\times65=0.1625$g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Moles AgNO mol",
+          "content": "Moles AgNO3 $=0.050\\times0.1=0.005$mol."
+        },
+        {
+          "title": "Stoichiometric Zn mol g",
+          "content": "Stoichiometric Zn $=0.0025$mol $=0.0025\\times65=0.1625$g."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-016",
@@ -1218,7 +1894,19 @@
     "answer": "D",
     "technique": "Let f=fraction of ⁶³Cu: $62.93f+64.93(1-f)=63.55\\Rightarrow64.93-2f=63.55\\Rightarrow f=0.69$. So 69% ⁶³Cu, 31% ⁶⁵Cu.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let f fraction of Cu",
+          "content": "Let f=fraction of ⁶^3Cu: $62.93f+64.93(1-f)=63.55\\Rightarrow64.93-2f=63.55\\Rightarrow f=0.69$."
+        },
+        {
+          "title": "So Cu Cu",
+          "content": "So 69% ⁶^3Cu, 31% ⁶⁵Cu."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-017",
@@ -1240,7 +1928,23 @@
     "answer": "C",
     "technique": "8.8g CO2 = 0.2mol, needing 0.2mol CaCO3 (20g) -- only experiments with at least 20g CaCO3 and sufficient HCl can produce this much. Among those, powdered form and higher HCl concentration would give the fastest rate, but the powdered-form experiment available has insufficient CaCO3 mass relative to what is needed. The chip-form experiment with 20g CaCO3 and 2.0mol/dm3 HCl (ample acid) gives sufficient reactant with a good concentration despite being in chip form.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "G CO mol needing mol CaCO g only",
+          "content": "8.8g CO2 = 0.2mol, needing 0.2mol CaCO3 (20g) -- only experiments with at least 20g CaCO3 and sufficient HCl can produce this much."
+        },
+        {
+          "title": "Among those powdered form and higher HCl concentration",
+          "content": "Among those, powdered form and higher HCl concentration would give the fastest rate, but the powdered-form experiment available has insufficient CaCO3 mass relative to what is needed."
+        },
+        {
+          "title": "The chip form experiment with g CaCO and",
+          "content": "The chip-form experiment with 20g CaCO3 and 2.0mol/dm3 HCl (ample acid) gives sufficient reactant with a good concentration despite being in chip form."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-CHEM-018",
@@ -1263,7 +1967,19 @@
     "answer": "D",
     "technique": "$0.05\\text{nm}=5\\times10^{-11}$m. Nucleus radius $=5\\times10^{-11}/50000=1\\times10^{-15}$m$=1$fm.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$0.05\\text{nm}=5\\times10^{-11}$m."
+        },
+        {
+          "title": "Nucleus radius m fm",
+          "content": "Nucleus radius $=5\\times10^{-11}/50000=1\\times10^{-15}$m$=1$fm."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-001",
@@ -1288,7 +2004,23 @@
     "answer": "A",
     "technique": "From the graph, P has a HIGHER peak lactic acid concentration than Q (statement 2 false — P's debt is higher, not lower), and at the end of the recovery period Q has returned close to baseline while P is still elevated (statement 1 false — P's debt is repaid more slowly, not quicker). Since P accumulates more lactic acid and recovers more slowly, P is the LESS fit of the two (statement 3 false). None of the three statements are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "From the graph P has a HIGHER peak",
+          "content": "From the graph, P has a HIGHER peak lactic acid concentration than Q (statement 2 false — P's debt is higher, not lower), and at the end of the recovery period Q has returned close to baseline while P is still elevated (statement 1 false — P's debt is repaid more slowly, not quicker)."
+        },
+        {
+          "title": "Since P accumulates more lactic acid and recovers",
+          "content": "Since P accumulates more lactic acid and recovers more slowly, P is the LESS fit of the two (statement 3 false)."
+        },
+        {
+          "title": "None of the three statements are correct",
+          "content": "None of the three statements are correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-002",
@@ -1311,7 +2043,19 @@
     "answer": "B",
     "technique": "Most spontaneous mutations have no effect (often on non-coding DNA or silent changes), a smaller fraction are harmful, and beneficial mutations are rare — the correct chart shows a large 'no effect' segment, a moderate 'harmful' segment and a small 'beneficial' segment.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Most spontaneous mutations have no effect often on",
+          "content": "Most spontaneous mutations have no effect (often on non-coding DNA or silent changes), a smaller fraction are harmful, and beneficial mutations are rare — the correct chart shows a large 'no effect' segment, a moderate 'harmful' segment and a small 'beneficial' segment."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-003",
@@ -1335,7 +2079,23 @@
     "answer": "C",
     "technique": "Frequency of occurrence = (quadrats containing the species)/(total quadrats). Counting presence across the 10 quadrats: species X present in 9/10 quadrats (freq 0.9), species Y present in 7/10 (freq 0.7, absent in quadrats 2, 4, 9), species Z present in 8/10 (freq 0.8, absent in quadrats 8, 10). The lowest frequency is Y's, at 0.7.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Frequency of occurrence quadrats containing the species t",
+          "content": "Frequency of occurrence = (quadrats containing the species)/(total quadrats)."
+        },
+        {
+          "title": "Counting presence across the quadrats species X present",
+          "content": "Counting presence across the 10 quadrats: species X present in 9/10 quadrats (freq 0.9), species Y present in 7/10 (freq 0.7, absent in quadrats 2, 4, 9), species Z present in 8/10 (freq 0.8, absent in quadrats 8, 10)."
+        },
+        {
+          "title": "The lowest frequency is Y s at",
+          "content": "The lowest frequency is Y's, at 0.7."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-004",
@@ -1360,7 +2120,23 @@
     "answer": "E",
     "technique": "All body cells share the same genome (1 true). A female has XX, so all her cells including stem cells carry two X chromosomes (2 true). Stem cell division normally produces one new stem cell and one specialised cell, not two (3 false).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "All body cells share the same genome true",
+          "content": "All body cells share the same genome (1 true)."
+        },
+        {
+          "title": "A female has XX so all her cells",
+          "content": "A female has XX, so all her cells including stem cells carry two X chromosomes (2 true)."
+        },
+        {
+          "title": "Stem cell division normally produces one new stem",
+          "content": "Stem cell division normally produces one new stem cell and one specialised cell, not two (3 false)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-005",
@@ -1385,7 +2161,19 @@
     "answer": "A",
     "technique": "None is guaranteed: removing competitors or adding nutrients only helps if these were limiting factors, and a 'change' in reproduction rate could be a decrease — none of the statements always causes growth.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "None is guaranteed removing competitors or adding nutrients",
+          "content": "None is guaranteed: removing competitors or adding nutrients only helps if these were limiting factors, and a 'change' in reproduction rate could be a decrease — none of the statements always causes growth."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-006",
@@ -1409,7 +2197,31 @@
     "answer": "D",
     "technique": "All three organisms use enzymes to release energy (the bottom circle), so none can lie only in the top overlap region P. Fungi have a cell wall AND a nucleus AND use enzymes -> region S (centre, all three circles). Bacteria have a cell wall but no nucleus, plus enzymes -> region Q. Animals have a nucleus but no cell wall, plus enzymes -> region R. Row: fungi=S, bacteria=Q, animals=R.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "All three organisms use enzymes to release energy",
+          "content": "All three organisms use enzymes to release energy (the bottom circle), so none can lie only in the top overlap region P."
+        },
+        {
+          "title": "Fungi have a cell wall AND a nucleus",
+          "content": "Fungi have a cell wall AND a nucleus AND use enzymes -> region S (centre, all three circles)."
+        },
+        {
+          "title": "Bacteria have a cell wall but no nucleus",
+          "content": "Bacteria have a cell wall but no nucleus, plus enzymes -> region Q."
+        },
+        {
+          "title": "Animals have a nucleus but no cell wall",
+          "content": "Animals have a nucleus but no cell wall, plus enzymes -> region R."
+        },
+        {
+          "title": "Row fungi S bacteria Q animals R",
+          "content": "Row: fungi=S, bacteria=Q, animals=R."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-007",
@@ -1431,7 +2243,23 @@
     "answer": "B",
     "technique": "Primary consumer (rat) energy $=150000\\times0.1=15000$. Secondary consumer (rattlesnake) $=1500$. Energy lost in that transfer $=15000-1500=13500$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Primary consumer rat energy",
+          "content": "Primary consumer (rat) energy $=150000\\times0.1=15000$."
+        },
+        {
+          "title": "Secondary consumer rattlesnake",
+          "content": "Secondary consumer (rattlesnake) $=1500$."
+        },
+        {
+          "title": "Energy lost in that transfer",
+          "content": "Energy lost in that transfer $=15000-1500=13500$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-008",
@@ -1456,7 +2284,27 @@
     "answer": "D",
     "technique": "Statement 1 is false: binary fission produces genetically near-identical daughter cells, not large genetic differences. Statement 2 is false as worded: bacteria (prokaryotes) divide by BINARY FISSION, not mitosis (mitosis is a eukaryotic process). Statement 3 is true: bacteria have no nucleus, so their circular chromosome replicates freely in the cytoplasm. Only statement 3 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Statement is false binary fission produces genetically near",
+          "content": "Statement 1 is false: binary fission produces genetically near-identical daughter cells, not large genetic differences."
+        },
+        {
+          "title": "Statement is false as worded bacteria prokaryotes divide",
+          "content": "Statement 2 is false as worded: bacteria (prokaryotes) divide by BINARY FISSION, not mitosis (mitosis is a eukaryotic process)."
+        },
+        {
+          "title": "Statement is true bacteria have no nucleus so",
+          "content": "Statement 3 is true: bacteria have no nucleus, so their circular chromosome replicates freely in the cytoplasm."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 3 is correct."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-009",
@@ -1481,7 +2329,23 @@
     "answer": "G",
     "technique": "With the motor running (clinostat 1), the plant is rotated so gravity's directional pull is averaged out in all directions, removing the gravitropic stimulus — the root continues growing in its original (horizontal) orientation along the tube. With the motor stationary (clinostat 2), normal positive gravitropism occurs and the root grows downwards. So clinostat 1 grows horizontally and clinostat 2 grows downwards.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "With the motor running clinostat the plant is",
+          "content": "With the motor running (clinostat 1), the plant is rotated so gravity's directional pull is averaged out in all directions, removing the gravitropic stimulus — the root continues growing in its original (horizontal) orientation along the tube."
+        },
+        {
+          "title": "With the motor stationary clinostat normal positive gravi",
+          "content": "With the motor stationary (clinostat 2), normal positive gravitropism occurs and the root grows downwards."
+        },
+        {
+          "title": "So clinostat grows horizontally and clinostat grows downw",
+          "content": "So clinostat 1 grows horizontally and clinostat 2 grows downwards."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-010",
@@ -1504,7 +2368,19 @@
     "answer": "B",
     "technique": "If the father is homozygous dominant, no child can be homozygous recessive (probability 0). If heterozygous and the mother is a carrier, $P(\\text{affected})=\\frac14$, $P(\\text{girl})=\\frac12$, giving $\\frac18=0.125$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "If the father is homozygous dominant no child",
+          "content": "If the father is homozygous dominant, no child can be homozygous recessive (probability 0)."
+        },
+        {
+          "title": "If heterozygous and the mother is a carrier",
+          "content": "If heterozygous and the mother is a carrier, $P(\\text{affected})=\\frac14$, $P(\\text{girl})=\\frac12$, giving $\\frac18=0.125$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-011",
@@ -1526,7 +2402,19 @@
     "answer": "C",
     "technique": "Water moves into the sucrose solution by osmosis, so the capillary level rises, with the rate slowing as the concentration gradient decreases — a curve rising and levelling off.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Water moves into the sucrose solution by osmosis",
+          "content": "Water moves into the sucrose solution by osmosis, so the capillary level rises, with the rate slowing as the concentration gradient decreases — a curve rising and levelling off."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-012",
@@ -1549,7 +2437,19 @@
     "answer": "C",
     "technique": "Mitosis occurs during growth within a single ploidy level (haploid spore→gamete growth, and diploid zygote→adult growth); transitions between n and 2n involve meiosis or fertilisation instead.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Mitosis occurs during growth within a single ploidy",
+          "content": "Mitosis occurs during growth within a single ploidy level (haploid spore→gamete growth, and diploid zygote→adult growth); transitions between n and 2n involve meiosis or fertilisation instead."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-013",
@@ -1574,7 +2474,23 @@
     "answer": "F",
     "technique": "Darker leaves have more chlorophyll and photosynthesise faster on average (1 true). Time taken for a set fraction to float is inversely related to rate, so its reciprocal is a valid rate measure (3 true). Statement 2 requires reading a specific data point not confirmable from the description alone.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Darker leaves have more chlorophyll and photosynthesise f",
+          "content": "Darker leaves have more chlorophyll and photosynthesise faster on average (1 true)."
+        },
+        {
+          "title": "Time taken for a set fraction to float",
+          "content": "Time taken for a set fraction to float is inversely related to rate, so its reciprocal is a valid rate measure (3 true)."
+        },
+        {
+          "title": "Statement requires reading a specific data point not",
+          "content": "Statement 2 requires reading a specific data point not confirmable from the description alone."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-014",
@@ -1599,7 +2515,19 @@
     "answer": "H",
     "technique": "pH, enzyme concentration, and incubation temperature can all affect enzyme activity and therefore the extent of starch digestion (clear area diameter) — all three are potential factors.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "PH enzyme concentration and incubation temperature can all",
+          "content": "pH, enzyme concentration, and incubation temperature can all affect enzyme activity and therefore the extent of starch digestion (clear area diameter) — all three are potential factors."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-015",
@@ -1623,7 +2551,19 @@
     "answer": "A",
     "technique": "The control shoot (P) with an intact, exposed tip bends toward the light (positive phototropism); removing the tip (Q) removes the auxin source, preventing directional growth; covering the tip (R) blocks light detection at the tip, also preventing normal bending.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "The control shoot P with an intact exposed",
+          "content": "The control shoot (P) with an intact, exposed tip bends toward the light (positive phototropism); removing the tip (Q) removes the auxin source, preventing directional growth; covering the tip (R) blocks light detection at the tip, also preventing normal bending."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-016",
@@ -1648,7 +2588,19 @@
     "answer": "H",
     "technique": "Depending on the specific base changes at positions 4 and 20 (insertion/substitution/deletion) and where a stop codon might arise, all three outcomes are consistent with the given codon table.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Depending on the specific base changes at positions",
+          "content": "Depending on the specific base changes at positions 4 and 20 (insertion/substitution/deletion) and where a stop codon might arise, all three outcomes are consistent with the given codon table."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-017",
@@ -1673,7 +2625,19 @@
     "answer": "C",
     "technique": "Graph 2 shows dissolved oxygen decreases as temperature rises, directly supporting only statement 2; statements 1 and 3 draw unsupported causal/comparative conclusions beyond the data shown.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Graph shows dissolved oxygen decreases as temperature rises",
+          "content": "Graph 2 shows dissolved oxygen decreases as temperature rises, directly supporting only statement 2; statements 1 and 3 draw unsupported causal/comparative conclusions beyond the data shown."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-BIO-018",
@@ -1698,7 +2662,19 @@
     "answer": "F",
     "technique": "A 2:1 ratio arises if homozygous dominant (AA) individuals die before birth, leaving only Aa (dominant phenotype) and aa (recessive) survivors in a 2:1 ratio; a small sample size could also produce an apparent 2:1 ratio by chance.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "A ratio arises if homozygous dominant AA individuals",
+          "content": "A 2:1 ratio arises if homozygous dominant (AA) individuals die before birth, leaving only Aa (dominant phenotype) and aa (recessive) survivors in a 2:1 ratio; a small sample size could also produce an apparent 2:1 ratio by chance."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-001",
@@ -1722,7 +2698,19 @@
     "technique": "The current stem describes this as a 'surd expression simplification', but the options (displacement values like '1.0 m to the left') indicate this is actually a mechanics/motion question -- stem and options are mismatched. Needs re-verification against the source PDF.",
     "origin": "past-paper",
     "quality_tier": 1,
-    "needs_repair": true
+    "needs_repair": true,
+    "solution": {
+      "steps": [
+        {
+          "title": "The current stem describes this as a surd",
+          "content": "The current stem describes this as a 'surd expression simplification', but the options (displacement values like '1.0 m to the left') indicate this is actually a mechanics/motion question -- stem and options are mismatched."
+        },
+        {
+          "title": "Needs re verification against the source PDF",
+          "content": "Needs re-verification against the source PDF."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-002",
@@ -1744,7 +2732,19 @@
     "answer": "C",
     "technique": "Both trigonometric equations have their own period; solving each for x in the interval [0,k] and combining the distinct solutions (removing any duplicate where both equations are satisfied at the same x) gives a total of 3 values.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Both trigonometric equations have their own period solving",
+          "content": "Both trigonometric equations have their own period; solving each for x in the interval [0,k] and combining the distinct solutions (removing any duplicate where both equations are satisfied at the same x) gives a total of 3 values."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-020",
@@ -1766,7 +2766,19 @@
     "answer": "C",
     "technique": "Constant velocity (constant speed, straight line) means zero acceleration, so by Newton's second law the resultant force is zero.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Constant velocity constant speed straight line means zero",
+          "content": "Constant velocity (constant speed, straight line) means zero acceleration, so by Newton's second law the resultant force is zero."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-003",
@@ -1788,7 +2800,19 @@
     "answer": "B",
     "technique": "Rearranging the exponential equation to isolate the power of 3 and taking log base 3 of both sides gives x = log3(2).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Rearranging the exponential equation to isolate the power",
+          "content": "Rearranging the exponential equation to isolate the power of 3 and taking log base 3 of both sides gives x = log3(2)."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-021",
@@ -1811,7 +2835,19 @@
     "answer": "D",
     "technique": "$v^2=u^2+2as=1600+2(-14.4)(20)=1600-576=1024\\Rightarrow v=32.0\\text{m/s}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$v^2=u^2+2as=1600+2(-14.4)(20)=1600-576=1024\\Rightarrow v=32.0\\text{m/s}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-004",
@@ -1834,7 +2870,19 @@
     "answer": "D",
     "technique": "$y'=3x^2+2px+q$ has roots 2 and 4: $3x^2+2px+q=3(x-2)(x-4)=3x^2-18x+24$, so $2p=-18\\Rightarrow p=-9$, and $q=24$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Has roots and so and",
+          "content": "$y'=3x^2+2px+q$ has roots 2 and 4: $3x^2+2px+q=3(x-2)(x-4)=3x^2-18x+24$, so $2p=-18\\Rightarrow p=-9$, and $q=24$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-005",
@@ -1856,7 +2904,23 @@
     "answer": "E",
     "technique": "$\\frac{dy}{dx}=18(3x+2)^5$. The $x^3$ term in $(3x+2)^5$ is $\\binom{5}{3}(3x)^3(2)^2=10\\times27x^3\\times4=1080x^3$. Multiplying by 18 gives $19440x^3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$\\frac{dy}{dx}=18(3x+2)^5$."
+        },
+        {
+          "title": "The term in is",
+          "content": "The $x^3$ term in $(3x+2)^5$ is $\\binom{5}{3}(3x)^3(2)^2=10\\times27x^3\\times4=1080x^3$."
+        },
+        {
+          "title": "Multiplying by gives",
+          "content": "Multiplying by 18 gives $19440x^3$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-023",
@@ -1878,7 +2942,23 @@
     "answer": "A",
     "technique": "PE lost $=mgh=0.1\\times10\\times4=4.0$J. KE gained $=\\frac12(0.1)(8^2)=3.2$J. Work against resistance $=4.0-3.2=0.80$J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "PE lost J",
+          "content": "PE lost $=mgh=0.1\\times10\\times4=4.0$J."
+        },
+        {
+          "title": "KE gained J",
+          "content": "KE gained $=\\frac12(0.1)(8^2)=3.2$J."
+        },
+        {
+          "title": "Work against resistance J",
+          "content": "Work against resistance $=4.0-3.2=0.80$J."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-006",
@@ -1900,7 +2980,23 @@
     "answer": "A",
     "technique": "Sum to infinity: $\\dfrac{1}{1-\\frac12\\sin2x}=\\dfrac43 \\Rightarrow 1-\\dfrac12\\sin2x=\\dfrac34 \\Rightarrow \\sin2x=\\dfrac12$. For $\\pi\\le x\\le2\\pi$, $2x$ ranges over $[2\\pi,4\\pi]$. Solving $\\sin\\theta=\\tfrac12$ for $\\theta\\in[2\\pi,4\\pi]$ gives $\\theta=\\tfrac{13\\pi}{6}$ or $\\tfrac{17\\pi}{6}$, so $x=\\tfrac{13\\pi}{12}$ or $\\tfrac{17\\pi}{12}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Sum to infinity",
+          "content": "Sum to infinity: $\\dfrac{1}{1-\\frac12\\sin2x}=\\dfrac43 \\Rightarrow 1-\\dfrac12\\sin2x=\\dfrac34 \\Rightarrow \\sin2x=\\dfrac12$."
+        },
+        {
+          "title": "For ranges over",
+          "content": "For $\\pi\\le x\\le2\\pi$, $2x$ ranges over $[2\\pi,4\\pi]$."
+        },
+        {
+          "title": "Solving for gives or so or",
+          "content": "Solving $\\sin\\theta=\\tfrac12$ for $\\theta\\in[2\\pi,4\\pi]$ gives $\\theta=\\tfrac{13\\pi}{6}$ or $\\tfrac{17\\pi}{6}$, so $x=\\tfrac{13\\pi}{12}$ or $\\tfrac{17\\pi}{12}$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-024",
@@ -1925,7 +3021,19 @@
     "answer": "A",
     "technique": "By symmetry, the stone passes the cliff-top moving downward at 13m/s. Using $s=ut+\\frac12at^2$: $6=13t+5t^2\\Rightarrow5t^2+13t-6=0\\Rightarrow t=0.40$s.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "By symmetry the stone passes the cliff top",
+          "content": "By symmetry, the stone passes the cliff-top moving downward at 13m/s."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Using $s=ut+\\frac12at^2$: $6=13t+5t^2\\Rightarrow5t^2+13t-6=0\\Rightarrow t=0.40$s."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-007",
@@ -1947,7 +3055,27 @@
     "answer": "C",
     "technique": "The real recurrence is $u_{n+1}=p\\,u_n+3$ (not $3u_n+p$). Then $u_2=2p+3$, $u_3=p(2p+3)+3=2p^2+3p+3$, $u_4=p(2p^2+3p+3)+3=2p^3+3p^2+3p+3$. Setting $u_4=-7$ gives $2p^3+3p^2+3p+10=0$; testing $p=-2$: $-16+12-6+10=0$, confirmed. So $u_1=2,u_2=-1,u_3=5,u_4=-7$, and $u_1+u_2+u_3+u_4=-1$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "The real recurrence is not",
+          "content": "The real recurrence is $u_{n+1}=p\\,u_n+3$ (not $3u_n+p$)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Then $u_2=2p+3$, $u_3=p(2p+3)+3=2p^2+3p+3$, $u_4=p(2p^2+3p+3)+3=2p^3+3p^2+3p+3$."
+        },
+        {
+          "title": "Setting gives testing confirmed",
+          "content": "Setting $u_4=-7$ gives $2p^3+3p^2+3p+10=0$; testing $p=-2$: $-16+12-6+10=0$, confirmed."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $u_1=2,u_2=-1,u_3=5,u_4=-7$, and $u_1+u_2+u_3+u_4=-1$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-025",
@@ -1972,7 +3100,19 @@
     "answer": "B",
     "technique": "Work done $=$ area under graph $=\\frac12(0.40)(192)=38.4$J $=$ KE. Height: $KE=mgh\\Rightarrow h=38.4/(0.024\\times10)=160$m.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work done area under graph J KE",
+          "content": "Work done $=$ area under graph $=\\frac12(0.40)(192)=38.4$J $=$ KE."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Height: $KE=mgh\\Rightarrow h=38.4/(0.024\\times10)=160$m."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-008",
@@ -1995,7 +3135,23 @@
     "answer": "A",
     "technique": "Numerator $=x(x-3)^2\\ge0$ for $x\\ge0$ (zero at $x=0,3$). For the fraction to be positive: either numerator and denominator both positive ($x>0,x\\ne3$ and $x>4$, giving $x>4$), or both negative ($x<0$ and $x<4$, giving $x<0$). Combined: $x<0$ or $x>4$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Numerator for zero at",
+          "content": "Numerator $=x(x-3)^2\\ge0$ for $x\\ge0$ (zero at $x=0,3$)."
+        },
+        {
+          "title": "For the fraction to be positive either numerator",
+          "content": "For the fraction to be positive: either numerator and denominator both positive ($x>0,x\\ne3$ and $x>4$, giving $x>4$), or both negative ($x<0$ and $x<4$, giving $x<0$)."
+        },
+        {
+          "title": "Combined or",
+          "content": "Combined: $x<0$ or $x>4$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-026",
@@ -2020,7 +3176,19 @@
     "answer": "H",
     "technique": "At 20°, constant speed means $\\mu=\\tan20°$. At 25°: $a=g(\\sin25°-\\mu\\cos25°)=g(\\sin25°-\\cos25°\\tan20°)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "At constant speed means",
+          "content": "At 20^\\circ, constant speed means $\\mu=\\tan20^\\circ$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "At 25^\\circ: $a=g(\\sin25^\\circ-\\mu\\cos25^\\circ)=g(\\sin25^\\circ-\\cos25^\\circ\\tan20^\\circ)$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-M2-009",
@@ -2043,7 +3211,27 @@
     "answer": "B",
     "technique": "Perpendicular lines have gradients multiplying to $-1$: $(2p^2-p)(p-2)=-1$, which expands to $2p^3-5p^2+2p+1=0$. Testing $p=1$ gives $2-5+2+1=0$, so $(p-1)$ is a factor: $2p^3-5p^2+2p+1=(p-1)(2p^2-3p-1)$. Solving $2p^2-3p-1=0$ gives $p=\\dfrac{3\\pm\\sqrt{17}}{4}\\approx1.78$ or $\\approx-0.28$. The three real roots are $\\approx1.78,\\ 1,\\ -0.28$; the greatest is $\\approx1.78$, closest to $1.75$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Perpendicular lines have gradients multiplying to which e",
+          "content": "Perpendicular lines have gradients multiplying to $-1$: $(2p^2-p)(p-2)=-1$, which expands to $2p^3-5p^2+2p+1=0$."
+        },
+        {
+          "title": "Testing gives so is a factor",
+          "content": "Testing $p=1$ gives $2-5+2+1=0$, so $(p-1)$ is a factor: $2p^3-5p^2+2p+1=(p-1)(2p^2-3p-1)$."
+        },
+        {
+          "title": "Solving gives or",
+          "content": "Solving $2p^2-3p-1=0$ gives $p=\\dfrac{3\\pm\\sqrt{17}}{4}\\approx1.78$ or $\\approx-0.28$."
+        },
+        {
+          "title": "The three real roots are the greatest is",
+          "content": "The three real roots are $\\approx1.78,\\ 1,\\ -0.28$; the greatest is $\\approx1.78$, closest to $1.75$."
+        }
+      ]
+    }
   },
   {
     "id": "NSAA-2017-PHY-027",
@@ -2065,6 +3253,18 @@
     "answer": "B",
     "technique": "By the impulse-momentum theorem, taking the outgoing direction as positive: impulse $=F(t_2-t_1)=p_f-p_i=mv-(-mu)$, so $mv=F(t_2-t_1)-mu$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Begin from the given information and apply the",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "By the impulse momentum theorem taking the outgoing",
+          "content": "By the impulse-momentum theorem, taking the outgoing direction as positive: impulse $=F(t_2-t_1)=p_f-p_i=mv-(-mu)$, so $mv=F(t_2-t_1)-mu$."
+        }
+      ]
+    }
   }
 ]
