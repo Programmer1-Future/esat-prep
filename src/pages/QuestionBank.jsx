@@ -18,7 +18,8 @@ import { logEvent } from '../lib/eventLog'
 import { enqueueMisses, enqueueSkips } from '../lib/reviewQueue'
 import { ERROR_TAGS } from '../lib/errorTags'
 import { updateStoredValue, useLocalStorage } from '../hooks/useLocalStorage'
-import { TechniqueRenderer, MathText, InlineMath } from '../components/ui/TechniqueRenderer'
+import { MathText, InlineMath } from '../components/ui/TechniqueRenderer'
+import { QuestionExplanation, hasExplanation } from '../components/questions/QuestionExplanation'
 import { parseDiagrams } from '../lib/diagrams'
 import { DiagramFigure } from '../components/ui/Diagram'
 import { OriginBadge } from '../components/ui/Origin'
@@ -541,14 +542,13 @@ function QuizScreen({ questions, timerSecs, onFinish }) {
             </motion.div>
           )}
 
-          {revealed && q.technique && (
+          {revealed && hasExplanation(q) && (
             <motion.div
               initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.2, ease: 'easeOut' }}
               className="px-4 py-3 bg-accent/5 border border-accent/15 rounded-xl mb-4"
             >
-              <p className="text-[11px] font-600 uppercase tracking-widest text-accent/70 mb-1">Technique</p>
-              <TechniqueRenderer text={q.technique} />
+              <QuestionExplanation question={q} />
             </motion.div>
           )}
 
@@ -759,11 +759,9 @@ function ResultsModal({ results, onRetry, onNewQuiz }) {
                         )}
                       </div>
 
-                      {/* Worked solution — clearly headed, spacious */}
-                      {r.q.technique && (
+                      {hasExplanation(r.q) && (
                         <div className="mt-3 px-4 py-3 border-t border-border-subtle bg-accent/[0.03]">
-                          <p className="text-[10px] font-600 uppercase tracking-widest text-accent/70 mb-1.5">How to solve it</p>
-                          <TechniqueRenderer text={r.q.technique} />
+                          <QuestionExplanation question={r.q} />
                         </div>
                       )}
                     </motion.div>
