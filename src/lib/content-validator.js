@@ -314,7 +314,7 @@ export function validateDiagram(diagram, solutionText = '') {
 
 // -- top-level question validation ---------------------------------------
 
-export function validateQuestion(question, { requireSolution = false } = {}) {
+export function validateQuestion(question, { requireSolution = true } = {}) {
   const issues = []
 
   if (!question.solution) {

@@ -5,38 +5,16 @@ import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css'
 import '../../styles/notes.css'
 
-function formatTechnique(raw) {
-  if (!raw) return ''
-  if (/\$.*\$|^\s*#{1,4}\s|^\s*[-*]\s/m.test(raw)) return raw
-
-  let text = raw
-    .replace(/\. ([A-Z])/g, '.\n\n$1')
-    .replace(/ → /g, '\n\n→ ')
-    .replace(/: ([A-Z])/g, ':\n\n$1')
-
-  // Split long equality chains: if a paragraph has 3+ "=" signs,
-  // break at each " = " so each step sits on its own line.
-  text = text.split('\n\n').map(para => {
-    const eqCount = (para.match(/ = /g) || []).length
-    if (eqCount >= 3) {
-      return para.replace(/ = /g, '\n\n= ')
-    }
-    return para
-  }).join('\n\n')
-
-  return text
-}
-
+// Notes / admin body renderer (markdown + LaTeX). Not used for question explanations
+// after Phase 4 — those go through SolutionSteps.
 export function TechniqueRenderer({ text, className = '' }) {
-  const formatted = formatTechnique(text)
-
   return (
     <div className={`technique-body ${className}`}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkMath]}
         rehypePlugins={[rehypeKatex]}
       >
-        {formatted}
+        {text || ''}
       </ReactMarkdown>
     </div>
   )

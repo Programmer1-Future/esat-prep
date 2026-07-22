@@ -1,6 +1,6 @@
 # Explanation System — ESATprep Plan
 
-**Status: PLAN — implement in an ESATprep session only.**  
+**Status: SHIPPED — Phases 0–4 complete (2026-07-22).**  
 Do not edit `C:\Users\Ahmed\Documents\De-TMUA-guide` from that session.  
 Kickoff prompt: `E:\brain\ESAT\HANDOFF — Explanation System from TMUA.md`.
 
@@ -171,9 +171,9 @@ Port TMUA lessons: `clampYRange`, asymptote sample skip, `after_step`.
 
 **Acceptance**
 
-- [ ] No student-facing technique blob path
-- [ ] Bank + CI require `solution`
-- [ ] Build + tests green
+- [x] No student-facing technique blob path
+- [x] Bank + CI require `solution`
+- [x] Build + tests green
 
 ---
 

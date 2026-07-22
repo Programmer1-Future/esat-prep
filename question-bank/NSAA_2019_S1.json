@@ -19,7 +19,6 @@
       "G": "20"
     },
     "answer": "F",
-    "technique": "Use $a^2-b^2=(a-b)(a+b)$ with $a=\\sqrt7+\\sqrt3$, $b=\\sqrt7-\\sqrt3$: $(a-b)(a+b) = (2\\sqrt3)(2\\sqrt7) $... more directly expand each square: $(\\sqrt7+\\sqrt3)^2 = 10+2\\sqrt{21}$, $(\\sqrt7-\\sqrt3)^2=10-2\\sqrt{21}$. Subtracting gives $4\\sqrt{21}$... recompute numerically: actual value $\\approx 18.33 = 4\\sqrt{3}\\times... $ Direct expansion: difference $=4\\sqrt{3}\\cdot\\sqrt{... }$; numerically $4\\sqrt3 \\approx 6.93$ does not match 18.33, but using $(a+b)(a-b)$ with $a+b=2\\sqrt7$, $a-b=2\\sqrt3$ gives product $4\\sqrt{21}\\approx18.33$, matching option value; the key confirms $4\\sqrt3$ label corresponds to this option in the source key.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -56,7 +55,6 @@
       "H": "$x > 10$"
     },
     "answer": "H",
-    "technique": "Multiply through by 6: $3(3x-2)-4(x-4)<6x \\Rightarrow 9x-6-4x+16<6x \\Rightarrow 5x+10<6x \\Rightarrow 10<x$, i.e. $x>10$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -93,7 +91,6 @@
       "G": "$x=2\\pm2\\sqrt{\\frac{3+y}{4}}$"
     },
     "answer": "E",
-    "technique": "Let $u=1-\\frac{x}{2}$. Then $y=3-4u^2 \\Rightarrow u^2=\\frac{3-y}{4} \\Rightarrow u=\\pm\\sqrt{\\frac{3-y}{4}}$. So $1-\\frac{x}{2}=\\pm\\sqrt{\\frac{3-y}{4}} \\Rightarrow x=2\\mp2\\sqrt{\\frac{3-y}{4}}$, i.e. $x=2\\pm2\\sqrt{\\frac{3-y}{4}}$.",
     "origin": "past-paper",
     "quality_tier": 3,
     "solution": {
@@ -133,7 +130,6 @@
       "G": "400%"
     },
     "answer": "C",
-    "technique": "Resistance $R \\propto v^2$. New speed $=1.2v$, so new resistance $=(1.2)^2 R = 1.44R$, an increase of $44\\%$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -168,7 +164,6 @@
       "F": "16"
     },
     "answer": "E",
-    "technique": "Substituting points: $4p+2q=6$ and $16p+4q=-4$. From the first, $q=3-2p$. Substituting: $16p+4(3-2p)=-4 \\Rightarrow 8p=-16 \\Rightarrow p=-2$, so $q=7$. Then $q-p = 7-(-2)=9$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -211,7 +206,6 @@
       "F": "$\\dfrac{12x^3-8x^2-x+1}{x(3x-1)(x-1)}$"
     },
     "answer": "D",
-    "technique": "$3x^2-2x-1=(3x+1)(x-1)$, so $\\dfrac{x(3x+1)}{x^2(3x^2-2x-1)}=\\dfrac{x(3x+1)}{x^2(3x+1)(x-1)}=\\dfrac{1}{x(x-1)}$. So $4-\\dfrac{1}{x(x-1)}=\\dfrac{4x(x-1)-1}{x(x-1)}=\\dfrac{4x^2-4x-1}{x(x-1)}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -245,7 +239,6 @@
       "E": "144"
     },
     "answer": "B",
-    "technique": "Volume scales as $r^3$. New radius is $0.75r$, so new volume $= 0.75^3 \\times 192 = 0.421875 \\times 192 = 81\\text{ cm}^3$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -281,7 +274,6 @@
       "G": "70"
     },
     "answer": "F",
-    "technique": "Testing $3x$ as the hypotenuse: $(2x+2)^2+(x+4)^2=(3x)^2 \\Rightarrow 4x^2+8x+4+x^2+8x+16=9x^2 \\Rightarrow 4x^2-16x-20=0 \\Rightarrow x^2-4x-5=0 \\Rightarrow (x-5)(x+1)=0$, so $x=5$. Sides: $9, 12, 15$ (a 3-4-5 triangle scaled by 3). Area $=\\frac12 \\times 9 \\times 12 = 54\\text{ cm}^2$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -319,7 +311,6 @@
       "E": "$-\\frac{1}{5}$"
     },
     "answer": "A",
-    "technique": "Write everything as powers of 3: $9^{2x-1}=3^{4x-2}$, $27^x=3^{3x}$, $81^x=3^{4x}$. So $3^{4x-2}\\times3^{-3x}=3^{4x} \\Rightarrow 3^{x-2}=3^{4x} \\Rightarrow x-2=4x \\Rightarrow x=-\\dfrac23$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -353,7 +344,6 @@
       "E": "14"
     },
     "answer": "D",
-    "technique": "Area of rhombus $=\\frac12 d_1 d_2$, so $(3x+2)(8-2x)=22$. Expanding: $-6x^2+20x+16=22 \\Rightarrow 3x^2-10x+3=0 \\Rightarrow x=\\frac{10\\pm8}{6}$, giving $x=3$ or $x=\\frac13$. Then $PR=3x+2$ gives $11$ or $3$. Difference $=11-3=8$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -397,7 +387,6 @@
       "G": "10"
     },
     "answer": "E",
-    "technique": "PQR is a 3-4-5 triangle, so $PR=5$; similarly $RT=5$. Place $R=(0,0)$, $P=(-5,0)$, $T=(5,0)$. Using the right angle at Q (Thales circle) and distances $QR=4$, $PQ=3$: solving gives $Q=(-3.2, 2.4)$. By symmetry $S=(3.2, 2.4)$ (same side of line, as in diagram). $QS = 3.2-(-3.2) = 6.4\\text{ cm}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -442,7 +431,6 @@
       "H": "315"
     },
     "answer": "G",
-    "technique": "Scale ratios to common $q$: $p:q=20:28$, $q:r=28:77$, so $p:q:r=20:28:77$, totalling 125 parts $=375 \\Rightarrow 1$ part $=3$. So $p=60$, $r=231$, and $p+r=291$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -477,7 +465,6 @@
       "F": "17"
     },
     "answer": "D",
-    "technique": "Line P: $y=\\frac{2x+12}{3}$, so $p=4$. Line Q has the same slope $\\frac23$ and passes through $(6,-1)$: $y+1=\\frac23(x-6) \\Rightarrow y=\\frac23x-5$, so $q=-5$. Thus $p-q=4-(-5)=9$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -518,7 +505,6 @@
       "H": "(8, 10)"
     },
     "answer": "G",
-    "technique": "For a 90° clockwise rotation about $P(4,5)$: $(x,y) \\to (4+(y-5), 5-(x-4))$. For $R(10,8)$: $dx=6, dy=3 \\to (4+3, 5-6)=(7,-1)$. Reflecting in the x-axis: $(7,-1)\\to(7,1)$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -558,7 +544,6 @@
       "G": "$\\frac{323}{400}$"
     },
     "answer": "C",
-    "technique": "$P(A)=\\frac14$ (HH), $P(B)=\\frac34$. $P(\\text{red}|A)=\\frac{6}{10}=0.6$, $P(\\text{red}|B)=\\frac{3}{15}=0.2$. $P(\\text{red}) = \\frac14(0.6)+\\frac34(0.2) = 0.15+0.15=0.3=\\frac{3}{10}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -597,7 +582,6 @@
       "F": "345°"
     },
     "answer": "C",
-    "technique": "Let $T=(0,0)$, distance $=1$. $R=(\\sin210°,\\cos210°)=(-0.5,-0.866)$, $U=(0,-1)$. Vector $R\\to U = (0.5, -0.134)$. This has bearing $\\theta$ with $\\sin\\theta=0.5/0.5177=0.966$, $\\cos\\theta=-0.134/0.5177=-0.259$, giving $\\theta=180°-75°=105°$ (second quadrant, east-positive, north-negative).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -638,7 +622,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "New mean $=\\frac{5x+\\text{new}}{6}$. Since new value $>x$, $\\frac{5x+\\text{new}}{6} > \\frac{5x+x}{6}=x$, so statement 2 must be true. Statement 1 is false (the 6-number median, an average of two middle values, can coincide with an original list value). Statement 3 is false (the new number could lie within the existing range).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -681,7 +664,6 @@
       "F": "$2\\sqrt{21}$"
     },
     "answer": "E",
-    "technique": "Volume $=\\frac13(144)h=48h$. Slant height $l=\\sqrt{h^2+36}$ (apothem 6). Each triangular face area $=\\frac12(12)l=6l$; total lateral area $=24l$. Total surface area $=144+24\\sqrt{h^2+36}$. Setting $48h=144+24\\sqrt{h^2+36}$: $2h-6=\\sqrt{h^2+36}$, square both sides: $4h^2-24h+36=h^2+36 \\Rightarrow 3h^2-24h=0 \\Rightarrow h=8$ (rejecting $h=0$).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -730,7 +712,6 @@
       "H": "amplitude 4.2 cm, wavelength 5.6 cm"
     },
     "answer": "B",
-    "technique": "Wavelength = distance between successive peaks = 8.4 cm. In one complete oscillation, a particle travels $4\\times$ amplitude, so amplitude $= 5.6/4 = 1.4$ cm.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -767,7 +748,6 @@
       "H": "T=6250 J, power=2500 W"
     },
     "answer": "E",
-    "technique": "Total mass lifted $=10\\times25=250$ kg through height 1.5 m: $T=mgh=250\\times10\\times1.5=3750$ J. Time $=2.5\\times60=150$ s. Power $=3750/150=25$ W.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -807,7 +787,6 @@
       "G": "750 Ω"
     },
     "answer": "F",
-    "technique": "From the graph, at $I=8.0$ mA the diode voltage is read as approximately 1.2 V. The resistor takes the remaining voltage: $V_R=6.0-1.2=4.8$ V. $R=V_R/I=4.8/0.008=600\\,\\Omega$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -844,7 +823,6 @@
       "H": "speed ratio P/Q = $1.0\\times10^{8}$, frequency ratio P/Q = $1.0\\times10^{16}$, P = visible light, Q = ultraviolet"
     },
     "answer": "A",
-    "technique": "All EM waves travel at speed $c$ in a vacuum, so the speed ratio is 1.0. Since $f=c/\\lambda$, the frequency ratio P/Q is the inverse of the wavelength ratio: $1/(1.0\\times10^8)=1.0\\times10^{-8}$. With P having much longer wavelength (lower frequency) than Q by a factor of $10^8$, a consistent identification (per the answer key) is P = microwave, Q = X-ray.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -882,7 +860,6 @@
       "E": "96 °C"
     },
     "answer": "C",
-    "technique": "$\\Delta T = \\frac{Q}{mc} = \\frac{54000}{0.80\\times900} = \\frac{54000}{720}=75°C$. Final temperature $=-21+75=54°C$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -919,7 +896,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "D",
-    "technique": "Statement 1 is false: tension $\\propto$ extension (from natural length), not total length. Statement 2 is false: tension and weight are equal and opposite but act on the same object in equilibrium (Newton's first law pair), not a third-law pair (which requires forces on different bodies of the same type). Statement 3 is true: energy stored $=\\frac12kx^2$, so doubling $x$ quadruples the energy.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -958,7 +934,6 @@
       "F": "600 m"
     },
     "answer": "A",
-    "technique": "Boyle's law: $P_1V_1=P_2V_2 \\Rightarrow P_2 = \\frac{1.0\\times10^5 \\times 2.0\\times10^{-3}}{4.0\\times10^{-4}} = 5.0\\times10^5$ Pa. Then $P_2 = P_{atm}+\\rho g h \\Rightarrow 5.0\\times10^5 = 1.0\\times10^5+1000\\times10\\times h \\Rightarrow h = \\frac{4.0\\times10^5}{10^4}=40$ m.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -997,7 +972,6 @@
       "F": "9600000 W"
     },
     "answer": "A",
-    "technique": "Turns ratio $N_p:N_s = 240:4800 = 1:20$. For an ideal transformer, $I_pN_p=I_sN_s \\Rightarrow I_s = 4.0\\times\\frac{240}{4800}=0.20$ A. Power in cable resistance: $P=I_s^2R = (0.20)^2\\times1500=60$ W.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1036,7 +1010,6 @@
       "F": "36 g"
     },
     "answer": "E",
-    "technique": "During the plateau (melting), all supplied heat goes into latent heat: $Q=Pt$, and $m=Q/L$. Reading the plateau duration from the graph (approximately 45 s) gives $Q=60\\times45=2700$ J, so $m=2700/100=27$ g.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1073,7 +1046,6 @@
       "H": "l=0.80 m, d=8.0 cm, θ=40°C"
     },
     "answer": "F",
-    "technique": "Rate of conduction $\\propto \\frac{A\\Delta T}{l} \\propto \\frac{d^2(90-\\theta)}{l}$. The lowest rate needs small $d$ (small area), large $l$, and small $\\Delta T$ (large $\\theta$). The combination $l=0.80$ (largest), $d=4.0$ (smallest), $\\theta=40$ (smallest $\\Delta T$) minimises the rate.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1112,7 +1084,6 @@
       "F": "400 T"
     },
     "answer": "C",
-    "technique": "The force on the wire changes the balance reading by $\\Delta m = 202-198=4$ g on reversal, corresponding to $2\\times F = BIL\\times2$. So $2BIL = 0.004\\times10=0.04$ N $\\Rightarrow BIL=0.02$ N $\\Rightarrow B=\\frac{0.02}{2.0\\times0.05}=0.20$ T.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1146,7 +1117,6 @@
       "E": "atomic number Z-11, mass number A-16"
     },
     "answer": "C",
-    "technique": "Each alpha reduces mass number by 4 and atomic number by 2; each beta leaves mass number unchanged and increases atomic number by 1. With 5 alphas and 2 betas (5+2=7, more alphas than betas): mass change $=-4(5)=-20$; atomic number change $=-2(5)+1(2)=-8$. This matches Z-8, A-20.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1185,7 +1155,6 @@
       "F": "56 N"
     },
     "answer": "C",
-    "technique": "$32=\\frac12(4)v_1^2 \\Rightarrow v_1=4$ m/s. $200=\\frac12(4)v_2^2 \\Rightarrow v_2=10$ m/s. Acceleration $a=(10-4)/3=2$ m/s$^2$. Force $F=ma=4\\times2=8.0$ N.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1225,7 +1194,6 @@
       "G": "10 V"
     },
     "answer": "E",
-    "technique": "Using the known circuit topology (per the answer key) and equal resistors, the voltmeter reading of 1.0 V corresponds proportionally to the network's current-divider ratios, giving a total battery voltage of 8.0 V.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1262,7 +1230,6 @@
       "H": "KE=300 kJ, momentum=$4.0\\times10^4$, force=200 kN"
     },
     "answer": "F",
-    "technique": "KE: M $=\\frac12(1000)(20)^2=200$ kJ; N $=\\frac12(2000)(10)^2=100$ kJ; total $=300$ kJ. Momentum: M $=1000\\times20=20000$ kg m/s, N $=2000\\times10=20000$ kg m/s, opposite directions, net $=0$. Force on M: $\\Delta p=20000$ (to zero) over 0.10 s $\\Rightarrow F=20000/0.10=200000$ N $=200$ kN.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1301,7 +1268,6 @@
       "F": "$\\frac{16}{17}$"
     },
     "answer": "D",
-    "technique": "The distance travelled at constant velocity is the area of the flat (plateau) section of the velocity-time graph; the total distance is the area under the whole graph. Reading the graph regions (per the answer key) gives a ratio of $\\frac{24}{29}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1338,7 +1304,6 @@
       "H": "3300 kg"
     },
     "answer": "B",
-    "technique": "Cross-sectional area $=22^2 - \\pi(7)^2 = 484 - \\frac{22}{7}\\times49 = 484-154=330\\text{ cm}^2$. Volume $=330\\times100=33000\\text{ cm}^3$. Mass $=0.100\\times33000=3300\\text{ g}=3.30$ kg.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1376,7 +1341,6 @@
       "E": "7:4"
     },
     "answer": "B",
-    "technique": "6 years = 2 half-lives. Starting with $N_0$ of each: after 2 half-lives, X remaining $=N_0/4$. Y produced $=N_0-N_0/4=3N_0/4$, plus original $N_0$ gives total Y $=7N_0/4$. Ratio X:Y $= (N_0/4):(7N_0/4) = 1:7$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1421,7 +1385,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "F",
-    "technique": "Pent-2-ene is CH3-CH=CH-CH2-CH3, with the double bond between C2 and C3. HBr addition places Br on either C2 or C3, giving CH3CHBrCH2CH2CH3 (Br on C2, product 1) or CH3CH2CHBrCH2CH3 (Br on C3, product 3). Product 2 (Br on the terminal C1) cannot form since C1 is not part of the double bond.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1462,7 +1425,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Graphite has delocalised electrons between layers (not simple single covalent bonds). SiO2 is a giant covalent network of single Si-O bonds only. Al2O3 is ionic, not covalent. Only SiO2 qualifies.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1505,7 +1467,6 @@
       "F": "0.90"
     },
     "answer": "E",
-    "technique": "Rf $=$ distance travelled by spot / distance travelled by solvent front. Stronger attraction to the mobile phase corresponds to a higher Rf value. Among the single-substance samples on the chromatogram, the highest Rf value is 0.80.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1545,7 +1506,6 @@
       "G": "81"
     },
     "answer": "G",
-    "technique": "Use the heaviest isotope of each element that has non-negligible abundance shown on the charts: Li = 7, C = 13 (C-14 shown at ~0% abundance, being radioactive/trace), O = 18. $M_r(\\text{Li}_2\\text{CO}_3) = 2(7)+13+3(18) = 14+13+54=81$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1586,7 +1546,6 @@
       "H": "S, P, R, Q"
     },
     "answer": "H",
-    "technique": "P and S (extracted by electrolysis) are more reactive than Q and R (extracted by carbon reduction). Since S forms positive ions more readily than P, S > P. Since R displaces Q from its oxide, R > Q. Combined order: S, P, R, Q.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1629,7 +1588,6 @@
       "F": "protons x, neutrons x+2, electrons x+2"
     },
     "answer": "F",
-    "technique": "Protons = atomic number = $x$. Neutrons = mass number - protons $= (2x+2)-x = x+2$. A $-2$ charge means 2 extra electrons: electrons $=x+2$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1667,7 +1625,6 @@
       "E": "Fe3O4"
     },
     "answer": "E",
-    "technique": "Mass O $= 116-84=32$ g. Moles Fe $=84/56=1.5$; moles O $=32/16=2$. Ratio Fe:O $=1.5:2=3:4$, giving Fe3O4.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1708,7 +1665,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "B",
-    "technique": "Reaction 1 involves oxidation state changes (Cu2+ → Cu+ in CuI, and some I– → I2), a true full redox reaction. Reaction 2 is only a reduction half-equation (not a complete/balanced overall reaction on its own). Reaction 3 shows no oxidation state changes (Ag stays +1, O stays -2) — it is a precipitation reaction, not redox. Only reaction 1 counts.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1753,7 +1709,6 @@
       "H": "400"
     },
     "answer": "H",
-    "technique": "White precipitate with BaCl2/HCl indicates a sulfate ion (BaSO4, insoluble in acid). A brown precipitate forming immediately with NaOH indicates Fe3+ (Fe(OH)3), not Fe2+ (which gives a green precipitate). So X = Fe2(SO4)3: $M_r = 2(56)+3(32+4\\times16) = 112+3(96)=112+288=400$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1791,7 +1746,6 @@
       "E": "1600 g"
     },
     "answer": "D",
-    "technique": "$2H_2O \\to 2H_2+O_2$. Moles $H_2 = 100/2=50$ mol. Moles $O_2 = 25$ mol (half of $H_2$). Mass $O_2 = 25\\times32=800$ g.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1833,7 +1787,6 @@
       "E": "XCl5"
     },
     "answer": "D",
-    "technique": "Moles AgCl $=1.435/143.5=0.01$ mol $=$ moles of Cl. Ratio Cl:X $=0.01/0.005=2$, so the formula is XCl2.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1867,7 +1820,6 @@
       "E": "36"
     },
     "answer": "A",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1905,7 +1857,6 @@
       "E": "4.80 g of magnesium powder added to 500 cm3 of 2.00 mol dm-3 HCl"
     },
     "answer": "D",
-    "technique": "0.20 mol HCl requires only 0.10 mol Mg (2.40 g) to react completely, so Mg is not fully consumed in line 1's conditions is not the limiting case here — the acid (1.0 mol HCl) is in excess relative to 2.40 g Mg (0.10 mol), so doubling the Mg mass to 4.80 g (0.20 mol) still leaves acid in excess, giving double the final mass of H2 released with a similar reaction profile (same lump size, same acid concentration/rate).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1940,7 +1891,6 @@
       "F": "distil the upper layer at 100°C"
     },
     "answer": "B",
-    "technique": "Y (density 0.68) forms the upper layer (least dense, immiscible), while X and Z (miscible, denser) form the lower layer. To separate X and Z from the lower layer, distil at 65°C to collect X (lower boiling point), leaving Z behind.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1975,7 +1925,6 @@
       "F": "largest: Zn and HCl; smallest: Mg and H2SO4"
     },
     "answer": "D",
-    "technique": "Copper does not react with dilute H2SO4 (excluded). For H2SO4 (1:1 with metal, M+H2SO4→MSO4+H2), 1.0 mol acid can react with up to 1.0 mol Mg (excess metal, acid limiting): mass MgSO4 = 1.0×120=120 g. For HCl (2HCl+M→MCl2+H2), 1.0 mol HCl reacts with 0.5 mol metal: FeCl2 = 0.5×127=63.5 g; ZnCl2=0.5×136=68 g. Largest = MgSO4 (120 g); smallest = FeCl2 (63.5 g).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2017,7 +1966,6 @@
       "E": "50%"
     },
     "answer": "E",
-    "technique": "Moles NaOH $=0.020\\times0.100=0.002$ mol $=$ moles HCl in 12.5 cm3. Scaling to 250 cm3 ($\\times20$): total HCl $=0.04$ mol. Moles SiCl4 $=0.04/4=0.01$ mol. Mass pure SiCl4 $=0.01\\times170=1.7$ g. Purity $=1.7/3.4=50\\%$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2064,7 +2012,6 @@
       "F": "-1080 kJ/mol"
     },
     "answer": "B",
-    "technique": "Bonds broken: $1(945)+3(435)=945+1305=2250$ kJ. Bonds formed: $2\\times3$ N-H bonds $=6\\times390=2340$ kJ. $\\Delta H = 2250-2340=-90$ kJ/mol.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2101,7 +2048,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "E",
-    "technique": "Pb2+ ions are reduced at the negative electrode (cathode), so statement 1 is correct. At the anode (positive electrode), oxidation releases electrons into the external circuit, which then flow towards the negative electrode — statement 2 is correct. From $PbBr_2 \\to Pb + Br_2$, the molar ratio of Br2:Pb is 1:1, not 2:1, so statement 3 is incorrect. Statements 1 and 2 only.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2146,7 +2092,6 @@
       "H": "1, 3 and 4 only"
     },
     "answer": "D",
-    "technique": "Mature sperm cells cannot divide (statement 1 false for sperm). Both contain DNA (2, true) and can respire (5, true). Sperm have no cell wall (3 false) and bacteria have no true nucleus (4 false). Correct: 2 and 5 only.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2188,7 +2133,6 @@
       "E": "The stomach wall contains a tissue that enables movement of food."
     },
     "answer": "E",
-    "technique": "Adult stem cells are typically multipotent, not able to form all tissues (A false). Endocrine glands secrete hormones, not enzymes (B false). Embryonic stem cells divide by mitosis, not meiosis (C false). Neurones transmit electrical impulses, not chemical ones (D false). The stomach wall contains muscle tissue enabling peristalsis, which moves food (E true).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2235,7 +2179,6 @@
       "F": "1=sugar, 2=phosphate, 3=fatty acid; 1,2,3 together=DNA strand"
     },
     "answer": "C",
-    "technique": "A DNA monomer (nucleotide) consists of a phosphate group, a deoxyribose sugar, and a nitrogenous base, matching labels 1=phosphate, 2=sugar, 3=base, with the combination being a nucleotide.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2270,7 +2213,6 @@
       "F": "extensive range, broad tolerance, small population"
     },
     "answer": "C",
-    "technique": "The animal most at risk of extinction has the combination of a restricted geographic range, narrow habitat tolerance, and a small population size -- all risk-increasing factors together.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2306,7 +2248,6 @@
       "G": "45000"
     },
     "answer": "D",
-    "technique": "Quadrat area $=0.5\\times0.5=0.25\\text{ m}^2$. Total count $=3+10+0+4+21+19+6+11+15+3=92$; mean per quadrat $=9.2$. Density $=9.2/0.25=36.8$ per m$^2$. Estimate for 50 m$^2$: $36.8\\times50=1840$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2350,7 +2291,6 @@
       "G": "1, 2 and 3"
     },
     "answer": "G",
-    "technique": "Each layer is a group of similar cells performing a shared function, so both are tissues (1 true). The bronchus, composed of multiple tissue types working together, is an organ (2 true). All cells synthesise proteins from amino acids present in the cytoplasm (3 true). All three are correct.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2394,7 +2334,6 @@
       "G": "2 and 3 only"
     },
     "answer": "G",
-    "technique": "Distance (independent variable, set by experimenter) is on the x-axis and time (dependent variable, measured) is on the y-axis, so statement 1 is false. Slower diffusion means more time per unit distance, giving a steeper line (statement 2 true). A more concentrated solution diffuses faster (in terms of reaching threshold concentration sooner), giving less time per distance — a line below the original (statement 3 true).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2433,7 +2372,6 @@
       "F": "X=2, Y=2, Z=0"
     },
     "answer": "D",
-    "technique": "A human liver cell is diploid, so it has 2 copies of the gene (2 alleles on homologous chromosomes): X=2. Once one copy is removed and inserted into a plasmid, there is 1 copy: Y=1. The purified protein contains no DNA at all: Z=0.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2474,7 +2412,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "A",
-    "technique": "Photosynthesis consumes CO2 and releases O2, so plotting CO2 released vs time is incorrect (1 wrong). Bubbles per minute is already a rate, not a cumulative quantity, so its gradient vs time does not represent the photosynthesis rate directly (2 wrong). In option 3, the axes are swapped (volume on x, time on y), so the gradient would be the inverse of the rate, not proportional to it (3 wrong). None of them are correct.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2519,7 +2456,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Asexual reproduction can still introduce variation via random mutations (statement 1 false). With no limiting factors, exponential doubling continues indefinitely (statement 2 true). In 24 hours (1440 minutes), there are $1440/20=72$ divisions, giving $2^{72}$ bacteria, not $72^2$ (statement 3 false). Only statement 2 is correct.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2564,7 +2500,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "H",
-    "technique": "The phenotype can remain unchanged if the mutation is recessive or has no functional effect (2 true). The amino acid sequence can remain unchanged due to the degeneracy of the genetic code (silent mutation) (3 true). The offspring's genotype could also remain as it would have been if this particular mutated allele is not passed on or if it's a somatic (non-heritable) mutation (1 true). All three can stay the same.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2609,7 +2544,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "B",
-    "technique": "A mutation during meiosis in a parent's gamete formation would produce a gamete carrying the new allele, so the resulting child would have that allele uniformly in all cells from fertilisation onward (statement 1 valid). A mutation occurring after birth would create a mosaic (not all cells sharing the same genotype), contradicting the premise (statement 2 invalid). If a dominant allele is fully penetrant, unaffected parents cannot be silent carriers, so grandmothers having the condition doesn't explain unaffected parents having an affected child (statement 3 invalid). Only statement 1 works.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2654,7 +2588,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "B",
-    "technique": "The colour did not change further after 5 more minutes at pH 9.5, showing that adding Na2CO3 (raising pH to an extreme) halted further phosphatase activity — this supports statement 1. Statement 2 is false as worded (enzymes convert substrate to product, not the reverse). Statement 3 overreaches: with only 5 discrete pH values tested, the darkest tube (pH 5.2) shows the highest activity among those TESTED, but the true optimum could lie at an untested nearby pH, so it cannot be concluded that it 'must be' 5.2. Only statement 1 is correct.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2699,7 +2632,6 @@
       "H": "6 recessive, 12 dominant"
     },
     "answer": "E",
-    "technique": "Counting alleles across all family members based on their genotype symbols in the family tree (females: 2 X-alleles each; males: 1 X-allele each), and summing recessive vs dominant alleles per the diagram gives 4 recessive and 12 dominant allele copies in total.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2734,7 +2666,6 @@
       "F": "two separate rectangular strips at resting-baseline height (down to zero), one during the initial rest period before exercise and one during the final rest period after recovery is complete -- excludes the exercise and recovery hump entirely"
     },
     "answer": "A",
-    "technique": "The oxygen debt is repaid during recovery: the elevated oxygen uptake above the normal resting level, during the recovery period after exercise stops, represents the extra oxygen consumed to repay the debt (e.g., to break down accumulated lactic acid).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2771,7 +2702,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "H",
-    "technique": "Since temperature differs between pots (the only deliberately varied environmental factor other than possibly incidental ones), differences between pot 1 and pot 2 could be environmental (1 plausible). Since the plants are clones (identical genotype), the equal heights of pots 3 and 4 could be explained either by temperature reaching a plateau where growth is optimal/limited by another factor (2 plausible) or simply because identical genotype gives the same growth potential once other factors are equal (3 plausible). All three are valid explanations.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2812,7 +2742,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "D",
-    "technique": "Higher substrate concentration typically decreases (not increases) the time to reach a given product level, so statement 1 is false. Rate does not keep doubling indefinitely with substrate concentration since the enzyme becomes saturated (statement 2 false). Reading the graph, at 1.0 mmol dm-3 the reaction reaches a given product level consistent with an average rate of 0.2/40s = 0.005 arbitrary units per second (statement 3 true, per the graph and answer key).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2853,7 +2782,6 @@
       "H": "Leu-Val-Trp-Trp-Leu-Arg-Pro-Pro-Leu-Leu-Trp-Leu-Val-Val-Trp-Trp-Leu"
     },
     "answer": "H",
-    "technique": "Transcribing/translating the given DNA coding strand into codons and applying the standard genetic code (with the counts Arg=1, Leu=6, Pro=2, Trp=5, Val=3 as a check on the total of 17 amino acids) yields a specific 17-amino-acid sequence that is the only one consistent with both the codon translation and the given amino acid tally.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2888,7 +2816,6 @@
       "F": "30"
     },
     "answer": "C",
-    "technique": "At $x=0$: $y=2$. At $x=-6$: $2y-6=4 \\Rightarrow y=5$. This forms a trapezoid with vertices $(0,0),(0,2),(-6,5),(-6,0)$, parallel sides of length 2 and 5, width 6. Area $=\\frac{(2+5)}{2}\\times6=21$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2929,7 +2856,6 @@
       "F": "9"
     },
     "answer": "B",
-    "technique": "$y' = 3x^2+2px+q$. The turning points $x=-1,3$ are roots of $y'=0$. Sum of roots $= -1+3 = 2 = -\\frac{2p}{3} \\Rightarrow p=-3$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -2968,7 +2894,6 @@
       "F": "$8.00\\times10^7\\text{ m}^3$"
     },
     "answer": "C",
-    "technique": "Input power $=$ output/efficiency $= 1800/0.9=2000$ MW. Input power $=\\dot m g h \\Rightarrow \\dot m = \\frac{2000\\times10^6}{10\\times150}=1.333\\times10^6$ kg/s. Volume flow rate $=\\dot m /\\rho = 1333.3\\text{ m}^3\\text{/s}$. In one minute: $\\times60=80000\\text{ m}^3=8.00\\times10^4\\text{ m}^3$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3013,7 +2938,6 @@
       "H": "speed of P=25 m/s, force on Q=125000 N"
     },
     "answer": "E",
-    "technique": "Momentum conservation: $1000(30)+500(20) = 500(30)+1000v_P \\Rightarrow 40000 = 15000+1000v_P \\Rightarrow v_P=25\\text{ m/s}$. Force on Q: $\\Delta p_Q = 500(30-20)=5000\\text{ kg m/s}$, over 0.20 s: $F=5000/0.20=25000$ N.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3047,7 +2971,6 @@
       "E": "$\\sqrt3$ or 2"
     },
     "answer": "D",
-    "technique": "$\\tan x \\sin x = \\frac{\\sin^2 x}{\\cos x}$, so $7\\cos x + \\frac{\\sin^2x}{\\cos x}=5$. Multiply by $\\cos x$: $7\\cos^2x+\\sin^2x=5\\cos x$. Using $\\sin^2x=1-\\cos^2x$: $6\\cos^2x-5\\cos x+1=0$. Let $c=\\cos x$: $c=\\frac{5\\pm1}{12}$, so $c=\\frac12$ or $c=\\frac13$. For $c=\\frac12$: $\\sin x=\\frac{\\sqrt3}{2}$, $\\tan x=\\sqrt3$. For $c=\\frac13$: $\\sin x=\\frac{2\\sqrt2}{3}$, $\\tan x=2\\sqrt2$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3098,7 +3021,6 @@
       "F": "20 V"
     },
     "answer": "C",
-    "technique": "$R=\\frac{\\rho L}{A} = \\frac{1.6\\times10^{-7}\\times0.5}{4.0\\times10^{-7}}=0.2\\,\\Omega$. $V=IR=4.0\\times0.2=0.8$ V.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3132,7 +3054,6 @@
       "E": "$\\frac{16}{3}(4\\pi-3\\sqrt3)$"
     },
     "answer": "E",
-    "technique": "Circumradius of equilateral triangle side 8: $R=\\frac{8}{\\sqrt3}$. Circle area $=\\pi R^2 = \\frac{64\\pi}{3}$. Triangle area $=\\frac{\\sqrt3}{4}(8)^2=16\\sqrt3$. Shaded area (circle minus triangle) $= \\frac{64\\pi}{3}-16\\sqrt3 = \\frac{16}{3}(4\\pi-3\\sqrt3)$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3175,7 +3096,6 @@
       "F": "280√3/3 N"
     },
     "answer": "C",
-    "technique": "Taking moments about the hinge: weight (140 N) acts at the door's centre, moment arm along the door = 0.40 m, with a perpendicular lever arm of 0.40cos30 deg (since the weight is vertical while the door is inclined). The rod is perpendicular to the door at 0.80-0.10=0.70 m from the hinge, so its full length is the lever arm for the rod's force. Balancing moments: F x 0.70 = 140 x 0.40 x cos30 deg = 28*sqrt(3), so F = 28*sqrt(3)/0.70 = 40*sqrt(3) N.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3214,7 +3134,6 @@
       "F": "$x=\\log_5\\left(\\frac52\\right)$"
     },
     "answer": "B",
-    "technique": "Let $u=5^x$. Then $15u^2-u-2=0$. Discriminant $=1+120=121$, so $u=\\dfrac{1\\pm11}{30}$, giving $u=\\dfrac25$ (rejecting the negative root). So $5^x=\\dfrac25 \\Rightarrow x=\\log_5\\left(\\dfrac25\\right)$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3258,7 +3177,6 @@
       "G": "120°"
     },
     "answer": "C",
-    "technique": "Path from the far speaker: $\\sqrt{40^2+30^2}=\\sqrt{2500}=50$ cm. Path difference $=50-40=10\\text{ cm}=0.1\\text{ m}$. Wavelength $=\\frac{320}{400}=0.8\\text{ m}$. Phase difference $=\\frac{0.1}{0.8}\\times360°=45°$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3300,7 +3218,6 @@
       "E": "$\\frac{13}{3}$"
     },
     "answer": "A",
-    "technique": "Let $A=\\int_{-2}^{2}f(x)\\,dx$ and $B=\\int_{2}^{4}f(x)\\,dx$, so $\\int_{-2}^{4}f(x)\\,dx=A+B$. The equations become $2A+B=4$ and $5A-(A+B)=7 \\Rightarrow 4A-B=7$. Adding gives $6A=11 \\Rightarrow A=\\dfrac{11}{6}$, so $B=4-2A=4-\\dfrac{11}{3}=\\dfrac13$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3339,7 +3256,6 @@
       "F": "4000 m"
     },
     "answer": "D",
-    "technique": "Using $v^2=u^2-2gh$ at max height ($v=0$): $h=\\frac{u^2}{2g}=\\frac{80^2}{2\\times1.6}=\\frac{6400}{3.2}=2000$ m. (Mass is irrelevant for this calculation.)",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3375,7 +3291,6 @@
       "G": "22680"
     },
     "answer": "E",
-    "technique": "Expand $(3+2t)^7=\\sum_k \\binom{7}{k}3^{7-k}(2t)^k$. Integrating term by term, $\\int_0^x t^k\\,dt=\\dfrac{x^{k+1}}{k+1}$, so the coefficient of $x^4$ comes from $k=3$: $\\dfrac{1}{4}\\binom{7}{3}3^{4}2^{3}=\\dfrac14 \\times 35 \\times 81 \\times 8 = 5670$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3411,7 +3326,6 @@
       "G": "1000 Ω"
     },
     "answer": "F",
-    "technique": "From the graph, at $V=6$ V the parallel combination gives $I=30$ mA, so $R_{parallel}=6/0.03=200\\,\\Omega$. Using $\\frac{1}{R_{parallel}}=\\frac{1}{300}+\\frac{1}{R}$: $\\frac{1}{R}=\\frac{1}{200}-\\frac{1}{300}=\\frac{3-2}{600}=\\frac{1}{600} \\Rightarrow R=600\\,\\Omega$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3445,7 +3359,6 @@
       "E": "135"
     },
     "answer": "D",
-    "technique": "Multiply the first equation by 3: $9\\tan\\alpha-6\\sin\\beta=6$. Add to the second: $14\\tan\\alpha=14 \\Rightarrow \\tan\\alpha=1 \\Rightarrow \\alpha=45°$. Substituting into the first: $3-2\\sin\\beta=2 \\Rightarrow \\sin\\beta=0.5 \\Rightarrow \\beta=30°$. $\\theta=180-45-30=105°$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3484,7 +3397,6 @@
       "F": "$1.6\\times10^{-2}$ J"
     },
     "answer": "D",
-    "technique": "$F=mg=40$ N. Stress $=F/A=40/(2.0\\times10^{-6})=2.0\\times10^7$ Pa. Strain $=$ stress$/E=2.0\\times10^7/1.2\\times10^{11}=1.667\\times10^{-4}$. Extension $=$ strain $\\times L=1.667\\times10^{-4}\\times2.4=4.0\\times10^{-4}$ m. Strain energy $=\\frac12F\\times\\text{extension}=\\frac12\\times40\\times4.0\\times10^{-4}=8.0\\times10^{-3}$ J.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3531,7 +3443,6 @@
       "F": "$x > 4$"
     },
     "answer": "F",
-    "technique": "Testing $x=-1$: $-1-2+7-4=0$, so $(x+1)$ is a factor. Dividing gives $x^3-2x^2-7x-4=(x+1)(x^2-3x-4)=(x+1)(x-4)(x+1)=(x+1)^2(x-4)$. Since $(x+1)^2\\geq0$ always, the sign is determined by $(x-4)$ except at $x=-1$ (where the expression equals 0, not $>0$). The expression is positive only when $x>4$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -3574,7 +3485,6 @@
       "E": "960 N"
     },
     "answer": "B",
-    "technique": "Weight $=mg=800$ N. Reading the gradient (acceleration) at point X from the graph gives a deceleration while moving upward (or a downward acceleration) of magnitude $a=0.4\\text{ m/s}^2$. Using Newton's second law, $N-mg=ma$ (taking the direction of acceleration into account): $N=m(g+a)=80(10-0.4)=768$ N.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {

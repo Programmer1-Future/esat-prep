@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// CI gate for the Explanation System migration (docs/CONTENT_SPEC.md §2,
+// CI gate for the Explanation System (docs/CONTENT_SPEC.md §2,
 // EXPLANATION_SYSTEM_PLAN.md). Validates src/data/questions.json:
+//   - every question must have solution.steps (Phase 4)
 //   - schema + content rules for `solution` and `diagram` when present
-//   - Phase 0–3: technique-only questions are OK (requireSolution=false)
-//   - diff-safety: migrations may only ADD solution/diagram — immutable fields
-//     must match the last commit
-// Usage: node scripts/validate-content.mjs   (exits 1 on any issue)
+//   - diff-safety: migrations must not change immutable stem fields
+// Usage: node scripts/validate-content.mjs
+// Opt-out (legacy): node scripts/validate-content.mjs --allow-missing-solution
 import { readFileSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 import path from 'node:path'
@@ -15,7 +15,7 @@ import { validateQuestion } from '../src/lib/content-validator.js'
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA_FILE = path.join(REPO_ROOT, 'src', 'data', 'questions.json')
 const IMMUTABLE_FIELDS = ['id', 'answer', 'question', 'options', 'source']
-const REQUIRE_SOLUTION = process.argv.includes('--require-solution')
+const REQUIRE_SOLUTION = !process.argv.includes('--allow-missing-solution')
 
 function loadQuestions() {
   const raw = readFileSync(DATA_FILE, 'utf-8').trim()

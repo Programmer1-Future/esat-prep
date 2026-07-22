@@ -215,10 +215,9 @@ against the daily reading benefit.
 
 ## 2. EXPLANATION SPEC
 
-**Migration (2026-07):** Student-facing explanations move from a single `technique`
-markdown blob to TMUA's authored **`solution.steps`** schema. See
-`EXPLANATION_SYSTEM_PLAN.md` for phase order. During migration the UI prefers
-`solution` and falls back to `technique` until Phase 4.
+**Shipped (2026-07):** Student-facing explanations use authored **`solution.steps`**
+only. The legacy `technique` blob has been stripped from the bank (Phase 4).
+`npm run validate:content` requires `solution.steps` by default.
 
 Gold reference (diagram cases, full rule list):
 `C:\Users\Ahmed\Documents\De-TMUA-guide\docs\CONTENT_SPEC.md`.
@@ -227,8 +226,7 @@ Gold reference (diagram cases, full rule list):
 
 | Data | Student-facing heading |
 |---|---|
-| `solution.steps` present | **Worked solution** |
-| `technique` fallback only | **How to solve it** |
+| `solution.steps` | **Worked solution** |
 
 Paper figures in stems (`[DIAGRAM:]` → `public/diagrams/<id>.png`) are unchanged.
 A question with a paper PNG must **never** also get a declarative Mafs `diagram` field.
@@ -248,14 +246,12 @@ A question with a paper PNG must **never** also get a declarative Mafs `diagram`
 }
 ```
 
-**Hard bans (CI-enforced when `solution` is present):** option letters (`Answer C`,
+**Hard bans (CI-enforced):** option letters (`Answer C`,
 `option B`, `(D)`), unicode math in solution text, first/second person, hedging,
 platform meta, ellipsis-as-reasoning, ≥15-word verbatim stem overlap. Full list in
 TMUA `CONTENT_SPEC.md` §1.
 
 **Never name an option letter** — options shuffle and re-letter at render (`QuestionBank.jsx`).
-
-Keep `technique` in the JSON during Phases 1–3 as backup; strip in Phase 4 only.
 
 ### 2.3 Optional Mafs `diagram` (maths, Phase 3+)
 

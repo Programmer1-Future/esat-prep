@@ -227,11 +227,11 @@ describe('validateQuestion (integration)', () => {
   it('accepts the fully clean question with no issues', () => {
     expect(validateQuestion(CLEAN_QUESTION)).toEqual([])
   })
-  it('accepts technique-only questions during migration (Phase 0–3)', () => {
-    expect(validateQuestion({ id: 'LEGACY-001', technique: 'Old blob.' }, { requireSolution: false })).toEqual([])
+  it('rejects missing solution by default (Phase 4)', () => {
+    expect(validateQuestion({ id: 'LEGACY-001' }).some(i => i.rule === 'solution-required')).toBe(true)
   })
-  it('rejects missing solution when requireSolution is set', () => {
-    expect(validateQuestion({ id: 'LEGACY-001', technique: 'Old blob.' }, { requireSolution: true }).some(i => i.rule === 'solution-required')).toBe(true)
+  it('allows missing solution when requireSolution is false', () => {
+    expect(validateQuestion({ id: 'LEGACY-001' }, { requireSolution: false })).toEqual([])
   })
   it('rejects image + diagram coexisting', () => {
     const bad = { ...CLEAN_QUESTION, image: '/diagrams/x.png' }

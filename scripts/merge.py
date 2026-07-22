@@ -44,7 +44,7 @@ MODULE_TOPICS = {
 
 REQUIRED_FIELDS = [
     "id", "source", "year", "paper", "module", "topic", "subtopic",
-    "difficulty", "question", "options", "answer", "technique",
+    "difficulty", "question", "options", "answer",
     "origin", "quality_tier",
 ]
 
@@ -138,6 +138,13 @@ def validate(question, filename, seen_ids):
             f"{str(technique)[:80]!r}..."
         )
 
+    solution = question.get("solution")
+    steps = solution.get("steps") if isinstance(solution, dict) else None
+    if not isinstance(steps, list) or len(steps) < 2:
+        violations.append(
+            f"{filename}:{qid}: missing solution.steps (Phase 4 requires 2–6 authored steps)"
+        )
+
     return violations
 
 
@@ -175,14 +182,11 @@ def main():
                 "question": question.get("question"),
                 "options": question.get("options"),
                 "answer": question.get("answer"),
-                "technique": question.get("technique"),
                 "origin": question.get("origin"),
                 "quality_tier": question.get("quality_tier"),
                 "spec_status": question.get("spec_status"),
+                "solution": question.get("solution"),
             }
-            # Explanation System fields (optional during migration)
-            if question.get("solution") is not None:
-                record["solution"] = question["solution"]
             if question.get("diagram") is not None:
                 record["diagram"] = question["diagram"]
             if question.get("diagram_skipped") is not None:

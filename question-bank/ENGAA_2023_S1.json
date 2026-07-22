@@ -19,7 +19,6 @@
       "G": "R = 15r"
     },
     "answer": "A",
-    "technique": "Each cylinder's total surface area = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$. Ten cylinders: $100\\pi r^2$. Set equal to sphere: $4\\pi R^2 = 100\\pi r^2 \\Rightarrow R^2 = 25r^2 \\Rightarrow R = 5r$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -58,7 +57,6 @@
       "F": "$x = \\dfrac{y-p}{q-r} - s$"
     },
     "answer": "C",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -97,7 +95,6 @@
       "F": "20 m"
     },
     "answer": "F",
-    "technique": "Work-energy theorem: $Fd = \\tfrac{1}{2}mv^2$. $d = \\dfrac{0.5 \\times 10000 \\times 2.0^2}{1000} = \\dfrac{20000}{1000} = 20\\text{ m}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -134,7 +131,6 @@
       "H": "1.0 A, 3.0 W"
     },
     "answer": "F",
-    "technique": "With switch open, current flows through 2 resistors in series (3rd branch open): total resistance $2R$, $I=1.0$A so EMF $= 2R$, and $P=I^2(2R)=1.0$W gives $2R=1\\,\\Omega$ so $R=0.5\\,\\Omega$, EMF $=1.0$V. Closing the switch puts the third identical resistor in parallel with one of the existing resistors, giving total resistance $R + R/2 = 1.5R = 0.75\\,\\Omega$. Total current $I=1.0/0.75=1.33$A, power $=EMF\\times I=1.33$W$\\approx1.3$W. The ammeter (in the branch shared by both resistors, not the parallel pair) reads half of this branch current: $1.33/2\\approx0.67$A.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -177,7 +173,6 @@
       "F": "$\\frac{23}{60}$"
     },
     "answer": "F",
-    "technique": "Place $W=(0,0)$, $X=(1,0)$, $Y=(1,1)$, $Z=(0,1)$. Then $M = W + \\tfrac{1}{3}(X-W) = (1/3,0)$, $N = X + \\tfrac{3}{4}(Y-X) = (1,3/4)$, $P = Y + \\tfrac{4}{5}(Z-Y) = (1/5,1)$. Using the shoelace formula, area $= \\tfrac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)| = \\tfrac{23}{60}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -226,7 +221,6 @@
       "H": "60 N"
     },
     "answer": "B",
-    "technique": "For a spring, $E = \\tfrac{1}{2}kx^2$, so the slope of E vs $x^2$ is $k/2$. At $x^2 = 25\\text{ cm}^2 = 0.0025\\text{ m}^2$, $E = 0.015$ J: $0.015 = \\tfrac{1}{2}k(0.0025) \\Rightarrow k = 12\\text{ N/m}$. At this point $x = 0.05$ m, so $F = kx = 12 \\times 0.05 = 0.60$ N.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -275,7 +269,6 @@
       "H": "12"
     },
     "answer": "D",
-    "technique": "Write everything as powers of 3: $27^{2(x-2)}=3^{6(x-2)}=3^{6x-12}$, $9^{2x-3}=3^{4x-6}$, and $81^{3/2}=(3^4)^{3/2}=3^6$. So $3^{6x-12}/3^{4x-6}=3^6 \\Rightarrow 3^{2x-6}=3^6 \\Rightarrow 2x-6=6 \\Rightarrow x=6$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -310,7 +303,6 @@
       "F": "$33\\ \\text{g/cm}^{3}$"
     },
     "answer": "B",
-    "technique": "Weight $= P \\times A = 0.45 \\times 12 = 5.4$ N, so mass $= 5.4/10 = 0.54$ kg $= 540$ g. Density $= 540/180 = 3.0\\text{ g/cm}^3$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -345,7 +337,6 @@
       "F": "$83\\frac{1}{3}\\%$"
     },
     "answer": "D",
-    "technique": "Let old player salary = 1. Old coach salary = 0.8. New coach $= 0.8\\times1.15 = 0.92$. New player $= 1\\times1.38 = 1.38$. Ratio $= 0.92/1.38 = 2/3 = 66\\tfrac{2}{3}\\%$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -392,7 +383,6 @@
       "F": "12 days"
     },
     "answer": "E",
-    "technique": "$N_X(t) = 2N_{Y0}(0.5)^{t/2}$, $N_Y(t) = N_{Y0}(0.5)^{t/3}$. Setting equal: $2(0.5)^{t/2} = (0.5)^{t/3} \\Rightarrow 2 = (0.5)^{t/3-t/2} = (0.5)^{-t/6} = 2^{t/6}$. So $t/6 = 1 \\Rightarrow t = 6$ days.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -430,7 +420,6 @@
       "E": "14.4"
     },
     "answer": "B",
-    "technique": "Total distance per cycle $= 0.4$ km. Time $= 0.1/6 + 0.2/10 + 0.1/20 = 1/60+1/50+1/200$ h. Using a common denominator of 600: $10/600+12/600+3/600 = 25/600 = 1/24$ h. Average speed $= 0.4 \\div (1/24) = 9.6$ km/h.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -472,7 +461,6 @@
       "E": "[DIAGRAM: graph showing curved (non-linear) drop across both sections]"
     },
     "answer": "A",
-    "technique": "In steady state, the same rate of heat flow passes through both layers (same thickness a, same area). Metal is a good conductor (low thermal resistance) so very little temperature drop occurs across it; the insulator has high thermal resistance so almost all the temperature drop $(T_1-T_2)$ occurs across it, roughly linearly since it's a uniform material at steady state. This matches graph A: near-flat over the metal (0 to a), then a steep near-linear decrease over the insulator (a to 2a).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -513,7 +501,6 @@
       "H": "$4+\\sqrt{2}$"
     },
     "answer": "H",
-    "technique": "Linear scale factor $k$ satisfies $k^2=2$ so $k=\\sqrt2$, and volume ratio $k^3=2\\sqrt2$. Let $V_X$ be X's volume: $2\\sqrt2\\,V_X - V_X = 7\\sqrt2 \\Rightarrow V_X(2\\sqrt2-1)=7\\sqrt2 \\Rightarrow V_X = \\dfrac{7\\sqrt2}{2\\sqrt2-1} = \\dfrac{7\\sqrt2(2\\sqrt2+1)}{(2\\sqrt2)^2-1^2} = \\dfrac{7\\sqrt2(2\\sqrt2+1)}{7} = \\sqrt2(2\\sqrt2+1) = 4+\\sqrt2$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -555,7 +542,6 @@
       "E": "550 000 V"
     },
     "answer": "C",
-    "technique": "Power delivered to town $= 33000 \\times 1500 = 4.95\\times10^7$ W. This equals the power on the transmission line, so line voltage $= P/450 = 110000$ V. This is the secondary voltage of the step-up transformer, which steps up by a factor $1500/300=5$. Station output $= 110000/5 = 22000$ V.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -598,7 +584,6 @@
       "F": "$200\\sqrt{5}$"
     },
     "answer": "B",
-    "technique": "Simplify the numerator: $a\\times10^4+2a\\times10^3=12a\\times10^3$. Dividing by $3\\times10^{-1}$ gives $4a\\times10^4$. Squaring: $16a^2\\times10^8=8\\times10^9$, so $a^2=5$ and $a=\\pm\\sqrt5$. The positive difference between the two solutions is $2\\sqrt5$.",
     "origin": "past-paper",
     "quality_tier": 3,
     "solution": {
@@ -640,7 +625,6 @@
       "E": "300 cm/s"
     },
     "answer": "D",
-    "technique": "Period $T = 1/12$ s. In 2.0 s there are exactly $2.0/T = 24$ complete cycles. Each cycle a particle travels a total path of $4A = 4\\times3.0=12$ cm (up to crest, back through zero to trough, back to zero). Total distance $=24\\times12=288$ cm over 2.0 s, giving average speed $=288/2.0=144$ cm/s.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -683,7 +667,6 @@
       "F": "(-11, -4)"
     },
     "answer": "E",
-    "technique": "Since XP:PY = 1:2, $\\overrightarrow{PY} = 2\\overrightarrow{XP} = (8,-6)$. So $Y = P + \\overrightarrow{PY} = (-8+8, 5-6) = (0,-1)$. Then $Q = Y - \\overrightarrow{QY} = (0-7, -1-6) = (-7,-7)$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -722,7 +705,6 @@
       "F": "$\\frac{3}{5}\\text{ A}$"
     },
     "answer": "B",
-    "technique": "Total EMF $V = IR_X + V_Y = 10I+4$. Power: $P=IV=I(10I+4)=6 \\Rightarrow 10I^2+4I-6=0 \\Rightarrow 5I^2+2I-3=0$. Factoring: $(5I-3)(I+1)=0$, so $I = 3/5$ A (taking the positive root).",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -761,7 +743,6 @@
       "F": "6"
     },
     "answer": "C",
-    "technique": "$2^{\\sin x} \\times 3^{-\\sin x} = \\left(\\dfrac23\\right)^{\\sin x}$. Since $\\dfrac23<1$, this is maximised when $\\sin x$ is as small as possible, i.e. $\\sin x=-1$ (at $x=270°$). The maximum value is $\\left(\\dfrac23\\right)^{-1}=\\dfrac32$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -802,7 +783,6 @@
       "H": "$405\\ \\text{cm}^{3}$"
     },
     "answer": "A",
-    "technique": "By Boyle's law: $P_{bottom}\\times90 = P_{atm}\\times720 \\Rightarrow P_{bottom}=8P_{atm}$. Since pressure increases linearly with depth, $P_{bottom}=P_{atm}+\\rho g d = 8P_{atm} \\Rightarrow \\rho g d = 7P_{atm}$. At depth $d/2$: $P(d/2) = P_{atm}+3.5P_{atm}=4.5P_{atm}$. Then $V(d/2) = P_{bottom}\\times90/P(d/2) = 8P_{atm}\\times90/(4.5P_{atm}) = 160\\text{ cm}^3$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -847,7 +827,6 @@
       "H": "39"
     },
     "answer": "H",
-    "technique": "$x^2-x-6=(x-3)(x+2)$, so $x=3$ and $x=-2$ are roots of $f(x)=x^3+ax^2+2x+b$. $f(3)=27+9a+6+b=0 \\Rightarrow 9a+b=-33$. $f(-2)=-8+4a-4+b=0 \\Rightarrow 4a+b=12$. Subtracting: $5a=-45 \\Rightarrow a=-9$, then $b=12-4(-9)=48$. So $a+b = -9+48=39$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -885,7 +864,6 @@
       "E": "16000 Hz"
     },
     "answer": "D",
-    "technique": "Closed pipe fundamental: $f_1 = v/4L = 4000$ Hz, so $L=v/16000$. Open pipe fundamental: $f = v/2L = v/(2\\times v/16000) = 8000$ Hz.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -920,7 +898,6 @@
       "F": "a = -8d"
     },
     "answer": "A",
-    "technique": "$S_n = \\tfrac{n}{2}(2a+(n-1)d)$. Equation: $S_9+S_{10}=S_{11}$. Expanding: $\\tfrac{9}{2}(2a+8d)+\\tfrac{10}{2}(2a+9d) = \\tfrac{11}{2}(2a+10d)$. Solving gives $a = -\\tfrac{13}{4}d$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -964,7 +941,6 @@
       "G": "900 N s"
     },
     "answer": "D",
-    "technique": "Time to fall: $t=\\sqrt{2h/g}=\\sqrt{2\\times45/10}=3$ s. Vertical velocity gained: $v_y=gt=30$ m/s (horizontal velocity is unchanged, so impulse is purely due to the vertical velocity change). Impulse $= m\\Delta v = 2.6\\times30=78$ N s.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1005,7 +981,6 @@
       "H": "54"
     },
     "answer": "G",
-    "technique": "Common ratio condition: $(p-3)^2 = 2p(p-7)$. Expanding: $p^2-6p+9 = 2p^2-14p \\Rightarrow p^2-8p-9=0 \\Rightarrow (p-9)(p+1)=0$, so $p=9$ or $p=-1$. For $p=9$: terms are $18, 6, 2$, ratio $r=1/3$ (convergent), first term $a=18$, sum to infinity $=18/(1-1/3)=27$. For $p=-1$: terms are $-2,-4,-8$, ratio $r=2$ (divergent, rejected). So sum to infinity $=27$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1054,7 +1029,6 @@
       "H": "$9000\\sqrt{3}\\text{ W}$"
     },
     "answer": "C",
-    "technique": "Constant speed means friction balances the component of gravity along the slope: $f = mg\\sin\\theta = 60\\times10\\times\\sin30° = 300$ N. Rate of thermal energy production $= f\\times v = 300\\times15=4500$ W.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1093,7 +1067,6 @@
       "F": "80°"
     },
     "answer": "E",
-    "technique": "Using circle theorems (angles subtended by the same arc, and the fact that the angle at the centre is twice the angle at the circumference, together with the given 40° and 55°), the value of x that satisfies the geometric constraints in the diagram is 75°.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1127,7 +1100,6 @@
       "E": "40 W"
     },
     "answer": "E",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1166,7 +1138,6 @@
       "F": "7"
     },
     "answer": "A",
-    "technique": "Combine logs: log3[(x^2+3x+2)/(x^2+2x)]=2, so (x^2+3x+2)/(x^2+2x)=9. This gives 8x^2+15x-2=0, discriminant=225+64=289=17^2, x=(-15+-17)/16, so x=1/8 or x=-2. Checking domain (both log arguments must be positive): x=-2 gives x^2+2x=0, undefined; x=1/8 gives both arguments positive. So x=1/8.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1210,7 +1181,6 @@
       "G": "$400\\sqrt3\\text{ N}$"
     },
     "answer": "B",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1249,7 +1219,6 @@
       "F": "$28-12\\sqrt5$"
     },
     "answer": "E",
-    "technique": "Let $a=3-\\sqrt5$. The integral is $\\dfrac{1}{a}\\displaystyle\\int_{-a}^{a}x^2\\,dx=\\dfrac1a\\left[\\dfrac{x^3}{3}\\right]_{-a}^{a}=\\dfrac1a\\cdot\\dfrac{2a^3}{3}=\\dfrac{2a^2}{3}$. Since $a^2=(3-\\sqrt5)^2=9-6\\sqrt5+5=14-6\\sqrt5$, this gives $\\dfrac{2(14-6\\sqrt5)}{3}=\\dfrac{28-12\\sqrt5}{3}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1289,7 +1258,6 @@
       "G": "19 N"
     },
     "answer": "B",
-    "technique": "Total mass $=8.0$ kg, total friction $=2.0+1.0+1.0=4.0$ N. Net force $=20-4=16$ N, so $a=16/8=2.0\\text{ m/s}^2$. Consider block R alone: the only horizontal forces are the push from Q, $N_{QR}$, and friction $1.0$ N opposing motion. Newton's second law: $N_{QR}-1.0 = m_R a = 2.0\\times2.0=4.0 \\Rightarrow N_{QR}=5.0$ N. By Newton's third law, the force R exerts on Q has the same magnitude, 5.0 N.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1338,7 +1306,6 @@
       "H": "3"
     },
     "answer": "C",
-    "technique": "$f'(x) = -\\dfrac{a}{x^2}-\\dfrac{2b}{x^3}$. $f'(1) = -a-2b = 2$. $f''(x)=\\dfrac{2a}{x^3}+\\dfrac{6b}{x^4}$. $f''(-1) = -2a+6b=-2 \\Rightarrow -a+3b=-1$. Solving $-a-2b=2$ and $-a+3b=-1$: subtracting gives $5b=-3 \\Rightarrow b=-3/5$, then $-a = 2+2(-3/5) = 2-6/5=4/5 \\Rightarrow a=-4/5$. So $a+b = -4/5-3/5 = -7/5$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1383,7 +1350,6 @@
       "H": "1, 2 and 3"
     },
     "answer": "G",
-    "technique": "Row 1 (h vs t) is quadratic, starting at H not the origin -- excluded. Rows 2 and 3 (KE vs h, GPE vs s) are both LINEAR relationships, which is inconsistent with the stem's description of a graph that curves upward -- this raises doubt about whether the stored answer (rows 2 and 3) is correct without seeing the actual rendered diagram axes/shape. Needs re-verification against the source PDF diagram.",
     "origin": "past-paper",
     "quality_tier": 1,
     "needs_repair": true,
@@ -1423,7 +1389,6 @@
       "F": "7"
     },
     "answer": "A",
-    "technique": "Rewrite as $\\log_3(x^2+3x+2)-\\log_3(x^2+2x)=2 \\Rightarrow \\log_3\\dfrac{x^2+3x+2}{x^2+2x}=2 \\Rightarrow \\dfrac{x^2+3x+2}{x^2+2x}=9$. Cross-multiplying: $x^2+3x+2 = 9x^2+18x \\Rightarrow 8x^2+15x-2=0 \\Rightarrow (8x-1)(x+2)=0$, giving $x=1/8$ or $x=-2$. Checking domain (arguments of logs must be positive): $x=-2$ makes $x^2+2x=0$ (invalid), so $x=1/8$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1462,7 +1427,6 @@
       "F": "$1600\\ \\Omega$"
     },
     "answer": "E",
-    "technique": "Original: $V_{cyl} = 20 - 0.2\\times20 = 16$ V, so $R_{cyl} = 16/0.2 = 80\\,\\Omega$. When re-formed with the same volume but 4x the length, the cross-sectional area becomes $A/4$. Since $R=\\rho L/A$, $R_{new}/R_{old} = (4L/L)/(\\tfrac14A/A) = 4\\times4=16$. $R_{new} = 80\\times16=1280\\,\\Omega$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1501,7 +1465,6 @@
       "F": "$\\frac{1}{2048}$"
     },
     "answer": "B",
-    "technique": "General term: $\\binom{8}{k}\\left(\\dfrac{x}{4}\\right)^{8-k}\\left(\\dfrac{2}{x}\\right)^k = \\binom{8}{k}\\left(\\dfrac14\\right)^{8-k}2^k\\,x^{8-2k}$. Constant term needs $8-2k=0 \\Rightarrow k=4$: $\\binom{8}{4}\\left(\\dfrac14\\right)^4 2^4 = 70\\times\\dfrac{1}{256}\\times16 = \\dfrac{70\\times16}{256}=\\dfrac{1120}{256}=\\dfrac{35}{8}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1535,7 +1498,6 @@
       "E": "$\\dfrac{2d}{3}$"
     },
     "answer": "A",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1576,7 +1538,6 @@
       "H": "$\\frac{12\\sqrt{13}}{13}$"
     },
     "answer": "G",
-    "technique": "By the Cauchy-Schwarz inequality (or writing $x=\\cos\\theta,y=\\sin\\theta$), the maximum of $ax+by$ subject to $x^2+y^2=1$ is $\\sqrt{a^2+b^2}$. Here $\\sqrt{2^2+3^2}=\\sqrt{13}$.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
@@ -1612,7 +1573,6 @@
       "G": "512 J"
     },
     "answer": "A",
-    "technique": "For springs in series, the same force F acts through both, and total extension $x_{total} = F/k_1+F/k_2 = F\\left(\\dfrac{1}{200}+\\dfrac{1}{600}\\right)=F\\times\\dfrac{4}{600}=\\dfrac{F}{150}$. So $0.80 = F/150 \\Rightarrow F=120$ N. Total strain energy $=\\tfrac12 F x_{total} = \\tfrac12\\times120\\times0.80=48$ J.",
     "origin": "past-paper",
     "quality_tier": 1,
     "solution": {
