@@ -255,7 +255,7 @@
       "E": "$2\\sqrt4$ km"
     },
     "answer": "B",
-    "technique": "At B, the bearing to A is $270°$ (due West) and to C is $060°$, so angle $ABC = 90°-60°=30°$. At A, the bearing to B is $270°$ (wait — bearing to C from A is $330°$; bearing to B from A is $270°$, so angle $BAC = 330°-270°=60°$). Then angle $C = 180-30-60=90°$, so triangle $ABC$ is right-angled at C with hypotenuse $AB=4$. $BC = AB\\sin(A) = 4\\sin60° = 4\\times\\frac{\\sqrt3}{2}=2\\sqrt3$ km.",
+    "technique": "At B, the bearing to A is $270°$ (due West) and to C is $060°$, so angle $ABC = 90°-60°=30°$. At A, the bearing to B is $270°$ and the bearing to C is $330°$, so angle $BAC = 330°-270°=60°$. Then angle $C = 180-30-60=90°$, so triangle $ABC$ is right-angled at C with hypotenuse $AB=4$. $BC = AB\\sin(A) = 4\\sin60° = 4\\times\\frac{\\sqrt3}{2}=2\\sqrt3$ km.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -779,7 +779,7 @@
       "G": "$\\dfrac{48}{5^5+1}$"
     },
     "answer": "C",
-    "technique": "$ar^4=2$ with $a=8$ gives $r^4=1/4$, so $r^2=1/2$ and $r=\\pm\\dfrac{1}{\\sqrt2}$. The sixth term $ar^5$ must be positive; since $a>0$, we need $r^5>0$, i.e. $r>0$, so $r=\\dfrac{1}{\\sqrt2}$. Sum to infinity $=\\dfrac{8}{1-\\frac{1}{\\sqrt2}}=\\dfrac{8\\sqrt2}{\\sqrt2-1}=\\dfrac{8\\sqrt2(\\sqrt2+1)}{(\\sqrt2-1)(\\sqrt2+1)}=\\dfrac{8(2+\\sqrt2)}{1}=8(2+\\sqrt2)=16+8\\sqrt2$.",
+    "technique": "$ar^4=2$ with $a=8$ gives $r^4=1/4$, so $r^2=1/2$ and $r=\\pm\\dfrac{1}{\\sqrt2}$. The sixth term $ar^5$ must be positive; since $a>0$, this requires $r^5>0$, i.e. $r>0$, so $r=\\dfrac{1}{\\sqrt2}$. Sum to infinity $=\\dfrac{8}{1-\\frac{1}{\\sqrt2}}=\\dfrac{8\\sqrt2}{\\sqrt2-1}=\\dfrac{8\\sqrt2(\\sqrt2+1)}{(\\sqrt2-1)(\\sqrt2+1)}=\\dfrac{8(2+\\sqrt2)}{1}=8(2+\\sqrt2)=16+8\\sqrt2$.",
     "origin": "past-paper",
     "quality_tier": 1
   },

@@ -56,7 +56,7 @@
     "topic": "m1-algebra",
     "subtopic": "Changing the subject of a formula",
     "difficulty": 3,
-    "question": "Which of the following is a rearrangement of $p = 3 + \\dfrac{4}{qr}$ so that $q$ is the subject?",
+    "question": "Which of the following is a rearrangement of $\\dfrac{p}{2} + \\dfrac{3}{q} = \\dfrac{4}{r}$ so that $q$ is the subject?",
     "options": {
       "A": "2r/(24-3pr)",
       "B": "3r/(2r-p)",
@@ -68,7 +68,7 @@
       "H": "(3pr-24)/(4p)"
     },
     "answer": "D",
-    "technique": "The original algebraic fractions in this question were badly mangled by PDF text extraction (fraction layout lost).",
+    "technique": "$\\dfrac{3}{q} = \\dfrac{4}{r} - \\dfrac{p}{2} = \\dfrac{8-pr}{2r}$, so $q = \\dfrac{3}{\\left(\\frac{8-pr}{2r}\\right)} = \\dfrac{6r}{8-pr}$.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -294,7 +294,7 @@
     "topic": "m2-trig",
     "subtopic": "Trigonometric ratios of special angles",
     "difficulty": 3,
-    "question": "Given that $y=\\dfrac{\\sin(-160°)}{\\cos60°}$, what is the value of $y^3$?",
+    "question": "Given that $y=\\dfrac{\\sin60°-1}{\\cos60°}$, what is the value of $y^3$?",
     "options": {
       "A": "-sqrt(3)/9",
       "B": "-5sqrt(2)+10",
@@ -305,7 +305,7 @@
       "G": "21sqrt(3)-38"
     },
     "answer": "F",
-    "technique": "The trigonometric expression in this question was badly mangled by PDF text extraction (surd/fraction layout lost).",
+    "technique": "$\\sin60°=\\frac{\\sqrt3}{2}$ and $\\cos60°=\\frac12$, so $y=\\dfrac{\\frac{\\sqrt3}{2}-1}{\\frac12}=\\sqrt3-2$. Then $y^3=(\\sqrt3-2)^3=3\\sqrt3-3(3)(2)+3(\\sqrt3)(4)-8=3\\sqrt3-18+12\\sqrt3-8=15\\sqrt3-26$.",
     "origin": "past-paper",
     "quality_tier": 1
   },

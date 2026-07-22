@@ -838,7 +838,7 @@
       "H": "$MPk$"
     },
     "answer": "D",
-    "technique": "$Q=Pt$ and $Q=Mc\\Delta T$, so $Pt=Mc\\Delta T \\Rightarrow c=\\dfrac{Pt}{M\\Delta T}$. Since gradient $k=\\dfrac{\\Delta T}{t}$, we have $\\dfrac{t}{\\Delta T}=\\dfrac1k$, so $c=\\dfrac{P}{Mk}$.",
+    "technique": "$Q=Pt$ and $Q=Mc\\Delta T$, so $Pt=Mc\\Delta T \\Rightarrow c=\\dfrac{Pt}{M\\Delta T}$. Since gradient $k=\\dfrac{\\Delta T}{t}$, it follows that $\\dfrac{t}{\\Delta T}=\\dfrac1k$, so $c=\\dfrac{P}{Mk}$.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -1787,7 +1787,7 @@
     "topic": "bio-enzymes",
     "subtopic": "Enzyme activity vs temperature graph",
     "difficulty": 3,
-    "question": "[DIAGRAM: Five candidate graphs of rate of reaction vs temperature (5°C to 45°C) for a fungal amylase acting on starch.] Which graph shows the expected results?",
+    "question": "A fungus feeds by releasing amylase onto starchy food. The soluble products of the breakdown of starch are absorbed by the fungus. Test tubes were set up containing a mixture of starch solution and fungus. Each test tube was maintained at a different temperature between 5°C and 45°C. Samples of the mixture were removed early in the experiments to determine the initial rates of this enzyme-catalysed reaction. The results were plotted. All of the other variables were kept constant. [DIAGRAM: five graphs of rate of reaction against temperature (5°C to 45°C)] Which graph shows the expected results?",
     "options": {
       "A": "rate starts high, decreases sharply then levels off low (decay curve)",
       "B": "rate starts high, decreases to a minimum, then increases again (U-shape)",

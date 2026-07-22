@@ -1,0 +1,19 @@
+[
+  {
+    "qnum": 42,
+    "readable": true,
+    "question": "A ball of mass 0.20 kg is thrown vertically downwards at an initial speed of 4.0 m s$^{-1}$ and travels a distance of 0.45 m to the ground. The ball hits the ground, and rebounds with an initial speed of 2.0 m s$^{-1}$. How much energy does the ball lose in the bounce? (gravitational field strength = 10 N kg$^{-1}$; air resistance can be ignored)",
+    "options": [
+      {"letter": "A", "text": "0.10 J"},
+      {"letter": "B", "text": "0.40 J"},
+      {"letter": "C", "text": "0.50 J"},
+      {"letter": "D", "text": "0.90 J"},
+      {"letter": "E", "text": "1.2 J"},
+      {"letter": "F", "text": "1.6 J"},
+      {"letter": "G", "text": "2.1 J"}
+    ],
+    "diagram": null,
+    "_model": "pdf-hand-corrected",
+    "_note": "Flash had put printed q52 (load/pulley, PDF page 42) into q42. Real q42 is ball-bounce on PDF page 35."
+  }
+]

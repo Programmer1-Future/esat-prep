@@ -804,7 +804,7 @@
     "topic": "phy-mechanics",
     "subtopic": "kinetic energy comparison",
     "difficulty": 3,
-    "question": "Car X travels at 1.5× the speed of car Y, with mass $\\frac45$ that of car Y. How do their kinetic energies compare?",
+    "question": "Car X passes car Y on a motorway. Car X is travelling at 1.5 times the speed of car Y. The mass of car X is $\\frac45$ of the mass of car Y. How do the kinetic energies of the two cars compare?",
     "options": {
       "A": "$\\text{KE}_X = 0.90 \\times \\text{KE}_Y$",
       "B": "$\\text{KE}_X = 0.96 \\times \\text{KE}_Y$",
@@ -1042,13 +1042,13 @@
     "topic": "chem-electrolysis",
     "subtopic": "electrolysis of copper chloride",
     "difficulty": 2,
-    "question": "An electrochemical cell has aqueous CuCl2 electrolyte with a copper cathode and graphite anode. Which row identifies the electrode reactions?",
+    "question": "Consider this electrochemical cell containing an aqueous copper(II) chloride electrolyte. [DIAGRAM: electrochemical cell with a pure copper cathode (negative electrode) and a graphite anode (positive electrode) in 2 mol dm⁻³ CuCl₂(aq) electrolyte, connected to a 9V d.c. power source] Which row in the following table identifies the reactions occurring at the electrodes?",
     "options": {
-      "A": "cathode: Cu²⁺+2e⁻→Cu; anode: Cu→Cu²⁺+2e⁻",
-      "B": "cathode: Cu→Cu²⁺+2e⁻; anode: Cu²⁺+2e⁻→Cu",
-      "C": "cathode: 2Cl⁻→Cl2+2e⁻; anode: Cu²⁺+2e⁻→Cu",
-      "D": "cathode: Cu²⁺+2e⁻→Cu; anode: 2Cl⁻→Cl2+2e⁻",
-      "E": "cathode: Cu→Cu²⁺+2e⁻; anode: 2OH⁻→H2+O2+2e⁻"
+      "A": "cathode (negative electrode): Cu²⁺(aq) + 2e⁻ → Cu(s); anode (positive electrode): Cu(s) → Cu²⁺(aq) + 2e⁻",
+      "B": "cathode (negative electrode): Cu(s) → Cu²⁺(aq) + 2e⁻; anode (positive electrode): Cu²⁺(aq) + 2e⁻ → Cu(s)",
+      "C": "cathode (negative electrode): 2Cl⁻(aq) → Cl₂(g) + 2e⁻; anode (positive electrode): Cu²⁺(aq) + 2e⁻ → Cu(s)",
+      "D": "cathode (negative electrode): Cu²⁺(aq) + 2e⁻ → Cu(s); anode (positive electrode): 2Cl⁻(aq) → Cl₂(g) + 2e⁻",
+      "E": "cathode (negative electrode): Cu(s) → Cu²⁺(aq) + 2e⁻; anode (positive electrode): 2OH⁻(aq) → H₂(g) + O₂(g) + 2e⁻"
     },
     "answer": "D",
     "technique": "Reduction (gain of electrons) occurs at the cathode: $Cu^{2+}+2e^-\\to Cu$. Oxidation occurs at the anode: $2Cl^-\\to Cl_2+2e^-$.",
@@ -1112,14 +1112,14 @@
     "topic": "chem-rates",
     "subtopic": "rate graphs, concentration",
     "difficulty": 3,
-    "question": "Mg + H2SO4 → MgSO4 + H2. Line P: 1.2g Mg + 40cm³ of 1.0mol/dm³ H2SO4 at 20°C. Experiments Q (2.0mol/dm³) and R (0.5mol/dm³) are also run. [DIAGRAM: graphs of gas volume vs time with candidate lines 1-5] Which lines represent experiments Q and R?",
+    "question": "Magnesium reacts with sulfuric acid according to the following chemical equation: Mg(s) + H₂SO₄(aq) → MgSO₄(aq) + H₂(g). Line P on each graph shows how the volume of hydrogen formed changes with time when 1.2g of magnesium reacts with 40 cm³ of 1.0 mol dm⁻³ sulfuric acid at 20°C. (Ar value: Mg=24). Two further experiments were carried out and the volumes of hydrogen formed were plotted. Experiment Q: 1.2g of magnesium + 40 cm³ of 2.0 mol dm⁻³ sulfuric acid at 20°C. Experiment R: 1.2g of magnesium + 40 cm³ of 0.5 mol dm⁻³ sulfuric acid at 20°C. [DIAGRAM: two graphs of volume of hydrogen (cm³) vs time (s); graph for experiment Q shows lines P, 1, 2, 3; graph for experiment R shows lines P, 4, 5] Which lines show how the volume of hydrogen formed will change with time in each experiment?",
     "options": {
-      "A": "1, 4",
-      "B": "1, 5",
-      "C": "2, 4",
-      "D": "2, 5",
-      "E": "3, 4",
-      "F": "3, 5"
+      "A": "experiment Q: 1, experiment R: 4",
+      "B": "experiment Q: 1, experiment R: 5",
+      "C": "experiment Q: 2, experiment R: 4",
+      "D": "experiment Q: 2, experiment R: 5",
+      "E": "experiment Q: 3, experiment R: 4",
+      "F": "experiment Q: 3, experiment R: 5"
     },
     "answer": "F",
     "technique": "Moles Mg $=1.2/24=0.05$mol. For P: moles acid $=1.0\\times0.040=0.04$mol $<0.05$mol Mg, so acid is limiting, giving H$_2$=0.04mol. For Q (2.0 mol/dm$^3$, same volume): moles acid $=0.08$mol $>0.05$mol Mg, so Mg becomes limiting, H$_2$=0.05mol (higher volume than P, and faster due to higher concentration) — matches curve 3. For R (0.5 mol/dm$^3$): moles acid $=0.02$mol $<0.05$mol, acid limiting, H$_2$=0.02mol (lower volume than P, and slower) — matches curve 5. So Q=3, R=5.",
@@ -1135,14 +1135,14 @@
     "topic": "chem-energetics",
     "subtopic": "bond energy calculation",
     "difficulty": 3,
-    "question": "$N_2+3H_2\\to2NH_3$ releases 93kJ/mol. Bond energies: H–H=436, N–H=391 (kJ/mol). What is the bond energy in N2?",
+    "question": "Nitrogen and hydrogen react together to form ammonia as shown below: N₂(g) + 3H₂(g) → 2NH₃(g). The energy released by this reaction is 93 kJ mol⁻¹. What is the bond energy in the nitrogen molecule? (Bond energies: H–H = 436 kJ mol⁻¹; N–H = 391 kJ mol⁻¹)",
     "options": {
-      "A": "315 kJ/mol",
-      "B": "513 kJ/mol",
-      "C": "644 kJ/mol",
-      "D": "864 kJ/mol",
-      "E": "945 kJ/mol",
-      "F": "1131 kJ/mol"
+      "A": "315 kJ mol⁻¹",
+      "B": "513 kJ mol⁻¹",
+      "C": "644 kJ mol⁻¹",
+      "D": "864 kJ mol⁻¹",
+      "E": "945 kJ mol⁻¹",
+      "F": "1131 kJ mol⁻¹"
     },
     "answer": "E",
     "technique": "$\\Delta H=$ bonds broken $-$ bonds formed: $-93=(E_{N\\equiv N}+3\\times436)-(6\\times391)=E_{N\\equiv N}+1308-2346$. $E_{N\\equiv N}=-93-1308+2346=945$kJ/mol.",
@@ -1396,15 +1396,15 @@
     "topic": "bio-variation",
     "subtopic": "classification by cell features",
     "difficulty": 3,
-    "question": "A diagram groups organisms by: external cell wall, membrane-bound nucleus, and energy-releasing enzymes, into regions P, Q, R, S. [DIAGRAM: Venn-style classification diagram] Which row correctly places fungi, bacteria and animals?",
+    "question": "The diagram shows three features which are used to group organisms. [DIAGRAM: Venn diagram with three overlapping circles representing 'cell has an external wall forming a layer that gives it a defined shape', 'within the cell is a membrane-bound structure that contains DNA', and 'cell uses enzymes to release energy for cell processes'; the overlapping regions are labeled P, Q, R, S] Fungi, bacteria and animals can each be placed in one of the regions labelled P, Q, R or S on the diagram. Which row in the following table is correct?",
     "options": {
-      "A": "P, S, R",
-      "B": "P, R, S",
-      "C": "Q, R, P",
-      "D": "S, Q, R",
-      "E": "S, S, S",
-      "F": "R, P, Q",
-      "G": "R, Q, P"
+      "A": "fungi: P, bacteria: S, animals: R",
+      "B": "fungi: P, bacteria: R, animals: S",
+      "C": "fungi: Q, bacteria: R, animals: P",
+      "D": "fungi: S, bacteria: Q, animals: R",
+      "E": "fungi: S, bacteria: S, animals: S",
+      "F": "fungi: R, bacteria: P, animals: Q",
+      "G": "fungi: R, bacteria: Q, animals: P"
     },
     "answer": "D",
     "technique": "All three organisms use enzymes to release energy (the bottom circle), so none can lie only in the top overlap region P. Fungi have a cell wall AND a nucleus AND use enzymes -> region S (centre, all three circles). Bacteria have a cell wall but no nucleus, plus enzymes -> region Q. Animals have a nucleus but no cell wall, plus enzymes -> region R. Row: fungi=S, bacteria=Q, animals=R.",
@@ -1725,29 +1725,6 @@
     "needs_repair": true
   },
   {
-    "id": "NSAA-2017-PHY-019",
-    "source": "NSAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "physics",
-    "topic": "phy-mechanics",
-    "subtopic": "moments, cranes",
-    "difficulty": 4,
-    "question": "A crane is balanced about pivot P, with a 400kg load and 2000kg counterweight each 10m from P. [DIAGRAM: crane with load, counterweight, and pivot P] The load moves 5.0m further from P. How far, and in which direction, must the counterweight move to rebalance? (g=10N/kg)",
-    "options": {
-      "A": "1.0m to the left",
-      "B": "1.0m to the right",
-      "C": "3.0m to the left",
-      "D": "3.0m to the right",
-      "E": "4.0m to the left",
-      "F": "4.0m to the right"
-    },
-    "answer": "B",
-    "technique": "New load moment $=400(15)=6000$; increase from original ($400\\times10=4000$) is $2000$ (in the same units as weight×distance, using mass since g cancels). This must be matched by the counterweight moving $\\Delta$ further out: $2000\\Delta=2000\\Rightarrow\\Delta=1.0$m, further from P (to the right).",
-    "origin": "past-paper",
-    "quality_tier": 1
-  },
-  {
     "id": "NSAA-2017-M2-002",
     "source": "NSAA 2017",
     "year": 2017,
@@ -1856,30 +1833,6 @@
     },
     "answer": "D",
     "technique": "$y'=3x^2+2px+q$ has roots 2 and 4: $3x^2+2px+q=3(x-2)(x-4)=3x^2-18x+24$, so $2p=-18\\Rightarrow p=-9$, and $q=24$.",
-    "origin": "past-paper",
-    "quality_tier": 1
-  },
-  {
-    "id": "NSAA-2017-PHY-022",
-    "source": "NSAA 2017",
-    "year": 2017,
-    "paper": "Section 1",
-    "module": "physics",
-    "topic": "phy-mechanics",
-    "subtopic": "tension, pulleys, statics",
-    "difficulty": 3,
-    "question": "A 1.0kg block on a rough surface is connected via a force meter and a frictionless pulley to a hanging 1.0kg load; the block remains stationary. [DIAGRAM: block, force meter, pulley, hanging mass] What is the reading on the force meter? (g=10N/kg)",
-    "options": {
-      "A": "0.0N",
-      "B": "0.5N",
-      "C": "1.0N",
-      "D": "2.0N",
-      "E": "5.0N",
-      "F": "10N",
-      "G": "20N"
-    },
-    "answer": "F",
-    "technique": "The hanging 1.0kg mass is in vertical equilibrium (system stationary), so the string tension equals its weight: $T=mg=1.0\\times10=10$N, read directly by the force meter.",
     "origin": "past-paper",
     "quality_tier": 1
   },

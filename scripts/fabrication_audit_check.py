@@ -75,9 +75,12 @@ def check_paper(paper: str) -> tuple:
             # duplicate whose CONTENT disagrees with the first transcription.
             if qnum in seen:
                 prev = first_seen[qnum]
-                if _fingerprint(r) != _fingerprint(prev):
+                if prev.get("readable") and r.get("readable") and _fingerprint(r) != _fingerprint(prev):
                     problems.append(f"{where}: q{qnum} disagrees with the "
                                     f"transcription in {seen[qnum]}")
+                elif not prev.get("readable") and r.get("readable"):
+                    seen[qnum] = rel
+                    first_seen[qnum] = r
                 continue
             seen[qnum] = rel
             first_seen[qnum] = r

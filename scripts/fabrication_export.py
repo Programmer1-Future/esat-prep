@@ -21,13 +21,19 @@ OUT = AUDIT / "repairs"
 
 # Proven invented: no question of this kind exists in any of the 16 papers, and its
 # option set has 0% overlap with all 1041 transcribed questions.
-FABRICATED = ["ENGAA-2020-PHY-014"]
+# NOTE (2026-07-22): ENGAA-2020-PHY-014 was previously listed here. PDF hand-check
+# shows it IS the real ENGAA_2020 q28 (coil/torque). Flash had shifted that slot.
+FABRICATED: list[str] = []
 
 # Same question printed in both series that year. Real content, wrong attribution.
-TWINS = {
-    "NSAA-2016-PHY-022": ("ENGAA_2016_S1", 38),
-    "NSAA-2017-PHY-019": ("ENGAA_2017_S1", 30),
-    "NSAA-2017-PHY-022": ("ENGAA_2017_S1", 40),
+# Resolved 2026-07-22: NSAA phantoms deleted; crane added as ENGAA-2017-PHY-027.
+TWINS: dict[str, tuple[str, int]] = {}
+
+# Census still flags these; PDF adjudication says leave alone.
+KNOWN_FALSE_POSITIVES = {
+    "NSAA-2016-PHY-023",
+    "NSAA-2017-CHEM-017",
+    "ENGAA-2018-PHY-021",
 }
 
 
@@ -53,7 +59,10 @@ def packet(rec: dict, got: dict | None, action: str, note: str) -> dict:
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
-    stored, gem = load_stored(), load_gemini()
+    # census.json includes ids recovered via proposed_mapping.json; load them the
+    # same way or KeyError on every newly-mapped id.
+    stored = load_stored(AUDIT / "proposed_mapping.json")
+    gem = load_gemini()
     rows = json.load(open(AUDIT / "census.json", encoding="utf-8"))
     by_id = {r["id"]: r for r in rows}
     stored_by_id = {q.get("id"): (k, q) for k, q in stored.items()}
@@ -62,7 +71,11 @@ def main() -> int:
                                "twin": []}
 
     for qid in FABRICATED:
-        key, rec = stored_by_id[qid]
+        hit = stored_by_id.get(qid)
+        if not hit:
+            print(f"skip fabricated {qid}: not in stored (mapping missing?)")
+            continue
+        key, rec = hit
         groups["fabricated"].append(packet(
             rec, None, "DELETE or REPLACE",
             "Not present in any of the 16 papers; 0% option overlap corpus-wide. "
@@ -70,7 +83,11 @@ def main() -> int:
             "real question at this number."))
 
     for qid, (tp, tq) in TWINS.items():
-        key, rec = stored_by_id[qid]
+        hit = stored_by_id.get(qid)
+        if not hit:
+            print(f"skip twin {qid}: not in stored (mapping missing?)")
+            continue
+        key, rec = hit
         groups["twin"].append(packet(
             rec, gem.get((tp, tq)), "REMAP (cross-paper)",
             f"Content is genuine but belongs to {tp} q{tq}. NSAA and ENGAA shared "
@@ -78,9 +95,13 @@ def main() -> int:
 
     for r in rows:
         qid = r["id"]
-        if qid in FABRICATED or qid in TWINS:
+        if qid in FABRICATED or qid in TWINS or qid in KNOWN_FALSE_POSITIVES:
             continue
-        key, rec = stored_by_id[qid]
+        hit = stored_by_id.get(qid)
+        if not hit:
+            print(f"skip {qid}: not in stored (mapping missing?)")
+            continue
+        key, rec = hit
         if r["verdict"] == "MISMATCH" and r.get("found_at"):
             groups["mapping"].append(packet(
                 rec, gem.get((r["paper"], r["found_at"])), "REMAP",

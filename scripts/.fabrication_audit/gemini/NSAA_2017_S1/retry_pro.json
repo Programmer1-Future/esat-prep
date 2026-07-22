@@ -1,0 +1,113 @@
+[
+  {
+    "qnum": 82,
+    "readable": true,
+    "question": "An apple of mass 100 g, growing on a tree, falls vertically from a height of 4.0 m above the ground. It hits the ground with a speed of 8.0 m s$^{-1}$.\n\nHow much work does the apple do against resistive forces during its descent, before it hits the ground?\n\n(gravitational field strength = 10 N kg$^{-1}$)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.80 J"
+      },
+      {
+        "letter": "B",
+        "text": "3.6 J"
+      },
+      {
+        "letter": "C",
+        "text": "4.0 J"
+      },
+      {
+        "letter": "D",
+        "text": "7.2 J"
+      },
+      {
+        "letter": "E",
+        "text": "8.0 J"
+      }
+    ],
+    "diagram": null,
+    "_model": "antigravity-gemini-3-pro"
+  },
+  {
+    "qnum": 84,
+    "readable": true,
+    "question": "A stone is fired vertically upwards at a speed of 13 m s$^{-1}$ on a still day from the top of a 6.0 m high cliff. It then falls down and lands at the bottom of the cliff.\n\nFrom when the stone passes the top of the cliff on the way down, how long does it take to reach the ground at the bottom of the cliff?\n\n(air resistance can be ignored; gravitational field strength = 10 N kg$^{-1}$)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.40 s"
+      },
+      {
+        "letter": "B",
+        "text": "$\\frac{6.0}{6.5}$ s"
+      },
+      {
+        "letter": "C",
+        "text": "0.60 s"
+      },
+      {
+        "letter": "D",
+        "text": "$\\sqrt{1.2}$ s"
+      },
+      {
+        "letter": "E",
+        "text": "1.3 s"
+      },
+      {
+        "letter": "F",
+        "text": "2.0 s"
+      },
+      {
+        "letter": "G",
+        "text": "2.5 s"
+      },
+      {
+        "letter": "H",
+        "text": "3.0 s"
+      }
+    ],
+    "diagram": "A diagram showing a stone fired vertically upwards at 13 m s$^{-1}$ from the top of a 6.0 m high cliff.",
+    "_model": "antigravity-gemini-3-pro"
+  },
+  {
+    "qnum": 86,
+    "readable": true,
+    "question": "An archer fires an arrow of mass 0.024 kg vertically upwards from a bow.\n\nThe graph shows how the force of the bowstring on the arrow varies with distance as the arrow moves upwards.\n\nThe work done by the force of the bowstring is given by the area under the force-distance graph.\n\nWhen the arrow leaves the bow, what is the kinetic energy of the arrow, and what is the maximum height that it gains from this point?\n\n(Air resistance can be ignored. The effect of gravity as the arrow is fired is negligible compared to the force of the bowstring. The gravitational field strength = 10 N kg$^{-1}$.)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "38.4 16"
+      },
+      {
+        "letter": "B",
+        "text": "38.4 160"
+      },
+      {
+        "letter": "C",
+        "text": "38.4 1600"
+      },
+      {
+        "letter": "D",
+        "text": "38.4 16 000"
+      },
+      {
+        "letter": "E",
+        "text": "76.8 32"
+      },
+      {
+        "letter": "F",
+        "text": "76.8 320"
+      },
+      {
+        "letter": "G",
+        "text": "76.8 3200"
+      },
+      {
+        "letter": "H",
+        "text": "76.8 32 000"
+      }
+    ],
+    "diagram": "A force-distance graph showing force / N decreasing linearly from 192 to 0 as distance / m increases from 0 to 0.40.",
+    "_model": "antigravity-gemini-3-pro"
+  }
+]

@@ -1242,7 +1242,7 @@
       "G": "15.6 g"
     },
     "answer": "B",
-    "technique": "Moles Li $=\\dfrac{2.80}{7}=0.400$ mol. Moles O2 $=\\dfrac{1.20}{24.0}=0.0500$ mol. Equation: $4Li+O_2\\rightarrow2Li_2O$. Li needed for all the O2: $4\\times0.0500=0.200$ mol — since we have 0.400 mol Li (excess), O2 is limiting. Li2O formed $=2\\times0.0500=0.100$ mol. Mr(Li2O)$=2(7)+16=30$. Mass $=0.100\\times30=3.00$ g.",
+    "technique": "Moles Li $=\\dfrac{2.80}{7}=0.400$ mol. Moles O2 $=\\dfrac{1.20}{24.0}=0.0500$ mol. Equation: $4Li+O_2\\rightarrow2Li_2O$. Li needed for all the O2: $4\\times0.0500=0.200$ mol — since 0.400 mol Li is available (excess), O2 is limiting. Li2O formed $=2\\times0.0500=0.100$ mol. Mr(Li2O)$=2(7)+16=30$. Mass $=0.100\\times30=3.00$ g.",
     "origin": "past-paper",
     "quality_tier": 1
   },

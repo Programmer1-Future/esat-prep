@@ -1289,7 +1289,7 @@
       "E": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Statement 2 is unsupported — we only know other fish died, not that they lacked genetic variation. Statements 1 and 3 correctly describe natural selection acting on existing variation.",
+    "technique": "Statement 2 is unsupported — the passage only states that other fish died, not that they lacked genetic variation. Statements 1 and 3 correctly describe natural selection acting on existing variation.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -1633,13 +1633,13 @@
     "topic": "bio-ecosystems",
     "subtopic": "pollution, oxygen and species graph",
     "difficulty": 2,
-    "question": "The graph shows how oxygen concentration, algae, bacteria and fish numbers vary with distance downstream from a point where pollution entered a river, at 5 marked points. [DIAGRAM: graph with curves for oxygen, algae, bacteria, fish against distance downstream, points 1-5 marked] Which statement below can be correctly concluded from the graph?",
+    "question": "The graph shows how a number of factors vary with the distance down a river, after a source of pollution flowed in. [DIAGRAM: graph showing oxygen concentration, algae, bacteria, and fish quantities against distance downstream from a pollution source, with points 1-5 marked] (Assume the oxygen concentration is changing only based on the species present in the river.) Which one of the statements below can be correctly concluded from the graph?",
     "options": {
-      "A": "At point 1, oxygen concentration decreases because of increased anaerobic respiration",
-      "B": "At point 2, oxygen concentration decreases because high numbers of algae are photosynthesising",
-      "C": "At point 3, oxygen concentration decreases because bacteria use more oxygen than algae produce",
-      "D": "At point 4, bloodworm/sludgeworm numbers will be lowest because they lack oxygen",
-      "E": "At point 5, fish numbers increase because there is less competition with algae for oxygen"
+      "A": "At point 1, the oxygen concentration is decreasing because of increased anaerobic respiration.",
+      "B": "At point 2, the oxygen concentration is decreasing because high numbers of algae are photosynthesising.",
+      "C": "At point 3, the oxygen concentration is decreasing because bacteria are using up more oxygen than the algae are producing.",
+      "D": "At point 4, the number of bloodworms and sludgeworms will be lowest because they lack oxygen.",
+      "E": "At point 5, fish numbers increase because there is less competition with algae for oxygen."
     },
     "answer": "C",
     "technique": "As pollution increases bacterial decomposition, bacteria consume oxygen faster than algae (if present) can replace it via photosynthesis, causing the dip in oxygen concentration seen at that point on the graph.",
@@ -1864,28 +1864,6 @@
     "quality_tier": 1
   },
   {
-    "id": "NSAA-2016-PHY-022",
-    "source": "NSAA 2016",
-    "year": 2016,
-    "paper": "Section 1",
-    "module": "physics",
-    "topic": "phy-mechanics",
-    "subtopic": "energy, work against resistive forces",
-    "difficulty": 2,
-    "question": "A 200kg car on a fairground ride travels at 5.0m/s at point X, then moves down a sloping track without energy input. Point X is at height 8.0m, point Y at height 2.0m; at Y its speed is 9.0m/s. [DIAGRAM: sloping track from X (height 8.0m) to Y (height 2.0m)] How much energy is transferred overcoming resistive forces from X to Y? (g=10N/kg.)",
-    "options": {
-      "A": "3900J",
-      "B": "6400J",
-      "C": "7900J",
-      "D": "10 400J",
-      "E": "11 200J"
-    },
-    "answer": "B",
-    "technique": "Energy at X $=\\frac12(200)(5^2)+200(10)(8)=2500+16000=18500$J. Energy at Y $=\\frac12(200)(9^2)+200(10)(2)=8100+4000=12100$J. Energy lost $=18500-12100=6400$J.",
-    "origin": "past-paper",
-    "quality_tier": 1
-  },
-  {
     "id": "NSAA-2016-M2-005",
     "source": "NSAA 2016",
     "year": 2016,
@@ -2034,7 +2012,7 @@
     "topic": "m2-differentiation",
     "subtopic": "increasing functions, derivatives",
     "difficulty": 4,
-    "question": "$f(x)$ is a cubic function of x involving a positive constant a. Find the complete set of values of x for which f(x) is an increasing function.",
+    "question": "$f(x) = x^3 - a^2x$, where $a$ is a positive constant. Find the complete set of values of $x$ for which $f(x)$ is an increasing function.",
     "options": {
       "A": "x<=-a, x>=a",
       "B": "-a<=x<=a",

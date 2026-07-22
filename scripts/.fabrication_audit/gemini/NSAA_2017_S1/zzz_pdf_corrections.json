@@ -1,0 +1,66 @@
+[
+  {
+    "qnum": 76,
+    "readable": true,
+    "question": "An aircraft is climbing at constant speed in a straight line at an angle of 10° to the horizontal. Which statement about the resultant force on the aircraft is correct?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It is parallel to its motion."
+      },
+      {
+        "letter": "B",
+        "text": "It is perpendicular to its motion."
+      },
+      {
+        "letter": "C",
+        "text": "It is zero."
+      },
+      {
+        "letter": "D",
+        "text": "It is equal to its weight."
+      },
+      {
+        "letter": "E",
+        "text": "It is equal to the drag acting on the aircraft."
+      }
+    ],
+    "diagram": null,
+    "_model": "pdf-hand-corrected",
+    "_note": "Flash transcription shifted; corrected against source PDF."
+  },
+  {
+    "qnum": 78,
+    "readable": true,
+    "question": "A ball starts at a speed of 40.0 m s$^{-1}$. The ball is subject to a constant deceleration of 14.4 m s$^{-2}$ as it travels a distance of 20.0 m in a straight line. What is the final speed of the ball?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "16.0 m s$^{-1}$"
+      },
+      {
+        "letter": "B",
+        "text": "20.0 m s$^{-1}$"
+      },
+      {
+        "letter": "C",
+        "text": "25.6 m s$^{-1}$"
+      },
+      {
+        "letter": "D",
+        "text": "32.0 m s$^{-1}$"
+      },
+      {
+        "letter": "E",
+        "text": "36.2 m s$^{-1}$"
+      },
+      {
+        "letter": "F",
+        "text": "39.3 m s$^{-1}$"
+      }
+    ],
+    "diagram": null,
+    "_model": "pdf-hand-corrected",
+    "_note": "Flash transcription shifted; corrected against source PDF."
+  }
+]

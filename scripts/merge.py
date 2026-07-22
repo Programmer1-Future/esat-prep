@@ -58,6 +58,16 @@ SCRATCH_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Technique fields legitimately use "..." as mathematical ellipsis. Ban process
+# chatter and hedge words only — not bare ellipsis. Caught NSAA-2022-CHEM-014
+# ("skipping per your guidance, flagging back to you") after it shipped.
+TECHNIQUE_SCRATCH_RE = re.compile(
+    r"\b(wait|recheck|re-check|check this|TODO|FIXME|XXX|unsure|not sure|"
+    r"flagging back|per your guidance|badly mangled|PDF text extraction|"
+    r"skipping per)\b|\?\?",
+    re.IGNORECASE,
+)
+
 
 def validate(question, filename, seen_ids):
     """Return a list of violation strings for a single question record."""
@@ -122,6 +132,11 @@ def validate(question, filename, seen_ids):
     technique = question.get("technique")
     if technique is not None and not str(technique).strip():
         violations.append(f"{filename}:{qid}: technique is empty")
+    elif technique is not None and TECHNIQUE_SCRATCH_RE.search(str(technique)):
+        violations.append(
+            f"{filename}:{qid}: technique contains unfinished/process commentary: "
+            f"{str(technique)[:80]!r}..."
+        )
 
     return violations
 

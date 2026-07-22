@@ -539,7 +539,7 @@
       "F": "$5x(10-x)$"
     },
     "answer": "A",
-    "technique": "Since $(x,y)$ lies on the circle $(x-5)^2+y^2=25$, we get $y^2 = 25-(x-5)^2=10x-x^2$, so $y=\\sqrt{10x-x^2}$. Triangle area $=\\tfrac12\\times\\text{base}\\times\\text{height}=\\tfrac12\\times10\\times y = 5\\sqrt{10x-x^2}$.",
+    "technique": "Since $(x,y)$ lies on the circle $(x-5)^2+y^2=25$, this gives $y^2 = 25-(x-5)^2=10x-x^2$, so $y=\\sqrt{10x-x^2}$. Triangle area $=\\tfrac12\\times\\text{base}\\times\\text{height}=\\tfrac12\\times10\\times y = 5\\sqrt{10x-x^2}$.",
     "origin": "past-paper",
     "quality_tier": 1
   },

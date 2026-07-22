@@ -1795,7 +1795,7 @@
     "topic": "bio-inheritance",
     "subtopic": "Family tree analysis: X-linked and autosomal reasoning",
     "difficulty": 5,
-    "question": "The family tree shows the inheritance of an autosomal recessive genetic condition. [DIAGRAM: family tree with 4 individuals: 1 (male, unaffected), 2 (female, unaffected), 3 (male, unaffected), 4 (female, affected), showing parent-offspring relationships.] Which of the following statements is/are correct for this family? (Assume no mutations.)\n1. If one cheek cell is collected from each individual, the overall ratio of X chromosomes to Y chromosomes will be 3.67:1\n2. The probability of individual 2 and individual 3 having the same alleles on their X chromosomes is 100%.\n3. The probability of individual 2 and individual 3 having the same genotype for the condition is 50%.",
+    "question": "The family tree shows the inheritance of an autosomal recessive genetic condition. [DIAGRAM: a family tree spanning three generations. An unlabelled unaffected mother and unaffected father (top) have two children: individual 2 (male, unaffected) and individual 3 (female, unaffected). Individual 2 is married to individual 1 (female, unaffected, marries into the family). Individual 3 is married to individual 4 (male, unaffected, marries into the family). Individual 3 and individual 4 have one child: an unlabelled daughter who is affected by the condition. Seven individuals appear in total: 4 unaffected females, 3 unaffected/carrier males, and 1 affected female.] Which of the following statements is/are correct for this family? (Assume no mutations.)\n1. If one cheek cell is collected from each individual, the overall ratio of X chromosomes to Y chromosomes will be 3.67:1\n2. The probability of individual 2 and individual 3 having the same alleles on their X chromosomes is 100%.\n3. The probability of individual 2 and individual 3 having the same genotype for the condition is 50%.",
     "options": {
       "A": "none of them",
       "B": "1 only",
@@ -1807,10 +1807,9 @@
       "H": "1, 2 and 3"
     },
     "answer": "B",
-    "technique": "Counting sex chromosomes across the 4 individuals shown (2 males XY, 2 females XX) gives 6 X and 2 Y, a ratio of 3:1. This does not match the stated ratio of 3.67:1 in statement 1 as currently derivable from the stated family composition, so the exact family-tree structure needs to be re-confirmed against the source PDF before this question can be verified.",
+    "technique": "The tree contains 7 individuals: 4 females (the unlabelled grandmother, individual 1, individual 3, and the affected granddaughter) and 3 males (the unlabelled grandfather, individual 2, and individual 4). Each female contributes 2 X chromosomes and each male contributes 1 X and 1 Y, giving 8+3=11 X chromosomes and 3 Y chromosomes, a ratio of 11:3=3.67:1 — statement 1 is correct. Individual 2 (male) inherits a single X from the grandmother; individual 3 (female) inherits one X from the same grandmother and one from the grandfather. Since the grandmother carries two X chromosomes and passes one at random to each child, individual 2 and individual 3 are not guaranteed to inherit the same maternal X, so statement 2's claim of 100% is false. The affected granddaughter is homozygous recessive, so both her parents — individual 3 and individual 4 — must be unaffected carriers, making individual 3 definitely a carrier; individual 2's genotype depends on the unstated genotypes of the grandparents, only one of whom is guaranteed to carry the recessive allele, so the family tree does not give enough information to fix the probability in statement 3 at 50%. Only statement 1 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1,
-    "needs_repair": true
+    "quality_tier": 1
   },
   {
     "id": "NSAA-2023-BIO-017",
@@ -1905,10 +1904,9 @@
       "E": "184",
       "F": "207"
     },
-    "answer": "D",
-    "technique": "A cell about to start cytokinesis (end of mitosis, chromosomes already separated to poles but not yet divided) contains double the diploid number: 2x46=92 chromosomes. A cell actively producing antibodies is a plasma cell (B-lymphocyte derivative), a normal diploid cell: 46 chromosomes. Cells that cannot use oxygen for respiration are red blood cells, which are anucleate and contain 0 chromosomes each. This gives 92+46+0+0=138, which does not match the stored answer D (161) -- the discrepancy suggests either the stem's cell-state descriptions or the stored answer need to be re-checked against the source PDF.",
+    "answer": "C",
+    "technique": "A cell about to start cytokinesis (end of mitosis, chromosomes already separated to opposite poles but not yet divided into two cells) contains double the diploid number: 2×46=92 chromosomes. A cell actively producing antibodies is a plasma cell (a differentiated B-lymphocyte), a normal diploid somatic cell: 46 chromosomes. Cells that cannot use oxygen for respiration are mature red blood cells, which are anucleate (no nucleus) and so contain 0 chromosomes each. Total: 92+46+0+0=138.",
     "origin": "past-paper",
-    "quality_tier": 1,
-    "needs_repair": true
+    "quality_tier": 1
   }
 ]

@@ -1,0 +1,82 @@
+[
+  {
+    "qnum": 28,
+    "readable": true,
+    "question": "A flat rectangular coil of wire with sides of length 30 cm and 20 cm is freely pivoted about an axle. The axle passes through the middle of the sides of length 30 cm. Part of the coil is between the poles of a U-shaped magnet as shown in the diagram. The poles are 4.0 cm long. The magnetic field can be considered uniform between the poles, and zero elsewhere. The coil is connected to a power supply so that there is a current in it. The current is 0.60 A and the magnetic flux density is 0.050 T. There are 50 turns of wire in the coil. What is the moment about the axle, in N cm, produced by the magnetic force acting on the coil?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.018 N cm"
+      },
+      {
+        "letter": "B",
+        "text": "0.036 N cm"
+      },
+      {
+        "letter": "C",
+        "text": "0.045 N cm"
+      },
+      {
+        "letter": "D",
+        "text": "0.90 N cm"
+      },
+      {
+        "letter": "E",
+        "text": "1.8 N cm"
+      },
+      {
+        "letter": "F",
+        "text": "2.25 N cm"
+      },
+      {
+        "letter": "G",
+        "text": "4.5 N cm"
+      }
+    ],
+    "diagram": "flat coil of wire pivoted on axle between N/S poles of U-shaped magnet; dimensions 30 cm, 20 cm, poles 4 cm",
+    "_model": "pdf-hand-corrected",
+    "_note": "Flash transcription shifted; corrected against source PDF."
+  },
+  {
+    "qnum": 32,
+    "readable": true,
+    "question": "Electrical power is supplied through a dc transmission line that consists of two metal wires. Each wire is 8.0 km long and has a cross-sectional area of $1.0\\text{ cm}^2$. The resistivity of the metal from which the wires are made is $2.5 \\times 10^{-7}\\Omega\\text{ m}$. Electrical power is transmitted to the transmission line at a potential difference of 24 000 V. At what rate is energy being wasted as heat in the wires when the power supplied to the transmission line is 120 kW?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.40 W"
+      },
+      {
+        "letter": "B",
+        "text": "0.80 W"
+      },
+      {
+        "letter": "C",
+        "text": "1.6 W"
+      },
+      {
+        "letter": "D",
+        "text": "250 W"
+      },
+      {
+        "letter": "E",
+        "text": "500 W"
+      },
+      {
+        "letter": "F",
+        "text": "1000 W"
+      },
+      {
+        "letter": "G",
+        "text": "$1.44 \\times 10^7\\text{ W}$"
+      },
+      {
+        "letter": "H",
+        "text": "$5.76 \\times 10^7\\text{ W}$"
+      }
+    ],
+    "diagram": "two parallel wires representing a transmission line, with current arrow",
+    "_model": "pdf-hand-corrected",
+    "_note": "Flash transcription shifted; corrected against source PDF."
+  }
+]

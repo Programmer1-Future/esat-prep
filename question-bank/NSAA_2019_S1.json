@@ -1581,7 +1581,7 @@
       "H": "1, 2 and 3"
     },
     "answer": "B",
-    "technique": "The colour did not change further after 5 more minutes at pH 9.5, showing that adding Na2CO3 (raising pH to an extreme) halted further phosphatase activity — this supports statement 1. Statement 2 is false as worded (enzymes convert substrate to product, not the reverse). Statement 3 overreaches: with only 5 discrete pH values tested, the darkest tube (pH 5.2) shows the highest activity among those TESTED, but the true optimum could lie at an untested nearby pH, so we cannot conclude it 'must be' 5.2. Only statement 1 is correct.",
+    "technique": "The colour did not change further after 5 more minutes at pH 9.5, showing that adding Na2CO3 (raising pH to an extreme) halted further phosphatase activity — this supports statement 1. Statement 2 is false as worded (enzymes convert substrate to product, not the reverse). Statement 3 overreaches: with only 5 discrete pH values tested, the darkest tube (pH 5.2) shows the highest activity among those TESTED, but the true optimum could lie at an untested nearby pH, so it cannot be concluded that it 'must be' 5.2. Only statement 1 is correct.",
     "origin": "past-paper",
     "quality_tier": 1
   },

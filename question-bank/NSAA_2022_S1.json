@@ -1259,14 +1259,14 @@
     "difficulty": 4,
     "question": "1 mol of compound X undergoes complete combustion to produce 144 dm³ of CO2 (at rtp). 1 mol of X can also undergo an addition reaction with 1 mol of hydrogen to form a saturated compound with one branch. X undergoes addition polymerisation; a section of the polymer containing three repeating units has an Mr between 200 and 300. [DIAGRAM: five candidate structural formulae A-E]. Which structural formula could be compound X? (Ar: C=12, H=1, F=19; 1 mol gas=24 dm³ at rtp)",
     "options": {
-      "A": "[structure A: chemical skeletal diagram]",
-      "B": "[structure B: chemical skeletal diagram]",
-      "C": "[structure C: chemical skeletal diagram]",
-      "D": "[structure D: chemical skeletal diagram]",
-      "E": "[structure E: chemical skeletal diagram]"
+      "A": "CH₃CH=C(CH₃)CH₃",
+      "B": "(CH₃)₂C=C(CH₃)₂",
+      "C": "(CH₃)₂C=C(CH₃)(F)",
+      "D": "(CH₃)₂C=C(C₂H₅)(F)",
+      "E": "CH₃CH=C(CH₃)(C₂H₅)"
     },
     "answer": "E",
-    "technique": "FLAGGED (per addendum): options are chemical structure drawings, not transcribable to text. 1 mol combustion -> 144 dm3 CO2 at rtp -> 144/24=6 mol CO2 -> 6 carbon atoms in X. Addition of 1 mol H2 to a branched saturated product is also given. Stored answer (E) preserved from original extraction/key-check but needs the actual structure diagram to confirm -- skipping per your guidance, flagging back to you.",
+    "technique": "Combustion: 144 dm³ CO2 ÷ 24 dm³/mol = 6 mol CO2, so X has 6 carbon atoms; this rules out the two 5-carbon structures. For a 3-repeat-unit section of the addition polymer to have Mr between 200 and 300, the monomer's own Mr (unchanged by addition polymerisation) must be between roughly 66.7 and 100: the remaining fluorinated 6-carbon structure has Mr = 6(12)+11(1)+19 = 102, just over the limit, so it is also ruled out. Of the two remaining C₆H₁₂ isomers, (CH₃)₂C=C(CH₃)₂ hydrogenates to (CH₃)₂CH-CH(CH₃)₂ (2,3-dimethylbutane), which has two branches, while CH₃CH=C(CH₃)(C₂H₅) hydrogenates to CH₃CH₂CH(CH₃)CH₂CH₃ (3-methylpentane), which has exactly one branch. Only the second isomer satisfies the 'one branch' condition.",
     "origin": "past-paper",
     "quality_tier": 1
   },
@@ -1545,13 +1545,13 @@
     "topic": "bio-animal-physiology",
     "subtopic": "Reflex arc diagram labelling",
     "difficulty": 2,
-    "question": "A student's drawing shows part of a reflex arc for pulling a hand away from a hot object, with labels: hormone; motor neurone; chemical receptors present on the membrane; sensory neurone; 'electrical impulse jumps across the gap between the two neurones' [DIAGRAM: reflex arc with labels A-E at different points]. Which label (A-E) is correct?",
+    "question": "When a person touches a hot object, they rapidly pull their hand away as a result of a reflex arc. The diagram shows a student's drawing of part of this reflex arc. [DIAGRAM: a synapse between a motor neurone and a sensory neurone, with STIMULUS entering on the left and MUSCLE on the right; label A points to the motor neurone, label B points to 'electrical impulse jumps across the gap between the two neurones', label C points to the sensory neurone, label D points to 'hormone', and label E points to chemical receptors present on the membrane] Which label (A-E) is correct?",
     "options": {
-      "A": "label A",
-      "B": "label B",
-      "C": "label C",
-      "D": "label D",
-      "E": "label E"
+      "A": "motor neurone",
+      "B": "electrical impulse jumps across the gap between the two neurones",
+      "C": "sensory neurone",
+      "D": "hormone",
+      "E": "chemical receptors present on the membrane"
     },
     "answer": "E",
     "technique": "In a reflex arc: there is no hormone involved (that label is wrong); an electrical impulse does NOT jump the synapse — it triggers release of neurotransmitter molecules that diffuse across the gap and bind to chemical receptors on the postsynaptic membrane (so 'electrical impulse jumps across the gap' is also a wrong description). Of the given labels, the only correct one is 'chemical receptors present on the membrane' (a genuine feature of a synapse), corresponding to label E.",

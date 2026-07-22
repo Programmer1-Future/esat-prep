@@ -1773,14 +1773,14 @@
     "topic": "bio-animal-physiology",
     "subtopic": "placental gas exchange concentration gradients",
     "difficulty": 3,
-    "question": "[DIAGRAM: Maternal and foetal blood capillaries flowing between points P and Q in a section of the placenta, with oxygen concentration to be plotted for each blood type between P and Q. Options A-F show different possible concentration-vs-distance graphs.]\nThe placenta allows exchange of gases between the mother and developing foetus. Which graph illustrates the concentration of oxygen in both maternal and foetal blood between P and Q?",
+    "question": "The placenta is an organ that develops during pregnancy. One function of the placenta is to allow the exchange of gases between the mother and the developing foetus. [DIAGRAM: the maternal and foetal blood flow between P and Q in a section of the placenta of a healthy small mammal; maternal blood flows from P to Q while foetal blood flows from Q to P (opposite/countercurrent directions); the concentration of oxygen in both maternal and foetal blood is measured at regular distances along this section] Which graph illustrates the concentration of oxygen in both maternal and foetal blood between P and Q?",
     "options": {
       "A": "both maternal and foetal curves increase from P to Q, converging near Q",
-      "B": "both curves decrease from P to Q (maternal above foetal throughout), converging near Q",
-      "C": "both curves decrease from P to Q (maternal above foetal, roughly linear, near-parallel)",
+      "B": "both curves decrease from P to Q, with maternal falling faster than foetal so that foetal ends up above maternal, both converging toward a lower plateau near Q",
+      "C": "both curves decrease from P to Q (maternal above foetal throughout, roughly linear, near-parallel)",
       "D": "maternal decreases steeply then levels; foetal increases from low then levels (concurrent-flow pattern)",
       "E": "maternal decreases then crosses below foetal, which increases",
-      "F": "maternal roughly flat/slightly decreasing; foetal increases steeply, meeting near Q"
+      "F": "maternal decreases along a smooth curve while foetal increases along a smooth curve, the two curves bowing apart in the middle and meeting at Q"
     },
     "answer": "C",
     "technique": "Maternal blood flows P to Q; foetal blood flows Q to P (counter-current, as shown by the opposing arrows). Maternal O2 is highest at P (freshly oxygenated) and falls toward Q as O2 diffuses out. Foetal blood enters at Q (deoxygenated) and picks up O2 along its journey to P, so foetal O2 is also highest near P and lowest at Q. True counter-current exchange keeps maternal concentration above foetal at every point along the exchange, with both curves declining from P to Q without crossing.",

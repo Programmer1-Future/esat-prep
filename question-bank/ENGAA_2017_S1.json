@@ -12,9 +12,9 @@
     "options": {
       "A": "1",
       "B": "3",
-      "C": "$\\frac{3}{5}$",
-      "D": "$\\frac{3}{7}$",
-      "E": "33",
+      "C": "$\\frac{5}{3}$",
+      "D": "$\\frac{7}{3}$",
+      "E": "$3\\sqrt3$",
       "F": "9"
     },
     "answer": "F",
@@ -1234,6 +1234,29 @@
     },
     "answer": "A",
     "technique": "Reading the duration of free-fall from the graph before the first bounce gives the speed just after the bounce as $v=4.00\\text{ m s}^{-1}$ (using $v=gt$ over the corresponding time interval). The subsequent rise height uses $h=\\dfrac{v^2}{2g}=\\dfrac{16}{20}=0.80\\text{ m}$.",
+    "origin": "past-paper",
+    "quality_tier": 1
+  },
+  {
+    "id": "ENGAA-2017-PHY-027",
+    "source": "ENGAA 2017",
+    "year": 2017,
+    "paper": "Section 1",
+    "module": "physics",
+    "topic": "phy-mechanics",
+    "subtopic": "moments, cranes",
+    "difficulty": 4,
+    "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P. [DIAGRAM: a crane balanced about pivot P with a load of 400 kg at 10 m to the left and a counterweight of 2000 kg at 10 m to the right] The load is now moved to the left by $5.0\\text{ m}$. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = $10\\text{ N kg}^{-1}$)",
+    "options": {
+      "A": "$1.0\\text{ m}$ to the left",
+      "B": "$1.0\\text{ m}$ to the right",
+      "C": "$3.0\\text{ m}$ to the left",
+      "D": "$3.0\\text{ m}$ to the right",
+      "E": "$4.0\\text{ m}$ to the left",
+      "F": "$4.0\\text{ m}$ to the right"
+    },
+    "answer": "B",
+    "technique": "New load moment $=400(15)=6000$; increase from the original ($400\\times10=4000$) is $2000$ (in mass×distance units, since g cancels on both sides of the balance). This must be matched by the counterweight moving $\\Delta$ further out: $2000\\Delta=2000\\Rightarrow\\Delta=1.0$m, further from P (to the right).",
     "origin": "past-paper",
     "quality_tier": 1
   }
