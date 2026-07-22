@@ -163,7 +163,7 @@ def main():
             if question.get("needs_repair"):
                 excluded += 1
                 continue
-            merged.append({
+            record = {
                 "id": question.get("id"),
                 "source": question.get("source"),
                 "year": question.get("year"),
@@ -179,7 +179,15 @@ def main():
                 "origin": question.get("origin"),
                 "quality_tier": question.get("quality_tier"),
                 "spec_status": question.get("spec_status"),
-            })
+            }
+            # Explanation System fields (optional during migration)
+            if question.get("solution") is not None:
+                record["solution"] = question["solution"]
+            if question.get("diagram") is not None:
+                record["diagram"] = question["diagram"]
+            if question.get("diagram_skipped") is not None:
+                record["diagram_skipped"] = question["diagram_skipped"]
+            merged.append(record)
 
     if all_violations:
         print(f"MERGE FAILED — {len(all_violations)} validation violation(s):\n", file=sys.stderr)

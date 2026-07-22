@@ -22,7 +22,25 @@
     "answer": "G",
     "technique": "Solve the linear inequality for x, being careful to reverse the inequality sign if dividing/multiplying by a negative number.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Isolate the x term",
+          "content": "Subtract 6 from both sides:\n\n$$-14 < -\\dfrac{x}{2}$$"
+        },
+        {
+          "title": "Clear the fraction",
+          "content": "Multiply through by $-2$. Reverse the inequality because the multiplier is negative:\n\n$$28 > x$$"
+        },
+        {
+          "title": "Rewrite the inequality",
+          "content": "$$x < 28$$"
+        }
+      ],
+      "fast": "Move constants, then multiply by $-2$ and reverse: $x < 28$.",
+      "trap": "$x < 22$ comes from forgetting to reverse when multiplying by a negative."
+    }
   },
   {
     "id": "ENGAA-2016-PHY-001",
@@ -69,7 +87,24 @@
     "answer": "B",
     "technique": "$(\\sqrt3-\\sqrt2)^2 = 3 - 2\\sqrt3\\sqrt2 + 2 = 5-2\\sqrt6 = 5-2\\sqrt2\\sqrt3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Expand the square",
+          "content": "$$(\\sqrt{3}-\\sqrt{2})^2 = 3 - 2\\sqrt{3}\\sqrt{2} + 2$$"
+        },
+        {
+          "title": "Collect constants",
+          "content": "$3+2=5$, so the expression is $5-2\\sqrt{3}\\sqrt{2}$."
+        },
+        {
+          "title": "Match the form",
+          "content": "$$5-2\\sqrt{2}\\sqrt{3}$$"
+        }
+      ],
+      "trap": "$5-\\sqrt{2}\\sqrt{3}$ drops the factor of 2 on the middle term."
+    }
   },
   {
     "id": "ENGAA-2016-PHY-002",
@@ -115,7 +150,23 @@
     "answer": "C",
     "technique": "Scale both ratios to a common value of $R$: $Q:R = 5:2 = 15:6$ and $R:S = 3:10 = 6:20$. So $Q:S = 15:20 = 3:4$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Common value of R",
+          "content": "$Q:R=5:2=15:6$ and $R:S=3:10=6:20$."
+        },
+        {
+          "title": "Chain the ratios",
+          "content": "With $R=6$ shared, $Q:S=15:20$."
+        },
+        {
+          "title": "Simplify",
+          "content": "$$15:20=3:4$$"
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-003",
@@ -163,7 +214,23 @@
     "answer": "E",
     "technique": "Original total age $= 20 \\times 28 = 560$. New total members $= 22$, new mean $= 30$, so new total age $= 22 \\times 30 = 660$. Sum of two new members' ages $= 660 - 560 = 100$, mean $= 100/2 = 50$ years.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Original total age",
+          "content": "$$20 \\times 28 = 560$$ years."
+        },
+        {
+          "title": "New total age",
+          "content": "22 members at mean 30: $$22 \\times 30 = 660$$."
+        },
+        {
+          "title": "Mean of the two new",
+          "content": "Extra age $660-560=100$, so mean $$100/2=50$$ years."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-004",
@@ -210,7 +277,20 @@
     "answer": "C",
     "technique": "Value after 2 years $= 15000 \\times 0.8^2 = 15000 \\times 0.64 = 9600$. Reduction $= 15000 - 9600 = 5400$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Value after 2 years",
+          "content": "$$15000 \\times 0.8^2 = 15000 \\times 0.64 = 9600$$."
+        },
+        {
+          "title": "Find the reduction",
+          "content": "$$15000-9600=5400$$, so $\\pounds 5400$."
+        }
+      ],
+      "trap": "$\\pounds 6000$ is two separate 20% cuts of the original price, not compound depreciation."
+    }
   },
   {
     "id": "ENGAA-2016-PHY-005",
@@ -257,7 +337,23 @@
     "answer": "B",
     "technique": "At B, the bearing to A is $270°$ (due West) and to C is $060°$, so angle $ABC = 90°-60°=30°$. At A, the bearing to B is $270°$ and the bearing to C is $330°$, so angle $BAC = 330°-270°=60°$. Then angle $C = 180-30-60=90°$, so triangle $ABC$ is right-angled at C with hypotenuse $AB=4$. $BC = AB\\sin(A) = 4\\sin60° = 4\\times\\frac{\\sqrt3}{2}=2\\sqrt3$ km.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Find angle at B",
+          "content": "From B, BA is due West and BC has bearing $060^\\circ$, so $\\angle ABC = 90^\\circ-60^\\circ=30^\\circ$."
+        },
+        {
+          "title": "Find angle at A",
+          "content": "From A, AB is due West and AC has bearing $330^\\circ$, so $\\angle BAC = 330^\\circ-270^\\circ=60^\\circ$."
+        },
+        {
+          "title": "Right triangle at C",
+          "content": "$\\angle C=180^\\circ-30^\\circ-60^\\circ=90^\\circ$. Hypotenuse $AB=4$, so $$BC=4\\sin 60^\\circ=2\\sqrt{3}$$ km."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-006",
@@ -303,7 +399,19 @@
     "answer": "F",
     "technique": "$x = k/\\sqrt{y}$, so $k = x\\sqrt{y} = 8\\times\\sqrt9 = 8\\times3=24$. When $x=6$: $\\sqrt y = 24/6=4$, so $y=16$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Write the proportion",
+          "content": "$x=k/\\sqrt{y}$. With $x=8$, $y=9$: $$k=8\\sqrt{9}=24$$."
+        },
+        {
+          "title": "Solve for y",
+          "content": "When $x=6$: $\\sqrt{y}=24/6=4$, so $$y=16$$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-007",
@@ -351,7 +459,23 @@
     "answer": "E",
     "technique": "Area $=\\tfrac12[(x-1)+(x+5)]\\times x = \\tfrac12(2x+4)x=(x+2)x=120$. So $x^2+2x-120=0$, giving $x=\\dfrac{-2+\\sqrt{4+480}}{2}=\\dfrac{-2+22}{2}=10$. Then $RS = x+5=15$ cm.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Area formula",
+          "content": "$$\\tfrac12[(x-1)+(x+5)]x=(x+2)x=120$$."
+        },
+        {
+          "title": "Solve the quadratic",
+          "content": "$$x^2+2x-120=0 \\Rightarrow x=\\dfrac{-2+\\sqrt{484}}{2}=10$$ (positive root)."
+        },
+        {
+          "title": "Length of RS",
+          "content": "$$RS=x+5=15$$ cm."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-008",
@@ -399,7 +523,24 @@
     "answer": "B",
     "technique": "$a(3b^2-1)=b^2+2 \\Rightarrow 3ab^2-a=b^2+2 \\Rightarrow b^2(3a-1)=a+2 \\Rightarrow b^2=\\dfrac{a+2}{3a-1} \\Rightarrow b=\\pm\\sqrt{\\dfrac{a+2}{3a-1}}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Clear the denominator",
+          "content": "$$a(3b^2-1)=b^2+2$$"
+        },
+        {
+          "title": "Collect $b^2$ terms",
+          "content": "$$3ab^2-a=b^2+2 \\Rightarrow b^2(3a-1)=a+2$$"
+        },
+        {
+          "title": "Solve for $b$",
+          "content": "$$b=\\pm\\sqrt{\\dfrac{a+2}{3a-1}}$$"
+        }
+      ],
+      "trap": "The form with $3a+1$ in the denominator comes from a sign error when rearranging."
+    }
   },
   {
     "id": "ENGAA-2016-PHY-009",
@@ -447,7 +588,19 @@
     "answer": "C",
     "technique": "The 5 m side becomes the circumference: $2\\pi r=5\\Rightarrow r=\\frac{5}{2\\pi}$. Volume $=\\pi r^2h=\\pi\\left(\\frac{5}{2\\pi}\\right)^2\\times10=\\frac{250\\pi}{4\\pi^2}=\\frac{62.5}{\\pi}=\\frac{125}{2\\pi}$ m³. (The stored options had a transcription error swapping which option carries $\\pi$ in the numerator vs denominator — corrected against the source PDF.)",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Circumference from the sheet",
+          "content": "Height is 10 m, so the 5 m side is the circumference: $$2\\pi r=5 \\Rightarrow r=\\dfrac{5}{2\\pi}$$."
+        },
+        {
+          "title": "Volume of the cylinder",
+          "content": "$$V=\\pi r^2 h=\\pi\\left(\\dfrac{5}{2\\pi}\\right)^2\\times 10=\\dfrac{125}{2\\pi}$$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-010",
@@ -495,7 +648,19 @@
     "answer": "A",
     "technique": "$4+\\dfrac{4-x^2}{x^2-2x} = \\dfrac{4x^2-8x+4-x^2}{x^2-2x} = \\dfrac{3x^2-8x+4}{x(x-2)} = \\dfrac{(3x-2)(x-2)}{x(x-2)} = \\dfrac{3x-2}{x} = 3-\\dfrac{2}{x}$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Single fraction",
+          "content": "$$4+\\dfrac{4-x^2}{x^2-2x}=\\dfrac{4(x^2-2x)+4-x^2}{x(x-2)}=\\dfrac{3x^2-8x+4}{x(x-2)}$$"
+        },
+        {
+          "title": "Factor and cancel",
+          "content": "$$\\dfrac{(3x-2)(x-2)}{x(x-2)}=\\dfrac{3x-2}{x}=3-\\dfrac{2}{x}$$"
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-011",
@@ -542,7 +707,23 @@
     "answer": "D",
     "technique": "Boys in tennis $=\\tfrac23\\times36=24$, girls in tennis $=12$. Girls in swimming $=25$, girls total $=46$, so girls in archery $=46-12-25=9$. Archery total $=27$, so boys in archery $=27-9=18$. Total boys $=120-46=74$, so boys in swimming $=74-24-18=32$. $P(\\text{swimming}\\mid\\text{boy})=32/74=16/37$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Fill tennis and girls",
+          "content": "Boys in tennis $=\\tfrac23\\times 36=24$, girls in tennis $=12$. Girls in archery $=46-12-25=9$."
+        },
+        {
+          "title": "Boys in swimming",
+          "content": "Archery total 27 $\\Rightarrow$ boys in archery $=18$. Boys total 74, so boys swimming $=74-24-18=32$."
+        },
+        {
+          "title": "Conditional probability",
+          "content": "$$P(\\text{swimming}\\mid\\text{boy})=32/74=16/37$$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-013",
@@ -567,7 +748,19 @@
     "answer": "G",
     "technique": "Take total volume $=1$: mass of tin $=0.1Y$, mass of copper $=0.9X$. Total mass $=0.1Y+0.9X$. Percentage mass of tin $=\\dfrac{0.1Y}{0.1Y+0.9X}\\times100=\\dfrac{Y}{Y+9X}\\times100$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Masses from unit volume",
+          "content": "Volume 1: tin mass $0.1Y$, copper mass $0.9X$, total mass $0.1Y+0.9X$."
+        },
+        {
+          "title": "Percentage mass of tin",
+          "content": "$$\\dfrac{0.1Y}{0.1Y+0.9X}\\times 100=\\dfrac{Y}{9X+Y}\\times 100$$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-M1-014",
@@ -590,7 +783,19 @@
     "answer": "D",
     "technique": "Express all terms as powers of 3 and combine exponents using index laws to simplify.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Rewrite as powers of 3",
+          "content": "$9=3^2$ so $9^{2n+1}=3^{4n+2}$. Also $27=3^3$ so $27^{2-n}=3^{6-3n}$."
+        },
+        {
+          "title": "Combine exponents",
+          "content": "Numerator $3^{4n+2}\\times 3^{4-3n}=3^{n+6}$. Divide by $3^{6-3n}$:\n\n$$3^{n+6-(6-3n)}=3^{4n}$$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-012",
@@ -636,7 +841,23 @@
     "answer": "E",
     "technique": "Interior angle of the $n$-gon at Q is $\\dfrac{(n-2)180}{n}$. Since T lies on the extension of PQ, angle $RQT = 180-\\dfrac{(n-2)180}{n}=\\dfrac{360}{n}$. Since $RQ=RT$, triangle RQT is isosceles with base angles $\\angle RQT=\\angle RTQ=\\dfrac{360}{n}$. So $x=\\angle QRT=180-2\\times\\dfrac{360}{n}=180-\\dfrac{720}{n}$. Solving: $\\dfrac{720}{n}=180-x \\Rightarrow n=\\dfrac{720}{180-x}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Exterior angle at Q",
+          "content": "Interior angle $\\dfrac{(n-2)180}{n}$. Straight line at T gives $\\angle RQT=\\dfrac{360}{n}$."
+        },
+        {
+          "title": "Isosceles triangle RQT",
+          "content": "$RQ=RT$, so base angles equal: $\\angle RQT=\\angle RTQ=\\dfrac{360}{n}$."
+        },
+        {
+          "title": "Solve for n",
+          "content": "$$x=180-\\dfrac{720}{n}\\Rightarrow n=\\dfrac{720}{180-x}$$."
+        }
+      ]
+    }
   },
   {
     "id": "ENGAA-2016-PHY-013",
