@@ -133,7 +133,7 @@ Author `solution.steps` for every question in that file (transcribe from
 
 - [x] 100% of that file has `solution.steps` *(pilot scope: all 15 `ENGAA-2016-M1-*` IDs in `ENGAA_2016_S1.json`)*
 - [x] Validator clean for the pilot
-- [ ] Manual browser check of 5 questions
+- [ ] Manual browser check of 5 questions — **deferred to Wave 2** (see `docs/EXPLANATION_QA.md`)
 
 ### Phase 2 — Fan-out
 
@@ -143,7 +143,7 @@ Physics/chem/bio: steps-only is fine; many won’t get Mafs.
 **Acceptance**
 
 - [x] Every question has `solution.steps`
-- [x] `technique` still present as backup
+- ~~[x] `technique` still present as backup~~ — **obsolete:** Phase 4 stripped `technique` from the bank
 - [x] Full-bank validate clean
 
 ### Phase 3 — Mafs for eligible maths

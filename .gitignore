@@ -51,3 +51,6 @@ scripts/.fabrication_audit/**
 # Browser-automation scratch (Playwright MCP snapshots and verification screenshots)
 .playwright-mcp/
 /*.png
+
+# Local past-paper PDFs (not shipped; keep question-bank/source-pdfs/ via .gitkeep)
+question-bank/source-pdfs/*.pdf
