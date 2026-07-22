@@ -1252,7 +1252,7 @@
     "topic": "phy-electricity",
     "subtopic": "Combined series-parallel circuit power",
     "difficulty": 4,
-    "question": "The diagram shows a circuit containing a battery and three identical resistors X, Y and Z [DIAGRAM: resistors X and Y in parallel; that combination in series with Z and the battery]. The total power supplied by the battery is 18W. What is the power dissipated as heat in resistor X?",
+    "question": "The diagram shows a circuit containing a battery and three identical resistors X, Y and Z [DIAGRAM: (X∥Y) then Z]. The total power supplied by the battery is 18W. What is the power dissipated as heat in resistor X?",
     "options": {
       "A": "1.5W",
       "B": "2.0W",
