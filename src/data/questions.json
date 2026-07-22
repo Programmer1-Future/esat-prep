@@ -14111,6 +14111,57 @@
     }
   },
   {
+    "id": "ENGAA-2023-PHY-017",
+    "source": "ENGAA 2023",
+    "year": 2023,
+    "paper": "Section 1",
+    "module": "physics",
+    "topic": "phy-mechanics",
+    "subtopic": "kinematics graphs of free fall",
+    "difficulty": 4,
+    "question": "An object is released from rest at a height $H$ above the ground and falls freely in a uniform gravitational field.\n\nAt time $t$ after being released, it has fallen a distance $s$ and is at a height $h$ above the ground, travelling at speed $v$.\n\nThe graph shows two quantities plotted.\n\n| Row | y-axis | x-axis |\n| --- | --- | --- |\n| 1 | $h$ | $t$ |\n| 2 | kinetic energy | $h$ |\n| 3 | gravitational potential energy | $s$ |\n\nWhich of the rows show(s) a possible pair of quantities for the axes?\n\n(Assume that air resistance is negligible.)",
+    "options": {
+      "A": "none of them",
+      "B": "1 only",
+      "C": "2 only",
+      "D": "3 only",
+      "E": "1 and 2 only",
+      "F": "1 and 3 only",
+      "G": "2 and 3 only",
+      "H": "1, 2 and 3"
+    },
+    "answer": "G",
+    "origin": "past-paper",
+    "quality_tier": 1,
+    "spec_status": null,
+    "solution": {
+      "steps": [
+        {
+          "title": "Read the given graph",
+          "content": "The plotted figure is a straight line of negative gradient with a positive $y$-intercept and a positive $x$-intercept."
+        },
+        {
+          "title": "Fix free-fall relations",
+          "content": "Released from rest: $s=\\tfrac{1}{2}gt^{2}$ and $h=H-s$."
+        },
+        {
+          "title": "Reject height against time",
+          "content": "Row 1 plots $h$ against $t$, so $h=H-\\tfrac{1}{2}gt^{2}$. That is a downward-opening parabola in $t$, not a straight line."
+        },
+        {
+          "title": "Match kinetic energy to height",
+          "content": "Row 2: lost gravitational energy appears as kinetic energy, $E_{k}=mg(H-h)$. This decreases linearly in $h$, from $mgH$ at $h=0$ to $0$ at $h=H$."
+        },
+        {
+          "title": "Match potential to distance fallen",
+          "content": "Row 3: $E_{p}=mg(H-s)$ from the ground: the same linear decreasing form in $s$. Rows 2 and 3 both match the figure."
+        }
+      ],
+      "fast": "Rows 2 and 3 are the same energy trade read from opposite ends of $H$, so they stand or fall together; only those two are linear.",
+      "trap": "Choosing the $h$ against $t$ pairing treats a quadratic free-fall graph as if it were a straight line."
+    }
+  },
+  {
     "id": "ENGAA-2023-M2-011",
     "source": "ENGAA 2023",
     "year": 2023,
@@ -21001,7 +21052,7 @@
     "topic": "m1-algebra",
     "subtopic": "Cuboid volume vs surface area equation",
     "difficulty": 4,
-    "question": "A cuboid has sides of length x, 2x and (x + 2), measured in cm. The volume, in cm3, of the cuboid is numerically equal to twice the total surface area, in cm2, of the cuboid. What is the value of x?",
+    "question": "A cuboid has sides of length $x$, $x\\sqrt{2}$ and $2x$, measured in cm. The volume, in cm3, of the cuboid is numerically equal to twice the total surface area, in cm2, of the cuboid. What is the value of x?",
     "options": {
       "A": "10",
       "B": "$6 + 2\\sqrt{2}$",
@@ -22242,7 +22293,7 @@
     "topic": "phy-electricity",
     "subtopic": "Combined series-parallel circuit power",
     "difficulty": 4,
-    "question": "The diagram shows a circuit containing a battery and three identical resistors X, Y and Z [DIAGRAM: X in series with the battery; Y and Z in parallel with each other, this parallel combination in series with X]. The total power supplied by the battery is 18W. What is the power dissipated as heat in resistor X?",
+    "question": "The diagram shows a circuit containing a battery and three identical resistors X, Y and Z [DIAGRAM: (X∥Y) then Z]. The total power supplied by the battery is 18W. What is the power dissipated as heat in resistor X?",
     "options": {
       "A": "1.5W",
       "B": "2.0W",
@@ -28898,13 +28949,13 @@
     "difficulty": 2,
     "question": "[DIAGRAM: A diagram represents the structure of a charged atom (ion) of one isotope of an element, showing the nucleus (protons and neutrons) and surrounding electrons. Answer options A-G show different nucleus/electron configurations.]\nThe diagram represents the structure of a charged atom (ion) of one isotope of an element. Which diagram represents the structure of an oppositely charged ion of a different isotope of the same element?",
     "options": {
-      "A": "[diagram: nucleus + 2 electrons, both inner shell]",
-      "B": "[diagram: nucleus + 3 electrons, 2 inner + 1 outer]",
-      "C": "[diagram: nucleus + 2 electrons, both outer shell]",
-      "D": "[diagram: nucleus + 3 electrons, 2 inner + 1 outer, different nucleus]",
-      "E": "[diagram: nucleus + 4 electrons, 2 inner + 2 outer]",
-      "F": "[diagram: nucleus + 5 electrons, 2 inner + 3 outer]",
-      "G": "[diagram: nucleus + 2 electrons, both outer shell, different nucleus]"
+      "A": "[diagram: 3 unshaded + 4 shaded nucleons; 1 electron on inner shell]",
+      "B": "[diagram: 3 unshaded + 3 shaded nucleons; 2 electrons on inner shell]",
+      "C": "[diagram: 4 unshaded + 3 shaded nucleons; 2 electrons on inner shell]",
+      "D": "[diagram: 3 unshaded + 5 shaded nucleons; 3 electrons (2 inner + 1 outer)]",
+      "E": "[diagram: 5 unshaded + 3 shaded nucleons; 3 electrons (2 inner + 1 outer)]",
+      "F": "[diagram: 3 unshaded + 5 shaded nucleons; 5 electrons (2 inner + 3 outer)]",
+      "G": "[diagram: 3 unshaded + 4 shaded nucleons; 2 electrons on inner shell]"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -34149,12 +34200,12 @@
     "difficulty": 3,
     "question": "One strand of a section of DNA has the sequence: AATCGGTCTTGCGGCCAAGGCCCTT. The complementary strand is not shown. Which chart shows the correct proportions of the four bases (A, C, G, T) for this section of double-stranded DNA? (Assume no mutations.)",
     "options": {
-      "A": "[pie chart: C,A,T,G quadrants -- one specific size arrangement]",
-      "B": "[pie chart: A,T,C,G quadrants -- different label order]",
-      "C": "[pie chart: G,A,T,C quadrants -- different label order]",
-      "D": "[pie chart: C,A,T,G quadrants -- appears visually identical label layout to A, differing only in wedge proportions]",
-      "E": "[pie chart: C,A,G,T quadrants -- different label order]",
-      "F": "[pie chart: C,A / T,G as four equal quadrants]"
+      "A": "[pie chart: labels A,C,T,G; wedges A=T (10/50 each), G=C (15/50 each)]",
+      "B": "[pie chart: labels T,A,C,G; wedge proportions differ from A=T=10, G=C=15]",
+      "C": "[pie chart: labels A,G,C,T; A=C smaller wedges, T=G larger wedges]",
+      "D": "[pie chart: labels A,C,T,G; A=C smaller wedges, T=G larger wedges]",
+      "E": "[pie chart: labels A,C,G,T; wedge proportions differ from A=T=10, G=C=15]",
+      "F": "[pie chart: labels A,C / G,T as four equal 25% quadrants]"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -38223,7 +38274,7 @@
     "topic": "m1-geometry",
     "subtopic": "Right-triangle trigonometry, area",
     "difficulty": 4,
-    "question": "Two of the angles of a triangle are 90° and θ, where $\\tan\\theta = 2$. The length of the hypotenuse of the triangle is $3\\sqrt{6}$ cm. What is the area of the triangle, in cm²?",
+    "question": "Two of the angles of a triangle are 90° and θ, where $\\tan\\theta = \\sqrt{2}$. The length of the hypotenuse of the triangle is $3\\sqrt{6}$ cm. What is the area of the triangle, in cm²?",
     "options": {
       "A": "$\\frac{9\\sqrt{2}}{2}$",
       "B": "$9\\sqrt{2}$",

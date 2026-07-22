@@ -1338,7 +1338,7 @@
     "topic": "phy-mechanics",
     "subtopic": "kinematics graphs of free fall",
     "difficulty": 4,
-    "question": "An object is released from rest at a height $H$ above the ground and falls freely in a uniform gravitational field.\n\nAt time $t$ after being released, it has fallen a distance $s$ and is at a height $h$ above the ground, travelling at speed $v$.\n\nThe graph shows two quantities plotted.\n\nWhich of the rows show(s) a possible pair of quantities for the axes?\n\n| Row | y-axis | x-axis |\n| --- | --- | --- |\n| 1 | $h$ | $t$ |\n| 2 | kinetic energy | $h$ |\n| 3 | gravitational potential energy | $s$ |\n\n(Assume that air resistance is negligible.)",
+    "question": "An object is released from rest at a height $H$ above the ground and falls freely in a uniform gravitational field.\n\nAt time $t$ after being released, it has fallen a distance $s$ and is at a height $h$ above the ground, travelling at speed $v$.\n\nThe graph shows two quantities plotted.\n\n| Row | y-axis | x-axis |\n| --- | --- | --- |\n| 1 | $h$ | $t$ |\n| 2 | kinetic energy | $h$ |\n| 3 | gravitational potential energy | $s$ |\n\nWhich of the rows show(s) a possible pair of quantities for the axes?\n\n(Assume that air resistance is negligible.)",
     "options": {
       "A": "none of them",
       "B": "1 only",
@@ -1355,23 +1355,28 @@
     "solution": {
       "steps": [
         {
-          "title": "Kinematics from rest",
-          "content": "Distance fallen $s=\\tfrac12 g t^2$ and remaining height $h=H-s$."
+          "title": "Read the given graph",
+          "content": "The plotted figure is a straight line of negative gradient with a positive $y$-intercept and a positive $x$-intercept."
+        },
+        {
+          "title": "Fix free-fall relations",
+          "content": "Released from rest: $s=\\tfrac{1}{2}gt^{2}$ and $h=H-s$."
         },
         {
           "title": "Reject height against time",
-          "content": "Row 1 plots $h$ against $t$: $h=H-\\tfrac12 g t^2$ starts at $H$ when $t=0$, not at the origin, so it cannot match a graph through the origin."
+          "content": "Row 1 plots $h$ against $t$, so $h=H-\\tfrac{1}{2}gt^{2}$. That is a downward-opening parabola in $t$, not a straight line."
         },
         {
-          "title": "Energy against height",
-          "content": "Row 2: all lost gravitational energy becomes kinetic, so $E_k=mg(H-h)$ — a straight line in $h$."
+          "title": "Match kinetic energy to height",
+          "content": "Row 2: lost gravitational energy appears as kinetic energy, $E_{k}=mg(H-h)$. This decreases linearly in $h$, from $mgH$ at $h=0$ to $0$ at $h=H$."
         },
         {
-          "title": "Potential against distance fallen",
-          "content": "Row 3: $E_p=mg(H-s)$ measured from the ground — again a straight line in $s$. Only rows 2 and 3 fit a graph through the origin."
+          "title": "Match potential to distance fallen",
+          "content": "Row 3: $E_{p}=mg(H-s)$ from the ground: the same linear decreasing form in $s$. Rows 2 and 3 both match the figure."
         }
       ],
-      "trap": "Pairing $h$ with $t$ treats a quadratic free-fall as if it started at the origin."
+      "fast": "Rows 2 and 3 are the same energy trade read from opposite ends of $H$, so they stand or fall together; only those two are linear.",
+      "trap": "Choosing the $h$ against $t$ pairing treats a quadratic free-fall graph as if it were a straight line."
     }
   },
   {
