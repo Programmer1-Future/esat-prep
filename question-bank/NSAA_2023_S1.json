@@ -367,7 +367,7 @@
     "topic": "m1-geometry",
     "subtopic": "Right-triangle trigonometry, area",
     "difficulty": 4,
-    "question": "Two of the angles of a triangle are 90° and θ, where $\\tan\\theta = 2$. The length of the hypotenuse of the triangle is $3\\sqrt{6}$ cm. What is the area of the triangle, in cm²?",
+    "question": "Two of the angles of a triangle are 90° and θ, where $\\tan\\theta = \\sqrt{2}$. The length of the hypotenuse of the triangle is $3\\sqrt{6}$ cm. What is the area of the triangle, in cm²?",
     "options": {
       "A": "$\\frac{9\\sqrt{2}}{2}$",
       "B": "$9\\sqrt{2}$",

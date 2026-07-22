@@ -785,13 +785,13 @@
     "difficulty": 2,
     "question": "[DIAGRAM: A diagram represents the structure of a charged atom (ion) of one isotope of an element, showing the nucleus (protons and neutrons) and surrounding electrons. Answer options A-G show different nucleus/electron configurations.]\nThe diagram represents the structure of a charged atom (ion) of one isotope of an element. Which diagram represents the structure of an oppositely charged ion of a different isotope of the same element?",
     "options": {
-      "A": "[diagram: nucleus + 2 electrons, both inner shell]",
-      "B": "[diagram: nucleus + 3 electrons, 2 inner + 1 outer]",
-      "C": "[diagram: nucleus + 2 electrons, both outer shell]",
-      "D": "[diagram: nucleus + 3 electrons, 2 inner + 1 outer, different nucleus]",
-      "E": "[diagram: nucleus + 4 electrons, 2 inner + 2 outer]",
-      "F": "[diagram: nucleus + 5 electrons, 2 inner + 3 outer]",
-      "G": "[diagram: nucleus + 2 electrons, both outer shell, different nucleus]"
+      "A": "$3$ protons, $4$ neutrons, $2$ electrons",
+      "B": "$3$ protons, $3$ neutrons, $2$ electrons",
+      "C": "$3$ protons, $4$ neutrons, $3$ electrons",
+      "D": "$4$ protons, $3$ neutrons, $2$ electrons",
+      "E": "$3$ protons, $3$ neutrons, $3$ electrons",
+      "F": "$3$ protons, $4$ neutrons, $5$ electrons",
+      "G": "$4$ protons, $4$ neutrons, $2$ electrons"
     },
     "answer": "B",
     "origin": "past-paper",

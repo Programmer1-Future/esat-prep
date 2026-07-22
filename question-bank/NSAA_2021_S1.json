@@ -2751,12 +2751,12 @@
     "difficulty": 3,
     "question": "One strand of a section of DNA has the sequence: AATCGGTCTTGCGGCCAAGGCCCTT. The complementary strand is not shown. Which chart shows the correct proportions of the four bases (A, C, G, T) for this section of double-stranded DNA? (Assume no mutations.)",
     "options": {
-      "A": "[pie chart: C,A,T,G quadrants -- one specific size arrangement]",
-      "B": "[pie chart: A,T,C,G quadrants -- different label order]",
-      "C": "[pie chart: G,A,T,C quadrants -- different label order]",
-      "D": "[pie chart: C,A,T,G quadrants -- appears visually identical label layout to A, differing only in wedge proportions]",
-      "E": "[pie chart: C,A,G,T quadrants -- different label order]",
-      "F": "[pie chart: C,A / T,G as four equal quadrants]"
+      "A": "pie chart with $\\mathrm{A}=\\mathrm{T}$ each $20\\%$ and $\\mathrm{G}=\\mathrm{C}$ each $30\\%$",
+      "B": "pie chart with unequal $\\mathrm{A}$ and $\\mathrm{T}$ wedges and unequal $\\mathrm{G}$ and $\\mathrm{C}$",
+      "C": "pie chart with $\\mathrm{C}$ largest and $\\mathrm{A}$ smallest (not $2:2:3:3$)",
+      "D": "pie chart with same label layout as the $2:2:3:3$ chart but wrong wedge sizes",
+      "E": "pie chart with $\\mathrm{G}$ largest and $\\mathrm{A}$ smallest (not $2:2:3:3$)",
+      "F": "pie chart with four equal $25\\%$ wedges"
     },
     "answer": "A",
     "origin": "past-paper",

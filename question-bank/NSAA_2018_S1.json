@@ -43,7 +43,7 @@
     "topic": "m1-algebra",
     "subtopic": "Cuboid volume vs surface area equation",
     "difficulty": 4,
-    "question": "A cuboid has sides of length x, 2x and (x + 2), measured in cm. The volume, in cm3, of the cuboid is numerically equal to twice the total surface area, in cm2, of the cuboid. What is the value of x?",
+    "question": "A cuboid has sides of length $x$, $x\\sqrt{2}$ and $2x$, measured in cm. The volume, in cm$^3$, of the cuboid is numerically equal to twice the total surface area, in cm$^2$, of the cuboid. What is the value of x?",
     "options": {
       "A": "10",
       "B": "$6 + 2\\sqrt{2}$",
@@ -1252,7 +1252,7 @@
     "topic": "phy-electricity",
     "subtopic": "Combined series-parallel circuit power",
     "difficulty": 4,
-    "question": "The diagram shows a circuit containing a battery and three identical resistors X, Y and Z [DIAGRAM: X in series with the battery; Y and Z in parallel with each other, this parallel combination in series with X]. The total power supplied by the battery is 18W. What is the power dissipated as heat in resistor X?",
+    "question": "The diagram shows a circuit containing a battery and three identical resistors X, Y and Z [DIAGRAM: resistors X and Y in parallel; that combination in series with Z and the battery]. The total power supplied by the battery is 18W. What is the power dissipated as heat in resistor X?",
     "options": {
       "A": "1.5W",
       "B": "2.0W",
