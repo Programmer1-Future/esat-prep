@@ -2648,28 +2648,29 @@
     "topic": "m2-algebra",
     "subtopic": "surd simplification",
     "difficulty": 4,
-    "question": "Which one of the following is a simplification of a given surd expression?",
+    "question": "Which one of the following is a simplification of $1-\\left(\\dfrac{3+\\sqrt{3}}{6-2\\sqrt{3}}\\right)^{2}$?",
     "options": {
-      "A": "1.0 m to the left",
-      "B": "1.0 m to the right",
-      "C": "3.0 m to the left",
-      "D": "3.0 m to the right",
-      "E": "4.0 m to the left",
-      "F": "4.0 m to the right"
+      "A": "$-\\dfrac{3}{4}$",
+      "B": "$\\dfrac{3}{4}$",
+      "C": "$-\\dfrac{3}{4}-\\dfrac{\\sqrt{3}}{7}$",
+      "D": "$\\dfrac{3}{4}-\\dfrac{\\sqrt{3}}{7}$",
+      "E": "$-\\dfrac{3}{4}-\\sqrt{3}$",
+      "F": "$\\dfrac{3}{4}-\\sqrt{3}$",
+      "G": "$-\\dfrac{\\sqrt{3}}{2}$",
+      "H": "$\\dfrac{\\sqrt{3}}{2}$"
     },
     "answer": "E",
     "origin": "past-paper",
     "quality_tier": 1,
-    "needs_repair": true,
     "solution": {
       "steps": [
         {
-          "title": "The current stem describes this as a surd",
-          "content": "The current stem describes this as a 'surd expression simplification', but the options (displacement values like '1.0 m to the left') indicate this is actually a mechanics/motion question -- stem and options are mismatched."
+          "title": "Factor the denominator and rationalise",
+          "content": "Write $\\dfrac{3+\\sqrt{3}}{6-2\\sqrt{3}}=\\dfrac{3+\\sqrt{3}}{2(3-\\sqrt{3})}$. Multiply numerator and denominator by $3+\\sqrt{3}$: $\\dfrac{(3+\\sqrt{3})^{2}}{2(9-3)}=\\dfrac{9+6\\sqrt{3}+3}{12}=\\dfrac{12+6\\sqrt{3}}{12}=1+\\dfrac{\\sqrt{3}}{2}$."
         },
         {
-          "title": "Needs re verification against the source PDF",
-          "content": "Needs re-verification against the source PDF."
+          "title": "Square and subtract from 1",
+          "content": "$\\left(1+\\dfrac{\\sqrt{3}}{2}\\right)^{2}=1+\\sqrt{3}+\\dfrac{3}{4}=\\dfrac{7}{4}+\\sqrt{3}$. Then $1-\\left(\\dfrac{7}{4}+\\sqrt{3}\\right)=-\\dfrac{3}{4}-\\sqrt{3}$."
         }
       ]
     }
