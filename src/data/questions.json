@@ -14154,7 +14154,7 @@
         },
         {
           "title": "Match potential to distance fallen",
-          "content": "Row 3: $E_{p}=mg(H-s)$ from the ground: the same linear decreasing form in $s$. Rows 2 and 3 both match the figure."
+          "content": "Row 3: $E_{p}=mg(H-s)$ measured from the ground is the same linear decreasing form in $s$. Rows 2 and 3 both match the figure."
         }
       ],
       "fast": "Rows 2 and 3 are the same energy trade read from opposite ends of $H$, so they stand or fall together; only those two are linear.",
@@ -21052,7 +21052,7 @@
     "topic": "m1-algebra",
     "subtopic": "Cuboid volume vs surface area equation",
     "difficulty": 4,
-    "question": "A cuboid has sides of length $x$, $x\\sqrt{2}$ and $2x$, measured in cm. The volume, in cm3, of the cuboid is numerically equal to twice the total surface area, in cm2, of the cuboid. What is the value of x?",
+    "question": "A cuboid has sides of length $x$, $x\\sqrt{2}$ and $2x$, measured in cm. The volume, in cm$^3$, of the cuboid is numerically equal to twice the total surface area, in cm$^2$, of the cuboid. What is the value of x?",
     "options": {
       "A": "10",
       "B": "$6 + 2\\sqrt{2}$",
@@ -28949,13 +28949,13 @@
     "difficulty": 2,
     "question": "[DIAGRAM: A diagram represents the structure of a charged atom (ion) of one isotope of an element, showing the nucleus (protons and neutrons) and surrounding electrons. Answer options A-G show different nucleus/electron configurations.]\nThe diagram represents the structure of a charged atom (ion) of one isotope of an element. Which diagram represents the structure of an oppositely charged ion of a different isotope of the same element?",
     "options": {
-      "A": "[diagram: 3 unshaded + 4 shaded nucleons; 1 electron on inner shell]",
-      "B": "[diagram: 3 unshaded + 3 shaded nucleons; 2 electrons on inner shell]",
-      "C": "[diagram: 4 unshaded + 3 shaded nucleons; 2 electrons on inner shell]",
-      "D": "[diagram: 3 unshaded + 5 shaded nucleons; 3 electrons (2 inner + 1 outer)]",
-      "E": "[diagram: 5 unshaded + 3 shaded nucleons; 3 electrons (2 inner + 1 outer)]",
-      "F": "[diagram: 3 unshaded + 5 shaded nucleons; 5 electrons (2 inner + 3 outer)]",
-      "G": "[diagram: 3 unshaded + 4 shaded nucleons; 2 electrons on inner shell]"
+      "A": "$3$ protons, $4$ neutrons, $2$ electrons",
+      "B": "$3$ protons, $3$ neutrons, $2$ electrons",
+      "C": "$3$ protons, $4$ neutrons, $3$ electrons",
+      "D": "$4$ protons, $3$ neutrons, $2$ electrons",
+      "E": "$3$ protons, $3$ neutrons, $3$ electrons",
+      "F": "$3$ protons, $4$ neutrons, $5$ electrons",
+      "G": "$4$ protons, $4$ neutrons, $2$ electrons"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -34200,12 +34200,12 @@
     "difficulty": 3,
     "question": "One strand of a section of DNA has the sequence: AATCGGTCTTGCGGCCAAGGCCCTT. The complementary strand is not shown. Which chart shows the correct proportions of the four bases (A, C, G, T) for this section of double-stranded DNA? (Assume no mutations.)",
     "options": {
-      "A": "[pie chart: labels A,C,T,G; wedges A=T (10/50 each), G=C (15/50 each)]",
-      "B": "[pie chart: labels T,A,C,G; wedge proportions differ from A=T=10, G=C=15]",
-      "C": "[pie chart: labels A,G,C,T; A=C smaller wedges, T=G larger wedges]",
-      "D": "[pie chart: labels A,C,T,G; A=C smaller wedges, T=G larger wedges]",
-      "E": "[pie chart: labels A,C,G,T; wedge proportions differ from A=T=10, G=C=15]",
-      "F": "[pie chart: labels A,C / G,T as four equal 25% quadrants]"
+      "A": "pie chart with $\\mathrm{A}=\\mathrm{T}$ each $20\\%$ and $\\mathrm{G}=\\mathrm{C}$ each $30\\%$",
+      "B": "pie chart with unequal $\\mathrm{A}$ and $\\mathrm{T}$ wedges and unequal $\\mathrm{G}$ and $\\mathrm{C}$",
+      "C": "pie chart with $\\mathrm{C}$ largest and $\\mathrm{A}$ smallest (not $2:2:3:3$)",
+      "D": "pie chart with same label layout as the $2:2:3:3$ chart but wrong wedge sizes",
+      "E": "pie chart with $\\mathrm{G}$ largest and $\\mathrm{A}$ smallest (not $2:2:3:3$)",
+      "F": "pie chart with four equal $25\\%$ wedges"
     },
     "answer": "A",
     "origin": "past-paper",
