@@ -479,7 +479,7 @@
     "difficulty": 4,
     "question": "Given that $y=\\dfrac{\\sin(-160°)}{\\cos 60°}$, what is the value of $y^3$?",
     "options": {
-      "A": "-sqrt(3)/9",
+      "A": "$-sqrt(3)/9$",
       "B": "-5sqrt(2)+10",
       "C": "3sqrt(3)-8",
       "D": "6sqrt(3)-10",
@@ -585,14 +585,14 @@
     "difficulty": 4,
     "question": "[DIAGRAM: Two right-angled triangles with the same hypotenuse length. One triangle has a 45° angle with adjacent side x cm; the other has a 60° angle with opposite side y cm.] Which of the following is a correct expression for y in terms of x?",
     "options": {
-      "A": "$y=\\sqrt2\\,x$",
-      "B": "$y=\\dfrac{\\sqrt2\\,x}{2}$",
-      "C": "$y=\\dfrac{\\sqrt2\\,x}{3}$",
-      "D": "$y=\\dfrac{\\sqrt2\\,x}{6}$",
-      "E": "$y=\\sqrt6\\,x$",
-      "F": "$y=\\dfrac{\\sqrt6\\,x}{2}$",
-      "G": "$y=\\dfrac{\\sqrt6}{3}x$",
-      "H": "$y=\\dfrac{\\sqrt6\\,x}{6}$"
+      "A": "$y=\\sqrt{2}\\,x$",
+      "B": "$y=\\dfrac{\\sqrt{2}\\,x}{2}$",
+      "C": "$y=\\dfrac{\\sqrt{2}\\,x}{3}$",
+      "D": "$y=\\dfrac{\\sqrt{2}\\,x}{6}$",
+      "E": "$y=\\sqrt{6}\\,x$",
+      "F": "$y=\\dfrac{\\sqrt{6}\\,x}{2}$",
+      "G": "$y=\\dfrac{\\sqrt{6}}{3}x$",
+      "H": "$y=\\dfrac{\\sqrt{6}\\,x}{6}$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -632,9 +632,9 @@
       "A": "$\\dfrac{5}{2}$",
       "B": "5",
       "C": "$\\dfrac{25}{2}$",
-      "D": "$5\\sqrt2$",
-      "E": "$\\dfrac{10\\sqrt2}{2}$",
-      "F": "$10\\sqrt2$"
+      "D": "$5\\sqrt{2}$",
+      "E": "$\\dfrac{10\\sqrt{2}}{2}$",
+      "F": "$10\\sqrt{2}$"
     },
     "answer": "A",
     "origin": "past-paper",

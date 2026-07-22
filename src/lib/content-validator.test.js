@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   checkKatexCompiles, checkUnbracedSqrt, checkUnicodeMath, checkLetterBan,
-  checkHardBans, checkStemOverlap, hasUnbalancedDelimiters,
+  checkHardBans, checkStemOverlap, checkPlaintextMath, hasUnbalancedDelimiters,
   validateSolution, validateDiagram, validateQuestion,
 } from './content-validator'
 
@@ -88,6 +88,27 @@ describe('checkLetterBan', () => {
   })
   it('still flags a genuine parenthesized option reference', () => {
     expect(checkLetterBan('This matches (B) exactly.').length).toBeGreaterThan(0)
+  })
+})
+
+describe('checkPlaintextMath', () => {
+  it('passes LaTeX-wrapped math', () => {
+    expect(checkPlaintextMath('Area is $\\dfrac{5\\pi x^2}{8}$.')).toEqual([])
+  })
+  it('flags bare sqrt(', () => {
+    expect(checkPlaintextMath('r=sqrt(x^2+(x/2)^2)').length).toBeGreaterThan(0)
+  })
+  it('flags raw structural TeX outside delimiters', () => {
+    expect(checkPlaintextMath('use \\frac{1}{2} here').length).toBeGreaterThan(0)
+  })
+  it('does not flag bare \\times (half-migrated residue)', () => {
+    expect(checkPlaintextMath('F = 3 \\times 10')).toEqual([])
+  })
+  it('does not flag caret powers (too many chem false positives)', () => {
+    expect(checkPlaintextMath('oxidation state a^2')).toEqual([])
+  })
+  it('flags bare pi', () => {
+    expect(checkPlaintextMath('semicircle area = 5*pi*x^2/8').length).toBeGreaterThan(0)
   })
 })
 

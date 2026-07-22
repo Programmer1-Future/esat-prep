@@ -122,6 +122,34 @@ export function checkHardBans(text) {
   return issues
 }
 
+// ASCII math that should have been wrapped in $...$. Checked on math-stripped
+// prose so legitimate `$x^2$` never false-positives.
+const PLAINTEXT_MATH_PATTERNS = [
+  { pattern: /\bsqrt\s*\(/i, label: 'bare sqrt(...)' },
+  // Structural TeX that is never valid as bare prose.
+  {
+    pattern: /\\(frac|dfrac|sqrt|sin|cos|tan|log|ln|left|right|text|begin|end)\b/,
+    label: 'raw TeX command outside $...$',
+  },
+  { pattern: /(?<![A-Za-z])\bpi\b(?![A-Za-z])/i, label: 'bare "pi"' },
+  { pattern: /(?<![A-Za-z])\btheta\b(?![A-Za-z])/i, label: 'bare "theta"' },
+]
+
+export function checkPlaintextMath(text) {
+  const prose = stripMathSpans(text)
+  const issues = []
+  for (const { pattern, label } of PLAINTEXT_MATH_PATTERNS) {
+    const m = prose.match(pattern)
+    if (m) {
+      issues.push({
+        rule: 'plaintext-math',
+        message: `Plain-text math (${label}) found outside $...$: "${m[0]}" — wrap in LaTeX`,
+      })
+    }
+  }
+  return issues
+}
+
 function normalizeWords(text) {
   return stripMathSpans(text).toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(Boolean)
 }
@@ -152,6 +180,7 @@ export function validateSolutionText(text) {
   issues.push(...checkUnicodeMath(text))
   issues.push(...checkLetterBan(text))
   issues.push(...checkHardBans(text))
+  issues.push(...checkPlaintextMath(text))
   return issues
 }
 
@@ -323,6 +352,15 @@ export function validateQuestion(question, { requireSolution = true } = {}) {
     }
   } else {
     issues.push(...validateSolution(question.solution, question.question))
+  }
+
+  if (question.options && typeof question.options === 'object') {
+    for (const [letter, value] of Object.entries(question.options)) {
+      if (typeof value !== 'string') continue
+      for (const issue of checkPlaintextMath(value)) {
+        issues.push({ ...issue, message: `Option ${letter}: ${issue.message}` })
+      }
+    }
   }
 
   if (question.diagram) {

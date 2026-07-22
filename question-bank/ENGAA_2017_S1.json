@@ -14,7 +14,7 @@
       "B": "3",
       "C": "$\\frac{5}{3}$",
       "D": "$\\frac{7}{3}$",
-      "E": "$3\\sqrt3$",
+      "E": "$3\\sqrt{3}$",
       "F": "9"
     },
     "answer": "F",
@@ -1112,12 +1112,12 @@
     "options": {
       "A": "$-\\dfrac34$",
       "B": "$\\dfrac34$",
-      "C": "$-\\dfrac34-\\dfrac{\\sqrt3}{7}$",
-      "D": "$\\dfrac34-\\dfrac{\\sqrt3}{7}$",
-      "E": "$-\\dfrac34-\\sqrt3$",
-      "F": "$\\dfrac34-\\sqrt3$",
-      "G": "$-\\dfrac{\\sqrt3}{2}$",
-      "H": "$\\dfrac{\\sqrt3}{2}$"
+      "C": "$-\\dfrac34-\\dfrac{\\sqrt{3}}{7}$",
+      "D": "$\\dfrac34-\\dfrac{\\sqrt{3}}{7}$",
+      "E": "$-\\dfrac34-\\sqrt{3}$",
+      "F": "$\\dfrac34-\\sqrt{3}$",
+      "G": "$-\\dfrac{\\sqrt{3}}{2}$",
+      "H": "$\\dfrac{\\sqrt{3}}{2}$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -1230,11 +1230,11 @@
     "question": "[DIAGRAM: A keyhole shape consisting of three straight sides PQ, QR is replaced by an arc, and RS, plus closing side SP. PQ and RS are both 18 mm and, when extended, meet at the centre O of a circle, forming an angle of π/6 radians. The longer arc from Q to R (the major arc) has length 22π mm.]\nWhat is the area, in mm², of the keyhole as shaded in the diagram?",
     "options": {
       "A": "$121\\pi+\\dfrac{841}{4}$",
-      "B": "$121\\pi+\\dfrac{841\\sqrt3}{4}$",
+      "B": "$121\\pi+\\dfrac{841\\sqrt{3}}{4}$",
       "C": "$132\\pi+225$",
-      "D": "$132\\pi+225\\sqrt3$",
+      "D": "$132\\pi+225\\sqrt{3}$",
       "E": "$144\\pi+225$",
-      "F": "$144\\pi+225\\sqrt3$"
+      "F": "$144\\pi+225\\sqrt{3}$"
     },
     "answer": "C",
     "origin": "past-paper",
@@ -1338,12 +1338,12 @@
     "difficulty": 4,
     "question": "In triangle PQR:\n$PQ=4x$ cm\n$QR=(8-3x)$ cm\n$\\angle PQR=60°$\nWhat is the maximum value of the area, in cm², of triangle PQR?",
     "options": {
-      "A": "$\\dfrac{8\\sqrt3}{3}$",
+      "A": "$\\dfrac{8\\sqrt{3}}{3}$",
       "B": "$\\dfrac{16}{3}$",
-      "C": "$\\dfrac{9\\sqrt6}{16}$",
-      "D": "$\\dfrac{16\\sqrt3}{3}$",
+      "C": "$\\dfrac{9\\sqrt{6}}{16}$",
+      "D": "$\\dfrac{16\\sqrt{3}}{3}$",
       "E": "$\\dfrac{32}{3}$",
-      "F": "$\\dfrac{32\\sqrt3}{3}$"
+      "F": "$\\dfrac{32\\sqrt{3}}{3}$"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -2059,7 +2059,7 @@
     "topic": "phy-mechanics",
     "subtopic": "moments, cranes",
     "difficulty": 4,
-    "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P. [DIAGRAM: a crane balanced about pivot P with a load of 400 kg at 10 m to the left and a counterweight of 2000 kg at 10 m to the right] The load is now moved to the left by $5.0\\text{ m}$. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = $10\\text{ N kg}^{-1}$)",
+    "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P (load of 400 kg at 10 m to the left of P; counterweight of 2000 kg at 10 m to the right). The load is now moved to the left by $5.0\\text{ m}$. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = $10\\text{ N kg}^{-1}$)",
     "options": {
       "A": "$1.0\\text{ m}$ to the left",
       "B": "$1.0\\text{ m}$ to the right",

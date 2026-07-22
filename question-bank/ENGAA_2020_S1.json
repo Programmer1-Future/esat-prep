@@ -693,7 +693,7 @@
       "C": "6.0 m/s",
       "D": "12 m/s",
       "E": "16 m/s",
-      "F": "$\\sqrt6$ m/s",
+      "F": "$\\sqrt{6}$ m/s",
       "G": "$\\sqrt{12}$ m/s",
       "H": "$\\sqrt{30}$ m/s"
     },
@@ -729,11 +729,11 @@
     "question": "The quadratic equation $2x^2-px-4=0$, where $p$ is a positive constant, has two solutions that differ by 6. What is the value of $p$?",
     "options": {
       "A": "2",
-      "B": "$4\\sqrt7$",
+      "B": "$4\\sqrt{7}$",
       "C": "12",
-      "D": "$11\\sqrt4$",
-      "E": "$34\\sqrt4$",
-      "F": "$30\\sqrt6$"
+      "D": "$11\\sqrt{4}$",
+      "E": "$34\\sqrt{4}$",
+      "F": "$30\\sqrt{6}$"
     },
     "answer": "B",
     "origin": "past-paper",

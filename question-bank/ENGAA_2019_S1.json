@@ -11,8 +11,8 @@
     "question": "Evaluate $(\\sqrt7-\\sqrt3)^2+(\\sqrt7+\\sqrt3)^2$",
     "options": {
       "A": "0",
-      "B": "$7\\sqrt2$",
-      "C": "$7\\sqrt4$",
+      "B": "$7\\sqrt{2}$",
+      "C": "$7\\sqrt{4}$",
       "D": "$2\\sqrt{12}$",
       "E": "10",
       "F": "20",
@@ -59,8 +59,8 @@
     "solution": {
       "steps": [
         {
-          "title": "Rearrange x y so x sqrt y x",
-          "content": "Rearrange: (1-x/2)^2=(3-y)/4, so 1-x/2=+-sqrt((3-y)/4), x=2-+2sqrt((3-y)/4), i.e. x=2+-2sqrt((3-y)/4)."
+          "title": "Rearrange for x in terms of y",
+          "content": "Rearrange: $\\left(1-\\dfrac{x}{2}\\right)^2=\\dfrac{3-y}{4}$, so $1-\\dfrac{x}{2}=\\pm\\sqrt{\\dfrac{3-y}{4}}$, hence $x=2\\mp 2\\sqrt{\\dfrac{3-y}{4}}$, i.e. $x=2\\pm 2\\sqrt{\\dfrac{3-y}{4}}$."
         },
         {
           "title": "Answer verified against the official answer key",
@@ -301,9 +301,9 @@
     "question": "$Q$, $S$, $P$, $R$, $T$: The diagram shows two congruent right-angled triangles $PQR$ and $TSR$ with right angles at $Q$ and $S$, respectively [DIAGRAM: two right triangles sharing vertex R, with PRT a straight line]. $PQ=TS=3$ cm, $QR=SR=4$ cm. $PRT$ is a straight line. What is the length, in cm, of $QS$?",
     "options": {
       "A": "4",
-      "B": "$2\\sqrt3$",
+      "B": "$2\\sqrt{3}$",
       "C": "5.2",
-      "D": "$2\\sqrt4$",
+      "D": "$2\\sqrt{4}$",
       "E": "6.4",
       "F": "8.2",
       "G": "10"
@@ -384,7 +384,7 @@
     "question": "A solid pyramid has a square base of side length 12 cm and a vertical height of $h$ cm (diagram not to scale). The volume of the pyramid, in cm$^3$, is equal to the total surface area of the pyramid, in cm$^2$. What is the value of $h$? (volume of pyramid $=\\frac13\\times$ area of base $\\times$ vertical height)",
     "options": {
       "A": "$\\frac{35}{72}$",
-      "B": "$3\\sqrt2$",
+      "B": "$3\\sqrt{2}$",
       "C": "6",
       "D": "$\\frac{23}{144}$",
       "E": "8",
@@ -580,9 +580,9 @@
     "question": "It is given that $7\\cos x+\\tan x\\sin x=5$ where $0°<x<90°$. What are the possible values of $\\tan x$?",
     "options": {
       "A": "$\\frac12$ or $\\frac13$",
-      "B": "$\\frac13$ or $\\frac{1}{2\\sqrt2}$",
-      "C": "$\\frac23$ or $\\frac{2\\sqrt2}{3}$",
-      "D": "$\\sqrt3$ or $2\\sqrt2$",
+      "B": "$\\frac13$ or $\\frac{1}{2\\sqrt{2}}$",
+      "C": "$\\frac23$ or $\\frac{2\\sqrt{2}}{3}$",
+      "D": "$\\sqrt{3}$ or $2\\sqrt{2}$",
       "E": "3 or 2"
     },
     "answer": "D",
@@ -620,11 +620,11 @@
     "difficulty": 4,
     "question": "An equilateral triangle of side 8 cm is drawn so that its vertices lie on the circumference of a circle [DIAGRAM: equilateral triangle inscribed in a circle with three circular segments shaded]. What is the total of the three areas shaded in the diagram, in cm$^2$?",
     "options": {
-      "A": "$8(28-3\\sqrt3)\\pi$",
-      "B": "$4(28-3\\sqrt3)\\pi$",
-      "C": "$4(4-3\\sqrt3)8\\pi$",
-      "D": "$\\frac{16}{3}(3\\sqrt3-3-\\sqrt3)$",
-      "E": "$\\frac{16}{3}(4\\pi-3\\sqrt3)$"
+      "A": "$8(28-3\\sqrt{3})\\pi$",
+      "B": "$4(28-3\\sqrt{3})\\pi$",
+      "C": "$4(4-3\\sqrt{3})8\\pi$",
+      "D": "$\\frac{16}{3}(3\\sqrt{3}-3-\\sqrt{3})$",
+      "E": "$\\frac{16}{3}(4\\pi-3\\sqrt{3})$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -1277,11 +1277,11 @@
     "question": "A uniform square trap door of side 0.80 m and mass 14 kg has a smooth hinge at one edge and is held open at 30° to the horizontal. It is supported by a rigid rod meeting the door at 90°, 0.10 m from the top edge [DIAGRAM: trap door hinged at one edge, held at 30° by a perpendicular rod near the far edge]. What is the normal contact force exerted on the trap door by the rod? (g = 10 N kg$^{-1}$)",
     "options": {
       "A": "40 N",
-      "B": "$35\\sqrt3$ N",
-      "C": "$40\\sqrt3$ N",
+      "B": "$35\\sqrt{3}$ N",
+      "C": "$40\\sqrt{3}$ N",
       "D": "80 N",
-      "E": "$80\\sqrt3$ N",
-      "F": "$\\dfrac{280}{\\sqrt3}$ N"
+      "E": "$80\\sqrt{3}$ N",
+      "F": "$\\dfrac{280}{\\sqrt{3}}$ N"
     },
     "answer": "C",
     "origin": "past-paper",

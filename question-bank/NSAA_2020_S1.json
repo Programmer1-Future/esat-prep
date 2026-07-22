@@ -590,13 +590,13 @@
     "question": "Two vertices of a square are at (1, 1) and (3, 5). What is the difference between the perimeters of the largest and smallest possible squares that can be drawn with these points as two of their vertices?",
     "options": {
       "A": "0",
-      "B": "$4\\sqrt3(2-\\sqrt2)$",
-      "C": "$4\\sqrt3(\\sqrt2-1)$",
-      "D": "$4\\sqrt5(2-\\sqrt2)$",
-      "E": "$4\\sqrt5(\\sqrt2-1)$",
-      "F": "$4\\sqrt{13}(2-\\sqrt2)$",
-      "G": "$4\\sqrt{13}(\\sqrt2-1)$",
-      "H": "$4\\sqrt3\\sqrt5(2-\\sqrt2)$"
+      "B": "$4\\sqrt{3}(2-\\sqrt{2})$",
+      "C": "$4\\sqrt{3}(\\sqrt{2}-1)$",
+      "D": "$4\\sqrt{5}(2-\\sqrt{2})$",
+      "E": "$4\\sqrt{5}(\\sqrt{2}-1)$",
+      "F": "$4\\sqrt{13}(2-\\sqrt{2})$",
+      "G": "$4\\sqrt{13}(\\sqrt{2}-1)$",
+      "H": "$4\\sqrt{3}\\sqrt{5}(2-\\sqrt{2})$"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -634,11 +634,11 @@
     "question": "The quadratic equation $2x^2-px-4=0$, where $p$ is a positive constant, has two solutions that differ by 6. What is the value of $p$?",
     "options": {
       "A": "2",
-      "B": "$4\\sqrt7$",
+      "B": "$4\\sqrt{7}$",
       "C": "12",
-      "D": "$11\\sqrt4$",
-      "E": "$34\\sqrt4$",
-      "F": "$30\\sqrt6$"
+      "D": "$11\\sqrt{4}$",
+      "E": "$34\\sqrt{4}$",
+      "F": "$30\\sqrt{6}$"
     },
     "answer": "B",
     "origin": "past-paper",

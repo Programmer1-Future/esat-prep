@@ -415,10 +415,10 @@
       "B": "65",
       "C": "80",
       "D": "120",
-      "E": "$\\dfrac{40\\sqrt3+25}{3}$",
-      "F": "$\\dfrac{64\\sqrt3+40}{3}$",
-      "G": "$25+40\\sqrt3$",
-      "H": "$64+40\\sqrt3$"
+      "E": "$\\dfrac{40\\sqrt{3}+25}{3}$",
+      "F": "$\\dfrac{64\\sqrt{3}+40}{3}$",
+      "G": "$25+40\\sqrt{3}$",
+      "H": "$64+40\\sqrt{3}$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -601,9 +601,9 @@
     "difficulty": 4,
     "question": "PQR is a triangle. S and T are points on the sides PQ and PR. ST is parallel to QR. PS = 3 cm, ST = $x$ cm, QS = $(x+2)$ cm, QR = $(2x+1)$ cm [DIAGRAM: triangle PQR with ST parallel to QR, S on PQ, T on PR]. What is the length, in cm, of QR?",
     "options": {
-      "A": "$2+\\sqrt5$",
+      "A": "$2+\\sqrt{5}$",
       "B": "$2+\\sqrt{13}$",
-      "C": "$5+2\\sqrt7$",
+      "C": "$5+2\\sqrt{7}$",
       "D": "$5+2\\sqrt{11}$",
       "E": "7",
       "F": "9"

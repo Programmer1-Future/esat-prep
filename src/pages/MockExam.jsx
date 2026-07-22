@@ -1,20 +1,19 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useBlocker } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Flag, ChevronLeft, ChevronRight, Grid3x3, PenLine, X, Check, Clock, Play } from 'lucide-react'
+import { Flag, ChevronLeft, ChevronRight, Grid3x3, PenLine, X, Clock, Play, Eye } from 'lucide-react'
 import { Card } from '../components/ui/Card'
 import questionsData from '../data/questions.json'
 import { cn, isoDate, formatSecs } from '../lib/utils'
 import { MODULES, getModule, topicIdForQuestion, questionsForModules } from '../lib/moduleMap'
 import { logEvent } from '../lib/eventLog'
 import { enqueueMisses } from '../lib/reviewQueue'
-import { projectScore, formatProjected } from '../lib/mockScore'
-import { updateStoredValue, useLocalStorage } from '../hooks/useLocalStorage'
+import { projectScore } from '../lib/mockScore'
+import { updateStoredValue, useLocalStorage, readStoredValue } from '../hooks/useLocalStorage'
 import { MathText, InlineMath } from '../components/ui/TechniqueRenderer'
 import { parseDiagrams } from '../lib/diagrams'
 import { DiagramFigure } from '../components/ui/Diagram'
-import { OriginBadge } from '../components/ui/Origin'
-import { QuestionExplanation, hasExplanation } from '../components/questions/QuestionExplanation'
+import { MockSittingReview } from '../components/mock/MockSittingReview'
 
 // Pearson VUE environment clone. Fidelity rules (per Build Prompt Phase 4):
 // one module per timed block, hard 40:00 auto-submit, flag-and-review grid,
@@ -114,12 +113,16 @@ function MockSetup({ allQuestions, chosenModuleIds, onStart }) {
       </Card>
 
       <Card>
-        <div className="p-4 text-sm text-text-secondary leading-relaxed">
-          <p className="font-600 text-text-primary mb-1.5">Test-day conditions apply</p>
+        <div className="p-4 text-sm text-text-secondary leading-relaxed space-y-2">
+          <p className="font-600 text-text-primary">Test-day conditions apply</p>
           <p>
             Each module is a locked timed block: you can move freely and flag questions within it, but once
             you end a module you cannot return. The timer does not pause. At 0:00 the module auto-submits.
             No results are shown between modules — scores appear only after the full sitting, one per module.
+          </p>
+          <p className="text-warning/90">
+            Leaving, refreshing, or navigating away mid-sitting abandons the mock. Progress is not saved and
+            you cannot resume — you will need to start a new sitting. Keep this tab open until you finish.
           </p>
         </div>
       </Card>
@@ -152,7 +155,8 @@ function ModuleIntro({ moduleId, index, total, questionCount, onBegin }) {
       {questionCount < MODULE_QUESTIONS && (
         <p className="text-xs text-warning mb-1">Bank has only {questionCount} questions for this module — timer stays at 40:00.</p>
       )}
-      <p className="text-xs text-text-muted mb-8">The clock starts the moment you begin. It cannot be paused.</p>
+      <p className="text-xs text-text-muted mb-2">The clock starts the moment you begin. It cannot be paused.</p>
+      <p className="text-xs text-warning mb-8">Leaving this page abandons the sitting — no resume.</p>
       <button
         onClick={onBegin}
         className="px-8 py-3.5 rounded-xl font-600 text-base bg-accent text-on-accent hover:opacity-90 dark:bg-accent-dim dark:text-text-primary dark:border dark:border-accent/30 transition-all duration-200"
@@ -243,10 +247,31 @@ function Scratchpad({ value, onChange, open, onClose }) {
   )
 }
 
+// ─── Tab-switch warning — detect + log; browsers cannot truly prevent tab switches ─
+function TabWarning({ count, visible }) {
+  return (
+    <AnimatePresence>
+      {visible && (
+        <motion.div
+          initial={{ opacity: 0, y: -12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }}
+          transition={{ duration: 0.2 }}
+          className="fixed top-4 left-1/2 -translate-x-1/2 z-[80] flex items-center gap-2 px-4 py-2.5 rounded-xl bg-danger text-white text-sm font-600 shadow-lg"
+        >
+          <Eye size={14} />
+          Tab switch detected — logged ({count} this module)
+        </motion.div>
+      )}
+    </AnimatePresence>
+  )
+}
+
+const ABANDON_CONFIRM =
+  'Leave and abandon this mock? Progress will not be saved — you will need to start a new sitting.'
+
 // ─── Timed module block ─────────────────────────────────────────────────────────
 // Owns everything inside one 40:00 window: question view, navigator, review
 // screen, end-module confirm, auto-submit. Calls onSubmit(answersMap, flagsSet,
-// timeSpentMap, secondsUsed) exactly once.
+// timeSpentMap, secondsUsed, tabSwitchCount) exactly once.
 function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }) {
   const m = getModule(moduleId)
   const [idx, setIdx] = useState(0)
@@ -258,6 +283,8 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
   const [padOpen, setPadOpen] = useState(false)
   const [confirmEnd, setConfirmEnd] = useState(false)
   const [timeLeft, setTimeLeft] = useState(MODULE_SECONDS)
+  const [tabWarning, setTabWarning] = useState(false)
+  const [tabSwitchCount, setTabSwitchCount] = useState(0)
 
   const endAtRef = useRef(null)
   const timeSpentRef = useRef({})
@@ -266,6 +293,8 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
   const idxRef = useRef(0)
   const answersRef = useRef({})
   const flagsRef = useRef(new Set())
+  const tabSwitchRef = useRef(0)
+  const tabWarnTimerRef = useRef(null)
 
   useEffect(() => {
     idxRef.current = idx
@@ -294,7 +323,13 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
     const i = idxRef.current
     timeSpentRef.current[i] = (timeSpentRef.current[i] || 0) + (now - enteredAtRef.current) / 1000
     const secondsUsed = MODULE_SECONDS - Math.max(0, Math.round((endAtRef.current - now) / 1000))
-    onSubmit(answersRef.current, flagsRef.current, timeSpentRef.current, Math.min(secondsUsed, MODULE_SECONDS))
+    onSubmit(
+      answersRef.current,
+      flagsRef.current,
+      timeSpentRef.current,
+      Math.min(secondsUsed, MODULE_SECONDS),
+      tabSwitchRef.current,
+    )
   }, [onSubmit])
 
   // Hard countdown — derived from a fixed deadline set once on mount, so tab
@@ -314,6 +349,26 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
     }, 250)
     return () => clearInterval(tick)
   }, [submit])
+
+  // Tab-switch / focus-loss detection — warn + count; do not eject.
+  useEffect(() => {
+    const flag = () => {
+      if (submittedRef.current) return
+      tabSwitchRef.current += 1
+      setTabSwitchCount(tabSwitchRef.current)
+      setTabWarning(true)
+      clearTimeout(tabWarnTimerRef.current)
+      tabWarnTimerRef.current = setTimeout(() => setTabWarning(false), 3500)
+    }
+    const onVisibility = () => { if (document.hidden) flag() }
+    document.addEventListener('visibilitychange', onVisibility)
+    window.addEventListener('blur', flag)
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibility)
+      window.removeEventListener('blur', flag)
+      clearTimeout(tabWarnTimerRef.current)
+    }
+  }, [])
 
   const q = questions[idx]
   const { stem, diagrams } = useMemo(() => parseDiagrams(q?.question, q?.id), [q])
@@ -339,6 +394,7 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
 
   return (
     <div className="fixed inset-0 z-50 bg-background flex flex-col">
+      <TabWarning count={tabSwitchCount} visible={tabWarning} />
       {/* VUE-style header: exam title, timer, position */}
       <header className="flex-shrink-0 border-b border-border bg-surface">
         <div className="flex items-center justify-between px-5 h-12">
@@ -580,144 +636,51 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
   )
 }
 
-// ─── Sitting results — per-module cards, never a combined figure ────────────────
-// Origin badges appear here only — never inside the timed sitting (VUE fidelity).
-const REVIEW_OUTCOME = {
-  correct: { text: 'Correct', color: 'var(--success)' },
-  wrong: { text: 'Wrong', color: 'var(--danger)' },
-  skip: { text: 'Unanswered', color: 'var(--muted)' },
+const MOCK_DRAFT_KEY = 'esat_mock_in_progress'
+
+function modulesPayload(records) {
+  return records.map(({ module, correct: c, total, projected: p, timeTakenSec, autoSubmitted: auto, results: res }) =>
+    ({ module, correct: c, total, projected: p, timeTakenSec, autoSubmitted: auto, results: res }))
 }
 
-function SittingResults({ moduleResults, questionsByModule, onDone }) {
-  const [openReview, setOpenReview] = useState(null)
-  const [expandedQ, setExpandedQ] = useState(null)
-  return (
-    <motion.div
-      className="max-w-2xl mx-auto p-6 space-y-4"
-      initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.25, ease: 'easeOut' }}
-    >
-      <div>
-        <h1 className="font-display font-700 text-2xl text-text-primary tracking-[-0.02em]">Sitting complete</h1>
-        <p className="text-text-muted text-sm mt-1">
-          ESAT reports each module independently on the 1.0–9.0 scale — there is no combined score.
-        </p>
-      </div>
+function promoteDraftToAbandoned() {
+  const draft = readStoredValue(MOCK_DRAFT_KEY, null)
+  if (!draft?.id || !draft.modules?.length) {
+    updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
+    return
+  }
+  updateStoredValue('esat_mock_sittings', sittings => {
+    if (sittings.some(s => s.id === draft.id)) return sittings
+    return [
+      ...sittings,
+      {
+        id: draft.id,
+        date: draft.date || isoDate(),
+        ts: draft.ts || new Date().toISOString(),
+        abandoned: true,
+        modules: draft.modules,
+      },
+    ]
+  }, [])
+  updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
+}
 
-      {moduleResults.map(r => {
-        const m = getModule(r.module)
-        const answered = r.results.filter(x => x.outcome !== 'skip').length
-        const open = openReview === r.module
-        return (
-          <Card key={r.module}>
-            <div className="flex items-center justify-between px-5 py-4">
-              <div>
-                <p className="text-sm font-600" style={{ color: m.color }}>{m.name}</p>
-                <p className="text-xs text-text-muted mt-1 tabular">
-                  {r.correct}/{r.total} correct · {answered}/{r.total} answered · {formatSecs(r.timeTakenSec)} used
-                  {r.autoSubmitted && <span className="text-danger"> · auto-submitted at 0:00</span>}
-                </p>
-              </div>
-              <div className="text-right">
-                <div className="font-display font-700 text-4xl tabular tracking-[-0.03em]" style={{ color: m.color }}>
-                  {formatProjected(r.projected)}
-                </div>
-                <p className="text-[10px] font-600 uppercase tracking-widest text-text-muted">projected</p>
-              </div>
-            </div>
-            <button
-              onClick={() => {
-                setOpenReview(open ? null : r.module)
-                setExpandedQ(null)
-              }}
-              className="w-full flex items-center justify-between px-5 py-2.5 border-t border-border-subtle text-xs font-600 text-text-muted hover:text-text-secondary transition-colors"
-            >
-              {open ? 'Hide questions' : 'Review questions'}
-              <ChevronRight size={12} className={cn('transition-transform duration-150', open && 'rotate-90')} />
-            </button>
-            {open && (
-              <div className="px-5 pb-4 space-y-1.5">
-                {r.results.map((res, i) => {
-                  const o = REVIEW_OUTCOME[res.outcome] || REVIEW_OUTCOME.skip
-                  const q = questionsByModule[r.module][i]
-                  const rowKey = `${r.module}:${res.qId}`
-                  const expanded = expandedQ === rowKey
-                  const { stem, diagrams } = parseDiagrams(q.question, q.id)
-                  const gaveAnswer = res.selected != null && res.selected !== q.answer
-                  return (
-                    <div key={res.qId} className="rounded-lg border border-border-subtle overflow-hidden">
-                      <button
-                        type="button"
-                        onClick={() => setExpandedQ(expanded ? null : rowKey)}
-                        className="w-full flex items-center gap-3 text-xs px-3 py-2 hover:bg-surface-raised/40 transition-colors"
-                      >
-                        <span className="w-7 tabular text-text-muted flex-shrink-0 text-left">Q{i + 1}</span>
-                        <span className="font-600" style={{ color: o.color }}>{o.text}</span>
-                        <OriginBadge origin={q.origin} source={q.source} className="ml-auto" />
-                        <ChevronRight size={12} className={cn('text-text-muted flex-shrink-0 transition-transform duration-150', expanded && 'rotate-90')} />
-                      </button>
-                      {expanded && (
-                        <div className="px-3 pb-3 border-t border-border-subtle">
-                          <div className="pt-3 text-[15px] text-text-primary leading-relaxed mb-3">
-                            <MathText text={stem} />
-                          </div>
-                          {diagrams.map((d, j) => <DiagramFigure key={j} caption={d.caption} src={d.src} />)}
-
-                          <div className="space-y-2">
-                            {gaveAnswer && (
-                              <div className="flex items-start gap-3 px-3 py-2.5 rounded-lg bg-danger/5 border border-danger/20">
-                                <X size={15} className="text-danger mt-0.5 flex-shrink-0" />
-                                <div className="min-w-0">
-                                  <p className="text-[10px] font-600 uppercase tracking-widest text-danger/70 mb-0.5">Your answer</p>
-                                  <div className="text-sm text-text-primary">
-                                    <InlineMath text={String(q.options?.[res.selected] ?? '')} />
-                                  </div>
-                                </div>
-                              </div>
-                            )}
-                            <div className="flex items-start gap-3 px-3 py-2.5 rounded-lg bg-success/5 border border-success/20">
-                              <Check size={15} className="text-success mt-0.5 flex-shrink-0" />
-                              <div className="min-w-0">
-                                <p className="text-[10px] font-600 uppercase tracking-widest text-success/70 mb-0.5">Correct answer</p>
-                                <div className="text-sm text-text-primary">
-                                  <InlineMath text={String(q.options?.[q.answer] ?? '')} />
-                                </div>
-                              </div>
-                            </div>
-                            {res.outcome === 'skip' && !gaveAnswer && (
-                              <p className="text-xs text-text-muted px-1">You skipped this one.</p>
-                            )}
-                          </div>
-
-                          {hasExplanation(q) && (
-                            <div className="mt-3 px-3 py-3 border-t border-border-subtle bg-accent/[0.03] -mx-3">
-                              <div className="px-3">
-                                <QuestionExplanation question={q} />
-                              </div>
-                            </div>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  )
-                })}
-              </div>
-            )}
-          </Card>
-        )
-      })}
-
-      <p className="text-xs text-text-muted">
-        Missed questions have entered your redemption queue and will resurface in practice.
-      </p>
-      <button
-        onClick={onDone}
-        className="w-full py-3.5 rounded-xl font-600 text-sm bg-accent text-on-accent hover:opacity-90 dark:bg-accent-dim dark:text-text-primary dark:border dark:border-accent/30 transition-all duration-150"
-      >
-        View mock history
-      </button>
-    </motion.div>
-  )
+function writeAbandonedSitting(sittingId, moduleRecords) {
+  if (!moduleRecords.length) return
+  updateStoredValue('esat_mock_sittings', sittings => {
+    if (sittings.some(s => s.id === sittingId)) return sittings
+    return [
+      ...sittings,
+      {
+        id: sittingId,
+        date: isoDate(),
+        ts: new Date().toISOString(),
+        abandoned: true,
+        modules: modulesPayload(moduleRecords),
+      },
+    ]
+  }, [])
+  updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
 }
 
 // ─── Main sitting orchestrator ──────────────────────────────────────────────────
@@ -730,6 +693,43 @@ export default function MockExam() {
   const [moduleIdx, setModuleIdx] = useState(0)
   const [moduleResults, setModuleResults] = useState([])
   const [scratchpad, setScratchpad] = useState('')
+  const moduleResultsRef = useRef([])
+  const sittingRef = useRef(null)
+
+  useEffect(() => { moduleResultsRef.current = moduleResults }, [moduleResults])
+  useEffect(() => { sittingRef.current = sitting }, [sitting])
+
+  // Promote any in-progress draft left by a refresh/close into Mock History.
+  useEffect(() => {
+    promoteDraftToAbandoned()
+  }, [])
+
+  const inProgress = phase === 'intro' || phase === 'exam'
+
+  const blocker = useBlocker(inProgress)
+
+  useEffect(() => {
+    if (blocker.state !== 'blocked') return
+    if (window.confirm(ABANDON_CONFIRM)) {
+      const sit = sittingRef.current
+      const done = moduleResultsRef.current
+      if (sit?.id && done.length > 0) writeAbandonedSitting(sit.id, done)
+      else updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
+      blocker.proceed()
+    } else {
+      blocker.reset()
+    }
+  }, [blocker])
+
+  useEffect(() => {
+    if (!inProgress) return
+    const onBeforeUnload = (e) => {
+      e.preventDefault()
+      e.returnValue = ''
+    }
+    window.addEventListener('beforeunload', onBeforeUnload)
+    return () => window.removeEventListener('beforeunload', onBeforeUnload)
+  }, [inProgress])
 
   const startSitting = (moduleIds) => {
     const questionsByModule = {}
@@ -740,10 +740,11 @@ export default function MockExam() {
     setModuleIdx(0)
     setModuleResults([])
     setScratchpad('')
+    updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
     setPhase('intro')
   }
 
-  const handleModuleSubmit = (answers, flags, timeSpent, secondsUsed) => {
+  const handleModuleSubmit = (answers, flags, timeSpent, secondsUsed, tabSwitchCount = 0) => {
     const moduleId = sitting.moduleIds[moduleIdx]
     const questions = sitting.questionsByModule[moduleId]
     const autoSubmitted = secondsUsed >= MODULE_SECONDS
@@ -766,11 +767,9 @@ export default function MockExam() {
     const projected = projectScore(correct, questions.length)
     const record = {
       module: moduleId, correct, total: questions.length,
-      projected, timeTakenSec: secondsUsed, autoSubmitted, results,
+      projected, timeTakenSec: secondsUsed, autoSubmitted, tabSwitchCount, results,
     }
 
-    // Per-module ledger event — the Build Prompt's mock_logged shape, with the
-    // per-question results[] (incl. timeSec) that Phase 5 insights consume.
     logEvent('mock_logged', {
       date: isoDate(),
       sittingId: sitting.id,
@@ -780,6 +779,7 @@ export default function MockExam() {
       projected,
       timeTaken: secondsUsed,
       autoSubmitted,
+      tabSwitchCount,
       results,
     })
     enqueueMisses(results)
@@ -802,20 +802,26 @@ export default function MockExam() {
     setModuleResults(nextResults)
 
     if (moduleIdx + 1 < sitting.moduleIds.length) {
+      // Draft so a refresh after finishing module k still lands an abandoned sitting.
+      updateStoredValue(MOCK_DRAFT_KEY, () => ({
+        id: sitting.id,
+        date: isoDate(),
+        ts: new Date().toISOString(),
+        modules: modulesPayload(nextResults),
+      }), null)
       setModuleIdx(i => i + 1)
       setPhase('intro')
     } else {
-      // Sitting record for the mock history view — per-module scores only.
       updateStoredValue('esat_mock_sittings', sittings => [
         ...sittings,
         {
           id: sitting.id,
           date: isoDate(),
           ts: new Date().toISOString(),
-          modules: nextResults.map(({ module, correct: c, total, projected: p, timeTakenSec, autoSubmitted: auto }) =>
-            ({ module, correct: c, total, projected: p, timeTakenSec, autoSubmitted: auto })),
+          modules: modulesPayload(nextResults),
         },
       ], [])
+      updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
       setScratchpad('')
       setPhase('results')
     }
@@ -853,7 +859,13 @@ export default function MockExam() {
       )}
       {phase === 'results' && (
         <motion.div key="results" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-          <SittingResults moduleResults={moduleResults} questionsByModule={sitting.questionsByModule} onDone={() => navigate('/mocks')} />
+          <MockSittingReview
+            moduleResults={moduleResults}
+            questionsByModule={sitting.questionsByModule}
+            footerNote="You can reopen this sitting anytime from Mock History."
+            onDone={() => navigate('/mocks')}
+            doneLabel="Done — mock history"
+          />
         </motion.div>
       )}
     </AnimatePresence>

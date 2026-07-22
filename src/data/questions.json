@@ -112,13 +112,13 @@
     "difficulty": 2,
     "question": "Which one of the following is a simplification of $(\\sqrt3-\\sqrt2)^2$?",
     "options": {
-      "A": "$1-2\\sqrt3\\sqrt2$",
-      "B": "$5-2\\sqrt2\\sqrt3$",
-      "C": "$2\\sqrt3-2\\sqrt2$",
+      "A": "$1-2\\sqrt{3}\\sqrt{2}$",
+      "B": "$5-2\\sqrt{2}\\sqrt{3}$",
+      "C": "$2\\sqrt{3}-2\\sqrt{2}$",
       "D": "$1$",
-      "E": "$5-\\sqrt2\\sqrt3$",
-      "F": "$13-2\\sqrt2\\sqrt3$",
-      "G": "$5+2\\sqrt2\\sqrt3$",
+      "E": "$5-\\sqrt{2}\\sqrt{3}$",
+      "F": "$13-2\\sqrt{2}\\sqrt{3}$",
+      "G": "$5+2\\sqrt{2}\\sqrt{3}$",
       "H": "$5$"
     },
     "answer": "B",
@@ -450,10 +450,10 @@
     "question": "The point A is 4 km due East of the point B. The bearing of the point C from A is $330°$ and the bearing of C from B is $060°$. Find the distance BC.",
     "options": {
       "A": "2 km",
-      "B": "$2\\sqrt3$ km",
+      "B": "$2\\sqrt{3}$ km",
       "C": "4 km",
-      "D": "$5\\sqrt2$ km",
-      "E": "$2\\sqrt4$ km"
+      "D": "$5\\sqrt{2}$ km",
+      "E": "$2\\sqrt{4}$ km"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -1163,10 +1163,10 @@
     "difficulty": 5,
     "question": "When $x=2$ is substituted in the expression $x^3+px^2+qx+p^2$ the result is 0. When $x=1$ is substituted into the same expression, the result is $-3.5$. Find all possible value(s) of $p$.",
     "options": {
-      "A": "$p=\\dfrac{-1\\pm\\sqrt6}{3}$",
+      "A": "$p=\\dfrac{-1\\pm\\sqrt{6}}{3}$",
       "B": "$p=1$ or $p=-3$",
       "C": "$p=1$",
-      "D": "$p=1\\pm\\sqrt7$",
+      "D": "$p=1\\pm\\sqrt{7}$",
       "E": "there are no values for $p$"
     },
     "answer": "C",
@@ -1317,10 +1317,10 @@
     "difficulty": 5,
     "question": "The first term of a convergent geometric series is 8. The fifth term is 2. The sixth term is real and positive. What is the sum to infinity of this series? (Sum to infinity $=\\dfrac{a}{1-r}$.)",
     "options": {
-      "A": "$18(\\sqrt2+2)$",
-      "B": "$18(\\sqrt2-2)$",
-      "C": "$8(2+\\sqrt2)$",
-      "D": "$8(2-\\sqrt2)$",
+      "A": "$18(\\sqrt{2}+2)$",
+      "B": "$18(\\sqrt{2}-2)$",
+      "C": "$8(2+\\sqrt{2})$",
+      "D": "$8(2-\\sqrt{2})$",
       "E": "16",
       "F": "$\\dfrac{48}{5^5-1}$",
       "G": "$\\dfrac{48}{5^5+1}$"
@@ -1396,12 +1396,12 @@
     "difficulty": 5,
     "question": "Tangents are drawn from a point P to a circle of radius 10 cm. The centre of the circle is C and the distance PC is 20 cm. Which one of the following is an expression for the shaded area (bounded by the two tangents and the circle) in square centimetres?",
     "options": {
-      "A": "$\\dfrac{100}{3}(3\\sqrt3-\\pi)$",
-      "B": "$\\dfrac{100}{3}(3\\sqrt5-\\pi)$",
-      "C": "$\\dfrac{50}{3}(6\\sqrt3-\\pi)$",
-      "D": "$\\dfrac{50}{3}(6\\sqrt5-\\pi)$",
-      "E": "$\\dfrac{50}{3}(3\\sqrt2-\\pi)$",
-      "F": "$\\dfrac{50}{3}(2\\sqrt3-\\pi)$"
+      "A": "$\\dfrac{100}{3}(3\\sqrt{3}-\\pi)$",
+      "B": "$\\dfrac{100}{3}(3\\sqrt{5}-\\pi)$",
+      "C": "$\\dfrac{50}{3}(6\\sqrt{3}-\\pi)$",
+      "D": "$\\dfrac{50}{3}(6\\sqrt{5}-\\pi)$",
+      "E": "$\\dfrac{50}{3}(3\\sqrt{2}-\\pi)$",
+      "F": "$\\dfrac{50}{3}(2\\sqrt{3}-\\pi)$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -1565,8 +1565,8 @@
     "question": "The complete set of values of $a$ for which the equation $3x^2=(a+2)x-3$ has two real distinct roots is:",
     "options": {
       "A": "no values of $a$",
-      "B": "$-4\\sqrt2<a<4\\sqrt2$",
-      "C": "$a<-4\\sqrt2, a>4\\sqrt2$",
+      "B": "$-4\\sqrt{2}<a<4\\sqrt{2}$",
+      "C": "$a<-4\\sqrt{2}, a>4\\sqrt{2}$",
       "D": "$-4<a<8$",
       "E": "$a<-4, a>8$",
       "F": "$-8<a<4$",
@@ -1728,8 +1728,8 @@
       "D": "$-a\\le x\\le0, x\\ge a$",
       "E": "$x\\le-\\dfrac{a}{3}, x\\ge\\dfrac{a}{3}$",
       "F": "$-\\dfrac{a}{3}\\le x\\le\\dfrac{a}{3}$",
-      "G": "$x\\le-\\dfrac{a}{\\sqrt3}, x\\ge\\dfrac{a}{\\sqrt3}$",
-      "H": "$-\\dfrac{a}{\\sqrt3}\\le x\\le\\dfrac{a}{\\sqrt3}$"
+      "G": "$x\\le-\\dfrac{a}{\\sqrt{3}}, x\\ge\\dfrac{a}{\\sqrt{3}}$",
+      "H": "$-\\dfrac{a}{\\sqrt{3}}\\le x\\le\\dfrac{a}{\\sqrt{3}}$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -2242,7 +2242,7 @@
       "B": "3",
       "C": "$\\frac{5}{3}$",
       "D": "$\\frac{7}{3}$",
-      "E": "$3\\sqrt3$",
+      "E": "$3\\sqrt{3}$",
       "F": "9"
     },
     "answer": "F",
@@ -3368,12 +3368,12 @@
     "options": {
       "A": "$-\\dfrac34$",
       "B": "$\\dfrac34$",
-      "C": "$-\\dfrac34-\\dfrac{\\sqrt3}{7}$",
-      "D": "$\\dfrac34-\\dfrac{\\sqrt3}{7}$",
-      "E": "$-\\dfrac34-\\sqrt3$",
-      "F": "$\\dfrac34-\\sqrt3$",
-      "G": "$-\\dfrac{\\sqrt3}{2}$",
-      "H": "$\\dfrac{\\sqrt3}{2}$"
+      "C": "$-\\dfrac34-\\dfrac{\\sqrt{3}}{7}$",
+      "D": "$\\dfrac34-\\dfrac{\\sqrt{3}}{7}$",
+      "E": "$-\\dfrac34-\\sqrt{3}$",
+      "F": "$\\dfrac34-\\sqrt{3}$",
+      "G": "$-\\dfrac{\\sqrt{3}}{2}$",
+      "H": "$\\dfrac{\\sqrt{3}}{2}$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -3489,11 +3489,11 @@
     "question": "[DIAGRAM: A keyhole shape consisting of three straight sides PQ, QR is replaced by an arc, and RS, plus closing side SP. PQ and RS are both 18 mm and, when extended, meet at the centre O of a circle, forming an angle of π/6 radians. The longer arc from Q to R (the major arc) has length 22π mm.]\nWhat is the area, in mm², of the keyhole as shaded in the diagram?",
     "options": {
       "A": "$121\\pi+\\dfrac{841}{4}$",
-      "B": "$121\\pi+\\dfrac{841\\sqrt3}{4}$",
+      "B": "$121\\pi+\\dfrac{841\\sqrt{3}}{4}$",
       "C": "$132\\pi+225$",
-      "D": "$132\\pi+225\\sqrt3$",
+      "D": "$132\\pi+225\\sqrt{3}$",
       "E": "$144\\pi+225$",
-      "F": "$144\\pi+225\\sqrt3$"
+      "F": "$144\\pi+225\\sqrt{3}$"
     },
     "answer": "C",
     "origin": "past-paper",
@@ -3600,12 +3600,12 @@
     "difficulty": 4,
     "question": "In triangle PQR:\n$PQ=4x$ cm\n$QR=(8-3x)$ cm\n$\\angle PQR=60°$\nWhat is the maximum value of the area, in cm², of triangle PQR?",
     "options": {
-      "A": "$\\dfrac{8\\sqrt3}{3}$",
+      "A": "$\\dfrac{8\\sqrt{3}}{3}$",
       "B": "$\\dfrac{16}{3}$",
-      "C": "$\\dfrac{9\\sqrt6}{16}$",
-      "D": "$\\dfrac{16\\sqrt3}{3}$",
+      "C": "$\\dfrac{9\\sqrt{6}}{16}$",
+      "D": "$\\dfrac{16\\sqrt{3}}{3}$",
       "E": "$\\dfrac{32}{3}$",
-      "F": "$\\dfrac{32\\sqrt3}{3}$"
+      "F": "$\\dfrac{32\\sqrt{3}}{3}$"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -4340,7 +4340,7 @@
     "topic": "phy-mechanics",
     "subtopic": "moments, cranes",
     "difficulty": 4,
-    "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P. [DIAGRAM: a crane balanced about pivot P with a load of 400 kg at 10 m to the left and a counterweight of 2000 kg at 10 m to the right] The load is now moved to the left by $5.0\\text{ m}$. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = $10\\text{ N kg}^{-1}$)",
+    "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P (load of 400 kg at 10 m to the left of P; counterweight of 2000 kg at 10 m to the right). The load is now moved to the left by $5.0\\text{ m}$. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = $10\\text{ N kg}^{-1}$)",
     "options": {
       "A": "$1.0\\text{ m}$ to the left",
       "B": "$1.0\\text{ m}$ to the right",
@@ -4605,9 +4605,9 @@
     "options": {
       "A": "6",
       "B": "3",
-      "C": "$3\\sqrt2$",
+      "C": "$3\\sqrt{2}$",
       "D": "$2\\sqrt{15}$",
-      "E": "$4\\sqrt6$",
+      "E": "$4\\sqrt{6}$",
       "F": "12",
       "G": "$2\\sqrt{12}$",
       "H": "$8\\sqrt{15}$"
@@ -6018,9 +6018,9 @@
     "difficulty": 3,
     "question": "Circle C has equation $(x+3)^2+(y-2)^2=5$.\nThe length of the tangent from the circle C to the point P is $5\\sqrt3$.\nWhat is the shortest distance from P to C?",
     "options": {
-      "A": "$3\\sqrt5$",
-      "B": "$5+3\\sqrt5$",
-      "C": "$3\\sqrt5$",
+      "A": "$3\\sqrt{5}$",
+      "B": "$5+3\\sqrt{5}$",
+      "C": "$3\\sqrt{5}$",
       "D": "5",
       "E": "10"
     },
@@ -6138,10 +6138,10 @@
       "A": "$\\frac{T}{2}$",
       "B": "$T$",
       "C": "$2T$",
-      "D": "$\\frac{T}{\\sqrt2}$",
-      "E": "$\\frac{T}{\\sqrt3}$",
-      "F": "$\\frac{2T}{\\sqrt3}$",
-      "G": "$\\frac{\\sqrt3}{2}T$"
+      "D": "$\\frac{T}{\\sqrt{2}}$",
+      "E": "$\\frac{T}{\\sqrt{3}}$",
+      "F": "$\\frac{2T}{\\sqrt{3}}$",
+      "G": "$\\frac{\\sqrt{3}}{2}T$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -6482,8 +6482,8 @@
     "question": "Evaluate $(\\sqrt7-\\sqrt3)^2+(\\sqrt7+\\sqrt3)^2$",
     "options": {
       "A": "0",
-      "B": "$7\\sqrt2$",
-      "C": "$7\\sqrt4$",
+      "B": "$7\\sqrt{2}$",
+      "C": "$7\\sqrt{4}$",
       "D": "$2\\sqrt{12}$",
       "E": "10",
       "F": "20",
@@ -6532,8 +6532,8 @@
     "solution": {
       "steps": [
         {
-          "title": "Rearrange x y so x sqrt y x",
-          "content": "Rearrange: (1-x/2)^2=(3-y)/4, so 1-x/2=+-sqrt((3-y)/4), x=2-+2sqrt((3-y)/4), i.e. x=2+-2sqrt((3-y)/4)."
+          "title": "Rearrange for x in terms of y",
+          "content": "Rearrange: $\\left(1-\\dfrac{x}{2}\\right)^2=\\dfrac{3-y}{4}$, so $1-\\dfrac{x}{2}=\\pm\\sqrt{\\dfrac{3-y}{4}}$, hence $x=2\\mp 2\\sqrt{\\dfrac{3-y}{4}}$, i.e. $x=2\\pm 2\\sqrt{\\dfrac{3-y}{4}}$."
         },
         {
           "title": "Answer verified against the official answer key",
@@ -6780,9 +6780,9 @@
     "question": "$Q$, $S$, $P$, $R$, $T$: The diagram shows two congruent right-angled triangles $PQR$ and $TSR$ with right angles at $Q$ and $S$, respectively [DIAGRAM: two right triangles sharing vertex R, with PRT a straight line]. $PQ=TS=3$ cm, $QR=SR=4$ cm. $PRT$ is a straight line. What is the length, in cm, of $QS$?",
     "options": {
       "A": "4",
-      "B": "$2\\sqrt3$",
+      "B": "$2\\sqrt{3}$",
       "C": "5.2",
-      "D": "$2\\sqrt4$",
+      "D": "$2\\sqrt{4}$",
       "E": "6.4",
       "F": "8.2",
       "G": "10"
@@ -6865,7 +6865,7 @@
     "question": "A solid pyramid has a square base of side length 12 cm and a vertical height of $h$ cm (diagram not to scale). The volume of the pyramid, in cm$^3$, is equal to the total surface area of the pyramid, in cm$^2$. What is the value of $h$? (volume of pyramid $=\\frac13\\times$ area of base $\\times$ vertical height)",
     "options": {
       "A": "$\\frac{35}{72}$",
-      "B": "$3\\sqrt2$",
+      "B": "$3\\sqrt{2}$",
       "C": "6",
       "D": "$\\frac{23}{144}$",
       "E": "8",
@@ -7066,9 +7066,9 @@
     "question": "It is given that $7\\cos x+\\tan x\\sin x=5$ where $0°<x<90°$. What are the possible values of $\\tan x$?",
     "options": {
       "A": "$\\frac12$ or $\\frac13$",
-      "B": "$\\frac13$ or $\\frac{1}{2\\sqrt2}$",
-      "C": "$\\frac23$ or $\\frac{2\\sqrt2}{3}$",
-      "D": "$\\sqrt3$ or $2\\sqrt2$",
+      "B": "$\\frac13$ or $\\frac{1}{2\\sqrt{2}}$",
+      "C": "$\\frac23$ or $\\frac{2\\sqrt{2}}{3}$",
+      "D": "$\\sqrt{3}$ or $2\\sqrt{2}$",
       "E": "3 or 2"
     },
     "answer": "D",
@@ -7107,11 +7107,11 @@
     "difficulty": 4,
     "question": "An equilateral triangle of side 8 cm is drawn so that its vertices lie on the circumference of a circle [DIAGRAM: equilateral triangle inscribed in a circle with three circular segments shaded]. What is the total of the three areas shaded in the diagram, in cm$^2$?",
     "options": {
-      "A": "$8(28-3\\sqrt3)\\pi$",
-      "B": "$4(28-3\\sqrt3)\\pi$",
-      "C": "$4(4-3\\sqrt3)8\\pi$",
-      "D": "$\\frac{16}{3}(3\\sqrt3-3-\\sqrt3)$",
-      "E": "$\\frac{16}{3}(4\\pi-3\\sqrt3)$"
+      "A": "$8(28-3\\sqrt{3})\\pi$",
+      "B": "$4(28-3\\sqrt{3})\\pi$",
+      "C": "$4(4-3\\sqrt{3})8\\pi$",
+      "D": "$\\frac{16}{3}(3\\sqrt{3}-3-\\sqrt{3})$",
+      "E": "$\\frac{16}{3}(4\\pi-3\\sqrt{3})$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -7781,11 +7781,11 @@
     "question": "A uniform square trap door of side 0.80 m and mass 14 kg has a smooth hinge at one edge and is held open at 30° to the horizontal. It is supported by a rigid rod meeting the door at 90°, 0.10 m from the top edge [DIAGRAM: trap door hinged at one edge, held at 30° by a perpendicular rod near the far edge]. What is the normal contact force exerted on the trap door by the rod? (g = 10 N kg$^{-1}$)",
     "options": {
       "A": "40 N",
-      "B": "$35\\sqrt3$ N",
-      "C": "$40\\sqrt3$ N",
+      "B": "$35\\sqrt{3}$ N",
+      "C": "$40\\sqrt{3}$ N",
       "D": "80 N",
-      "E": "$80\\sqrt3$ N",
-      "F": "$\\dfrac{280}{\\sqrt3}$ N"
+      "E": "$80\\sqrt{3}$ N",
+      "F": "$\\dfrac{280}{\\sqrt{3}}$ N"
     },
     "answer": "C",
     "origin": "past-paper",
@@ -8712,7 +8712,7 @@
       "C": "6.0 m/s",
       "D": "12 m/s",
       "E": "16 m/s",
-      "F": "$\\sqrt6$ m/s",
+      "F": "$\\sqrt{6}$ m/s",
       "G": "$\\sqrt{12}$ m/s",
       "H": "$\\sqrt{30}$ m/s"
     },
@@ -8749,11 +8749,11 @@
     "question": "The quadratic equation $2x^2-px-4=0$, where $p$ is a positive constant, has two solutions that differ by 6. What is the value of $p$?",
     "options": {
       "A": "2",
-      "B": "$4\\sqrt7$",
+      "B": "$4\\sqrt{7}$",
       "C": "12",
-      "D": "$11\\sqrt4$",
-      "E": "$34\\sqrt4$",
-      "F": "$30\\sqrt6$"
+      "D": "$11\\sqrt{4}$",
+      "E": "$34\\sqrt{4}$",
+      "F": "$30\\sqrt{6}$"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -10077,7 +10077,7 @@
     "difficulty": 3,
     "question": "Given that $y=\\dfrac{\\sin60°-1}{\\cos60°}$, what is the value of $y^3$?",
     "options": {
-      "A": "-sqrt(3)/9",
+      "A": "$-sqrt(3)/9$",
       "B": "-5sqrt(2)+10",
       "C": "3sqrt(3)-8",
       "D": "6sqrt(3)-10",
@@ -10234,9 +10234,9 @@
       "A": "$\\frac{5}{2}$",
       "B": "5",
       "C": "$\\frac{25}{2}$",
-      "D": "$5\\sqrt2$",
-      "E": "$\\frac{10\\sqrt2}{2}$",
-      "F": "$10\\sqrt2$"
+      "D": "$5\\sqrt{2}$",
+      "E": "$\\frac{10\\sqrt{2}}{2}$",
+      "F": "$10\\sqrt{2}$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -10398,12 +10398,12 @@
     "solution": {
       "steps": [
         {
-          "title": "Let u sqrt x sqrt x du dx",
-          "content": "Let u=2sqrt(x)-1/(2sqrt(x)). du/dx = x^(-1/2) + (1/4)x^(-3/2)."
+          "title": "Substitute u and differentiate",
+          "content": "Let $u=2\\sqrt{x}-\\dfrac{1}{2\\sqrt{x}}$. $\\dfrac{du}{dx}=x^{-1/2}+\\dfrac{1}{4}x^{-3/2}$."
         },
         {
-          "title": "At x u sqrt du dx sqrt sqrt",
-          "content": "At x=1/2: u=sqrt(2)/2, du/dx=sqrt(2)+ (1/4)(2sqrt(2))=(3sqrt(2))/2. dy/dx=2u(du/dx)=2*(sqrt(2)/2)*(3sqrt(2)/2)=3."
+          "title": "Evaluate dy/dx at x equals one half",
+          "content": "At $x=\\dfrac{1}{2}$: $u=\\dfrac{\\sqrt{2}}{2}$, $\\dfrac{du}{dx}=\\sqrt{2}+\\dfrac{1}{4}(2\\sqrt{2})=\\dfrac{3\\sqrt{2}}{2}$. $\\dfrac{dy}{dx}=2u\\dfrac{du}{dx}=2\\cdot\\dfrac{\\sqrt{2}}{2}\\cdot\\dfrac{3\\sqrt{2}}{2}=3$."
         }
       ]
     }
@@ -10616,14 +10616,14 @@
     "difficulty": 4,
     "question": "The line $x=1$ divides the circle $x^2+y^2=4$ into two segments. What is the area of the smaller segment?",
     "options": {
-      "A": "$\\frac{2\\pi}{3}-\\frac{\\sqrt3}{2}$",
-      "B": "$\\frac{2\\pi}{3}-\\sqrt3$",
+      "A": "$\\frac{2\\pi}{3}-\\frac{\\sqrt{3}}{2}$",
+      "B": "$\\frac{2\\pi}{3}-\\sqrt{3}$",
       "C": "$\\frac{\\pi}{2}-1$",
       "D": "$\\pi-2$",
       "E": "$\\pi-\\frac12$",
       "F": "$\\pi-1$",
-      "G": "$\\frac{4\\pi}{3}-\\frac{\\sqrt3}{2}$",
-      "H": "$\\frac{4\\pi}{3}-\\sqrt3$"
+      "G": "$\\frac{4\\pi}{3}-\\frac{\\sqrt{3}}{2}$",
+      "H": "$\\frac{4\\pi}{3}-\\sqrt{3}$"
     },
     "answer": "H",
     "origin": "past-paper",
@@ -10656,9 +10656,9 @@
       "A": "60 N",
       "B": "360 N",
       "C": "100 N",
-      "D": "$100\\sqrt3$ N",
+      "D": "$100\\sqrt{3}$ N",
       "E": "125 N",
-      "F": "$125\\sqrt3$ N"
+      "F": "$125\\sqrt{3}$ N"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -10951,9 +10951,9 @@
     "difficulty": 4,
     "question": "A piece of electrically conducting putty is formed into the shape of a uniform cylinder. The resistance between the ends of the cylinder is $R$. The same piece of putty is now formed into a new uniform cylinder with half the diameter of the first cylinder. What is the resistance between the ends of the new cylinder?",
     "options": {
-      "A": "$\\sqrt2 R$",
-      "B": "$2\\sqrt2 R$",
-      "C": "$4\\sqrt2 R$",
+      "A": "$\\sqrt{2} R$",
+      "B": "$2\\sqrt{2} R$",
+      "C": "$4\\sqrt{2} R$",
       "D": "$2R$",
       "E": "$4R$",
       "F": "$8R$",
@@ -10994,11 +10994,11 @@
       "A": "3sqrt(2)/2",
       "B": "3sqrt(2)",
       "C": "3sqrt(3)/2",
-      "D": "sqrt(3)",
-      "E": "1+sqrt(2)",
-      "F": "3(1+sqrt(2))",
-      "G": "(sqrt(3)/3)(1+sqrt(2)/2)",
-      "H": "sqrt(3)(1+sqrt(2)/2)"
+      "D": "$sqrt(3)$",
+      "E": "$1+sqrt(2)$",
+      "F": "$3(1+sqrt(2))$",
+      "G": "$(sqrt(3)/3)(1+sqrt(2)/2)$",
+      "H": "$sqrt(3)(1+sqrt(2)/2)$"
     },
     "answer": "H",
     "origin": "past-paper",
@@ -11007,16 +11007,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Each term sqrt a sqrt b rationalises to",
-          "content": "Each term 3/(sqrt(a)+sqrt(b)) rationalises to (sqrt(a)-sqrt(b))/2 since a-b=6 throughout."
+          "title": "Rationalise each surd term",
+          "content": "Each term $\\dfrac{3}{\\sqrt{a}+\\sqrt{b}}$ rationalises to $\\dfrac{\\sqrt{a}-\\sqrt{b}}{2}$ since $a-b=6$ throughout."
         },
         {
-          "title": "Summing the telescoping series of terms a leaves",
-          "content": "Summing the telescoping series of 7 terms (a=27,24,.,9) leaves sqrt(27)+sqrt(24)-sqrt(6)-sqrt(3) = 3sqrt(3)+2sqrt(6)-sqrt(6)-sqrt(3)=2sqrt(3)+sqrt(6)=sqrt(3)(2+sqrt(2))."
+          "title": "Sum the telescoping series",
+          "content": "Summing the telescoping series of 7 terms ($a=27,24,\\ldots,9$) leaves $\\sqrt{27}+\\sqrt{24}-\\sqrt{6}-\\sqrt{3}=3\\sqrt{3}+2\\sqrt{6}-\\sqrt{6}-\\sqrt{3}=2\\sqrt{3}+\\sqrt{6}=\\sqrt{3}(2+\\sqrt{2})$."
         },
         {
-          "title": "Dividing by sqrt sqrt",
-          "content": "Dividing by 2: sqrt(3)(1+sqrt(2)/2)."
+          "title": "Divide by two for the final value",
+          "content": "Dividing by 2: $\\sqrt{3}\\left(1+\\dfrac{\\sqrt{2}}{2}\\right)$."
         }
       ]
     }
@@ -11069,10 +11069,10 @@
     "difficulty": 4,
     "question": "[DIAGRAM: PQRS is a rectangle with P and Q on the x-axis, Q and R on the line x = 15, and S on the curve y = √x] What is the maximum possible area of the rectangle?",
     "options": {
-      "A": "$5\\sqrt5$",
-      "B": "$10\\sqrt5$",
+      "A": "$5\\sqrt{5}$",
+      "B": "$10\\sqrt{5}$",
       "C": "50",
-      "D": "$25\\sqrt5$",
+      "D": "$25\\sqrt{5}$",
       "E": "100",
       "F": "125"
     },
@@ -11570,10 +11570,10 @@
       "B": "65",
       "C": "80",
       "D": "120",
-      "E": "$\\dfrac{40\\sqrt3+25}{3}$",
-      "F": "$\\dfrac{64\\sqrt3+40}{3}$",
-      "G": "$25+40\\sqrt3$",
-      "H": "$64+40\\sqrt3$"
+      "E": "$\\dfrac{40\\sqrt{3}+25}{3}$",
+      "F": "$\\dfrac{64\\sqrt{3}+40}{3}$",
+      "G": "$25+40\\sqrt{3}$",
+      "H": "$64+40\\sqrt{3}$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -11587,11 +11587,11 @@
         },
         {
           "title": "Using angle P and PQ the height and",
-          "content": "Using angle P = 30^\\circ and PQ = 40, the height and horizontal offset are found via trigonometry; combined with $\\tan(\\angle RSQ)=5/8$ to find the remaining horizontal segment, PS"
+          "content": "Using angle $P = 30^\\circ$ and $PQ = 40$, the height and horizontal offset are found via trigonometry; combined with $\\tan(\\angle RSQ)=5/8$ to find the remaining horizontal segment, $PS$."
         },
         {
           "title": "Simplify to the result",
-          "content": "= 25 + 40\\sqrt{3} m."
+          "content": "$PS = 25 + 40\\sqrt{3}$ m."
         }
       ]
     }
@@ -11967,8 +11967,8 @@
     "solution": {
       "steps": [
         {
-          "title": "X x sqrt x x x",
-          "content": "(2x^2-3)/(x*sqrt(x)) = 2x^(1/2) - 3x^(-3/2)."
+          "title": "Rewrite the integrand as powers of x",
+          "content": "$\\dfrac{2x^2-3}{x\\sqrt{x}}=2x^{1/2}-3x^{-3/2}$."
         },
         {
           "title": "Integral x x",
@@ -12197,12 +12197,12 @@
     "difficulty": 4,
     "question": "Which one of the following expressions is equal to $\\dfrac{(2+\\sqrt{20})^2}{(1+\\sqrt5)^3}$?",
     "options": {
-      "A": "$\\sqrt5-1$",
-      "B": "$\\dfrac{\\sqrt5-1}{2}$",
-      "C": "$\\dfrac{6(5\\sqrt5-1)}{31}$",
-      "D": "$\\dfrac{3(5\\sqrt5-1)}{31}$",
-      "E": "$\\dfrac{-22+10\\sqrt2+11\\sqrt5-4\\sqrt{10}}{2}$",
-      "F": "$\\dfrac{-22+10\\sqrt2+11\\sqrt5-4\\sqrt{10}}{4}$"
+      "A": "$\\sqrt{5}-1$",
+      "B": "$\\dfrac{\\sqrt{5}-1}{2}$",
+      "C": "$\\dfrac{6(5\\sqrt{5}-1)}{31}$",
+      "D": "$\\dfrac{3(5\\sqrt{5}-1)}{31}$",
+      "E": "$\\dfrac{-22+10\\sqrt{2}+11\\sqrt{5}-4\\sqrt{10}}{2}$",
+      "F": "$\\dfrac{-22+10\\sqrt{2}+11\\sqrt{5}-4\\sqrt{10}}{4}$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -12363,12 +12363,12 @@
     "difficulty": 4,
     "question": "What is the complete set of real values of $x$ for which $x^2(x^2+4) < 21$?",
     "options": {
-      "A": "$-\\sqrt3<x<\\sqrt3$",
-      "B": "$-\\sqrt7<x<\\sqrt7$",
-      "C": "$x<-\\sqrt3$ or $x>\\sqrt3$",
-      "D": "$x<-\\sqrt7$ or $x>\\sqrt7$",
-      "E": "$-\\sqrt7<x<-\\sqrt3$ or $\\sqrt3<x<\\sqrt7$",
-      "F": "$x<-\\sqrt7$ or $-\\sqrt3<x<\\sqrt3$ or $x>\\sqrt7$"
+      "A": "$-\\sqrt{3}<x<\\sqrt{3}$",
+      "B": "$-\\sqrt{7}<x<\\sqrt{7}$",
+      "C": "$x<-\\sqrt{3}$ or $x>\\sqrt{3}$",
+      "D": "$x<-\\sqrt{7}$ or $x>\\sqrt{7}$",
+      "E": "$-\\sqrt{7}<x<-\\sqrt{3}$ or $\\sqrt{3}<x<\\sqrt{7}$",
+      "F": "$x<-\\sqrt{7}$ or $-\\sqrt{3}<x<\\sqrt{3}$ or $x>\\sqrt{7}$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -12440,9 +12440,9 @@
     "difficulty": 3,
     "question": "A sector of a circle has perimeter 24. For what value of the radius does the sector have the maximum possible area?",
     "options": {
-      "A": "$3\\sqrt2$",
-      "B": "$2\\sqrt6$",
-      "C": "$3\\sqrt6$",
+      "A": "$3\\sqrt{2}$",
+      "B": "$2\\sqrt{6}$",
+      "C": "$3\\sqrt{6}$",
       "D": "6",
       "E": "12",
       "F": "18",
@@ -12596,11 +12596,11 @@
     "difficulty": 3,
     "question": "A straight line passes through the points $(0, 2a)$ and $(a, 0)$, where $a$ is a positive constant. What is the perpendicular distance of the point $P(a, 2a)$ from this line?",
     "options": {
-      "A": "$\\dfrac{a\\sqrt5}{2}$",
-      "B": "$a\\sqrt5\\cdot2$",
-      "C": "$\\dfrac{2\\sqrt5}{5}a$",
-      "D": "$\\dfrac{4\\sqrt5}{5}a$",
-      "E": "$\\dfrac{3\\sqrt5}{10}a$"
+      "A": "$\\dfrac{a\\sqrt{5}}{2}$",
+      "B": "$a\\sqrt{5}\\cdot2$",
+      "C": "$\\dfrac{2\\sqrt{5}}{5}a$",
+      "D": "$\\dfrac{4\\sqrt{5}}{5}a$",
+      "E": "$\\dfrac{3\\sqrt{5}}{10}a$"
     },
     "answer": "C",
     "origin": "past-paper",
@@ -12676,8 +12676,8 @@
     "options": {
       "A": "8",
       "B": "16",
-      "C": "$2^{\\frac{4+\\sqrt2}{2}}$",
-      "D": "$2^{\\frac{6+\\sqrt2}{2}}$",
+      "C": "$2^{\\frac{4+\\sqrt{2}}{2}}$",
+      "D": "$2^{\\frac{6+\\sqrt{2}}{2}}$",
       "E": "$1+\\dfrac12\\log_2 3$",
       "F": "$4+2\\log_2 3$"
     },
@@ -13928,8 +13928,8 @@
           "content": "This gives 8x^2+15x-2=0, discriminant=225+64=289=17^2, x=(-15+-17)/16, so x=1/8 or x=-2."
         },
         {
-          "title": "Checking domain both log arguments must be positive",
-          "content": "Checking domain (both log arguments must be positive): x=-2 gives x^2+2x=0, undefined; x=1/8 gives both arguments positive."
+          "title": "Check the domain of the logs",
+          "content": "Checking domain (both log arguments must be positive): $x=-2$ gives $x^2+2x=0$, undefined; $x=\\dfrac{1}{8}$ gives both arguments positive."
         },
         {
           "title": "Simplify to the result",
@@ -13950,12 +13950,12 @@
     "question": "Two identical, uniform, thin planks, each of mass 40 kg, are propped up against one another in equilibrium on a rough surface, forming an A-frame shape. Each plank is at an angle of 30° to the vertical. [DIAGRAM: two planks leaning against each other at their tops, each at 30° to vertical, with point P marked at the base of one plank on the ground]. What is the magnitude of the friction force at point P? (gravitational field strength = 10 N/kg)",
     "options": {
       "A": "100 N",
-      "B": "$\\frac{200}{\\sqrt3}\\text{ N}$",
+      "B": "$\\frac{200}{\\sqrt{3}}\\text{ N}$",
       "C": "200 N",
-      "D": "$200\\sqrt3\\text{ N}$",
-      "E": "$\\frac{400}{\\sqrt3}\\text{ N}$",
+      "D": "$200\\sqrt{3}\\text{ N}$",
+      "E": "$\\frac{400}{\\sqrt{3}}\\text{ N}$",
       "F": "400 N",
-      "G": "$400\\sqrt3\\text{ N}$"
+      "G": "$400\\sqrt{3}\\text{ N}$"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -13993,8 +13993,8 @@
       "B": "$\\frac{2}{3}$",
       "C": "$\\frac{8}{3}$",
       "D": "4",
-      "E": "$\\frac{28-12\\sqrt5}{3}$",
-      "F": "$28-12\\sqrt5$"
+      "E": "$\\frac{28-12\\sqrt{5}}{3}$",
+      "F": "$28-12\\sqrt{5}$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -14285,9 +14285,9 @@
     "difficulty": 5,
     "question": "A sound wave can travel from a source at P to a detector at R directly or by reflecting at Q. The angle between PR and PQ is 30° and the distance from P to R is d. [DIAGRAM: source P, detector R, reflecting surface with reflection point Q; angle QPR = 30°, distance PR = d]. There is a phase difference of $\\pi$ radians between the incident and reflected wave at Q. Waves that reach R via Q are in phase with waves that reach R directly from P. Which expression gives the greatest wavelength of sound waves for which this is true?",
     "options": {
-      "A": "$2d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
-      "B": "$d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
-      "C": "$d(2-\\sqrt3)$",
+      "A": "$2d\\left(\\dfrac{2}{\\sqrt{3}}-1\\right)$",
+      "B": "$d\\left(\\dfrac{2}{\\sqrt{3}}-1\\right)$",
+      "C": "$d(2-\\sqrt{3})$",
       "D": "$\\dfrac{4d}{3}$",
       "E": "$\\dfrac{2d}{3}$"
     },
@@ -14325,7 +14325,7 @@
     "options": {
       "A": "$\\frac{7}{2}$",
       "B": "3",
-      "C": "$\\frac{5\\sqrt2}{2}$",
+      "C": "$\\frac{5\\sqrt{2}}{2}$",
       "D": "7",
       "E": "10",
       "F": "$\\frac{13\\sqrt{10}}{10}$",
@@ -14606,10 +14606,10 @@
     "question": "The point A is 4km due East of the point B. The bearing of the point C from A is 330° and the bearing of C from B is 060°. Find the distance BC.",
     "options": {
       "A": "2 km",
-      "B": "$2\\sqrt3$ km",
+      "B": "$2\\sqrt{3}$ km",
       "C": "4 km",
-      "D": "$2\\sqrt5$ km",
-      "E": "$4\\sqrt2$ km"
+      "D": "$2\\sqrt{5}$ km",
+      "E": "$4\\sqrt{2}$ km"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -15007,10 +15007,10 @@
     "question": "A rhombus has diagonals of length 5 cm and 3 cm. An enlargement of the rhombus has sides of length $\\sqrt{68}$ cm. What is the scale factor of the enlargement?",
     "options": {
       "A": "2",
-      "B": "$\\sqrt2$",
-      "C": "$2\\sqrt2$",
+      "B": "$\\sqrt{2}$",
+      "C": "$2\\sqrt{2}$",
       "D": "4",
-      "E": "$4\\sqrt2$"
+      "E": "$4\\sqrt{2}$"
     },
     "answer": "C",
     "origin": "past-paper",
@@ -17062,10 +17062,10 @@
     "difficulty": 4,
     "question": "When x=2 is substituted into $x^3+px^2+qx+p$ the result is 0. When x=1 is substituted into the same expression, the result is $-3.5$. Find all possible value(s) of p.",
     "options": {
-      "A": "$p=\\frac{-1\\pm\\sqrt6}{3}$",
+      "A": "$p=\\frac{-1\\pm\\sqrt{6}}{3}$",
       "B": "$p=1$ or $p=-3$",
       "C": "$p=1$",
-      "D": "$p=1\\pm\\sqrt7$",
+      "D": "$p=1\\pm\\sqrt{7}$",
       "E": "there are no values for p"
     },
     "answer": "C",
@@ -17210,10 +17210,10 @@
     "difficulty": 4,
     "question": "The first term of a convergent geometric series is 8. The fifth term is 2. The sixth term is real and positive. What is the sum to infinity of this series? ($S_\\infty=\\frac{a}{1-r}$)",
     "options": {
-      "A": "$8(1+\\sqrt2)$",
-      "B": "$8(1-\\sqrt2)$",
-      "C": "$8(2+\\sqrt2)$",
-      "D": "$8(2-\\sqrt2)$",
+      "A": "$8(1+\\sqrt{2})$",
+      "B": "$8(1-\\sqrt{2})$",
+      "C": "$8(2+\\sqrt{2})$",
+      "D": "$8(2-\\sqrt{2})$",
       "E": "16",
       "F": "$\\frac{8-4^5}{1-4^5}$",
       "G": "$\\frac{8+4^5}{1+4^5}$"
@@ -17287,12 +17287,12 @@
     "difficulty": 4,
     "question": "Tangents are drawn from a point P to a circle of radius 10cm; the centre is C and PC=20cm. [DIAGRAM: circle with two tangent lines from external point P, radius 10cm, PC=20cm, shaded region between tangents and arc] Which one of the following is an expression for the shaded area in square centimetres?",
     "options": {
-      "A": "$\\frac{100}{3}(3\\sqrt3-\\pi)$",
-      "B": "$\\frac{100}{3}(3\\sqrt5-\\pi)$",
-      "C": "$\\frac{50}{3}(6\\sqrt3-\\pi)$",
-      "D": "$\\frac{50}{3}(6\\sqrt5-\\pi)$",
-      "E": "$\\frac{50}{3}(3\\sqrt2-\\pi)$",
-      "F": "$\\frac{50}{3}(2\\sqrt3-\\pi)$"
+      "A": "$\\frac{100}{3}(3\\sqrt{3}-\\pi)$",
+      "B": "$\\frac{100}{3}(3\\sqrt{5}-\\pi)$",
+      "C": "$\\frac{50}{3}(6\\sqrt{3}-\\pi)$",
+      "D": "$\\frac{50}{3}(6\\sqrt{5}-\\pi)$",
+      "E": "$\\frac{50}{3}(3\\sqrt{2}-\\pi)$",
+      "F": "$\\frac{50}{3}(2\\sqrt{3}-\\pi)$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -17334,10 +17334,10 @@
     "difficulty": 4,
     "question": "Given that $7\\cos\\theta-3\\tan\\theta\\sin\\theta=1$, which one of the following is true?",
     "options": {
-      "A": "cos(theta)=-3/5 or -1/2",
-      "B": "cos(theta)=-3/5 or 1/2",
-      "C": "cos(theta)=3/5 or 1/2",
-      "D": "cos(theta)=3/5 or -1/2"
+      "A": "$cos(\\theta)=-3/5 or -1/2$",
+      "B": "$cos(\\theta)=-3/5 or 1/2$",
+      "C": "$cos(\\theta)=3/5 or 1/2$",
+      "D": "$cos(\\theta)=3/5 or -1/2$"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -17568,8 +17568,8 @@
       "D": "-a<=x<=0, x>=a",
       "E": "x<=-a/3, x>=a/3",
       "F": "-a/3<=x<=a/3",
-      "G": "x<=-a/sqrt(3), x>=a/sqrt(3)",
-      "H": "-a/sqrt(3)<=x<=a/sqrt(3)"
+      "G": "$x<=-a/sqrt(3), x>=a/sqrt(3)$",
+      "H": "$-a/sqrt(3)<=x<=a/sqrt(3)$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -17582,8 +17582,8 @@
           "content": "f(x) is increasing where f'(x) >= 0."
         },
         {
-          "title": "For a cubic of this form the derivative",
-          "content": "For a cubic of this form the derivative is a quadratic in x with roots at +-a/sqrt(3), positive outside this interval, giving x <= -a/sqrt(3) or x >= a/sqrt(3)."
+          "title": "Find where the derivative is non-negative",
+          "content": "For a cubic of this form the derivative is a quadratic in $x$ with roots at $\\pm\\dfrac{a}{\\sqrt{3}}$, positive outside this interval, giving $x\\le -\\dfrac{a}{\\sqrt{3}}$ or $x\\ge \\dfrac{a}{\\sqrt{3}}$."
         }
       ]
     }
@@ -17837,7 +17837,7 @@
         },
         {
           "title": "Isolate the squared term take the square root",
-          "content": "Isolate the squared term, take the square root of both sides (keeping the +- sign), then solve for x; this rearrangement gives x=2+-2sqrt((y+5)/3)."
+          "content": "Isolate the squared term, take the square root of both sides (keeping the $\\pm$ sign), then solve for $x$; this rearrangement gives $x=2\\pm 2\\sqrt{\\dfrac{y+5}{3}}$."
         }
       ]
     }
@@ -17996,12 +17996,12 @@
     "difficulty": 4,
     "question": "Parallelogram OPQR (clockwise) is in the first quadrant with O at the origin, R=(1.5a,0), Q=(2a,a+1). The area of OPQR is 9. What are the coordinates of P?",
     "options": {
-      "A": "$(1.5,1+\\sqrt3)$",
+      "A": "$(1.5,1+\\sqrt{3})$",
       "B": "(1, 3)",
       "C": "(1.5, 4)",
       "D": "(2, 3)",
       "E": "(3, 4)",
-      "F": "$(2,\\sqrt3+1)$"
+      "F": "$(2,\\sqrt{3}+1)$"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -18285,14 +18285,14 @@
     "topic": "m1-geometry",
     "subtopic": "circle and square areas",
     "difficulty": 4,
-    "question": "A square has side x cm. A circle centred at the midpoint O of one side passes through two corners of the square, with that side part of a diameter. What is the area of the shaded part of the semicircle?",
+    "question": "[DIAGRAM: A square of side length x cm. A circle is drawn with centre O at the mid-point of one side of the square; this side forms part of a diameter of the circle. The circle passes through the two far corners of the square.]\nWhat is the area of the shaded part of the semicircle?",
     "options": {
-      "A": "(pi-1)x^2",
-      "B": "((pi-2)/2)x^2",
-      "C": "((3pi-2)/2)x^2",
-      "D": "((3pi-4)/4)x^2",
-      "E": "((5pi-4)/4)x^2",
-      "F": "((5pi-8)/8)x^2"
+      "A": "$(\\pi-1)x^2$",
+      "B": "$\\left(\\dfrac{\\pi-2}{2}\\right)x^2$",
+      "C": "$\\left(\\dfrac{3\\pi-2}{2}\\right)x^2$",
+      "D": "$\\left(\\dfrac{3\\pi-4}{4}\\right)x^2$",
+      "E": "$\\left(\\dfrac{5\\pi-4}{4}\\right)x^2$",
+      "F": "$\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$"
     },
     "answer": "F",
     "origin": "past-paper",
@@ -18301,12 +18301,12 @@
     "solution": {
       "steps": [
         {
-          "title": "The circle has radius r sqrt x x",
-          "content": "The circle has radius r=sqrt(x^2+(x/2)^2)=x*sqrt(5)/2, so the semicircle area = pi*r^2/2 = 5*pi*x^2/8."
+          "title": "The circle has radius so semicircle area",
+          "content": "The circle has radius $r=\\sqrt{x^2+(x/2)^2}=\\dfrac{x\\sqrt{5}}{2}$, so semicircle area $=\\dfrac{\\pi r^2}{2}=\\dfrac{5\\pi x^2}{8}$."
         },
         {
-          "title": "Subtracting the triangular square overlap region area x",
-          "content": "Subtracting the triangular/square overlap region (area x^2) leaves the shaded segment area ((5*pi-8)/8)*x^2."
+          "title": "Subtracting the triangular square overlap region area leaves",
+          "content": "Subtracting the triangular/square overlap region (area $x^2$) leaves the shaded segment area $\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$."
         }
       ]
     }
@@ -18359,14 +18359,14 @@
     "difficulty": 3,
     "question": "The shortest distance between two opposite sides of a regular hexagon is 12cm. Find its area.",
     "options": {
-      "A": "$36\\sqrt3$",
+      "A": "$36\\sqrt{3}$",
       "B": "72",
-      "C": "$54\\sqrt3$",
+      "C": "$54\\sqrt{3}$",
       "D": "108",
-      "E": "$72\\sqrt3$",
+      "E": "$72\\sqrt{3}$",
       "F": "144",
-      "G": "$144\\sqrt3$",
-      "H": "$288\\sqrt3$"
+      "G": "$144\\sqrt{3}$",
+      "H": "$288\\sqrt{3}$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -19339,7 +19339,7 @@
     "topic": "chem-electrolysis",
     "subtopic": "electrolysis of copper chloride",
     "difficulty": 2,
-    "question": "Consider this electrochemical cell containing an aqueous copper(II) chloride electrolyte. [DIAGRAM: electrochemical cell with a pure copper cathode (negative electrode) and a graphite anode (positive electrode) in 2 mol dm⁻³ CuCl₂(aq) electrolyte, connected to a 9V d.c. power source] Which row in the following table identifies the reactions occurring at the electrodes?",
+    "question": "Consider this electrochemical cell containing an aqueous copper(II) chloride electrolyte (pure copper cathode / negative electrode; graphite anode / positive electrode; 2 mol dm⁻³ CuCl₂(aq); 9 V d.c. supply). Which row in the following table identifies the reactions occurring at the electrodes?",
     "options": {
       "A": "cathode (negative electrode): Cu²⁺(aq) + 2e⁻ → Cu(s); anode (positive electrode): Cu(s) → Cu²⁺(aq) + 2e⁻",
       "B": "cathode (negative electrode): Cu(s) → Cu²⁺(aq) + 2e⁻; anode (positive electrode): Cu²⁺(aq) + 2e⁻ → Cu(s)",
@@ -27589,10 +27589,10 @@
     "question": "It is given that $7\\cos x + \\tan x \\sin x = 5$ where $0° < x < 90°$. What are the possible values of $\\tan x$?",
     "options": {
       "A": "$\\frac{1}{2}$ or $\\frac{1}{3}$",
-      "B": "$\\frac{1}{3}$ or $\\frac{1}{2\\sqrt2}$",
-      "C": "$\\frac{2}{3}$ or $\\frac{3}{2\\sqrt2}$",
-      "D": "$\\sqrt3$ or $2\\sqrt2$",
-      "E": "$\\sqrt3$ or 2"
+      "B": "$\\frac{1}{3}$ or $\\frac{1}{2\\sqrt{2}}$",
+      "C": "$\\frac{2}{3}$ or $\\frac{3}{2\\sqrt{2}}$",
+      "D": "$\\sqrt{3}$ or $2\\sqrt{2}$",
+      "E": "$\\sqrt{3}$ or 2"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -27673,11 +27673,11 @@
     "difficulty": 5,
     "question": "An equilateral triangle of side 8 cm is drawn so that its vertices lie on the circumference of a circle. [DIAGRAM: equilateral triangle inscribed in circle with three circular segments shaded outside the triangle]. What is the total of the three areas shaded in the diagram, in cm$^2$?",
     "options": {
-      "A": "$8(2\\pi-\\sqrt3)$",
-      "B": "$24(\\pi-\\sqrt3)$",
-      "C": "$48(4\\pi-\\sqrt3)$",
-      "D": "$\\frac{16}{3}(4\\pi-6\\sqrt3-3\\sqrt3)$",
-      "E": "$\\frac{16}{3}(4\\pi-3\\sqrt3)$"
+      "A": "$8(2\\pi-\\sqrt{3})$",
+      "B": "$24(\\pi-\\sqrt{3})$",
+      "C": "$48(4\\pi-\\sqrt{3})$",
+      "D": "$\\frac{16}{3}(4\\pi-6\\sqrt{3}-3\\sqrt{3})$",
+      "E": "$\\frac{16}{3}(4\\pi-3\\sqrt{3})$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -27737,8 +27737,8 @@
           "content": "The rod is perpendicular to the door at 0.80-0.10=0.70 m from the hinge, so its full length is the lever arm for the rod's force."
         },
         {
-          "title": "Balancing moments F x x x cos deg",
-          "content": "Balancing moments: F x 0.70 = 140 x 0.40 x cos30 deg = 28*sqrt(3), so F = 28*sqrt(3)/0.70 = 40*sqrt(3) N."
+          "title": "Balance moments about the hinge",
+          "content": "Balancing moments: $F\\times 0.70=140\\times 0.40\\times \\cos 30^\\circ=28\\sqrt{3}$, so $F=\\dfrac{28\\sqrt{3}}{0.70}=40\\sqrt{3}$ N."
         }
       ]
     }
@@ -28749,13 +28749,13 @@
     "question": "Two vertices of a square are at (1, 1) and (3, 5). What is the difference between the perimeters of the largest and smallest possible squares that can be drawn with these points as two of their vertices?",
     "options": {
       "A": "0",
-      "B": "$4\\sqrt3(2-\\sqrt2)$",
-      "C": "$4\\sqrt3(\\sqrt2-1)$",
-      "D": "$4\\sqrt5(2-\\sqrt2)$",
-      "E": "$4\\sqrt5(\\sqrt2-1)$",
-      "F": "$4\\sqrt{13}(2-\\sqrt2)$",
-      "G": "$4\\sqrt{13}(\\sqrt2-1)$",
-      "H": "$4\\sqrt3\\sqrt5(2-\\sqrt2)$"
+      "B": "$4\\sqrt{3}(2-\\sqrt{2})$",
+      "C": "$4\\sqrt{3}(\\sqrt{2}-1)$",
+      "D": "$4\\sqrt{5}(2-\\sqrt{2})$",
+      "E": "$4\\sqrt{5}(\\sqrt{2}-1)$",
+      "F": "$4\\sqrt{13}(2-\\sqrt{2})$",
+      "G": "$4\\sqrt{13}(\\sqrt{2}-1)$",
+      "H": "$4\\sqrt{3}\\sqrt{5}(2-\\sqrt{2})$"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -28794,11 +28794,11 @@
     "question": "The quadratic equation $2x^2-px-4=0$, where $p$ is a positive constant, has two solutions that differ by 6. What is the value of $p$?",
     "options": {
       "A": "2",
-      "B": "$4\\sqrt7$",
+      "B": "$4\\sqrt{7}$",
       "C": "12",
-      "D": "$11\\sqrt4$",
-      "E": "$34\\sqrt4$",
-      "F": "$30\\sqrt6$"
+      "D": "$11\\sqrt{4}$",
+      "E": "$34\\sqrt{4}$",
+      "F": "$30\\sqrt{6}$"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -31871,7 +31871,7 @@
     "difficulty": 4,
     "question": "Given that $y=\\dfrac{\\sin(-160°)}{\\cos 60°}$, what is the value of $y^3$?",
     "options": {
-      "A": "-sqrt(3)/9",
+      "A": "$-sqrt(3)/9$",
       "B": "-5sqrt(2)+10",
       "C": "3sqrt(3)-8",
       "D": "6sqrt(3)-10",
@@ -31980,14 +31980,14 @@
     "difficulty": 4,
     "question": "[DIAGRAM: Two right-angled triangles with the same hypotenuse length. One triangle has a 45° angle with adjacent side x cm; the other has a 60° angle with opposite side y cm.] Which of the following is a correct expression for y in terms of x?",
     "options": {
-      "A": "$y=\\sqrt2\\,x$",
-      "B": "$y=\\dfrac{\\sqrt2\\,x}{2}$",
-      "C": "$y=\\dfrac{\\sqrt2\\,x}{3}$",
-      "D": "$y=\\dfrac{\\sqrt2\\,x}{6}$",
-      "E": "$y=\\sqrt6\\,x$",
-      "F": "$y=\\dfrac{\\sqrt6\\,x}{2}$",
-      "G": "$y=\\dfrac{\\sqrt6}{3}x$",
-      "H": "$y=\\dfrac{\\sqrt6\\,x}{6}$"
+      "A": "$y=\\sqrt{2}\\,x$",
+      "B": "$y=\\dfrac{\\sqrt{2}\\,x}{2}$",
+      "C": "$y=\\dfrac{\\sqrt{2}\\,x}{3}$",
+      "D": "$y=\\dfrac{\\sqrt{2}\\,x}{6}$",
+      "E": "$y=\\sqrt{6}\\,x$",
+      "F": "$y=\\dfrac{\\sqrt{6}\\,x}{2}$",
+      "G": "$y=\\dfrac{\\sqrt{6}}{3}x$",
+      "H": "$y=\\dfrac{\\sqrt{6}\\,x}{6}$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -32028,9 +32028,9 @@
       "A": "$\\dfrac{5}{2}$",
       "B": "5",
       "C": "$\\dfrac{25}{2}$",
-      "D": "$5\\sqrt2$",
-      "E": "$\\dfrac{10\\sqrt2}{2}$",
-      "F": "$10\\sqrt2$"
+      "D": "$5\\sqrt{2}$",
+      "E": "$\\dfrac{10\\sqrt{2}}{2}$",
+      "F": "$10\\sqrt{2}$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -35076,10 +35076,10 @@
       "B": "65",
       "C": "80",
       "D": "120",
-      "E": "$\\dfrac{40\\sqrt3+25}{3}$",
-      "F": "$\\dfrac{64\\sqrt3+40}{3}$",
-      "G": "$25+40\\sqrt3$",
-      "H": "$64+40\\sqrt3$"
+      "E": "$\\dfrac{40\\sqrt{3}+25}{3}$",
+      "F": "$\\dfrac{64\\sqrt{3}+40}{3}$",
+      "G": "$25+40\\sqrt{3}$",
+      "H": "$64+40\\sqrt{3}$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -35267,9 +35267,9 @@
     "difficulty": 4,
     "question": "PQR is a triangle. S and T are points on the sides PQ and PR. ST is parallel to QR. PS = 3 cm, ST = $x$ cm, QS = $(x+2)$ cm, QR = $(2x+1)$ cm [DIAGRAM: triangle PQR with ST parallel to QR, S on PQ, T on PR]. What is the length, in cm, of QR?",
     "options": {
-      "A": "$2+\\sqrt5$",
+      "A": "$2+\\sqrt{5}$",
       "B": "$2+\\sqrt{13}$",
-      "C": "$5+2\\sqrt7$",
+      "C": "$5+2\\sqrt{7}$",
       "D": "$5+2\\sqrt{11}$",
       "E": "7",
       "F": "9"

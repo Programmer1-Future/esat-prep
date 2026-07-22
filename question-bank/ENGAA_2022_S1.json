@@ -421,10 +421,10 @@
       "B": "65",
       "C": "80",
       "D": "120",
-      "E": "$\\dfrac{40\\sqrt3+25}{3}$",
-      "F": "$\\dfrac{64\\sqrt3+40}{3}$",
-      "G": "$25+40\\sqrt3$",
-      "H": "$64+40\\sqrt3$"
+      "E": "$\\dfrac{40\\sqrt{3}+25}{3}$",
+      "F": "$\\dfrac{64\\sqrt{3}+40}{3}$",
+      "G": "$25+40\\sqrt{3}$",
+      "H": "$64+40\\sqrt{3}$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -437,11 +437,11 @@
         },
         {
           "title": "Using angle P and PQ the height and",
-          "content": "Using angle P = 30^\\circ and PQ = 40, the height and horizontal offset are found via trigonometry; combined with $\\tan(\\angle RSQ)=5/8$ to find the remaining horizontal segment, PS"
+          "content": "Using angle $P = 30^\\circ$ and $PQ = 40$, the height and horizontal offset are found via trigonometry; combined with $\\tan(\\angle RSQ)=5/8$ to find the remaining horizontal segment, $PS$."
         },
         {
           "title": "Simplify to the result",
-          "content": "= 25 + 40\\sqrt{3} m."
+          "content": "$PS = 25 + 40\\sqrt{3}$ m."
         }
       ]
     }
@@ -807,8 +807,8 @@
     "solution": {
       "steps": [
         {
-          "title": "X x sqrt x x x",
-          "content": "(2x^2-3)/(x*sqrt(x)) = 2x^(1/2) - 3x^(-3/2)."
+          "title": "Rewrite the integrand as powers of x",
+          "content": "$\\dfrac{2x^2-3}{x\\sqrt{x}}=2x^{1/2}-3x^{-3/2}$."
         },
         {
           "title": "Integral x x",
@@ -1032,12 +1032,12 @@
     "difficulty": 4,
     "question": "Which one of the following expressions is equal to $\\dfrac{(2+\\sqrt{20})^2}{(1+\\sqrt5)^3}$?",
     "options": {
-      "A": "$\\sqrt5-1$",
-      "B": "$\\dfrac{\\sqrt5-1}{2}$",
-      "C": "$\\dfrac{6(5\\sqrt5-1)}{31}$",
-      "D": "$\\dfrac{3(5\\sqrt5-1)}{31}$",
-      "E": "$\\dfrac{-22+10\\sqrt2+11\\sqrt5-4\\sqrt{10}}{2}$",
-      "F": "$\\dfrac{-22+10\\sqrt2+11\\sqrt5-4\\sqrt{10}}{4}$"
+      "A": "$\\sqrt{5}-1$",
+      "B": "$\\dfrac{\\sqrt{5}-1}{2}$",
+      "C": "$\\dfrac{6(5\\sqrt{5}-1)}{31}$",
+      "D": "$\\dfrac{3(5\\sqrt{5}-1)}{31}$",
+      "E": "$\\dfrac{-22+10\\sqrt{2}+11\\sqrt{5}-4\\sqrt{10}}{2}$",
+      "F": "$\\dfrac{-22+10\\sqrt{2}+11\\sqrt{5}-4\\sqrt{10}}{4}$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -1194,12 +1194,12 @@
     "difficulty": 4,
     "question": "What is the complete set of real values of $x$ for which $x^2(x^2+4) < 21$?",
     "options": {
-      "A": "$-\\sqrt3<x<\\sqrt3$",
-      "B": "$-\\sqrt7<x<\\sqrt7$",
-      "C": "$x<-\\sqrt3$ or $x>\\sqrt3$",
-      "D": "$x<-\\sqrt7$ or $x>\\sqrt7$",
-      "E": "$-\\sqrt7<x<-\\sqrt3$ or $\\sqrt3<x<\\sqrt7$",
-      "F": "$x<-\\sqrt7$ or $-\\sqrt3<x<\\sqrt3$ or $x>\\sqrt7$"
+      "A": "$-\\sqrt{3}<x<\\sqrt{3}$",
+      "B": "$-\\sqrt{7}<x<\\sqrt{7}$",
+      "C": "$x<-\\sqrt{3}$ or $x>\\sqrt{3}$",
+      "D": "$x<-\\sqrt{7}$ or $x>\\sqrt{7}$",
+      "E": "$-\\sqrt{7}<x<-\\sqrt{3}$ or $\\sqrt{3}<x<\\sqrt{7}$",
+      "F": "$x<-\\sqrt{7}$ or $-\\sqrt{3}<x<\\sqrt{3}$ or $x>\\sqrt{7}$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -1269,9 +1269,9 @@
     "difficulty": 3,
     "question": "A sector of a circle has perimeter 24. For what value of the radius does the sector have the maximum possible area?",
     "options": {
-      "A": "$3\\sqrt2$",
-      "B": "$2\\sqrt6$",
-      "C": "$3\\sqrt6$",
+      "A": "$3\\sqrt{2}$",
+      "B": "$2\\sqrt{6}$",
+      "C": "$3\\sqrt{6}$",
       "D": "6",
       "E": "12",
       "F": "18",
@@ -1421,11 +1421,11 @@
     "difficulty": 3,
     "question": "A straight line passes through the points $(0, 2a)$ and $(a, 0)$, where $a$ is a positive constant. What is the perpendicular distance of the point $P(a, 2a)$ from this line?",
     "options": {
-      "A": "$\\dfrac{a\\sqrt5}{2}$",
-      "B": "$a\\sqrt5\\cdot2$",
-      "C": "$\\dfrac{2\\sqrt5}{5}a$",
-      "D": "$\\dfrac{4\\sqrt5}{5}a$",
-      "E": "$\\dfrac{3\\sqrt5}{10}a$"
+      "A": "$\\dfrac{a\\sqrt{5}}{2}$",
+      "B": "$a\\sqrt{5}\\cdot2$",
+      "C": "$\\dfrac{2\\sqrt{5}}{5}a$",
+      "D": "$\\dfrac{4\\sqrt{5}}{5}a$",
+      "E": "$\\dfrac{3\\sqrt{5}}{10}a$"
     },
     "answer": "C",
     "origin": "past-paper",
@@ -1499,8 +1499,8 @@
     "options": {
       "A": "8",
       "B": "16",
-      "C": "$2^{\\frac{4+\\sqrt2}{2}}$",
-      "D": "$2^{\\frac{6+\\sqrt2}{2}}$",
+      "C": "$2^{\\frac{4+\\sqrt{2}}{2}}$",
+      "D": "$2^{\\frac{6+\\sqrt{2}}{2}}$",
       "E": "$1+\\dfrac12\\log_2 3$",
       "F": "$4+2\\log_2 3$"
     },

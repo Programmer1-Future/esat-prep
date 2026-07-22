@@ -1151,8 +1151,8 @@
           "content": "This gives 8x^2+15x-2=0, discriminant=225+64=289=17^2, x=(-15+-17)/16, so x=1/8 or x=-2."
         },
         {
-          "title": "Checking domain both log arguments must be positive",
-          "content": "Checking domain (both log arguments must be positive): x=-2 gives x^2+2x=0, undefined; x=1/8 gives both arguments positive."
+          "title": "Check the domain of the logs",
+          "content": "Checking domain (both log arguments must be positive): $x=-2$ gives $x^2+2x=0$, undefined; $x=\\dfrac{1}{8}$ gives both arguments positive."
         },
         {
           "title": "Simplify to the result",
@@ -1173,12 +1173,12 @@
     "question": "Two identical, uniform, thin planks, each of mass 40 kg, are propped up against one another in equilibrium on a rough surface, forming an A-frame shape. Each plank is at an angle of 30° to the vertical. [DIAGRAM: two planks leaning against each other at their tops, each at 30° to vertical, with point P marked at the base of one plank on the ground]. What is the magnitude of the friction force at point P? (gravitational field strength = 10 N/kg)",
     "options": {
       "A": "100 N",
-      "B": "$\\frac{200}{\\sqrt3}\\text{ N}$",
+      "B": "$\\frac{200}{\\sqrt{3}}\\text{ N}$",
       "C": "200 N",
-      "D": "$200\\sqrt3\\text{ N}$",
-      "E": "$\\frac{400}{\\sqrt3}\\text{ N}$",
+      "D": "$200\\sqrt{3}\\text{ N}$",
+      "E": "$\\frac{400}{\\sqrt{3}}\\text{ N}$",
       "F": "400 N",
-      "G": "$400\\sqrt3\\text{ N}$"
+      "G": "$400\\sqrt{3}\\text{ N}$"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -1215,8 +1215,8 @@
       "B": "$\\frac{2}{3}$",
       "C": "$\\frac{8}{3}$",
       "D": "4",
-      "E": "$\\frac{28-12\\sqrt5}{3}$",
-      "F": "$28-12\\sqrt5$"
+      "E": "$\\frac{28-12\\sqrt{5}}{3}$",
+      "F": "$28-12\\sqrt{5}$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -1500,9 +1500,9 @@
     "difficulty": 5,
     "question": "A sound wave can travel from a source at P to a detector at R directly or by reflecting at Q. The angle between PR and PQ is 30° and the distance from P to R is d. [DIAGRAM: source P, detector R, reflecting surface with reflection point Q; angle QPR = 30°, distance PR = d]. There is a phase difference of $\\pi$ radians between the incident and reflected wave at Q. Waves that reach R via Q are in phase with waves that reach R directly from P. Which expression gives the greatest wavelength of sound waves for which this is true?",
     "options": {
-      "A": "$2d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
-      "B": "$d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
-      "C": "$d(2-\\sqrt3)$",
+      "A": "$2d\\left(\\dfrac{2}{\\sqrt{3}}-1\\right)$",
+      "B": "$d\\left(\\dfrac{2}{\\sqrt{3}}-1\\right)$",
+      "C": "$d(2-\\sqrt{3})$",
       "D": "$\\dfrac{4d}{3}$",
       "E": "$\\dfrac{2d}{3}$"
     },
@@ -1539,7 +1539,7 @@
     "options": {
       "A": "$\\frac{7}{2}$",
       "B": "3",
-      "C": "$\\frac{5\\sqrt2}{2}$",
+      "C": "$\\frac{5\\sqrt{2}}{2}$",
       "D": "7",
       "E": "10",
       "F": "$\\frac{13\\sqrt{10}}{10}$",

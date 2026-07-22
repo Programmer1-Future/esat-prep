@@ -132,7 +132,7 @@
         },
         {
           "title": "Isolate the squared term take the square root",
-          "content": "Isolate the squared term, take the square root of both sides (keeping the +- sign), then solve for x; this rearrangement gives x=2+-2sqrt((y+5)/3)."
+          "content": "Isolate the squared term, take the square root of both sides (keeping the $\\pm$ sign), then solve for $x$; this rearrangement gives $x=2\\pm 2\\sqrt{\\dfrac{y+5}{3}}$."
         }
       ]
     }
@@ -287,12 +287,12 @@
     "difficulty": 4,
     "question": "Parallelogram OPQR (clockwise) is in the first quadrant with O at the origin, R=(1.5a,0), Q=(2a,a+1). The area of OPQR is 9. What are the coordinates of P?",
     "options": {
-      "A": "$(1.5,1+\\sqrt3)$",
+      "A": "$(1.5,1+\\sqrt{3})$",
       "B": "(1, 3)",
       "C": "(1.5, 4)",
       "D": "(2, 3)",
       "E": "(3, 4)",
-      "F": "$(2,\\sqrt3+1)$"
+      "F": "$(2,\\sqrt{3}+1)$"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -568,14 +568,14 @@
     "topic": "m1-geometry",
     "subtopic": "circle and square areas",
     "difficulty": 4,
-    "question": "A square has side x cm. A circle centred at the midpoint O of one side passes through two corners of the square, with that side part of a diameter. What is the area of the shaded part of the semicircle?",
+    "question": "[DIAGRAM: A square of side length x cm. A circle is drawn with centre O at the mid-point of one side of the square; this side forms part of a diameter of the circle. The circle passes through the two far corners of the square.]\nWhat is the area of the shaded part of the semicircle?",
     "options": {
-      "A": "(pi-1)x^2",
-      "B": "((pi-2)/2)x^2",
-      "C": "((3pi-2)/2)x^2",
-      "D": "((3pi-4)/4)x^2",
-      "E": "((5pi-4)/4)x^2",
-      "F": "((5pi-8)/8)x^2"
+      "A": "$(\\pi-1)x^2$",
+      "B": "$\\left(\\dfrac{\\pi-2}{2}\\right)x^2$",
+      "C": "$\\left(\\dfrac{3\\pi-2}{2}\\right)x^2$",
+      "D": "$\\left(\\dfrac{3\\pi-4}{4}\\right)x^2$",
+      "E": "$\\left(\\dfrac{5\\pi-4}{4}\\right)x^2$",
+      "F": "$\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$"
     },
     "answer": "F",
     "origin": "past-paper",
@@ -583,12 +583,12 @@
     "solution": {
       "steps": [
         {
-          "title": "The circle has radius r sqrt x x",
-          "content": "The circle has radius r=sqrt(x^2+(x/2)^2)=x*sqrt(5)/2, so the semicircle area = pi*r^2/2 = 5*pi*x^2/8."
+          "title": "The circle has radius so semicircle area",
+          "content": "The circle has radius $r=\\sqrt{x^2+(x/2)^2}=\\dfrac{x\\sqrt{5}}{2}$, so semicircle area $=\\dfrac{\\pi r^2}{2}=\\dfrac{5\\pi x^2}{8}$."
         },
         {
-          "title": "Subtracting the triangular square overlap region area x",
-          "content": "Subtracting the triangular/square overlap region (area x^2) leaves the shaded segment area ((5*pi-8)/8)*x^2."
+          "title": "Subtracting the triangular square overlap region area leaves",
+          "content": "Subtracting the triangular/square overlap region (area $x^2$) leaves the shaded segment area $\\left(\\dfrac{5\\pi-8}{8}\\right)x^2$."
         }
       ]
     }
@@ -640,14 +640,14 @@
     "difficulty": 3,
     "question": "The shortest distance between two opposite sides of a regular hexagon is 12cm. Find its area.",
     "options": {
-      "A": "$36\\sqrt3$",
+      "A": "$36\\sqrt{3}$",
       "B": "72",
-      "C": "$54\\sqrt3$",
+      "C": "$54\\sqrt{3}$",
       "D": "108",
-      "E": "$72\\sqrt3$",
+      "E": "$72\\sqrt{3}$",
       "F": "144",
-      "G": "$144\\sqrt3$",
-      "H": "$288\\sqrt3$"
+      "G": "$144\\sqrt{3}$",
+      "H": "$288\\sqrt{3}$"
     },
     "answer": "E",
     "origin": "past-paper",
@@ -1593,7 +1593,7 @@
     "topic": "chem-electrolysis",
     "subtopic": "electrolysis of copper chloride",
     "difficulty": 2,
-    "question": "Consider this electrochemical cell containing an aqueous copper(II) chloride electrolyte. [DIAGRAM: electrochemical cell with a pure copper cathode (negative electrode) and a graphite anode (positive electrode) in 2 mol dm⁻³ CuCl₂(aq) electrolyte, connected to a 9V d.c. power source] Which row in the following table identifies the reactions occurring at the electrodes?",
+    "question": "Consider this electrochemical cell containing an aqueous copper(II) chloride electrolyte (pure copper cathode / negative electrode; graphite anode / positive electrode; 2 mol dm⁻³ CuCl₂(aq); 9 V d.c. supply). Which row in the following table identifies the reactions occurring at the electrodes?",
     "options": {
       "A": "cathode (negative electrode): Cu²⁺(aq) + 2e⁻ → Cu(s); anode (positive electrode): Cu(s) → Cu²⁺(aq) + 2e⁻",
       "B": "cathode (negative electrode): Cu(s) → Cu²⁺(aq) + 2e⁻; anode (positive electrode): Cu²⁺(aq) + 2e⁻ → Cu(s)",

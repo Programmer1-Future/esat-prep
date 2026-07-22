@@ -468,7 +468,7 @@
     "difficulty": 3,
     "question": "Given that $y=\\dfrac{\\sin60°-1}{\\cos60°}$, what is the value of $y^3$?",
     "options": {
-      "A": "-sqrt(3)/9",
+      "A": "$-sqrt(3)/9$",
       "B": "-5sqrt(2)+10",
       "C": "3sqrt(3)-8",
       "D": "6sqrt(3)-10",
@@ -621,9 +621,9 @@
       "A": "$\\frac{5}{2}$",
       "B": "5",
       "C": "$\\frac{25}{2}$",
-      "D": "$5\\sqrt2$",
-      "E": "$\\frac{10\\sqrt2}{2}$",
-      "F": "$10\\sqrt2$"
+      "D": "$5\\sqrt{2}$",
+      "E": "$\\frac{10\\sqrt{2}}{2}$",
+      "F": "$10\\sqrt{2}$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -780,12 +780,12 @@
     "solution": {
       "steps": [
         {
-          "title": "Let u sqrt x sqrt x du dx",
-          "content": "Let u=2sqrt(x)-1/(2sqrt(x)). du/dx = x^(-1/2) + (1/4)x^(-3/2)."
+          "title": "Substitute u and differentiate",
+          "content": "Let $u=2\\sqrt{x}-\\dfrac{1}{2\\sqrt{x}}$. $\\dfrac{du}{dx}=x^{-1/2}+\\dfrac{1}{4}x^{-3/2}$."
         },
         {
-          "title": "At x u sqrt du dx sqrt sqrt",
-          "content": "At x=1/2: u=sqrt(2)/2, du/dx=sqrt(2)+ (1/4)(2sqrt(2))=(3sqrt(2))/2. dy/dx=2u(du/dx)=2*(sqrt(2)/2)*(3sqrt(2)/2)=3."
+          "title": "Evaluate dy/dx at x equals one half",
+          "content": "At $x=\\dfrac{1}{2}$: $u=\\dfrac{\\sqrt{2}}{2}$, $\\dfrac{du}{dx}=\\sqrt{2}+\\dfrac{1}{4}(2\\sqrt{2})=\\dfrac{3\\sqrt{2}}{2}$. $\\dfrac{dy}{dx}=2u\\dfrac{du}{dx}=2\\cdot\\dfrac{\\sqrt{2}}{2}\\cdot\\dfrac{3\\sqrt{2}}{2}=3$."
         }
       ]
     }
@@ -993,14 +993,14 @@
     "difficulty": 4,
     "question": "The line $x=1$ divides the circle $x^2+y^2=4$ into two segments. What is the area of the smaller segment?",
     "options": {
-      "A": "$\\frac{2\\pi}{3}-\\frac{\\sqrt3}{2}$",
-      "B": "$\\frac{2\\pi}{3}-\\sqrt3$",
+      "A": "$\\frac{2\\pi}{3}-\\frac{\\sqrt{3}}{2}$",
+      "B": "$\\frac{2\\pi}{3}-\\sqrt{3}$",
       "C": "$\\frac{\\pi}{2}-1$",
       "D": "$\\pi-2$",
       "E": "$\\pi-\\frac12$",
       "F": "$\\pi-1$",
-      "G": "$\\frac{4\\pi}{3}-\\frac{\\sqrt3}{2}$",
-      "H": "$\\frac{4\\pi}{3}-\\sqrt3$"
+      "G": "$\\frac{4\\pi}{3}-\\frac{\\sqrt{3}}{2}$",
+      "H": "$\\frac{4\\pi}{3}-\\sqrt{3}$"
     },
     "answer": "H",
     "origin": "past-paper",
@@ -1032,9 +1032,9 @@
       "A": "60 N",
       "B": "360 N",
       "C": "100 N",
-      "D": "$100\\sqrt3$ N",
+      "D": "$100\\sqrt{3}$ N",
       "E": "125 N",
-      "F": "$125\\sqrt3$ N"
+      "F": "$125\\sqrt{3}$ N"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -1319,9 +1319,9 @@
     "difficulty": 4,
     "question": "A piece of electrically conducting putty is formed into the shape of a uniform cylinder. The resistance between the ends of the cylinder is $R$. The same piece of putty is now formed into a new uniform cylinder with half the diameter of the first cylinder. What is the resistance between the ends of the new cylinder?",
     "options": {
-      "A": "$\\sqrt2 R$",
-      "B": "$2\\sqrt2 R$",
-      "C": "$4\\sqrt2 R$",
+      "A": "$\\sqrt{2} R$",
+      "B": "$2\\sqrt{2} R$",
+      "C": "$4\\sqrt{2} R$",
       "D": "$2R$",
       "E": "$4R$",
       "F": "$8R$",
@@ -1361,11 +1361,11 @@
       "A": "3sqrt(2)/2",
       "B": "3sqrt(2)",
       "C": "3sqrt(3)/2",
-      "D": "sqrt(3)",
-      "E": "1+sqrt(2)",
-      "F": "3(1+sqrt(2))",
-      "G": "(sqrt(3)/3)(1+sqrt(2)/2)",
-      "H": "sqrt(3)(1+sqrt(2)/2)"
+      "D": "$sqrt(3)$",
+      "E": "$1+sqrt(2)$",
+      "F": "$3(1+sqrt(2))$",
+      "G": "$(sqrt(3)/3)(1+sqrt(2)/2)$",
+      "H": "$sqrt(3)(1+sqrt(2)/2)$"
     },
     "answer": "H",
     "origin": "past-paper",
@@ -1373,16 +1373,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Each term sqrt a sqrt b rationalises to",
-          "content": "Each term 3/(sqrt(a)+sqrt(b)) rationalises to (sqrt(a)-sqrt(b))/2 since a-b=6 throughout."
+          "title": "Rationalise each surd term",
+          "content": "Each term $\\dfrac{3}{\\sqrt{a}+\\sqrt{b}}$ rationalises to $\\dfrac{\\sqrt{a}-\\sqrt{b}}{2}$ since $a-b=6$ throughout."
         },
         {
-          "title": "Summing the telescoping series of terms a leaves",
-          "content": "Summing the telescoping series of 7 terms (a=27,24,.,9) leaves sqrt(27)+sqrt(24)-sqrt(6)-sqrt(3) = 3sqrt(3)+2sqrt(6)-sqrt(6)-sqrt(3)=2sqrt(3)+sqrt(6)=sqrt(3)(2+sqrt(2))."
+          "title": "Sum the telescoping series",
+          "content": "Summing the telescoping series of 7 terms ($a=27,24,\\ldots,9$) leaves $\\sqrt{27}+\\sqrt{24}-\\sqrt{6}-\\sqrt{3}=3\\sqrt{3}+2\\sqrt{6}-\\sqrt{6}-\\sqrt{3}=2\\sqrt{3}+\\sqrt{6}=\\sqrt{3}(2+\\sqrt{2})$."
         },
         {
-          "title": "Dividing by sqrt sqrt",
-          "content": "Dividing by 2: sqrt(3)(1+sqrt(2)/2)."
+          "title": "Divide by two for the final value",
+          "content": "Dividing by 2: $\\sqrt{3}\\left(1+\\dfrac{\\sqrt{2}}{2}\\right)$."
         }
       ]
     }
@@ -1434,10 +1434,10 @@
     "difficulty": 4,
     "question": "[DIAGRAM: PQRS is a rectangle with P and Q on the x-axis, Q and R on the line x = 15, and S on the curve y = √x] What is the maximum possible area of the rectangle?",
     "options": {
-      "A": "$5\\sqrt5$",
-      "B": "$10\\sqrt5$",
+      "A": "$5\\sqrt{5}$",
+      "B": "$10\\sqrt{5}$",
       "C": "50",
-      "D": "$25\\sqrt5$",
+      "D": "$25\\sqrt{5}$",
       "E": "100",
       "F": "125"
     },

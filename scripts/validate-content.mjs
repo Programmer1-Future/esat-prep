@@ -3,10 +3,11 @@
 // EXPLANATION_SYSTEM_PLAN.md). Validates src/data/questions.json:
 //   - every question must have solution.steps (Phase 4)
 //   - schema + content rules for `solution` and `diagram` when present
+//   - [DIAGRAM:] / image requires public/diagrams/{id}.png
 //   - diff-safety: migrations must not change immutable stem fields
 // Usage: node scripts/validate-content.mjs
 // Opt-out (legacy): node scripts/validate-content.mjs --allow-missing-solution
-import { readFileSync } from 'node:fs'
+import { readFileSync, existsSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -14,6 +15,7 @@ import { validateQuestion } from '../src/lib/content-validator.js'
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA_FILE = path.join(REPO_ROOT, 'src', 'data', 'questions.json')
+const DIAGRAMS_DIR = path.join(REPO_ROOT, 'public', 'diagrams')
 const IMMUTABLE_FIELDS = ['id', 'answer', 'question', 'options', 'source']
 const REQUIRE_SOLUTION = !process.argv.includes('--allow-missing-solution')
 
@@ -54,6 +56,23 @@ function checkDiffSafety(currentQuestions, baselineQuestions) {
   return issues
 }
 
+function checkMissingDiagramPng(questions) {
+  const issues = []
+  for (const q of questions) {
+    const needsPng = q.image || /\[DIAGRAM:/i.test(q.question || '')
+    if (!needsPng) continue
+    const pngPath = path.join(DIAGRAMS_DIR, `${q.id}.png`)
+    if (!existsSync(pngPath)) {
+      issues.push({
+        id: q.id,
+        rule: 'missing-diagram-png',
+        message: `Question has [DIAGRAM:] or image but public/diagrams/${q.id}.png is missing`,
+      })
+    }
+  }
+  return issues
+}
+
 function main() {
   const questions = loadQuestions()
   const issues = []
@@ -61,6 +80,7 @@ function main() {
   for (const q of questions) {
     issues.push(...validateQuestion(q, { requireSolution: REQUIRE_SOLUTION }))
   }
+  issues.push(...checkMissingDiagramPng(questions))
   issues.push(...checkDiffSafety(questions, readQuestionsFromGitHead()))
 
   if (issues.length === 0) {

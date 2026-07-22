@@ -232,9 +232,9 @@
     "options": {
       "A": "6",
       "B": "3",
-      "C": "$3\\sqrt2$",
+      "C": "$3\\sqrt{2}$",
       "D": "$2\\sqrt{15}$",
-      "E": "$4\\sqrt6$",
+      "E": "$4\\sqrt{6}$",
       "F": "12",
       "G": "$2\\sqrt{12}$",
       "H": "$8\\sqrt{15}$"
@@ -1609,9 +1609,9 @@
     "difficulty": 3,
     "question": "Circle C has equation $(x+3)^2+(y-2)^2=5$.\nThe length of the tangent from the circle C to the point P is $5\\sqrt3$.\nWhat is the shortest distance from P to C?",
     "options": {
-      "A": "$3\\sqrt5$",
-      "B": "$5+3\\sqrt5$",
-      "C": "$3\\sqrt5$",
+      "A": "$3\\sqrt{5}$",
+      "B": "$5+3\\sqrt{5}$",
+      "C": "$3\\sqrt{5}$",
       "D": "5",
       "E": "10"
     },
@@ -1726,10 +1726,10 @@
       "A": "$\\frac{T}{2}$",
       "B": "$T$",
       "C": "$2T$",
-      "D": "$\\frac{T}{\\sqrt2}$",
-      "E": "$\\frac{T}{\\sqrt3}$",
-      "F": "$\\frac{2T}{\\sqrt3}$",
-      "G": "$\\frac{\\sqrt3}{2}T$"
+      "D": "$\\frac{T}{\\sqrt{2}}$",
+      "E": "$\\frac{T}{\\sqrt{3}}$",
+      "F": "$\\frac{2T}{\\sqrt{3}}$",
+      "G": "$\\frac{\\sqrt{3}}{2}T$"
     },
     "answer": "A",
     "origin": "past-paper",

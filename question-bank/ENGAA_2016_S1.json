@@ -110,13 +110,13 @@
     "difficulty": 2,
     "question": "Which one of the following is a simplification of $(\\sqrt3-\\sqrt2)^2$?",
     "options": {
-      "A": "$1-2\\sqrt3\\sqrt2$",
-      "B": "$5-2\\sqrt2\\sqrt3$",
-      "C": "$2\\sqrt3-2\\sqrt2$",
+      "A": "$1-2\\sqrt{3}\\sqrt{2}$",
+      "B": "$5-2\\sqrt{2}\\sqrt{3}$",
+      "C": "$2\\sqrt{3}-2\\sqrt{2}$",
       "D": "$1$",
-      "E": "$5-\\sqrt2\\sqrt3$",
-      "F": "$13-2\\sqrt2\\sqrt3$",
-      "G": "$5+2\\sqrt2\\sqrt3$",
+      "E": "$5-\\sqrt{2}\\sqrt{3}$",
+      "F": "$13-2\\sqrt{2}\\sqrt{3}$",
+      "G": "$5+2\\sqrt{2}\\sqrt{3}$",
       "H": "$5$"
     },
     "answer": "B",
@@ -440,10 +440,10 @@
     "question": "The point A is 4 km due East of the point B. The bearing of the point C from A is $330°$ and the bearing of C from B is $060°$. Find the distance BC.",
     "options": {
       "A": "2 km",
-      "B": "$2\\sqrt3$ km",
+      "B": "$2\\sqrt{3}$ km",
       "C": "4 km",
-      "D": "$5\\sqrt2$ km",
-      "E": "$2\\sqrt4$ km"
+      "D": "$5\\sqrt{2}$ km",
+      "E": "$2\\sqrt{4}$ km"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -1135,10 +1135,10 @@
     "difficulty": 5,
     "question": "When $x=2$ is substituted in the expression $x^3+px^2+qx+p^2$ the result is 0. When $x=1$ is substituted into the same expression, the result is $-3.5$. Find all possible value(s) of $p$.",
     "options": {
-      "A": "$p=\\dfrac{-1\\pm\\sqrt6}{3}$",
+      "A": "$p=\\dfrac{-1\\pm\\sqrt{6}}{3}$",
       "B": "$p=1$ or $p=-3$",
       "C": "$p=1$",
-      "D": "$p=1\\pm\\sqrt7$",
+      "D": "$p=1\\pm\\sqrt{7}$",
       "E": "there are no values for $p$"
     },
     "answer": "C",
@@ -1285,10 +1285,10 @@
     "difficulty": 5,
     "question": "The first term of a convergent geometric series is 8. The fifth term is 2. The sixth term is real and positive. What is the sum to infinity of this series? (Sum to infinity $=\\dfrac{a}{1-r}$.)",
     "options": {
-      "A": "$18(\\sqrt2+2)$",
-      "B": "$18(\\sqrt2-2)$",
-      "C": "$8(2+\\sqrt2)$",
-      "D": "$8(2-\\sqrt2)$",
+      "A": "$18(\\sqrt{2}+2)$",
+      "B": "$18(\\sqrt{2}-2)$",
+      "C": "$8(2+\\sqrt{2})$",
+      "D": "$8(2-\\sqrt{2})$",
       "E": "16",
       "F": "$\\dfrac{48}{5^5-1}$",
       "G": "$\\dfrac{48}{5^5+1}$"
@@ -1362,12 +1362,12 @@
     "difficulty": 5,
     "question": "Tangents are drawn from a point P to a circle of radius 10 cm. The centre of the circle is C and the distance PC is 20 cm. Which one of the following is an expression for the shaded area (bounded by the two tangents and the circle) in square centimetres?",
     "options": {
-      "A": "$\\dfrac{100}{3}(3\\sqrt3-\\pi)$",
-      "B": "$\\dfrac{100}{3}(3\\sqrt5-\\pi)$",
-      "C": "$\\dfrac{50}{3}(6\\sqrt3-\\pi)$",
-      "D": "$\\dfrac{50}{3}(6\\sqrt5-\\pi)$",
-      "E": "$\\dfrac{50}{3}(3\\sqrt2-\\pi)$",
-      "F": "$\\dfrac{50}{3}(2\\sqrt3-\\pi)$"
+      "A": "$\\dfrac{100}{3}(3\\sqrt{3}-\\pi)$",
+      "B": "$\\dfrac{100}{3}(3\\sqrt{5}-\\pi)$",
+      "C": "$\\dfrac{50}{3}(6\\sqrt{3}-\\pi)$",
+      "D": "$\\dfrac{50}{3}(6\\sqrt{5}-\\pi)$",
+      "E": "$\\dfrac{50}{3}(3\\sqrt{2}-\\pi)$",
+      "F": "$\\dfrac{50}{3}(2\\sqrt{3}-\\pi)$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -1527,8 +1527,8 @@
     "question": "The complete set of values of $a$ for which the equation $3x^2=(a+2)x-3$ has two real distinct roots is:",
     "options": {
       "A": "no values of $a$",
-      "B": "$-4\\sqrt2<a<4\\sqrt2$",
-      "C": "$a<-4\\sqrt2, a>4\\sqrt2$",
+      "B": "$-4\\sqrt{2}<a<4\\sqrt{2}$",
+      "C": "$a<-4\\sqrt{2}, a>4\\sqrt{2}$",
       "D": "$-4<a<8$",
       "E": "$a<-4, a>8$",
       "F": "$-8<a<4$",
@@ -1686,8 +1686,8 @@
       "D": "$-a\\le x\\le0, x\\ge a$",
       "E": "$x\\le-\\dfrac{a}{3}, x\\ge\\dfrac{a}{3}$",
       "F": "$-\\dfrac{a}{3}\\le x\\le\\dfrac{a}{3}$",
-      "G": "$x\\le-\\dfrac{a}{\\sqrt3}, x\\ge\\dfrac{a}{\\sqrt3}$",
-      "H": "$-\\dfrac{a}{\\sqrt3}\\le x\\le\\dfrac{a}{\\sqrt3}$"
+      "G": "$x\\le-\\dfrac{a}{\\sqrt{3}}, x\\ge\\dfrac{a}{\\sqrt{3}}$",
+      "H": "$-\\dfrac{a}{\\sqrt{3}}\\le x\\le\\dfrac{a}{\\sqrt{3}}$"
     },
     "answer": "G",
     "origin": "past-paper",

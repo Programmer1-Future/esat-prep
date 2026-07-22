@@ -211,10 +211,10 @@
     "question": "The point A is 4km due East of the point B. The bearing of the point C from A is 330° and the bearing of C from B is 060°. Find the distance BC.",
     "options": {
       "A": "2 km",
-      "B": "$2\\sqrt3$ km",
+      "B": "$2\\sqrt{3}$ km",
       "C": "4 km",
-      "D": "$2\\sqrt5$ km",
-      "E": "$4\\sqrt2$ km"
+      "D": "$2\\sqrt{5}$ km",
+      "E": "$4\\sqrt{2}$ km"
     },
     "answer": "B",
     "origin": "past-paper",
@@ -601,10 +601,10 @@
     "question": "A rhombus has diagonals of length 5 cm and 3 cm. An enlargement of the rhombus has sides of length $\\sqrt{68}$ cm. What is the scale factor of the enlargement?",
     "options": {
       "A": "2",
-      "B": "$\\sqrt2$",
-      "C": "$2\\sqrt2$",
+      "B": "$\\sqrt{2}$",
+      "C": "$2\\sqrt{2}$",
       "D": "4",
-      "E": "$4\\sqrt2$"
+      "E": "$4\\sqrt{2}$"
     },
     "answer": "C",
     "origin": "past-paper",
@@ -2600,10 +2600,10 @@
     "difficulty": 4,
     "question": "When x=2 is substituted into $x^3+px^2+qx+p$ the result is 0. When x=1 is substituted into the same expression, the result is $-3.5$. Find all possible value(s) of p.",
     "options": {
-      "A": "$p=\\frac{-1\\pm\\sqrt6}{3}$",
+      "A": "$p=\\frac{-1\\pm\\sqrt{6}}{3}$",
       "B": "$p=1$ or $p=-3$",
       "C": "$p=1$",
-      "D": "$p=1\\pm\\sqrt7$",
+      "D": "$p=1\\pm\\sqrt{7}$",
       "E": "there are no values for p"
     },
     "answer": "C",
@@ -2744,10 +2744,10 @@
     "difficulty": 4,
     "question": "The first term of a convergent geometric series is 8. The fifth term is 2. The sixth term is real and positive. What is the sum to infinity of this series? ($S_\\infty=\\frac{a}{1-r}$)",
     "options": {
-      "A": "$8(1+\\sqrt2)$",
-      "B": "$8(1-\\sqrt2)$",
-      "C": "$8(2+\\sqrt2)$",
-      "D": "$8(2-\\sqrt2)$",
+      "A": "$8(1+\\sqrt{2})$",
+      "B": "$8(1-\\sqrt{2})$",
+      "C": "$8(2+\\sqrt{2})$",
+      "D": "$8(2-\\sqrt{2})$",
       "E": "16",
       "F": "$\\frac{8-4^5}{1-4^5}$",
       "G": "$\\frac{8+4^5}{1+4^5}$"
@@ -2819,12 +2819,12 @@
     "difficulty": 4,
     "question": "Tangents are drawn from a point P to a circle of radius 10cm; the centre is C and PC=20cm. [DIAGRAM: circle with two tangent lines from external point P, radius 10cm, PC=20cm, shaded region between tangents and arc] Which one of the following is an expression for the shaded area in square centimetres?",
     "options": {
-      "A": "$\\frac{100}{3}(3\\sqrt3-\\pi)$",
-      "B": "$\\frac{100}{3}(3\\sqrt5-\\pi)$",
-      "C": "$\\frac{50}{3}(6\\sqrt3-\\pi)$",
-      "D": "$\\frac{50}{3}(6\\sqrt5-\\pi)$",
-      "E": "$\\frac{50}{3}(3\\sqrt2-\\pi)$",
-      "F": "$\\frac{50}{3}(2\\sqrt3-\\pi)$"
+      "A": "$\\frac{100}{3}(3\\sqrt{3}-\\pi)$",
+      "B": "$\\frac{100}{3}(3\\sqrt{5}-\\pi)$",
+      "C": "$\\frac{50}{3}(6\\sqrt{3}-\\pi)$",
+      "D": "$\\frac{50}{3}(6\\sqrt{5}-\\pi)$",
+      "E": "$\\frac{50}{3}(3\\sqrt{2}-\\pi)$",
+      "F": "$\\frac{50}{3}(2\\sqrt{3}-\\pi)$"
     },
     "answer": "A",
     "origin": "past-paper",
@@ -2865,10 +2865,10 @@
     "difficulty": 4,
     "question": "Given that $7\\cos\\theta-3\\tan\\theta\\sin\\theta=1$, which one of the following is true?",
     "options": {
-      "A": "cos(theta)=-3/5 or -1/2",
-      "B": "cos(theta)=-3/5 or 1/2",
-      "C": "cos(theta)=3/5 or 1/2",
-      "D": "cos(theta)=3/5 or -1/2"
+      "A": "$cos(\\theta)=-3/5 or -1/2$",
+      "B": "$cos(\\theta)=-3/5 or 1/2$",
+      "C": "$cos(\\theta)=3/5 or 1/2$",
+      "D": "$cos(\\theta)=3/5 or -1/2$"
     },
     "answer": "D",
     "origin": "past-paper",
@@ -3093,8 +3093,8 @@
       "D": "-a<=x<=0, x>=a",
       "E": "x<=-a/3, x>=a/3",
       "F": "-a/3<=x<=a/3",
-      "G": "x<=-a/sqrt(3), x>=a/sqrt(3)",
-      "H": "-a/sqrt(3)<=x<=a/sqrt(3)"
+      "G": "$x<=-a/sqrt(3), x>=a/sqrt(3)$",
+      "H": "$-a/sqrt(3)<=x<=a/sqrt(3)$"
     },
     "answer": "G",
     "origin": "past-paper",
@@ -3106,8 +3106,8 @@
           "content": "f(x) is increasing where f'(x) >= 0."
         },
         {
-          "title": "For a cubic of this form the derivative",
-          "content": "For a cubic of this form the derivative is a quadratic in x with roots at +-a/sqrt(3), positive outside this interval, giving x <= -a/sqrt(3) or x >= a/sqrt(3)."
+          "title": "Find where the derivative is non-negative",
+          "content": "For a cubic of this form the derivative is a quadratic in $x$ with roots at $\\pm\\dfrac{a}{\\sqrt{3}}$, positive outside this interval, giving $x\\le -\\dfrac{a}{\\sqrt{3}}$ or $x\\ge \\dfrac{a}{\\sqrt{3}}$."
         }
       ]
     }
