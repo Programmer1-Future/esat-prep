@@ -34,6 +34,27 @@
           "content": "Add 8 to both sides: $\\frac{x}{2} < 14$, then multiply by 2: $x < 28$."
         }
       ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": -10,
+          "to": 28,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 28,
+          "label": "28"
+        }
+      ],
+      "x_range": [
+        -10,
+        40
+      ]
     }
   },
   {
@@ -2750,7 +2771,8 @@
           "content": "Centre = midpoint of the square $=(-2,3)$. $(x+2)^2+(y-3)^2=9\\Rightarrow x^2+y^2+4x-6y+4=0$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "circle equation only; circle-line requires a line"
   },
   {
     "id": "NSAA-2016-PHY-020",
@@ -3250,7 +3272,8 @@
           "content": "Reflecting in $y=-1$ maps $y\\to-2-y$: substituting, $-2-Y=(x-4)^2+3\\Rightarrow Y=-(x-4)^2-5$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "translation/reflection stack — confirm exact transform string against stem before authoring"
   },
   {
     "id": "NSAA-2016-PHY-027",

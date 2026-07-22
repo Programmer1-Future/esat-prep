@@ -981,6 +981,41 @@
           "content": "Since the parabola opens upward, $2x^2+x-15\\ge0$ outside the roots: $x\\le-3$ or $x\\ge2.5$."
         }
       ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": -8,
+          "to": -3,
+          "sign": "+"
+        },
+        {
+          "from": -3,
+          "to": 2.5,
+          "sign": "-"
+        },
+        {
+          "from": 2.5,
+          "to": 8,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "label": "-3"
+        },
+        {
+          "x": 2.5,
+          "label": "2.5"
+        }
+      ],
+      "x_range": [
+        -8,
+        8
+      ]
     }
   },
   {
@@ -1177,7 +1212,8 @@
           "content": "Their union has 3 distinct values."
         }
       ]
-    }
+    },
+    "diagram_skipped": "two simultaneous trig equations in degrees; single level/expr2 plot underspecifies the union count"
   },
   {
     "id": "ENGAA-2017-M2-007",
@@ -1322,7 +1358,8 @@
           "content": "Product of roots $=8=\\dfrac{q}{3}\\Rightarrow q=24$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "stationary points of a cubic — parameter/family; no unique curve"
   },
   {
     "id": "ENGAA-2017-M2-011",
@@ -1361,7 +1398,8 @@
           "content": "Area $=\\sqrt{3}\\left(\\dfrac{32}{3}-\\dfrac{16}{3}\\right)=\\sqrt{3}\\cdot\\dfrac{16}{3}=\\dfrac{16\\sqrt{3}}{3}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "SAS maximisation with variable angle — not a fixed solvable triangle"
   },
   {
     "id": "ENGAA-2017-M2-012",
@@ -1526,7 +1564,8 @@
           "content": "Since $(x-1)^2\\ge0$ always, the sign is determined by $\\dfrac{x-4}{x}$ (excluding $x=1$, where the expression equals 0, not $>0$). $\\dfrac{x-4}{x}>0$ when $x<0$ or $x>4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "rational inequality; critical points depend on cancelled factors — skip to avoid wrong intervals"
   },
   {
     "id": "ENGAA-2017-M2-016",
@@ -1562,6 +1601,16 @@
           "title": "Translating by in the negative x direction replaces",
           "content": "Translating by $\\frac{\\pi}{4}$ in the negative x-direction replaces $x$ with $x+\\frac{\\pi}{4}$: $y=\\sin\\left(2\\left(x+\\frac{\\pi}{4}\\right)\\right)=\\sin\\left(2x+\\frac{\\pi}{2}\\right)$."
         }
+      ]
+    },
+    "diagram": {
+      "case": "transformation",
+      "after_step": 1,
+      "expr": "sin(x)",
+      "transform": "f(2*x)",
+      "x_range": [
+        -3.5,
+        3.5
       ]
     }
   },

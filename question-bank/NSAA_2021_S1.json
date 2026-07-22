@@ -157,7 +157,8 @@
           "content": "Line through $(4,3)$: $y-3=-\\dfrac{4}{3}(x-4) \\Rightarrow 3y-9=-4x+16 \\Rightarrow 3y+4x=25$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "Euclidean tangent-to-circle geometry, not Cartesian circle-line"
   },
   {
     "id": "NSAA-2021-M1-005",
@@ -799,7 +800,8 @@
           "content": "This gives $1$ (at $x=0$) $+ 4$ (near the four asymptotes) $= 5$ solutions."
         }
       ]
-    }
+    },
+    "diagram_skipped": "graphical trig reasoning; paper-style, not clean Mafs level intersection"
   },
   {
     "id": "NSAA-2021-PHY-001",

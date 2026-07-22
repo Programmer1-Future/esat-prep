@@ -909,7 +909,8 @@
           "content": "= \\left(\\frac{27}{6}+\\frac{9}{2}\\right)-\\left(\\frac{1}{6}+\\frac{1}{2}\\right)=9-\\frac{2}{3}=\\frac{25}{3}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "need confirmed expr and limits from stem before authoring area givens"
   },
   {
     "id": "ENGAA-2020-PHY-012",
@@ -1317,7 +1318,8 @@
           "content": "Two distinct turning points require discriminant $>0$: $(2\\sqrt{5}\\,p)^2-4p>0 \\Rightarrow 20p^2-4p>0 \\Rightarrow 4p(5p-1)>0$, giving $p<0$ or $p>0.2$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "discriminant condition on cubic family — no unique curve"
   },
   {
     "id": "ENGAA-2020-PHY-017",
@@ -1394,7 +1396,8 @@
           "content": "Over the $4\\pi$ range ($-2\\pi$ to $2\\pi$, two periods), each value gives 4 solutions: $3\\times4=12$ total."
         }
       ]
-    }
+    },
+    "diagram_skipped": "identity-then-count; unsure of clean level/expr2 without inventing"
   },
   {
     "id": "ENGAA-2020-PHY-018",

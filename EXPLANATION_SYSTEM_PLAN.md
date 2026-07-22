@@ -157,9 +157,9 @@ Port TMUA lessons: `clampYRange`, asymptote sample skip, `after_step`.
 
 **Acceptance**
 
-- [ ] Eligible maths questions have diagram or documented skip
-- [ ] Paper PNG questions unchanged
-- [ ] Validator enforces diagram schema + numeric cross-checks where applicable
+- [x] Eligible maths questions have diagram or documented skip
+- [x] Paper PNG questions unchanged
+- [x] Validator enforces diagram schema + numeric cross-checks where applicable
 
 ### Phase 4 — Require solution / delete blob path
 

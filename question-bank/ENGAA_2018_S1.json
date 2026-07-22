@@ -1119,6 +1119,16 @@
           "content": "Area $=\\int_{-2}^{2}[(9-x^2)-5]\\,dx=\\int_{-2}^2(4-x^2)\\,dx=\\left[4x-\\frac{x^3}{3}\\right]_{-2}^{2}=\\left(8-\\frac83\\right)-\\left(-8+\\frac83\\right)=16-\\frac{16}{3}=\\frac{32}{3}$."
         }
       ]
+    },
+    "diagram": {
+      "case": "area-under-curve",
+      "after_step": 1,
+      "expr": "9 - x^2",
+      "expr2": "5",
+      "range": [
+        -2,
+        2
+      ]
     }
   },
   {
@@ -1195,7 +1205,8 @@
           "content": "Total $=2+2+1=5$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "trig equation in degrees domain; Mafs case expects radian domain consistently"
   },
   {
     "id": "ENGAA-2018-PHY-016",
@@ -1267,6 +1278,14 @@
           "content": "Tangency requires discriminant $=0$: $9-12(1-k)=0\\Rightarrow9-12+12k=0\\Rightarrow k=\\frac{3}{12}=\\frac14$."
         }
       ]
+    },
+    "diagram": {
+      "case": "curve-tangent",
+      "after_step": 2,
+      "expr": "3*x^2 - 2*x + 1",
+      "x0": 0.5,
+      "kind": "tangent",
+      "slope": 1
     }
   },
   {
@@ -1657,7 +1676,8 @@
           "content": "Shortest distance from P to the circle $=d-r=4\\sqrt{5}-\\sqrt{5}=3\\sqrt{5}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "tangent length from external point — needs point+circle, not circle-line chord schema"
   },
   {
     "id": "ENGAA-2018-PHY-022",

@@ -40,6 +40,27 @@
       ],
       "fast": "Move constants, then multiply by $-2$ and reverse: $x < 28$.",
       "trap": "$x < 22$ comes from forgetting to reverse when multiplying by a negative."
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 3,
+      "intervals": [
+        {
+          "from": -10,
+          "to": 28,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 28,
+          "label": "28"
+        }
+      ],
+      "x_range": [
+        -10,
+        40
+      ]
     }
   },
   {
@@ -1245,7 +1266,8 @@
           "content": "Equation: $(x+2)^2+(y-3)^2=9 \\Rightarrow x^2+4x+4+y^2-6y+9=9 \\Rightarrow x^2+y^2+4x-6y+4=0$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "circle inscribed in square — no line given; circle-line schema requires a line"
   },
   {
     "id": "ENGAA-2016-PHY-015",
@@ -1408,7 +1430,8 @@
           "content": "Shaded area $=100\\sqrt{3}-\\tfrac{100\\pi}{3}=\\dfrac{100}{3}(3\\sqrt{3}-\\pi)$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "tangents/area geometry without a single clear ax+by=c line in stem"
   },
   {
     "id": "ENGAA-2016-PHY-017",
@@ -1723,7 +1746,8 @@
           "content": "For $f$ increasing, $f'(x)\\ge0 \\Rightarrow x^2\\ge a^2/3 \\Rightarrow x\\le-\\dfrac{a}{\\sqrt{3}}$ or $x\\ge\\dfrac{a}{\\sqrt{3}}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "increasing-function condition on a parameter; no single fixed critical set to plot"
   },
   {
     "id": "ENGAA-2016-PHY-021",
@@ -1800,6 +1824,16 @@
           "title": "So the new curve is",
           "content": "So the new curve is $y=-2-[(x-4)^2+3]=-5-(x-4)^2$."
         }
+      ]
+    },
+    "diagram": {
+      "case": "transformation",
+      "after_step": 1,
+      "expr": "x^2",
+      "transform": "f(x - 4) + 3",
+      "x_range": [
+        -2,
+        8
       ]
     }
   },
@@ -1878,7 +1912,8 @@
           "content": "The quartic has positive leading coefficient, so it is positive outside the outermost roots and between the innermost roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "quartic inequality — roots not uniquely fixed as simple authored scalars without over-deriving"
   },
   {
     "id": "ENGAA-2016-PHY-023",
@@ -1971,6 +2006,24 @@
           "content": "So the minimum on $x\\le0$ is 5, at $x=-1$."
         }
       ]
+    },
+    "diagram": {
+      "case": "curve",
+      "after_step": 1,
+      "functions": [
+        {
+          "expr": "4*x^3 - 12*x^2 - 36*x - 15",
+          "label": "curve"
+        },
+        {
+          "expr": "10",
+          "label": "y=10"
+        }
+      ],
+      "x_range": [
+        -3,
+        5
+      ]
     }
   },
   {
@@ -2046,7 +2099,8 @@
           "content": "Substituting $u=y-1$ (limits $-1$ to $1$): $\\int_{-1}^{1}(3-3u^2)\\,du=[3u-u^3]_{-1}^{1}=(3-1)-(-3+1)=2-(-2)=4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "sideways parabola; area-under-curve expr is y=f(x) only"
   },
   {
     "id": "ENGAA-2016-PHY-025",

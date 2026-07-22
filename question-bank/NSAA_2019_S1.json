@@ -70,7 +70,8 @@
           "content": "$x>10$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "linear inequality with rearranged form; thin pedagogical value vs steps"
   },
   {
     "id": "NSAA-2019-M1-003",
@@ -2906,7 +2907,8 @@
         }
       ],
       "trap": "trapezoid with vertices $(0,0),(0,2),(-6,5),(-6,0)$, parallel sides of length 2 and 5, width 6."
-    }
+    },
+    "diagram_skipped": "area bounded by straight lines — not area-under-curve"
   },
   {
     "id": "NSAA-2019-M1-020",
@@ -3551,7 +3553,8 @@
           "content": "The expression is positive only when $x>4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "cubic inequality via factorisation — skip without unique clean interval plot"
   },
   {
     "id": "NSAA-2019-PHY-027",

@@ -67,6 +67,41 @@
           "content": "$x^2-2x-15\\ge0\\Rightarrow(x-5)(x+3)\\ge0\\Rightarrow x\\le-3$ or $x\\ge5$."
         }
       ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": -8,
+          "to": -3,
+          "sign": "+"
+        },
+        {
+          "from": -3,
+          "to": 5,
+          "sign": "-"
+        },
+        {
+          "from": 5,
+          "to": 10,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "label": "-3"
+        },
+        {
+          "x": 5,
+          "label": "5"
+        }
+      ],
+      "x_range": [
+        -8,
+        10
+      ]
     }
   },
   {
@@ -2744,7 +2779,8 @@
           "content": "Both trigonometric equations have their own period; solving each for x in the interval [0,k] and combining the distinct solutions (removing any duplicate where both equations are satisfied at the same x) gives a total of 3 values."
         }
       ]
-    }
+    },
+    "diagram_skipped": "trig solutions counting — confirm radian domain and level before authoring"
   },
   {
     "id": "NSAA-2017-PHY-020",
@@ -3151,7 +3187,8 @@
           "content": "Combined: $x<0$ or $x>4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "rational inequality; diagram would require cancelling factors first"
   },
   {
     "id": "NSAA-2017-PHY-026",

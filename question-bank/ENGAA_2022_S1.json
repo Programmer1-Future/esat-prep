@@ -114,6 +114,27 @@
           "content": "So $\\frac34 - \\frac{5x}{4}<0 \\Rightarrow 3 < 5x \\Rightarrow x>\\frac35$."
         }
       ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": 0.6,
+          "to": 5,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 0.6,
+          "label": "3/5"
+        }
+      ],
+      "x_range": [
+        -2,
+        5
+      ]
     }
   },
   {
@@ -1385,7 +1406,8 @@
           "content": "Rectangle area $=5\\times6.25=31.25$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "quadratic + rectangle construction — better as steps-only without inventing scale"
   },
   {
     "id": "ENGAA-2022-PHY-018",

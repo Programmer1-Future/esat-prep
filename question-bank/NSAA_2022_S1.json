@@ -119,6 +119,27 @@
           "content": "So $\\frac{3}{4}-\\frac{5x}{4}<0 \\Rightarrow 3-5x<0 \\Rightarrow x>\\frac{3}{5}$."
         }
       ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": 0.6,
+          "to": 5,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 0.6,
+          "label": "3/5"
+        }
+      ],
+      "x_range": [
+        -2,
+        5
+      ]
     }
   },
   {

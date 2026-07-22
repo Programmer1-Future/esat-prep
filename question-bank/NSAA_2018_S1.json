@@ -2850,7 +2850,8 @@
           "content": "Area $=\\displaystyle\\int_{-2}^{2}\\left[(9-x^2)-5\\right]dx=\\int_{-2}^{2}(4-x^2)dx=\\left[4x-\\tfrac{x^3}{3}\\right]_{-2}^{2}=\\left(8-\\tfrac83\\right)-\\left(-8+\\tfrac83\\right)=16-\\tfrac{16}{3}=\\tfrac{32}{3}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "parabola vs horizontal line — confirm limits from stem before authoring"
   },
   {
     "id": "NSAA-2018-PHY-019",
@@ -2926,7 +2927,8 @@
           "content": "Total: $2+2+1=5$ solutions."
         }
       ]
-    }
+    },
+    "diagram_skipped": "trig equation number of solutions — domain/level not confidently authored"
   },
   {
     "id": "NSAA-2018-PHY-020",
@@ -2998,6 +3000,14 @@
           "content": "For tangency, the discriminant is zero: $(-3)^2-4(3)(1-k)=0 \\Rightarrow 9-12+12k=0 \\Rightarrow 12k=3 \\Rightarrow k=\\tfrac14$."
         }
       ]
+    },
+    "diagram": {
+      "case": "curve-tangent",
+      "after_step": 2,
+      "expr": "3*x^2 - 2*x + 1",
+      "x0": 0.5,
+      "kind": "tangent",
+      "slope": 1
     }
   },
   {
@@ -3230,7 +3240,8 @@
           "content": "Shortest distance from P to the circle $= d - r = 4\\sqrt{5}-\\sqrt{5}=3\\sqrt{5}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "tangent length from a point; schema is circle+line not point+tangent length"
   },
   {
     "id": "NSAA-2018-PHY-024",

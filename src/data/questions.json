@@ -41,6 +41,27 @@
       ],
       "fast": "Move constants, then multiply by $-2$ and reverse: $x < 28$.",
       "trap": "$x < 22$ comes from forgetting to reverse when multiplying by a negative."
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 3,
+      "intervals": [
+        {
+          "from": -10,
+          "to": 28,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 28,
+          "label": "28"
+        }
+      ],
+      "x_range": [
+        -10,
+        40
+      ]
     }
   },
   {
@@ -1276,7 +1297,8 @@
           "content": "Equation: $(x+2)^2+(y-3)^2=9 \\Rightarrow x^2+4x+4+y^2-6y+9=9 \\Rightarrow x^2+y^2+4x-6y+4=0$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "circle inscribed in square — no line given; circle-line schema requires a line"
   },
   {
     "id": "ENGAA-2016-PHY-015",
@@ -1443,7 +1465,8 @@
           "content": "Shaded area $=100\\sqrt{3}-\\tfrac{100\\pi}{3}=\\dfrac{100}{3}(3\\sqrt{3}-\\pi)$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "tangents/area geometry without a single clear ax+by=c line in stem"
   },
   {
     "id": "ENGAA-2016-PHY-017",
@@ -1766,7 +1789,8 @@
           "content": "For $f$ increasing, $f'(x)\\ge0 \\Rightarrow x^2\\ge a^2/3 \\Rightarrow x\\le-\\dfrac{a}{\\sqrt{3}}$ or $x\\ge\\dfrac{a}{\\sqrt{3}}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "increasing-function condition on a parameter; no single fixed critical set to plot"
   },
   {
     "id": "ENGAA-2016-PHY-021",
@@ -1845,6 +1869,16 @@
           "title": "So the new curve is",
           "content": "So the new curve is $y=-2-[(x-4)^2+3]=-5-(x-4)^2$."
         }
+      ]
+    },
+    "diagram": {
+      "case": "transformation",
+      "after_step": 1,
+      "expr": "x^2",
+      "transform": "f(x - 4) + 3",
+      "x_range": [
+        -2,
+        8
       ]
     }
   },
@@ -1925,7 +1959,8 @@
           "content": "The quartic has positive leading coefficient, so it is positive outside the outermost roots and between the innermost roots: $x<-2$, $-\\tfrac12<x<\\tfrac12$, $x>2$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "quartic inequality — roots not uniquely fixed as simple authored scalars without over-deriving"
   },
   {
     "id": "ENGAA-2016-PHY-023",
@@ -2020,6 +2055,24 @@
           "content": "So the minimum on $x\\le0$ is 5, at $x=-1$."
         }
       ]
+    },
+    "diagram": {
+      "case": "curve",
+      "after_step": 1,
+      "functions": [
+        {
+          "expr": "4*x^3 - 12*x^2 - 36*x - 15",
+          "label": "curve"
+        },
+        {
+          "expr": "10",
+          "label": "y=10"
+        }
+      ],
+      "x_range": [
+        -3,
+        5
+      ]
     }
   },
   {
@@ -2097,7 +2150,8 @@
           "content": "Substituting $u=y-1$ (limits $-1$ to $1$): $\\int_{-1}^{1}(3-3u^2)\\,du=[3u-u^3]_{-1}^{1}=(3-1)-(-3+1)=2-(-2)=4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "sideways parabola; area-under-curve expr is y=f(x) only"
   },
   {
     "id": "ENGAA-2016-PHY-025",
@@ -3234,6 +3288,41 @@
           "content": "Since the parabola opens upward, $2x^2+x-15\\ge0$ outside the roots: $x\\le-3$ or $x\\ge2.5$."
         }
       ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": -8,
+          "to": -3,
+          "sign": "+"
+        },
+        {
+          "from": -3,
+          "to": 2.5,
+          "sign": "-"
+        },
+        {
+          "from": 2.5,
+          "to": 8,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "label": "-3"
+        },
+        {
+          "x": 2.5,
+          "label": "2.5"
+        }
+      ],
+      "x_range": [
+        -8,
+        8
+      ]
     }
   },
   {
@@ -3435,7 +3524,8 @@
           "content": "Their union has 3 distinct values."
         }
       ]
-    }
+    },
+    "diagram_skipped": "two simultaneous trig equations in degrees; single level/expr2 plot underspecifies the union count"
   },
   {
     "id": "ENGAA-2017-M2-007",
@@ -3584,7 +3674,8 @@
           "content": "Product of roots $=8=\\dfrac{q}{3}\\Rightarrow q=24$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "stationary points of a cubic — parameter/family; no unique curve"
   },
   {
     "id": "ENGAA-2017-M2-011",
@@ -3624,7 +3715,8 @@
           "content": "Area $=\\sqrt{3}\\left(\\dfrac{32}{3}-\\dfrac{16}{3}\\right)=\\sqrt{3}\\cdot\\dfrac{16}{3}=\\dfrac{16\\sqrt{3}}{3}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "SAS maximisation with variable angle — not a fixed solvable triangle"
   },
   {
     "id": "ENGAA-2017-M2-012",
@@ -3793,7 +3885,8 @@
           "content": "Since $(x-1)^2\\ge0$ always, the sign is determined by $\\dfrac{x-4}{x}$ (excluding $x=1$, where the expression equals 0, not $>0$). $\\dfrac{x-4}{x}>0$ when $x<0$ or $x>4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "rational inequality; critical points depend on cancelled factors — skip to avoid wrong intervals"
   },
   {
     "id": "ENGAA-2017-M2-016",
@@ -3830,6 +3923,16 @@
           "title": "Translating by in the negative x direction replaces",
           "content": "Translating by $\\frac{\\pi}{4}$ in the negative x-direction replaces $x$ with $x+\\frac{\\pi}{4}$: $y=\\sin\\left(2\\left(x+\\frac{\\pi}{4}\\right)\\right)=\\sin\\left(2x+\\frac{\\pi}{2}\\right)$."
         }
+      ]
+    },
+    "diagram": {
+      "case": "transformation",
+      "after_step": 1,
+      "expr": "sin(x)",
+      "transform": "f(2*x)",
+      "x_range": [
+        -3.5,
+        3.5
       ]
     }
   },
@@ -5520,6 +5623,16 @@
           "content": "Area $=\\int_{-2}^{2}[(9-x^2)-5]\\,dx=\\int_{-2}^2(4-x^2)\\,dx=\\left[4x-\\frac{x^3}{3}\\right]_{-2}^{2}=\\left(8-\\frac83\\right)-\\left(-8+\\frac83\\right)=16-\\frac{16}{3}=\\frac{32}{3}$."
         }
       ]
+    },
+    "diagram": {
+      "case": "area-under-curve",
+      "after_step": 1,
+      "expr": "9 - x^2",
+      "expr2": "5",
+      "range": [
+        -2,
+        2
+      ]
     }
   },
   {
@@ -5598,7 +5711,8 @@
           "content": "Total $=2+2+1=5$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "trig equation in degrees domain; Mafs case expects radian domain consistently"
   },
   {
     "id": "ENGAA-2018-PHY-016",
@@ -5672,6 +5786,14 @@
           "content": "Tangency requires discriminant $=0$: $9-12(1-k)=0\\Rightarrow9-12+12k=0\\Rightarrow k=\\frac{3}{12}=\\frac14$."
         }
       ]
+    },
+    "diagram": {
+      "case": "curve-tangent",
+      "after_step": 2,
+      "expr": "3*x^2 - 2*x + 1",
+      "x0": 0.5,
+      "kind": "tangent",
+      "slope": 1
     }
   },
   {
@@ -6072,7 +6194,8 @@
           "content": "Shortest distance from P to the circle $=d-r=4\\sqrt{5}-\\sqrt{5}=3\\sqrt{5}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "tangent length from external point — needs point+circle, not circle-line chord schema"
   },
   {
     "id": "ENGAA-2018-PHY-022",
@@ -7028,7 +7151,8 @@
         }
       ],
       "trap": "trapezium with parallel sides 5 and 2, width 6: Area $=\\frac12(5+2)(6)=21$."
-    }
+    },
+    "diagram_skipped": "area bounded by straight lines only — not a curve integral case"
   },
   {
     "id": "ENGAA-2019-M2-002",
@@ -7064,7 +7188,8 @@
           "content": "Sum of roots $=-1+3=2=-\\frac{2p}{3}\\Rightarrow p=-3$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "turning points of a cubic with parameters — skip"
   },
   {
     "id": "ENGAA-2019-M2-003",
@@ -7401,7 +7526,8 @@
           "content": "Since $(x+1)^2\\ge0$ always, the product is positive only when $x-4>0$, i.e. $x>4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "cubic inequality — prefer steps-only without risking incorrect interval signs"
   },
   {
     "id": "ENGAA-2019-PHY-001",
@@ -9009,7 +9135,8 @@
           "content": "= \\left(\\frac{27}{6}+\\frac{9}{2}\\right)-\\left(\\frac{1}{6}+\\frac{1}{2}\\right)=9-\\frac{2}{3}=\\frac{25}{3}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "need confirmed expr and limits from stem before authoring area givens"
   },
   {
     "id": "ENGAA-2020-PHY-012",
@@ -9427,7 +9554,8 @@
           "content": "Two distinct turning points require discriminant $>0$: $(2\\sqrt{5}\\,p)^2-4p>0 \\Rightarrow 20p^2-4p>0 \\Rightarrow 4p(5p-1)>0$, giving $p<0$ or $p>0.2$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "discriminant condition on cubic family — no unique curve"
   },
   {
     "id": "ENGAA-2020-PHY-017",
@@ -9506,7 +9634,8 @@
           "content": "Over the $4\\pi$ range ($-2\\pi$ to $2\\pi$, two periods), each value gives 4 solutions: $3\\times4=12$ total."
         }
       ]
-    }
+    },
+    "diagram_skipped": "identity-then-count; unsure of clean level/expr2 without inventing"
   },
   {
     "id": "ENGAA-2020-PHY-018",
@@ -11408,6 +11537,27 @@
           "content": "So $\\frac34 - \\frac{5x}{4}<0 \\Rightarrow 3 < 5x \\Rightarrow x>\\frac35$."
         }
       ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": 0.6,
+          "to": 5,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 0.6,
+          "label": "3/5"
+        }
+      ],
+      "x_range": [
+        -2,
+        5
+      ]
     }
   },
   {
@@ -12711,7 +12861,8 @@
           "content": "Rectangle area $=5\\times6.25=31.25$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "quadratic + rectangle construction — better as steps-only without inventing scale"
   },
   {
     "id": "ENGAA-2022-PHY-018",
@@ -14582,6 +14733,27 @@
           "title": "Add to both sides then multiply by",
           "content": "Add 8 to both sides: $\\frac{x}{2} < 14$, then multiply by 2: $x < 28$."
         }
+      ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": -10,
+          "to": 28,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 28,
+          "label": "28"
+        }
+      ],
+      "x_range": [
+        -10,
+        40
       ]
     }
   },
@@ -17373,7 +17545,8 @@
           "content": "Centre = midpoint of the square $=(-2,3)$. $(x+2)^2+(y-3)^2=9\\Rightarrow x^2+y^2+4x-6y+4=0$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "circle equation only; circle-line requires a line"
   },
   {
     "id": "NSAA-2016-PHY-020",
@@ -17886,7 +18059,8 @@
           "content": "Reflecting in $y=-1$ maps $y\\to-2-y$: substituting, $-2-Y=(x-4)^2+3\\Rightarrow Y=-(x-4)^2-5$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "translation/reflection stack — confirm exact transform string against stem before authoring"
   },
   {
     "id": "NSAA-2016-PHY-027",
@@ -17994,6 +18168,41 @@
           "title": "Simplify to the result",
           "content": "$x^2-2x-15\\ge0\\Rightarrow(x-5)(x+3)\\ge0\\Rightarrow x\\le-3$ or $x\\ge5$."
         }
+      ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": -8,
+          "to": -3,
+          "sign": "+"
+        },
+        {
+          "from": -3,
+          "to": 5,
+          "sign": "-"
+        },
+        {
+          "from": 5,
+          "to": 10,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": -3,
+          "label": "-3"
+        },
+        {
+          "x": 5,
+          "label": "5"
+        }
+      ],
+      "x_range": [
+        -8,
+        10
       ]
     }
   },
@@ -20707,7 +20916,8 @@
           "content": "Both trigonometric equations have their own period; solving each for x in the interval [0,k] and combining the distinct solutions (removing any duplicate where both equations are satisfied at the same x) gives a total of 3 values."
         }
       ]
-    }
+    },
+    "diagram_skipped": "trig solutions counting — confirm radian domain and level before authoring"
   },
   {
     "id": "NSAA-2017-PHY-020",
@@ -21125,7 +21335,8 @@
           "content": "Combined: $x<0$ or $x>4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "rational inequality; diagram would require cancelling factors first"
   },
   {
     "id": "NSAA-2017-PHY-026",
@@ -24168,7 +24379,8 @@
           "content": "Area $=\\displaystyle\\int_{-2}^{2}\\left[(9-x^2)-5\\right]dx=\\int_{-2}^{2}(4-x^2)dx=\\left[4x-\\tfrac{x^3}{3}\\right]_{-2}^{2}=\\left(8-\\tfrac83\\right)-\\left(-8+\\tfrac83\\right)=16-\\tfrac{16}{3}=\\tfrac{32}{3}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "parabola vs horizontal line — confirm limits from stem before authoring"
   },
   {
     "id": "NSAA-2018-PHY-019",
@@ -24246,7 +24458,8 @@
           "content": "Total: $2+2+1=5$ solutions."
         }
       ]
-    }
+    },
+    "diagram_skipped": "trig equation number of solutions — domain/level not confidently authored"
   },
   {
     "id": "NSAA-2018-PHY-020",
@@ -24320,6 +24533,14 @@
           "content": "For tangency, the discriminant is zero: $(-3)^2-4(3)(1-k)=0 \\Rightarrow 9-12+12k=0 \\Rightarrow 12k=3 \\Rightarrow k=\\tfrac14$."
         }
       ]
+    },
+    "diagram": {
+      "case": "curve-tangent",
+      "after_step": 2,
+      "expr": "3*x^2 - 2*x + 1",
+      "x0": 0.5,
+      "kind": "tangent",
+      "slope": 1
     }
   },
   {
@@ -24558,7 +24779,8 @@
           "content": "Shortest distance from P to the circle $= d - r = 4\\sqrt{5}-\\sqrt{5}=3\\sqrt{5}$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "tangent length from a point; schema is circle+line not point+tangent length"
   },
   {
     "id": "NSAA-2018-PHY-024",
@@ -24936,7 +25158,8 @@
           "content": "$x>10$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "linear inequality with rearranged form; thin pedagogical value vs steps"
   },
   {
     "id": "NSAA-2019-M1-003",
@@ -27843,7 +28066,8 @@
         }
       ],
       "trap": "trapezoid with vertices $(0,0),(0,2),(-6,5),(-6,0)$, parallel sides of length 2 and 5, width 6."
-    }
+    },
+    "diagram_skipped": "area bounded by straight lines — not area-under-curve"
   },
   {
     "id": "NSAA-2019-M1-020",
@@ -28504,7 +28728,8 @@
           "content": "The expression is positive only when $x>4$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "cubic inequality via factorisation — skip without unique clean interval plot"
   },
   {
     "id": "NSAA-2019-PHY-027",
@@ -32024,7 +32249,8 @@
           "content": "Line through $(4,3)$: $y-3=-\\dfrac{4}{3}(x-4) \\Rightarrow 3y-9=-4x+16 \\Rightarrow 3y+4x=25$."
         }
       ]
-    }
+    },
+    "diagram_skipped": "Euclidean tangent-to-circle geometry, not Cartesian circle-line"
   },
   {
     "id": "NSAA-2021-M1-005",
@@ -32682,7 +32908,8 @@
           "content": "This gives $1$ (at $x=0$) $+ 4$ (near the four asymptotes) $= 5$ solutions."
         }
       ]
-    }
+    },
+    "diagram_skipped": "graphical trig reasoning; paper-style, not clean Mafs level intersection"
   },
   {
     "id": "NSAA-2021-PHY-001",
@@ -35333,6 +35560,27 @@
           "title": "Simplify to the result",
           "content": "So $\\frac{3}{4}-\\frac{5x}{4}<0 \\Rightarrow 3-5x<0 \\Rightarrow x>\\frac{3}{5}$."
         }
+      ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": 0.6,
+          "to": 5,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 0.6,
+          "label": "3/5"
+        }
+      ],
+      "x_range": [
+        -2,
+        5
       ]
     }
   },
