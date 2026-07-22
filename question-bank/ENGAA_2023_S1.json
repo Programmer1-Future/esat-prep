@@ -1338,7 +1338,7 @@
     "topic": "phy-mechanics",
     "subtopic": "kinematics graphs of free fall",
     "difficulty": 4,
-    "question": "An object is released from rest at a height H above the ground and falls freely in a uniform gravitational field. At time t after being released, it has fallen a distance s and is at a height h above the ground, travelling at speed v. [DIAGRAM: a graph showing y plotted against x, starting at the origin and curving upward]. Which row(s) show(s) a possible pair of quantities for the axes? Row 1: y=h, x=t. Row 2: y=kinetic energy, x=h. Row 3: y=gravitational potential energy, x=s. (Assume that air resistance is negligible.)",
+    "question": "An object is released from rest at a height $H$ above the ground and falls freely in a uniform gravitational field.\n\nAt time $t$ after being released, it has fallen a distance $s$ and is at a height $h$ above the ground, travelling at speed $v$.\n\nThe graph shows two quantities plotted.\n\nWhich of the rows show(s) a possible pair of quantities for the axes?\n\n| Row | y-axis | x-axis |\n| --- | --- | --- |\n| 1 | $h$ | $t$ |\n| 2 | kinetic energy | $h$ |\n| 3 | gravitational potential energy | $s$ |\n\n(Assume that air resistance is negligible.)",
     "options": {
       "A": "none of them",
       "B": "1 only",
@@ -1352,22 +1352,26 @@
     "answer": "G",
     "origin": "past-paper",
     "quality_tier": 1,
-    "needs_repair": true,
     "solution": {
       "steps": [
         {
-          "title": "Row h vs t is quadratic starting at",
-          "content": "Row 1 (h vs t) is quadratic, starting at H not the origin -- excluded."
+          "title": "Kinematics from rest",
+          "content": "Distance fallen $s=\\tfrac12 g t^2$ and remaining height $h=H-s$."
         },
         {
-          "title": "Rows and KE vs h GPE vs s",
-          "content": "Rows 2 and 3 (KE vs h, GPE vs s) are both LINEAR relationships, which is inconsistent with the stem's description of a graph that curves upward -- this raises doubt about whether the stored answer (rows 2 and 3) is correct without seeing the actual rendered diagram axes/shape."
+          "title": "Reject height against time",
+          "content": "Row 1 plots $h$ against $t$: $h=H-\\tfrac12 g t^2$ starts at $H$ when $t=0$, not at the origin, so it cannot match a graph through the origin."
         },
         {
-          "title": "Needs re verification against the source PDF diagram",
-          "content": "Needs re-verification against the source PDF diagram."
+          "title": "Energy against height",
+          "content": "Row 2: all lost gravitational energy becomes kinetic, so $E_k=mg(H-h)$ — a straight line in $h$."
+        },
+        {
+          "title": "Potential against distance fallen",
+          "content": "Row 3: $E_p=mg(H-s)$ measured from the ground — again a straight line in $s$. Only rows 2 and 3 fit a graph through the origin."
         }
-      ]
+      ],
+      "trap": "Pairing $h$ with $t$ treats a quadratic free-fall as if it started at the origin."
     }
   },
   {
