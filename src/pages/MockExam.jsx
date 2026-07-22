@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Flag, ChevronLeft, ChevronRight, Grid3x3, PenLine, X, Clock, Play } from 'lucide-react'
+import { Flag, ChevronLeft, ChevronRight, Grid3x3, PenLine, X, Check, Clock, Play } from 'lucide-react'
 import { Card } from '../components/ui/Card'
 import questionsData from '../data/questions.json'
 import { cn, isoDate, formatSecs } from '../lib/utils'
@@ -14,6 +14,7 @@ import { MathText, InlineMath } from '../components/ui/TechniqueRenderer'
 import { parseDiagrams } from '../lib/diagrams'
 import { DiagramFigure } from '../components/ui/Diagram'
 import { OriginBadge } from '../components/ui/Origin'
+import { QuestionExplanation, hasExplanation } from '../components/questions/QuestionExplanation'
 
 // Pearson VUE environment clone. Fidelity rules (per Build Prompt Phase 4):
 // one module per timed block, hard 40:00 auto-submit, flag-and-review grid,
@@ -589,6 +590,7 @@ const REVIEW_OUTCOME = {
 
 function SittingResults({ moduleResults, questionsByModule, onDone }) {
   const [openReview, setOpenReview] = useState(null)
+  const [expandedQ, setExpandedQ] = useState(null)
   return (
     <motion.div
       className="max-w-2xl mx-auto p-6 space-y-4"
@@ -624,7 +626,10 @@ function SittingResults({ moduleResults, questionsByModule, onDone }) {
               </div>
             </div>
             <button
-              onClick={() => setOpenReview(open ? null : r.module)}
+              onClick={() => {
+                setOpenReview(open ? null : r.module)
+                setExpandedQ(null)
+              }}
               className="w-full flex items-center justify-between px-5 py-2.5 border-t border-border-subtle text-xs font-600 text-text-muted hover:text-text-secondary transition-colors"
             >
               {open ? 'Hide questions' : 'Review questions'}
@@ -635,11 +640,64 @@ function SittingResults({ moduleResults, questionsByModule, onDone }) {
                 {r.results.map((res, i) => {
                   const o = REVIEW_OUTCOME[res.outcome] || REVIEW_OUTCOME.skip
                   const q = questionsByModule[r.module][i]
+                  const rowKey = `${r.module}:${res.qId}`
+                  const expanded = expandedQ === rowKey
+                  const { stem, diagrams } = parseDiagrams(q.question, q.id)
+                  const gaveAnswer = res.selected != null && res.selected !== q.answer
                   return (
-                    <div key={res.qId} className="flex items-center gap-3 text-xs">
-                      <span className="w-7 tabular text-text-muted flex-shrink-0">Q{i + 1}</span>
-                      <span className="font-600" style={{ color: o.color }}>{o.text}</span>
-                      <OriginBadge origin={q.origin} source={q.source} className="ml-auto" />
+                    <div key={res.qId} className="rounded-lg border border-border-subtle overflow-hidden">
+                      <button
+                        type="button"
+                        onClick={() => setExpandedQ(expanded ? null : rowKey)}
+                        className="w-full flex items-center gap-3 text-xs px-3 py-2 hover:bg-surface-raised/40 transition-colors"
+                      >
+                        <span className="w-7 tabular text-text-muted flex-shrink-0 text-left">Q{i + 1}</span>
+                        <span className="font-600" style={{ color: o.color }}>{o.text}</span>
+                        <OriginBadge origin={q.origin} source={q.source} className="ml-auto" />
+                        <ChevronRight size={12} className={cn('text-text-muted flex-shrink-0 transition-transform duration-150', expanded && 'rotate-90')} />
+                      </button>
+                      {expanded && (
+                        <div className="px-3 pb-3 border-t border-border-subtle">
+                          <div className="pt-3 text-[15px] text-text-primary leading-relaxed mb-3">
+                            <MathText text={stem} />
+                          </div>
+                          {diagrams.map((d, j) => <DiagramFigure key={j} caption={d.caption} src={d.src} />)}
+
+                          <div className="space-y-2">
+                            {gaveAnswer && (
+                              <div className="flex items-start gap-3 px-3 py-2.5 rounded-lg bg-danger/5 border border-danger/20">
+                                <X size={15} className="text-danger mt-0.5 flex-shrink-0" />
+                                <div className="min-w-0">
+                                  <p className="text-[10px] font-600 uppercase tracking-widest text-danger/70 mb-0.5">Your answer</p>
+                                  <div className="text-sm text-text-primary">
+                                    <InlineMath text={String(q.options?.[res.selected] ?? '')} />
+                                  </div>
+                                </div>
+                              </div>
+                            )}
+                            <div className="flex items-start gap-3 px-3 py-2.5 rounded-lg bg-success/5 border border-success/20">
+                              <Check size={15} className="text-success mt-0.5 flex-shrink-0" />
+                              <div className="min-w-0">
+                                <p className="text-[10px] font-600 uppercase tracking-widest text-success/70 mb-0.5">Correct answer</p>
+                                <div className="text-sm text-text-primary">
+                                  <InlineMath text={String(q.options?.[q.answer] ?? '')} />
+                                </div>
+                              </div>
+                            </div>
+                            {res.outcome === 'skip' && !gaveAnswer && (
+                              <p className="text-xs text-text-muted px-1">You skipped this one.</p>
+                            )}
+                          </div>
+
+                          {hasExplanation(q) && (
+                            <div className="mt-3 px-3 py-3 border-t border-border-subtle bg-accent/[0.03] -mx-3">
+                              <div className="px-3">
+                                <QuestionExplanation question={q} />
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
                     </div>
                   )
                 })}
