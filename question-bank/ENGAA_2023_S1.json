@@ -1372,7 +1372,7 @@
         },
         {
           "title": "Match potential to distance fallen",
-          "content": "Row 3: $E_{p}=mg(H-s)$ from the ground: the same linear decreasing form in $s$. Rows 2 and 3 both match the figure."
+          "content": "Row 3: $E_{p}=mg(H-s)$ measured from the ground is the same linear decreasing form in $s$. Rows 2 and 3 both match the figure."
         }
       ],
       "fast": "Rows 2 and 3 are the same energy trade read from opposite ends of $H$, so they stand or fall together; only those two are linear.",
