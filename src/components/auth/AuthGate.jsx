@@ -98,7 +98,9 @@ export function AuthGate({ children }) {
   const [sync, setSync] = useState({ key: null, status: 'pending', role: null })
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => setSession(data.session ?? null))
+    supabase.auth.getSession()
+      .then(({ data }) => setSession(data.session ?? null))
+      .catch(() => setSession(null))
     const { data: sub } = supabase.auth.onAuthStateChange((_event, s) => setSession(s ?? null))
     return () => sub.subscription.unsubscribe()
   }, [])
@@ -106,9 +108,11 @@ export function AuthGate({ children }) {
   useEffect(() => {
     if (!session) {
       stopSync()
+      setSync({ key: null, status: 'pending', role: null })
       return
     }
     let cancelled = false
+    setSync({ key: session.user.id, status: 'pending', role: null })
     ;(async () => {
       // A transient pull failure still lets the user work (and sync) locally.
       await pullState(session.user)
