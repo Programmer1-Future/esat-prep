@@ -9,11 +9,20 @@ import { MODULES, getModule, topicIdForQuestion, questionsForModules } from '../
 import { logEvent } from '../lib/eventLog'
 import { enqueueMisses } from '../lib/reviewQueue'
 import { projectScore } from '../lib/mockScore'
-import { updateStoredValue, useLocalStorage, readStoredValue } from '../hooks/useLocalStorage'
+import { updateStoredValue, useLocalStorage } from '../hooks/useLocalStorage'
 import { MathText, InlineMath } from '../components/ui/TechniqueRenderer'
 import { parseDiagrams } from '../lib/diagrams'
 import { DiagramFigure } from '../components/ui/Diagram'
 import { MockSittingReview } from '../components/mock/MockSittingReview'
+import { listAvailablePapers, questionsForPastPaper } from '../lib/pastPaper'
+import { studentQuestions } from '../lib/studentBank'
+import {
+  MOCK_DRAFT_KEY,
+  modulesPayload,
+  promoteDraftToAbandoned,
+  writeAbandonedSitting,
+  ensureAbandonedSitting,
+} from '../lib/mockAbandon'
 
 // Pearson VUE environment clone. Fidelity rules (per Build Prompt Phase 4):
 // one module per timed block, hard 40:00 auto-submit, flag-and-review grid,
@@ -47,6 +56,11 @@ function MockSetup({ allQuestions, chosenModuleIds, onStart }) {
     return map
   }, [allQuestions])
 
+  const papers = useMemo(() => listAvailablePapers(allQuestions), [allQuestions])
+  const [mode, setMode] = useState('esat') // esat | paper
+  const [paperKey, setPaperKey] = useState(() => papers[0]?.key || '')
+  const selectedPaper = papers.find(p => p.key === paperKey) || papers[0]
+
   const [optional, setOptional] = useState(() =>
     chosenModuleIds.filter(id => OPTIONAL_MODULE_IDS.includes(id) && availability[id] > 0).slice(0, 2)
   )
@@ -59,6 +73,21 @@ function MockSetup({ allQuestions, chosenModuleIds, onStart }) {
 
   const sittingModules = ['maths1', ...optional]
 
+  const paperModuleCounts = useMemo(() => {
+    if (!selectedPaper) return {}
+    const out = {}
+    for (const id of sittingModules) {
+      out[id] = questionsForPastPaper(allQuestions, {
+        source: selectedPaper.source,
+        year: selectedPaper.year,
+        moduleId: id,
+      }).length
+    }
+    return out
+  }, [allQuestions, selectedPaper, sittingModules])
+
+  const paperReady = mode !== 'paper' || sittingModules.every(id => (paperModuleCounts[id] || 0) > 0)
+
   return (
     <motion.div
       className="max-w-2xl mx-auto p-6 space-y-5"
@@ -68,10 +97,53 @@ function MockSetup({ allQuestions, chosenModuleIds, onStart }) {
       <div>
         <h1 className="font-display font-700 text-2xl text-text-primary tracking-[-0.02em]">Mock Exam</h1>
         <p className="text-text-muted text-sm mt-1">
-          Full ESAT sitting under Pearson VUE conditions — 27 questions and a hard 40:00 per module,
-          flag-and-review navigation, no calculator, on-screen scratchpad only.
+          Pearson VUE conditions — timed modules, flag-and-review, no calculator, on-screen scratchpad.
         </p>
       </div>
+
+      <Card>
+        <div className="px-4 pt-3 pb-2 border-b border-border-subtle">
+          <span className="text-[11px] font-600 uppercase tracking-widest text-text-muted">Mode</span>
+        </div>
+        <div className="p-4 flex flex-wrap gap-2">
+          {[
+            { id: 'esat', label: 'ESAT format', blurb: '27 random / module' },
+            { id: 'paper', label: 'Past paper', blurb: 'Original order & length' },
+          ].map(opt => (
+            <button
+              key={opt.id}
+              type="button"
+              onClick={() => setMode(opt.id)}
+              className={cn(
+                'px-3 py-2 rounded-xl border text-left text-sm transition-all duration-150',
+                mode === opt.id
+                  ? 'border-accent/40 bg-accent/10 text-accent font-600'
+                  : 'border-border text-text-muted hover:text-text-secondary',
+              )}
+            >
+              <span className="block">{opt.label}</span>
+              <span className="block text-[11px] opacity-80 font-400">{opt.blurb}</span>
+            </button>
+          ))}
+        </div>
+        {mode === 'paper' && (
+          <div className="px-4 pb-4">
+            <label className="text-[11px] font-600 uppercase tracking-widest text-text-muted">Paper</label>
+            <select
+              value={selectedPaper?.key || ''}
+              onChange={e => setPaperKey(e.target.value)}
+              className="mt-2 w-full bg-surface-raised border border-border rounded-xl px-3 py-2 text-sm text-text-primary focus:outline-none focus:border-accent/50"
+            >
+              {papers.map(p => (
+                <option key={p.key} value={p.key}>{p.source} {p.year} S1</option>
+              ))}
+            </select>
+            <p className="text-[11px] text-text-muted mt-2">
+              Uses the real printed question order. Length may be shorter than 27 — this is the original paper, not an ESAT-shaped drill.
+            </p>
+          </div>
+        )}
+      </Card>
 
       <Card>
         <div className="px-4 pt-3 pb-2 border-b border-border-subtle">
@@ -80,13 +152,22 @@ function MockSetup({ allQuestions, chosenModuleIds, onStart }) {
         <div className="p-4 space-y-3">
           <div className="flex items-center gap-3 px-3 py-2.5 rounded-xl border border-accent/30 bg-accent/5">
             <span className="text-sm font-600 text-accent">Mathematics 1</span>
-            <span className="text-[11px] text-text-muted ml-auto">compulsory · first block</span>
+            <span className="text-[11px] text-text-muted ml-auto">
+              compulsory · first block
+              {mode === 'paper' && selectedPaper ? ` · ${paperModuleCounts.maths1 || 0} Qs` : ''}
+            </span>
           </div>
           <p className="text-[11px] font-600 uppercase tracking-widest text-text-muted pt-1">Optional modules — pick up to 2</p>
           <div className="flex flex-wrap gap-2">
             {OPTIONAL_MODULE_IDS.map(id => {
               const m = getModule(id)
-              const count = availability[id]
+              const count = mode === 'paper' && selectedPaper
+                ? questionsForPastPaper(allQuestions, {
+                  source: selectedPaper.source,
+                  year: selectedPaper.year,
+                  moduleId: id,
+                }).length
+                : availability[id]
               const sel = optional.includes(id)
               const disabled = count === 0 || (!sel && optional.length >= 2)
               return (
@@ -104,7 +185,8 @@ function MockSetup({ allQuestions, chosenModuleIds, onStart }) {
                     borderColor: `color-mix(in srgb, ${m.color} 40%, transparent)`,
                   } : {}}
                 >
-                  {m.short}{count === 0 && <span className="opacity-60 font-400"> · no questions yet</span>}
+                  {m.short}
+                  <span className="opacity-70 font-400"> · {count}</span>
                 </button>
               )
             })}
@@ -121,25 +203,40 @@ function MockSetup({ allQuestions, chosenModuleIds, onStart }) {
             No results are shown between modules — scores appear only after the full sitting, one per module.
           </p>
           <p className="text-warning/90">
-            Leaving, refreshing, or navigating away mid-sitting abandons the mock. Progress is not saved and
-            you cannot resume — you will need to start a new sitting. Keep this tab open until you finish.
+            Leaving, refreshing, or navigating away mid-sitting abandons the mock — you cannot resume the
+            unfinished module. Modules you already finished are kept in Mock History as Abandoned (reviewable).
+            Keep this tab open until you finish.
           </p>
         </div>
       </Card>
 
       <button
-        onClick={() => onStart(sittingModules)}
-        className="w-full flex items-center justify-center gap-2 py-4 rounded-xl font-600 text-base bg-accent text-on-accent hover:opacity-90 dark:bg-accent-dim dark:text-text-primary dark:border dark:border-accent/30 transition-all duration-200"
+        onClick={() => paperReady && onStart({
+          mode,
+          moduleIds: sittingModules,
+          paper: mode === 'paper' && selectedPaper
+            ? { source: selectedPaper.source, year: selectedPaper.year }
+            : null,
+        })}
+        disabled={!paperReady}
+        className={cn(
+          'w-full flex items-center justify-center gap-2 py-4 rounded-xl font-600 text-base transition-all duration-200',
+          paperReady
+            ? 'bg-accent text-on-accent hover:opacity-90 dark:bg-accent-dim dark:text-text-primary dark:border dark:border-accent/30'
+            : 'bg-surface-raised text-text-muted cursor-not-allowed border border-border',
+        )}
       >
         <Play size={16} fill="currentColor" />
-        Begin sitting — {sittingModules.length} module{sittingModules.length !== 1 ? 's' : ''}
+        {paperReady
+          ? `Begin sitting — ${sittingModules.length} module${sittingModules.length !== 1 ? 's' : ''}`
+          : 'Pick modules that exist on this paper'}
       </button>
     </motion.div>
   )
 }
 
 // ─── Module interstitial (no scores shown — VUE fidelity) ──────────────────────
-function ModuleIntro({ moduleId, index, total, questionCount, onBegin }) {
+function ModuleIntro({ moduleId, index, total, questionCount, onBegin, mode, paperLabel }) {
   const m = getModule(moduleId)
   return (
     <motion.div
@@ -149,14 +246,17 @@ function ModuleIntro({ moduleId, index, total, questionCount, onBegin }) {
     >
       <p className="text-[11px] font-600 uppercase tracking-widest text-text-muted mb-2">
         Module {index + 1} of {total}
+        {paperLabel ? ` · ${paperLabel}` : ''}
       </p>
       <h1 className="font-display font-700 text-3xl tracking-[-0.02em] mb-3" style={{ color: m.color }}>{m.name}</h1>
       <p className="text-sm text-text-secondary mb-1">{questionCount} questions · 40:00 hard limit</p>
-      {questionCount < MODULE_QUESTIONS && (
+      {mode === 'paper' ? (
+        <p className="text-xs text-text-muted mb-1">Original paper length for this section — not padded to 27.</p>
+      ) : questionCount < MODULE_QUESTIONS ? (
         <p className="text-xs text-warning mb-1">Bank has only {questionCount} questions for this module — timer stays at 40:00.</p>
-      )}
+      ) : null}
       <p className="text-xs text-text-muted mb-2">The clock starts the moment you begin. It cannot be paused.</p>
-      <p className="text-xs text-warning mb-8">Leaving this page abandons the sitting — no resume.</p>
+      <p className="text-xs text-warning mb-8">Leaving abandons unfinished modules — completed ones stay in history.</p>
       <button
         onClick={onBegin}
         className="px-8 py-3.5 rounded-xl font-600 text-base bg-accent text-on-accent hover:opacity-90 dark:bg-accent-dim dark:text-text-primary dark:border dark:border-accent/30 transition-all duration-200"
@@ -266,7 +366,7 @@ function TabWarning({ count, visible }) {
 }
 
 const ABANDON_CONFIRM =
-  'Leave and abandon this mock? Progress will not be saved — you will need to start a new sitting.'
+  'Leave and abandon this mock? Unfinished modules are lost. Modules you already finished stay in Mock History as Abandoned.'
 
 // ─── Timed module block ─────────────────────────────────────────────────────────
 // Owns everything inside one 40:00 window: question view, navigator, review
@@ -636,60 +736,16 @@ function ExamModule({ moduleId, questions, onSubmit, scratchpad, setScratchpad }
   )
 }
 
-const MOCK_DRAFT_KEY = 'esat_mock_in_progress'
-
-function modulesPayload(records) {
-  return records.map(({ module, correct: c, total, projected: p, timeTakenSec, autoSubmitted: auto, results: res }) =>
-    ({ module, correct: c, total, projected: p, timeTakenSec, autoSubmitted: auto, results: res }))
-}
-
-function promoteDraftToAbandoned() {
-  const draft = readStoredValue(MOCK_DRAFT_KEY, null)
-  if (!draft?.id || !draft.modules?.length) {
-    updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
-    return
-  }
-  updateStoredValue('esat_mock_sittings', sittings => {
-    if (sittings.some(s => s.id === draft.id)) return sittings
-    return [
-      ...sittings,
-      {
-        id: draft.id,
-        date: draft.date || isoDate(),
-        ts: draft.ts || new Date().toISOString(),
-        abandoned: true,
-        modules: draft.modules,
-      },
-    ]
-  }, [])
-  updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
-}
-
-function writeAbandonedSitting(sittingId, moduleRecords) {
-  if (!moduleRecords.length) return
-  updateStoredValue('esat_mock_sittings', sittings => {
-    if (sittings.some(s => s.id === sittingId)) return sittings
-    return [
-      ...sittings,
-      {
-        id: sittingId,
-        date: isoDate(),
-        ts: new Date().toISOString(),
-        abandoned: true,
-        modules: modulesPayload(moduleRecords),
-      },
-    ]
-  }, [])
-  updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
-}
-
 // ─── Main sitting orchestrator ──────────────────────────────────────────────────
 export default function MockExam() {
   const navigate = useNavigate()
-  const allQuestions = useMemo(() => (Array.isArray(questionsData) ? questionsData : questionsData.questions || []), [])
+  const allQuestions = useMemo(
+    () => studentQuestions(Array.isArray(questionsData) ? questionsData : questionsData.questions || []),
+    [],
+  )
   const [chosenModuleIds] = useLocalStorage('esat_modules', [])
   const [phase, setPhase] = useState('setup')        // setup | intro | exam | results
-  const [sitting, setSitting] = useState(null)       // { id, moduleIds, questionsByModule }
+  const [sitting, setSitting] = useState(null)       // { id, moduleIds, questionsByModule, mode, paper }
   const [moduleIdx, setModuleIdx] = useState(0)
   const [moduleResults, setModuleResults] = useState([])
   const [scratchpad, setScratchpad] = useState('')
@@ -713,8 +769,7 @@ export default function MockExam() {
     if (window.confirm(ABANDON_CONFIRM)) {
       const sit = sittingRef.current
       const done = moduleResultsRef.current
-      if (sit?.id && done.length > 0) writeAbandonedSitting(sit.id, done)
-      else updateStoredValue(MOCK_DRAFT_KEY, () => null, null)
+      ensureAbandonedSitting(sit?.id, done)
       blocker.proceed()
     } else {
       blocker.reset()
@@ -723,20 +778,45 @@ export default function MockExam() {
 
   useEffect(() => {
     if (!inProgress) return
+    const flushAbandoned = () => {
+      const sit = sittingRef.current
+      const done = moduleResultsRef.current
+      ensureAbandonedSitting(sit?.id, done)
+    }
     const onBeforeUnload = (e) => {
+      flushAbandoned()
       e.preventDefault()
       e.returnValue = ''
     }
+    const onPageHide = () => { flushAbandoned() }
     window.addEventListener('beforeunload', onBeforeUnload)
-    return () => window.removeEventListener('beforeunload', onBeforeUnload)
+    window.addEventListener('pagehide', onPageHide)
+    return () => {
+      window.removeEventListener('beforeunload', onBeforeUnload)
+      window.removeEventListener('pagehide', onPageHide)
+    }
   }, [inProgress])
 
-  const startSitting = (moduleIds) => {
+  const startSitting = ({ mode = 'esat', moduleIds, paper = null }) => {
     const questionsByModule = {}
     for (const id of moduleIds) {
-      questionsByModule[id] = shuffle(questionsForModules(allQuestions, [id])).slice(0, MODULE_QUESTIONS)
+      if (mode === 'paper' && paper) {
+        questionsByModule[id] = questionsForPastPaper(allQuestions, {
+          source: paper.source,
+          year: paper.year,
+          moduleId: id,
+        })
+      } else {
+        questionsByModule[id] = shuffle(questionsForModules(allQuestions, [id])).slice(0, MODULE_QUESTIONS)
+      }
     }
-    setSitting({ id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`, moduleIds, questionsByModule })
+    setSitting({
+      id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`,
+      moduleIds,
+      questionsByModule,
+      mode,
+      paper,
+    })
     setModuleIdx(0)
     setModuleResults([])
     setScratchpad('')
@@ -843,6 +923,8 @@ export default function MockExam() {
             index={moduleIdx}
             total={sitting.moduleIds.length}
             questionCount={sitting.questionsByModule[currentModuleId].length}
+            mode={sitting.mode || 'esat'}
+            paperLabel={sitting.paper ? `${sitting.paper.source} ${sitting.paper.year}` : null}
             onBegin={() => setPhase('exam')}
           />
         </motion.div>

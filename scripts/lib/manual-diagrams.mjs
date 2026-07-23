@@ -154,10 +154,22 @@ export const MANUAL_DIAGRAMS = {
     diagram_skipped: 'area bounded by straight lines only — not a curve integral case',
   },
   'ENGAA-2020-M2-007': {
-    diagram_skipped: 'need confirmed expr and limits from stem before authoring area givens',
+    diagram: {
+      case: 'area-under-curve',
+      after_step: 1,
+      expr: '0.5*x^2',
+      expr2: '-x',
+      range: [1, 3],
+    },
   },
   'NSAA-2018-M1-019': {
-    diagram_skipped: 'parabola vs horizontal line — confirm limits from stem before authoring',
+    diagram: {
+      case: 'area-under-curve',
+      after_step: 1,
+      expr: '9 - x^2',
+      expr2: '5',
+      range: [-2, 2],
+    },
   },
   'NSAA-2019-M1-019': {
     diagram_skipped: 'area bounded by straight lines — not area-under-curve',
@@ -177,7 +189,14 @@ export const MANUAL_DIAGRAMS = {
     diagram_skipped: 'trig solutions counting — confirm radian domain and level before authoring',
   },
   'NSAA-2018-M2-001': {
-    diagram_skipped: 'trig equation number of solutions — domain/level not confidently authored',
+    diagram: {
+      case: 'trig-solutions',
+      after_step: 1,
+      expr: '2*sin(x)^3',
+      expr2: 'sin(x)',
+      domain: [-1.5708, 3.1416],
+      expected_count: 5,
+    },
   },
   'NSAA-2021-M1-020': {
     diagram_skipped: 'graphical trig reasoning; paper-style, not clean Mafs level intersection',
@@ -208,7 +227,13 @@ export const MANUAL_DIAGRAMS = {
     },
   },
   'NSAA-2016-M2-009': {
-    diagram_skipped: 'translation/reflection stack — confirm exact transform string against stem before authoring',
+    diagram: {
+      case: 'transformation',
+      after_step: 1,
+      expr: 'x^2',
+      transform: '-2 - (f(x - 4) + 3)',
+      x_range: [-1, 9],
+    },
   },
 
   // --- curve ---

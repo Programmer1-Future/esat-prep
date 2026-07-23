@@ -32,7 +32,9 @@
           "content": "Sum $=20$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $(\\sqrt{7}-\\sqrt{3})^2 = 7-2\\sqrt{21}+3=10-2\\sqrt{21}$."
   },
   {
     "id": "ENGAA-2019-M1-002",
@@ -59,15 +61,17 @@
     "solution": {
       "steps": [
         {
-          "title": "Rearrange for x in terms of y",
+          "title": "Set up",
           "content": "Rearrange: $\\left(1-\\dfrac{x}{2}\\right)^2=\\dfrac{3-y}{4}$, so $1-\\dfrac{x}{2}=\\pm\\sqrt{\\dfrac{3-y}{4}}$, hence $x=2\\mp 2\\sqrt{\\dfrac{3-y}{4}}$, i.e. $x=2\\pm 2\\sqrt{\\dfrac{3-y}{4}}$."
         },
         {
-          "title": "Answer verified against the official answer key",
+          "title": "Obtain the result",
           "content": "Answer verified against the official answer key."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: rearrange: $\\left(1-\\dfrac{x}{2}\\right)^2=\\dfrac{3-y}{4}$, so $1-\\dfrac{x}{2}=\\pm\\sqrt{\\dfrac{3-y}{4}}$, hence $x=2\\mp 2\\sqrt{\\dfrac{3-y}{4}}$, i.e."
   },
   {
     "id": "ENGAA-2019-M1-003",
@@ -94,7 +98,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Assume is the hypotenuse",
+          "title": "Set up",
           "content": "Assume $3x$ is the hypotenuse: $(3x)^2=(x+4)^2+(2x+2)^2 \\Rightarrow 9x^2 = x^2+8x+16+4x^2+8x+4 \\Rightarrow 4x^2-16x-20=0 \\Rightarrow x^2-4x-5=0 \\Rightarrow (x-5)(x+1)=0 \\Rightarrow x=5$."
         },
         {
@@ -106,7 +110,9 @@
           "content": "Area $=\\frac12(9)(12)=54$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: assume $3x$ is the hypotenuse: $$(3x)^2=(x+4)^2+(2x+2)^2 \\Rightarrow 9x^2 = x^2+8x+16+4x^2+8x+4 \\Rightarrow 4x^2-16x-20=0 \\Rightarrow x^2-4x-5=0 \\Rightarrow (x-5)(x+1)=0 \\Rightarrow"
   },
   {
     "id": "ENGAA-2019-M1-004",
@@ -141,7 +147,9 @@
           "content": "New $R = (1.2v)^2 = 1.44v^2$, a 44% increase."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $R \\propto v^2$."
   },
   {
     "id": "ENGAA-2019-M1-005",
@@ -179,7 +187,9 @@
           "content": "Substituting into the second: $16p+4(3-2p)=-4 \\Rightarrow 8p+12=-4 \\Rightarrow p=-2$, so $q=3-2(-2)=7$. $q-p=7-(-2)=9$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $4p+2q=6$ and $16p+4q=-4$."
   },
   {
     "id": "ENGAA-2019-M1-006",
@@ -205,7 +215,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Factor so the fraction is",
+          "title": "Set up",
           "content": "Factor $3x^2-2x-1=(3x+1)(x-1)$, so the fraction is $\\dfrac{x(3x+1)}{x^2(3x+1)(x-1)}=\\dfrac{1}{x(x-1)}$."
         },
         {
@@ -213,7 +223,9 @@
           "content": "Then $4-\\dfrac{1}{x(x-1)}=\\dfrac{4x(x-1)-1}{x(x-1)}=\\dfrac{4x^2-4x-1}{x(x-1)}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "Factor $3x^2-2x-1=(3x+1)(x-1)$, so the fraction is $\\dfrac{x(3x+1)}{x^2(3x+1)(x-1)}=\\dfrac{1}{x(x-1)}$."
   },
   {
     "id": "ENGAA-2019-M1-007",
@@ -246,7 +258,9 @@
           "content": "New volume $=192\\times0.75^3=192\\times0.421875=81\\text{ cm}^3$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: volume scales with $r^3$."
   },
   {
     "id": "ENGAA-2019-M1-008",
@@ -287,7 +301,9 @@
           "content": "Difference $=11-3=8$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: area $=\\frac12 d_1 d_2 = 11 \\Rightarrow (3x+2)(8-2x)=22$."
   },
   {
     "id": "ENGAA-2019-M1-009",
@@ -318,19 +334,21 @@
           "content": "$PR=TR=\\sqrt{3^2+4^2}=5$ (3-4-5 triangle)."
         },
         {
-          "title": "Angle by congruence angle is the same",
+          "title": "Work through",
           "content": "Angle $QRP=\\arctan(3/4)\\approx36.87^\\circ$; by congruence angle $SRT$ is the same."
         },
         {
-          "title": "Since is a straight line angle",
+          "title": "Simplify",
           "content": "Since $PRT$ is a straight line, angle $QRS=180^\\circ-2(36.87^\\circ)=106.26^\\circ$."
         },
         {
-          "title": "By the cosine rule on triangle cm",
+          "title": "Obtain the result",
           "content": "By the cosine rule on triangle $QRS$: $QS=\\sqrt{4^2+4^2-2(4)(4)\\cos(106.26^\\circ)}=6.4$ cm."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $PR=TR=\\sqrt{3^2+4^2}=5$ (3-4-5 triangle)."
   },
   {
     "id": "ENGAA-2019-M1-010",
@@ -370,7 +388,9 @@
           "content": "Mass $=33000\\times0.100=3300\\text{ g}=3.30\\text{ kg}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: cross-section area $=22^2-\\frac{22}{7}(7)^2=484-154=330\\text{ cm}^2$."
   },
   {
     "id": "ENGAA-2019-M1-011",
@@ -416,7 +436,9 @@
           "content": "Solving gives $h=8$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: volume $=\\frac13(144)h=48h$."
   },
   {
     "id": "ENGAA-2019-PHY-019",
@@ -445,19 +467,20 @@
           "content": "6 years = 2 half-lives."
         },
         {
-          "title": "Starting with atoms of each X remaining",
+          "title": "Work through",
           "content": "Starting with $N_0$ atoms of each: X remaining $=N_0/4$."
         },
         {
-          "title": "Decayed X now Y added to the original",
+          "title": "Simplify",
           "content": "Decayed X (now Y) $=N_0-N_0/4=3N_0/4$, added to the original $N_0$ of Y gives total Y $=N_0+3N_0/4=7N_0/4$."
         },
         {
-          "title": "Ratio X Y",
+          "title": "Obtain the result",
           "content": "Ratio X:Y $=\\dfrac{N_0/4}{7N_0/4}=1:7$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-001",
@@ -483,17 +506,18 @@
     "solution": {
       "steps": [
         {
-          "title": "The line gives at and at",
+          "title": "Set up",
           "content": "The line $y=\\frac{4-x}{2}$ gives $y=5$ at $x=-6$ and $y=2$ at $x=0$."
         },
         {
-          "title": "The bounded region is a",
+          "title": "Obtain the result",
           "content": "The bounded region is a"
         }
       ],
       "trap": "trapezium with parallel sides 5 and 2, width 6: Area $=\\frac12(5+2)(6)=21$."
     },
-    "diagram_skipped": "area bounded by straight lines only — not a curve integral case"
+    "diagram_skipped": "area bounded by straight lines only — not a curve integral case",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-002",
@@ -528,7 +552,8 @@
         }
       ]
     },
-    "diagram_skipped": "turning points of a cubic with parameters — skip"
+    "diagram_skipped": "turning points of a cubic with parameters — skip",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-003",
@@ -566,7 +591,8 @@
           "content": "So $a=-7,\\ b=-5$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-004",
@@ -607,7 +633,8 @@
           "content": "For $\\cos x=\\frac13$, $\\sin x=\\frac{2\\sqrt{2}}{3}$, $\\tan x=2\\sqrt{2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-005",
@@ -648,7 +675,8 @@
           "content": "Shaded (segments) $=\\dfrac{64\\pi}{3}-16\\sqrt{3}=\\dfrac{16}{3}(4\\pi-3\\sqrt{3})$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-006",
@@ -682,7 +710,7 @@
           "content": "Then $15u^2-u-2=0$."
         },
         {
-          "title": "Discriminant so giving rejecting the negative root",
+          "title": "Simplify",
           "content": "Discriminant $=1+120=121$, so $u=\\dfrac{1\\pm11}{30}$, giving $u=\\dfrac25$ (rejecting the negative root)."
         },
         {
@@ -690,7 +718,8 @@
           "content": "So $5^x=\\dfrac25 \\Rightarrow x=\\log_5\\left(\\dfrac25\\right)$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-007",
@@ -719,11 +748,11 @@
           "content": "Let I1=integral(-2,2) f, I2=integral(2,4) f."
         },
         {
-          "title": "Eq i one one",
+          "title": "Work through",
           "content": "Eq(i): 2I1+I2=4."
         },
         {
-          "title": "Eq ii one one one one one since",
+          "title": "Simplify",
           "content": "Eq(ii): 5I1-(I1+I2)=7 -> 4I1-I2=7 (since integral(-2,4)=I1+I2)."
         },
         {
@@ -735,7 +764,8 @@
           "content": "Then I2=4-2(11/6)=4-11/3=1/3."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-008",
@@ -766,7 +796,7 @@
           "content": "$f(x)=\\dfrac{(3+2x)^8-3^8}{16}$."
         },
         {
-          "title": "The term in is",
+          "title": "Work through",
           "content": "The $x^4$ term in $(3+2x)^8$ is $\\binom{8}{4}3^4(2x)^4=70\\times81\\times16\\,x^4=90720x^4$."
         },
         {
@@ -774,7 +804,8 @@
           "content": "Dividing by 16: coefficient $=\\dfrac{90720}{16}=5670$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-009",
@@ -799,7 +830,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Multiply the first equation by",
+          "title": "Set up",
           "content": "Multiply the first equation by 3: $9\\tan\\alpha-6\\sin\\beta=6$."
         },
         {
@@ -811,7 +842,8 @@
           "content": "Substituting: $3(1)-2\\sin\\beta=2 \\Rightarrow \\sin\\beta=0.5 \\Rightarrow \\beta=30^\\circ$. $\\theta=180^\\circ-45^\\circ-30^\\circ=105^\\circ$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-M2-010",
@@ -837,7 +869,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Testing so is a factor",
+          "title": "Set up",
           "content": "Testing $x=-1$: $-1-2+7-4=0$, so $(x+1)$ is a factor."
         },
         {
@@ -845,12 +877,13 @@
           "content": "Dividing: $x^3-2x^2-7x-4=(x+1)(x^2-3x-4)=(x+1)(x-4)(x+1)=(x+1)^2(x-4)$."
         },
         {
-          "title": "Since always the product is positive only when",
+          "title": "Obtain the result",
           "content": "Since $(x+1)^2\\ge0$ always, the product is positive only when $x-4>0$, i.e. $x>4$."
         }
       ]
     },
-    "diagram_skipped": "cubic inequality — prefer steps-only without risking incorrect interval signs"
+    "diagram_skipped": "cubic inequality — prefer steps-only without risking incorrect interval signs",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-001",
@@ -877,7 +910,7 @@
     "solution": {
       "steps": [
         {
-          "title": "From the graph at mA the diode voltage",
+          "title": "Set up",
           "content": "From the graph, at 8.0 mA the diode voltage drop is read as $V_d \\approx 1.2$ V."
         },
         {
@@ -885,7 +918,8 @@
           "content": "Then $V_{resistor}=6.0-1.2=4.8$ V. $R=\\dfrac{V}{one}=\\dfrac{4.8}{0.008}=600\\ \\Omega$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-002",
@@ -913,19 +947,20 @@
     "solution": {
       "steps": [
         {
-          "title": "In vacuum all EM waves travel at speed",
+          "title": "Set up",
           "content": "In vacuum, all EM waves travel at speed $c$, so speed ratio $=1.0$."
         },
         {
-          "title": "Since so P has a much longer wavelength",
+          "title": "Work through",
           "content": "Since $c=f\\lambda$, $\\dfrac{f_P}{f_Q}=\\dfrac{\\lambda_Q}{\\lambda_P}=1.0\\times10^{-8}$, so P has a much longer wavelength/lower frequency than Q."
         },
         {
-          "title": "A wavelength ratio of with P as microwave",
+          "title": "Obtain the result",
           "content": "A wavelength ratio of $10^8$ with P as microwave (~$10^{-3}$m) and Q as X-ray (~$10^{-11}$m) fits: $10^{-3}/10^{-11}=10^8$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-003",
@@ -951,15 +986,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Boyle s law Pa",
+          "title": "Set up",
           "content": "Boyle's law: $P_1V_1=P_2V_2 \\Rightarrow P_2=\\dfrac{(1.0\\times10^5)(2.0\\times10^{-3})}{4.0\\times10^{-4}}=5.0\\times10^5$ Pa."
         },
         {
-          "title": "This equals atmospheric plus hydrostatic pressure m",
+          "title": "Obtain the result",
           "content": "This equals atmospheric plus hydrostatic pressure: $P_2=P_1+\\rho g h \\Rightarrow h=\\dfrac{5.0\\times10^5-1.0\\times10^5}{1000\\times10}=40$ m."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-004",
@@ -989,15 +1025,16 @@
           "content": "Turns ratio $=4800/240=20$."
         },
         {
-          "title": "By conservation of power ideal transformer is not",
+          "title": "Work through",
           "content": "By conservation of power (ideal transformer), $I_p N_p = I_s N_s$ is not the right relation; instead $I_s = I_p \\times \\dfrac{N_p}{N_s}=4.0\\times\\dfrac{240}{4800}=0.2$ A."
         },
         {
-          "title": "Power in cables W",
+          "title": "Obtain the result",
           "content": "Power in cables $=I_s^2R=(0.2)^2(1500)=60$ W."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-005",
@@ -1029,15 +1066,16 @@
           "content": "Rate $\\propto \\dfrac{A\\,\\Delta T}{l}=\\dfrac{(\\pi d^2/4)(90-\\theta)}{l}$."
         },
         {
-          "title": "Lowest rate wants small large small i e",
+          "title": "Work through",
           "content": "Lowest rate wants small $d$, large $l$, small $\\Delta T$ (i.e. largest $\\theta$)."
         },
         {
-          "title": "Testing all combinations the pairing gives the smallest",
+          "title": "Obtain the result",
           "content": "Testing all 8 combinations, the pairing $l=0.80$, $d=4.0$, $\\theta=40$ gives the smallest value of $\\dfrac{d^2(90-\\theta)}{l}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-006",
@@ -1062,11 +1100,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Each alpha changes mass by and atomic number",
+          "title": "Set up",
           "content": "Each alpha changes mass by $-4$ and atomic number by $-2$; each beta changes atomic number by $+1$ (mass unchanged)."
         },
         {
-          "title": "With alphas and betas",
+          "title": "Work through",
           "content": "With $a$ alphas and $b$ betas, $a+b=7$, $a>b$."
         },
         {
@@ -1074,11 +1112,12 @@
           "content": "Try $a=5,b=2$: $\\Delta A=-4(5)=-20$, $\\Delta Z=-2(5)+2=-8$."
         },
         {
-          "title": "This gives Z falling by and A falling",
+          "title": "Obtain the result",
           "content": "This gives Z falling by 8 and A falling by 20."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-007",
@@ -1104,11 +1143,11 @@
     "solution": {
       "steps": [
         {
-          "title": "M s m s",
+          "title": "Set up",
           "content": "$\\frac12(4)v_1^2=32 \\Rightarrow v_1=4$ m/s. $\\frac12(4)v_2^2=200 \\Rightarrow v_2=10$ m/s."
         },
         {
-          "title": "Acceleration m s",
+          "title": "Work through",
           "content": "Acceleration $a=\\dfrac{10-4}{3}=2$ m/s$^2$."
         },
         {
@@ -1116,7 +1155,8 @@
           "content": "Force $=ma=4\\times2=8.0$ N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-008",
@@ -1143,15 +1183,16 @@
     "solution": {
       "steps": [
         {
-          "title": "The exact resistor network topology is not recoverable",
+          "title": "Set up",
           "content": "The exact resistor network topology is not recoverable from the extracted text (diagram-dependent)."
         },
         {
-          "title": "Based on the proportional relationship between the voltmeter",
-          "content": "Based on the proportional relationship between the voltmeter branch and total circuit resistance implied by the answer, the battery voltage is 8\\times the voltmeter reading."
+          "title": "Obtain the result",
+          "content": "$Based on the proportional relationship between the voltmeter branch and total circuit resistance implied by the answer, the battery voltage is 8\\times the voltmeter reading$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-009",
@@ -1177,11 +1218,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Input power MW W",
+          "title": "Set up",
           "content": "Input power $=\\dfrac{1800\\text{ MW}}{0.90}=2000$ MW $=2.0\\times10^9$ W."
         },
         {
-          "title": "Input power where is volume flow rate",
+          "title": "Work through",
           "content": "Input power $=\\rho g h Q$ where $Q$ is volume flow rate: $Q=\\dfrac{2.0\\times10^9}{1000\\times10\\times150}=1333.3\\text{ m}^3/\\text{s}$."
         },
         {
@@ -1189,7 +1230,8 @@
           "content": "Volume per minute $=1333.3\\times60=8.00\\times10^4\\text{ m}^3$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-010",
@@ -1217,11 +1259,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Momentum conservation m s",
+          "title": "Set up",
           "content": "Momentum conservation: $1000(30)+500(20)=1000v_P+500(30) \\Rightarrow 40000=1000v_P+15000 \\Rightarrow v_P=25$ m/s."
         },
         {
-          "title": "Impulse on Q Ns",
+          "title": "Work through",
           "content": "Impulse on Q $=500(30-20)=5000$ Ns."
         },
         {
@@ -1229,7 +1271,8 @@
           "content": "Force $=\\dfrac{5000}{0.20}=25000$ N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-011",
@@ -1263,7 +1306,8 @@
           "content": "$V=IR=4.0\\times0.2=0.80$ V."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-012",
@@ -1289,19 +1333,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Taking moments about the hinge weight N acts",
+          "title": "Set up",
           "content": "Taking moments about the hinge: weight $W=14\\times10=140$ N acts at the centre, 0.40 m from the hinge along the door; the rod acts perpendicular to the door at 0.70 m from the hinge (0.80-0.10)."
         },
         {
-          "title": "Moment of weight about hinge perpendicular distance",
+          "title": "Work through",
           "content": "Moment of weight about hinge $=W\\times0.40\\cos30^\\circ$ (perpendicular distance)."
         },
         {
-          "title": "Setting equal to moment of rod force giving",
+          "title": "Obtain the result",
           "content": "Setting equal to moment of rod force: $F\\times0.70=140\\times0.40\\cos30^\\circ$, giving $F=\\dfrac{140\\times0.40\\times(\\sqrt{3}/2)}{0.70}=40\\sqrt{3}\\approx69.3$ N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-013",
@@ -1328,15 +1373,15 @@
     "solution": {
       "steps": [
         {
-          "title": "Distance from near speaker cm",
+          "title": "Set up",
           "content": "Distance from near speaker $=40$ cm."
         },
         {
-          "title": "Distance from far speaker cm",
+          "title": "Work through",
           "content": "Distance from far speaker $=\\sqrt{40^2+30^2}=50$ cm."
         },
         {
-          "title": "Path difference cm m",
+          "title": "Simplify",
           "content": "Path difference $=10$ cm $=0.10$ m."
         },
         {
@@ -1348,7 +1393,8 @@
           "content": "Phase difference $=\\dfrac{0.10}{0.80}\\times360^\\circ=45^\\circ$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-014",
@@ -1378,11 +1424,12 @@
           "content": "$h=\\dfrac{v^2}{2g}=\\dfrac{80^2}{2\\times1.6}=\\dfrac{6400}{3.2}=2000$ m."
         },
         {
-          "title": "Mass is irrelevant for this calculation",
+          "title": "Obtain the result",
           "content": "(Mass is irrelevant for this calculation.)"
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-015",
@@ -1409,11 +1456,11 @@
     "solution": {
       "steps": [
         {
-          "title": "From the graph the line gives mA at",
+          "title": "Set up",
           "content": "From the graph, the 300 Ω line gives $one=20$ mA at $V=6$ V (consistent: $6/300=0.02\\,\\mathrm{A}$)."
         },
         {
-          "title": "The parallel combination line gives mA at V",
+          "title": "Work through",
           "content": "The parallel-combination line gives $one=30$ mA at $V=6$ V, so $R_{parallel}=6/0.030=200\\ \\Omega$."
         },
         {
@@ -1421,7 +1468,8 @@
           "content": "Using $\\dfrac{1}{R_{parallel}}=\\dfrac{1}{300}+\\dfrac{1}{R}$: $\\dfrac{1}{R}=\\dfrac{1}{200}-\\dfrac{1}{300}=\\dfrac{1}{600}\\Rightarrow R=600\\ \\Omega$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-016",
@@ -1455,7 +1503,8 @@
           "content": "Strain energy $=\\dfrac{F^2L}{2AE}=\\dfrac{40^2\\times2.4}{2\\times2.0\\times10^{-6}\\times1.2\\times10^{11}}=\\dfrac{3840}{4.8\\times10^5}=8.0\\times10^{-3}$ J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2019-PHY-017",
@@ -1481,14 +1530,15 @@
     "solution": {
       "steps": [
         {
-          "title": "The first scenario defines the critical angle angle",
+          "title": "Set up",
           "content": "The first scenario defines the critical angle: angle of incidence (from normal) $=90^\\circ-\\alpha=C$, where $\\sin C=1/n$, so $n=1/\\cos\\alpha$."
         },
         {
-          "title": "In the second scenario light from air hits",
+          "title": "Obtain the result",
           "content": "In the second scenario, light from air hits at angle of incidence $90^\\circ-\\alpha$ from the normal, refracting to angle $90^\\circ-\\beta$ from the normal in the liquid: $\\sin(90^\\circ-\\alpha)=n\\sin(90^\\circ-\\beta) \\Rightarrow \\cos\\alpha=\\dfrac{1}{\\cos\\alpha}\\cos\\beta \\Rightarrow \\cos\\beta=\\cos^2\\alpha$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   }
 ]

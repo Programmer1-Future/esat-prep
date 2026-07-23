@@ -24,14 +24,16 @@
       "steps": [
         {
           "title": "Square the fraction",
-          "content": "$$\\left(\\dfrac{3x^{1/2}z}{y^3}\\right)^2 = \\dfrac{9xz^2}{y^6}$$"
+          "content": "$\\left(\\dfrac{3x^{1/2}z}{y^3}\\right)^2 = \\dfrac{9xz^2}{y^6}$"
         },
         {
-          "title": "Multiply by the outer y",
-          "content": "$$y \\cdot \\dfrac{9xz^2}{y^6} = \\dfrac{9xz^2}{y^5}$$"
+          "title": "Obtain the result",
+          "content": "$y \\cdot \\dfrac{9xz^2}{y^6} = \\dfrac{9xz^2}{y^5}$"
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $$\\left(\\dfrac{3x^{1/2}z}{y^3}\\right)^2 = \\dfrac{9xz^2}{y^6}$$"
   },
   {
     "id": "ENGAA-2022-PHY-001",
@@ -67,7 +69,8 @@
           "content": "Force $F = BIL = 0.15\\times\\frac{2}{9}\\times0.18 = 0.0060\\,\\text{N}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-002",
@@ -132,7 +135,9 @@
         -2,
         5
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: expand: $\\frac{15}{4}-\\frac{3x}{4} - 3+\\frac{x}{2} - x < 0$."
   },
   {
     "id": "ENGAA-2022-PHY-002",
@@ -160,7 +165,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Each resistor dissipates at V so",
+          "title": "Set up",
           "content": "Each resistor dissipates $0.075\\,\\text{W}$ at 6.0 V, so $R = V^2/P = 36/0.075 = 480\\,\\Omega$."
         },
         {
@@ -172,7 +177,8 @@
           "content": "Charge in $360\\,\\text{s}$: $Q = It = 0.025\\times360 = 9.0\\,\\text{C}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-003",
@@ -199,7 +205,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Work backwards Wed Tue Tue",
+          "title": "Set up",
           "content": "Work backwards: Wed $=0.7\\times$Tue$=84\\Rightarrow$ Tue$=120$."
         },
         {
@@ -211,7 +217,9 @@
           "content": "Mon$=0.5\\times$Sun$\\Rightarrow$Sun$=200$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: work backwards: Wed $=0.7\\times$Tue$=84\\Rightarrow$ Tue$=120$."
   },
   {
     "id": "ENGAA-2022-PHY-003",
@@ -237,19 +245,20 @@
     "solution": {
       "steps": [
         {
-          "title": "The distance corresponds to half the speed times",
+          "title": "Set up",
           "content": "The distance corresponds to half the speed times the time difference between the two reflection peaks read from the graph: $d = \\tfrac12 v \\Delta t$."
         },
         {
-          "title": "Using the graph values consistent with the answer",
-          "content": "Using the graph values consistent with the answer key, $\\Delta t = 0.08\\,\\text{ms}$, giving $d = \\tfrac12\\times5000\\times0.00008"
+          "title": "Work through",
+          "content": "Using the graph values consistent with the answer key, $\\Delta t = 0.08\\,\\text{ms}$, giving $d = \\tfrac12\\times5000\\times0.00008$"
         },
         {
           "title": "Simplify to the result",
-          "content": "= 0.2\\,\\text{m}$."
+          "content": "= 0.$2\\,\\text{m}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-004",
@@ -276,19 +285,21 @@
     "solution": {
       "steps": [
         {
-          "title": "X x x x x x x x",
+          "title": "Set up",
           "content": "5x^2-17x-12=(5x+3)(x-4); 25x^2-9=(5x-3)(5x+3); x^2+x-12=(x+4)(x-3); x^2-x-6=(x-3)(x+2)."
         },
         {
-          "title": "Expression x x x x x x x",
+          "title": "Work through",
           "content": "Expression = [(5x+3)(x-4)/((5x-3)(5x+3))] / [(x+4)(x-3)/((x-3)(x+2))] = [(x-4)/(5x-3)] * [(x+2)/(x+4)]"
         },
         {
-          "title": "X x x x",
-          "content": "= (x-4)(x+2)/((5x-3)(x+4))."
+          "title": "Obtain the result",
+          "content": "$= (x-4)(x+2)/((5x-3)(x+4))$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: 5x^2-17x-12=(5x+3)(x-4); 25x^2-9=(5x-3)(5x+3); x^2+x-12=(x+4)(x-3); x^2-x-6=(x-3)(x+2)."
   },
   {
     "id": "ENGAA-2022-PHY-004",
@@ -320,7 +331,7 @@
           "content": "Energy input $= 800\\times1800 = 1{,}440{,}000\\,\\text{J}$."
         },
         {
-          "title": "Useful output of this",
+          "title": "Work through",
           "content": "Useful output $=60\\%$ of this $=864{,}000\\,\\text{J}$."
         },
         {
@@ -328,7 +339,8 @@
           "content": "Wasted $=1{,}440{,}000-864{,}000=576{,}000\\,\\text{J}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-005",
@@ -366,11 +378,13 @@
           "content": "Then $2x-1=21$ and $x+1=12$."
         },
         {
-          "title": "With PQ as the shorter labelled side width",
+          "title": "Obtain the result",
           "content": "With PQ as the shorter labelled side (width) and PS as the longer side, PQ:PS $=12:21=4:7$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $(2x+2)(x+4)=360 \\Rightarrow 2x^2+10x+8=360 \\Rightarrow x^2+5x-176=0$."
   },
   {
     "id": "ENGAA-2022-PHY-005",
@@ -396,15 +410,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Read the lamp s current at V from",
+          "title": "Set up",
           "content": "Read the lamp's current at 6.0 V from the graph (parallel case, full 6.0 V across the lamp) to get $one=0.35\\,\\text{A}$."
         },
         {
-          "title": "For the series case the resistor carries A",
+          "title": "Obtain the result",
           "content": "For the series case, the resistor carries 0.18 A; read the resistor's line to find its pd at 0.18 A, then $V_{lamp}=6.0-V_{resistor}$, giving $V=1.6\\,\\text{V}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-006",
@@ -432,11 +447,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Drop a perpendicular from Q to PS",
+          "title": "Set up",
           "content": "Drop a perpendicular from Q to PS."
         },
         {
-          "title": "Using angle P and PQ the height and",
+          "title": "Work through",
           "content": "Using angle $P = 30^\\circ$ and $PQ = 40$, the height and horizontal offset are found via trigonometry; combined with $\\tan(\\angle RSQ)=5/8$ to find the remaining horizontal segment, $PS$."
         },
         {
@@ -444,7 +459,9 @@
           "content": "$PS = 25 + 40\\sqrt{3}$ m."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: drop a perpendicular from Q to PS."
   },
   {
     "id": "ENGAA-2022-PHY-006",
@@ -469,19 +486,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Wavelength so period",
+          "title": "Set up",
           "content": "Wavelength $\\lambda=4.0\\,\\text{m}$, so period $T=\\lambda/v=4/500=0.008\\,\\text{s}=8\\,\\text{ms}$."
         },
         {
-          "title": "At the phase is of a cycle from",
+          "title": "Work through",
           "content": "At $t=7\\,\\text{ms}$, the phase is $7/8$ of a cycle $=315^\\circ$ from the starting crest."
         },
         {
-          "title": "Displacement which lies between and mm above equilibrium",
+          "title": "Obtain the result",
           "content": "Displacement $=A\\cos(315^\\circ)=6.0\\times0.707\\approx4.2\\,\\text{mm}$, which lies between 0 and 6.0 mm above equilibrium."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-007",
@@ -521,7 +539,9 @@
           "content": "Setting cylinder SA $=4\\times54r^2=216r^2$: $2\\pi r^2+2\\pi rh=216r^2 \\Rightarrow h=\\dfrac{216r^2-2\\pi r^2}{2\\pi r}=r\\left(\\dfrac{108}{\\pi}-1\\right)$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: cylinder SA $=2\\pi r^2+2\\pi rh$."
   },
   {
     "id": "ENGAA-2022-PHY-007",
@@ -546,7 +566,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Heat lost by metal heat gained by water",
+          "title": "Set up",
           "content": "Heat lost by metal = heat gained by water: $0.05\\times350\\times(T-26)=0.1\\times4200\\times6$."
         },
         {
@@ -554,7 +574,8 @@
           "content": "So $T-26=\\dfrac{2520}{17.5}=144$, giving $T=170^\\circ\\text{C}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-008",
@@ -588,7 +609,9 @@
           "content": "Multiplying out: $x(1-2y^3)=5(1-2y^3)-(2y^3+1) \\Rightarrow x-2xy^3=4-12y^3 \\Rightarrow y^3(12-2x)=4-x \\Rightarrow y^3=\\dfrac{x-4}{2x-12} \\Rightarrow y=\\sqrt[3]{\\dfrac{x-4}{2x-12}}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $x=5-\\dfrac{2y^3+1}{1-2y^3}$."
   },
   {
     "id": "ENGAA-2022-PHY-008",
@@ -614,15 +637,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "The magnet s field gradient is steepest close",
+          "title": "Obtain the result",
           "content": "The magnet's field gradient is steepest close to the coil (position X) and shallow far away (position Y), so even though velocity is a square wave, induced EMF (which depends on rate of flux change, i.e. field gradient x velocity) decays as the magnet moves away from X to Y, then grows in magnitude (more negative) as it approaches X again on the return: starting high positive, decaying curving toward zero, a small step down to slightly negative, then curving further to more negative by the end."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-009",
@@ -649,19 +673,21 @@
     "solution": {
       "steps": [
         {
-          "title": "There are equally likely triples from",
+          "title": "Set up",
           "content": "There are $\\binom{5}{3}=10$ equally likely triples from $\\{1,2,3,4,5\\}$."
         },
         {
-          "title": "A triple forms a right angled triangle exactly",
+          "title": "Work through",
           "content": "A triple forms a right-angled triangle exactly when it is a Pythagorean triple, so test each: only $(3,4,5)$ works, since $3^2+4^2=9+16=25=5^2$."
         },
         {
-          "title": "That is one favourable outcome out of ten",
+          "title": "Obtain the result",
           "content": "That is one favourable outcome out of ten, so the probability is $\\dfrac{1}{10}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: there are $\\binom{5}{3}=10$ equally likely triples from $\\{1,2,3,4,5\\}$."
   },
   {
     "id": "ENGAA-2022-PHY-009",
@@ -699,7 +725,8 @@
           "content": "Height $h=\\dfrac{0.54}{0.02\\times10}=2.7\\,\\text{m}=270\\,\\text{cm}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M1-010",
@@ -727,7 +754,7 @@
     "solution": {
       "steps": [
         {
-          "title": "The total displacement is",
+          "title": "Set up",
           "content": "The total displacement is $(3-(-1), 2-5)=(4,-3)$."
         },
         {
@@ -735,7 +762,7 @@
           "content": "So $3p+q=4$ and $-4p-2q=-3$."
         },
         {
-          "title": "From the first substituting",
+          "title": "Simplify",
           "content": "From the first, $q=4-3p$; substituting: $4p+2(4-3p)=3 \\Rightarrow -2p+8=3 \\Rightarrow p=2.5$."
         },
         {
@@ -743,7 +770,9 @@
           "content": "Then $q=4-7.5=-3.5$, so $p+q=-1$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: the total displacement is $(3-(-1), 2-5)=(4,-3)$."
   },
   {
     "id": "ENGAA-2022-PHY-010",
@@ -769,7 +798,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Additional pressure from piston",
+          "title": "Set up",
           "content": "Additional pressure from piston: $\\Delta P = mg/A = (50\\times10)/0.02=25{,}000\\,\\text{Pa}$."
         },
         {
@@ -777,11 +806,12 @@
           "content": "New pressure $=100{,}000+25{,}000=125{,}000\\,\\text{Pa}$."
         },
         {
-          "title": "Since constant density pressure Boyle s law",
+          "title": "Obtain the result",
           "content": "Since $T$ constant, density $\\propto$ pressure (Boyle's law: $\\rho_2=\\rho_1\\times P_2/P_1=1.20\\times125000/100000=1.50\\,\\text{kg/m}^3$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-001",
@@ -807,11 +837,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Rewrite the integrand as powers of x",
+          "title": "Set up",
           "content": "$\\dfrac{2x^2-3}{x\\sqrt{x}}=2x^{1/2}-3x^{-3/2}$."
         },
         {
-          "title": "Integral x x",
+          "title": "Work through",
           "content": "Integral = (4/3)x^(3/2)+6x^(-1/2)."
         },
         {
@@ -827,7 +857,8 @@
           "content": "Difference = 41/3-22/3=19/3."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-011",
@@ -853,7 +884,7 @@
     "solution": {
       "steps": [
         {
-          "title": "With three full waves six half wavelengths fitting",
+          "title": "Set up",
           "content": "With three full waves (six half-wavelengths) fitting in 150 cm, $\\lambda = 150/3 = 50\\,\\text{cm}=0.5\\,\\text{m}$."
         },
         {
@@ -861,7 +892,8 @@
           "content": "Frequency $f=v/\\lambda=300/0.5=600\\,\\text{Hz}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-002",
@@ -887,7 +919,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Since lies on the circle this gives so",
+          "title": "Set up",
           "content": "Since $(x,y)$ lies on the circle $(x-5)^2+y^2=25$, this gives $y^2 = 25-(x-5)^2=10x-x^2$, so $y=\\sqrt{10x-x^2}$."
         },
         {
@@ -895,7 +927,8 @@
           "content": "Triangle area $=\\tfrac12\\times\\text{base}\\times\\text{height}=\\tfrac12\\times10\\times y = 5\\sqrt{10x-x^2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-012",
@@ -923,15 +956,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Using so is inversely proportional to",
+          "title": "Set up",
           "content": "Using $v^2=2gh \\Rightarrow h=v^2/(2g)$, so $h$ is inversely proportional to $g$."
         },
         {
-          "title": "Since is the same",
+          "title": "Obtain the result",
           "content": "Since $v$ is the same, $h_{Moon}=h\\times\\dfrac{g_{Earth}}{g_{Moon}}=h\\times\\dfrac{10}{1.6}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-003",
@@ -957,31 +991,32 @@
     "solution": {
       "steps": [
         {
-          "title": "Length ratio W X gives volume ratio W",
+          "title": "Set up",
           "content": "Length ratio W:X = 1:2 gives volume ratio W:X = $1:8$."
         },
         {
-          "title": "Surface area ratio X Y gives length ratio",
+          "title": "Work through",
           "content": "Surface area ratio X:Y = 2:1 gives length ratio X:Y = $\\sqrt{2}:1$, so volume ratio X:Y = $2\\sqrt{2}:1$."
         },
         {
-          "title": "Setting W X then Y",
+          "title": "Simplify",
           "content": "Setting W=1, X=8, then Y $= 8/(2\\sqrt{2})\\approx2.83$."
         },
         {
-          "title": "Volume ratio Y Z gives Z",
+          "title": "Obtain the result",
           "content": "Volume ratio Y:Z=1:2 gives Z $\\approx5.66$."
         },
         {
-          "title": "Increasing order W Y Z X i e",
+          "title": "Obtain the result",
           "content": "Increasing order: W(1) < Y(2.83) < Z(5.66) < X(8), i.e."
         },
         {
-          "title": "W Y Z X",
+          "title": "Obtain the result",
           "content": "W Y Z X."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-013",
@@ -1007,19 +1042,20 @@
     "solution": {
       "steps": [
         {
-          "title": "The reflected ray makes angle with the normal",
+          "title": "Set up",
           "content": "The reflected ray makes angle $\\theta$ with the normal (law of reflection)."
         },
         {
-          "title": "Since the reflected and refracted rays are perpendicular",
+          "title": "Work through",
           "content": "Since the reflected and refracted rays are perpendicular, the refraction angle $r=90^\\circ-\\theta$."
         },
         {
-          "title": "By Snell s law",
+          "title": "Obtain the result",
           "content": "By Snell's law, $n=\\dfrac{\\sin\\theta}{\\sin r}=\\dfrac{\\sin\\theta}{\\sin(90^\\circ-\\theta)}=\\dfrac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-004",
@@ -1053,7 +1089,8 @@
           "content": "So the expression $=\\dfrac{4(1+\\sqrt{5})^2}{(1+\\sqrt{5})^3}=\\dfrac{4}{1+\\sqrt{5}}=\\dfrac{4(\\sqrt{5}-1)}{(\\sqrt{5}+1)(\\sqrt{5}-1)}=\\dfrac{4(\\sqrt{5}-1)}{4}=\\sqrt{5}-1$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-014",
@@ -1081,23 +1118,24 @@
     "solution": {
       "steps": [
         {
-          "title": "Which increases linearly with time constant rate statement",
+          "title": "Set up",
           "content": "$v=dx/dt=a+2bt$, which increases linearly with time (constant rate) — statement 1 true."
         },
         {
-          "title": "Acceleration is constant so resultant force is constant",
+          "title": "Work through",
           "content": "Acceleration $=dv/dt=2b$ is constant, so resultant force $F=m(2b)$ is constant, not increasing — statement 2 false."
         },
         {
-          "title": "Power increases with time since increases while is",
+          "title": "Simplify",
           "content": "Power $=Fv=2mb(a+2bt)$ increases with time since $v$ increases while $F$ is constant — statement 3 true."
         },
         {
-          "title": "So statements and only",
+          "title": "Obtain the result",
           "content": "So statements 1 and 3 only."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-005",
@@ -1123,7 +1161,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Each is a geometric series starting at",
+          "title": "Set up",
           "content": "Each is a geometric series starting at $r=2$: $\\sum_{r=2}^\\infty \\frac{1}{k^r} = \\dfrac{1/k^2}{1-1/k}$."
         },
         {
@@ -1143,7 +1181,8 @@
           "content": "Sum $=\\dfrac12+\\dfrac16+\\dfrac1{12}=\\dfrac{6}{12}+\\dfrac{2}{12}+\\dfrac{1}{12}=\\dfrac{9}{12}=\\dfrac34$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-015",
@@ -1173,7 +1212,7 @@
           "content": "$R=\\rho L/A$."
         },
         {
-          "title": "The second wire has and half diameter quarter",
+          "title": "Work through",
           "content": "The second wire has $L_2=2L$ and $A_2=A/4$ (half diameter $\\Rightarrow$ quarter area), so $R_2=\\rho(2L)/(A/4)=8\\rho L/A=8R$."
         },
         {
@@ -1181,7 +1220,8 @@
           "content": "In parallel: $R_{total}=\\dfrac{R\\times8R}{R+8R}=\\dfrac{8R}{9}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-006",
@@ -1219,7 +1259,8 @@
           "content": "Since $u=x^2\\ge0$, this gives $0\\le x^2<3$, i.e. $-\\sqrt{3}<x<\\sqrt{3}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-016",
@@ -1244,11 +1285,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Water mass weight bucket weight",
+          "title": "Set up",
           "content": "Water mass $=1000\\times0.015=15\\,\\text{kg}$, weight $=150\\,\\text{N}$; bucket weight $=12\\,\\text{N}$."
         },
         {
-          "title": "Per revolution input work and output useful work",
+          "title": "Work through",
           "content": "Per revolution, input work $\\propto 250\\times0.6$ and output (useful) work $\\propto 150\\times0.2$ (same rope displacement factor of $2\\pi$ cancels)."
         },
         {
@@ -1256,7 +1297,8 @@
           "content": "Efficiency $=\\dfrac{150\\times0.2}{250\\times0.6}=\\dfrac{30}{150}=0.20=20.0\\%$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-007",
@@ -1295,7 +1337,8 @@
           "content": "Differentiating: $\\dfrac{dA}{dr}=12-2r=0 \\Rightarrow r=6$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-017",
@@ -1323,15 +1366,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "Taking moments about the pivot at distance from",
+          "title": "Obtain the result",
           "content": "Taking moments about the pivot at distance $d$ from the 0 cm mark, with the ruler's own mass acting at 50 cm: $20(0)+100(50)+80(100)=200d \\Rightarrow d=\\dfrac{5000+8000}{200}=65\\,\\text{cm}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-008",
@@ -1359,11 +1403,11 @@
     "solution": {
       "steps": [
         {
-          "title": "So roots are giving",
+          "title": "Set up",
           "content": "$y=x^2-x-6=(x-3)(x+2)$, so roots are $x=-2,3$, giving $AB=5$."
         },
         {
-          "title": "The minimum is at so the vertical distance",
+          "title": "Work through",
           "content": "The minimum is at $x=\\tfrac12$: $y=\\tfrac14-\\tfrac12-6=-6.25$, so the vertical distance from AB to the minimum (and hence to DE) is $6.25$."
         },
         {
@@ -1372,7 +1416,8 @@
         }
       ]
     },
-    "diagram_skipped": "quadratic + rectangle construction — better as steps-only without inventing scale"
+    "diagram_skipped": "quadratic + rectangle construction — better as steps-only without inventing scale",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-018",
@@ -1400,15 +1445,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "Applying Kirchhoff s voltage and current laws to",
+          "title": "Obtain the result",
           "content": "Applying Kirchhoff's voltage and current laws to the two-loop circuit with the given branch resistances and EMFs yields a current of 2.0 A in the 3.0 V battery branch, directed from Y to X."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-009",
@@ -1433,15 +1479,16 @@
     "solution": {
       "steps": [
         {
-          "title": "The line through and has equation slope",
+          "title": "Set up",
           "content": "The line through $(0,2a)$ and $(a,0)$ has equation $2x+y-2a=0$ (slope $-2$)."
         },
         {
-          "title": "Perpendicular distance from",
+          "title": "Obtain the result",
           "content": "Perpendicular distance from $P(a,2a)$: $d=\\dfrac{|2(a)+2a-2a|}{\\sqrt{4+1}}=\\dfrac{2a}{\\sqrt{5}}=\\dfrac{2\\sqrt{5}}{5}a$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-019",
@@ -1468,7 +1515,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Taking the direction of mass as positive momentum",
+          "title": "Set up",
           "content": "Taking the direction of mass $m$ as positive, momentum conservation: $m(4v)+2m(-v)=3m\\,v_f \\Rightarrow v_f=\\dfrac{2v}{3}$."
         },
         {
@@ -1484,7 +1531,8 @@
           "content": "Loss $=9mv^2-\\dfrac23mv^2=\\dfrac{25}{3}mv^2$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-M2-010",
@@ -1514,11 +1562,11 @@
           "content": "$(\\sqrt{2})^{x+6}=2^{(x+6)/2}$."
         },
         {
-          "title": "Let so and",
+          "title": "Work through",
           "content": "Let $t=2^{x/2}$, so $2^x=t^2$ and $2^{(x+6)/2}=8t$."
         },
         {
-          "title": "The equation becomes or",
+          "title": "Simplify",
           "content": "The equation becomes $t^2-8t+12=0 \\Rightarrow (t-2)(t-6)=0 \\Rightarrow t=2$ or $t=6$."
         },
         {
@@ -1530,7 +1578,8 @@
           "content": "Sum $=2+(2+2\\log_2 3)=4+2\\log_2 3$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2022-PHY-020",
@@ -1558,7 +1607,7 @@
     "solution": {
       "steps": [
         {
-          "title": "For a cable hanging under its own weight",
+          "title": "Set up",
           "content": "For a cable hanging under its own weight, the tension varies linearly from 0 at the bottom to $W=mg$ at the top, so the effective average force is $W/2$."
         },
         {
@@ -1566,6 +1615,7 @@
           "content": "Extension $=\\dfrac{(W/2)L}{AE}=\\dfrac{(640/2)\\times40}{2.0\\times10^{-4}\\times2.0\\times10^{11}}=\\dfrac{12800}{4\\times10^7}=3.2\\times10^{-4}\\,\\text{m}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   }
 ]

@@ -186,6 +186,7 @@ def main():
                 "quality_tier": question.get("quality_tier"),
                 "spec_status": question.get("spec_status"),
                 "solution": question.get("solution"),
+                "hint": question.get("hint"),
             }
             if question.get("diagram") is not None:
                 record["diagram"] = question["diagram"]

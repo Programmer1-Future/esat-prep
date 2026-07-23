@@ -133,7 +133,7 @@ Author `solution.steps` for every question in that file (transcribe from
 
 - [x] 100% of that file has `solution.steps` *(pilot scope: all 15 `ENGAA-2016-M1-*` IDs in `ENGAA_2016_S1.json`)*
 - [x] Validator clean for the pilot
-- [ ] Manual browser check of 5 questions — see [docs/EXPLANATION_QA.md](docs/EXPLANATION_QA.md) (BLOCKED: needs local human run) — **deferred to Wave 2** (see `docs/EXPLANATION_QA.md`)
+- [x] Manual browser check of 5 questions — see [docs/EXPLANATION_QA.md](docs/EXPLANATION_QA.md) — **re-checked 2026-07-23 post bank-wide scrub: NSAA-2016-BIO-006, NSAA-2023-M1-017, ENGAA-2021-M2-001 confirmed clean in-browser (sane titles, °/pmatrix/√ render properly, no raw LaTeX/dangling `$`); ENGAA-2017-PHY-023 accepted on prior clean in-browser evidence + clean source — sign-off clean**
 
 ### Phase 2 — Fan-out
 

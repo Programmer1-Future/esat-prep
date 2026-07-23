@@ -1,0 +1,177 @@
+[
+  {
+    "id": "GEN-CHEM-KINETIC-001",
+    "source": "ESATprep",
+    "year": 2026,
+    "paper": "generated",
+    "module": "chemistry",
+    "topic": "chem-kinetic",
+    "subtopic": "Particle model / states of matter",
+    "difficulty": 2,
+    "origin": "generated",
+    "quality_tier": 1,
+    "spec_status": "on_spec",
+    "question": "In the particle model of matter, which statement correctly compares a liquid with a gas of the same substance at the same temperature?",
+    "options": {
+      "A": "Particles in the liquid have no kinetic energy; particles in the gas do.",
+      "B": "Particles in the liquid are typically closer together than particles in the gas.",
+      "C": "Particles in the liquid move only by vibration about fixed positions.",
+      "D": "Particles in the gas have stronger intermolecular forces than in the liquid.",
+      "E": "The average kinetic energy of particles is higher in the liquid than in the gas."
+    },
+    "answer": "B",
+    "hint": "Compare spacing and freedom of movement, not temperature.",
+    "solution": {
+      "steps": [
+        {
+          "title": "Recall the particle model",
+          "content": "In a liquid, particles are close (touching neighbours) but can move past each other. In a gas at the same temperature, particles are much farther apart on average."
+        },
+        {
+          "title": "Eliminate distractors",
+          "content": "Average kinetic energy depends on temperature, so it is the same for liquid and gas at the same temperature. Liquids are not fixed-lattice solids. Intermolecular forces are stronger in liquids than gases."
+        }
+      ]
+    }
+  },
+  {
+    "id": "GEN-CHEM-KINETIC-002",
+    "source": "ESATprep",
+    "year": 2026,
+    "paper": "generated",
+    "module": "chemistry",
+    "topic": "chem-kinetic",
+    "subtopic": "Brownian motion",
+    "difficulty": 3,
+    "origin": "generated",
+    "quality_tier": 1,
+    "spec_status": "on_spec",
+    "question": "Brownian motion of smoke particles in air is best explained by:",
+    "options": {
+      "A": "smoke particles being electrically charged and repelling each other",
+      "B": "uneven bombardment of smoke particles by fast-moving air molecules",
+      "C": "convection currents caused only by temperature differences in the room",
+      "D": "gravity pulling denser smoke particles downward in zig-zag paths",
+      "E": "smoke particles absorbing light and heating unevenly"
+    },
+    "answer": "B",
+    "hint": "Think about collisions with invisible air molecules.",
+    "solution": {
+      "steps": [
+        {
+          "title": "Link observation to molecular collisions",
+          "content": "Smoke particles are large enough to see but small enough that random collisions with air molecules are unbalanced at any instant, producing a jittery path."
+        },
+        {
+          "title": "Why not the alternatives",
+          "content": "Charge, convection, gravity, and heating can move particles, but they do not explain the characteristic random zig-zag of Brownian motion."
+        }
+      ]
+    }
+  },
+  {
+    "id": "GEN-CHEM-KINETIC-003",
+    "source": "ESATprep",
+    "year": 2026,
+    "paper": "generated",
+    "module": "chemistry",
+    "topic": "chem-kinetic",
+    "subtopic": "Gas pressure",
+    "difficulty": 2,
+    "origin": "generated",
+    "quality_tier": 1,
+    "spec_status": "on_spec",
+    "question": "According to the kinetic theory of gases, gas pressure on a container wall arises mainly from:",
+    "options": {
+      "A": "attractive forces between gas particles and the wall",
+      "B": "particles colliding with the wall and changing momentum",
+      "C": "particles vibrating within a fixed crystal lattice",
+      "D": "electrons flowing from the gas into the wall",
+      "E": "the weight of the gas resting on the bottom of the container only"
+    },
+    "answer": "B",
+    "hint": "Pressure is force per area — what force do particles exert on the wall?",
+    "solution": {
+      "steps": [
+        {
+          "title": "Momentum change at the wall",
+          "content": "Each collision with the wall changes the particle's momentum; the rate of momentum change is a force. Averaged over many collisions, this is the gas pressure."
+        },
+        {
+          "title": "Check the claim",
+          "content": "Attraction, lattice vibration, electron flow, and weight-only pictures do not match the kinetic-theory account of pressure throughout the gas."
+        }
+      ]
+    }
+  },
+  {
+    "id": "GEN-CHEM-AIR-001",
+    "source": "ESATprep",
+    "year": 2026,
+    "paper": "generated",
+    "module": "chemistry",
+    "topic": "chem-air-water",
+    "subtopic": "Composition of air",
+    "difficulty": 1,
+    "origin": "generated",
+    "quality_tier": 1,
+    "spec_status": "on_spec",
+    "question": "Which gas makes up the largest percentage by volume of dry air?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Carbon dioxide",
+      "C": "Nitrogen",
+      "D": "Argon",
+      "E": "Hydrogen"
+    },
+    "answer": "C",
+    "hint": "Recall the approximate percentages of the main gases in air.",
+    "solution": {
+      "steps": [
+        {
+          "title": "Recall dry-air composition",
+          "content": "Dry air is roughly 78% nitrogen, 21% oxygen, ~1% argon, and a small fraction of carbon dioxide and other gases."
+        },
+        {
+          "title": "Select the majority component",
+          "content": "Nitrogen is by far the largest component by volume."
+        }
+      ]
+    }
+  },
+  {
+    "id": "GEN-M1-UNITS-001",
+    "source": "ESATprep",
+    "year": 2026,
+    "paper": "generated",
+    "module": "maths1",
+    "topic": "m1-units",
+    "subtopic": "SI prefixes",
+    "difficulty": 1,
+    "origin": "generated",
+    "quality_tier": 1,
+    "spec_status": "on_spec",
+    "question": "How many millimetres are there in $2.5$ metres?",
+    "options": {
+      "A": "25",
+      "B": "250",
+      "C": "2500",
+      "D": "25000",
+      "E": "0.0025"
+    },
+    "answer": "C",
+    "hint": "Convert metres to millimetres using powers of ten.",
+    "solution": {
+      "steps": [
+        {
+          "title": "Use the milli prefix",
+          "content": "$1\\,\\mathrm{m} = 1000\\,\\mathrm{mm}$, so $2.5\\,\\mathrm{m} = 2.5 \\times 1000 = 2500\\,\\mathrm{mm}$."
+        },
+        {
+          "title": "Check scale",
+          "content": "A few metres should be thousands of millimetres, not tens or hundred-thousands."
+        }
+      ]
+    }
+  }
+]

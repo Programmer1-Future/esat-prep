@@ -24,7 +24,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Let adult price child price",
+          "title": "Set up",
           "content": "Let $a$ = adult price, $c$ = child price. $2a+3c=20$, $4a+4c=34 \\Rightarrow a+c=8.5$."
         },
         {
@@ -36,7 +36,9 @@
           "content": "Cost for 6 adults, 2 children $=6(5.5)+2(3)=33+6=39$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let $a$ = adult price, $c$ = child price."
   },
   {
     "id": "ENGAA-2020-PHY-001",
@@ -63,7 +65,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Energy absorbed by tip",
+          "title": "Set up",
           "content": "Energy absorbed by tip: $Q = mc\\Delta T = 0.002 \\times 400 \\times 200 = 160\\text{ J}$."
         },
         {
@@ -71,11 +73,12 @@
           "content": "Energy supplied: $P t = 30 \\times 50 = 1500\\text{ J}$."
         },
         {
-          "title": "Energy lost to surroundings",
+          "title": "Obtain the result",
           "content": "Energy lost to surroundings $= 1500 - 160 = 1340\\text{ J}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M1-002",
@@ -102,14 +105,16 @@
       "steps": [
         {
           "title": "Sum of requires or P P",
-          "content": "Sum of 5 requires (2,3) or (3,2). $P(2)=1/8$, $P(3)=4/8=1/2$. $P(2,3)+P(3,2) = 2 \\times \\frac{1}{8}\\times\\frac{4}{8} = \\frac{8}{64}"
+          "content": "Sum of 5 requires (2,3) or (3,2). $P(2)=1/8$, $P(3)=4/8=1/2$. $P(2,3)+P(3,2) = 2 \\times \\frac{1}{8}\\times\\frac{4}{8} = \\frac{8}{64}$"
         },
         {
           "title": "Obtain the result",
-          "content": "= \\frac{1}{8}$."
+          "content": "$= \\frac{1}{8}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: sum of 5 requires (2,3) or (3,2)."
   },
   {
     "id": "ENGAA-2020-PHY-002",
@@ -135,19 +140,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Mass number drops by so number of alpha",
+          "title": "Set up",
           "content": "Mass number drops by 238-206=32, so number of alpha particles $=32/4=8$."
         },
         {
-          "title": "Each alpha reduces atomic number by giving a",
+          "title": "Work through",
           "content": "Each alpha reduces atomic number by 2, giving a total drop of 16, but actual atomic number drop is $92-82=10$."
         },
         {
-          "title": "Each beta increases atomic number by so number",
+          "title": "Obtain the result",
           "content": "Each beta increases atomic number by 1, so number of betas $= 16-10=6$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M1-003",
@@ -177,7 +183,7 @@
           "content": "Gradients: line 1: $m=-1/3$; line 2: $m=1/3$; line 3: $m=3$; line 4: $m=-2/3$."
         },
         {
-          "title": "Perpendicular requires product of gradients",
+          "title": "Work through",
           "content": "Perpendicular requires product of gradients $=-1$."
         },
         {
@@ -185,7 +191,9 @@
           "content": "Lines 1 and 3: $(-1/3)(3)=-1$. ✓"
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: gradients: line 1: $m=-1/3$; line 2: $m=1/3$; line 3: $m=3$; line 4: $m=-2/3$."
   },
   {
     "id": "ENGAA-2020-PHY-003",
@@ -223,11 +231,12 @@
           "content": "Power wasted $=1.6\\times10^8$ W."
         },
         {
-          "title": "Energy wasted per minute J",
+          "title": "Obtain the result",
           "content": "Energy wasted per minute $=1.6\\times10^8 \\times 60 = 9.6\\times10^9$ J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-001",
@@ -259,7 +268,7 @@
           "content": "Let $u=\\dfrac{x}{4}+3$."
         },
         {
-          "title": "Then discriminant so giving or",
+          "title": "Work through",
           "content": "Then $2u^2-u-36=0$, discriminant $=1+288=289=17^2$, so $u=\\dfrac{1\\pm17}{4}$, giving $u=4.5$ or $u=-4$."
         },
         {
@@ -271,7 +280,8 @@
           "content": "Sum $=6+(-28)=-22$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-004",
@@ -299,7 +309,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Force on rod N only the cm rail",
+          "title": "Set up",
           "content": "Force on rod: $F=BIL = 0.50 \\times 2.4 \\times 0.12 = 0.144$ N (only the 12cm rail-separation length carries useful current in the field for horizontal motion)."
         },
         {
@@ -311,11 +321,12 @@
           "content": "Acceleration $a = F/m = 0.144/0.04 = 3.6\\text{ m/s}^2$."
         },
         {
-          "title": "Direction right determined by the current direction shown",
+          "title": "Obtain the result",
           "content": "Direction (right) determined by the current direction shown in the diagram via $F=IL\\times B$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-002",
@@ -348,7 +359,8 @@
           "content": "So $r=-27$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-005",
@@ -376,23 +388,24 @@
     "solution": {
       "steps": [
         {
-          "title": "Momentum kg m s",
+          "title": "Set up",
           "content": "Momentum: $p = 8(4)+2(-1) = 30$ kg m/s."
         },
         {
-          "title": "Combined mass kg so m s J KE",
-          "content": "Combined mass $=10$kg, so $v_f = 3.0$ m/s. $KE_i = \\frac{1}{2}(8)(4^2)+\\frac{1}{2}(2)(1^2)=64+1=65$ J. $KE_f"
+          "title": "Work through",
+          "content": "Combined mass $=10$kg, so $v_f = 3.0$ m/s. $KE_i = \\frac{1}{2}(8)(4^2)+\\frac{1}{2}(2)(1^2)=64+1=65$ J. KE_f"
         },
         {
           "title": "Simplify the expression",
-          "content": "= \\frac{1}{2}(10)(3^2)=45$ J."
+          "content": "$= \\frac{1}{2}(10)(3^2)=45$ J."
         },
         {
           "title": "Energy lost J",
           "content": "Energy lost $=65-45=20$ J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M1-004",
@@ -421,7 +434,7 @@
           "content": "$N = k/T^3$."
         },
         {
-          "title": "More means the new number is the original",
+          "title": "Work through",
           "content": "$250 = k/8^3 = k/512 \\Rightarrow k = 128000$. \"700% more\" means the new number is $8\\times$ the original: $N' = 2000$."
         },
         {
@@ -429,7 +442,9 @@
           "content": "$2000 = 128000/x^3 \\Rightarrow x^3 = 64 \\Rightarrow x = 4$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $N = k/T^3$."
   },
   {
     "id": "ENGAA-2020-PHY-006",
@@ -456,19 +471,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Constant speed phase s to s covers m",
+          "title": "Set up",
           "content": "Constant-speed phase (5s to 10s) covers $40-10=30$m in 5s, so $v=6.0$ m/s."
         },
         {
-          "title": "This is the velocity reached at the end",
+          "title": "Work through",
           "content": "This is the velocity reached at the end of acceleration (t=5s), starting from rest."
         },
         {
-          "title": "Using impulse momentum average force N",
+          "title": "Obtain the result",
           "content": "Using impulse–momentum: average force $=\\dfrac{m\\Delta v}{\\Delta t} = \\dfrac{800\\times 6.0}{5.0}=960$ N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M1-005",
@@ -493,7 +509,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Let pre sale price be",
+          "title": "Set up",
           "content": "Let pre-sale price be $P$."
         },
         {
@@ -501,7 +517,7 @@
           "content": "Sale price $S=0.75P$."
         },
         {
-          "title": "Customer s wrong estimate",
+          "title": "Simplify",
           "content": "Customer's (wrong) estimate $=1.25S = 1.25(0.75P) = 0.9375P$."
         },
         {
@@ -509,7 +525,9 @@
           "content": "Error $=P - 0.9375P = 0.0625P = 15 \\Rightarrow P = 240$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let pre-sale price be $P$."
   },
   {
     "id": "ENGAA-2020-PHY-007",
@@ -538,19 +556,20 @@
           "content": "Period $T=1/f=2.0$s."
         },
         {
-          "title": "The peak that passes P at t s",
+          "title": "Work through",
           "content": "The peak that passes P at t=0.80s is the one following the peak that passed Q at t=0, so it must reach Q at $t=0+T=2.0$s (successive peaks arrive at Q exactly one period apart)."
         },
         {
-          "title": "Travel time from P to Q for this",
+          "title": "Simplify",
           "content": "Travel time from P to Q for this peak $=2.0-0.80=1.2$s."
         },
         {
-          "title": "Speed m s",
+          "title": "Obtain the result",
           "content": "Speed $=6.0/1.2=5.0$ m/s."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-003",
@@ -578,19 +597,20 @@
     "solution": {
       "steps": [
         {
-          "title": "In right triangle PQS right angle at S",
+          "title": "Set up",
           "content": "In right triangle PQS (right angle at S): $QS = \\sqrt{PQ^2-PS^2} = \\sqrt{y^2-x^2}$."
         },
         {
-          "title": "In right triangle QRS right angle at S",
-          "content": "In right triangle QRS (right angle at S, angle QRS = 61^\\circ): $\\sin61^\\circ = \\dfrac{QS}{QR} \\Rightarrow z"
+          "title": "Work through",
+          "content": "In right triangle QRS (right angle at S, angle QRS = $61^{\\circ}$): $\\sin 61^{\\circ} = \\dfrac{QS}{QR} \\Rightarrow z$"
         },
         {
-          "title": "QR y x",
-          "content": "= QR = \\dfrac{\\sqrt{y^2-x^2}}{\\sin61^\\circ}$."
+          "title": "Obtain the result",
+          "content": "$QR = \\dfrac{\\sqrt{y^2-x^2}}{\\sin 61^{\\circ}}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-008",
@@ -619,11 +639,11 @@
           "content": "$KE_i=\\frac{1}{2}(80)(40^2)=64000$ J."
         },
         {
-          "title": "PE lost J",
+          "title": "Work through",
           "content": "PE lost $=mgh=80\\times10\\times2000=1{,}600{,}000$ J."
         },
         {
-          "title": "Total energy available J J",
+          "title": "Simplify",
           "content": "Total energy available $=64000+1600000=1{,}664{,}000$ J. $KE_f=\\frac{1}{2}(80)(5^2)=1000$ J."
         },
         {
@@ -631,7 +651,8 @@
           "content": "Work against drag $=1{,}664{,}000-1000=1{,}663{,}000$ J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-004",
@@ -659,15 +680,15 @@
     "solution": {
       "steps": [
         {
-          "title": "Distance between the points",
+          "title": "Set up",
           "content": "Distance between the points: $\\sqrt{(3-1)^2+(5-1)^2}=\\sqrt{4+16}=\\sqrt{20}=2\\sqrt{5}$."
         },
         {
-          "title": "If this segment is a side smallest square",
+          "title": "Work through",
           "content": "If this segment is a side (smallest square): perimeter $=4(2\\sqrt{5})=8\\sqrt{5}$."
         },
         {
-          "title": "If it is a diagonal largest square side",
+          "title": "Simplify",
           "content": "If it is a diagonal (largest square): side $=\\dfrac{2\\sqrt{5}}{\\sqrt{2}}=\\sqrt{10}$, perimeter $=4\\sqrt{10}$."
         },
         {
@@ -675,7 +696,8 @@
           "content": "Difference $=8\\sqrt{5}-4\\sqrt{10}=4(2\\sqrt{5}-\\sqrt{10})$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-009",
@@ -703,19 +725,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Initial extension is m storing elastic PE J",
+          "title": "Set up",
           "content": "Initial extension is $0.30-0.10=0.20$ m, storing elastic PE $=\\tfrac12kx^2=\\tfrac12(20)(0.20)^2=0.4$ J."
         },
         {
-          "title": "As the load rises m back to the",
+          "title": "Work through",
           "content": "As the load rises 0.20 m back to the natural length, it gains gravitational PE $=mgh=(0.050)(10)(0.20)=0.1$ J."
         },
         {
-          "title": "By energy conservation KE at the unstretched length",
+          "title": "Obtain the result",
           "content": "By energy conservation, KE at the unstretched length $=0.4-0.1=0.3$ J $=\\tfrac12mv^2=\\tfrac12(0.050)v^2$, giving $v^2=12$, so $v=\\sqrt{12}$ m/s."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-005",
@@ -745,11 +768,12 @@
           "content": "Sum of roots $=p/2$, product $=-2$. $(r_1-r_2)^2=(r_1+r_2)^2-4r_1r_2 = 36$."
         },
         {
-          "title": "So taking positive root",
+          "title": "Obtain the result",
           "content": "So $\\left(\\frac{p}{2}\\right)^2 - 4(-2) = 36 \\Rightarrow \\frac{p^2}{4}=28 \\Rightarrow p^2=112 \\Rightarrow p=4\\sqrt{7}$ (taking positive root)."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-010",
@@ -776,15 +800,16 @@
     "solution": {
       "steps": [
         {
-          "title": "With constant and decreasing at a constant rate",
+          "title": "Set up",
           "content": "$a = F/m$ with $F$ constant and $m$ decreasing at a constant rate."
         },
         {
-          "title": "As smaller values grows and since grows as",
+          "title": "Obtain the result",
           "content": "As $m\\to$ smaller values, $a=F/m$ grows, and since $\\frac{da}{dt} = \\frac{F}{m^2}\\left|\\frac{dm}{dt}\\right|$ grows as $m$ decreases (because $1/m^2$ increases), the acceleration increases at an increasing rate."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-006",
@@ -808,7 +833,7 @@
     "solution": {
       "steps": [
         {
-          "title": "By the factor theorem",
+          "title": "Set up",
           "content": "By the factor theorem: $f(1)=1+a+b-12+4=0 \\Rightarrow a+b=7$. $f(2)=16+8a+4b-24+4=0 \\Rightarrow 8a+4b=4 \\Rightarrow 2a+b=1$."
         },
         {
@@ -816,7 +841,8 @@
           "content": "Subtracting: $a=1-7=-6$, then $b=7-(-6)=13$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-011",
@@ -844,7 +870,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Energy conservation gravity s work positive as block",
+          "title": "Set up",
           "content": "Energy conservation: $mgh$ (gravity's work, positive as block descends) $= \\Delta KE + W_{friction}$, where $\\Delta KE = \\frac{1}{2}mv_2^2-\\frac{1}{2}mv_1^2$."
         },
         {
@@ -852,7 +878,8 @@
           "content": "So $W_{friction} = mgh - \\frac{1}{2}m(v_2^2-v_1^2)$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-007",
@@ -878,16 +905,26 @@
     "solution": {
       "steps": [
         {
-          "title": "For so area x x dx x x",
-          "content": "For $x\\in[1,3]$, $\\frac{1}{2}x^2 > -x$, so area $=\\int_1^3\\left(\\frac{1}{2}x^2-(-x)\\right)dx = \\int_1^3\\left(\\frac{x^2}{2}+x\\right)dx = \\left[\\frac{x^3}{6}+\\frac{x^2}{2}\\right]_1^3"
+          "title": "Set up",
+          "content": "For $x\\in[1,3]$, $\\frac{1}{2}x^2 > -x$, so area $=\\int$$_1^3\\left(\\frac{1}{2}x^2-(-x)\\right)dx = \\int$$_1^3\\left(\\frac{x^2}{2}+x\\right)dx = \\left[\\frac{x^3}{6}+\\frac{x^2}{2}\\right]$_1^3"
         },
         {
           "title": "Obtain the result",
-          "content": "= \\left(\\frac{27}{6}+\\frac{9}{2}\\right)-\\left(\\frac{1}{6}+\\frac{1}{2}\\right)=9-\\frac{2}{3}=\\frac{25}{3}$."
+          "content": "$= \\left(\\frac{27}{6}+\\frac{9}{2}\\right)-\\left(\\frac{1}{6}+\\frac{1}{2}\\right)=9-\\frac{2}{3}=\\frac{25}{3}$."
         }
       ]
     },
-    "diagram_skipped": "need confirmed expr and limits from stem before authoring area givens"
+    "spec_status": "on_spec",
+    "diagram": {
+      "case": "area-under-curve",
+      "after_step": 1,
+      "expr": "0.5*x^2",
+      "expr2": "-x",
+      "range": [
+        1,
+        3
+      ]
+    }
   },
   {
     "id": "ENGAA-2020-PHY-012",
@@ -915,15 +952,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Pressure is equal throughout N",
+          "title": "Set up",
           "content": "Pressure is equal throughout: $F_Y = F_X\\left(\\frac{A_Y}{A_X}\\right)=F_X\\left(\\frac{d_Y}{d_X}\\right)^2 = 36\\times\\left(\\frac{12}{4}\\right)^2=36\\times9=324$ N."
         },
         {
-          "title": "Volume conservation cm",
+          "title": "Obtain the result",
           "content": "Volume conservation: $d_Y = d_X\\left(\\frac{A_X}{A_Y}\\right)=5.4/9=0.60$ cm."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-008",
@@ -947,15 +985,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "Reflecting in swaps and which has gradient",
+          "title": "Obtain the result",
           "content": "Reflecting $y=mx+c$ in $y=x$ swaps $x$ and $y$: $x=my+c \\Rightarrow y=\\frac{x-c}{m}$, which has gradient $\\frac{1}{m}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-013",
@@ -983,19 +1022,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Frequency is unchanged when a wave crosses into",
+          "title": "Set up",
           "content": "Frequency is unchanged when a wave crosses into a new medium, and is read from the period shown on the time graph."
         },
         {
-          "title": "Speed in water m s",
+          "title": "Work through",
           "content": "Speed in water $=0.2\\times300=60$ m/s."
         },
         {
-          "title": "Wavelength in water using the period read from",
+          "title": "Obtain the result",
           "content": "Wavelength in water $=v_{water}\\times T = v_{water}/f$, using the period read from the graph."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-009",
@@ -1035,7 +1075,8 @@
           "content": "Subtracting: $20d=-5 \\Rightarrow d=-0.25$; $2a=5-19(-0.25)=9.75$. $S_{100}=50(2a+99d)=50(9.75-24.75)=50(-15)=-750$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-014",
@@ -1062,15 +1103,15 @@
     "solution": {
       "steps": [
         {
-          "title": "Only the length of wire within the cm",
-          "content": "Only the length of wire within the 4.0cm pole gap experiences a force: $F = NBIl = 50\\times0.050\\times0.60\\times0.04"
+          "title": "Set up",
+          "content": "Only the length of wire within the 4.0cm pole gap experiences a force: $F = NBIl = 50\\times0.050\\times0.60\\times0.04$"
         },
         {
           "title": "Simplify the expression",
-          "content": "= 0.06$ N."
+          "content": "$= 0.06 N$."
         },
         {
-          "title": "This force acts on the cm side at",
+          "title": "Simplify",
           "content": "This force acts on the 20cm side at a distance from the axle of half the 30cm dimension, $r=0.15$m."
         },
         {
@@ -1078,7 +1119,8 @@
           "content": "Moment $=F\\times r = 0.06\\times0.15=0.009$ N·m $=0.90$ N·cm."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-010",
@@ -1107,11 +1149,11 @@
           "content": "$c=4-2m$ (from $L$ through (2,4))."
         },
         {
-          "title": "Perpendicular line has gradient and meets the y",
+          "title": "Work through",
           "content": "Perpendicular line has gradient $-1/m$ and meets the y-axis at $(0, 4+2/m)$."
         },
         {
-          "title": "The base of the triangle on the y",
+          "title": "Simplify",
           "content": "The base of the triangle on the y-axis has length $\\left|(4+2/m)-(4-2m)\\right|=\\left|2m+2/m\\right|$, and the height (horizontal distance to x=2) is 2."
         },
         {
@@ -1127,7 +1169,8 @@
           "content": "Larger value: $m=2$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-015",
@@ -1154,7 +1197,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Using m s",
+          "title": "Set up",
           "content": "Using $v^2=u^2+2as$: $a=\\dfrac{7.0^2-3.0^2}{2\\times5.0}=\\dfrac{40}{10}=4.0$ m/s^2."
         },
         {
@@ -1162,11 +1205,12 @@
           "content": "Net force $=ma=3.0\\times4.0=12$N."
         },
         {
-          "title": "Since the slope is smooth N",
+          "title": "Obtain the result",
           "content": "Since the slope is smooth: $F_{applied}-W_{component}=F_{net} \\Rightarrow W_{component}=30-12=18$N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-011",
@@ -1201,11 +1245,12 @@
           "content": "Sums to infinity: $S=\\frac{a}{1-r}$."
         },
         {
-          "title": "Difference taking for the positive case",
+          "title": "Obtain the result",
           "content": "Difference: $\\left|\\frac{a}{1-r}-\\frac{a}{1+r}\\right| = \\left|\\frac{2ar}{1-r^2}\\right| = \\frac{2(8)r}{1/2}=32r$ (taking $r=1/\\sqrt{2}$ for the positive case) $=32/\\sqrt{2}=16\\sqrt{2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-016",
@@ -1237,7 +1282,7 @@
           "content": "Resistance per wire: $R=\\dfrac{\\rho L}{A}=\\dfrac{2.5\\times10^{-7}\\times8000}{1.0\\times10^{-4}}=20\\ \\Omega$."
         },
         {
-          "title": "Total resistance two wires there and back",
+          "title": "Work through",
           "content": "Total resistance (two wires, there and back) $=40\\ \\Omega$."
         },
         {
@@ -1249,7 +1294,8 @@
           "content": "Power wasted $=one^2R=5^2\\times40=1000$W."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-012",
@@ -1281,12 +1327,13 @@
           "content": "$\\dfrac{dy}{dx}=3x^2+6\\sqrt{5}\\,px+3p=0 \\Rightarrow x^2+2\\sqrt{5}\\,px+p=0$."
         },
         {
-          "title": "Two distinct turning points require discriminant giving or",
+          "title": "Obtain the result",
           "content": "Two distinct turning points require discriminant $>0$: $(2\\sqrt{5}\\,p)^2-4p>0 \\Rightarrow 20p^2-4p>0 \\Rightarrow 4p(5p-1)>0$, giving $p<0$ or $p>0.2$."
         }
       ]
     },
-    "diagram_skipped": "discriminant condition on cubic family — no unique curve"
+    "diagram_skipped": "discriminant condition on cubic family — no unique curve",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-017",
@@ -1311,11 +1358,11 @@
     "solution": {
       "steps": [
         {
-          "title": "The ball decelerates from m s to then",
+          "title": "Set up",
           "content": "The ball decelerates from 24 m/s to 0, then accelerates from 0 to 24 m/s in the opposite direction, each phase with $|a|=6000$ m/s^2."
         },
         {
-          "title": "Distance per phase m cm",
+          "title": "Work through",
           "content": "Distance per phase: $s=\\dfrac{v^2}{2a}=\\dfrac{24^2}{2\\times6000}=\\dfrac{576}{12000}=0.048$ m $=4.8$ cm."
         },
         {
@@ -1323,7 +1370,8 @@
           "content": "Total distance $=4.8+4.8=9.6$ cm."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-013",
@@ -1353,16 +1401,17 @@
           "content": "Substitute $\\sin^2x=1-\\cos^2x$: $14\\cos^3x+10(1-\\cos^2x)\\cos x=13\\cos x \\Rightarrow 14\\cos^3x+10\\cos x-10\\cos^3x=13\\cos x \\Rightarrow 4\\cos^3x-3\\cos x=0 \\Rightarrow \\cos x(4\\cos^2x-3)=0$."
         },
         {
-          "title": "So or three distinct cosine values each giving",
+          "title": "Work through",
           "content": "So $\\cos x=0$ or $\\cos x=\\pm\\frac{\\sqrt{3}}{2}$ — three distinct cosine values, each giving 2 solutions per $2\\pi$ period."
         },
         {
-          "title": "Over the range to two periods each value",
+          "title": "Obtain the result",
           "content": "Over the $4\\pi$ range ($-2\\pi$ to $2\\pi$, two periods), each value gives 4 solutions: $3\\times4=12$ total."
         }
       ]
     },
-    "diagram_skipped": "identity-then-count; unsure of clean level/expr2 without inventing"
+    "diagram_skipped": "identity-then-count; unsure of clean level/expr2 without inventing",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-018",
@@ -1390,15 +1439,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "The cm extension shown for the kg kg",
+          "title": "Obtain the result",
           "content": "The 4.0cm extension shown for the 0.20kg/1.0kg series arrangement is used to find the individual spring constant $k$, which is then used with the parallel arrangement (effective stiffness $2k$) supporting 2.0kg to compute the extension and strain energy $\\frac{1}{2}(2k)x^2$, reading the exact geometry from the diagram."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-014",
@@ -1428,15 +1478,16 @@
           "content": "Let $L=\\log_{10}x$."
         },
         {
-          "title": "Then discriminant so giving or",
+          "title": "Work through",
           "content": "Then $(2L)^2+L=3 \\Rightarrow 4L^2+L-3=0$, discriminant $=1+48=49$, so $L=\\dfrac{-1\\pm7}{8}$, giving $L=\\dfrac34$ or $L=-1$."
         },
         {
-          "title": "The two real roots are and so their",
+          "title": "Obtain the result",
           "content": "The two real roots are $x=10^{3/4}$ and $x=10^{-1}$, so their product is $10^{3/4-1}=10^{-1/4}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-019",
@@ -1463,11 +1514,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Impulse area under the force time graph change",
+          "title": "Set up",
           "content": "Impulse = area under the force-time graph = change in momentum, $mv$."
         },
         {
-          "title": "Speed at t s reading the impulse from",
+          "title": "Work through",
           "content": "Speed at t=0.20s: $v=\\text{impulse}/m$, reading the impulse from the graph."
         },
         {
@@ -1475,7 +1526,8 @@
           "content": "Kinetic energy $=\\frac12mv^2$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-M2-015",
@@ -1504,11 +1556,11 @@
           "content": "$\\dfrac{dy}{dx}=-4+6\\sqrt{x}-2x$."
         },
         {
-          "title": "Let so the gradient is",
+          "title": "Work through",
           "content": "Let $t=\\sqrt{x}$, so the gradient is $g(t)=-4+6t-2t^2$."
         },
         {
-          "title": "This is maximised where",
+          "title": "Simplify",
           "content": "This is maximised where $\\dfrac{dg}{dt}=6-4t=0 \\Rightarrow t=\\dfrac32$."
         },
         {
@@ -1516,7 +1568,8 @@
           "content": "Then $g=-4+6\\left(\\dfrac32\\right)-2\\left(\\dfrac32\\right)^2=-4+9-4.5=\\dfrac12$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2020-PHY-020",
@@ -1544,14 +1597,15 @@
     "solution": {
       "steps": [
         {
-          "title": "Since the ammeter reads zero no current flows",
+          "title": "Set up",
           "content": "Since the ammeter reads zero, no current flows through that branch, so the two halves of the circuit act as independent potential dividers."
         },
         {
-          "title": "Setting the potentials at the ammeter s two",
+          "title": "Obtain the result",
           "content": "Setting the potentials at the ammeter's two connection points equal (balance condition) gives a relationship between the resistors and EMFs that can be solved for R, using the exact circuit topology shown in the diagram."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   }
 ]

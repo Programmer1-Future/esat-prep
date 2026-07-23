@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
 import { useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Play, RotateCcw, ChevronRight, Check, X, Clock } from 'lucide-react'
+import { Play, RotateCcw, ChevronRight, Check, X, Clock, Zap } from 'lucide-react'
 import { Card } from '../components/ui/Card'
 import questionsData from '../data/questions.json'
 import { cn, isoDate, formatSecs } from '../lib/utils'
@@ -9,10 +9,12 @@ import {
   MODULES,
   topicIdForQuestion,
   questionsForTopics,
+  questionsForModules,
   countByTopic,
   getTopicName,
   getModuleColor,
   moduleForTopic,
+  getModule,
 } from '../lib/moduleMap'
 import { logEvent } from '../lib/eventLog'
 import { enqueueMisses, enqueueSkips } from '../lib/reviewQueue'
@@ -23,6 +25,9 @@ import { QuestionExplanation, hasExplanation } from '../components/questions/Que
 import { parseDiagrams } from '../lib/diagrams'
 import { DiagramFigure } from '../components/ui/Diagram'
 import { OriginBadge } from '../components/ui/Origin'
+import { selectAdaptive } from '../lib/adaptive'
+import { studentQuestions } from '../lib/studentBank'
+import { getEvents } from '../lib/eventLog'
 
 // ─── Options ───────────────────────────────────────────────────────────────────
 const TIMER_OPTIONS = [
@@ -76,7 +81,7 @@ function TimerRing({ seconds, totalSeconds }) {
 // ─── Setup screen ───────────────────────────────────────────────────────────────
 // initialConfig deep-links from Notes' "Practice this topic" (location.state):
 // { topicIds, qCount, timerSecs } — seeds the setup screen, doesn't lock it.
-function SetupScreen({ onStart, allQuestions, chosenModuleIds, initialConfig, savedSession, onResume, onDiscardSession }) {
+function SetupScreen({ onStart, onStartSmart, allQuestions, chosenModuleIds, initialConfig, savedSession, onResume, onDiscardSession }) {
   const counts = useMemo(() => countByTopic(allQuestions), [allQuestions])
   // Only modules that actually have questions are selectable.
   const availableModules = useMemo(
@@ -90,13 +95,18 @@ function SetupScreen({ onStart, allQuestions, chosenModuleIds, initialConfig, sa
   }, [availableModules, chosenModuleIds])
 
   const [selectedModules, setSelectedModules] = useState(() => {
+    if (initialConfig?.moduleIds?.length) {
+      const allowed = new Set(availableModules.map(m => m.id))
+      const fromState = initialConfig.moduleIds.filter(id => allowed.has(id))
+      if (fromState.length) return fromState
+    }
     if (!initialConfig?.topicIds?.length) return defaultModules
-    const modIds = new Set(defaultModules)
+    const modIds = new Set()
     for (const t of initialConfig.topicIds) {
       const mod = moduleForTopic(t)
       if (mod) modIds.add(mod)
     }
-    return [...modIds]
+    return modIds.size > 0 ? [...modIds] : defaultModules
   })
   const topicsForSelectedModules = useMemo(
     () => availableModules
@@ -142,9 +152,11 @@ function SetupScreen({ onStart, allQuestions, chosenModuleIds, initialConfig, sa
     setSelectedTopics(p => allSelected ? p.filter(id => !ids.includes(id)) : [...new Set([...p, ...ids])])
   }
 
-  const available = useMemo(() => questionsForTopics(allQuestions, selectedTopics)
-    .filter(q => selectedDiffs.includes(q.difficulty)),
-  [allQuestions, selectedTopics, selectedDiffs])
+  const available = useMemo(() => {
+    let pool = questionsForTopics(allQuestions, selectedTopics)
+    if (selectedModules.length) pool = questionsForModules(pool, selectedModules)
+    return pool.filter(q => selectedDiffs.includes(q.difficulty))
+  }, [allQuestions, selectedTopics, selectedModules, selectedDiffs])
 
   const actual = Math.min(qCount, available.length)
 
@@ -163,10 +175,18 @@ function SetupScreen({ onStart, allQuestions, chosenModuleIds, initialConfig, sa
         <Card>
           <div className="p-4 flex flex-col sm:flex-row sm:items-center gap-3">
             <div className="min-w-0 flex-1">
-              <p className="text-sm font-600 text-text-primary">Resume unfinished practice</p>
+              <p className="text-sm font-600 text-text-primary">
+                Resume unfinished practice
+                {(() => {
+                  const mods = savedSession.config?.moduleIds || []
+                  const labels = mods.map(id => getModule(id)?.short).filter(Boolean)
+                  return labels.length ? ` — ${labels.join(', ')}` : ''
+                })()}
+              </p>
               <p className="text-xs text-text-muted mt-0.5">
                 Q{(savedSession.idx ?? 0) + 1} of {savedSession.questionIds.length}
                 {savedSession.savedAt ? ` · saved ${new Date(savedSession.savedAt).toLocaleString('en-GB')}` : ''}
+                {' · '}continues the saved session (not your current filters)
               </p>
             </div>
             <div className="flex gap-2">
@@ -188,6 +208,38 @@ function SetupScreen({ onStart, allQuestions, chosenModuleIds, initialConfig, sa
           </div>
         </Card>
       )}
+
+      <Card>
+        <div className="p-4 flex flex-col sm:flex-row sm:items-center gap-3">
+          <div className="min-w-0 flex-1">
+            <p className="text-sm font-600 text-text-primary flex items-center gap-2">
+              <Zap size={14} className="text-accent" /> Smart mix
+            </p>
+            <p className="text-xs text-text-muted mt-0.5">
+              Picks from your selected topics using weak areas, freshness, and difficulty fit.
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => available.length > 0 && onStartSmart({
+              moduleIds: selectedModules,
+              topicIds: selectedTopics,
+              diffs: selectedDiffs,
+              timerSecs,
+              qCount: actual,
+            })}
+            disabled={available.length === 0}
+            className={cn(
+              'px-3 py-2 rounded-lg text-xs font-600 transition-opacity',
+              available.length > 0
+                ? 'bg-accent/15 text-accent border border-accent/30 hover:opacity-90'
+                : 'border border-border text-text-muted cursor-not-allowed',
+            )}
+          >
+            Start smart · {actual}
+          </button>
+        </div>
+      </Card>
 
       {/* Modules — the level above topics */}
       <Card>
@@ -361,6 +413,7 @@ function QuizScreen({ questions, timerSecs, onFinish, onProgress, initialIdx = 0
   const [idx, setIdx] = useState(initialIdx)
   const [selected, setSelected] = useState(null)
   const [revealed, setRevealed] = useState(false)
+  const [hintOpen, setHintOpen] = useState(false)
   const [timeLeft, setTimeLeft] = useState(timerSecs || null)
   const [timedOut, setTimedOut] = useState(false)
   const [errorTag, setErrorTag] = useState(null)
@@ -372,6 +425,11 @@ function QuizScreen({ questions, timerSecs, onFinish, onProgress, initialIdx = 0
   const q = questions[idx]
   const isLast = idx === questions.length - 1
   const { stem, diagrams } = useMemo(() => parseDiagrams(q?.question, q?.id), [q])
+  const hintText = useMemo(() => {
+    if (q?.hint && String(q.hint).trim()) return String(q.hint).trim()
+    const label = q?.subtopic || getTopicName(topicIdForQuestion(q))
+    return label ? `Think: ${label}` : null
+  }, [q])
 
   // Options shuffled + re-lettered: the stored answer key skews toward B/C, so
   // fixed positions would be guessable (anti-memorisation, carried from TMUA).
@@ -380,6 +438,7 @@ function QuizScreen({ questions, timerSecs, onFinish, onProgress, initialIdx = 0
   useEffect(() => {
     qStartRef.current = Date.now()
     elapsedRef.current = null
+    setHintOpen(false)
   }, [idx])
 
   const handleReveal = useCallback((fromTimeout) => {
@@ -497,6 +556,27 @@ function QuizScreen({ questions, timerSecs, onFinish, onProgress, initialIdx = 0
           <div className="text-[16px] text-text-primary leading-[1.7] mb-4 font-body">
             <MathText text={stem} />
           </div>
+
+          {!revealed && hintText && (
+            <div className="mb-4">
+              {!hintOpen ? (
+                <button
+                  type="button"
+                  onClick={() => setHintOpen(true)}
+                  className="text-xs font-600 text-warning/80 hover:text-warning transition-colors"
+                >
+                  Hint
+                </button>
+              ) : (
+                <div className="rounded-xl border border-warning/25 bg-warning/5 px-3 py-2">
+                  <p className="text-[11px] font-600 uppercase tracking-widest text-warning/70 mb-1">Hint</p>
+                  <p className="text-sm text-text-secondary leading-relaxed">
+                    <MathText text={hintText} />
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Figures from the source paper — never rendered as stem text */}
           {diagrams.map((d, i) => <DiagramFigure key={i} caption={d.caption} src={d.src} eager />)}
@@ -841,7 +921,10 @@ function stripResult(r) {
 
 export default function QuestionBank() {
   const location = useLocation()
-  const allQuestions = useMemo(() => (Array.isArray(questionsData) ? questionsData : questionsData.questions || []), [])
+  const allQuestions = useMemo(
+    () => studentQuestions(Array.isArray(questionsData) ? questionsData : questionsData.questions || []),
+    [],
+  )
   const questionById = useMemo(() => new Map(allQuestions.map(q => [q.id, q])), [allQuestions])
   const [chosenModuleIds] = useLocalStorage('esat_modules', [])
   const [savedSession, setSavedSession] = useLocalStorage(PRACTICE_SESSION_KEY, null)
@@ -869,6 +952,7 @@ export default function QuestionBank() {
 
   const startDrill = useCallback((config) => {
     let pool = questionsForTopics(allQuestions, config.topicIds)
+    if (config.moduleIds?.length) pool = questionsForModules(pool, config.moduleIds)
     if (config.diffs) pool = pool.filter(q => config.diffs.includes(q.difficulty))
     const picked = shuffle(pool).slice(0, config.qCount || 10)
     if (picked.length === 0) return
@@ -877,6 +961,21 @@ export default function QuestionBank() {
     setResumeIdx(0)
     setResumeResults([])
     persistSession(config, picked, 0, [])
+    setScreen('quiz')
+  }, [allQuestions, persistSession])
+
+  const startSmart = useCallback((config) => {
+    let pool = questionsForTopics(allQuestions, config.topicIds)
+    if (config.moduleIds?.length) pool = questionsForModules(pool, config.moduleIds)
+    if (config.diffs) pool = pool.filter(q => config.diffs.includes(q.difficulty))
+    const picked = selectAdaptive(pool, getEvents(), config.qCount || 10)
+    if (picked.length === 0) return
+    const smartConfig = { ...config, mode: 'smart' }
+    setQuizQuestions(picked)
+    setQuizConfig(smartConfig)
+    setResumeIdx(0)
+    setResumeResults([])
+    persistSession(smartConfig, picked, 0, [])
     setScreen('quiz')
   }, [allQuestions, persistSession])
 
@@ -970,6 +1069,7 @@ export default function QuestionBank() {
           <motion.div key="setup" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
             <SetupScreen
               onStart={startDrill}
+              onStartSmart={startSmart}
               allQuestions={allQuestions}
               chosenModuleIds={chosenModuleIds}
               initialConfig={location.state}

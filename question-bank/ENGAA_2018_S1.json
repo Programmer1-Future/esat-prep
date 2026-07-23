@@ -32,7 +32,9 @@
           "content": "Men who passed $=167-57=110$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: women who passed $=200-143=57$."
   },
   {
     "id": "ENGAA-2018-PHY-001",
@@ -60,15 +62,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Each alpha decay reduces proton number by total",
+          "title": "Set up",
           "content": "Each alpha decay reduces proton number by 2 (total $-10$); each $\\beta^-$ decay increases proton number by 1 (total $+2$)."
         },
         {
-          "title": "Net change so Y has fewer protons than",
+          "title": "Obtain the result",
           "content": "Net change $=-10+2=-8$, so Y has 8 fewer protons than X."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-002",
@@ -102,7 +105,9 @@
           "content": "Setting $V=2SA$: $2\\sqrt{2}x^3=4x^2(3\\sqrt{2}+2)$, so $\\sqrt{2}x=2(3\\sqrt{2}+2)$, giving $x=6+\\dfrac{4}{\\sqrt{2}}=6+2\\sqrt{2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $V=x\\cdot x\\sqrt{2}\\cdot2x=2\\sqrt{2}x^3$."
   },
   {
     "id": "ENGAA-2018-PHY-002",
@@ -129,15 +134,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Total resistance initially so V",
+          "title": "Set up",
           "content": "Total resistance initially $=12+15+3=30\\,\\Omega$, so $V=IR=0.20\\times30=6.0$V."
         },
         {
-          "title": "Removing new resistance new current A",
+          "title": "Obtain the result",
           "content": "Removing $R_3$: new resistance $=27\\,\\Omega$, new current $=6.0/27=0.22$A."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-003",
@@ -165,11 +171,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Gradient of given line gradient",
+          "title": "Set up",
           "content": "Gradient of given line: $2x+3y+1=0 \\Rightarrow y=-\\frac{2}{3}x-\\frac13$, gradient $=-\\frac23$."
         },
         {
-          "title": "Gradient of joining line",
+          "title": "Work through",
           "content": "Gradient of joining line: $\\dfrac{2p-(p-1)}{(1-p)-p}=\\dfrac{p+1}{1-2p}$."
         },
         {
@@ -177,7 +183,9 @@
           "content": "Set equal to $-\\frac23$: $3(p+1)=-2(1-2p) \\Rightarrow 3p+3=-2+4p \\Rightarrow p=5$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: gradient of given line: $2x+3y+1=0 \\Rightarrow y=-\\frac{2}{3}x-\\frac13$, gradient $=-\\frac23$."
   },
   {
     "id": "ENGAA-2018-PHY-003",
@@ -205,19 +213,20 @@
     "solution": {
       "steps": [
         {
-          "title": "UV has shorter wavelength and hence higher frequency",
+          "title": "Set up",
           "content": "UV has shorter wavelength (and hence higher frequency) than visible light."
         },
         {
-          "title": "The shortest visible wavelength nm gives the highest",
+          "title": "Work through",
           "content": "The shortest visible wavelength (400nm) gives the highest visible frequency: $f=c/\\lambda=3.0\\times10^8/400\\times10^{-9}=7.5\\times10^{14}$Hz."
         },
         {
-          "title": "UV frequencies must exceed this so this is",
+          "title": "Obtain the result",
           "content": "UV frequencies must exceed this, so this is the minimum frequency of UV."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-004",
@@ -253,7 +262,7 @@
           "content": "Area $=2a^2=96\\Rightarrow a^2=48$."
         },
         {
-          "title": "The diagonal of the rectangle is a diameter",
+          "title": "Simplify",
           "content": "The diagonal of the rectangle is a diameter: diagonal $=\\sqrt{(2a)^2+a^2}=a\\sqrt{5}$."
         },
         {
@@ -261,7 +270,9 @@
           "content": "Radius $=\\dfrac{a\\sqrt{5}}{2}=\\dfrac{\\sqrt{48}\\cdot\\sqrt{5}}{2}=\\dfrac{\\sqrt{240}}{2}=\\dfrac{4\\sqrt{15}}{2}=2\\sqrt{15}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let $QR=a$, $PQ=2a$."
   },
   {
     "id": "ENGAA-2018-PHY-004",
@@ -287,7 +298,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Useful power output of W W so wasted",
+          "title": "Set up",
           "content": "Useful power output $=5\\%$ of 100W $=5$W, so wasted power $=95$W."
         },
         {
@@ -295,7 +306,8 @@
           "content": "Over 10 minutes ($600$s): energy wasted $=95\\times600=57\\,000$J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-005",
@@ -321,7 +333,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Linear scale factor so volume scale factor",
+          "title": "Set up",
           "content": "Linear scale factor $=5/4$, so volume scale factor $=(5/4)^3=125/64$."
         },
         {
@@ -329,7 +341,9 @@
           "content": "Large volume $=320\\times125/64=625$cm$^3$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: linear scale factor $=5/4$, so volume scale factor $=(5/4)^3=125/64$."
   },
   {
     "id": "ENGAA-2018-PHY-005",
@@ -366,7 +380,8 @@
           "content": "Over 4.0s, KE gained $=225\\,000\\times4=900\\,000$J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-006",
@@ -400,7 +415,7 @@
           "content": "Lines 1 and 2 meet where $5x+2(3x-23)=20\\Rightarrow 11x=66\\Rightarrow x=6, y=-5$, i.e. $(6,-5)$."
         },
         {
-          "title": "The triangle has a vertical base on of",
+          "title": "Simplify",
           "content": "The triangle has a vertical base on $x=0$ of length $10-(-23)=33$ and height (horizontal distance to the third vertex) $=6$."
         },
         {
@@ -408,7 +423,9 @@
           "content": "Area $=\\frac12\\times33\\times6=99$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: intersections: with $x=0$, line 1 gives $(0,10)$; line 2 gives $(0,-23)$."
   },
   {
     "id": "ENGAA-2018-PHY-006",
@@ -433,7 +450,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
@@ -441,7 +458,8 @@
           "content": "$KE=\\dfrac{p^2}{2m}\\Rightarrow m=\\dfrac{p^2}{2\\times KE}=\\dfrac{24^2}{2\\times96}=\\dfrac{576}{192}=3.0$kg."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-007",
@@ -473,7 +491,7 @@
           "content": "Volume scale factor $=(1/40)^3=1/64\\,000$."
         },
         {
-          "title": "Model volume m cm cm",
+          "title": "Work through",
           "content": "Model volume $=12\\pi/64\\,000$ m$^3=12\\pi\\times10^6/64\\,000$ cm$^3=187.5\\pi$ cm$^3$."
         },
         {
@@ -481,7 +499,9 @@
           "content": "Mass $=187.5\\pi\\times\\frac43=250\\pi$ g."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: volume scale factor $=(1/40)^3=1/64\\,000$."
   },
   {
     "id": "ENGAA-2018-PHY-007",
@@ -509,15 +529,16 @@
     "solution": {
       "steps": [
         {
-          "title": "The count rate curve decays exponentially towards a",
+          "title": "Set up",
           "content": "The count rate curve decays exponentially towards a constant (non-zero) background level, read from the graph's asymptote as 20 counts/min."
         },
         {
-          "title": "Subtracting this background from the readings and finding",
+          "title": "Obtain the result",
           "content": "Subtracting this background from the readings and finding the time for the corrected count rate to halve repeatedly gives a half-life of 40 minutes."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-008",
@@ -542,19 +563,21 @@
     "solution": {
       "steps": [
         {
-          "title": "Interior angle of a regular pentagon",
+          "title": "Set up",
           "content": "Interior angle of a regular pentagon $=108^\\circ$."
         },
         {
-          "title": "Triangle RSU is equilateral so angle giving angle",
+          "title": "Work through",
           "content": "Triangle RSU is equilateral so angle $RSU=60^\\circ$, giving angle $TSU=108^\\circ-60^\\circ=48^\\circ$."
         },
         {
-          "title": "Since is not generally equal the exact value",
+          "title": "Obtain the result",
           "content": "Since $ST=SU$ is not generally equal, the exact value of angle STU follows from the isosceles/geometric relationships in the figure; the confirmed result is $66^\\circ$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: interior angle of a regular pentagon $=108^\\circ$."
   },
   {
     "id": "ENGAA-2018-PHY-008",
@@ -582,15 +605,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "Newton s second law kg",
+          "title": "Obtain the result",
           "content": "Newton's second law: $mg-F=ma\\Rightarrow 10m-12=2m\\Rightarrow 8m=12\\Rightarrow m=1.5$kg."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-009",
@@ -627,7 +651,9 @@
           "content": "So $m=1.35=\\frac{27}{20}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: increase by 125%: $p\\times2.25$."
   },
   {
     "id": "ENGAA-2018-PHY-009",
@@ -653,19 +679,20 @@
     "solution": {
       "steps": [
         {
-          "title": "In one full oscillation a particle travels amplitude",
+          "title": "Set up",
           "content": "In one full oscillation a particle travels $4\\times$amplitude $=16$cm."
         },
         {
-          "title": "Period s so in s there are oscillations",
+          "title": "Work through",
           "content": "Period $T=1/f=0.1$s, so in 20s there are $200$ oscillations."
         },
         {
-          "title": "Distance m Wave speed is irrelevant to the",
+          "title": "Obtain the result",
           "content": "Distance $=200\\times16\\text{cm}=3200\\text{cm}=32$m. (Wave speed is irrelevant to the particle's own path length.)"
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-010",
@@ -692,15 +719,17 @@
     "solution": {
       "steps": [
         {
-          "title": "Taking P at the origin and",
-          "content": "Taking P at the origin, $Q=P+5(\\sin65^\\circ,\\cos65^\\circ)\\approx(4.53,2.11)$, and $R=Q+5(\\sin155^\\circ,\\cos155^\\circ)\\approx(6.65,-2.42)$."
+          "title": "Set up",
+          "content": "Taking P at the origin, $Q=P+5(\\sin 65^\\circ,\\cos 65^\\circ)\\approx(4.53,2.11)$, and $R=Q+5(\\sin 155^\\circ,\\cos 155^\\circ)\\approx(6.65,-2.42)$."
         },
         {
-          "title": "Vector from R to P is which points",
+          "title": "Obtain the result",
           "content": "Vector from R to P is $\\approx(-6.65,2.42)$, which points north-of-west, giving bearing $\\approx 360^\\circ-70^\\circ=290^\\circ$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: taking P at the origin, $Q=P+5(\\sin 65^\\circ,\\cos 65^\\circ)\\approx(4.53,2.11)$, and $R=Q+5(\\sin 155^\\circ,\\cos 155^\\circ)\\approx(6.65,-2.42)$."
   },
   {
     "id": "ENGAA-2018-PHY-010",
@@ -737,7 +766,8 @@
           "content": "So $c=290-200=90$g."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-011",
@@ -765,15 +795,17 @@
     "solution": {
       "steps": [
         {
-          "title": "By the tangent chord angle rule angle between",
+          "title": "Set up",
           "content": "By the tangent-chord angle rule, angle between tangent RT and chord SP equals the angle in the alternate segment."
         },
         {
-          "title": "Combined with the isosceles condition and the fact",
+          "title": "Obtain the result",
           "content": "Combined with the isosceles condition $QS=QP$ and the fact that $OS\\perp RT$ (radius to point of tangency), the angle $QSO$ works out to $37.5^\\circ$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: by the tangent-chord angle rule, angle between tangent RT and chord SP equals the angle in the alternate segment."
   },
   {
     "id": "ENGAA-2018-PHY-011",
@@ -798,15 +830,16 @@
     "solution": {
       "steps": [
         {
-          "title": "At terminal velocity the graph becomes a straight",
+          "title": "Set up",
           "content": "At terminal velocity the graph becomes a straight line; its gradient gives the terminal velocity, read as approximately $40$ m s$^{-1}$."
         },
         {
-          "title": "At terminal velocity weight air resistance N m",
+          "title": "Obtain the result",
           "content": "At terminal velocity, weight = air resistance: $1000=k(40)^2=1600k\\Rightarrow k\\approx0.63$ N m$^{-2}$s$^2$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-012",
@@ -844,11 +877,13 @@
           "content": "So $h=7$."
         },
         {
-          "title": "Half base slant side which lies between and",
+          "title": "Obtain the result",
           "content": "Half-base $=2$; slant side $s=\\sqrt{2^2+7^2}=\\sqrt{53}\\approx7.28$, which lies between 7 and 8."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $h=b+3$."
   },
   {
     "id": "ENGAA-2018-PHY-012",
@@ -876,7 +911,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Mass number balance neutrons",
+          "title": "Set up",
           "content": "Mass number balance: $235+1=88+145+xn\\Rightarrow x=3$ neutrons."
         },
         {
@@ -884,11 +919,12 @@
           "content": "Proton balance: $92=35+Z_{La}\\Rightarrow Z_{La}=57$."
         },
         {
-          "title": "Beta minus decay of La increases proton number",
+          "title": "Obtain the result",
           "content": "Beta-minus decay of La-145 increases proton number by 1: $57+1=58$ protons."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-013",
@@ -924,7 +960,9 @@
           "content": "Subtracting: $3p=15\\Rightarrow p=5$, so $q=-3$. $\\dfrac{p-q}{p+q}=\\dfrac{5-(-3)}{5+(-3)}=\\dfrac{8}{2}=4$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $n=1: p+q=2$."
   },
   {
     "id": "ENGAA-2018-PHY-013",
@@ -959,7 +997,7 @@
           "content": "Total resistance $=R+\\frac{R}{2}=\\frac{3R}{2}$."
         },
         {
-          "title": "Total current which splits equally between X and",
+          "title": "Simplify",
           "content": "Total current $one=\\dfrac{V}{3R/2}$, which splits equally between X and Y (each carries $one/2$). $P_X=(one/2)^2R$, and total power $=one^2(3R/2)$."
         },
         {
@@ -971,7 +1009,8 @@
           "content": "So $P_X=18/6=3.0$W."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M1-014",
@@ -997,7 +1036,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Only one red sweet is ever taken so",
+          "title": "Set up",
           "content": "Only one red sweet is ever taken, so \"more green than red\" means at least 2 green sweets are drawn before the red."
         },
         {
@@ -1013,7 +1052,9 @@
           "content": "$P(\\ge2\\text{ green before red})=1-\\frac12-\\frac{3}{11}=\\frac{22-11-6}{22}=\\frac{5}{22}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: only one red sweet is ever taken, so \"more green than red\" means at least 2 green sweets are drawn before the red."
   },
   {
     "id": "ENGAA-2018-PHY-014",
@@ -1041,23 +1082,24 @@
     "solution": {
       "steps": [
         {
-          "title": "Statement is false X and Y detecting the",
+          "title": "Set up",
           "content": "Statement 1 is false: X and Y detecting the wave simultaneously means the epicentre is equidistant from X and Y, i.e. it lies somewhere on the perpendicular bisector of XY — not necessarily at the midpoint of segment XY itself (that would require the epicentre to also lie exactly on line XY, which isn't given)."
         },
         {
-          "title": "Statement is false nothing constrains Z to be",
+          "title": "Work through",
           "content": "Statement 2 is false: nothing constrains Z to be equidistant from X and Y — only that Z is 240km farther from the epicentre than X and Y are."
         },
         {
-          "title": "Statement is false Z s straight line distance",
+          "title": "Simplify",
           "content": "Statement 3 is false: Z's straight-line distance from X or Y isn't bounded by the 240km extra path length in general, since the geometry is unconstrained."
         },
         {
-          "title": "None of the three statements must be correct",
+          "title": "Obtain the result",
           "content": "None of the three statements must be correct."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-001",
@@ -1100,7 +1142,8 @@
         -2,
         2
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-015",
@@ -1128,7 +1171,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
@@ -1136,7 +1179,8 @@
           "content": "$v^2=u^2+2as\\Rightarrow 80^2=0+2a(1600)\\Rightarrow 6400=3200a\\Rightarrow a=2.0$ m s$^{-2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-002",
@@ -1166,7 +1210,7 @@
           "content": "$\\sin\\theta(2\\sin^2\\theta-1)=0\\Rightarrow\\sin\\theta=0$ or $\\sin\\theta=\\pm\\frac{1}{\\sqrt{2}}$."
         },
         {
-          "title": "In gives solutions gives solutions gives solution since",
+          "title": "Work through",
           "content": "In $[-\\frac{\\pi}{2},\\pi]$: $\\sin\\theta=0$ gives $\\theta=0,\\pi$ (2 solutions); $\\sin\\theta=\\frac{1}{\\sqrt{2}}$ gives $\\theta=\\frac{\\pi}{4},\\frac{3\\pi}{4}$ (2 solutions); $\\sin\\theta=-\\frac{1}{\\sqrt{2}}$ gives $\\theta=-\\frac{\\pi}{4}$ (1 solution, since $\\frac{5\\pi}{4}$ is out of range)."
         },
         {
@@ -1175,7 +1219,8 @@
         }
       ]
     },
-    "diagram_skipped": "trig equation in degrees domain; Mafs case expects radian domain consistently"
+    "diagram_skipped": "trig equation in degrees domain; Mafs case expects radian domain consistently",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-016",
@@ -1201,15 +1246,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "Constant velocity means zero acceleration so by Newton",
+          "title": "Obtain the result",
           "content": "Constant velocity means zero acceleration, so by Newton's first/second law the resultant force on the mass must be zero, regardless of how many individual forces act."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-003",
@@ -1241,7 +1287,7 @@
           "content": "Set equal: $x+k=3x^2-2x+1\\Rightarrow3x^2-3x+(1-k)=0$."
         },
         {
-          "title": "Tangency requires discriminant",
+          "title": "Obtain the result",
           "content": "Tangency requires discriminant $=0$: $9-12(1-k)=0\\Rightarrow9-12+12k=0\\Rightarrow k=\\frac{3}{12}=\\frac14$."
         }
       ]
@@ -1253,7 +1299,8 @@
       "x0": 0.5,
       "kind": "tangent",
       "slope": 1
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-017",
@@ -1282,15 +1329,16 @@
           "content": "Total mass $=3+4+6+2=15$kg."
         },
         {
-          "title": "Acceleration m s",
+          "title": "Work through",
           "content": "Acceleration $a=30/15=2.0$ m s$^{-2}$."
         },
         {
-          "title": "The rod between X and Y must accelerate",
+          "title": "Obtain the result",
           "content": "The rod between X and Y must accelerate the combined mass of Y and Z (8 kg): $T=8\\times2.0=16$N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-004",
@@ -1318,11 +1366,11 @@
           "content": "Let radius $r$, angle $\\theta$: $\\frac12r^2\\theta=10\\pi$."
         },
         {
-          "title": "Increasing angle by increases area by so",
+          "title": "Work through",
           "content": "Increasing angle by $\\frac{\\pi}{20}$ increases area by $\\frac12r^2\\cdot\\frac{\\pi}{20}=\\frac{25\\pi}{2}-10\\pi=\\frac{5\\pi}{2}$, so $r^2=\\frac{5\\pi}{2}\\times\\frac{40}{\\pi}=100\\Rightarrow r=10$."
         },
         {
-          "title": "Then and sector T s angle",
+          "title": "Simplify",
           "content": "Then $\\theta=\\dfrac{20\\pi}{100}=\\frac{\\pi}{5}$, and sector T's angle $=\\frac{\\pi}{5}+\\frac{\\pi}{20}=\\frac{\\pi}{4}$."
         },
         {
@@ -1330,7 +1378,8 @@
           "content": "Arc length $=r\\theta_T=10\\times\\frac{\\pi}{4}=\\frac{5\\pi}{2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-018",
@@ -1357,15 +1406,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "Taking moments about Y with weights N at",
+          "title": "Obtain the result",
           "content": "Taking moments about Y, with weights $W_{object}=400$N at 1.0m from X (3.0m from Y), plank weight $=100$N at its centre (2.0m from Y), and support X at 4.0m from Y: balancing moments about Y and using force balance gives the contact force at X as 350N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-005",
@@ -1391,7 +1441,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Let first term common difference",
+          "title": "Set up",
           "content": "Let first term $a$, common difference $d$. $a+12d=6a\\Rightarrow12d=5a$. $a+10d=2(a+4d)-1\\Rightarrow a+10d=2a+8d-1\\Rightarrow2d-a=-1\\Rightarrow a=2d+1$."
         },
         {
@@ -1403,7 +1453,8 @@
           "content": "Third term $=a+2d=6+5=11$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-019",
@@ -1429,11 +1480,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Height drop so PE lost",
+          "title": "Set up",
           "content": "Height drop $=l\\sin\\theta$, so PE lost $=mgl\\sin\\theta$."
         },
         {
-          "title": "Work done against friction",
+          "title": "Work through",
           "content": "Work done against friction $=kW\\sin\\theta\\times l=kmgl\\sin\\theta$."
         },
         {
@@ -1441,11 +1492,12 @@
           "content": "KE gained $=mgl\\sin\\theta-kmgl\\sin\\theta=mgl\\sin\\theta(1-k)$."
         },
         {
-          "title": "Fraction of initial PE converted to KE",
+          "title": "Obtain the result",
           "content": "Fraction of initial PE converted to KE $=1-k$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-006",
@@ -1470,11 +1522,11 @@
     "solution": {
       "steps": [
         {
-          "title": "Common ratio condition",
+          "title": "Set up",
           "content": "Common ratio condition: $(2p+2)^2=(p-2)(5p+14)$."
         },
         {
-          "title": "Expanding gives terms all positive ratio gives all",
+          "title": "Work through",
           "content": "Expanding: $4p^2+8p+4=5p^2+4p-28\\Rightarrow p^2-4p-32=0\\Rightarrow(p-8)(p+4)=0$. $p=8$ gives terms $6,18,54$ (all positive, ratio 3); $p=-4$ gives all terms $-6$ (not positive, rejected)."
         },
         {
@@ -1482,7 +1534,8 @@
           "content": "Fifth term $=6\\times3^4=486$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-020",
@@ -1507,19 +1560,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Acceleration of X m s",
+          "title": "Set up",
           "content": "Acceleration of X: $a=F/m=5.0/2.0=2.5$ m s$^{-2}$."
         },
         {
-          "title": "Speed before collision m s",
+          "title": "Work through",
           "content": "Speed before collision: $v=4.5+2.5\\times3.0=12.0$ m s$^{-1}$."
         },
         {
-          "title": "Momentum conservation in collision m s",
+          "title": "Obtain the result",
           "content": "Momentum conservation in collision: $2.0\\times12.0=(2.0+3.0)v_f\\Rightarrow v_f=24/5=4.8$ m s$^{-1}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-007",
@@ -1545,7 +1599,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
@@ -1553,7 +1607,8 @@
           "content": "The sum telescopes: $\\log_2\\left(\\frac54\\times\\frac65\\times\\frac76\\times\\cdots\\times\\frac{64}{63}\\right)=\\log_2\\left(\\frac{64}{4}\\right)=\\log_2(16)=4$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-021",
@@ -1580,15 +1635,15 @@
     "solution": {
       "steps": [
         {
-          "title": "Speed just before impact m s",
+          "title": "Set up",
           "content": "Speed just before impact: $v^2=4.0^2+2(10)(0.45)=16+9=25\\Rightarrow v=5.0$ m s$^{-1}$."
         },
         {
-          "title": "KE before bounce J",
+          "title": "Work through",
           "content": "KE before bounce $=\\frac12(0.20)(25)=2.5$J."
         },
         {
-          "title": "KE after bounce J",
+          "title": "Simplify",
           "content": "KE after bounce $=\\frac12(0.20)(2.0)^2=0.4$J."
         },
         {
@@ -1596,7 +1651,8 @@
           "content": "Energy lost $=2.5-0.4=2.1$J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-008",
@@ -1625,16 +1681,17 @@
           "content": "Radius $r=\\sqrt{5}$."
         },
         {
-          "title": "For a tangent from external point P tangent",
+          "title": "Work through",
           "content": "For a tangent from external point P: (tangent length)$^2=d^2-r^2$, where $d$ is the distance from P to the centre. $(5\\sqrt{3})^2=75=d^2-5\\Rightarrow d^2=80\\Rightarrow d=4\\sqrt{5}$."
         },
         {
-          "title": "Shortest distance from P to the circle",
+          "title": "Obtain the result",
           "content": "Shortest distance from P to the circle $=d-r=4\\sqrt{5}-\\sqrt{5}=3\\sqrt{5}$."
         }
       ]
     },
-    "diagram_skipped": "tangent length from external point — needs point+circle, not circle-line chord schema"
+    "diagram_skipped": "tangent length from external point — needs point+circle, not circle-line chord schema",
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-022",
@@ -1660,7 +1717,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Taking X s initial direction as positive X",
+          "title": "Set up",
           "content": "Taking X's initial direction as positive, X: $+v\\to-v$, Y (opposite direction): $-2v$ initially."
         },
         {
@@ -1668,11 +1725,12 @@
           "content": "Momentum conservation: $m(v)+2m(-2v)=m(-v)+2m(v_Y')\\Rightarrow -3mv=-mv+2mv_Y'\\Rightarrow2mv_Y'=-2mv\\Rightarrow v_Y'=-v$."
         },
         {
-          "title": "So Y goes from to",
+          "title": "Obtain the result",
           "content": "So Y goes from $-2v$ to $-v$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-009",
@@ -1710,7 +1768,8 @@
           "content": "$AC^2=(-1-(-3))^2+(u-2)^2=4+(u-2)^2=68\\Rightarrow(u-2)^2=64\\Rightarrow u-2=\\pm8\\Rightarrow u=10$ or $u=-6$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-023",
@@ -1737,15 +1796,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
           "title": "Resolve the forces",
-          "content": "Resolving horizontally at equilibrium: $P=T\\sin30^\\circ=\\dfrac{T}{2}$."
+          "content": "Resolving horizontally at equilibrium: $P=T\\sin 30^\\circ=\\dfrac{T}{2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-010",
@@ -1772,15 +1832,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Which only contains even powers of",
+          "title": "Set up",
           "content": "$(1-2x)^5(1+2x)^5=[(1-2x)(1+2x)]^5=(1-4x^2)^5$, which only contains even powers of $x$."
         },
         {
-          "title": "So the coefficient of is",
+          "title": "Obtain the result",
           "content": "So the coefficient of $x^3$ is $0$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-024",
@@ -1805,15 +1866,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Vertical drop in height from X to Y",
+          "title": "Set up",
           "content": "Vertical drop in height from X to Y $=50-30=20$cm$=0.2$m."
         },
         {
-          "title": "Energy conservation m s",
+          "title": "Obtain the result",
           "content": "Energy conservation: $\\frac12mv^2=mgh\\Rightarrow v=\\sqrt{2gh}=\\sqrt{2\\times10\\times0.2}=\\sqrt{4}=2$ m s$^{-1}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-011",
@@ -1839,31 +1901,24 @@
     "solution": {
       "steps": [
         {
-          "title": "Integrate directly and likewise x m dx",
-          "content": "Integrate directly: $\\displaystyle\\int_0^{2} x^{m}\\,dx = \\left[\\frac{x^{m+1}}{m+1}\\right]_0^{2} = \\frac{2^{m+1}}{m+1}$, and likewise $\\displaystyle\\int_0^{2} x^{m+1}\\,dx"
+          "title": "Set up",
+          "content": "Integrate directly: $\\displaystyle\\int_0^{2} x^{m}\\,dx = \\left[\\frac{x^{m+1}}{m+1}\\right]_0^{2} = \\frac{2^{m+1}}{m+1}$, and likewise $\\displaystyle\\int_0^{2} x^{m+1}\\,dx = \\frac{2^{m+2}}{m+2}$."
         },
         {
-          "title": "Simplify the expression",
-          "content": "= \\frac{2^{m+2}}{m+2}$."
+          "title": "Work through",
+          "content": "Rather than solving either equation alone, divide the second by the first — the awkward $\\sqrt{2}$ and the powers of $2$ cancel in the ratio."
         },
         {
-          "title": "Rather than solving either equation alone divide the",
-          "content": "Rather than solving either equation alone, divide the second by the first — the awkward $\\sqrt{2}$ and the powers of $2$ both cancel: $\\dfrac{2^{m+2}}{m+2}\\cdot\\dfrac{m+1}{2^{m+1}} = \\dfrac{2(m+1)}{m+2}$, while the right-hand sides give $\\dfrac{32\\sqrt{2}}{9}\\cdot\\dfrac{7}{16\\sqrt{2}} = \\dfrac{14}{9}$."
-        },
-        {
-          "title": "So hence giving and",
+          "title": "Simplify",
           "content": "So $\\dfrac{2(m+1)}{m+2} = \\dfrac{14}{9}$, hence $18(m+1) = 14(m+2)$, giving $4m = 10$ and $m = \\dfrac{5}{2}$."
         },
         {
-          "title": "Check and so the first integral is",
-          "content": "Check: $m+1 = \\tfrac{7}{2}$ and $2^{7/2} = 8\\sqrt{2}$, so the first integral is $\\dfrac{8\\sqrt{2}}{7/2}"
-        },
-        {
-          "title": "Simplify to the result",
-          "content": "= \\dfrac{16\\sqrt{2}}{7}$ as required."
+          "title": "Obtain the result",
+          "content": "Check: $m+1 = \\tfrac{7}{2}$ and $2^{7/2} = 8\\sqrt{2}$, so the first integral is $\\dfrac{8\\sqrt{2}}{7/2} = \\dfrac{16\\sqrt{2}}{7}$ as required."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-025",
@@ -1889,7 +1944,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
@@ -1897,7 +1952,8 @@
           "content": "Momentum conservation: $mu=-mv+MV\\Rightarrow MV=m(u+v)\\Rightarrow V=\\dfrac{m(u+v)}{M}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-012",
@@ -1930,7 +1986,8 @@
           "content": "Given $f(4)-f(2)=18$: $6a+12=18\\Rightarrow a=1$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-026",
@@ -1957,15 +2014,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Begin from the given information and apply the",
+          "title": "Set up",
           "content": "Begin from the given information and apply the relevant relation."
         },
         {
-          "title": "PE lost half becomes thermal half becomes KE",
+          "title": "Obtain the result",
           "content": "PE lost $=mgh$; half becomes thermal, half becomes KE: $\\frac12mgh=\\frac12mv^2\\Rightarrow gh=v^2\\Rightarrow h=\\dfrac{v^2}{g}=\\dfrac{100}{10}=10$m."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-M2-013",
@@ -2006,11 +2064,12 @@
           "content": "Faces: $x\\times2x=72$, $x\\times y=48$, $2x\\times y=96$."
         },
         {
-          "title": "Largest face area cm",
+          "title": "Obtain the result",
           "content": "Largest face area $=96$cm$^2$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2018-PHY-027",
@@ -2035,11 +2094,11 @@
     "solution": {
       "steps": [
         {
-          "title": "First object s time to return to ground",
+          "title": "Set up",
           "content": "First object: $s=40t-5t^2=0\\Rightarrow t=8$s (time to return to ground, excluding $t=0$)."
         },
         {
-          "title": "Second object is released at s and falls",
+          "title": "Work through",
           "content": "Second object is released at $t=2$s and falls for $8-2=6$s."
         },
         {
@@ -2047,6 +2106,7 @@
           "content": "Height $h=\\frac12g t^2=\\frac12(10)(6)^2=180$m."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   }
 ]

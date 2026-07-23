@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { TimerReset, Play, Plus, X, ChevronRight } from 'lucide-react'
@@ -10,6 +10,7 @@ import { MODULES, getModule } from '../lib/moduleMap'
 import { projectScore, formatProjected } from '../lib/mockScore'
 import { logEvent } from '../lib/eventLog'
 import { useLocalStorage, updateStoredValue } from '../hooks/useLocalStorage'
+import { promoteDraftToAbandoned } from '../lib/mockAbandon'
 
 const EMPTY_ROW = () => ({ module: 'maths1', correct: '', total: '27' })
 
@@ -112,6 +113,11 @@ export default function MockHistory() {
   const [sittings] = useLocalStorage('esat_mock_sittings', [])
   const ordered = useMemo(() => [...sittings].reverse(), [sittings])
   const [showAddModal, setShowAddModal] = useState(false)
+
+  // Soft leave / refresh may leave a draft; promote into Abandoned before listing.
+  useEffect(() => {
+    promoteDraftToAbandoned()
+  }, [])
 
   return (
     <motion.div

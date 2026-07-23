@@ -29,11 +29,11 @@
           "content": "Combine powers of 5: $5^{1-3+1}=5^{-1}$."
         },
         {
-          "title": "Powers of x",
+          "title": "Work through",
           "content": "Powers of x: $x^{1-6+2}=x^{-3}$."
         },
         {
-          "title": "Powers of y",
+          "title": "Simplify",
           "content": "Powers of y: $y^{2-3+1}=y^0=1$."
         },
         {
@@ -41,7 +41,9 @@
           "content": "Result: $\\frac{1}{5x^3}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: combine powers of 5: $5^{1-3+1}=5^{-1}$."
   },
   {
     "id": "ENGAA-2021-PHY-001",
@@ -67,15 +69,16 @@
     "solution": {
       "steps": [
         {
-          "title": "For an ideal gas at constant temperature so",
+          "title": "Set up",
           "content": "For an ideal gas at constant temperature, $PV=nRT$ so $P \\propto 1/V \\propto \\rho$ (since $\\rho=m/V$ and mass is fixed)."
         },
         {
-          "title": "A increase in P gives a increase in",
+          "title": "Obtain the result",
           "content": "A 20% increase in P gives a 20% increase in density: $\\rho_{new}=1.20\\rho$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-002",
@@ -104,14 +107,16 @@
       "steps": [
         {
           "title": "Set up the equation",
-          "content": "$\\dfrac{3}{q} = \\dfrac{4}{r} - \\dfrac{p}{2} = \\dfrac{8-pr}{2r}$, so $q"
+          "content": "$\\dfrac{3}{q} = \\dfrac{4}{r} - \\dfrac{p}{2} = \\dfrac{8-pr}{2r}$, so $q = \\dfrac{3}{\\left(\\dfrac{8-pr}{2r}\\right)} = \\dfrac{6r}{8-pr}$."
         },
         {
-          "title": "Pr r r pr",
-          "content": "= \\dfrac{3}{\\left(\\frac{8-pr}{2r}\\right)} = \\dfrac{6r}{8-pr}$."
+          "title": "Obtain the result",
+          "content": "$q = \\dfrac{6r}{8-pr}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $\\dfrac{3}{q} = \\dfrac{4}{r} - \\dfrac{p}{2} = \\dfrac{8-pr}{2r}$, so q"
   },
   {
     "id": "ENGAA-2021-PHY-002",
@@ -143,7 +148,7 @@
           "content": "$V_p = 3000/12.5 = 240\\text{ V}$."
         },
         {
-          "title": "Ideal secondary voltage",
+          "title": "Work through",
           "content": "Ideal secondary voltage: $V_s = 240\\times(25/100)=60\\text{ V}$."
         },
         {
@@ -155,7 +160,8 @@
           "content": "Efficiency $=2400/3000=80\\%$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-003",
@@ -194,7 +200,9 @@
           "content": "Difference $=\\frac{\\pi}{2}(x^2-y^2)$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: p: radius $x/2$, height $y$: $SA_P=2\\pi(x/2)^2+2\\pi(x/2)y=\\frac{\\pi x^2}{2}+\\pi xy$."
   },
   {
     "id": "ENGAA-2021-PHY-003",
@@ -224,7 +232,7 @@
           "content": "Compression $x=0.02$ m."
         },
         {
-          "title": "Weight N N m",
+          "title": "Work through",
           "content": "Weight $=0.5\\times10=5$ N $=kx \\Rightarrow k=5/0.02=250$ N/m."
         },
         {
@@ -232,7 +240,8 @@
           "content": "Energy $=\\frac{1}{2}kx^2=\\frac{1}{2}\\times250\\times0.02^2=0.05$ J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-004",
@@ -265,11 +274,13 @@
           "content": "Q: $\\times1.1\\times0.9=0.99$ (lower)."
         },
         {
-          "title": "Both end up lower than original regardless of",
+          "title": "Obtain the result",
           "content": "Both end up 1% lower than original, regardless of order."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: p: $\\times0.9\\times1.1=0.99$ (lower)."
   },
   {
     "id": "ENGAA-2021-PHY-004",
@@ -294,7 +305,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Let each lamp have resistance and supply voltage",
+          "title": "Set up",
           "content": "Let each lamp have resistance $r$ and supply voltage $V$."
         },
         {
@@ -302,11 +313,12 @@
           "content": "Originally $P=V^2/(20r)$."
         },
         {
-          "title": "After one lamp shorts total resistance is so",
+          "title": "Obtain the result",
           "content": "After one lamp shorts, total resistance is $19r$, so new power $=V^2/(19r) = \\left(\\frac{20}{19}\\right)P$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-005",
@@ -332,19 +344,21 @@
     "solution": {
       "steps": [
         {
-          "title": "In right triangle SQT right angle at Q",
+          "title": "Set up",
           "content": "In right triangle SQT (right angle at Q): $ST=8$ (hypotenuse), $QT=4$, so $SQ=\\sqrt{8^2-4^2}=\\sqrt{48}=4\\sqrt{3}$."
         },
         {
-          "title": "Since SR RQ",
+          "title": "Work through",
           "content": "Since SR:RQ=1:3, $RQ=\\frac34 SQ=3\\sqrt{3}$."
         },
         {
-          "title": "In right triangle QRP right angle at Q",
+          "title": "Obtain the result",
           "content": "In right triangle QRP (right angle at Q): $PR=8$ (hypotenuse), $RQ=3\\sqrt{3}$, so $PQ=\\sqrt{64-27}=\\sqrt{37}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: in right triangle SQT (right angle at Q): $ST=8$ (hypotenuse), $QT=4$, so $SQ=\\sqrt{8^2-4^2}=\\sqrt{48}=4\\sqrt{3}$."
   },
   {
     "id": "ENGAA-2021-PHY-005",
@@ -372,15 +386,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Net force rate of change of momentum gradient",
+          "title": "Set up",
           "content": "Net force = rate of change of momentum = gradient of graph $\\approx (12\\times10^6)/4 = 3.0\\times10^6$ N."
         },
         {
-          "title": "Net force motor force friction so motor force",
+          "title": "Obtain the result",
           "content": "Net force = motor force $-$ friction, so motor force $=3.0\\times10^6+1.8\\times10^7=2.1\\times10^7$ N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-006",
@@ -419,7 +434,9 @@
           "content": "Setting $(q-p)^2=64$: $16+4c=64 \\Rightarrow c=12$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "Start from the Simultaneous equations, quadratic and linear idea in the stem."
   },
   {
     "id": "ENGAA-2021-PHY-006",
@@ -447,15 +464,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Since ship and wave move toward each other",
+          "title": "Set up",
           "content": "Since ship and wave move toward each other, the relative (encounter) speed is $8.0+3.0=11$ m/s."
         },
         {
-          "title": "The s period observed is the encounter period",
+          "title": "Obtain the result",
           "content": "The 8.0 s period observed is the encounter period, so $\\lambda = v_{rel}\\times T = 11\\times8=88$ m."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-001",
@@ -468,13 +486,13 @@
     "difficulty": 3,
     "question": "Given that $y=\\dfrac{\\sin60°-1}{\\cos60°}$, what is the value of $y^3$?",
     "options": {
-      "A": "$-sqrt(3)/9$",
-      "B": "-5sqrt(2)+10",
-      "C": "3sqrt(3)-8",
-      "D": "6sqrt(3)-10",
-      "E": "14sqrt(2)-20",
-      "F": "15sqrt(3)-26",
-      "G": "21sqrt(3)-38"
+      "A": "$-\\sqrt{3}/9$",
+      "B": "$-5\\sqrt{2}+10$",
+      "C": "$3\\sqrt{3}-8$",
+      "D": "$6\\sqrt{3}-10$",
+      "E": "$14\\sqrt{2}-20$",
+      "F": "$15\\sqrt{3}-26$",
+      "G": "$21\\sqrt{3}-38$"
     },
     "answer": "F",
     "origin": "past-paper",
@@ -483,14 +501,15 @@
       "steps": [
         {
           "title": "Set up the equation",
-          "content": "$\\sin60^\\circ=\\frac{\\sqrt{3}}{2}$ and $\\cos60^\\circ=\\frac12$, so $y=\\dfrac{\\frac{\\sqrt{3}}{2}-1}{\\frac12}=\\sqrt{3}-2$."
+          "content": "$\\sin 60^\\circ=\\frac{\\sqrt{3}}{2}$ and $\\cos 60^\\circ=\\frac12$, so $y=\\dfrac{\\frac{\\sqrt{3}}{2}-1}{\\frac12}=\\sqrt{3}-2$."
         },
         {
           "title": "Simplify to the result",
           "content": "Then $y^3=(\\sqrt{3}-2)^3=3\\sqrt{3}-3(3)(2)+3(\\sqrt{3})(4)-8=3\\sqrt{3}-18+12\\sqrt{3}-8=15\\sqrt{3}-26$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-007",
@@ -520,15 +539,16 @@
           "content": "Voltage across the 8.0 Ω resistor $=0.25\\times8=2.0$ V."
         },
         {
-          "title": "Voltage across the lamp V",
+          "title": "Work through",
           "content": "Voltage across the lamp $=6.0-2.0=4.0$ V."
         },
         {
-          "title": "The correct graph must pass through with a",
+          "title": "Obtain the result",
           "content": "The correct graph must pass through $(one,V)=(0.25\\text{ A}, 4.0\\text{ V})$ with a curve typical of a filament lamp (resistance increasing with current)."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-007",
@@ -555,7 +575,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Let number of red sweets so",
+          "title": "Set up",
           "content": "Let $r$ = number of red sweets. $P(\\text{no green})=\\binom{r}{2}/\\binom{9}{2}=5/12$. $\\binom{9}{2}=36$, so $\\binom{r}{2}=15 \\Rightarrow r(r-1)=30 \\Rightarrow r=6$."
         },
         {
@@ -563,7 +583,9 @@
           "content": "So green count $=3$. $P(\\text{2 green})=\\binom{3}{2}/\\binom{9}{2}=3/36=1/12$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let $r$ = number of red sweets."
   },
   {
     "id": "ENGAA-2021-PHY-008",
@@ -589,15 +611,15 @@
     "solution": {
       "steps": [
         {
-          "title": "Let initial number of each",
+          "title": "Set up",
           "content": "Let initial number of each $=N_0$."
         },
         {
-          "title": "After X remaining fraction so",
+          "title": "Work through",
           "content": "After $4T$: X remaining fraction $=(1/2)^{4T/T}=1/16$, so $R=N_0+(N_0-N_0/16)=\\frac{31}{16}N_0$."
         },
         {
-          "title": "Y remaining fraction so",
+          "title": "Simplify",
           "content": "Y remaining fraction $=(1/2)^{4T/2T}=1/4$, so $S=N_0+(N_0-N_0/4)=\\frac{7}{4}N_0=\\frac{28}{16}N_0$."
         },
         {
@@ -605,7 +627,8 @@
           "content": "Ratio $S/R=28/31$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-008",
@@ -631,15 +654,17 @@
     "solution": {
       "steps": [
         {
-          "title": "Original cuboid has dimensions double the small one",
+          "title": "Set up",
           "content": "Original cuboid has dimensions double the small one: $4,\\,6,\\,2x$."
         },
         {
-          "title": "Its space diagonal satisfies",
+          "title": "Obtain the result",
           "content": "Its space diagonal satisfies $4^2+6^2+(2x)^2=(\\sqrt{77})^2=77 \\Rightarrow 16+36+4x^2=77 \\Rightarrow 4x^2=25 \\Rightarrow x=\\frac52$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: original cuboid has dimensions double the small one: $4,\\,6,\\,2x$."
   },
   {
     "id": "ENGAA-2021-PHY-009",
@@ -665,7 +690,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Heat lost by warm water heat to melt",
+          "title": "Set up",
           "content": "Heat lost by warm water = heat to melt ice + heat to warm melted ice to $T$: $180\\times4\\times(25-T)=20\\times300+20\\times4\\times T$."
         },
         {
@@ -673,7 +698,8 @@
           "content": "This gives $18000-720T=6000+80T \\Rightarrow 12000=800T \\Rightarrow T=15.0^\\circ\\mathrm{C}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M1-009",
@@ -701,7 +727,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Journey length in km",
+          "title": "Set up",
           "content": "Journey length in km $=m/x$."
         },
         {
@@ -717,7 +743,9 @@
           "content": "Cost in pounds $=\\frac{mp}{100fx}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: journey length in km $=m/x$."
   },
   {
     "id": "ENGAA-2021-PHY-010",
@@ -743,7 +771,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Speed of sound in rod from the far",
+          "title": "Set up",
           "content": "Speed of sound in rod $v=2L/t_2$ (from the far-end echo)."
         },
         {
@@ -751,11 +779,12 @@
           "content": "Distance to crack $d=v t_1/2 = L t_1/t_2$."
         },
         {
-          "title": "Distance from crack to far end",
+          "title": "Obtain the result",
           "content": "Distance from crack to far end $=L-d=L\\left(1-\\frac{t_1}{t_2}\\right)=\\frac{(t_2-t_1)}{t_2}L$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-002",
@@ -788,7 +817,8 @@
           "content": "At $x=\\dfrac{1}{2}$: $u=\\dfrac{\\sqrt{2}}{2}$, $\\dfrac{du}{dx}=\\sqrt{2}+\\dfrac{1}{4}(2\\sqrt{2})=\\dfrac{3\\sqrt{2}}{2}$. $\\dfrac{dy}{dx}=2u\\dfrac{du}{dx}=2\\cdot\\dfrac{\\sqrt{2}}{2}\\cdot\\dfrac{3\\sqrt{2}}{2}=3$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-011",
@@ -816,15 +846,16 @@
     "solution": {
       "steps": [
         {
-          "title": "For P constant velocity N so N",
-          "content": "For P (constant velocity): $2F=mg\\sin60^\\circ=2.4\\times10\\times\\frac{\\sqrt{3}}{2}=12\\sqrt{3}$ N, so $F=6\\sqrt{3}$ N."
+          "title": "Set up",
+          "content": "For P (constant velocity): $2F=mg\\sin 60^\\circ=2.4\\times10\\times\\frac{\\sqrt{3}}{2}=12\\sqrt{3}$ N, so $F=6\\sqrt{3}$ N."
         },
         {
-          "title": "For Q m s",
+          "title": "Obtain the result",
           "content": "For Q: $a=F/m=6\\sqrt{3}/0.75\\approx13.8$ m s$^{-2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-003",
@@ -860,7 +891,8 @@
           "content": "Sum $=2a+(2n-1)d$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-012",
@@ -886,7 +918,7 @@
     "solution": {
       "steps": [
         {
-          "title": "From the diagram the cm span corresponds to",
+          "title": "Set up",
           "content": "From the diagram, the 33 cm span corresponds to 2.5 wavelengths, giving $\\lambda=33/2.5=13.2$ cm $=0.132$ m."
         },
         {
@@ -894,11 +926,12 @@
           "content": "Frequency $=v/\\lambda=330/0.132=2500$ Hz."
         },
         {
-          "title": "The displacement direction at P is read from",
+          "title": "Obtain the result",
           "content": "The displacement direction at P is read from the diagram's waveform shape (to the left)."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-004",
@@ -935,11 +968,12 @@
           "content": "Case $-1$: $x^2+4x+4=0 \\Rightarrow (x+2)^2=0$, gives 1 real (repeated) root."
         },
         {
-          "title": "Total distinct real solutions",
+          "title": "Obtain the result",
           "content": "Total distinct real solutions $=2+1=3$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-013",
@@ -968,19 +1002,20 @@
           "content": "$P=one^2R \\Rightarrow 9=I_4^2\\times4 \\Rightarrow I_4=1.5$ A."
         },
         {
-          "title": "Voltage across the parallel section V",
+          "title": "Work through",
           "content": "Voltage across the parallel section $V_4=1.5\\times4=6$ V."
         },
         {
-          "title": "Voltage across the series resistor V giving total",
+          "title": "Simplify",
           "content": "Voltage across the 8.0 Ω series resistor $=30-6=24$ V, giving total current $one=24/8=3$ A."
         },
         {
-          "title": "Current through R A",
+          "title": "Obtain the result",
           "content": "Current through R: $I_R=one-I_4=3-1.5=1.5$ A. $R=V_4/I_R=6/1.5=4.0$ Ω."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-005",
@@ -1008,15 +1043,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Radius chord at so distance from centre",
+          "title": "Set up",
           "content": "Radius $r=2$, chord at $x=1$, so distance from centre $d=1$."
         },
         {
-          "title": "Using the reflex angle for the minor segment",
+          "title": "Obtain the result",
           "content": "$\\cos(\\theta/2)=d/r=1/2 \\Rightarrow \\theta/2=\\pi/3 \\Rightarrow \\theta=2\\pi/3$. using the reflex angle for the minor segment on the far side, $\\theta_{major}=2\\pi-2\\pi/3$; computing directly: minor segment area $=\\frac12 r^2(\\theta-\\sin\\theta)$ with $\\theta=\\frac{4\\pi}{3}$ (angle subtended by the minor segment's arc) $=\\frac12(4)\\left(\\frac{4\\pi}{3}-\\sin\\frac{4\\pi}{3}\\right)=\\frac{4\\pi}{3}-\\sqrt{3}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-014",
@@ -1042,19 +1078,20 @@
     "solution": {
       "steps": [
         {
-          "title": "Taking moments about the pivot weight acts at",
+          "title": "Set up",
           "content": "Taking moments about the pivot: weight $W$ acts at the plank's centre, distance $2.5-1.0=1.5$ m from pivot."
         },
         {
-          "title": "Cable acts at the far end distance m",
+          "title": "Work through",
           "content": "Cable acts at the far end, distance $5.0-1.0=4.0$ m from pivot, vertical component $=75\\sin60^\\circ$."
         },
         {
           "title": "Simplify to the result",
-          "content": "Balance: $W\\times1.5=75\\sin60^\\circ\\times4 \\Rightarrow W=\\frac{75\\times\\frac{\\sqrt{3}}{2}\\times4}{1.5}=100\\sqrt{3}$ N."
+          "content": "Balance: $W\\times1.5=75\\sin 60^\\circ\\times4 \\Rightarrow W=\\frac{75\\times\\frac{\\sqrt{3}}{2}\\times4}{1.5}=100\\sqrt{3}$ N."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-006",
@@ -1088,7 +1125,8 @@
           "content": "Since $373248=72^3$, mean $=\\frac13\\log_{10}(72^3)=\\log_{10}72$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-015",
@@ -1114,11 +1152,11 @@
     "solution": {
       "steps": [
         {
-          "title": "For constant acceleration distances in successive equal time",
+          "title": "Set up",
           "content": "For constant acceleration, distances in successive equal time intervals increase by $at^2$ each interval."
         },
         {
-          "title": "With droplets intervals the gap grows from interval",
+          "title": "Work through",
           "content": "With 4 droplets (3 intervals), the gap grows from $x$ (interval 1) to $y=x+2at^2$ (interval 3)."
         },
         {
@@ -1126,7 +1164,8 @@
           "content": "So $y-x=2at^2 \\Rightarrow a=\\dfrac{y-x}{2t^2}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-007",
@@ -1152,15 +1191,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Is decreasing on so among the cosines is",
-          "content": "$\\cos$ is decreasing on $[0,\\pi/2]$, so among the cosines $\\cos0.5\\approx0.878$ is largest. $\\sin$ is increasing, so among the sines $\\sin1\\approx0.841$ is largest."
+          "title": "Set up",
+          "content": "$\\cos  is decreasing on [0,\\pi/2]$, so among the cosines $\\cos0.5\\approx0.878$ is largest. $\\sin  is increasing, so among the sines \\sin1\\approx0.841$ is largest."
         },
         {
-          "title": "Comparing the two so is overall largest",
+          "title": "Obtain the result",
           "content": "Comparing the two: $\\cos0.5>\\sin1$, so $\\cos0.5$ is overall largest."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-016",
@@ -1186,7 +1226,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Force N Pa",
+          "title": "Set up",
           "content": "Force $=7.2\\times10=72$ N. $E=\\dfrac{FL}{A\\Delta L}=\\dfrac{72\\times2.5}{1.8\\times10^{-6}\\times5\\times10^{-4}}=\\dfrac{180}{9\\times10^{-10}}=2.0\\times10^{11}$ Pa."
         },
         {
@@ -1194,7 +1234,8 @@
           "content": "Energy stored $=\\frac12F\\Delta L=\\frac12\\times72\\times5\\times10^{-4}=0.018$ J."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-008",
@@ -1231,7 +1272,8 @@
           "content": "Then $\\frac{a}{1-3/5}=\\frac85 \\Rightarrow a=\\frac{16}{25}$. $a+r=\\frac{16}{25}+\\frac{15}{25}=\\frac{31}{25}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-017",
@@ -1256,15 +1298,16 @@
     "solution": {
       "steps": [
         {
-          "title": "Total initial momentum kg m s",
+          "title": "Set up",
           "content": "Total initial momentum $=(30+10)\\times4=160$ kg m s$^{-1}$."
         },
         {
-          "title": "After jump child is stationary zero momentum so",
+          "title": "Obtain the result",
           "content": "After jump, child is stationary (zero momentum), so all momentum belongs to the sledge: $10\\times v=160 \\Rightarrow v=16$ m s$^{-1}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-009",
@@ -1294,11 +1337,11 @@
           "content": "Note $-x^2+8x-16=-(x-4)^2$."
         },
         {
-          "title": "Setting curves equal",
+          "title": "Work through",
           "content": "Setting curves equal: $(x-4)(x^2-2x-8)+(x-4)^2=0 \\Rightarrow (x-4)\\left[(x^2-2x-8)+(x-4)\\right]=0 \\Rightarrow (x-4)(x^2-x-12)=0$."
         },
         {
-          "title": "Since giving double and",
+          "title": "Simplify",
           "content": "Since $x^2-x-12=(x-4)(x+3)$: $(x-4)^2(x+3)=0$, giving $x=4$ (double) and $x=-3$."
         },
         {
@@ -1306,7 +1349,8 @@
           "content": "This is 2 distinct points."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-018",
@@ -1337,7 +1381,7 @@
           "content": "Resistance $R=\\rho L/A$."
         },
         {
-          "title": "Volume is conserved halving the diameter quarters the",
+          "title": "Work through",
           "content": "Volume is conserved: halving the diameter quarters the cross-sectional area ($A'=A/4$), so length quadruples ($L'=4L$) to conserve volume."
         },
         {
@@ -1345,7 +1389,8 @@
           "content": "New resistance $R'=\\rho(4L)/(A/4)=16\\rho L/A=16R$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-010",
@@ -1358,14 +1403,14 @@
     "difficulty": 5,
     "question": "Evaluate $\\dfrac{3}{\\sqrt{27}+\\sqrt{21}} + \\dfrac{3}{\\sqrt{24}+\\sqrt{18}} + \\dfrac{3}{\\sqrt{21}+\\sqrt{15}} + \\ldots + \\dfrac{3}{\\sqrt9+\\sqrt3}$",
     "options": {
-      "A": "3sqrt(2)/2",
-      "B": "3sqrt(2)",
-      "C": "3sqrt(3)/2",
-      "D": "$sqrt(3)$",
-      "E": "$1+sqrt(2)$",
-      "F": "$3(1+sqrt(2))$",
-      "G": "$(sqrt(3)/3)(1+sqrt(2)/2)$",
-      "H": "$sqrt(3)(1+sqrt(2)/2)$"
+      "A": "$3\\sqrt{2}/2$",
+      "B": "$3\\sqrt{2}$",
+      "C": "$3\\sqrt{3}/2$",
+      "D": "$\\sqrt{3}$",
+      "E": "$1+\\sqrt{2}$",
+      "F": "$3(1+\\sqrt{2})$",
+      "G": "$(\\sqrt{3}/3)(1+\\sqrt{2}/2)$",
+      "H": "$\\sqrt{3}(1+\\sqrt{2}/2)$"
     },
     "answer": "H",
     "origin": "past-paper",
@@ -1385,7 +1430,8 @@
           "content": "Dividing by 2: $\\sqrt{3}\\left(1+\\dfrac{\\sqrt{2}}{2}\\right)$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-019",
@@ -1421,7 +1467,8 @@
           "content": "At $t=10$: $s=2(100)-0.06(1000)=200-60=140$ m."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-M2-011",
@@ -1459,7 +1506,8 @@
           "content": "Maximum area $=(15-5)\\sqrt{5}=10\\sqrt{5}$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2021-PHY-020",
@@ -1487,7 +1535,7 @@
     "solution": {
       "steps": [
         {
-          "title": "Momentum conservation initial",
+          "title": "Set up",
           "content": "Momentum conservation (initial 0): $mv_1=4mv_2 \\Rightarrow v_1=4v_2$. $KE_1=\\frac12m(4v_2)^2=8mv_2^2$, $KE_2=\\frac12(4m)v_2^2=2mv_2^2$."
         },
         {
@@ -1499,6 +1547,7 @@
           "content": "Difference $=4W/5-W/5=3W/5$."
         }
       ]
-    }
+    },
+    "spec_status": "on_spec"
   }
 ]

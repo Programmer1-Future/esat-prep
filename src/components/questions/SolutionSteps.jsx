@@ -15,6 +15,28 @@ function StepMarkdown({ children }) {
   )
 }
 
+const TITLE_STOP_ENDS = new Set([
+  'the', 'and', 'by', 'of', 'a', 'an', 'to', 'same', 'apply', 'so', 'but', 'with',
+  'at', 'for', 'from', 'since', 'is', 'are', 'was', 'not', 'as', 'or', 'in', 'on',
+  'than', 'their', 'its', 'be', 'this', 'that', 'which', 'when', 'then', 'means',
+  'giving', 'using', 'taking', 'has', 'have', 'would', 'could', 'should', 'will',
+  'can', 'only', 'also', 'both', 'all', 's', 't', 'm', 'n',
+])
+
+/** Hide auto-titles: body prefixes, ≥8-word truncations, stopword endings, latex residue. */
+function showStepTitle(title, content) {
+  const t = String(title || '').replace(/\$[^$]*\$/g, ' ').trim()
+  const c = String(content || '').replace(/\$[^$]*\$/g, ' ').trim()
+  if (!t) return false
+  const words = t.split(/\s+/).filter(Boolean)
+  if (words.length >= 8) return false
+  const last = (words[words.length - 1] || '').toLowerCase().replace(/[.,;:!?]+$/, '')
+  if (words.length >= 4 && TITLE_STOP_ENDS.has(last)) return false
+  if (c.toLowerCase().startsWith(t.toLowerCase()) && words.length >= 4) return false
+  if (/\bpmatrix\b|mathrm|\\[a-zA-Z]+/i.test(t)) return false
+  return true
+}
+
 // Renders an authored `solution` (docs/CONTENT_SPEC.md §2) as numbered
 // steps with a diagram injected after `diagram.after_step`, replacing the
 // regex-guessed formatting of the old technique blob path.
@@ -60,9 +82,11 @@ export function SolutionSteps({ solution, diagram }) {
                 {i + 1}
               </span>
               <div className="flex-1 min-w-0">
-                <div className="text-[12px] font-600 text-text-secondary mb-0.5 [&_p]:inline [&_p]:m-0">
-                  <StepMarkdown>{step.title}</StepMarkdown>
-                </div>
+                {showStepTitle(step.title, step.content) && (
+                  <div className="text-[12px] font-600 text-text-secondary mb-0.5 [&_p]:inline [&_p]:m-0">
+                    <StepMarkdown>{step.title}</StepMarkdown>
+                  </div>
+                )}
                 <div className="technique-body text-[13px]">
                   <StepMarkdown>{step.content}</StepMarkdown>
                 </div>
