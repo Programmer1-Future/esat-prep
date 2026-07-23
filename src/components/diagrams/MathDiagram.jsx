@@ -6,6 +6,9 @@ import { TrigSolutions } from './cases/TrigSolutions'
 import { Triangle } from './cases/Triangle'
 import { Transformation } from './cases/Transformation'
 import { NumberLine } from './cases/NumberLine'
+// After case imports (they pull mafs/core.css) so theme vars win on cascade too.
+import 'mafs/core.css'
+import './mafs-theme.css'
 
 // Dispatcher from a `diagram` spec (docs/CONTENT_SPEC.md §2) to its case
 // component. An unknown/missing case renders nothing rather than crashing
