@@ -1,0 +1,37 @@
+/* Loaded after mafs/core.css so Foolscap / After Hours beat stock neon-on-black.
+   Theme.indigo|green|blue|red resolve to these vars. */
+
+html .MafsView {
+  border-radius: 10px;
+  /* Foolscap — desk-lamp paper, exam-sketch ink */
+  --mafs-bg: #fffdfa;
+  --mafs-fg: #211e1a;
+  --mafs-origin-color: #211e1a;
+  --mafs-line-color: #d5cdbf;
+  --grid-line-subdivision-color: #ebe5d9;
+  --mafs-indigo: #2f5a9e; /* primary curve — site accent */
+  --mafs-green: #1e7a46;  /* answer / shade — success */
+  --mafs-blue: #0e7490;   /* construction — info */
+  --mafs-red: #b42318;    /* trapezia / traps — danger */
+  --mafs-orange: #c45c1a;
+  --mafs-yellow: #8f6400;
+  --mafs-violet: #6b4ea3;
+  --mafs-pink: #a83d6b;
+}
+
+html.dark .MafsView {
+  /* After Hours — warm night desk (brand-matched; soft lamp, not neon) */
+  --mafs-bg: #1c1915;
+  --mafs-fg: #f1ece2;
+  --mafs-origin-color: #f1ece2;
+  --mafs-line-color: #38332a;
+  --grid-line-subdivision-color: #2a2620;
+  --mafs-indigo: #8fb1e8;
+  --mafs-green: #62c98d;
+  --mafs-blue: #6fc3e8;
+  --mafs-red: #f08375;
+  --mafs-orange: #e89a5c;
+  --mafs-yellow: #e2b54e;
+  --mafs-violet: #b8a0e0;
+  --mafs-pink: #e090b8;
+}
