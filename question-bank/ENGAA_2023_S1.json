@@ -19,9 +19,26 @@
       "G": "R = 15r"
     },
     "answer": "A",
-    "technique": "Each cylinder's total surface area = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$. Ten cylinders: $100\\pi r^2$. Set equal to sphere: $4\\pi R^2 = 100\\pi r^2 \\Rightarrow R^2 = 25r^2 \\Rightarrow R = 5r$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Each cylinder's total surface area = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Ten cylinders: $100\\pi r^2$."
+        },
+        {
+          "title": "Set equal to sphere",
+          "content": "Set equal to sphere: $4\\pi R^2 = 100\\pi r^2 \\Rightarrow R^2 = 25r^2 \\Rightarrow R = 5r$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: each cylinder's total surface area = $2\\pi r^2 + 2\\pi r(4r) = 10\\pi r^2$."
   },
   {
     "id": "ENGAA-2023-M1-002",
@@ -42,9 +59,26 @@
       "F": "$x = \\dfrac{y-p}{q-r} - s$"
     },
     "answer": "C",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Isolate the fraction term",
+          "content": "$y = p - \\dfrac{q-r}{s-x} \\implies p - y = \\dfrac{q-r}{s-x}$"
+        },
+        {
+          "title": "Invert both sides",
+          "content": "$s - x = \\dfrac{q-r}{p-y}$"
+        },
+        {
+          "title": "Solve for x",
+          "content": "$x = s - \\dfrac{q-r}{p-y}$"
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $$y = p - \\dfrac{q-r}{s-x} \\implies p - y = \\dfrac{q-r}{s-x}$$"
   },
   {
     "id": "ENGAA-2023-PHY-001",
@@ -65,9 +99,21 @@
       "F": "20 m"
     },
     "answer": "F",
-    "technique": "Work-energy theorem: $Fd = \\tfrac{1}{2}mv^2$. $d = \\dfrac{0.5 \\times 10000 \\times 2.0^2}{1000} = \\dfrac{20000}{1000} = 20\\text{ m}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Work-energy theorem: $Fd = \\tfrac{1}{2}mv^2$. $d = \\dfrac{0.5 \\times 10000 \\times 2.0^2}{1000}$"
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$= \\dfrac{20000}{1000} = 20\\text{ m}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-002",
@@ -90,9 +136,29 @@
       "H": "1.0 A, 3.0 W"
     },
     "answer": "F",
-    "technique": "With switch open, current flows through 2 resistors in series (3rd branch open): total resistance $2R$, $I=1.0$A so EMF $= 2R$, and $P=I^2(2R)=1.0$W gives $2R=1\\,\\Omega$ so $R=0.5\\,\\Omega$, EMF $=1.0$V. Closing the switch puts the third identical resistor in parallel with one of the existing resistors, giving total resistance $R + R/2 = 1.5R = 0.75\\,\\Omega$. Total current $I=1.0/0.75=1.33$A, power $=EMF\\times I=1.33$W$\\approx1.3$W. The ammeter (in the branch shared by both resistors, not the parallel pair) reads half of this branch current: $1.33/2\\approx0.67$A.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "With switch open, current flows through 2 resistors in series (3rd branch open): total resistance $2R$, $one=1.0$A so EMF $= 2R$, and $P=one^2(2R)=1.0$W gives $2R=1\\,\\Omega$ so $R=0.5\\,\\Omega$, EMF $=1.0$V."
+        },
+        {
+          "title": "Work through",
+          "content": "Closing the switch puts the third identical resistor in parallel with one of the existing resistors, giving total resistance $R + R/2 = 1.5R = 0.75\\,\\Omega$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Total current $one=1.0/0.75=1.33$A, power $=EMF\\times one=1.33$W$\\approx1.3$W."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The ammeter (in the branch shared by both resistors, not the parallel pair) reads half of this branch current: $1.33/2\\approx0.67$A."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M1-003",
@@ -113,9 +179,34 @@
       "F": "$\\frac{23}{60}$"
     },
     "answer": "F",
-    "technique": "Place $W=(0,0)$, $X=(1,0)$, $Y=(1,1)$, $Z=(0,1)$. Then $M = W + \\tfrac{1}{3}(X-W) = (1/3,0)$, $N = X + \\tfrac{3}{4}(Y-X) = (1,3/4)$, $P = Y + \\tfrac{4}{5}(Z-Y) = (1/5,1)$. Using the shoelace formula, area $= \\tfrac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)| = \\tfrac{23}{60}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Place $W=(0,0)$, $X=(1,0)$, $Y=(1,1)$, $Z=(0,1)$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Then $M = W + \\tfrac{1}{3}(X-W) = (1/3,0)$, N"
+        },
+        {
+          "title": "Simplify",
+          "content": "$= X + \\tfrac{3}{4}(Y-X) = (1,3/4)$, $P$"
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$= Y + \\tfrac{4}{5}(Z-Y) = (1/5,1)$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Using the shoelace formula, area $= \\tfrac{1}{2}|x_M(y_N-y_P)+x_N(y_P-y_M)+x_P(y_M-y_N)| = \\tfrac{23}{60}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: place $W=(0,0)$, $X=(1,0)$, $Y=(1,1)$, $Z=(0,1)$."
   },
   {
     "id": "ENGAA-2023-PHY-003",
@@ -138,9 +229,33 @@
       "H": "60 N"
     },
     "answer": "B",
-    "technique": "For a spring, $E = \\tfrac{1}{2}kx^2$, so the slope of E vs $x^2$ is $k/2$. At $x^2 = 25\\text{ cm}^2 = 0.0025\\text{ m}^2$, $E = 0.015$ J: $0.015 = \\tfrac{1}{2}k(0.0025) \\Rightarrow k = 12\\text{ N/m}$. At this point $x = 0.05$ m, so $F = kx = 12 \\times 0.05 = 0.60$ N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "For a spring, $E = \\tfrac{1}{2}kx^2$, so the slope of E vs $x^2$ is $k/2$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "At $x^2 = 25\\text{ cm}^2 = 0.0025\\text{ m}^2$, E"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "= 0.015$ J: $0.$015 = \\tfrac{1}{2}k(0.0025) \\Rightarrow k$"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "$= 12\\text{ N/m}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "At this point $x = 0.05$ m, so $F = kx = 12 \\times 0.05 = 0.60$ N."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-001",
@@ -163,9 +278,21 @@
       "H": "12"
     },
     "answer": "D",
-    "technique": "Write everything as powers of 3: $27^{2(x-2)}=3^{6(x-2)}=3^{6x-12}$, $9^{2x-3}=3^{4x-6}$, and $81^{3/2}=(3^4)^{3/2}=3^6$. So $3^{6x-12}/3^{4x-6}=3^6 \\Rightarrow 3^{2x-6}=3^6 \\Rightarrow 2x-6=6 \\Rightarrow x=6$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Write everything as powers of 3: $27^{2(x-2)}=3^{6(x-2)}=3^{6x-12}$, $9^{2x-3}=3^{4x-6}$, and $81^{3/2}=(3^4)^{3/2}=3^6$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $3^{6x-12}/3^{4x-6}=3^6 \\Rightarrow 3^{2x-6}=3^6 \\Rightarrow 2x-6=6 \\Rightarrow x=6$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-004",
@@ -186,9 +313,21 @@
       "F": "$33\\ \\text{g/cm}^{3}$"
     },
     "answer": "B",
-    "technique": "Weight $= P \\times A = 0.45 \\times 12 = 5.4$ N, so mass $= 5.4/10 = 0.54$ kg $= 540$ g. Density $= 540/180 = 3.0\\text{ g/cm}^3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Weight N so mass kg g",
+          "content": "Weight $= P \\times A = 0.45 \\times 12 = 5.4$ N, so mass $= 5.4/10 = 0.54$ kg $= 540$ g."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Density $= 540/180 = 3.0\\text{ g/cm}^3$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M1-004",
@@ -209,9 +348,34 @@
       "F": "$83\\frac{1}{3}\\%$"
     },
     "answer": "D",
-    "technique": "Let old player salary = 1. Old coach salary = 0.8. New coach $= 0.8\\times1.15 = 0.92$. New player $= 1\\times1.38 = 1.38$. Ratio $= 0.92/1.38 = 2/3 = 66\\tfrac{2}{3}\\%$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Let old player salary = 1."
+        },
+        {
+          "title": "Old coach salary",
+          "content": "Old coach salary = 0.8."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "New coach $= 0.8\\times1.15 = 0.92$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "New player $= 1\\times1.38 = 1.38$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Ratio $= 0.92/1.38 = 2/3 = 66\\tfrac{2}{3}\\%$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let old player salary = 1."
   },
   {
     "id": "ENGAA-2023-PHY-005",
@@ -232,9 +396,25 @@
       "F": "12 days"
     },
     "answer": "E",
-    "technique": "$N_X(t) = 2N_{Y0}(0.5)^{t/2}$, $N_Y(t) = N_{Y0}(0.5)^{t/3}$. Setting equal: $2(0.5)^{t/2} = (0.5)^{t/3} \\Rightarrow 2 = (0.5)^{t/3-t/2} = (0.5)^{-t/6} = 2^{t/6}$. So $t/6 = 1 \\Rightarrow t = 6$ days.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$N_X(t) = 2N_{Y0}(0.5)^{t/2}$, $N_Y(t) = N_{Y0}(0.5)^{t/3}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Setting equal: $2(0.5)^{t/2} = (0.5)^{t/3} \\Rightarrow 2 = (0.5)^{t/3-t/2} = (0.5)^{-t/6} = 2^{t/6}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $t/6 = 1 \\Rightarrow t = 6$ days."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M1-005",
@@ -254,9 +434,30 @@
       "E": "14.4"
     },
     "answer": "B",
-    "technique": "Total distance per cycle $= 0.4$ km. Time $= 0.1/6 + 0.2/10 + 0.1/20 = 1/60+1/50+1/200$ h. Using a common denominator of 600: $10/600+12/600+3/600 = 25/600 = 1/24$ h. Average speed $= 0.4 \\div (1/24) = 9.6$ km/h.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Total distance per cycle $= 0.4$ km."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Time $= 0.1/6 + 0.2/10 + 0.1/20 = 1/60+1/50+1/200$ h."
+        },
+        {
+          "title": "Using a common denominator of h",
+          "content": "Using a common denominator of 600: $10/600+12/600+3/600 = 25/600 = 1/24$ h."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Average speed $= 0.4 \\div (1/24) = 9.6$ km/h."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: total distance per cycle $= 0.4$ km."
   },
   {
     "id": "ENGAA-2023-PHY-006",
@@ -276,9 +477,25 @@
       "E": "[DIAGRAM: graph showing curved (non-linear) drop across both sections]"
     },
     "answer": "A",
-    "technique": "In steady state, the same rate of heat flow passes through both layers (same thickness a, same area). Metal is a good conductor (low thermal resistance) so very little temperature drop occurs across it; the insulator has high thermal resistance so almost all the temperature drop $(T_1-T_2)$ occurs across it, roughly linearly since it's a uniform material at steady state. This matches graph A: near-flat over the metal (0 to a), then a steep near-linear decrease over the insulator (a to 2a).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "In steady state, the same rate of heat flow passes through both layers (same thickness a, same area)."
+        },
+        {
+          "title": "Work through",
+          "content": "Metal is a good conductor (low thermal resistance) so very little temperature drop occurs across it; the insulator has high thermal resistance so almost all the temperature drop $(T_1-T_2)$ occurs across it, roughly linearly since it's a uniform material at steady state."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "This matches graph A: near-flat over the metal (0 to a), then a steep near-linear decrease over the insulator (a to 2a)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M1-006",
@@ -301,9 +518,30 @@
       "H": "$4+\\sqrt{2}$"
     },
     "answer": "H",
-    "technique": "Linear scale factor $k$ satisfies $k^2=2$ so $k=\\sqrt2$, and volume ratio $k^3=2\\sqrt2$. Let $V_X$ be X's volume: $2\\sqrt2\\,V_X - V_X = 7\\sqrt2 \\Rightarrow V_X(2\\sqrt2-1)=7\\sqrt2 \\Rightarrow V_X = \\dfrac{7\\sqrt2}{2\\sqrt2-1} = \\dfrac{7\\sqrt2(2\\sqrt2+1)}{(2\\sqrt2)^2-1^2} = \\dfrac{7\\sqrt2(2\\sqrt2+1)}{7} = \\sqrt2(2\\sqrt2+1) = 4+\\sqrt2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Linear scale factor $k$ satisfies $k^2=2$ so $k=\\sqrt{2}$, and volume ratio $k^3=2\\sqrt{2}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Let $V_X$ be X's volume: $2\\sqrt{2}\\,V_X - V_X = 7\\sqrt{2} \\Rightarrow V_X(2\\sqrt{2}-1)=7\\sqrt{2} \\Rightarrow V_X = \\dfrac{7\\sqrt{2}}{2\\sqrt{2}-1}$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Rationalising: $V_X = \\dfrac{7\\sqrt{2}(2\\sqrt{2}+1)}{(2\\sqrt{2})^2-1^2} = \\dfrac{7\\sqrt{2}(2\\sqrt{2}+1)}{7}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "So $V_X = \\sqrt{2}(2\\sqrt{2}+1) = 4+\\sqrt{2}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: linear scale factor $k$ satisfies $k^2=2$ so $k=\\sqrt{2}$, and volume ratio $k^3=2\\sqrt{2}$."
   },
   {
     "id": "ENGAA-2023-PHY-007",
@@ -323,9 +561,29 @@
       "E": "550 000 V"
     },
     "answer": "C",
-    "technique": "Power delivered to town $= 33000 \\times 1500 = 4.95\\times10^7$ W. This equals the power on the transmission line, so line voltage $= P/450 = 110000$ V. This is the secondary voltage of the step-up transformer, which steps up by a factor $1500/300=5$. Station output $= 110000/5 = 22000$ V.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Power delivered to town $= 33000 \\times 1500 = 4.95\\times10^7$ W."
+        },
+        {
+          "title": "Work through",
+          "content": "This equals the power on the transmission line, so line voltage $= P/450 = 110000$ V."
+        },
+        {
+          "title": "Simplify",
+          "content": "This is the secondary voltage of the step-up transformer, which steps up by a factor $1500/300=5$."
+        },
+        {
+          "title": "Station output V",
+          "content": "Station output $= 110000/5 = 22000$ V."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-002",
@@ -346,9 +604,29 @@
       "F": "$200\\sqrt{5}$"
     },
     "answer": "B",
-    "technique": "Simplify the numerator: $a\\times10^4+2a\\times10^3=12a\\times10^3$. Dividing by $3\\times10^{-1}$ gives $4a\\times10^4$. Squaring: $16a^2\\times10^8=8\\times10^9$, so $a^2=5$ and $a=\\pm\\sqrt5$. The positive difference between the two solutions is $2\\sqrt5$.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Simplify the numerator: $a\\times10^4+2a\\times10^3=12a\\times10^3$."
+        },
+        {
+          "title": "Dividing by gives",
+          "content": "Dividing by $3\\times10^{-1}$ gives $4a\\times10^4$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Squaring: $16a^2\\times10^8=8\\times10^9$, so $a^2=5$ and $a=\\pm\\sqrt{5}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The positive difference between the two solutions is $2\\sqrt{5}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-008",
@@ -368,9 +646,29 @@
       "E": "300 cm/s"
     },
     "answer": "D",
-    "technique": "Period $T = 1/12$ s. In 2.0 s there are exactly $2.0/T = 24$ complete cycles. Each cycle a particle travels a total path of $4A = 4\\times3.0=12$ cm (up to crest, back through zero to trough, back to zero). Total distance $=24\\times12=288$ cm over 2.0 s, giving average speed $=288/2.0=144$ cm/s.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Period $T = 1/12$ s."
+        },
+        {
+          "title": "In s there are exactly complete cycles",
+          "content": "In 2.0 s there are exactly $2.0/T = 24$ complete cycles."
+        },
+        {
+          "title": "Simplify",
+          "content": "Each cycle a particle travels a total path of $4A = 4\\times3.0=12$ cm (up to crest, back through zero to trough, back to zero)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Total distance $=24\\times12=288$ cm over 2.0 s, giving average speed $=288/2.0=144$ cm/s."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-003",
@@ -391,9 +689,25 @@
       "F": "(-11, -4)"
     },
     "answer": "E",
-    "technique": "Since XP:PY = 1:2, $\\overrightarrow{PY} = 2\\overrightarrow{XP} = (8,-6)$. So $Y = P + \\overrightarrow{PY} = (-8+8, 5-6) = (0,-1)$. Then $Q = Y - \\overrightarrow{QY} = (0-7, -1-6) = (-7,-7)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Since XP:PY = 1:2, $\\overrightarrow{PY} = 2\\overrightarrow{XP} = (8,-6)$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $Y = P + \\overrightarrow{PY} = (-8+8, 5-6) = (0,-1)$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $Q = Y - \\overrightarrow{QY} = (0-7, -1-6) = (-7,-7)$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-009",
@@ -414,9 +728,25 @@
       "F": "$\\frac{3}{5}\\text{ A}$"
     },
     "answer": "B",
-    "technique": "Total EMF $V = IR_X + V_Y = 10I+4$. Power: $P=IV=I(10I+4)=6 \\Rightarrow 10I^2+4I-6=0 \\Rightarrow 5I^2+2I-3=0$. Factoring: $(5I-3)(I+1)=0$, so $I = 3/5$ A (taking the positive root).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Total EMF $V = IR_X + V_Y = 10I+4$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Power: $P=IV=one(10I+4)=6 \\Rightarrow 10I^2+4I-6=0 \\Rightarrow 5I^2+2I-3=0$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Factoring: $(5I-3)(one+1)=0$, so $one = 3/5$ A (taking the positive root)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-004",
@@ -437,9 +767,25 @@
       "F": "6"
     },
     "answer": "C",
-    "technique": "$2^{\\sin x} \\times 3^{-\\sin x} = \\left(\\dfrac23\\right)^{\\sin x}$. Since $\\dfrac23<1$, this is maximised when $\\sin x$ is as small as possible, i.e. $\\sin x=-1$ (at $x=270°$). The maximum value is $\\left(\\dfrac23\\right)^{-1}=\\dfrac32$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$2^{\\sin x} \\times 3^{-\\sin x} = \\left(\\dfrac23\\right)^{\\sin x}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Since $\\dfrac23<1$, this is maximised when $\\sin x$ is as small as possible, i.e. $\\sin x=-1$ (at $x=270^\\circ$)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The maximum value is $\\left(\\dfrac23\\right)^{-1}=\\dfrac32$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-010",
@@ -462,9 +808,29 @@
       "H": "$405\\ \\text{cm}^{3}$"
     },
     "answer": "A",
-    "technique": "By Boyle's law: $P_{bottom}\\times90 = P_{atm}\\times720 \\Rightarrow P_{bottom}=8P_{atm}$. Since pressure increases linearly with depth, $P_{bottom}=P_{atm}+\\rho g d = 8P_{atm} \\Rightarrow \\rho g d = 7P_{atm}$. At depth $d/2$: $P(d/2) = P_{atm}+3.5P_{atm}=4.5P_{atm}$. Then $V(d/2) = P_{bottom}\\times90/P(d/2) = 8P_{atm}\\times90/(4.5P_{atm}) = 160\\text{ cm}^3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "By Boyle's law: $P_{bottom}\\times90 = P_{atm}\\times720 \\Rightarrow P_{bottom}=8P_{atm}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Since pressure increases linearly with depth, $P_{bottom}=P_{atm}+\\rho g d = 8P_{atm} \\Rightarrow \\rho g d = 7P_{atm}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "At depth $d/2$: $P(d/2) = P_{atm}+3.5P_{atm}=4.5P_{atm}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $V(d/2) = P_{bottom}\\times90/P(d/2) = 8P_{atm}\\times90/(4.5P_{atm}) = 160\\text{ cm}^3$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-005",
@@ -487,9 +853,25 @@
       "H": "39"
     },
     "answer": "H",
-    "technique": "$x^2-x-6=(x-3)(x+2)$, so $x=3$ and $x=-2$ are roots of $f(x)=x^3+ax^2+2x+b$. $f(3)=27+9a+6+b=0 \\Rightarrow 9a+b=-33$. $f(-2)=-8+4a-4+b=0 \\Rightarrow 4a+b=12$. Subtracting: $5a=-45 \\Rightarrow a=-9$, then $b=12-4(-9)=48$. So $a+b = -9+48=39$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "$x^2-x-6=(x-3)(x+2)$, so $x=3$ and $x=-2$ are roots of $f(x)=x^3+ax^2+2x+b$. $f(3)=27+9a+6+b=0 \\Rightarrow 9a+b=-33$. $f(-2)=-8+4a-4+b=0 \\Rightarrow 4a+b=12$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Subtracting: $5a=-45 \\Rightarrow a=-9$, then $b=12-4(-9)=48$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $a+b = -9+48=39$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-011",
@@ -509,9 +891,21 @@
       "E": "16000 Hz"
     },
     "answer": "D",
-    "technique": "Closed pipe fundamental: $f_1 = v/4L = 4000$ Hz, so $L=v/16000$. Open pipe fundamental: $f = v/2L = v/(2\\times v/16000) = 8000$ Hz.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Closed pipe fundamental: $f_1 = v/4L = 4000$ Hz, so $L=v/16000$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Open pipe fundamental: $f = v/2L = v/(2\\times v/16000) = 8000$ Hz."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-006",
@@ -532,9 +926,29 @@
       "F": "a = -8d"
     },
     "answer": "A",
-    "technique": "$S_n = \\tfrac{n}{2}(2a+(n-1)d)$. Equation: $S_9+S_{10}=S_{11}$. Expanding: $\\tfrac{9}{2}(2a+8d)+\\tfrac{10}{2}(2a+9d) = \\tfrac{11}{2}(2a+10d)$. Solving gives $a = -\\tfrac{13}{4}d$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$S_n = \\tfrac{n}{2}(2a+(n-1)d)$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Equation: $S_9+S_{10}=S_{11}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Expanding: $\\tfrac{9}{2}(2a+8d)+\\tfrac{10}{2}(2a+9d) = \\tfrac{11}{2}(2a+10d)$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Solving gives $a = -\\tfrac{13}{4}d$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-012",
@@ -556,9 +970,25 @@
       "G": "900 N s"
     },
     "answer": "D",
-    "technique": "Time to fall: $t=\\sqrt{2h/g}=\\sqrt{2\\times45/10}=3$ s. Vertical velocity gained: $v_y=gt=30$ m/s (horizontal velocity is unchanged, so impulse is purely due to the vertical velocity change). Impulse $= m\\Delta v = 2.6\\times30=78$ N s.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Time to fall: $t=\\sqrt{2h/g}=\\sqrt{2\\times45/10}=3$ s."
+        },
+        {
+          "title": "Work through",
+          "content": "Vertical velocity gained: $v_y=gt=30$ m/s (horizontal velocity is unchanged, so impulse is purely due to the vertical velocity change)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Impulse $= m\\Delta v = 2.6\\times30=78$ N s."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-007",
@@ -581,9 +1011,33 @@
       "H": "54"
     },
     "answer": "G",
-    "technique": "Common ratio condition: $(p-3)^2 = 2p(p-7)$. Expanding: $p^2-6p+9 = 2p^2-14p \\Rightarrow p^2-8p-9=0 \\Rightarrow (p-9)(p+1)=0$, so $p=9$ or $p=-1$. For $p=9$: terms are $18, 6, 2$, ratio $r=1/3$ (convergent), first term $a=18$, sum to infinity $=18/(1-1/3)=27$. For $p=-1$: terms are $-2,-4,-8$, ratio $r=2$ (divergent, rejected). So sum to infinity $=27$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Common ratio condition: $(p-3)^2 = 2p(p-7)$."
+        },
+        {
+          "title": "Work through",
+          "content": "Expanding: $p^2-6p+9 = 2p^2-14p \\Rightarrow p^2-8p-9=0 \\Rightarrow (p-9)(p+1)=0$, so $p=9$ or $p=-1$."
+        },
+        {
+          "title": "Simplify",
+          "content": "For $p=9$: terms are $18, 6, 2$, ratio $r=1/3$ (convergent), first term $a=18$, sum to infinity $=18/(1-1/3)=27$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "For $p=-1$: terms are $-2,-4,-8$, ratio $r=2$ (divergent, rejected)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "So sum to infinity $=27$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-013",
@@ -606,9 +1060,25 @@
       "H": "$9000\\sqrt{3}\\text{ W}$"
     },
     "answer": "C",
-    "technique": "Constant speed means friction balances the component of gravity along the slope: $f = mg\\sin\\theta = 60\\times10\\times\\sin30° = 300$ N. Rate of thermal energy production $= f\\times v = 300\\times15=4500$ W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Constant speed means friction balances the component of gravity along the slope: $f = mg\\sin\\theta = 60\\times10\\times\\sin 30^{\\circ}$"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "$= 300 N$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Rate of thermal energy production $= f\\times v = 300\\times15=4500$ W."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M1-007",
@@ -629,9 +1099,22 @@
       "F": "80°"
     },
     "answer": "E",
-    "technique": "Using circle theorems (angles subtended by the same arc, and the fact that the angle at the centre is twice the angle at the circumference, together with the given 40° and 55°), the value of x that satisfies the geometric constraints in the diagram is 75°.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The diagram gives two angles on the circle: $40^{\\circ}$ and $55^{\\circ}$. Use circle theorems (angles in the same segment; angle at the centre is twice the angle at the circumference) to relate these to $x$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Applying those relations to the given angles yields $x = 75^{\\circ}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "Use circle theorems on the shared arcs — relate the given angles to $x$."
   },
   {
     "id": "ENGAA-2023-PHY-014",
@@ -651,9 +1134,25 @@
       "E": "40 W"
     },
     "answer": "E",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Read the network topology",
+          "content": "The four identical resistors of resistance $R$ form the chain $P$ in series with the parallel pair $Q\\parallel R$, then $S$ in series. The equivalent resistance is $R_{\\mathrm{eq}} = R + \\dfrac{R}{2} + R = \\dfrac{5}{2}R.$"
+        },
+        {
+          "title": "Relate battery current to power in Q",
+          "content": "Battery current $I$ splits equally through $Q$ and $R$, so each parallel branch carries $\\dfrac{I}{2}$. Power in $Q$ is $\\left(\\dfrac{I}{2}\\right)^2 R = \\dfrac{I^2 R}{4} = 4.0\\,\\mathrm{W} \\implies I^2 R = 16\\,\\mathrm{W}.$"
+        },
+        {
+          "title": "Find the total battery power",
+          "content": "$P_{\\mathrm{total}} = I^2 R_{\\mathrm{eq}} = I^2 \\cdot \\dfrac{5}{2}R = \\dfrac{5}{2}\\cdot 16 = 40\\,\\mathrm{W}.$"
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-008",
@@ -674,9 +1173,29 @@
       "F": "7"
     },
     "answer": "A",
-    "technique": "Combine logs: log3[(x^2+3x+2)/(x^2+2x)]=2, so (x^2+3x+2)/(x^2+2x)=9. This gives 8x^2+15x-2=0, discriminant=225+64=289=17^2, x=(-15+-17)/16, so x=1/8 or x=-2. Checking domain (both log arguments must be positive): x=-2 gives x^2+2x=0, undefined; x=1/8 gives both arguments positive. So x=1/8.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Combine logs: log3[(x^2+3x+2)/(x^2+2x)]=2, so (x^2+3x+2)/(x^2+2x)=9."
+        },
+        {
+          "title": "Work through",
+          "content": "This gives 8x^2+15x-2=0, discriminant=225+64=289=17^2, x=(-15+-17)/16, so x=1/8 or x=-2."
+        },
+        {
+          "title": "Check the domain of the logs",
+          "content": "Checking domain (both log arguments must be positive): $x=-2$ gives $x^2+2x=0$, undefined; $x=\\dfrac{1}{8}$ gives both arguments positive."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So x=1/8."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-015",
@@ -690,17 +1209,33 @@
     "question": "Two identical, uniform, thin planks, each of mass 40 kg, are propped up against one another in equilibrium on a rough surface, forming an A-frame shape. Each plank is at an angle of 30° to the vertical. [DIAGRAM: two planks leaning against each other at their tops, each at 30° to vertical, with point P marked at the base of one plank on the ground]. What is the magnitude of the friction force at point P? (gravitational field strength = 10 N/kg)",
     "options": {
       "A": "100 N",
-      "B": "$\\frac{200}{\\sqrt3}\\text{ N}$",
+      "B": "$\\frac{200}{\\sqrt{3}}\\text{ N}$",
       "C": "200 N",
-      "D": "$200\\sqrt3\\text{ N}$",
-      "E": "$\\frac{400}{\\sqrt3}\\text{ N}$",
+      "D": "$200\\sqrt{3}\\text{ N}$",
+      "E": "$\\frac{400}{\\sqrt{3}}\\text{ N}$",
       "F": "400 N",
-      "G": "$400\\sqrt3\\text{ N}$"
+      "G": "$400\\sqrt{3}\\text{ N}$"
     },
     "answer": "B",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up forces on one plank",
+          "content": "Each plank has weight $W = 40 \\times 10 = 400\\,\\mathrm{N}$ and makes $30^\\circ$ with the vertical. By symmetry the apex reaction is horizontal, so the normal reaction at the base equals $W$. Friction $f$ at the base balances that horizontal apex force."
+        },
+        {
+          "title": "Take moments about the apex",
+          "content": "With plank length $L$, moments about the apex give $W \\cdot \\dfrac{L}{2}\\sin 30^{\\circ} = f \\cdot L\\cos 30^{\\circ}.$"
+        },
+        {
+          "title": "Solve for the friction",
+          "content": "$f = \\dfrac{W}{2}\\tan 30^{\\circ} = \\dfrac{400}{2}\\cdot \\dfrac{1}{\\sqrt{3}} = \\dfrac{200}{\\sqrt{3}}\\,\\mathrm{N}.$"
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-009",
@@ -717,13 +1252,29 @@
       "B": "$\\frac{2}{3}$",
       "C": "$\\frac{8}{3}$",
       "D": "4",
-      "E": "$\\frac{28-12\\sqrt5}{3}$",
-      "F": "$28-12\\sqrt5$"
+      "E": "$\\frac{28-12\\sqrt{5}}{3}$",
+      "F": "$28-12\\sqrt{5}$"
     },
     "answer": "E",
-    "technique": "Let $a=3-\\sqrt5$. The integral is $\\dfrac{1}{a}\\displaystyle\\int_{-a}^{a}x^2\\,dx=\\dfrac1a\\left[\\dfrac{x^3}{3}\\right]_{-a}^{a}=\\dfrac1a\\cdot\\dfrac{2a^3}{3}=\\dfrac{2a^2}{3}$. Since $a^2=(3-\\sqrt5)^2=9-6\\sqrt5+5=14-6\\sqrt5$, this gives $\\dfrac{2(14-6\\sqrt5)}{3}=\\dfrac{28-12\\sqrt5}{3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Let $a=3-\\sqrt{5}$."
+        },
+        {
+          "title": "The integral is",
+          "content": "The integral is $\\dfrac{1}{a}\\displaystyle\\int_{-a}^{a}x^2\\,dx=\\dfrac1a\\left[\\dfrac{x^3}{3}\\right]_{-a}^{a}=\\dfrac1a\\cdot\\dfrac{2a^3}{3}=\\dfrac{2a^2}{3}$."
+        },
+        {
+          "title": "Since this gives",
+          "content": "Since $a^2=(3-\\sqrt{5})^2=9-6\\sqrt{5}+5=14-6\\sqrt{5}$, this gives $\\dfrac{2(14-6\\sqrt{5})}{3}=\\dfrac{28-12\\sqrt{5}}{3}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-016",
@@ -745,9 +1296,33 @@
       "G": "19 N"
     },
     "answer": "B",
-    "technique": "Total mass $=8.0$ kg, total friction $=2.0+1.0+1.0=4.0$ N. Net force $=20-4=16$ N, so $a=16/8=2.0\\text{ m/s}^2$. Consider block R alone: the only horizontal forces are the push from Q, $N_{QR}$, and friction $1.0$ N opposing motion. Newton's second law: $N_{QR}-1.0 = m_R a = 2.0\\times2.0=4.0 \\Rightarrow N_{QR}=5.0$ N. By Newton's third law, the force R exerts on Q has the same magnitude, 5.0 N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Total mass $=8.0$ kg, total friction $=2.0+1.0+1.0=4.0$ N."
+        },
+        {
+          "title": "Work through",
+          "content": "Net force $=20-4=16$ N, so $a=16/8=2.0\\text{ m/s}^2$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Consider block R alone: the only horizontal forces are the push from Q, $N_{QR}$, and friction $1.0$ N opposing motion."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Newton's second law: $N_{QR}-1.0 = m_R a = 2.0\\times2.0=4.0 \\Rightarrow N_{QR}=5.0$ N."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "By Newton's third law, the force R exerts on Q has the same magnitude, 5.0 N."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-010",
@@ -770,9 +1345,29 @@
       "H": "3"
     },
     "answer": "C",
-    "technique": "$f'(x) = -\\dfrac{a}{x^2}-\\dfrac{2b}{x^3}$. $f'(1) = -a-2b = 2$. $f''(x)=\\dfrac{2a}{x^3}+\\dfrac{6b}{x^4}$. $f''(-1) = -2a+6b=-2 \\Rightarrow -a+3b=-1$. Solving $-a-2b=2$ and $-a+3b=-1$: subtracting gives $5b=-3 \\Rightarrow b=-3/5$, then $-a = 2+2(-3/5) = 2-6/5=4/5 \\Rightarrow a=-4/5$. So $a+b = -4/5-3/5 = -7/5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "$f'(x) = -\\dfrac{a}{x^2}-\\dfrac{2b}{x^3}$. $f'(1) = -a-2b$"
+        },
+        {
+          "title": "Work through",
+          "content": "= 2$. $f''$(x)=\\dfrac{2a}{x^3}+\\dfrac{6b}{x^4}$. $f''$(-1) = -2a+6b=-2 \\Rightarrow -a+3b=-1$.$"
+        },
+        {
+          "title": "Simplify",
+          "content": "Solving $-a-2b=2$ and $-a+3b=-1$: subtracting gives $5b=-3 \\Rightarrow b=-3/5$, then $-a = 2+2(-3/5) = 2-6/5=4/5 \\Rightarrow a=-4/5$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $a+b = -4/5-3/5 = -7/5$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-017",
@@ -783,7 +1378,7 @@
     "topic": "phy-mechanics",
     "subtopic": "kinematics graphs of free fall",
     "difficulty": 4,
-    "question": "An object is released from rest at a height H above the ground and falls freely in a uniform gravitational field. At time t after being released, it has fallen a distance s and is at a height h above the ground, travelling at speed v. [DIAGRAM: a graph showing y plotted against x, starting at the origin and curving upward]. Which row(s) show(s) a possible pair of quantities for the axes? Row 1: y=h, x=t. Row 2: y=kinetic energy, x=h. Row 3: y=gravitational potential energy, x=s. (Assume that air resistance is negligible.)",
+    "question": "An object is released from rest at a height $H$ above the ground and falls freely in a uniform gravitational field.\n\nAt time $t$ after being released, it has fallen a distance $s$ and is at a height $h$ above the ground, travelling at speed $v$.\n\nThe graph shows two quantities plotted.\n\n| Row | y-axis | x-axis |\n| --- | --- | --- |\n| 1 | $h$ | $t$ |\n| 2 | kinetic energy | $h$ |\n| 3 | gravitational potential energy | $s$ |\n\nWhich of the rows show(s) a possible pair of quantities for the axes?\n\n(Assume that air resistance is negligible.)",
     "options": {
       "A": "none of them",
       "B": "1 only",
@@ -795,10 +1390,35 @@
       "H": "1, 2 and 3"
     },
     "answer": "G",
-    "technique": "Row 1 (h vs t) is quadratic, starting at H not the origin -- excluded. Rows 2 and 3 (KE vs h, GPE vs s) are both LINEAR relationships, which is inconsistent with the stem's description of a graph that curves upward -- this raises doubt about whether the stored answer (rows 2 and 3) is correct without seeing the actual rendered diagram axes/shape. Needs re-verification against the source PDF diagram.",
     "origin": "past-paper",
     "quality_tier": 1,
-    "needs_repair": true
+    "solution": {
+      "steps": [
+        {
+          "title": "Read the given graph",
+          "content": "The plotted figure is a straight line of negative gradient with a positive $y$-intercept and a positive $x$-intercept."
+        },
+        {
+          "title": "Fix free-fall relations",
+          "content": "Released from rest: $s=\\tfrac{1}{2}gt^{2}$ and $h=H-s$."
+        },
+        {
+          "title": "Reject height against time",
+          "content": "Row 1 plots $h$ against $t$, so $h=H-\\tfrac{1}{2}gt^{2}$. That is a downward-opening parabola in $t$, not a straight line."
+        },
+        {
+          "title": "Match kinetic energy to height",
+          "content": "Row 2: lost gravitational energy appears as kinetic energy, $E_{k}=mg(H-h)$. This decreases linearly in $h$, from $mgH$ at $h=0$ to $0$ at $h=H$."
+        },
+        {
+          "title": "Match potential to distance fallen",
+          "content": "Row 3: $E_{p}=mg(H-s)$ measured from the ground is the same linear decreasing form in $s$. Rows 2 and 3 both match the figure."
+        }
+      ],
+      "fast": "Rows 2 and 3 are the same energy trade read from opposite ends of $H$, so they stand or fall together; only those two are linear.",
+      "trap": "Choosing the $h$ against $t$ pairing treats a quadratic free-fall graph as if it were a straight line."
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-011",
@@ -819,9 +1439,25 @@
       "F": "7"
     },
     "answer": "A",
-    "technique": "Rewrite as $\\log_3(x^2+3x+2)-\\log_3(x^2+2x)=2 \\Rightarrow \\log_3\\dfrac{x^2+3x+2}{x^2+2x}=2 \\Rightarrow \\dfrac{x^2+3x+2}{x^2+2x}=9$. Cross-multiplying: $x^2+3x+2 = 9x^2+18x \\Rightarrow 8x^2+15x-2=0 \\Rightarrow (8x-1)(x+2)=0$, giving $x=1/8$ or $x=-2$. Checking domain (arguments of logs must be positive): $x=-2$ makes $x^2+2x=0$ (invalid), so $x=1/8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Rewrite as $\\log_3(x^2+3x+2)-\\log_3(x^2+2x)=2 \\Rightarrow \\log_3\\dfrac{x^2+3x+2}{x^2+2x}=2 \\Rightarrow \\dfrac{x^2+3x+2}{x^2+2x}=9$."
+        },
+        {
+          "title": "Work through",
+          "content": "Cross-multiplying: $x^2+3x+2 = 9x^2+18x \\Rightarrow 8x^2+15x-2=0 \\Rightarrow (8x-1)(x+2)=0$, giving $x=1/8$ or $x=-2$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Checking domain (arguments of logs must be positive): $x=-2$ makes $x^2+2x=0$ (invalid), so $x=1/8$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-018",
@@ -842,9 +1478,25 @@
       "F": "$1600\\ \\Omega$"
     },
     "answer": "E",
-    "technique": "Original: $V_{cyl} = 20 - 0.2\\times20 = 16$ V, so $R_{cyl} = 16/0.2 = 80\\,\\Omega$. When re-formed with the same volume but 4x the length, the cross-sectional area becomes $A/4$. Since $R=\\rho L/A$, $R_{new}/R_{old} = (4L/L)/(\\tfrac14A/A) = 4\\times4=16$. $R_{new} = 80\\times16=1280\\,\\Omega$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Original: $V_{cyl} = 20 - 0.2\\times20 = 16$ V, so $R_{cyl} = 16/0.2 = 80\\,\\Omega$."
+        },
+        {
+          "title": "Work through",
+          "content": "When re-formed with the same volume but 4x the length, the cross-sectional area becomes $A/4$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Since $R=\\rho L/A$, $R_{new}/R_{old} = 4 / (1/4) = 4\\times4=16$. $R_{new} = 80\\times16=1280\\,\\Omega$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-012",
@@ -865,9 +1517,21 @@
       "F": "$\\frac{1}{2048}$"
     },
     "answer": "B",
-    "technique": "General term: $\\binom{8}{k}\\left(\\dfrac{x}{4}\\right)^{8-k}\\left(\\dfrac{2}{x}\\right)^k = \\binom{8}{k}\\left(\\dfrac14\\right)^{8-k}2^k\\,x^{8-2k}$. Constant term needs $8-2k=0 \\Rightarrow k=4$: $\\binom{8}{4}\\left(\\dfrac14\\right)^4 2^4 = 70\\times\\dfrac{1}{256}\\times16 = \\dfrac{70\\times16}{256}=\\dfrac{1120}{256}=\\dfrac{35}{8}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "General term: $\\binom{8}{k}\\left(\\dfrac{x}{4}\\right)^{8-k}\\left(\\dfrac{2}{x}\\right)^k = \\binom{8}{k}\\left(\\dfrac14\\right)^{8-k}2^k\\,x^{8-2k}$."
+        },
+        {
+          "title": "Constant term needs",
+          "content": "Constant term needs $8-2k=0 \\Rightarrow k=4$: $\\binom{8}{4}\\left(\\dfrac14\\right)^4 2^4 = 70\\times\\dfrac{1}{256}\\times16 = \\dfrac{70\\times16}{256}=\\dfrac{1120}{256}=\\dfrac{35}{8}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-019",
@@ -880,16 +1544,32 @@
     "difficulty": 5,
     "question": "A sound wave can travel from a source at P to a detector at R directly or by reflecting at Q. The angle between PR and PQ is 30° and the distance from P to R is d. [DIAGRAM: source P, detector R, reflecting surface with reflection point Q; angle QPR = 30°, distance PR = d]. There is a phase difference of $\\pi$ radians between the incident and reflected wave at Q. Waves that reach R via Q are in phase with waves that reach R directly from P. Which expression gives the greatest wavelength of sound waves for which this is true?",
     "options": {
-      "A": "$2d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
-      "B": "$d\\left(\\dfrac{2}{\\sqrt3}-1\\right)$",
-      "C": "$d(2-\\sqrt3)$",
+      "A": "$2d\\left(\\dfrac{2}{\\sqrt{3}}-1\\right)$",
+      "B": "$d\\left(\\dfrac{2}{\\sqrt{3}}-1\\right)$",
+      "C": "$d(2-\\sqrt{3})$",
       "D": "$\\dfrac{4d}{3}$",
       "E": "$\\dfrac{2d}{3}$"
     },
     "answer": "A",
-    "technique": "Answer verified against the official answer key.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Find the geometric path difference",
+          "content": "Triangle $PQR$ is isosceles with $\\angle QPR = \\angle QRP = 30^\\circ$, so $PQ = QR = \\dfrac{d/2}{\\cos 30^{\\circ}} = \\dfrac{d}{\\sqrt{3}}.$ The path difference is $\\delta = PQ + QR - PR = \\dfrac{2d}{\\sqrt{3}} - d = d\\left(\\dfrac{2}{\\sqrt{3}} - 1\\right).$"
+        },
+        {
+          "title": "Include the reflection phase shift",
+          "content": "A phase change of $\\pi$ at $Q$ is equivalent to an extra path of $\\dfrac{\\lambda}{2}$. For the two arrivals at the detector to be in phase, $\\delta + \\dfrac{\\lambda}{2} = n\\lambda \\quad (n = 1, 2, 3, \\ldots).$"
+        },
+        {
+          "title": "Maximise the wavelength",
+          "content": "Rearranging, $\\lambda = \\dfrac{\\delta}{n - 1/2}$. The greatest wavelength is at $n = 1$: $\\lambda = 2\\delta = 2d\\left(\\dfrac{2}{\\sqrt{3}} - 1\\right).$"
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-M2-013",
@@ -904,7 +1584,7 @@
     "options": {
       "A": "$\\frac{7}{2}$",
       "B": "3",
-      "C": "$\\frac{5\\sqrt2}{2}$",
+      "C": "$\\frac{5\\sqrt{2}}{2}$",
       "D": "7",
       "E": "10",
       "F": "$\\frac{13\\sqrt{10}}{10}$",
@@ -912,9 +1592,21 @@
       "H": "$\\frac{12\\sqrt{13}}{13}$"
     },
     "answer": "G",
-    "technique": "By the Cauchy-Schwarz inequality (or writing $x=\\cos\\theta,y=\\sin\\theta$), the maximum of $ax+by$ subject to $x^2+y^2=1$ is $\\sqrt{a^2+b^2}$. Here $\\sqrt{2^2+3^2}=\\sqrt{13}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "By the Cauchy-Schwarz inequality (or writing $x=\\cos\\theta,y=\\sin\\theta$), the maximum of $ax+by$ subject to $x^2+y^2=1$ is $\\sqrt{a^2+b^2}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Here $\\sqrt{2^2+3^2}=\\sqrt{13}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "ENGAA-2023-PHY-020",
@@ -936,8 +1628,24 @@
       "G": "512 J"
     },
     "answer": "A",
-    "technique": "For springs in series, the same force F acts through both, and total extension $x_{total} = F/k_1+F/k_2 = F\\left(\\dfrac{1}{200}+\\dfrac{1}{600}\\right)=F\\times\\dfrac{4}{600}=\\dfrac{F}{150}$. So $0.80 = F/150 \\Rightarrow F=120$ N. Total strain energy $=\\tfrac12 F x_{total} = \\tfrac12\\times120\\times0.80=48$ J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "For springs in series, the same force F acts through both, and total extension $x_{total} = F/k_1+F/k_2 = F\\left(\\dfrac{1}{200}+\\dfrac{1}{600}\\right)=F\\times\\dfrac{4}{600}=\\dfrac{F}{150}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $0.80 = F/150 \\Rightarrow F=120$ N."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Total strain energy $=\\tfrac12 F x_{total} = \\tfrac12\\times120\\times0.80=48$ J."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   }
 ]

@@ -20,9 +20,30 @@
       "H": "$5xy^2$"
     },
     "answer": "E",
-    "technique": "Combine coefficients and powers separately: coefficient $= 5 \\times 5^{-3} \\times 5 = 5^{-1} = 1/5$. Power of $x$: $1 - 6 + 2 = -3$. Power of $y$: $2 - 3 + 1 = 0$. Result: $\\dfrac{1}{5x^3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Combine coefficients and powers separately: coefficient $= 5 \\times 5^{-3} \\times 5 = 5^{-1} = 1/5$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Power of $x$: $1 - 6 + 2 = -3$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Power of $y$: $2 - 3 + 1 = 0$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Result: $\\dfrac{1}{5x^3}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: combine coefficients and powers separately: coefficient $= 5 \\times 5^{-3} \\times 5 = 5^{-1} = 1/5$."
   },
   {
     "id": "NSAA-2021-M1-002",
@@ -45,9 +66,26 @@
       "H": "$\\frac{9x+2}{4x+1}$"
     },
     "answer": "B",
-    "technique": "Factorise: $12x^2+x-1=(4x-1)(3x+1)$ and $x+3x^2=x(3x+1)$. So $\\dfrac{x+3x^2}{12x^2+x-1}=\\dfrac{x(3x+1)}{(4x-1)(3x+1)}=\\dfrac{x}{4x-1}$. Then $2-\\dfrac{x}{4x-1}=\\dfrac{2(4x-1)-x}{4x-1}=\\dfrac{8x-2-x}{4x-1}=\\dfrac{7x-2}{4x-1}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Factorise: $12x^2+x-1=(4x-1)(3x+1)$ and $x+3x^2=x(3x+1)$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "So $\\dfrac{x+3x^2}{12x^2+x-1}=\\dfrac{x(3x+1)}{(4x-1)(3x+1)}=\\dfrac{x}{4x-1}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $2-\\dfrac{x}{4x-1}=\\dfrac{2(4x-1)-x}{4x-1}=\\dfrac{8x-2-x}{4x-1}=\\dfrac{7x-2}{4x-1}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "Factorise: $12x^2+x-1=(4x-1)(3x+1)$ and $x+3x^2=x(3x+1)$."
   },
   {
     "id": "NSAA-2021-M1-003",
@@ -70,9 +108,22 @@
       "H": "(3pr-24)/(4p)"
     },
     "answer": "D",
-    "technique": "Cross-multiply: $2r = q(3p+4)$, so $q = \\dfrac{2r}{3p+4}$, then rearrange to match the given option's form.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Cross-multiply: $2r = q(3p+4)$, so $q = \\dfrac{2r}{3p+4}$, then rearrange to match the given option's form."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: begin from the given information and apply the relevant relation."
   },
   {
     "id": "NSAA-2021-M1-004",
@@ -95,9 +146,23 @@
       "H": "$3y-4x=24$"
     },
     "answer": "A",
-    "technique": "The radius to $(4,3)$ has gradient $3/4$, so the tangent (perpendicular) has gradient $-4/3$. Line through $(4,3)$: $y-3=-\\dfrac{4}{3}(x-4) \\Rightarrow 3y-9=-4x+16 \\Rightarrow 3y+4x=25$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The radius to $(4,3)$ has gradient $3/4$, so the tangent (perpendicular) has gradient $-4/3$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Line through $(4,3)$: $y-3=-\\dfrac{4}{3}(x-4) \\Rightarrow 3y-9=-4x+16 \\Rightarrow 3y+4x=25$."
+        }
+      ]
+    },
+    "diagram_skipped": "Euclidean tangent-to-circle geometry, not Cartesian circle-line",
+    "spec_status": "on_spec",
+    "hint": "First move: the radius to $(4,3)$ has gradient $3/4$, so the tangent (perpendicular) has gradient $-4/3$."
   },
   {
     "id": "NSAA-2021-M1-005",
@@ -119,9 +184,30 @@
       "G": "$\\pi xy(x-y)$"
     },
     "answer": "C",
-    "technique": "Total surface area $= 2\\pi r^2 + 2\\pi r h = \\dfrac{\\pi d^2}{2} + \\pi d h$. For P (d=x,h=y): $SA_P = \\dfrac{\\pi x^2}{2}+\\pi xy$. For Q (d=y,h=x): $SA_Q = \\dfrac{\\pi y^2}{2}+\\pi xy$. Difference $= \\dfrac{\\pi}{2}(x^2-y^2)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total surface area",
+          "content": "Total surface area $= 2\\pi r^2 + 2\\pi r h = \\dfrac{\\pi d^2}{2} + \\pi d h$."
+        },
+        {
+          "title": "Work through",
+          "content": "For P (d=x,h=y): $SA_P = \\dfrac{\\pi x^2}{2}+\\pi xy$."
+        },
+        {
+          "title": "Simplify",
+          "content": "For Q (d=y,h=x): $SA_Q = \\dfrac{\\pi y^2}{2}+\\pi xy$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Difference $= \\dfrac{\\pi}{2}(x^2-y^2)$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: total surface area $= 2\\pi r^2 + 2\\pi r h = \\dfrac{\\pi d^2}{2} + \\pi d h$."
   },
   {
     "id": "NSAA-2021-M1-006",
@@ -144,9 +230,26 @@
       "H": "$-\\dfrac{1}{4}$"
     },
     "answer": "E",
-    "technique": "Adding the equations: $2 \\times 8^x = \\dfrac{18}{36}=\\dfrac{1}{2}$, so $8^x = \\dfrac{1}{4} = 2^{-2}$, i.e. $2^{3x}=2^{-2}$, so $x=-\\dfrac{2}{3}$. Check with $27^x$: $27^{-2/3}=(3^3)^{-2/3}=3^{-2}=1/9 = 4/36$, and $8^x-27^x = 9/36-4/36=5/36$ ✓.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Adding the equations: $2 \\times 8^x = \\dfrac{18}{36}=\\dfrac{1}{2}$, so $8^x = \\dfrac{1}{4}$"
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "$8^x = 2^{-2}$, i.e. $2^{3x}=2^{-2}$, so $x=-\\dfrac{2}{3}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Check with $27^x$: $27^{-2/3}=(3^3)^{-2/3}=3^{-2}=1/9 = 4/36$, and $8^x-27^x = 9/36-4/36=5/36$ ✓."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: adding the equations: $2 \\times 8^x = \\dfrac{18}{36}=\\dfrac{1}{2}$, so $$8^x = \\dfrac{1}{4}"
   },
   {
     "id": "NSAA-2021-M1-007",
@@ -166,9 +269,26 @@
       "E": "P: the same as original, Q: the same as original"
     },
     "answer": "A",
-    "technique": "P: $\\times 0.9 \\times 1.1 = 0.99$ (1% lower). Q: $\\times 1.1 \\times 0.9 = 0.99$ (1% lower). Both multipliers are equal since multiplication is commutative, so both are lower than original.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "P: $\\times 0.9 \\times 1.1 = 0.99$ (1% lower)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Q: $\\times 1.1 \\times 0.9 = 0.99$ (1% lower)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Both multipliers are equal since multiplication is commutative, so both are lower than original."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: p: $\\times 0.9 \\times 1.1 = 0.99$ (1% lower)."
   },
   {
     "id": "NSAA-2021-M1-008",
@@ -191,9 +311,30 @@
       "H": "225"
     },
     "answer": "F",
-    "technique": "Row $n$ runs from $(n-1)^2+1$ to $n^2$. Since $14^2=196$, 196 is the last (rightmost) entry of row 14, which starts at $13^2+1=170$. Row 15 runs from $197$ to $225$ (15 entries). Tracking the triangular layout, the entry directly below the last number of row 14 is the 14th of the 15 entries in row 15, i.e. $197+26=223$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Row $n$ runs from $(n-1)^2+1$ to $n^2$."
+        },
+        {
+          "title": "Work through",
+          "content": "Since $14^2=196$, 196 is the last (rightmost) entry of row 14, which starts at $13^2+1=170$."
+        },
+        {
+          "title": "Row runs from to entries",
+          "content": "Row 15 runs from $197$ to $225$ (15 entries)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Tracking the triangular layout, the entry directly below the last number of row 14 is the 14th of the 15 entries in row 15, i.e. $197+26=223$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: row $n$ runs from $(n-1)^2+1$ to $n^2$."
   },
   {
     "id": "NSAA-2021-M1-009",
@@ -214,9 +355,26 @@
       "F": "$\\sqrt{61}$"
     },
     "answer": "D",
-    "technique": "In triangle SQT (right angle at Q): $SQ=\\sqrt{ST^2-QT^2}=\\sqrt{8^2-4^2}=\\sqrt{48}=4\\sqrt3$. Since $SR:RQ=1:3$, $RQ=\\dfrac{3}{4}SQ=3\\sqrt3$. In triangle QRP (right angle at Q, hypotenuse PR=8): $PQ=\\sqrt{PR^2-RQ^2}=\\sqrt{64-27}=\\sqrt{37}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "In triangle SQT (right angle at Q): $SQ=\\sqrt{ST^2-QT^2}=\\sqrt{8^2-4^2}=\\sqrt{48}=4\\sqrt{3}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Since $SR:RQ=1:3$, $RQ=\\dfrac{3}{4}SQ=3\\sqrt{3}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "In triangle QRP (right angle at Q, hypotenuse PR=8): $PQ=\\sqrt{PR^2-RQ^2}=\\sqrt{64-27}=\\sqrt{37}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: in triangle SQT (right angle at Q): $SQ=\\sqrt{ST^2-QT^2}=\\sqrt{8^2-4^2}=\\sqrt{48}=4\\sqrt{3}$."
   },
   {
     "id": "NSAA-2021-M1-010",
@@ -237,9 +395,22 @@
       "F": "£6.75"
     },
     "answer": "E",
-    "technique": "Initial amounts: Pat $=\\frac{5}{7}\\times63=45$, Alex $=\\frac{2}{7}\\times63=18$. Let $s$ = amount each spends: $\\dfrac{45-s}{18-s}=3 \\Rightarrow 45-s=54-3s \\Rightarrow 2s=9 \\Rightarrow s=4.5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Initial amounts: Pat $=\\frac{5}{7}\\times63=45$, Alex $=\\frac{2}{7}\\times63=18$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Let $s$ = amount each spends: $\\dfrac{45-s}{18-s}=3 \\Rightarrow 45-s=54-3s \\Rightarrow 2s=9 \\Rightarrow s=4.5$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: initial amounts: Pat $=\\frac{5}{7}\\times63=45$, Alex $=\\frac{2}{7}\\times63=18$."
   },
   {
     "id": "NSAA-2021-M1-011",
@@ -261,9 +432,22 @@
       "G": "43"
     },
     "answer": "F",
-    "technique": "Setting equal: $x^2-4x+5=2x+c \\Rightarrow x^2-6x+(5-c)=0$. Sum of roots $=6$, product $=5-c$. $(q-p)^2=(p+q)^2-4pq=36-4(5-c)=64 \\Rightarrow 36-20+4c=64 \\Rightarrow 4c=48 \\Rightarrow c=12$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Setting equal: $x^2-4x+5=2x+c \\Rightarrow x^2-6x+(5-c)=0$."
+        },
+        {
+          "title": "Sum of roots product",
+          "content": "Sum of roots $=6$, product $=5-c$. $(q-p)^2=(p+q)^2-4pq=36-4(5-c)=64 \\Rightarrow 36-20+4c=64 \\Rightarrow 4c=48 \\Rightarrow c=12$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "Start from the Quadratic-linear intersection idea in the stem."
   },
   {
     "id": "NSAA-2021-M1-012",
@@ -283,9 +467,30 @@
       "E": "$\\dfrac{7}{50}$"
     },
     "answer": "D",
-    "technique": "Total containers = 10, total ways to choose 2 $=\\binom{10}{2}=45$. Pairs summing to 10: (2,8) — $2\\times1=2$ ways; (3,7) — $3\\times4=12$ ways. Total favourable $=14$. Probability $=\\dfrac{14}{45}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total containers total ways to choose",
+          "content": "Total containers = 10, total ways to choose 2 $=\\binom{10}{2}=45$."
+        },
+        {
+          "title": "Pairs summing to ways ways",
+          "content": "Pairs summing to 10: (2,8) — $2\\times1=2$ ways; (3,7) — $3\\times4=12$ ways."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Total favourable $=14$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Probability $=\\dfrac{14}{45}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: total containers = 10, total ways to choose 2 $=\\binom{10}{2}=45$."
   },
   {
     "id": "NSAA-2021-M1-013",
@@ -298,18 +503,31 @@
     "difficulty": 4,
     "question": "Given that $y=\\dfrac{\\sin(-160°)}{\\cos 60°}$, what is the value of $y^3$?",
     "options": {
-      "A": "-sqrt(3)/9",
-      "B": "-5sqrt(2)+10",
-      "C": "3sqrt(3)-8",
-      "D": "6sqrt(3)-10",
-      "E": "14sqrt(2)-20",
-      "F": "15sqrt(3)-26",
-      "G": "21sqrt(3)-38"
+      "A": "$-\\sqrt{3}/9$",
+      "B": "$-5\\sqrt{2}+10$",
+      "C": "$3\\sqrt{3}-8$",
+      "D": "$6\\sqrt{3}-10$",
+      "E": "$14\\sqrt{2}-20$",
+      "F": "$15\\sqrt{3}-26$",
+      "G": "$21\\sqrt{3}-38$"
     },
     "answer": "F",
-    "technique": "Evaluate $y$ using the given trigonometric ratios then cube the result.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Evaluate $y$ using the given trigonometric ratios then cube the result."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: begin from the given information and apply the relevant relation."
   },
   {
     "id": "NSAA-2021-M1-014",
@@ -332,9 +550,22 @@
       "H": "7/sin40°"
     },
     "answer": "E",
-    "technique": "Since PQR is a cyclic quadrilateral-type angle at the circumference of 140°, the angle subtended by chord PR at the circumference on the major arc is $180°-140°=40°$. By the extended sine rule, $PR = 2R\\sin(40°)$, so $R = \\dfrac{PR}{2\\sin 40°}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Since PQR is a cyclic quadrilateral-type angle at the circumference of $140^{\\circ}$, the angle subtended by chord PR at the circumference on the major arc is $180^\\circ-140^\\circ=40^\\circ$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "By the extended sine rule, $PR = 2R\\sin(40^\\circ)$, so $R = \\dfrac{PR}{2\\sin 40^\\circ}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: since PQR is a cyclic quadrilateral-type angle at the circumference of $140^{\\circ}$, the angle subtended by chord PR at the circumference on the major arc is $180^\\circ-$$140^{\\circ}$=40^\\$"
   },
   {
     "id": "NSAA-2021-M1-015",
@@ -356,9 +587,22 @@
       "G": "$\\dfrac{7}{12}$"
     },
     "answer": "B",
-    "technique": "Let $r$ = red sweets. $P(\\text{no green})=\\dfrac{r(r-1)}{9\\times8}=\\dfrac{5}{12} \\Rightarrow r(r-1)=30 \\Rightarrow r=6$. So green $=3$. $P(\\text{two green})=\\dfrac{3\\times2}{72}=\\dfrac{6}{72}=\\dfrac{1}{12}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let red sweets",
+          "content": "Let $r$ = red sweets. $P(\\text{no green})=\\dfrac{r(r-1)}{9\\times8}=\\dfrac{5}{12} \\Rightarrow r(r-1)=30 \\Rightarrow r=6$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So green $=3$. $P(\\text{two green})=\\dfrac{3\\times2}{72}=\\dfrac{6}{72}=\\dfrac{1}{12}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let $r$ = red sweets."
   },
   {
     "id": "NSAA-2021-M1-016",
@@ -371,19 +615,40 @@
     "difficulty": 4,
     "question": "[DIAGRAM: Two right-angled triangles with the same hypotenuse length. One triangle has a 45° angle with adjacent side x cm; the other has a 60° angle with opposite side y cm.] Which of the following is a correct expression for y in terms of x?",
     "options": {
-      "A": "$y=\\sqrt2\\,x$",
-      "B": "$y=\\dfrac{\\sqrt2\\,x}{2}$",
-      "C": "$y=\\dfrac{\\sqrt2\\,x}{3}$",
-      "D": "$y=\\dfrac{\\sqrt2\\,x}{6}$",
-      "E": "$y=\\sqrt6\\,x$",
-      "F": "$y=\\dfrac{\\sqrt6\\,x}{2}$",
-      "G": "$y=\\dfrac{\\sqrt6}{3}x$",
-      "H": "$y=\\dfrac{\\sqrt6\\,x}{6}$"
+      "A": "$y=\\sqrt{2}\\,x$",
+      "B": "$y=\\dfrac{\\sqrt{2}\\,x}{2}$",
+      "C": "$y=\\dfrac{\\sqrt{2}\\,x}{3}$",
+      "D": "$y=\\dfrac{\\sqrt{2}\\,x}{6}$",
+      "E": "$y=\\sqrt{6}\\,x$",
+      "F": "$y=\\dfrac{\\sqrt{6}\\,x}{2}$",
+      "G": "$y=\\dfrac{\\sqrt{6}}{3}x$",
+      "H": "$y=\\dfrac{\\sqrt{6}\\,x}{6}$"
     },
     "answer": "G",
-    "technique": "Let $h$ be the common hypotenuse. From the 45° triangle: $y=h\\sin45°=h\\dfrac{\\sqrt2}{2}$. From the 60° triangle: $x=h\\sin60°=h\\dfrac{\\sqrt3}{2} \\Rightarrow h=\\dfrac{2x}{\\sqrt3}$. So $y=\\dfrac{2x}{\\sqrt3}\\times\\dfrac{\\sqrt2}{2}=\\dfrac{x\\sqrt2}{\\sqrt3}=\\dfrac{x\\sqrt6}{3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Let $h$ be the common hypotenuse."
+        },
+        {
+          "title": "From the triangle",
+          "content": "From the $45^{\\circ}$ triangle: $y=h\\sin 45^\\circ=h\\dfrac{\\sqrt{2}}{2}$."
+        },
+        {
+          "title": "From the triangle",
+          "content": "From the $60^{\\circ}$ triangle: $x=h\\sin 60^\\circ=h\\dfrac{\\sqrt{3}}{2} \\Rightarrow h=\\dfrac{2x}{\\sqrt{3}}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "So $y=\\dfrac{2x}{\\sqrt{3}}\\times\\dfrac{\\sqrt{2}}{2}=\\dfrac{x\\sqrt{2}}{\\sqrt{3}}=\\dfrac{x\\sqrt{6}}{3}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let $h$ be the common hypotenuse."
   },
   {
     "id": "NSAA-2021-M1-017",
@@ -399,14 +664,27 @@
       "A": "$\\dfrac{5}{2}$",
       "B": "5",
       "C": "$\\dfrac{25}{2}$",
-      "D": "$5\\sqrt2$",
-      "E": "$\\dfrac{10\\sqrt2}{2}$",
-      "F": "$10\\sqrt2$"
+      "D": "$5\\sqrt{2}$",
+      "E": "$\\dfrac{10\\sqrt{2}}{2}$",
+      "F": "$10\\sqrt{2}$"
     },
     "answer": "A",
-    "technique": "Since the smaller cuboid's sides are half those of the original, the original sides are $4$, $6$, $2x$. Diagonal: $4^2+6^2+(2x)^2=77 \\Rightarrow 16+36+4x^2=77 \\Rightarrow 4x^2=25 \\Rightarrow x=\\dfrac{5}{2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Since the smaller cuboid's sides are half those of the original, the original sides are $4$, $6$, $2x$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Diagonal: $4^2+6^2+(2x)^2=77 \\Rightarrow 16+36+4x^2=77 \\Rightarrow 4x^2=25 \\Rightarrow x=\\dfrac{5}{2}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: since the smaller cuboid's sides are half those of the original, the original sides are $4$, $6$, $2x$."
   },
   {
     "id": "NSAA-2021-M1-018",
@@ -428,9 +706,34 @@
       "G": "56"
     },
     "answer": "F",
-    "technique": "Let Cameron's speed $=v$. Alex's speed $=1.12v$, Sam's speed $=0.98v$. Time for Alex to finish: $t=\\dfrac{400}{1.12v}$. Distance Sam covers in that time: $0.98v\\times\\dfrac{400}{1.12v}=\\dfrac{0.98}{1.12}\\times400=350$ m. Distance from finish $=400-350=50$ m.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Let Cameron s speed",
+          "content": "Let Cameron's speed $=v$."
+        },
+        {
+          "title": "Work through",
+          "content": "Alex's speed $=1.12v$, Sam's speed $=0.98v$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Time for Alex to finish: $t=\\dfrac{400}{1.12v}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Distance Sam covers in that time: $0.98v\\times\\dfrac{400}{1.12v}=\\dfrac{0.98}{1.12}\\times400=350$ m."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Distance from finish $=400-350=50$ m."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: let Cameron's speed $=v$."
   },
   {
     "id": "NSAA-2021-M1-019",
@@ -453,9 +756,30 @@
       "H": "mp/(100fx)"
     },
     "answer": "H",
-    "technique": "Journey length in km $=\\dfrac{m}{x}$. Fuel used $=\\dfrac{m}{xf}$ litres. Cost in pence $=\\dfrac{mp}{xf}$. Cost in pounds $=\\dfrac{mp}{100xf}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Journey length in km $=\\dfrac{m}{x}$."
+        },
+        {
+          "title": "Fuel used litres",
+          "content": "Fuel used $=\\dfrac{m}{xf}$ litres."
+        },
+        {
+          "title": "Cost in pence",
+          "content": "Cost in pence $=\\dfrac{mp}{xf}$."
+        },
+        {
+          "title": "Cost in pounds",
+          "content": "Cost in pounds $=\\dfrac{mp}{100xf}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: journey length in km $=\\dfrac{m}{x}$."
   },
   {
     "id": "NSAA-2021-M1-020",
@@ -477,9 +801,27 @@
       "G": "infinitely many"
     },
     "answer": "F",
-    "technique": "$y=100x$ is a very steep line through the origin, so $x=0$ is always a solution. Near each vertical asymptote of $\\tan x$ (at $\\pm90°, \\pm270°$ within the range), $\\tan x$ sweeps through all real values, so the steep line intersects the curve once very close to each asymptote. This gives $1$ (at $x=0$) $+ 4$ (near the four asymptotes) $= 5$ solutions.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "$y=100x$ is a very steep line through the origin, so $x=0$ is always a solution."
+        },
+        {
+          "title": "Work through",
+          "content": "Near each vertical asymptote of $\\tan x$ (at $\\pm90^\\circ, \\pm270^\\circ$ within the range), $\\tan x$ sweeps through all real values, so the steep line intersects the curve once very close to each asymptote."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "This gives $1$ (at $x=0$) $+ 4$ (near the four asymptotes) $= 5$ solutions."
+        }
+      ]
+    },
+    "diagram_skipped": "graphical trig reasoning; paper-style, not clean Mafs level intersection",
+    "spec_status": "on_spec",
+    "hint": "First move: $y=100x$ is a very steep line through the origin, so $x=0$ is always a solution."
   },
   {
     "id": "NSAA-2021-PHY-001",
@@ -502,9 +844,21 @@
       "H": "6480 W"
     },
     "answer": "B",
-    "technique": "$I=\\dfrac{Q}{t}=\\dfrac{180}{240}=0.75\\text{ A}$. $P=VI=9.00\\times0.75=6.75\\text{ W}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$one=\\dfrac{Q}{t}=\\dfrac{180}{240}=0.75\\text{ A}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$P=VI=9.00\\times0.75=6.75\\text{ W}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-002",
@@ -525,9 +879,21 @@
       "F": "1.44ρ"
     },
     "answer": "E",
-    "technique": "From $PV=nRT$ and $\\rho=m/V$: $\\rho=\\dfrac{PM}{RT}$, so at constant temperature $\\rho \\propto P$. A 20% increase in pressure gives a 20% increase in density: $1.20\\rho$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "From $PV=nRT$ and $\\rho=m/V$: $\\rho=\\dfrac{PM}{RT}$, so at constant temperature $\\rho \\propto P$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "A 20% increase in pressure gives a 20% increase in density: $1.20\\rho$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-003",
@@ -550,9 +916,29 @@
       "H": "100%"
     },
     "answer": "F",
-    "technique": "$V_p=\\dfrac{3000}{12.5}=240\\text{ V}$. Ideal secondary voltage $V_s=V_p\\times\\dfrac{25}{100}=60\\text{ V}$. Output power $=V_s\\times I_s=60\\times40=2400\\text{ W}$. Efficiency $=\\dfrac{2400}{3000}=80\\%$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$V_p=\\dfrac{3000}{12.5}=240\\text{ V}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Ideal secondary voltage $V_s=V_p\\times\\dfrac{25}{100}=60\\text{ V}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Output power $=V_s\\times I_s=60\\times40=2400\\text{ W}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Efficiency $=\\dfrac{2400}{3000}=80\\%$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-004",
@@ -572,9 +958,21 @@
       "E": "2.60 ms⁻²"
     },
     "answer": "A",
-    "technique": "Net extra force $=3000-200-400=2400\\text{ N}$. Total mass $=1400+1000=2400\\text{ kg}$. $a=\\dfrac{F}{m}=\\dfrac{2400}{2400}=1.00\\text{ ms}^{-2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Net extra force",
+          "content": "Net extra force $=3000-200-400=2400\\text{ N}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Total mass $=1400+1000=2400\\text{ kg}$. $a=\\dfrac{F}{m}=\\dfrac{2400}{2400}=1.00\\text{ ms}^{-2}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-005",
@@ -597,9 +995,21 @@
       "H": "$f_T$ less than f, $\\lambda_T$ greater than λ, $c_T$ less than c"
     },
     "answer": "G",
-    "technique": "Light travels at constant speed $c$ in a vacuum regardless of source motion (postulate of relativity), so $c_T=c$. A receding source causes redshift: observed frequency decreases ($f_T<f$) and observed wavelength increases ($\\lambda_T>\\lambda$), consistent with $c=f\\lambda$ being preserved.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Light travels at constant speed $c$ in a vacuum regardless of source motion (postulate of relativity), so $c_T=c$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "A receding source causes redshift: observed frequency decreases ($f_T<f$) and observed wavelength increases ($\\lambda_T>\\lambda$), consistent with $c=f\\lambda$ being preserved."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-006",
@@ -621,9 +1031,29 @@
       "G": "49"
     },
     "answer": "F",
-    "technique": "Neutrons of first nuclide: $(3x-7)-x=2x-7$. Neutrons of second: $(2x+3)-x=x+3$. Given the first has 6 more neutrons than the second: $2x-7=(x+3)+6 \\Rightarrow 2x-7=x+9 \\Rightarrow x=16$. The third nuclide then has mass number $3(16)+1=49$ and atomic number $16$, so it contains $49-16=33$ neutrons.",
     "origin": "past-paper",
-    "quality_tier": 3
+    "quality_tier": 3,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Neutrons of first nuclide: $(3x-7)-x=2x-7$."
+        },
+        {
+          "title": "Neutrons of second",
+          "content": "Neutrons of second: $(2x+3)-x=x+3$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Given the first has 6 more neutrons than the second: $2x-7=(x+3)+6 \\Rightarrow 2x-7=x+9 \\Rightarrow x=16$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The third nuclide then has mass number $3(16)+1=49$ and atomic number $16$, so it contains $49-16=33$ neutrons."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-007",
@@ -644,9 +1074,29 @@
       "F": "0.4 J"
     },
     "answer": "C",
-    "technique": "Weight $=mg=0.5\\times10=5\\text{ N}$. Compression $x=0.10-0.08=0.02\\text{ m}$. Spring constant $k=\\dfrac{F}{x}=\\dfrac{5}{0.02}=250\\text{ Nm}^{-1}$. Energy $=\\dfrac12kx^2=\\dfrac12\\times250\\times0.02^2=0.05\\text{ J}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Weight $=mg=0.5\\times10=5\\text{ N}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Compression $x=0.10-0.08=0.02\\text{ m}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Spring constant $k=\\dfrac{F}{x}=\\dfrac{5}{0.02}=250\\text{ Nm}^{-1}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Energy $=\\dfrac12kx^2=\\dfrac12\\times250\\times0.02^2=0.05\\text{ J}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-008",
@@ -666,9 +1116,25 @@
       "E": "$\\left(\\dfrac{20}{19}\\right)^2 P$"
     },
     "answer": "D",
-    "technique": "Originally, with 20 identical lamps of resistance $R$ each: $P=\\dfrac{V^2}{20R}$. With one shorted, 19 lamps remain: $P'=\\dfrac{V^2}{19R}$. Ratio: $\\dfrac{P'}{P}=\\dfrac{20}{19}$, so $P'=\\dfrac{20}{19}P$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Originally, with 20 identical lamps of resistance $R$ each: $P=\\dfrac{V^2}{20R}$."
+        },
+        {
+          "title": "With one shorted lamps remain",
+          "content": "With one shorted, 19 lamps remain: $P'=\\dfrac{V^2}{19R}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Ratio: $\\dfrac{P'}{P}=\\dfrac{20}{19}$, so $P'=\\dfrac{20}{19}P$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-009",
@@ -691,9 +1157,25 @@
       "H": "4.2×10⁷ N"
     },
     "answer": "E",
-    "technique": "Gradient of momentum-time graph = net force. Reading the graph, momentum rises from 0 to $12\\times10^6$ kg m s⁻¹ over 4 s, giving net force $=\\dfrac{12\\times10^6}{4}=3.0\\times10^6\\text{ N}$. Motor force $=$ net force $+$ friction $=3.0\\times10^6+1.8\\times10^7=2.1\\times10^7\\text{ N}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Gradient of momentum-time graph = net force."
+        },
+        {
+          "title": "Work through",
+          "content": "Reading the graph, momentum rises from 0 to $12\\times10^6$ kg m s⁻¹ over 4 s, giving net force $=\\dfrac{12\\times10^6}{4}=3.0\\times10^6\\text{ N}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Motor force $=$ net force $+$ friction $=3.0\\times10^6+1.8\\times10^7=2.1\\times10^7\\text{ N}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-010",
@@ -716,9 +1198,21 @@
       "H": "88 m"
     },
     "answer": "H",
-    "technique": "Since ship and wave move toward each other, the relative (encounter) speed $=8.0+3.0=11.0\\text{ ms}^{-1}$. The observed period on the ship is the time between successive wave crests passing it: $\\lambda=v_{rel}\\times T=11.0\\times8.0=88\\text{ m}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Since ship and wave move toward each other, the relative (encounter) speed $=8.0+3.0=11.0\\text{ ms}^{-1}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The observed period on the ship is the time between successive wave crests passing it: $\\lambda=v_{rel}\\times T=11.0\\times8.0=88\\text{ m}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-011",
@@ -739,9 +1233,29 @@
       "F": "Passes through (0.25 A, 6.0 V); curve rises steeply then levels off (decreasing slope, resistance would decrease with current)"
     },
     "answer": "B",
-    "technique": "Voltage across resistor $=IR=0.25\\times8.0=2.0\\text{ V}$. Voltage across lamp $=6.0-2.0=4.0\\text{ V}$ at $I=0.25\\text{ A}$, so the graph must pass through $(0.25\\text{ A}, 4.0\\text{ V})$. A filament lamp\\'s resistance INCREASES with current/temperature, so its V-I graph must bend upward with increasing slope, not level off with decreasing slope (which would indicate falling resistance). So the correct curve passes through (0.25A, 4.0V) and bends upward with increasing slope.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Voltage across resistor $=IR=0.25\\times8.0=2.0\\text{ V}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Voltage across lamp $=6.0-2.0=4.0\\text{ V}$ at $one=0.25\\text{ A}$, so the graph must pass through $(0.25\\text{ A}, 4.0\\text{ V})$."
+        },
+        {
+          "title": "Simplify",
+          "content": "A filament lamp\\'s resistance INCREASES with current/temperature, so its V-one graph must bend upward with increasing slope, not level off with decreasing slope (which would indicate falling resistance)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "So the correct curve passes through (0.25A, 4.0V) and bends upward with increasing slope."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-012",
@@ -764,9 +1278,21 @@
       "H": "0.75 A, south to north"
     },
     "answer": "G",
-    "technique": "For vertical equilibrium, the magnetic force must equal weight: $BIL=mg \\Rightarrow I=\\dfrac{mg}{BL}=\\dfrac{0.018\\times10}{0.60\\times0.40}=0.75\\text{ A}$. Using Fleming's left-hand rule with field west→east and required force upward, the current must flow from north to south.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "For vertical equilibrium, the magnetic force must equal weight: $BIL=mg \\Rightarrow one=\\dfrac{mg}{BL}=\\dfrac{0.018\\times10}{0.60\\times0.40}=0.75\\text{ A}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Using Fleming's left-hand rule with field west→east and required force upward, the current must flow from north to south."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-013",
@@ -789,9 +1315,29 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Statement 1: $\\lambda=\\dfrac{c}{f}=\\dfrac{3.0\\times10^8}{7.5\\times10^{14}}=400\\text{ nm}$, which is violet, not red — FALSE. Statement 2: $f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\\times10^8}{0.12}=2.5\\times10^9\\text{ Hz}$ — TRUE. Statement 3: $\\lambda=\\dfrac{3.0\\times10^8}{2.5\\times10^{15}}=120\\text{ nm}$, which is UV, not infrared (thermal imaging uses IR) — FALSE. Only statement 2 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Statement which is violet not red FALSE",
+          "content": "Statement 1: $\\lambda=\\dfrac{c}{f}=\\dfrac{3.0\\times10^8}{7.5\\times10^{14}}=400\\text{ nm}$, which is violet, not red — FALSE."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Statement 2: $f=\\dfrac{c}{\\lambda}=\\dfrac{3.0\\times10^8}{0.12}=2.5\\times10^9\\text{ Hz}$ — TRUE."
+        },
+        {
+          "title": "Simplify",
+          "content": "Statement 3: $\\lambda=\\dfrac{3.0\\times10^8}{2.5\\times10^{15}}=120\\text{ nm}$, which is UV, not infrared (thermal imaging uses IR) — FALSE."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 2 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-014",
@@ -813,9 +1359,29 @@
       "G": "1000 s"
     },
     "answer": "E",
-    "technique": "Acceleration phase: $t_1=\\dfrac{120}{1.5}=80\\text{ s}$, distance $d_1=\\dfrac12(1.5)(80)^2=4800\\text{ m}$. Deceleration phase: $t_3=\\dfrac{120}{2.0}=60\\text{ s}$, $d_3=\\dfrac12(2.0)(60)^2=3600\\text{ m}$. Remaining constant-speed distance $=60000-4800-3600=51600\\text{ m}$, taking $t_2=\\dfrac{51600}{120}=430\\text{ s}$. Total $=80+430+60=570\\text{ s}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Acceleration phase: $t_1=\\dfrac{120}{1.5}=80\\text{ s}$, distance $d_1=\\dfrac12(1.5)(80)^2=4800\\text{ m}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Deceleration phase: $t_3=\\dfrac{120}{2.0}=60\\text{ s}$, $d_3=\\dfrac12(2.0)(60)^2=3600\\text{ m}$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Remaining constant-speed distance $=60000-4800-3600=51600\\text{ m}$, taking $t_2=\\dfrac{51600}{120}=430\\text{ s}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Total $=80+430+60=570\\text{ s}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-015",
@@ -838,9 +1404,21 @@
       "H": "$MPk$"
     },
     "answer": "D",
-    "technique": "$Q=Pt$ and $Q=Mc\\Delta T$, so $Pt=Mc\\Delta T \\Rightarrow c=\\dfrac{Pt}{M\\Delta T}$. Since gradient $k=\\dfrac{\\Delta T}{t}$, it follows that $\\dfrac{t}{\\Delta T}=\\dfrac1k$, so $c=\\dfrac{P}{Mk}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$Q=Pt$ and $Q=Mc\\Delta T$, so $Pt=Mc\\Delta T \\Rightarrow c=\\dfrac{Pt}{M\\Delta T}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Since gradient $k=\\dfrac{\\Delta T}{t}$, it follows that $\\dfrac{t}{\\Delta T}=\\dfrac1k$, so $c=\\dfrac{P}{Mk}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-016",
@@ -860,9 +1438,29 @@
       "E": "950 N"
     },
     "answer": "B",
-    "technique": "Using work-energy theorem: $mgh - F_{avg}d = \\Delta KE$. $mgh=80\\times10\\times20=16000\\text{ J}$. $\\Delta KE=\\tfrac12\\times80\\times(10^2-5^2)=40\\times75=3000\\text{ J}$. $F_{avg}=\\dfrac{16000-3000}{20}=\\dfrac{13000}{20}=650\\text{ N}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Using work-energy theorem: $mgh - F_{avg}d = \\Delta KE$."
+        },
+        {
+          "title": "Work step 2",
+          "content": "$mgh=80\\times10\\times20=16000\\text{ J}$."
+        },
+        {
+          "title": "Work step 3",
+          "content": "$\\Delta KE=\\tfrac12\\times80\\times(10^2-5^2)=40\\times75=3000\\text{ J}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$F_{avg}=\\dfrac{16000-3000}{20}=\\dfrac{13000}{20}=650\\text{ N}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-017",
@@ -883,9 +1481,29 @@
       "F": "2"
     },
     "answer": "C",
-    "technique": "The rock formed with EQUAL numbers ($N_0$) of X, Y, R and S already present, so the totals of R and S must include these initial amounts, not just newly-decayed atoms. At $t=4T$: X remaining $=N_0(1/2)^4=N_0/16$, so newly-decayed (added to R) $=15N_0/16$; total R $=N_0+15N_0/16=31N_0/16$. Y remaining $=N_0(1/2)^2=N_0/4$, newly-decayed (added to S) $=3N_0/4$; total S $=N_0+3N_0/4=7N_0/4$. Ratio R:S $=\\frac{31/16}{7/4}=\\frac{31}{28}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The rock formed with EQUAL numbers ($N_0$) of X, Y, R and S already present, so the totals of R and S must include these initial amounts, not just newly-decayed atoms."
+        },
+        {
+          "title": "Work through",
+          "content": "At $t=4T$: X remaining $=N_0(1/2)^4=N_0/16$, so newly-decayed (added to R) $=15N_0/16$; total R $=N_0+15N_0/16=31N_0/16$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Y remaining $=N_0(1/2)^2=N_0/4$, newly-decayed (added to S) $=3N_0/4$; total S $=N_0+3N_0/4=7N_0/4$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Ratio R:S $=\\frac{31/16}{7/4}=\\frac{31}{28}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-018",
@@ -906,9 +1524,25 @@
       "F": "22.5°C"
     },
     "answer": "D",
-    "technique": "Energy balance: heat lost by warm water = heat to melt ice + heat to warm melted ice to $T_f$. $180\\times4\\times(25-T_f)=20\\times300+20\\times4\\times T_f$. $720(25-T_f)=6000+80T_f \\Rightarrow 18000-720T_f=6000+80T_f \\Rightarrow 12000=800T_f \\Rightarrow T_f=15.0°C$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Energy balance: heat lost by warm water = heat to melt ice + heat to warm melted ice to $T_f$."
+        },
+        {
+          "title": "Work step 2",
+          "content": "$180\\times4\\times(25-T_f)=20\\times300+20\\times4\\times T_f$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$720(25-T_f)=6000+80T_f \\Rightarrow 18000-720T_f=6000+80T_f \\Rightarrow 12000=800T_f \\Rightarrow T_f=15.0^\\circ\\mathrm{C}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-019",
@@ -931,9 +1565,21 @@
       "H": "500 Pa"
     },
     "answer": "G",
-    "technique": "Height of Y (denser, at bottom) $=\\dfrac{100}{20}=5\\text{ cm}$; height of X (on top) $=\\dfrac{80}{20}=4\\text{ cm}$, so Y occupies 0-5 cm and X occupies 5-9 cm. At height 4 cm (within Y layer), the liquid column above consists of 1 cm of Y plus all 4 cm of X. $P=\\rho_Y g h_Y+\\rho_X g h_X=1000\\times10\\times0.01+800\\times10\\times0.04=100+320=420\\text{ Pa}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Height of Y (denser, at bottom) $=\\dfrac{100}{20}=5\\text{ cm}$; height of X (on top) $=\\dfrac{80}{20}=4\\text{ cm}$, so Y occupies 0-5 cm and X occupies 5-9 cm."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "At height 4 cm (within Y layer), the liquid column above consists of 1 cm of Y plus all 4 cm of X. $P=\\rho_Y g h_Y+\\rho_X g h_X=1000\\times10\\times0.01+800\\times10\\times0.04=100+320=420\\text{ Pa}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-PHY-020",
@@ -954,9 +1600,25 @@
       "F": "$\\dfrac{L(t_2-t_1)^2}{t_2}$"
     },
     "answer": "E",
-    "technique": "Speed of sound in rod: from the far-end reflection, $2L=vt_2 \\Rightarrow v=\\dfrac{2L}{t_2}$. Distance to crack: $2d=vt_1 \\Rightarrow d=\\dfrac{vt_1}{2}=\\dfrac{Lt_1}{t_2}$. Distance from crack to far end $=L-d=L-\\dfrac{Lt_1}{t_2}=\\dfrac{L(t_2-t_1)}{t_2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Speed of sound in rod: from the far-end reflection, $2L=vt_2 \\Rightarrow v=\\dfrac{2L}{t_2}$."
+        },
+        {
+          "title": "Distance to crack",
+          "content": "Distance to crack: $2d=vt_1 \\Rightarrow d=\\dfrac{vt_1}{2}=\\dfrac{Lt_1}{t_2}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Distance from crack to far end $=L-d=L-\\dfrac{Lt_1}{t_2}=\\dfrac{L(t_2-t_1)}{t_2}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-001",
@@ -979,9 +1641,25 @@
       "H": "T, R, Q, M"
     },
     "answer": "F",
-    "technique": "R displaces T from solution, so R is more reactive than T. T reacts with HCl (displaces H), so T is more reactive than hydrogen. M does not react with HCl, so M is less reactive than hydrogen (hence less reactive than T). M displaces Q from solution, so M is more reactive than Q. Combining: R > T > (H) > M > Q, giving order R, T, M, Q.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Order from displacement reactions",
+          "content": "R displaces T from solution, so R is more reactive than T. T reacts with HCl (produces $\\mathrm{H_2}$), so T is more reactive than hydrogen. M does not react with HCl, so M is less reactive than hydrogen."
+        },
+        {
+          "title": "Place M relative to Q",
+          "content": "M displaces Q from solution, so M is more reactive than Q."
+        },
+        {
+          "title": "Combine the inequalities",
+          "content": "Overall: R $> $ T $> $ hydrogen $> $ M $> $ Q, so the order is R, T, M, Q."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-002",
@@ -1004,9 +1682,33 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "⁴⁰Ca²⁺: 20 protons, 18 electrons (2,8,8), 20 neutrons. ⁴²Ca²⁺: 20 protons, 18 electrons (2,8,8), 22 neutrons. ⁴³Ca⁺: 20 protons, 19 electrons (2,8,8,1), 23 neutrons. Statement 1 is false (⁴³Ca⁺ has 19 electrons, config 2,8,8,1, not 2,8,8). Statement 2 is true (22 > 20 neutrons). Statement 3 is false (both have 20 protons — same element, equal protons). Only statement 2 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "⁴⁰Ca^2⁺: 20 protons, 18 electrons (2,8,8), 20 neutrons. ⁴^2Ca^2⁺: 20 protons, 18 electrons (2,8,8), 22 neutrons. ⁴^3Ca⁺: 20 protons, 19 electrons (2,8,8,1), 23 neutrons."
+        },
+        {
+          "title": "Work through",
+          "content": "Statement 1 is false (⁴^3Ca⁺ has 19 electrons, config 2,8,8,1, not 2,8,8)."
+        },
+        {
+          "title": "Statement is true neutrons",
+          "content": "Statement 2 is true (22 > 20 neutrons)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Statement 3 is false (both have 20 protons — same element, equal protons)."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 2 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-003",
@@ -1026,9 +1728,21 @@
       "E": "25.0"
     },
     "answer": "B",
-    "technique": "$A_r=\\dfrac{(24\\times80)+(25\\times10)+(26\\times10)}{100}=\\dfrac{1920+250+260}{100}=\\dfrac{2430}{100}=24.3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$A_r=\\dfrac{(24\\times80)+(25\\times10)+(26\\times10)}{100}=\\dfrac{1920+250+260}{100}=\\dfrac{2430}{100}=24.3$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-004",
@@ -1048,9 +1762,33 @@
       "E": "Number of double bonds per molecule: CO2 > O2 > H2O"
     },
     "answer": "E",
-    "technique": "A is false (Group 1 boiling points decrease down the group: Li>Na>K). B is false (solid Na conducts as a metal; solid NaCl does not conduct). C is false (Group 7 reactivity decreases down the group: F2>Cl2>Br2). D is false (order should be SiO2 (giant covalent, ~1710°C) > Na2O (ionic, ~1132°C) > H2O (~0°C), not with H2O second). E is true: CO2 has 2 C=O double bonds, O2 has 1 O=O double bond, H2O has 0 double bonds, so CO2 > O2 > H2O.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "A is false (Group 1 boiling points decrease down the group: Li>Na>K)."
+        },
+        {
+          "title": "Work through",
+          "content": "B is false (solid Na conducts as a metal; solid NaCl does not conduct)."
+        },
+        {
+          "title": "Simplify",
+          "content": "C is false (Group 7 reactivity decreases down the group: F2>Cl2>Br2)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "D is false (order should be SiO2 (giant covalent, ~$1710^{\\circ}\\mathrm{C}$) > Na2O (ionic, ~$1132^{\\circ}\\mathrm{C}$) > H2O (~$0^{\\circ}\\mathrm{C}$), not with H2O second)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "E is true: CO2 has 2 C=O double bonds, O2 has 1 O=O double bond, H2O has 0 double bonds, so CO2 > O2 > H2O."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-005",
@@ -1070,9 +1808,21 @@
       "E": "The sodium hydroxide becomes a weaker base as the volume of the resulting solution increases."
     },
     "answer": "D",
-    "technique": "The exothermic neutralization reaction causes temperature to rise as acid is added, until all NaOH is consumed at volume x cm³ (the equivalence point), after which further acid addition simply dilutes/cools the mixture with no further reaction, causing the change in slope. This is the standard shape for a titration temperature curve.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The exothermic neutralization reaction causes temperature to rise as acid is added, until all NaOH is consumed at volume x cm^3 (the equivalence point), after which further acid addition simply dilutes/cools the mixture with no further reaction, causing the change in slope."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "This is the standard shape for a titration temperature curve."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-006",
@@ -1093,9 +1843,25 @@
       "F": "[structure: -CH(CH2CH2CH3)-CH2- 2-carbon backbone, one propyl branch]"
     },
     "answer": "E",
-    "technique": "Pent-2-ene is CH3-CH=CH-CH2-CH3 (double bond between C2 and C3). Addition polymerisation opens the C2=C3 bond, so the repeating unit retains both original substituents on the two backbone carbons: a methyl group (from C1) on one carbon and an ethyl group (from C4-C5) on the other, giving -CH(CH3)-CH(CH2CH3)-. This matches structure E.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Pent-2-ene is CH3-CH=CH-CH2-CH3 (double bond between C2 and C3)."
+        },
+        {
+          "title": "Work through",
+          "content": "Addition polymerisation opens the C2=C3 bond, so the repeating unit retains both original substituents on the two backbone carbons: a methyl group (from C1) on one carbon and an ethyl group (from C4-C5) on the other, giving -CH(CH3)-CH(CH2CH3)-."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "This matches structure E."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-007",
@@ -1118,9 +1884,33 @@
       "H": "X: O2, Z: Mg"
     },
     "answer": "F",
-    "technique": "Cl2 reacts explosively with H2 to form HCl, which dissolves to give hydrochloric acid Y. AgNO3 + HCl → AgCl (white precipitate) ✓. HCl reacting with Mg (Z) gives exactly two products: MgCl2 + H2. Adding NaOH to MgCl2 gives Mg(OH)2, a white precipitate ✓. Thus X = Cl2, Z = Mg.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Cl2 reacts explosively with H2 to form HCl, which dissolves to give hydrochloric acid Y."
+        },
+        {
+          "title": "AgNO HCl AgCl white precipitate",
+          "content": "AgNO3 + HCl → AgCl (white precipitate) ✓."
+        },
+        {
+          "title": "Simplify",
+          "content": "HCl reacting with Mg (Z) gives exactly two products: MgCl2 + H2."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Adding NaOH to MgCl2 gives Mg(OH)2, a white precipitate ✓."
+        },
+        {
+          "title": "Thus X Cl Z Mg",
+          "content": "Thus X = Cl2, Z = Mg."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-008",
@@ -1140,9 +1930,21 @@
       "E": "-2, -2, +7, +7"
     },
     "answer": "D",
-    "technique": "In the tetrathionate ion S4O6²⁻, the structure has a central S-S bond (two sulfur atoms at oxidation state 0) flanked by two terminal SO3 groups (sulfur at oxidation state +5). This gives oxidation states 0, 0, +5, +5, and the overall charge check: $2(0)+2(+5)+6(-2)=10-12=-2$ ✓.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "In the tetrathionate ion S4O6^2⁻, the structure has a central S-S bond (two sulfur atoms at oxidation state 0) flanked by two terminal SO3 groups (sulfur at oxidation state +5)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "This gives oxidation states 0, 0, +5, +5, and the overall charge check: $2(0)+2(+5)+6(-2)=10-12=-2$ ✓."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-009",
@@ -1165,9 +1967,29 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Statement 1 is false: HBr adds across the double bond to give 2-bromopropane (via Markovnikov addition), not 1,2-dibromopropane (which would require Br2). Statement 2 is true: this is Fischer esterification, giving methyl propanoate + water. Statement 3 is false: ethanol + sodium gives sodium ethoxide (C2H5ONa) + hydrogen, not sodium ethanoate (which requires the carboxylic acid). Only statement 2 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Statement 1 is false: HBr adds across the double bond to give 2-bromopropane (via Markovnikov addition), not 1,2-dibromopropane (which would require Br2)."
+        },
+        {
+          "title": "Work through",
+          "content": "Statement 2 is true: this is Fischer esterification, giving methyl propanoate + water."
+        },
+        {
+          "title": "Simplify",
+          "content": "Statement 3 is false: ethanol + sodium gives sodium ethoxide (C2H5ONa) + hydrogen, not sodium ethanoate (which requires the carboxylic acid)."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 2 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-010",
@@ -1189,9 +2011,29 @@
       "G": "7:1"
     },
     "answer": "E",
-    "technique": "This is a disproportionation of Cl2 (oxidation state 0) to Cl⁻ (-1, reduction) and ClO3⁻ (+5, oxidation). Balancing electrons: each Cl⁻ formed involves gain of 1 electron; each ClO3⁻ formed involves loss of 5 electrons. For balance, 5 Cl⁻ are formed for every 1 ClO3⁻ formed (5×1 = 1×5 electrons). Balanced equation: $3\\text{Cl}_2+6\\text{OH}^-\\to5\\text{Cl}^-+\\text{ClO}_3^-+3\\text{H}_2\\text{O}$, giving $w:x=5:1$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "This is a disproportionation of Cl2 (oxidation state 0) to Cl⁻ (-1, reduction) and ClO3⁻ (+5, oxidation)."
+        },
+        {
+          "title": "Work through",
+          "content": "Balancing electrons: each Cl⁻ formed involves gain of 1 electron; each ClO3⁻ formed involves loss of 5 electrons."
+        },
+        {
+          "title": "Simplify",
+          "content": "For balance, 5 Cl⁻ are formed for every 1 ClO3⁻ $formed (5\\times1 = 1\\times5 electrons)$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Balanced equation: $3\\text{Cl}_2+6\\text{OH}^-\\to5\\text{Cl}^-+\\text{ClO}_3^-+3\\text{H}_2\\text{O}$, giving $w:x=5:1$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-011",
@@ -1211,9 +2053,25 @@
       "E": "The Rf value of tyrosine in solvent 1 is 0.6 and in solvent 2 is 0.7."
     },
     "answer": "B",
-    "technique": "From the chromatogram: solvent-1 front=10cm, solvent-2 front=20cm. Lysine: distance in solvent1=6cm -> Rf1=0.6; distance in solvent2=8cm -> Rf2=0.4. Since 0.6>0.4, lysine's Rf is greater in solvent 1. (Checking the others: glycine and leucine share the same Rf1=0.8, so solvent1 alone cannot separate all four; glycine and tyrosine share the same Rf2=0.3, so solvent2 alone cannot separate all four; tyrosine's actual Rf2 is 0.3, not 0.7.)",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "From the chromatogram: solvent-1 front=10cm, solvent-2 front=20cm."
+        },
+        {
+          "title": "Work through",
+          "content": "Lysine: distance in solvent1=6cm -> Rf1=0.6; distance in solvent2=8cm -> Rf2=0.4."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Since 0.6>0.4, lysine's Rf is greater in solvent 1. (Checking the others: glycine and leucine share the same Rf1=0.8, so solvent1 alone cannot separate all four; glycine and tyrosine share the same Rf2=0.3, so solvent2 alone cannot separate all four; tyrosine's actual Rf2 is 0.3, not 0.7.)"
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-012",
@@ -1233,9 +2091,33 @@
       "E": "N2O5"
     },
     "answer": "C",
-    "technique": "Balance: $\\text{Cu}+4\\text{HNO}_3\\to\\text{Cu(NO}_3)_2+2\\text{H}_2\\text{O}+2\\text{X}$. Hydrogen balance: 4H on left = 2×2H in water on right ✓ (matches given 2 mol water). Nitrogen balance: 4N on left; Cu(NO3)2 accounts for 2N, so X must account for 2N total (1N per X if 2 mol X). Oxygen balance: left has 12 O; Cu(NO3)2 has 6 O, water has 2 O, remaining 4 O split over 2 mol X = 2 O each. So X = NO2 (1 N, 2 O), giving X = NO2 (nitrogen dioxide, from reaction with concentrated nitric acid).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Balance: $\\text{Cu}+4\\text{HNO}_3\\to\\text{Cu(NO}_3)_2+2\\text{H}_2\\text{O}+2\\text{X}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Hydrogen balance: $4H on left = 2\\times2H in water on right$ ✓ (matches given 2 mol water)."
+        },
+        {
+          "title": "Simplify",
+          "content": "Nitrogen balance: 4N on left; Cu(NO3)2 accounts for 2N, so X must account for 2N total (1N per X if 2 mol X)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Oxygen balance: left has 12 O; Cu(NO3)2 has 6 O, water has 2 O, remaining 4 O split over 2 mol X = 2 O each."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "So X = NO2 (1 N, 2 O), giving X = NO2 (nitrogen dioxide, from reaction with concentrated nitric acid)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-013",
@@ -1255,9 +2137,29 @@
       "E": "100 cm³"
     },
     "answer": "A",
-    "technique": "$(\\text{COOH})_2+2\\text{NaOH}\\to(\\text{COONa})_2+2\\text{H}_2\\text{O}$ (diprotic, 1:2 ratio). Moles NaOH $=\\dfrac{25.0\\times2.00}{1000}=0.0500\\text{ mol}$. Moles acid needed $=\\dfrac{0.0500}{2}=0.0250\\text{ mol}$. Volume $=\\dfrac{0.0250}{2.50}\\times1000=10.0\\text{ cm}^3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$(\\text{COOH})_2+2\\text{NaOH}\\to(\\text{COONa})_2+2\\text{H}_2\\text{O}$ (diprotic, 1:2 ratio)."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Moles NaOH $=\\dfrac{25.0\\times2.00}{1000}=0.0500\\text{ mol}$."
+        },
+        {
+          "title": "Moles acid needed",
+          "content": "Moles acid needed $=\\dfrac{0.0500}{2}=0.0250\\text{ mol}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Volume $=\\dfrac{0.0250}{2.50}\\times1000=10.0\\text{ cm}^3$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-014",
@@ -1280,9 +2182,29 @@
       "H": "223°C"
     },
     "answer": "E",
-    "technique": "Moles propene $=\\dfrac{2.10}{42.0}=0.0500\\text{ mol}$. Heat released $=0.0500\\times2000=100\\text{ kJ}=100000\\text{ J}$. Temperature rise $=\\dfrac{100000}{1000\\times2.00}=50.0°C$. Final temperature $=23.0+50.0=73.0°C$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Moles propene $=\\dfrac{2.10}{42.0}=0.0500\\text{ mol}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Heat released $=0.0500\\times2000=100\\text{ kJ}=100000\\text{ J}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Temperature rise $=\\dfrac{100000}{1000\\times2.00}=50.0^\\circ\\mathrm{C}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Final temperature $=23.0+50.0=73.0^\\circ\\mathrm{C}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-015",
@@ -1303,9 +2225,25 @@
       "F": "-1080 kJ mol⁻¹"
     },
     "answer": "A",
-    "technique": "Bonds broken: 4 C-H (in CH4) + 4 O-H (in 2 H2O) $=4(430)+4(460)=1720+1840=3560\\text{ kJ}$. Bonds formed: 2 C=O (in CO2) + 4 H-H (in 4H2) $=2(800)+4(440)=1600+1760=3360\\text{ kJ}$. Energy change $=$ bonds broken $-$ bonds formed $=3560-3360=+200\\text{ kJ mol}^{-1}$ (endothermic).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Bonds broken: 4 C-H (in CH4) + 4 O-H (in 2 H2O) $=4(430)+4(460)=1720+1840=3560\\text{ kJ}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Bonds formed: 2 C=O (in CO2) + 4 H-H (in 4H2) $=2(800)+4(440)=1600+1760=3360\\text{ kJ}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Energy change $=$ bonds broken $-$ bonds formed $=3560-3360=+200\\text{ kJ mol}^{-1}$ (endothermic)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-016",
@@ -1325,9 +2263,33 @@
       "E": "200 dm³"
     },
     "answer": "B",
-    "technique": "Required ratio NH3:O2 = 4:5. Available: NH3/4 = 12.5, O2/5 = 10, so O2 is limiting. O2 (50 dm³) fully reacts with $\\tfrac45\\times50=40$ dm³ NH3, leaving $50-40=10$ dm³ NH3 unreacted. Products: NO $=\\tfrac45\\times50=40$ dm³, H2O $=\\tfrac65\\times50=60$ dm³. Total volume $=10\\text{ (NH3 left)}+40\\text{ (NO)}+60\\text{ (H2O)}=110\\text{ dm}^3$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Required ratio NH3:O2 = 4:5."
+        },
+        {
+          "title": "Available NH O so O is limiting",
+          "content": "Available: NH3/4 = 12.5, O2/5 = 10, so O2 is limiting."
+        },
+        {
+          "title": "Simplify",
+          "content": "O2 (50 dm^3) fully reacts with $\\tfrac45\\times50=40$ dm^3 NH3, leaving $50-40=10$ dm^3 NH3 unreacted."
+        },
+        {
+          "title": "Products NO dm H O dm",
+          "content": "Products: NO $=\\tfrac45\\times50=40$ dm^3, H2O $=\\tfrac65\\times50=60$ dm^3."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Total volume $=10\\text{ (NH3 left)}+40\\text{ (NO)}+60\\text{ (H2O)}=110\\text{ dm}^3$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-017",
@@ -1348,9 +2310,29 @@
       "F": "potassium, copper, chlorine"
     },
     "answer": "C",
-    "technique": "K⁺+e⁻→K (1 electron per K atom): mass per mole electrons $=39.0$. Cl⁻→½Cl2+e⁻ (1 electron per Cl atom): mass per mole electrons $=35.5$. Cu²⁺+2e⁻→Cu (2 electrons per Cu atom): mass per mole electrons $=63.5/2=31.75$. For equal charge passed, mass order (lowest to highest): copper (31.75) < chlorine (35.5) < potassium (39.0).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "K⁺+e⁻→K (1 electron per K atom): mass per mole electrons $=39.0$."
+        },
+        {
+          "title": "Work through",
+          "content": "Cl⁻→½Cl2+e⁻ (1 electron per Cl atom): mass per mole electrons $=35.5$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Cu^2⁺+2e⁻→Cu (2 electrons per Cu atom): mass per mole electrons $=63.5/2=31.75$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "For equal charge passed, mass order (lowest to highest): copper (31.75) < chlorine (35.5) < potassium (39.0)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-018",
@@ -1371,9 +2353,21 @@
       "F": "0.476 g"
     },
     "answer": "F",
-    "technique": "Total Mg $=0.500\\text{ g}=\\dfrac{0.500}{24}\\text{ mol}$, which would produce (via Mg+2HCl→MgCl2+H2) the same number of moles of H2, giving a total gas volume at completion of $\\dfrac{0.500}{24}\\times24000=500\\text{ cm}^3$. Reading the volume of gas released at $t=2\\text{ s}$ from the graph and converting to moles of Mg reacted (1:1 with H2 produced) allows calculation of Mg consumed, and hence Mg remaining $=0.500-\\text{Mg reacted}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Total Mg $=0.500\\text{ g}=\\dfrac{0.500}{24}\\text{ mol}$, which would produce (via Mg+2HCl→MgCl2+H2) the same number of moles of H2, giving a total gas volume at completion of $\\dfrac{0.500}{24}\\times24000=500\\text{ cm}^3$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Reading the volume of gas released at $t=2\\text{ s}$ from the graph and converting to moles of Mg reacted (1:1 with H2 produced) allows calculation of Mg consumed, and hence Mg remaining $=0.500-\\text{Mg reacted}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-019",
@@ -1394,9 +2388,25 @@
       "F": "5.94 g"
     },
     "answer": "E",
-    "technique": "Only BaBr2 reacts with AgNO3 to form AgBr precipitate: $\\text{BaBr}_2+2\\text{AgNO}_3\\to2\\text{AgBr}+\\text{Ba(NO}_3)_2$. Let mass BaBr2 $=m$: moles BaBr2 $=\\dfrac{m}{297}$, moles AgBr $=\\dfrac{2m}{297}$, mass AgBr $=\\dfrac{2m}{297}\\times188=3.76 \\Rightarrow m=\\dfrac{3.76\\times297}{376}=2.97\\text{ g}$. Mass NaNO3 $=6.36-2.97=3.39\\text{ g}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Only BaBr2 reacts with AgNO3 to form AgBr precipitate: $\\text{BaBr}_2+2\\text{AgNO}_3\\to2\\text{AgBr}+\\text{Ba(NO}_3)_2$."
+        },
+        {
+          "title": "Work through",
+          "content": "Let mass BaBr2 $=m$: moles BaBr2 $=\\dfrac{m}{297}$, moles AgBr $=\\dfrac{2m}{297}$, mass AgBr $=\\dfrac{2m}{297}\\times188=3.76 \\Rightarrow m=\\dfrac{3.76\\times297}{376}=2.97\\text{ g}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Mass NaNO3 $=6.36-2.97=3.39\\text{ g}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-CHEM-020",
@@ -1416,9 +2426,21 @@
       "E": "1 min: 6g, 2 min: 10g, 3 min: 13g, 4 min: 15g, 5 min: 15g"
     },
     "answer": "A",
-    "technique": "As the reaction proceeds, MgCO3 (the limiting reagent in excess acid) is used up, so the reaction rate decreases over time -- the mass of gas produced per minute should decrease progressively, giving a curve that rises steeply at first then levels off. The pattern with per-minute increments of 5,4,3,2,1 g shows exactly this decreasing-rate pattern, unlike constant increments or increasing increments.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "As the reaction proceeds, MgCO3 (the limiting reagent in excess acid) is used up, so the reaction rate decreases over time -- the mass of gas produced per minute should decrease progressively, giving a curve that rises steeply at first then levels off."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The pattern with per-minute increments of 5,4,3,2,1 g shows exactly this decreasing-rate pattern, unlike constant increments or increasing increments."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-001",
@@ -1439,9 +2461,21 @@
       "F": "1, 2, 3 and 4"
     },
     "answer": "F",
-    "technique": "All four scenarios create a change in environmental conditions that favours survival/reproduction of certain phenotypes over others: habitat loss (1) selects against species unable to adapt; predator introduction (2) selects for anti-predator traits; antibiotic use (3) selects for resistant bacteria; insecticide use (4) selects for resistant mosquitoes. All four are selection pressures.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "All four scenarios create a change in environmental conditions that favours survival/reproduction of certain phenotypes over others: habitat loss (1) selects against species unable to adapt; predator introduction (2) selects for anti-predator traits; antibiotic use (3) selects for resistant bacteria; insecticide use (4) selects for resistant mosquitoes."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "All four are selection pressures."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-002",
@@ -1461,9 +2495,37 @@
       "E": "It is not able to respire."
     },
     "answer": "B",
-    "technique": "A cell wall rules out animal cells (A false). Having no mitochondria doesn't rule out being prokaryotic (bacteria have cell walls, no mitochondria, and no nucleus) — so it may have no nucleus (B true). Chloroplast-containing cells (plants) still have mitochondria, so C is inconsistent with no mitochondria being possible for such organisms in general reasoning; a bacterial cell wouldn't have chloroplasts either typically tested this way. D is not implied by the given features. Bacteria can still respire anaerobically without mitochondria, so E is false. B is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "A cell wall rules out animal cells (A false)."
+        },
+        {
+          "title": "Work through",
+          "content": "Having no mitochondria doesn't rule out being prokaryotic (bacteria have cell walls, no mitochondria, and no nucleus) — so it may have no nucleus (B true)."
+        },
+        {
+          "title": "Simplify",
+          "content": "Chloroplast-containing cells (plants) still have mitochondria, so C is inconsistent with no mitochondria being possible for such organisms in general reasoning; a bacterial cell wouldn't have chloroplasts either typically tested this way."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "D is not implied by the given features."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Bacteria can still respire anaerobically without mitochondria, so E is false."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "B is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-003",
@@ -1486,9 +2548,25 @@
       "H": "1, 2 and 3 only"
     },
     "answer": "B",
-    "technique": "A concentration difference maintained over time despite a gradient existing (which would otherwise cause diffusion down the gradient) must be actively sustained against the gradient. Only active transport can move substances against a concentration gradient using energy (ATP); diffusion and osmosis act down gradients and would tend to eliminate the difference, not maintain it. Only active transport (1) is responsible.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "A concentration difference maintained over time despite a gradient existing (which would otherwise cause diffusion down the gradient) must be actively sustained against the gradient."
+        },
+        {
+          "title": "Work through",
+          "content": "Only active transport can move substances against a concentration gradient using energy (ATP); diffusion and osmosis act down gradients and would tend to eliminate the difference, not maintain it."
+        },
+        {
+          "title": "Only active transport is responsible",
+          "content": "Only active transport (1) is responsible."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-004",
@@ -1509,9 +2587,29 @@
       "F": "1: glucagon, 2: glucagon, 3: insulin"
     },
     "answer": "D",
-    "technique": "Glucose to glycogen (in liver, storage) is stimulated by insulin. Glycogen (muscle/liver) to glucose (breakdown) is stimulated by glucagon and/or adrenaline depending on the arrow direction shown. Matching the standard blood glucose regulation pathway (insulin promotes glycogenesis; glucagon/adrenaline promote glycogenolysis) to the three labelled arrows: arrow 1 = insulin, arrow 2 = insulin/adrenaline, arrow 3 = glucagon.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Glucose to glycogen (in liver, storage) is stimulated by insulin."
+        },
+        {
+          "title": "Work through",
+          "content": "Glycogen (muscle/liver) to glucose (breakdown) is stimulated by glucagon and/or adrenaline depending on the arrow direction shown."
+        },
+        {
+          "title": "Simplify",
+          "content": "Matching the standard blood glucose regulation pathway (insulin promotes glycogenesis; glucagon/adrenaline promote glycogenolysis) to the three labelled arrows: arrow 1 = insulin, arrow 2 = insulin/adrenaline, arrow 3"
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "= glucagon."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-005",
@@ -1534,9 +2632,29 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Gametes are haploid (n) while cell T (formed by mitosis from diploid R) is diploid (2n), so statement 1 is false (different amounts of DNA/chromosome number). If gamete Q carries a Y chromosome and fuses with P (presumably carrying X), R is XY; since S and T arise from mitosis of R, both are genetically identical to R (both XY, i.e. genetically male) — statement 2 is true. A mutation doesn't always change phenotype (it could be silent, in a non-coding region, or recessive) — statement 3 is false. Only statement 2 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Gametes are haploid (n) while cell T (formed by mitosis from diploid R) is diploid (2n), so statement 1 is false (different amounts of DNA/chromosome number)."
+        },
+        {
+          "title": "Work through",
+          "content": "If gamete Q carries a Y chromosome and fuses with P ( carrying X), R is XY; since S and T arise from mitosis of R, both are genetically identical to R (both XY, i.e. genetically male) — statement 2 is true."
+        },
+        {
+          "title": "Simplify",
+          "content": "A mutation doesn't always change phenotype (it could be silent, in a non-coding region, or recessive) — statement 3 is false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 2 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-006",
@@ -1559,9 +2677,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "H",
-    "technique": "All three factors could plausibly cause a population decline: reduced rainfall (1) could reduce water/food availability directly affecting survival; reduced resource availability (2) directly limits population via reduced carrying capacity; competition from an introduced species (3) if the tortoises fail to adapt could reduce their access to resources and reduce numbers. All three are valid explanations, so H.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "All three factors could plausibly cause a population decline: reduced rainfall (1) could reduce water/food availability directly affecting survival; reduced resource availability (2) directly limits population via reduced carrying capacity; competition from an introduced species (3) if the tortoises fail to adapt could reduce their access to resources and reduce numbers."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "All three are valid explanations, so H."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-007",
@@ -1584,9 +2714,29 @@
       "H": "1, 2 and 3"
     },
     "answer": "D",
-    "technique": "Enzymes are biological catalysts and are not consumed/used up in a reaction (they are regenerated), so statement 1 is false. The initial rate would be read as the gradient of the graph near t=0 in g/s then converted; without a value matching exactly 120 g min⁻¹ from the graph's early gradient, this is not confirmed — statement 2 is false. Product inhibition (where accumulated product binds to and inhibits the enzyme, e.g. competitive/allosteric inhibition) is a recognised real phenomenon that would explain the levelling off of the curve — statement 3 is true. Only statement 3 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Enzymes are biological catalysts and are not consumed/used up in a reaction (they are regenerated), so statement 1 is false."
+        },
+        {
+          "title": "Work through",
+          "content": "The initial rate would be read as the gradient of the graph near t=0 in g/s then converted; without a value matching exactly 120 g min⁻¹ from the graph's early gradient, this is not confirmed — statement 2 is false."
+        },
+        {
+          "title": "Simplify",
+          "content": "Product inhibition (where accumulated product binds to and inhibits the enzyme, e.g. competitive/allosteric inhibition) is a recognised real phenomenon that would explain the levelling off of the curve — statement 3 is true."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 3 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-008",
@@ -1609,9 +2759,29 @@
       "H": "1, 2 and 3"
     },
     "answer": "G",
-    "technique": "Anaerobic respiration produces lactic acid, which would DECREASE pH (make it more acidic), not increase it — statement 1 is false. Exercise generates heat from increased metabolic activity, and higher temperature increases enzyme activity/reaction rate (up to the optimum) — statement 2 is true. Increased aerobic respiration produces more CO2 as a waste product, which must be removed — statement 3 is true. Statements 2 and 3 are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Anaerobic respiration produces lactic acid, which would DECREASE pH (make it more acidic), not increase it — statement 1 is false."
+        },
+        {
+          "title": "Work through",
+          "content": "Exercise generates heat from increased metabolic activity, and higher temperature increases enzyme activity/reaction rate (up to the optimum) — statement 2 is true."
+        },
+        {
+          "title": "Simplify",
+          "content": "Increased aerobic respiration produces more CO2 as a waste product, which must be removed — statement 3 is true."
+        },
+        {
+          "title": "Statements and are correct",
+          "content": "Statements 2 and 3 are correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-009",
@@ -1631,9 +2801,33 @@
       "E": "There is a 3:1 ratio of dominant to recessive alleles for this gene in the live offspring."
     },
     "answer": "B",
-    "technique": "Cross Rr × Rr gives genotypes 1 RR : 2 Rr : 1 rr. RR is lethal (doesn't survive), leaving live offspring in ratio 2 Rr (yellow) : 1 rr (grey), i.e. 2/3 yellow, 1/3 grey (so A's 25% is wrong; correct grey proportion is 33.3%). Grey mice must be homozygous recessive (rr), since yellow is exclusively the heterozygous phenotype — so all grey mice are homozygous (rr) for coat colour, making B correct. C is unrelated (gene isn't sex-linked). D is false: yellow (Rr) × grey (rr) gives 1 Rr (yellow) : 1 rr (grey), not always yellow.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "$Cross Rr \\times Rr gives genotypes 1 RR$ : 2 Rr : 1 rr."
+        },
+        {
+          "title": "Work through",
+          "content": "RR is lethal (doesn't survive), leaving live offspring in ratio 2 Rr (yellow) : 1 rr (grey), i.e. 2/3 yellow, 1/3 grey (so A's 25% is wrong; correct grey proportion is 33.3%)."
+        },
+        {
+          "title": "Simplify",
+          "content": "Grey mice must be homozygous recessive (rr), since yellow is exclusively the heterozygous phenotype — so all grey mice are homozygous (rr) for coat colour, making B correct."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "C is unrelated (gene isn't sex-linked)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "D is false: $yellow (Rr) \\times grey (rr) gives 1 Rr (yellow)$ : 1 rr (grey), not always yellow."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-010",
@@ -1646,17 +2840,33 @@
     "difficulty": 3,
     "question": "One strand of a section of DNA has the sequence: AATCGGTCTTGCGGCCAAGGCCCTT. The complementary strand is not shown. Which chart shows the correct proportions of the four bases (A, C, G, T) for this section of double-stranded DNA? (Assume no mutations.)",
     "options": {
-      "A": "[pie chart: C,A,T,G quadrants -- one specific size arrangement]",
-      "B": "[pie chart: A,T,C,G quadrants -- different label order]",
-      "C": "[pie chart: G,A,T,C quadrants -- different label order]",
-      "D": "[pie chart: C,A,T,G quadrants -- appears visually identical label layout to A, differing only in wedge proportions]",
-      "E": "[pie chart: C,A,G,T quadrants -- different label order]",
-      "F": "[pie chart: C,A / T,G as four equal quadrants]"
+      "A": "pie chart with $\\mathrm{A}=\\mathrm{T}$ each $20\\%$ and $\\mathrm{G}=\\mathrm{C}$ each $30\\%$",
+      "B": "pie chart with unequal $\\mathrm{A}$ and $\\mathrm{T}$ wedges and unequal $\\mathrm{G}$ and $\\mathrm{C}$",
+      "C": "pie chart with $\\mathrm{C}$ largest and $\\mathrm{A}$ smallest (not $2:2:3:3$)",
+      "D": "pie chart with same label layout as the $2:2:3:3$ chart but wrong wedge sizes",
+      "E": "pie chart with $\\mathrm{G}$ largest and $\\mathrm{A}$ smallest (not $2:2:3:3$)",
+      "F": "pie chart with four equal $25\\%$ wedges"
     },
     "answer": "A",
-    "technique": "FLAGGED: options are pie charts distinguished by wedge PROPORTIONS (not just label position), which cannot be reliably read from a static PDF render. Independent base count from the given strand (AATCGGTCTTGCGGCCAAGGCCCTT): A=4,T=6,G=7,C=8 in this strand; for double-stranded DNA the correct proportions should be A=T=10 and G=C=15 (i.e. G/C wedges larger than A/T wedges, with A=T and G=C). The stored answer has quadrant order C,A,T,G with wedges sized A=T<G=C -- this is preserved from the original extraction/key-check but needs visual confirmation, since another option in the bank shares the same C,A,T,G quadrant order and looked structurally identical in this render, differing (if at all) only in wedge proportions -- recommend visual cross-check against the diagram.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "In $\\mathrm{AATCGGTCTTGCGGCCAAGGCCCTT}$: $\\mathrm{A}=4$, $\\mathrm{T}=6$, $\\mathrm{G}=7$, $\\mathrm{C}=8$."
+        },
+        {
+          "title": "Apply complementary base pairing",
+          "content": "In double-stranded DNA, every $\\mathrm{A}$ pairs with $\\mathrm{T}$ and every $\\mathrm{G}$ with $\\mathrm{C}$, so totals are $\\mathrm{A}=\\mathrm{T}=4+6=10, \\qquad \\mathrm{G}=\\mathrm{C}=7+8=15$ out of $50$ bases."
+        },
+        {
+          "title": "Identify the matching pie chart",
+          "content": "Proportions are $\\mathrm{A}:\\mathrm{T}:\\mathrm{G}:\\mathrm{C} = 10:10:15:15 = 2:2:3:3$. The correct chart has equal $\\mathrm{A}$ and $\\mathrm{T}$ wedges (each $20\\%$) and equal, larger $\\mathrm{G}$ and $\\mathrm{C}$ wedges (each $30\\%$)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-011",
@@ -1679,9 +2889,29 @@
       "H": "1, 2 and 3 only"
     },
     "answer": "A",
-    "technique": "Q represents the (still cell-sap-containing) vacuole/cytoplasm region, not pure distilled water even in the water-treated cell — water moves in by osmosis but the vacuole still contains dissolved solutes (cell sap), so statement 1 is false. In the plasmolysed cell (concentrated sugar solution), water moves OUT of the cell by osmosis, so the volume of Q decreases but the number of solute particles inside does not increase (no new solutes are added) — statement 2 is false. S represents the gap between the shrunken protoplast and the cell wall, which is filled with the external (sugar) solution that has entered, not a vacuum — statement 3 is false. None of the statements are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Q represents the (still cell-sap-containing) vacuole/cytoplasm region, not pure distilled water even in the water-treated cell — water moves in by osmosis but the vacuole still contains dissolved solutes (cell sap), so statement 1 is false."
+        },
+        {
+          "title": "Work through",
+          "content": "In the plasmolysed cell (concentrated sugar solution), water moves OUT of the cell by osmosis, so the volume of Q decreases but the number of solute particles inside does not increase (no new solutes are added) — statement 2 is false."
+        },
+        {
+          "title": "Simplify",
+          "content": "S represents the gap between the shrunken protoplast and the cell wall, which is filled with the external (sugar) solution that has entered, not a vacuum — statement 3 is false."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "None of the statements are correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-012",
@@ -1704,9 +2934,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "D",
-    "technique": "Based on the typical carbon cycle diagram layout, P likely represents photosynthesis (which occurs in chloroplasts, not mitochondria — statement 1 false), Q likely represents feeding/consumption relationships between organisms (not inherently a heat-releasing process in itself — statement 2 false), and R represents respiration or decomposition (an enzyme-catalysed process, and enzymes are indeed sensitive to pH and temperature — statement 3 true). Only statement 3 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Based on the typical carbon cycle diagram layout, P likely represents photosynthesis (which occurs in chloroplasts, not mitochondria — statement 1 false), Q likely represents feeding/consumption relationships between organisms (not inherently a heat-releasing process in itself — statement 2 false), and R represents respiration or decomposition (an enzyme-catalysed process, and enzymes are indeed sensitive to pH and temperature — statement 3 true)."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 3 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-013",
@@ -1729,9 +2971,33 @@
       "H": "1, 2 and 3 only"
     },
     "answer": "H",
-    "technique": "Magnification of L $=\\dfrac{2\\text{ cm}=20000\\ \\mu m}{400\\ \\mu m}=50\\times$ — statement 1 true. Magnification of M $=\\dfrac{1\\text{ cm}=10000\\ \\mu m}{40\\ \\mu m}=250\\times$. Ratio M:L magnification $=250/50=5$ — statement 2 true. Both plant and bacterial cells (and fungal cells) have cell walls, and cells of these sizes (400 μm could be a plant cell, 40 μm could be a plant or bacterial cell) are plausible — statement 3 true. All three correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Magnification of L statement true",
+          "content": "Magnification of L $=\\dfrac{2\\text{ cm}=20000\\ \\mu m}{400\\ \\mu m}=50\\times$ — statement 1 true."
+        },
+        {
+          "title": "Work through",
+          "content": "Magnification of M $=\\dfrac{1\\text{ cm}=10000\\ \\mu m}{40\\ \\mu m}=250\\times$."
+        },
+        {
+          "title": "Ratio M L magnification statement true",
+          "content": "Ratio M:L magnification $=250/50=5$ — statement 2 true."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Both plant and bacterial cells (and fungal cells) have cell walls, and cells of these sizes (400 μm could be a plant cell, 40 μm could be a plant or bacterial cell) are plausible — statement 3 true."
+        },
+        {
+          "title": "All three correct",
+          "content": "All three correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-014",
@@ -1752,9 +3018,21 @@
       "F": "75%"
     },
     "answer": "C",
-    "technique": "From the pedigree, determine the genotypes of individual 6's parents based on the affected/unaffected status of individuals 1-5, apply Mendelian ratios for the recessive trait to find P(unaffected) for individual 6, then multiply by P(male) = 1/2 (assuming independent, unlinked sex determination) to get the combined probability, consistent with the key answer of 37.5% (=3/4 × 1/2).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "From the pedigree, determine the genotypes of individual 6's parents based on the affected/unaffected status of individuals 1-5, apply Mendelian ratios for the recessive trait to find P(unaffected) for individual 6, then multiply by P(male) = 1/2 (assuming independent, unlinked sex determination) to get the combined probability, consistent with the key answer of 37.5% $(=3/4 \\times 1/2)$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-015",
@@ -1774,9 +3052,21 @@
       "E": "The total number of stem cells is maintained if they divide like stem cell 3."
     },
     "answer": "B",
-    "technique": "All types of stem cell division shown occur via mitosis (A is false — mitosis underlies all somatic cell division regardless of daughter cell fate). If stem cell 1's division pattern involves uncontrolled/excessive production of stem cells (self-renewal without proper regulation), this uncontrolled proliferation is analogous to how some cancers arise from unchecked cell division — B is correct given the pattern shown for stem cell 1 in the diagram.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "All types of stem cell division shown occur via mitosis (A is false — mitosis underlies all somatic cell division regardless of daughter cell fate)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "If stem cell 1's division pattern involves uncontrolled/excessive production of stem cells (self-renewal without proper regulation), this uncontrolled proliferation is analogous to how some cancers arise from unchecked cell division — B is correct given the pattern shown for stem cell 1 in the diagram."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-016",
@@ -1796,9 +3086,21 @@
       "E": "rate increases from low to a peak around the optimum temperature, then declines slightly (bell-shaped)"
     },
     "answer": "E",
-    "technique": "Enzyme-catalysed reaction rate increases with temperature (more kinetic energy, more successful collisions) up to an optimum, then declines as the enzyme denatures at higher temperatures. This produces a rise-then-fall (bell-shaped) pattern peaking around the optimum temperature.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Enzyme-catalysed reaction rate increases with temperature (more kinetic energy, more successful collisions) up to an optimum, then declines as the enzyme denatures at higher temperatures."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "This produces a rise-then-fall (bell-shaped) pattern peaking around the optimum temperature."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-017",
@@ -1821,9 +3123,37 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Total blood volume $=0.006\\text{ m}^3=6\\times10^6\\text{ mm}^3$. Total RBC count $=6\\times10^6\\times4\\times10^6=2.4\\times10^{13}$. Since count is constant, production rate = replacement rate = total/lifespan: $\\dfrac{2.4\\times10^{13}}{100\\text{ days}}=2.4\\times10^{11}\\text{ cells/day}=\\dfrac{2.4\\times10^{11}}{24}=1\\times10^{10}\\text{ cells/hour}$ — statement 2 true. Red blood cells are not phagocytic (that's white blood cells, e.g. neutrophils/macrophages) — statement 1 false. Stem cells (unlike mature red blood cells) do have nuclei — statement 3 false. Only statement 2 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Total blood volume",
+          "content": "Total blood volume $=0.006\\text{ m}^3=6\\times10^6\\text{ mm}^3$."
+        },
+        {
+          "title": "Total RBC count",
+          "content": "Total RBC count $=6\\times10^6\\times4\\times10^6=2.4\\times10^{13}$."
+        },
+        {
+          "title": "Simplify",
+          "content": "Since count is constant, production rate = replacement rate = total/lifespan: $\\dfrac{2.4\\times10^{13}}{100\\text{ days}}=2.4\\times10^{11}\\text{ cells/day}=\\dfrac{2.4\\times10^{11}}{24}=1\\times10^{10}\\text{ cells/hour}$ — statement 2 true."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Red blood cells are not phagocytic (that's white blood cells, e.g. neutrophils/macrophages) — statement 1 false."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Stem cells (unlike mature red blood cells) do have nuclei — statement 3 false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 2 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-018",
@@ -1846,9 +3176,25 @@
       "H": "Q and R only"
     },
     "answer": "A",
-    "technique": "In haplodiploid species, males develop from unfertilised (haploid) eggs via mitosis only (no meiosis needed, since the egg is already haploid), while females develop from fertilised (diploid) eggs. Meiosis occurs specifically in the diploid female when producing haploid eggs (halving chromosome number from diploid to haploid). Only the process producing haploid gametes from the diploid female (labelled P) represents meiosis.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "In haplodiploid species, males develop from unfertilised (haploid) eggs via mitosis only (no meiosis needed, since the egg is already haploid), while females develop from fertilised (diploid) eggs."
+        },
+        {
+          "title": "Work through",
+          "content": "Meiosis occurs specifically in the diploid female when producing haploid eggs (halving chromosome number from diploid to haploid)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Only the process producing haploid gametes from the diploid female (labelled P) represents meiosis."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-019",
@@ -1871,9 +3217,33 @@
       "H": "3 and 4 only"
     },
     "answer": "A",
-    "technique": "All somatic (diploid) cells in one person, including cheek cells and embryonic stem cells, share the same genome/alleles (barring mutation) — statement 1 is true. Sperm cells are haploid, so they contain half the genome/chromosome number of a diploid cheek cell, not the same genome — statement 2 is false. Mature red blood cells (in mammals) lose their nucleus and hence contain no DNA, unlike white blood cells — statement 3 is false. Different cell types express different genes (differential gene expression), so an embryonic stem cell does not produce all the same proteins as a specialised white blood cell — statement 4 is false. Only statement 1 is correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "All somatic (diploid) cells in one person, including cheek cells and embryonic stem cells, share the same genome/alleles (barring mutation) — statement 1 is true."
+        },
+        {
+          "title": "Work through",
+          "content": "Sperm cells are haploid, so they contain half the genome/chromosome number of a diploid cheek cell, not the same genome — statement 2 is false."
+        },
+        {
+          "title": "Simplify",
+          "content": "Mature red blood cells (in mammals) lose their nucleus and hence contain no DNA, unlike white blood cells — statement 3 is false."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Different cell types express different genes (differential gene expression), so an embryonic stem cell does not produce all the same proteins as a specialised white blood cell — statement 4 is false."
+        },
+        {
+          "title": "Only statement is correct",
+          "content": "Only statement 1 is correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2021-BIO-020",
@@ -1896,8 +3266,28 @@
       "H": "1, 2 and 3 only"
     },
     "answer": "D",
-    "technique": "Statement 1 requires a consistent proportional relationship between dandelion and daisy counts at every point, which is not generally true from raw kite diagram data (they can vary independently) — false. Statement 2: natural variation across a field means different transects would give different (not identical) patterns — false. Statement 3: quadrat area $=0.5\\times0.5=0.25\\text{ m}^2$. If the dandelion count at 5m was, say, 9 plants (given the example daisies=6 at the same point uses similar reading), density $=\\dfrac{9}{0.25}=36$ plants per m² — this matches, so statement 3 is true.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Statement requires a consistent proportional relationship",
+          "content": "Statement 1 requires a consistent proportional relationship between dandelion and daisy counts at every point, which is not generally true from raw kite diagram data (they can vary independently) — false."
+        },
+        {
+          "title": "Work through",
+          "content": "Statement 2: natural variation across a field means different transects would give different (not identical) patterns — false."
+        },
+        {
+          "title": "Statement quadrat area",
+          "content": "Statement 3: quadrat area $=0.5\\times0.5=0.25\\text{ m}^2$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "If the dandelion count at 5m was, say, 9 plants (given the example daisies=6 at the same point uses similar reading), density $=\\dfrac{9}{0.25}=36$ plants per m^2 — this matches, so statement 3 is true."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   }
 ]

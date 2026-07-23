@@ -7,7 +7,10 @@ const mathSpan = /\$([^$]*)\$/g
 let checked = 0
 const errors = []
 for (const q of qs) {
-  const fields = { question: q.question, technique: q.technique }
+  const fields = { question: q.question }
+  if (q.solution?.steps) {
+    fields.solution = q.solution.steps.map(s => `${s.title} ${s.content}`).join('\n')
+  }
   for (const [L, opt] of Object.entries(q.options)) fields['opt.' + L] = opt
   for (const [name, text] of Object.entries(fields)) {
     let m

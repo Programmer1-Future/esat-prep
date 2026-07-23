@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Outlet, NavLink } from 'react-router-dom'
 import { useEffect } from 'react'
 import { Sun, Moon, BookOpen, ScrollText, BarChart3, TimerReset, LayoutDashboard, NotebookPen, Flame, Shield, LogOut } from 'lucide-react'
 import { useTheme } from './hooks/useTheme'
@@ -13,6 +13,7 @@ import History from './pages/History'
 import Insights from './pages/Insights'
 import MockExam from './pages/MockExam'
 import MockHistory from './pages/MockHistory'
+import MockSittingDetail from './pages/MockSittingDetail'
 import Notes from './pages/Notes'
 import HabitTracker from './pages/HabitTracker'
 import Admin from './pages/Admin'
@@ -62,31 +63,43 @@ function Nav() {
 
 function AchievementWatcher() {
   const events = useEvents()
-  // Evaluate achievement conditions whenever the ledger grows.
   useEffect(() => {
     checkAchievements()
   }, [events])
   return null
 }
 
-export default function App() {
+function RootLayout() {
   return (
-    <BrowserRouter>
+    <>
       <AchievementWatcher />
       <Nav />
       <main className="min-h-[calc(100vh-3.5rem)]">
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/practice" element={<QuestionBank />} />
-          <Route path="/mock" element={<MockExam />} />
-          <Route path="/mocks" element={<MockHistory />} />
-          <Route path="/insights" element={<Insights />} />
-          <Route path="/notes" element={<Notes />} />
-          <Route path="/habits" element={<HabitTracker />} />
-          <Route path="/history" element={<History />} />
-          <Route path="/admin" element={<Admin />} />
-        </Routes>
+        <Outlet />
       </main>
-    </BrowserRouter>
+    </>
   )
+}
+
+// Data router required so MockExam can useBlocker mid-sitting (abandon on leave).
+const router = createBrowserRouter([
+  {
+    element: <RootLayout />,
+    children: [
+      { path: '/', element: <Dashboard /> },
+      { path: '/practice', element: <QuestionBank /> },
+      { path: '/mock', element: <MockExam /> },
+      { path: '/mocks', element: <MockHistory /> },
+      { path: '/mocks/:sittingId', element: <MockSittingDetail /> },
+      { path: '/insights', element: <Insights /> },
+      { path: '/notes', element: <Notes /> },
+      { path: '/habits', element: <HabitTracker /> },
+      { path: '/history', element: <History /> },
+      { path: '/admin', element: <Admin /> },
+    ],
+  },
+])
+
+export default function App() {
+  return <RouterProvider router={router} />
 }

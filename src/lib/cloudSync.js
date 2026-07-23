@@ -15,6 +15,8 @@ export const SYNC_KEYS = [
   'esat_review_queue',
   'esat_achievements',
   'esat_mock_sittings',
+  'esat_practice_session',
+  'esat_mock_in_progress',
 ]
 
 const PUSH_DEBOUNCE_MS = 2000

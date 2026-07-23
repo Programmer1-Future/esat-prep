@@ -20,9 +20,43 @@
       "H": "x > 28"
     },
     "answer": "G",
-    "technique": "Add 8 to both sides: $\\frac{x}{2} < 14$, then multiply by 2: $x < 28$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Add 8 to both sides: $\\frac{x}{2} < 14$, then multiply by 2: $x < 28$."
+        }
+      ]
+    },
+    "diagram": {
+      "case": "number-line",
+      "after_step": 2,
+      "intervals": [
+        {
+          "from": -10,
+          "to": 28,
+          "sign": "+"
+        }
+      ],
+      "points": [
+        {
+          "x": 28,
+          "label": "28"
+        }
+      ],
+      "x_range": [
+        -10,
+        40
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: begin from the given information and apply the relevant relation."
   },
   {
     "id": "NSAA-2016-M1-002",
@@ -45,9 +79,22 @@
       "H": "$5$"
     },
     "answer": "B",
-    "technique": "Expand $(a-b)^2=a^2-2ab+b^2$ with $a=\\sqrt3,b=\\sqrt2$: $3 - 2\\sqrt6 + 2 = 5-2\\sqrt6$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Expand $(a-b)^2=a^2-2ab+b^2$ with $a=\\sqrt{3},b=\\sqrt{2}$: $3 - 2\\sqrt{6} + 2 = 5-2\\sqrt{6}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: begin from the given information and apply the relevant relation."
   },
   {
     "id": "NSAA-2016-M1-003",
@@ -68,9 +115,22 @@
       "F": "25:3"
     },
     "answer": "C",
-    "technique": "Scale so R matches: Q:R = 15:6, R:S = 6:20, so Q:R:S = 15:6:20. Q:S = 15:20 = 3:4.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Scale so R matches: Q:R = 15:6, R:S = 6:20, so Q:R:S = 15:6:20."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Q:S = 15:20 = 3:4."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: scale so R matches: Q:R = 15:6, R:S = 6:20, so Q:R:S = 15:6:20."
   },
   {
     "id": "NSAA-2016-M1-004",
@@ -91,9 +151,26 @@
       "F": "52 years"
     },
     "answer": "E",
-    "technique": "Original total $=20\\times28=560$. New total $=22\\times30=660$. The two new members contribute $660-560=100$, so their mean age is $100/2=50$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Original total $=20\\times28=560$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "New total $=22\\times30=660$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The two new members contribute $660-560=100$, so their mean age is $100/2=50$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: original total $=20\\times28=560$."
   },
   {
     "id": "NSAA-2016-M1-005",
@@ -115,9 +192,22 @@
       "G": "£12 000"
     },
     "answer": "C",
-    "technique": "Value after 2 years $=15000\\times0.8^2=9600$. Reduction $=15000-9600=5400$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Value after years",
+          "content": "Value after 2 years $=15000\\times0.8^2=9600$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Reduction $=15000-9600=5400$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: value after 2 years $=15000\\times0.8^2=9600$."
   },
   {
     "id": "NSAA-2016-M1-006",
@@ -131,15 +221,32 @@
     "question": "The point A is 4km due East of the point B. The bearing of the point C from A is 330° and the bearing of C from B is 060°. Find the distance BC.",
     "options": {
       "A": "2 km",
-      "B": "$2\\sqrt3$ km",
+      "B": "$2\\sqrt{3}$ km",
       "C": "4 km",
-      "D": "$2\\sqrt5$ km",
-      "E": "$4\\sqrt2$ km"
+      "D": "$2\\sqrt{5}$ km",
+      "E": "$4\\sqrt{2}$ km"
     },
     "answer": "B",
-    "technique": "Set B at the origin, A at (4,0). From B, C lies along bearing 060°; from A, C lies along bearing 330°. Solving the two line equations simultaneously gives $BC=2\\sqrt3$ km.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Set B at the origin, A at (4,0)."
+        },
+        {
+          "title": "Work through",
+          "content": "From B, C lies along bearing $060^{\\circ}$; from A, C lies along bearing $330^{\\circ}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Solving the two line equations simultaneously gives $BC=2\\sqrt{3}$ km."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "Set B at the origin, A at (4,0)."
   },
   {
     "id": "NSAA-2016-M1-007",
@@ -160,9 +267,26 @@
       "F": "16"
     },
     "answer": "F",
-    "technique": "$x=\\frac{k}{\\sqrt y}$. From $x=8,y=9$: $k=24$. Then $6=\\frac{24}{\\sqrt y}\\Rightarrow\\sqrt y=4\\Rightarrow y=16$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$x=\\frac{k}{\\sqrt{y}}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "From $x=8,y=9$: $k=24$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Then $6=\\frac{24}{\\sqrt{y}}\\Rightarrow\\sqrt{y}=4\\Rightarrow y=16$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $x=\\frac{k}{\\sqrt{y}}$."
   },
   {
     "id": "NSAA-2016-M1-008",
@@ -183,9 +307,22 @@
       "F": "17 cm"
     },
     "answer": "E",
-    "technique": "Area $=\\frac12((x-1)+(x+5))x=(x+2)x=120\\Rightarrow x^2+2x-120=0\\Rightarrow(x-10)(x+12)=0\\Rightarrow x=10$. RS $=x+5=15$ cm.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Area $=\\frac12((x-1)+(x+5))x=(x+2)x=120\\Rightarrow x^2+2x-120=0\\Rightarrow(x-10)(x+12)=0\\Rightarrow x=10$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "RS $=x+5=15$ cm."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: area $=\\frac12((x-1)+(x+5))x=(x+2)x=120\\Rightarrow x^2+2x-120=0\\Rightarrow(x-10)(x+12)=0\\Rightarrow x=10$."
   },
   {
     "id": "NSAA-2016-M1-009",
@@ -206,9 +343,22 @@
       "F": "$b=\\pm\\sqrt{\\dfrac{a-1}{3}}$"
     },
     "answer": "B",
-    "technique": "Cross-multiply: $a(b^2-1)=3b^2+1\\Rightarrow ab^2-3b^2=a+1\\Rightarrow b^2(a-3)=a+1\\Rightarrow b=\\pm\\sqrt{\\frac{a+1}{a-3}}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Cross-multiply: $a(b^2-1)=3b^2+1\\Rightarrow ab^2-3b^2=a+1\\Rightarrow b^2(a-3)=a+1\\Rightarrow b=\\pm\\sqrt{\\frac{a+1}{a-3}}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: begin from the given information and apply the relevant relation."
   },
   {
     "id": "NSAA-2016-M1-010",
@@ -229,9 +379,22 @@
       "F": "$250\\pi$"
     },
     "answer": "C",
-    "technique": "The 5 m edge becomes the circumference (since height = 10 m): $2\\pi r=5\\Rightarrow r=\\frac{5}{2\\pi}$. Volume $=\\pi r^2 h=\\pi\\left(\\frac{5}{2\\pi}\\right)^2(10)=\\frac{125}{2\\pi}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The 5 m edge becomes the circumference (since height = 10 m): $2\\pi r=5\\Rightarrow r=\\frac{5}{2\\pi}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Volume $=\\pi r^2 h=\\pi\\left(\\frac{5}{2\\pi}\\right)^2(10)=\\frac{125}{2\\pi}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: the 5 m edge becomes the circumference (since height = 10 m): $2\\pi r=5\\Rightarrow r=\\frac{5}{2\\pi}$."
   },
   {
     "id": "NSAA-2016-M1-011",
@@ -252,9 +415,22 @@
       "F": "5+2/x"
     },
     "answer": "A",
-    "technique": "Combine the algebraic fraction over a common denominator and simplify by cancelling common factors; this reduces to 3 - 2/x.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Combine the algebraic fraction over a common denominator and simplify by cancelling common factors; this reduces to 3 - 2/x."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: begin from the given information and apply the relevant relation."
   },
   {
     "id": "NSAA-2016-M1-012",
@@ -274,9 +450,26 @@
       "E": "$\\frac{32}{57}$"
     },
     "answer": "D",
-    "technique": "Boys $=74$. Boys in tennis $=24$, girls in tennis $=12$, so girls in archery $=46-12-25=9$, boys in archery $=27-9=18$. Boys swimming $=74-24-18=32$. $P=\\frac{32}{74}=\\frac{16}{37}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Boys $=74$."
+        },
+        {
+          "title": "Work through",
+          "content": "Boys in tennis $=24$, girls in tennis $=12$, so girls in archery $=46-12-25=9$, boys in archery $=27-9=18$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Boys swimming $=74-24-18=32$. $P=\\frac{32}{74}=\\frac{16}{37}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: boys $=74$."
   },
   {
     "id": "NSAA-2016-M1-013",
@@ -297,9 +490,22 @@
       "F": "3^6"
     },
     "answer": "D",
-    "technique": "Rewrite 9 and 27 as powers of 3 (9=3^2, 27=3^3) and combine exponents using the index laws to reach a single power of 3, giving 3^(4n).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Rewrite 9 and 27 as powers of 3 (9=3^2, 27=3^3) and combine exponents using the index laws to reach a single power of 3, giving 3^(4n)."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: begin from the given information and apply the relevant relation."
   },
   {
     "id": "NSAA-2016-M1-014",
@@ -320,9 +526,22 @@
       "F": "$n=\\dfrac{720}{360-x}$"
     },
     "answer": "E",
-    "technique": "Each interior angle is $\\frac{(n-2)180}{n}$, so the exterior angle $\\angle RQT=\\frac{360}{n}$. Since $RQ=RT$, triangle $RQT$ is isosceles with base angles $\\frac{360}{n}$, so $x=180-\\frac{720}{n}$, giving $n=\\dfrac{720}{180-x}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Each interior angle is $\\frac{(n-2)180}{n}$, so the exterior angle $\\angle RQT=\\frac{360}{n}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Since $RQ=RT$, triangle $RQT$ is isosceles with base angles $\\frac{360}{n}$, so $x=180-\\frac{720}{n}$, giving $n=\\dfrac{720}{180-x}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: each interior angle is $\\frac{(n-2)180}{n}$, so the exterior angle $\\angle RQT=\\frac{360}{n}$."
   },
   {
     "id": "NSAA-2016-M1-015",
@@ -343,9 +562,22 @@
       "F": "$\\frac{21}{100}$"
     },
     "answer": "B",
-    "technique": "$P(\\text{not overweight has diabetes})=\\frac{9}{50}\\div6=\\frac{3}{100}$. $P(\\text{diabetes})=\\frac35\\times\\frac{9}{50}+\\frac25\\times\\frac{3}{100}=\\frac{27}{250}+\\frac{3}{250}=\\frac{30}{250}=\\frac{3}{25}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$P(\\text{not overweight has diabetes})=\\frac{9}{50}\\div6=\\frac{3}{100}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$P(\\text{diabetes})=\\frac35\\times\\frac{9}{50}+\\frac25\\times\\frac{3}{100}=\\frac{27}{250}+\\frac{3}{250}=\\frac{30}{250}=\\frac{3}{25}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $P(\\text{not overweight has diabetes})=\\frac{9}{50}\\div6=\\frac{3}{100}$."
   },
   {
     "id": "NSAA-2016-M1-016",
@@ -368,9 +600,26 @@
       "H": "$a=6,b=13$"
     },
     "answer": "A",
-    "technique": "$x^2+ax+b=x+1$ has roots 2 and 4, i.e. $x^2+(a-1)x+(b-1)=0$. Sum of roots $=6=-(a-1)\\Rightarrow a=-5$. Product $=8=b-1\\Rightarrow b=9$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Has roots and i e",
+          "content": "$x^2+ax+b=x+1$ has roots 2 and 4, i.e. $x^2+(a-1)x+(b-1)=0$."
+        },
+        {
+          "title": "Sum of roots",
+          "content": "Sum of roots $=6=-(a-1)\\Rightarrow a=-5$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Product $=8=b-1\\Rightarrow b=9$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: $x^2+ax+b=x+1$ has roots 2 and 4, i.e."
   },
   {
     "id": "NSAA-2016-M1-017",
@@ -384,15 +633,28 @@
     "question": "A rhombus has diagonals of length 5 cm and 3 cm. An enlargement of the rhombus has sides of length $\\sqrt{68}$ cm. What is the scale factor of the enlargement?",
     "options": {
       "A": "2",
-      "B": "$\\sqrt2$",
-      "C": "$2\\sqrt2$",
+      "B": "$\\sqrt{2}$",
+      "C": "$2\\sqrt{2}$",
       "D": "4",
-      "E": "$4\\sqrt2$"
+      "E": "$4\\sqrt{2}$"
     },
     "answer": "C",
-    "technique": "Original side $=\\sqrt{2.5^2+1.5^2}=\\sqrt{8.5}$. Scale factor $=\\sqrt{68}/\\sqrt{8.5}=\\sqrt{8}=2\\sqrt2$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Original side $=\\sqrt{2.5^2+1.5^2}=\\sqrt{8.5}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Scale factor $=\\sqrt{68}/\\sqrt{8.5}=\\sqrt{8}=2\\sqrt{2}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: original side $=\\sqrt{2.5^2+1.5^2}=\\sqrt{8.5}$."
   },
   {
     "id": "NSAA-2016-M1-018",
@@ -413,9 +675,22 @@
       "F": "p<2, p>3"
     },
     "answer": "F",
-    "technique": "The gradient in terms of p is undefined (infinite) at one particular value of p, and changes sign either side of the values where the numerator vanishes. Solving gradient > 0 while excluding the value that makes it infinite gives p < 2 or p > 3.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The gradient in terms of p is undefined (infinite) at one particular value of p, and changes sign either side of the values where the numerator vanishes."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Solving gradient > 0 while excluding the value that makes it infinite gives p < 2 or p > 3."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "hint": "First move: the gradient in terms of p is undefined (infinite) at one particular value of p, and changes sign either side of the values where the numerator vanishes."
   },
   {
     "id": "NSAA-2016-PHY-001",
@@ -436,9 +711,21 @@
       "F": "no effect frequency, increase wavelength"
     },
     "answer": "B",
-    "technique": "Gamma rays have very short wavelength/high frequency; microwaves have long wavelength/low frequency. The shift from gamma to microwave means wavelength increased and frequency decreased.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Gamma rays have very short wavelength/high frequency; microwaves have long wavelength/low frequency."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The shift from gamma to microwave means wavelength increased and frequency decreased."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-002",
@@ -458,9 +745,21 @@
       "E": "3 beta"
     },
     "answer": "D",
-    "technique": "Mass number drops by 4 (214→210): needs exactly 1 alpha (ΔA=-4). Atomic number stays the same (82→82): 1 alpha alone gives ΔZ=-2, so 2 beta emissions (ΔZ=+1 each) are needed to restore Z. 1 alpha + 2 beta.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Mass number drops by 4 (214→210): needs exactly 1 alpha (ΔA=-4)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Atomic number stays the same (82→82): 1 alpha alone gives ΔZ=-2, so 2 beta emissions (ΔZ=+1 each) are needed to restore Z. 1 alpha + 2 beta."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-003",
@@ -483,9 +782,21 @@
       "H": "T1 increases by 10°C, T2 increases by 10°C, others unchanged"
     },
     "answer": "H",
-    "technique": "Conduction rate $\\propto \\frac{A(T_2-T_1)}{l}$. If both T1 and T2 rise by the same amount, $(T_2-T_1)$ is unchanged, so the rate is unchanged.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Conduction rate $\\propto \\frac{A(T_2-T_1)}{l}$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "If both T1 and T2 rise by the same amount, $(T_2-T_1)$ is unchanged, so the rate is unchanged."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-004",
@@ -506,9 +817,25 @@
       "F": "3 and 4"
     },
     "answer": "F",
-    "technique": "At x=2,y=10: option 3 gives $a=F/m=100/20=5\\,\\mathrm{ms^{-2}}$, so $v=at=5\\times2=10$ ✓. Option 4 gives $W=Fd=5\\times2=10$ ✓ (independent of mass). Options 1 and 2 don't fit the given mass values.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "At x=2,y=10: option 3 gives $a=F/m=100/20=5\\,\\mathrm{ms^{-2}}$, so $v=at=5\\times2=10$ ✓."
+        },
+        {
+          "title": "Option gives independent of mass",
+          "content": "Option 4 gives $W=Fd=5\\times2=10$ ✓ (independent of mass)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Options 1 and 2 don't fit the given mass values."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-005",
@@ -531,9 +858,29 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Diagram 1 is wrong: fission is triggered by neutron capture, not a proton. Diagram 2 balances (Z: 38+54=92, A: 96+137+3=236=235+1). Diagram 3 does not balance (A: 145+87+3=235≠236). Only diagram 2 works.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Diagram 1 is wrong: fission is triggered by neutron capture, not a proton."
+        },
+        {
+          "title": "Work through",
+          "content": "Diagram 2 balances (Z: 38+54=92, A: 96+137+3=236=235+1)."
+        },
+        {
+          "title": "Simplify",
+          "content": "Diagram 3 does not balance (A: 145+87+3=235≠236)."
+        },
+        {
+          "title": "Only diagram works",
+          "content": "Only diagram 2 works."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-006",
@@ -554,9 +901,21 @@
       "F": "75W"
     },
     "answer": "D",
-    "technique": "Max power in the 5Ω resistor occurs at max current, i.e. min total resistance: $R=5+3=8\\Omega$. $I=24/8=3.0$A. $P=I^2R=3^2\\times5=45$W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Max power in the 5Ω resistor occurs at max current, i.e."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "min total resistance: $R=5+3=8\\Omega$. $one=24/8=3.0$A. $P=one^2R=3^2\\times5=45$W."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-007",
@@ -579,9 +938,21 @@
       "H": "increases by 0.80A"
     },
     "answer": "E",
-    "technique": "Closing the switch adds a parallel path, lowering total resistance and increasing total current draw; based on the exact resistor arrangement shown, the ammeter reading increases by 0.20A.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Closing the switch adds a parallel path, lowering total resistance and increasing total current draw; based on the exact resistor arrangement shown, the ammeter reading increases by 0.20A."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-008",
@@ -604,9 +975,21 @@
       "H": "$1.0\\times10^{34}$W"
     },
     "answer": "D",
-    "technique": "$P_{new}=k(100R)^2(T/2)^4=k R^2T^4\\times\\frac{10000}{16}=625\\,P_{old}=625\\times4.0\\times10^{26}=2.5\\times10^{29}$W.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "$P_{new}=k(100R)^2(T/2)^4=k R^2T^4\\times\\frac{10000}{16}=625\\,P_{old}=625\\times4.0\\times10^{26}=2.5\\times10^{29}$W."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-009",
@@ -627,9 +1010,21 @@
       "F": "4800 cm"
     },
     "answer": "E",
-    "technique": "Each full oscillation a particle travels $4\\times$amplitude $=12$cm. In 60s there are $5\\times60=300$ cycles: $300\\times12=3600$cm.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Each full oscillation a particle travels $4\\times$amplitude $=12$cm."
+        },
+        {
+          "title": "In s there are cycles cm",
+          "content": "In 60s there are $5\\times60=300$ cycles: $300\\times12=3600$cm."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-010",
@@ -652,9 +1047,21 @@
       "H": "108N"
     },
     "answer": "H",
-    "technique": "Rope tension $T=m(g+a)=5.0\\times10.8=54$N. The fixed pulley redirects the rope, so the coupling supports two rope segments each of tension T: force on coupling $=2T=108$N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Rope tension N",
+          "content": "Rope tension $T=m(g+a)=5.0\\times10.8=54$N."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The fixed pulley redirects the rope, so the coupling supports two rope segments each of tension T: force on coupling $=2T=108$N."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-011",
@@ -677,9 +1084,21 @@
       "H": "450C, 2.5V"
     },
     "answer": "F",
-    "technique": "$I=V/R=6/15=0.4$A. $Q=It=0.4\\times180=72$C. Heater resistance from $E=I^2R_ht$: $180=0.16\\times R_h\\times180\\Rightarrow R_h=6.25\\Omega$. $V_h=IR_h=0.4\\times6.25=2.5$V.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$one=V/R=6/15=0.4$A. $Q=It=0.4\\times180=72$C."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Heater resistance from $E=one^2R_ht$: $180=0.16\\times R_h\\times180\\Rightarrow R_h=6.25\\Omega$. $V_h=IR_h=0.4\\times6.25=2.5$V."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-012",
@@ -702,9 +1121,25 @@
       "H": "12 gcm⁻³"
     },
     "answer": "F",
-    "technique": "Net volume $=10^3-5^2\\times10=1000-250=750\\text{cm}^3$. Mass $=30/10=3\\text{kg}=3000\\text{g}$. Density $=3000/750=4.0\\text{gcm}^{-3}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Net volume $=10^3-5^2\\times10=1000-250=750\\text{cm}^3$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Mass $=30/10=3\\text{kg}=3000\\text{g}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Density $=3000/750=4.0\\text{gcm}^{-3}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-013",
@@ -727,9 +1162,21 @@
       "H": "R and S; S"
     },
     "answer": "D",
-    "technique": "P and Q are hotter than their surroundings, so they lose heat by convection; R and S are at thermal equilibrium with their room. Among all four, R and S are hottest (40°C); of these, S (dull, higher emissivity) radiates fastest.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "P and Q are hotter than their surroundings, so they lose heat by convection; R and S are at thermal equilibrium with their room."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Among all four, R and S are hottest ($40^{\\circ}\\mathrm{C}$); of these, S (dull, higher emissivity) radiates fastest."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-014",
@@ -752,9 +1199,21 @@
       "H": "180m, 180m, 6.0m/s"
     },
     "answer": "A",
-    "technique": "Read the areas under each segment of the v-t graph for total distance (sum of magnitudes) and displacement (signed sum), then average speed = total distance / total time.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Read the areas under each segment of the v-t graph for total distance (sum of magnitudes) and displacement (signed sum), then average speed = total distance / total time."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-015",
@@ -774,9 +1233,21 @@
       "E": "graph E"
     },
     "answer": "A",
-    "technique": "X decays away with its own (shorter) half-life while Y is produced from X's decay and then decays more slowly (longer half-life), so Y's population rises, peaks, then falls more gradually than X's — matching graph A.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "X decays away with its own (shorter) half-life while Y is produced from X's decay and then decays more slowly (longer half-life), so Y's population rises, peaks, then falls more gradually than X's — matching graph A."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-016",
@@ -799,9 +1270,21 @@
       "H": "Y/(9Y+X) x100"
     },
     "answer": "G",
-    "technique": "Mass fraction of tin = (mass of tin)/(total mass) = 0.1Y/(0.1Y+0.9X). Multiplying numerator and denominator by 10 gives Y/(Y+9X) = Y/(9X+Y), so the percentage by mass is Y/(9X+Y) x 100.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Mass fraction of tin = (mass of tin)/(total mass) = 0.1Y/(0.1Y+0.9X)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Multiplying numerator and denominator by 10 gives Y/(Y+9X) = Y/(9X+Y), so the percentage by mass is Y/(9X+Y) x 100."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-017",
@@ -821,9 +1304,21 @@
       "E": "$E$"
     },
     "answer": "D",
-    "technique": "By momentum conservation the lighter alpha particle carries most of the energy: $KE_\\alpha=E\\times\\frac{m_{Th}}{m_{Th}+m_\\alpha}=\\frac{234}{238}E$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "By momentum conservation the lighter alpha particle carries most of the energy: $KE_\\alpha=E\\times\\frac{m_{Th}}{m_{Th}+m_\\alpha}=\\frac{234}{238}E$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-018",
@@ -845,9 +1340,21 @@
       "G": "10Hz"
     },
     "answer": "G",
-    "technique": "Echo delays: near building $2\\times48/320=0.3$s, far building $2\\times80/320=0.5$s. The click period must be the highest common factor of these: $T=0.1$s, so $f=1/T=10$Hz.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Echo delays: near building $2\\times48/320=0.3$s, far building $2\\times80/320=0.5$s."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The click period must be the highest common factor of these: $T=0.1$s, so $f=1/T=10$Hz."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-001",
@@ -867,9 +1374,21 @@
       "E": "$^{39}_{19}$K"
     },
     "answer": "D",
-    "technique": "Ca²⁺ has 20 neutrons and 18 electrons (20 protons − 2). K⁺-39 has $39-19=20$ neutrons and $19-1=18$ electrons — matches.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Ca has neutrons and electrons protons",
+          "content": "Ca^2⁺ has 20 neutrons and 18 electrons (20 protons - 2)."
+        },
+        {
+          "title": "K has neutrons and electrons matches",
+          "content": "K⁺-39 has $39-19=20$ neutrons and $19-1=18$ electrons — matches."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-002",
@@ -892,9 +1411,25 @@
       "H": "1, 2 and 3"
     },
     "answer": "D",
-    "technique": "Moles Ti $=7.2/48=0.15$; moles O2 $=3.6/24=0.15$, so moles O atoms $=0.30$. Ti:O $=0.15:0.30=1:2$, formula TiO2 (statement 3 true). Statement 1 is false (Ti³⁺/Ti⁴⁺ ions don't have noble gas configuration); statement 2 describes ionic melts, not delocalised electrons, so false.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Moles Ti $=7.2/48=0.15$; moles O2 $=3.6/24=0.15$, so moles O atoms $=0.30$."
+        },
+        {
+          "title": "Ti O formula TiO statement true",
+          "content": "Ti:O $=0.15:0.30=1:2$, formula TiO2 (statement 3 true)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Statement 1 is false (Ti^3⁺/Ti⁴⁺ ions don't have noble gas configuration); statement 2 describes ionic melts, not delocalised electrons, so false."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-003",
@@ -917,9 +1452,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Electrolysis of aqueous NaCl breaks covalent bonds in water and forms new covalent bonds (H2, O2, Cl2 are covalent molecules). Burning sodium and the thermite reaction mainly involve ionic compounds.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Electrolysis of aqueous NaCl breaks covalent bonds in water and forms new covalent bonds (H2, O2, Cl2 are covalent molecules)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Burning sodium and the thermite reaction mainly involve ionic compounds."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-004",
@@ -940,9 +1487,21 @@
       "F": "2P + Q ⇌ R + 2S, ΔH −ve"
     },
     "answer": "C",
-    "technique": "Increasing yield with temperature means the forward reaction is endothermic (ΔH +ve). Pressure not affecting yield means equal moles of gas on both sides: P+2Q (3 mol) ⇌ 2R+S (3 mol).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Increasing yield with temperature means the forward reaction is endothermic (ΔH +ve)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Pressure not affecting yield means equal moles of gas on both sides: P+2Q (3 mol) ⇌ 2R+S (3 mol)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-005",
@@ -963,9 +1522,25 @@
       "F": "Br5O4"
     },
     "answer": "C",
-    "technique": "Mass O $=0.8$g. Moles Br $=1.6/80=0.02$, moles O $=0.8/16=0.05$. Ratio Br:O $=0.02:0.05=2:5$, so Br2O5.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Mass O $=0.8$g."
+        },
+        {
+          "title": "Work through",
+          "content": "Moles Br $=1.6/80=0.02$, moles O $=0.8/16=0.05$."
+        },
+        {
+          "title": "Ratio Br O so Br O",
+          "content": "Ratio Br:O $=0.02:0.05=2:5$, so Br2O5."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-006",
@@ -986,9 +1561,25 @@
       "F": "122.2"
     },
     "answer": "D",
-    "technique": "Sb³⁺ has 48 electrons, so neutral Sb has 51 electrons = 51 protons. Isotope masses: 121 and 123. RAM $=0.6\\times121+0.4\\times123=121.8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Sb^3⁺ has 48 electrons, so neutral Sb has 51 electrons = 51 protons."
+        },
+        {
+          "title": "Work through",
+          "content": "Isotope masses: 121 and 123."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "RAM $=0.6\\times121+0.4\\times123=121.8$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-007",
@@ -1011,9 +1602,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "D",
-    "technique": "The mixture's spot(s) align in Rf value with dyes W and Y on the reference chromatogram (statement 3). Spot size/intensity doesn't reliably indicate exact relative concentration (statement 1 false), and the mobile phase is the water, not the paper (statement 2 false).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The mixture's spot(s) align in Rf value with dyes W and Y on the reference chromatogram (statement 3)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Spot size/intensity doesn't reliably indicate exact relative concentration (statement 1 false), and the mobile phase is the water, not the paper (statement 2 false)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-008",
@@ -1033,9 +1636,21 @@
       "E": "W: 100cm³ of 1.0 mol/dm³ H2O2; Z: 25cm³ of 2.0 mol/dm³ H2O2"
     },
     "answer": "E",
-    "technique": "Only the experiment where the total moles of H2O2 used differs (100cm3 of 1.0 mol/dm3 vs 25cm3 of 2.0 mol/dm3, i.e. 0.1 mol vs 0.05 mol) would give a different final oxygen volume as shown on the graph -- every other pairing only affects rate, not the final yield.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Only the experiment where the total moles of H2O2 used differs (100cm3 of 1.0 mol/dm3 vs 25cm3 of 2.0 mol/dm3, i.e."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "0.1 mol vs 0.05 mol) would give a different final oxygen volume as shown on the graph -- every other pairing only affects rate, not the final yield."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-009",
@@ -1056,9 +1671,25 @@
       "F": "3 and 4"
     },
     "answer": "C",
-    "technique": "Reaction 1: Cl is reduced (0→−1), I oxidised (−1→0) — redox. Reaction 4 is a disproportionation of Cl (0→−1 and 0→+1) — redox. Reaction 2 is only a half-equation; reaction 3 is a precipitation with no oxidation-state changes.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Reaction Cl is reduced one oxidised redox",
+          "content": "Reaction 1: Cl is reduced (0→-1), one oxidised (-1→0) — redox."
+        },
+        {
+          "title": "Work through",
+          "content": "Reaction 4 is a disproportionation of Cl (0→-1 and 0→+1) — redox."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Reaction 2 is only a half-equation; reaction 3 is a precipitation with no oxidation-state changes."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-010",
@@ -1078,9 +1709,21 @@
       "E": "N2O8"
     },
     "answer": "A",
-    "technique": "The standard equation is $3Cu+8HNO_3\\to3Cu(NO_3)_2+2NO+4H_2O$, consistent with 3 mol Cu : 4 mol H2O. X = NO.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The standard equation is $3Cu+8HNO_3\\to3Cu(NO_3)_2+2NO+4H_2O$, consistent with 3 mol Cu : 4 mol H2O."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "X = NO."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-011",
@@ -1102,9 +1745,21 @@
       "G": "1.2dm³ oxygen, negative electrode"
     },
     "answer": "C",
-    "technique": "Moles H2 $=2.4/24=0.1$, requiring 0.2 mol electrons. At the positive electrode, Cl⁻ is discharged in preference to OH⁻: moles Cl2 $=0.1$, volume $=0.1\\times24=2.4$dm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Moles H requiring mol electrons",
+          "content": "Moles H2 $=2.4/24=0.1$, requiring 0.2 mol electrons."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "At the positive electrode, Cl⁻ is discharged in preference to OH⁻: moles Cl2 $=0.1$, volume $=0.1\\times24=2.4$dm^3."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-012",
@@ -1125,9 +1780,21 @@
       "F": "+250 kJ/mol"
     },
     "answer": "F",
-    "technique": "Reverse activation energy $=E_a-\\Delta H=150-(-100)=250$kJ/mol.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Reverse activation energy $=E_a-\\Delta H=150-(-100)=250$kJ/mol."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-013",
@@ -1150,9 +1817,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "F",
-    "technique": "Neutralisation volume (test 2) depends only on moles of acid, which is equal for both, so it doesn't distinguish strength. Reaction rate with Mg (test 1) and conductance (test 3) both depend on [H⁺], which is higher for the strong acid.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Neutralisation volume (test 2) depends only on moles of acid, which is equal for both, so it doesn't distinguish strength."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Reaction rate with Mg (test 1) and conductance (test 3) both depend on [H⁺], which is higher for the strong acid."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-014",
@@ -1173,9 +1852,25 @@
       "F": "1.06g"
     },
     "answer": "A",
-    "technique": "Moles CO2 $=240/24000=0.01=$ moles Na2CO3. Mr(Na2CO3)$=106$, mass reacted $=1.06$g. Impurity $=1.50-1.06=0.44$g.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Moles CO moles Na CO",
+          "content": "Moles CO2 $=240/24000=0.01=$ moles Na2CO3."
+        },
+        {
+          "title": "Mr Na CO mass reacted g",
+          "content": "Mr(Na2CO3)$=106$, mass reacted $=1.06$g."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Impurity $=1.50-1.06=0.44$g."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-015",
@@ -1197,9 +1892,25 @@
       "G": "1200 cm³"
     },
     "answer": "F",
-    "technique": "$2Li+2H_2O\\to2LiOH+H_2$. Moles Li $=0.35/7=0.05$, moles H2 $=0.025$. Volume $=0.025\\times24000=600$cm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$2Li+2H_2O\\to2LiOH+H_2$."
+        },
+        {
+          "title": "Work through",
+          "content": "Moles Li $=0.35/7=0.05$, moles H2 $=0.025$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Volume $=0.025\\times24000=600$cm^3."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-016",
@@ -1220,9 +1931,21 @@
       "F": "9.80 g/dm³"
     },
     "answer": "D",
-    "technique": "Moles NaOH $=0.0025$. $2NaOH+H_2SO_4\\to Na_2SO_4+2H_2O$, so moles H2SO4 $=0.00125$ in 0.05dm³: conc $=0.025$mol/dm³ $=0.025\\times98=2.45$g/dm³.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Moles NaOH $=0.0025$. $2NaOH+H_2SO_4\\to Na_2SO_4+2H_2O$, so moles H2SO4 $=0.00125$ in 0.05dm^3: conc $=0.025$mol/dm^3 $=0.025\\times98=2.45$g/dm^3."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-017",
@@ -1245,9 +1968,25 @@
       "H": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Per 4 electrons: 1 mol O2 and 2 mol H2 are made, a 2:1 ratio (not 1:1, so 1 false). Water is consumed while dissolved Na2SO4 remains, so the solution becomes more concentrated (2 true). H⁺ and OH⁻ are produced in equal amounts and mix, keeping the bulk solution neutral (3 false).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Per 4 electrons: 1 mol O2 and 2 mol H2 are made, a 2:1 ratio (not 1:1, so 1 false)."
+        },
+        {
+          "title": "Work through",
+          "content": "Water is consumed while dissolved Na2SO4 remains, so the solution becomes more concentrated (2 true)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "H⁺ and OH⁻ are produced in equal amounts and mix, keeping the bulk solution neutral (3 false)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-CHEM-018",
@@ -1267,9 +2006,21 @@
       "E": "825 kJ/mol"
     },
     "answer": "C",
-    "technique": "Bonds broken: C=C + 4(C–H) + 2(O–H) $=611+1652+928=3191$. Bonds formed: C–C + 5(C–H) + O–H + C–O $=346+2065+464+x=2875+x$. $\\Delta H=3191-(2875+x)=-45\\Rightarrow x=361$kJ/mol.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Bonds broken: C=C + 4 C-H bonds + 2 O-H bonds $=611+1652+928=3191$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Bonds formed: C–C + 5 C-H bonds + O–H + C–O $=346+2065+464+x=2875+x$. $\\Delta H=3191-(2875+x)=-45\\Rightarrow x=361$kJ/mol."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-001",
@@ -1289,9 +2040,21 @@
       "E": "1, 2 and 3"
     },
     "answer": "C",
-    "technique": "Statement 2 is unsupported — the passage only states that other fish died, not that they lacked genetic variation. Statements 1 and 3 correctly describe natural selection acting on existing variation.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Statement 2 is unsupported — the passage only states that other fish died, not that they lacked genetic variation."
+        },
+        {
+          "title": "Statements and correctly describe natural selection actin",
+          "content": "Statements 1 and 3 correctly describe natural selection acting on existing variation."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-002",
@@ -1312,9 +2075,21 @@
       "F": "2 and 4 only"
     },
     "answer": "F",
-    "technique": "A more concentrated external solution is hypertonic to the cytoplasm, so water moves out of the cell by osmosis (from high to low water potential) — matching the arrows pointing outward across the membrane in the diagram.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "A more concentrated external solution is hypertonic to the cytoplasm, so water moves out of the cell by osmosis (from high to low water potential) — matching the arrows pointing outward across the membrane in the diagram."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-003",
@@ -1334,9 +2109,21 @@
       "E": "flowering plants"
     },
     "answer": "A",
-    "technique": "Single-celled organisms with chloroplasts and a cell wall are characteristic of algae (e.g. unicellular algae like Chlamydomonas).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Single-celled organisms with chloroplasts and a cell wall are characteristic of algae (e.g."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "unicellular algae like Chlamydomonas)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-004",
@@ -1357,9 +2144,21 @@
       "F": "300%, the enzyme dies"
     },
     "answer": "C",
-    "technique": "% decrease $=\\frac{32-8}{32}\\times100=75\\%$. High temperature denatures the enzyme by breaking the bonds holding its (active site) structure — enzymes are not alive, so \"the enzyme dies\" is not correct terminology.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "% decrease $=\\frac{32-8}{32}\\times100=75\\%$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "High temperature denatures the enzyme by breaking the bonds holding its (active site) structure — enzymes are not alive, so \"the enzyme dies\" is not correct terminology."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-005",
@@ -1380,9 +2179,25 @@
       "F": "162 458"
     },
     "answer": "E",
-    "technique": "Albinos (aa) contribute 2 recessive alleles each: $29\\times2=58$. Carriers (Aa) contribute 1 each: $81200$. Total $=58+81200=81258$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Albinos (aa) contribute 2 recessive alleles each: $29\\times2=58$."
+        },
+        {
+          "title": "Work through",
+          "content": "Carriers (Aa) contribute 1 each: $81200$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Total $=58+81200=81258$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-006",
@@ -1402,9 +2217,25 @@
       "E": "Halve the volume of both solutions"
     },
     "answer": "B",
-    "technique": "70°C and pH 13 would likely denature the enzyme (slowing/stopping the reaction). Doubling or halving both volumes keeps concentrations (and hence rate) unchanged. Stirring increases collision frequency, speeding the reaction without denaturing the enzyme.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "$70^{\\circ}\\mathrm{C}$ and pH 13 would likely denature the enzyme (slowing/stopping the reaction)."
+        },
+        {
+          "title": "Work through",
+          "content": "Doubling or halving both volumes keeps concentrations (and hence rate) unchanged."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Stirring increases collision frequency, speeding the reaction without denaturing the enzyme."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-007",
@@ -1427,9 +2258,21 @@
       "H": "34π mm³, photosynthesis enzymes denatured"
     },
     "answer": "B",
-    "technique": "Volume $=\\pi r^2 \\times \\text{length} = \\pi(0.5)^2\\times16=4\\pi\\text{mm}^3$. In this closed system, dissolved CO2 becomes depleted over time, limiting the rate — not enzyme denaturation (no unusual heat source here).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Volume $=\\pi r^2 \\times \\text{length} = \\pi(0.5)^2\\times16=4\\pi\\text{mm}^3$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "In this closed system, dissolved CO2 becomes depleted over time, limiting the rate — not enzyme denaturation (no unusual heat source here)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-008",
@@ -1452,9 +2295,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "B",
-    "technique": "The cell wall is a large, distinct structure visible even at low power (40x). Mitochondria are too small to resolve at this magnification with a standard light microscope, and chromosomes are not visible as the cell is non-dividing (chromatin uncondensed).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "The cell wall is a large, distinct structure visible even at low power (40x)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Mitochondria are too small to resolve at this magnification with a standard light microscope, and chromosomes are not visible as the cell is non-dividing (chromatin uncondensed)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-009",
@@ -1477,9 +2332,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "H",
-    "technique": "Cells nearer the tip (P, meristem) are smaller/less elongated than cells further back (Q, elongation zone) — auxin produced at the tip is transported down and redistributes laterally at the tip in response to unidirectional light, driving phototropic bending.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Cells nearer the tip (P, meristem) are smaller/less elongated than cells further back (Q, elongation zone) — auxin produced at the tip is transported down and redistributes laterally at the tip in response to unidirectional light, driving phototropic bending."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-010",
@@ -1500,9 +2367,25 @@
       "F": "R and S only"
     },
     "answer": "E",
-    "technique": "Strand 1: C $=100-26-28-14=32\\%$. Complementary strand 2: A pairs with strand 1's T (14%→P=14 ✓), C pairs with strand 1's G (28%→Q=28 ✓), G pairs with strand 1's C (32%, not R=26 ✗), T pairs with strand 1's A (26%, not S=28 ✗). Only P and Q are correct.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Strand 1: C $=100-26-28-14=32\\%$."
+        },
+        {
+          "title": "Work through",
+          "content": "Complementary strand 2: A pairs with strand 1's T (14%→P=14 ✓), C pairs with strand 1's G (28%→Q=28 ✓), G pairs with strand 1's C (32%, not R=26 ✗), T pairs with strand 1's A (26%, not S=28 ✗)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Only P and Q are correct."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-011",
@@ -1525,9 +2408,25 @@
       "H": "1/8, 1/2"
     },
     "answer": "G",
-    "technique": "Aa × Aa gives offspring 1/4 AA, 1/2 Aa, 1/4 aa. P(male with CF) $=\\frac12\\times\\frac14=\\frac18$. P(female carrier) $=\\frac12\\times\\frac12=\\frac14$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Aa Aa gives offspring AA Aa aa",
+          "content": "$Aa \\times Aa gives offspring 1/4 AA, 1/2 Aa, 1/4 aa$."
+        },
+        {
+          "title": "Work through",
+          "content": "P(male with CF) $=\\frac12\\times\\frac14=\\frac18$."
+        },
+        {
+          "title": "P female carrier",
+          "content": "P(female carrier) $=\\frac12\\times\\frac12=\\frac14$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-012",
@@ -1549,9 +2448,21 @@
       "G": "1, 3 and 4 only"
     },
     "answer": "E",
-    "technique": "Intraspecific competition is between members of the same species: male deer competing for mates (4), and oak trees of the same species competing for light/resources (5).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Intraspecific competition is between members of the same species: male deer competing for mates (4), and oak trees of the same species competing for light/resources (5)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-013",
@@ -1572,9 +2483,21 @@
       "F": "16 strands, 4 sperm cells"
     },
     "answer": "D",
-    "technique": "Meiosis of one diploid cell produces 4 haploid sperm cells, each with 4 chromosomes (unreplicated, single chromatid = 2 DNA strands each): $4\\times2=8$ strands per sperm cell.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Meiosis of one diploid cell produces 4 haploid sperm cells, each with 4 chromosomes (unreplicated, single chromatid = 2 DNA strands each): $4\\times2=8$ strands per sperm cell."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-014",
@@ -1596,9 +2519,21 @@
       "G": "glucose X, CO2 ✓, lactic acid X"
     },
     "answer": "B",
-    "technique": "Muscle consumes glucose (lower in the vein, not higher) and produces CO2 (aerobic respiration) and lactic acid (anaerobic respiration during intense exercise) — both higher in the vein.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Muscle consumes glucose (lower in the vein, not higher) and produces CO2 (aerobic respiration) and lactic acid (anaerobic respiration during intense exercise) — both higher in the vein."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-015",
@@ -1620,9 +2555,21 @@
       "G": "1:2, 19"
     },
     "answer": "D",
-    "technique": "Reading the pedigree: count males and females shown, and remember Y chromosomes only occur in individuals of the sex genetically equivalent to human females for species Q (i.e. every female of species Q carries a Y).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Reading the pedigree: count males and females shown, and remember Y chromosomes only occur in individuals of the sex genetically equivalent to human females for species Q (i.e."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "every female of species Q carries a Y)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-016",
@@ -1642,9 +2589,21 @@
       "E": "At point 5, fish numbers increase because there is less competition with algae for oxygen."
     },
     "answer": "C",
-    "technique": "As pollution increases bacterial decomposition, bacteria consume oxygen faster than algae (if present) can replace it via photosynthesis, causing the dip in oxygen concentration seen at that point on the graph.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "As pollution increases bacterial decomposition, bacteria consume oxygen faster than algae (if present) can replace it via photosynthesis, causing the dip in oxygen concentration seen at that point on the graph."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-017",
@@ -1667,9 +2626,21 @@
       "H": "1, 2 and 3"
     },
     "answer": "H",
-    "technique": "All three quantities follow the same characteristic shape for an enzyme-controlled reaction: they rise with substrate concentration and then plateau once all enzyme active sites (or the per-molecule turnover rate) become saturated.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Begin from the given information and apply the relevant relation."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "All three quantities follow the same characteristic shape for an enzyme-controlled reaction: they rise with substrate concentration and then plateau once all enzyme active sites (or the per-molecule turnover rate) become saturated."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-BIO-018",
@@ -1692,9 +2663,21 @@
       "H": "3/4, 10/24"
     },
     "answer": "E",
-    "technique": "An insertion of one of 4 equally likely bases after the first base of CGC shifts the frame; checking against the code table, 3 of the 4 possible inserted bases give a first triplet that is not arginine (probability 3/4). The second probability follows from enumerating which single-base deletions restore arginine-coding triplets at both positions.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "An insertion of one of 4 equally likely bases after the first base of CGC shifts the frame; checking against the code table, 3 of the 4 possible inserted bases give a first triplet that is not arginine (probability 3/4)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The second probability follows from enumerating which single-base deletions restore arginine-coding triplets at both positions."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-001",
@@ -1707,16 +2690,32 @@
     "difficulty": 4,
     "question": "When x=2 is substituted into $x^3+px^2+qx+p$ the result is 0. When x=1 is substituted into the same expression, the result is $-3.5$. Find all possible value(s) of p.",
     "options": {
-      "A": "$p=\\frac{-1\\pm\\sqrt6}{3}$",
+      "A": "$p=\\frac{-1\\pm\\sqrt{6}}{3}$",
       "B": "$p=1$ or $p=-3$",
       "C": "$p=1$",
-      "D": "$p=1\\pm\\sqrt7$",
+      "D": "$p=1\\pm\\sqrt{7}$",
       "E": "there are no values for p"
     },
     "answer": "C",
-    "technique": "At x=2: $8+5p+2q=0$. At x=1: $1+2p+q=-3.5\\Rightarrow q=-4.5-2p$. Substituting: $8+5p+2(-4.5-2p)=0\\Rightarrow p-9=-8\\Rightarrow p=1$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "At x=2: $8+5p+2q=0$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "At x=1: $1+2p+q=-3.5\\Rightarrow q=-4.5-2p$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Substituting: $8+5p+2(-4.5-2p)=0\\Rightarrow p-9=-8\\Rightarrow p=1$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-019",
@@ -1739,9 +2738,21 @@
       "H": "1, 2, 3, 4 and 5"
     },
     "answer": "C",
-    "technique": "Newton's Third Law applies to the direct force pair between the parachute and the parachutist: the parachute pushes on the parachutist (P) and the parachutist pushes back on the parachute (N) — these are equal and opposite, so N=P. The other equations involve forces on different bodies from a third party (air) or are equilibrium conditions, not N3L pairs directly.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Newton's Third Law applies to the direct force pair between the parachute and the parachutist: the parachute pushes on the parachutist (P) and the parachutist pushes back on the parachute (N) — these are equal and opposite, so N=P."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "The other equations involve forces on different bodies from a third party (air) or are equilibrium conditions, not N3L pairs directly."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-002",
@@ -1764,9 +2775,22 @@
       "H": "$x^2+y^2+6x+4y+9=0$"
     },
     "answer": "C",
-    "technique": "Side length PQ $=6$, so radius $=3$. Centre = midpoint of the square $=(-2,3)$. $(x+2)^2+(y-3)^2=9\\Rightarrow x^2+y^2+4x-6y+4=0$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Side length PQ $=6$, so radius $=3$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Centre = midpoint of the square $=(-2,3)$. $(x+2)^2+(y-3)^2=9\\Rightarrow x^2+y^2+4x-6y+4=0$."
+        }
+      ]
+    },
+    "diagram_skipped": "circle equation only; circle-line requires a line",
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-020",
@@ -1787,9 +2811,21 @@
       "F": "400N, 600J"
     },
     "answer": "A",
-    "technique": "Vertical: normal force $N=W+F\\sin37°=350+50(0.6)=380$N. Work done $=F\\cos37°\\times d=50(0.8)(15)=600$J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Vertical: normal force $N=W+F\\sin 37^\\circ=350+50(0.6)=380$N."
+        },
+        {
+          "title": "Work done J",
+          "content": "Work done $=F\\cos 37^\\circ\\times d=50(0.8)(15)=600$J."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-003",
@@ -1802,18 +2838,30 @@
     "difficulty": 4,
     "question": "The first term of a convergent geometric series is 8. The fifth term is 2. The sixth term is real and positive. What is the sum to infinity of this series? ($S_\\infty=\\frac{a}{1-r}$)",
     "options": {
-      "A": "$8(1+\\sqrt2)$",
-      "B": "$8(1-\\sqrt2)$",
-      "C": "$8(2+\\sqrt2)$",
-      "D": "$8(2-\\sqrt2)$",
+      "A": "$8(1+\\sqrt{2})$",
+      "B": "$8(1-\\sqrt{2})$",
+      "C": "$8(2+\\sqrt{2})$",
+      "D": "$8(2-\\sqrt{2})$",
       "E": "16",
       "F": "$\\frac{8-4^5}{1-4^5}$",
       "G": "$\\frac{8+4^5}{1+4^5}$"
     },
     "answer": "C",
-    "technique": "$ar^4=2\\Rightarrow r^4=1/4\\Rightarrow r^2=1/2$. For the 6th term ($ar^5$) to be positive with $a>0$, need $r>0$, so $r=1/\\sqrt2$. $S_\\infty=\\frac{8}{1-1/\\sqrt2}=8(2+\\sqrt2)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Work step 1",
+          "content": "$ar^4=2\\Rightarrow r^4=1/4\\Rightarrow r^2=1/2$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "For the 6th term ($ar^5$) to be positive with $a>0$, need $r>0$, so $r=1/\\sqrt{2}$. $S_\\infty=\\frac{8}{1-1/\\sqrt{2}}=8(2+\\sqrt{2})$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-021",
@@ -1836,9 +2884,25 @@
       "H": "0.40m right of pivot, 1100N"
     },
     "answer": "H",
-    "technique": "Boy's moment $=350\\times1.2=420$Nm; woman's moment $=600\\times0.8=480$Nm (opposing). The 60Nm difference must come from the plank's own weight (150N) acting on the boy's side: $150d=60\\Rightarrow d=0.40$m. Total downward force $=350+600+150=1100$N, balanced by the pivot.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Boy's moment $=350\\times1.2=420$Nm; woman's moment $=600\\times0.8=480$Nm (opposing)."
+        },
+        {
+          "title": "Work through",
+          "content": "The 60Nm difference must come from the plank's own weight (150N) acting on the boy's side: $150d=60\\Rightarrow d=0.40$m."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Total downward force $=350+600+150=1100$N, balanced by the pivot."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-004",
@@ -1851,17 +2915,41 @@
     "difficulty": 4,
     "question": "Tangents are drawn from a point P to a circle of radius 10cm; the centre is C and PC=20cm. [DIAGRAM: circle with two tangent lines from external point P, radius 10cm, PC=20cm, shaded region between tangents and arc] Which one of the following is an expression for the shaded area in square centimetres?",
     "options": {
-      "A": "$\\frac{100}{3}(3\\sqrt3-\\pi)$",
-      "B": "$\\frac{100}{3}(3\\sqrt5-\\pi)$",
-      "C": "$\\frac{50}{3}(6\\sqrt3-\\pi)$",
-      "D": "$\\frac{50}{3}(6\\sqrt5-\\pi)$",
-      "E": "$\\frac{50}{3}(3\\sqrt2-\\pi)$",
-      "F": "$\\frac{50}{3}(2\\sqrt3-\\pi)$"
+      "A": "$\\frac{100}{3}(3\\sqrt{3}-\\pi)$",
+      "B": "$\\frac{100}{3}(3\\sqrt{5}-\\pi)$",
+      "C": "$\\frac{50}{3}(6\\sqrt{3}-\\pi)$",
+      "D": "$\\frac{50}{3}(6\\sqrt{5}-\\pi)$",
+      "E": "$\\frac{50}{3}(3\\sqrt{2}-\\pi)$",
+      "F": "$\\frac{50}{3}(2\\sqrt{3}-\\pi)$"
     },
     "answer": "A",
-    "technique": "Tangent length $=\\sqrt{20^2-10^2}=10\\sqrt3$. Half-angle at C: $\\cos\\theta=10/20\\Rightarrow\\theta=60°$, so angle at C between radii $=120°$. Kite area $=r\\times\\text{tangent}=100\\sqrt3$. Sector area $=\\frac{120}{360}\\pi(10)^2=\\frac{100\\pi}{3}$. Shaded area $=100\\sqrt3-\\frac{100\\pi}{3}=\\frac{100}{3}(3\\sqrt3-\\pi)$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Tangent length $=\\sqrt{20^2-10^2}=10\\sqrt{3}$."
+        },
+        {
+          "title": "Work through",
+          "content": "Half-angle at C: $\\cos\\theta=10/20\\Rightarrow\\theta=60^\\circ$, so angle at C between radii $=120^\\circ$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Kite area $=r\\times\\text{tangent}=100\\sqrt{3}$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Sector area $=\\frac{120}{360}\\pi(10)^2=\\frac{100\\pi}{3}$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "Shaded area $=100\\sqrt{3}-\\frac{100\\pi}{3}=\\frac{100}{3}(3\\sqrt{3}-\\pi)$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-005",
@@ -1874,15 +2962,31 @@
     "difficulty": 4,
     "question": "Given that $7\\cos\\theta-3\\tan\\theta\\sin\\theta=1$, which one of the following is true?",
     "options": {
-      "A": "cos(theta)=-3/5 or -1/2",
-      "B": "cos(theta)=-3/5 or 1/2",
-      "C": "cos(theta)=3/5 or 1/2",
-      "D": "cos(theta)=3/5 or -1/2"
+      "A": "$cos(\\theta)=-3/5 or -1/2$",
+      "B": "$cos(\\theta)=-3/5 or 1/2$",
+      "C": "$cos(\\theta)=3/5 or 1/2$",
+      "D": "$cos(\\theta)=3/5 or -1/2$"
     },
     "answer": "D",
-    "technique": "$\\tan\\theta\\sin\\theta=\\dfrac{\\sin^2\\theta}{\\cos\\theta}$, so multiplying through by $\\cos\\theta$: $7\\cos^2\\theta-3\\sin^2\\theta=\\cos\\theta$. Using $\\sin^2\\theta=1-\\cos^2\\theta$: $7\\cos^2\\theta-3(1-\\cos^2\\theta)=\\cos\\theta \\Rightarrow 10\\cos^2\\theta-\\cos\\theta-3=0$. Discriminant $=1+120=121=11^2$, so $\\cos\\theta=\\dfrac{1\\pm11}{20}$, giving $\\cos\\theta=\\dfrac35$ or $\\cos\\theta=-\\dfrac12$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "$\\tan\\theta\\sin\\theta=\\dfrac{\\sin^2\\theta}{\\cos\\theta}$, so multiplying through by $\\cos\\theta$: $7\\cos^2\\theta-3\\sin^2\\theta=\\cos\\theta$."
+        },
+        {
+          "title": "Simplify the expression",
+          "content": "Using $\\sin^2\\theta=1-\\cos^2\\theta$: $7\\cos^2\\theta-3(1-\\cos^2\\theta)=\\cos\\theta \\Rightarrow 10\\cos^2\\theta-\\cos\\theta-3=0$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Discriminant $=1+120=121=11^2$, so $\\cos\\theta=\\dfrac{1\\pm11}{20}$, giving $\\cos\\theta=\\dfrac35$ or $\\cos\\theta=-\\dfrac12$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-023",
@@ -1903,9 +3007,21 @@
       "F": "3 and 4 only"
     },
     "answer": "B",
-    "technique": "Since P is the only other horizontal force, friction must balance it exactly (statement 1 false, friction must exist) and acts in the corresponding direction (statement 2 true, 3 false since it opposes P). The moment of P about the contact edge is not simply P×d given the geometry, so statement 4 is false.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Since P is the only other horizontal force, friction must balance it exactly (statement 1 false, friction must exist) and acts in the corresponding direction (statement 2 true, 3 false since it opposes P)."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "$The moment of P about the contact edge is not simply P\\timesd given the geometry, so statement 4 is false$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-006",
@@ -1919,8 +3035,8 @@
     "question": "The complete set of values of $a$ for which the equation $3x^2=(a+2)x-3$ has two real distinct roots is:",
     "options": {
       "A": "no values of a",
-      "B": "-4sqrt(2)<a<4sqrt(2)",
-      "C": "a<-4sqrt(2), a>4sqrt(2)",
+      "B": "$-4\\sqrt{2}<a<4\\sqrt{2}$",
+      "C": "$a<-4\\sqrt{2}, a>4\\sqrt{2}$",
       "D": "-4<a<8",
       "E": "a<-4, a>8",
       "F": "-8<a<4",
@@ -1928,9 +3044,21 @@
       "H": "all values of a"
     },
     "answer": "G",
-    "technique": "Rearranged: $3x^2-(a+2)x+3=0$. Two distinct real roots require discriminant $>0$: $(a+2)^2-36>0 \\Rightarrow (a+2)^2>36 \\Rightarrow a+2>6$ or $a+2<-6 \\Rightarrow a>4$ or $a<-8$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Rearranged: $3x^2-(a+2)x+3=0$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Two distinct real roots require discriminant $>0$: $(a+2)^2-36>0 \\Rightarrow (a+2)^2>36 \\Rightarrow a+2>6$ or $a+2<-6 \\Rightarrow a>4$ or $a<-8$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-024",
@@ -1953,9 +3081,21 @@
       "H": "3.0m, 2.0s"
     },
     "answer": "G",
-    "technique": "$v^2=u^2-2gh\\Rightarrow2^2=8^2-20h\\Rightarrow h=3.0$m. Using $s=ut-\\frac12gt^2$: $3=8t-5t^2\\Rightarrow5t^2-8t+3=0\\Rightarrow t=0.6$ (up) or $t=1.0$ (down).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "$v^2=u^2-2gh\\Rightarrow2^2=8^2-20h\\Rightarrow h=3.0$m."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Using $s=ut-\\frac12gt^2$: $3=8t-5t^2\\Rightarrow5t^2-8t+3=0\\Rightarrow t=0.6$ (up) or $t=1.0$ (down)."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-007",
@@ -1976,9 +3116,25 @@
       "F": "$\\frac{8}{3}$"
     },
     "answer": "D",
-    "technique": "Perpendicular: $mp=-1\\Rightarrow p=-1/m$. L is at $x=-3/m$, M is at $x=-2/p=2m$. $|LM|=|-3/m-2m|=5$. For $m>1$: $3/m+2m=5\\Rightarrow2m^2-5m+3=0\\Rightarrow(2m-3)(m-1)=0\\Rightarrow m=3/2$ (rejecting $m=1$). $p=-2/3$. $m+p=3/2-2/3=5/6$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "Perpendicular: $mp=-1\\Rightarrow p=-1/m$."
+        },
+        {
+          "title": "Work through",
+          "content": "L is at $x=-3/m$, M is at $x=-2/p=2m$. $|LM|=|-3/m-2m|=5$."
+        },
+        {
+          "title": "Simplify to the result",
+          "content": "For $m>1$: $3/m+2m=5\\Rightarrow2m^2-5m+3=0\\Rightarrow(2m-3)(m-1)=0\\Rightarrow m=3/2$ (rejecting $m=1$). $p=-2/3$. $m+p=3/2-2/3=5/6$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-025",
@@ -1999,9 +3155,29 @@
       "F": "5.0 m/s right, 150J"
     },
     "answer": "E",
-    "technique": "Momentum: $4(10)=2(10)+4v\\Rightarrow v=5.0$m/s right. KE before $=\\frac12(4)(10^2)=200$J. KE after $=\\frac12(4)(5^2)+\\frac12(2)(10^2)=50+100=150$J. KE lost $=200-150=50$J.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Momentum: $4(10)=2(10)+4v\\Rightarrow v=5.0$m/s right."
+        },
+        {
+          "title": "Work through",
+          "content": "KE before $=\\frac12(4)(10^2)=200$J."
+        },
+        {
+          "title": "Simplify",
+          "content": "KE after $=\\frac12(4)(5^2)+\\frac12(2)(10^2)=50+100=150$J."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "KE lost $=200-150=50$J."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-008",
@@ -2020,13 +3196,25 @@
       "D": "-a<=x<=0, x>=a",
       "E": "x<=-a/3, x>=a/3",
       "F": "-a/3<=x<=a/3",
-      "G": "x<=-a/sqrt(3), x>=a/sqrt(3)",
-      "H": "-a/sqrt(3)<=x<=a/sqrt(3)"
+      "G": "$x<=-a/\\sqrt{3}, x>=a/\\sqrt{3}$",
+      "H": "$-a/\\sqrt{3}<=x<=a/\\sqrt{3}$"
     },
     "answer": "G",
-    "technique": "f(x) is increasing where f'(x) >= 0. For a cubic of this form the derivative is a quadratic in x with roots at +-a/sqrt(3), positive outside this interval, giving x <= -a/sqrt(3) or x >= a/sqrt(3).",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "f(x) is increasing where f'(x) >= 0."
+        },
+        {
+          "title": "Find where the derivative is non-negative",
+          "content": "For a cubic of this form the derivative is a quadratic in $x$ with roots at $\\pm\\dfrac{a}{\\sqrt{3}}$, positive outside this interval, giving $x\\le -\\dfrac{a}{\\sqrt{3}}$ or $x\\ge \\dfrac{a}{\\sqrt{3}}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-PHY-026",
@@ -2047,9 +3235,25 @@
       "F": "10.5 ms⁻²"
     },
     "answer": "A",
-    "technique": "Resultant applied force $=\\sqrt{9^2+12^2}=15$N. Normal force $=20$N, max friction $=0.25\\times20=5$N. Net force $=15-5=10$N. $a=10/2=5.0\\text{ms}^{-2}$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up",
+          "content": "Resultant applied force $=\\sqrt{9^2+12^2}=15$N."
+        },
+        {
+          "title": "Work through",
+          "content": "Normal force $=20$N, max friction $=0.25\\times20=5$N."
+        },
+        {
+          "title": "Net force N",
+          "content": "Net force $=15-5=10$N. $a=10/2=5.0\\text{ms}^{-2}$."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   },
   {
     "id": "NSAA-2016-M2-009",
@@ -2072,9 +3276,31 @@
       "H": "$y=(x-4)^2-5$"
     },
     "answer": "E",
-    "technique": "After translation: $y=(x-4)^2+3$. Reflecting in $y=-1$ maps $y\\to-2-y$: substituting, $-2-Y=(x-4)^2+3\\Rightarrow Y=-(x-4)^2-5$.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Set up the equation",
+          "content": "After translation: $y=(x-4)^2+3$."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "Reflecting in $y=-1$ maps $y\\to-2-y$: substituting, $-2-Y=(x-4)^2+3\\Rightarrow Y=-(x-4)^2-5$."
+        }
+      ]
+    },
+    "spec_status": "on_spec",
+    "diagram": {
+      "case": "transformation",
+      "after_step": 1,
+      "expr": "x^2",
+      "transform": "-2 - (f(x - 4) + 3)",
+      "x_range": [
+        -1,
+        9
+      ]
+    }
   },
   {
     "id": "NSAA-2016-PHY-027",
@@ -2096,8 +3322,20 @@
       "G": "250N"
     },
     "answer": "C",
-    "technique": "Falling mass: $300-T=30(2.5)\\Rightarrow T=225$N. On the incline: $T-20(10)\\sin30°-f=20(2.5)\\Rightarrow225-100-f=50\\Rightarrow f=75$N.",
     "origin": "past-paper",
-    "quality_tier": 1
+    "quality_tier": 1,
+    "solution": {
+      "steps": [
+        {
+          "title": "Falling mass N",
+          "content": "Falling mass: $300-T=30(2.5)\\Rightarrow T=225$N."
+        },
+        {
+          "title": "Obtain the result",
+          "content": "On the incline: $T-20(10)\\sin 30^\\circ-f=20(2.5)\\Rightarrow225-100-f=50\\Rightarrow f=75$N."
+        }
+      ]
+    },
+    "spec_status": "on_spec"
   }
 ]

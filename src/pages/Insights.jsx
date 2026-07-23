@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Trophy, Copy, Check } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
+import { Trophy, Copy, Check, Play } from 'lucide-react'
 import { useEvents } from '../lib/eventLog'
 import { errorTypeByTopic } from '../lib/insights'
 import { errorTagLabel } from '../lib/errorTags'
@@ -60,7 +61,7 @@ function topicSentence(row, errors) {
   return 'Mixed picture — a few slow solves and a few misses.'
 }
 
-function AttentionCard({ rows }) {
+function AttentionCard({ rows, onDrill }) {
   return (
     <Card>
       <div className="px-4 pt-3 pb-2 border-b border-border-subtle">
@@ -77,13 +78,20 @@ function AttentionCard({ rows }) {
               )}>
                 {i + 1}
               </span>
-              <div className="min-w-0">
+              <div className="min-w-0 flex-1">
                 <p className="text-sm font-600" style={{ color: m.color }}>
                   {m.name}
                   {i === 0 && <span className="ml-2 text-[10px] font-600 uppercase tracking-widest text-danger">focus here</span>}
                 </p>
                 <p className="text-xs text-text-secondary mt-0.5">{r.reason}</p>
               </div>
+              <button
+                type="button"
+                onClick={() => onDrill?.({ moduleId: r.moduleId })}
+                className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-border text-[11px] font-600 text-text-muted hover:text-accent hover:border-accent/40 transition-colors flex-shrink-0"
+              >
+                <Play size={10} fill="currentColor" /> Practice
+              </button>
             </div>
           )
         })}
@@ -120,7 +128,7 @@ function PaceCard({ diffs }) {
   )
 }
 
-function TopicCard({ row, errors }) {
+function TopicCard({ row, errors, onDrill }) {
   const err = errors?.[row.topicId]
   const taggedCounts = err
     ? Object.entries(err.counts).filter(([tag, n]) => n > 0 && tag !== 'untagged')
@@ -128,14 +136,23 @@ function TopicCard({ row, errors }) {
   return (
     <Card>
       <div className="p-4">
-        <div className="flex items-center justify-between mb-1">
+        <div className="flex items-center justify-between mb-1 gap-2">
           <span className="text-sm font-600" style={{ color: getModuleColor(row.moduleId) }}>
             {getTopicName(row.topicId)}
           </span>
-          <span className="text-xs text-text-muted tabular">
-            {row.attempts} attempt{row.attempts !== 1 ? 's' : ''}
-            {row.skips > 0 && ` · ${row.skips} skipped`}
-          </span>
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <span className="text-xs text-text-muted tabular">
+              {row.attempts} attempt{row.attempts !== 1 ? 's' : ''}
+              {row.skips > 0 && ` · ${row.skips} skipped`}
+            </span>
+            <button
+              type="button"
+              onClick={() => onDrill?.({ topicId: row.topicId, moduleId: row.moduleId })}
+              className="flex items-center gap-1 px-2.5 py-1 rounded-lg border border-border text-[11px] font-600 text-text-muted hover:text-accent hover:border-accent/40 transition-colors"
+            >
+              <Play size={10} fill="currentColor" /> Drill
+            </button>
+          </div>
         </div>
         <p className="text-xs text-text-secondary mb-3">{topicSentence(row, errors)}</p>
 
@@ -183,6 +200,7 @@ function TopicCard({ row, errors }) {
 }
 
 export default function Insights() {
+  const navigate = useNavigate()
   const events = useEvents()
   const queue = useReviewQueue()
   const unlockedAchievements = useAchievements()
@@ -197,6 +215,21 @@ export default function Insights() {
   const scope = useMemo(() => (focus ? [focus] : chosen), [focus, chosen])
   const attention = useMemo(() => getModuleAttention(events, chosen), [events, chosen])
   const topicRows = useMemo(() => threeStateByTopic(events, scope), [events, scope])
+
+  const drill = ({ topicId, moduleId }) => {
+    const m = moduleId ? getModule(moduleId) : null
+    const topicIds = topicId
+      ? [topicId]
+      : (m?.topics?.map(t => t.id) || [])
+    navigate('/practice', {
+      state: {
+        topicIds,
+        moduleIds: moduleId ? [moduleId] : undefined,
+        qCount: 10,
+        timerSecs: 89,
+      },
+    })
+  }
   const diffs = useMemo(() => threeStateByDifficulty(events, scope), [events, scope])
   const errors = useMemo(() => errorTypeByTopic(events), [events])
   const dueCount = useMemo(() => getDueEntries(queue).length, [queue])
@@ -218,7 +251,7 @@ export default function Insights() {
         <CopyContextButton events={events} examDate={examDate} chosenModules={chosen} />
       </div>
 
-      {chosen.length > 1 && <AttentionCard rows={attention} />}
+      {chosen.length > 1 && <AttentionCard rows={attention} onDrill={drill} />}
 
       {/* Module focus filter */}
       <div className="flex flex-wrap gap-2">
@@ -264,7 +297,7 @@ export default function Insights() {
         </div></Card>
       )}
 
-      {topicRows.map(row => <TopicCard key={row.topicId} row={row} errors={errors} />)}
+      {topicRows.map(row => <TopicCard key={row.topicId} row={row} errors={errors} onDrill={drill} />)}
 
       {/* Achievements */}
       <Card>

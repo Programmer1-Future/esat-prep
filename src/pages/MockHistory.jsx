@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { TimerReset, Play, Plus, X } from 'lucide-react'
+import { TimerReset, Play, Plus, X, ChevronRight } from 'lucide-react'
 import { Card } from '../components/ui/Card'
 import { Modal } from '../components/ui/Modal'
 import { Button } from '../components/ui/Button'
@@ -10,6 +10,7 @@ import { MODULES, getModule } from '../lib/moduleMap'
 import { projectScore, formatProjected } from '../lib/mockScore'
 import { logEvent } from '../lib/eventLog'
 import { useLocalStorage, updateStoredValue } from '../hooks/useLocalStorage'
+import { promoteDraftToAbandoned } from '../lib/mockAbandon'
 
 const EMPTY_ROW = () => ({ module: 'maths1', correct: '', total: '27' })
 
@@ -113,6 +114,11 @@ export default function MockHistory() {
   const ordered = useMemo(() => [...sittings].reverse(), [sittings])
   const [showAddModal, setShowAddModal] = useState(false)
 
+  // Soft leave / refresh may leave a draft; promote into Abandoned before listing.
+  useEffect(() => {
+    promoteDraftToAbandoned()
+  }, [])
+
   return (
     <motion.div
       className="max-w-2xl mx-auto p-6 space-y-4"
@@ -160,6 +166,9 @@ export default function MockHistory() {
               {s.manual && (
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-600 uppercase tracking-wide bg-surface-raised border border-border text-text-muted">Manual</span>
               )}
+              {s.abandoned && (
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-600 uppercase tracking-wide bg-warning/10 border border-warning/30 text-warning">Abandoned</span>
+              )}
             </span>
             <span className="text-[11px] text-text-muted">{s.modules.length} module{s.modules.length !== 1 ? 's' : ''}</span>
           </div>
@@ -184,6 +193,13 @@ export default function MockHistory() {
               )
             })}
           </div>
+          <Link
+            to={`/mocks/${s.id}`}
+            className="w-full flex items-center justify-between px-5 py-2.5 border-t border-border-subtle text-xs font-600 text-text-muted hover:text-text-secondary transition-colors"
+          >
+            {s.manual ? 'View sitting' : 'Review questions'}
+            <ChevronRight size={12} />
+          </Link>
         </Card>
       ))}
     </motion.div>

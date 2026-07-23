@@ -215,92 +215,78 @@ against the daily reading benefit.
 
 ## 2. EXPLANATION SPEC
 
-### 2.1 The label (replaces "TECHNIQUE")
+**Shipped (2026-07):** Student-facing explanations use authored **`solution.steps`**
+only. The legacy `technique` blob has been stripped from the bank (Phase 4).
+`npm run validate:content` requires `solution.steps` by default.
 
-Container heading: **"How to solve it"**.
-First block heading: **"The answer"**.
+Gold reference (diagram cases, full rule list):
+`C:\Users\Ahmed\Documents\De-TMUA-guide\docs\CONTENT_SPEC.md`.
 
-Rationale: "TECHNIQUE" names a category, not a promise. "How to solve it" tells the student
-who got it wrong that what follows is a *route they could have taken*, not a verdict — which is
-the framing that makes them read past the first line. Keep the JSON field name `technique`
-unchanged; this is a UI-label change only, and renaming a field across 1022 records buys nothing.
+### 2.1 UI labels
 
-### 2.2 Serving both audiences (right and wrong) — one block, ordered
+| Data | Student-facing heading |
+|---|---|
+| `solution.steps` | **Worked solution** |
 
-Do **not** author two variants. Doubling explanation content across 1022 questions doubles the
-cost and the drift surface, and forks the maintenance of the physics.
+Paper figures in stems (`[DIAGRAM:]` → `public/diagrams/<id>.png`) are unchanged.
+A question with a paper PNG must **never** also get a declarative Mafs `diagram` field.
 
-Instead, **ordering does the segmentation**: §2.3.1 is written to be sufficient and terminal for
-the student who was right (they read one banner and move on); §2.3.2–2.3.4 exist for the student
-who was wrong. This is why §2.3.1 must be self-contained — it is the *only* thing a correct
-student reads, so it must carry the transferable principle, not just confirmation.
+### 2.2 `solution` schema
 
-UI consequence: render §2.3.1 always expanded. Render §2.3.2 onward expanded by default **only
-when the student answered incorrectly**; collapsed-but-one-click otherwise.
+```jsonc
+{
+  "solution": {
+    "steps": [
+      { "title": "Imperative, ≤ 8 words", "content": "Prose + LaTeX, ≤ ~50 words" }
+      // 2–6 steps
+    ],
+    "fast": "Optional. Elimination/estimation route.",
+    "trap": "Optional. Tempting wrong option by VALUE not letter."
+  }
+}
+```
 
-### 2.3 Fixed section structure
+**Hard bans (CI-enforced):** option letters (`Answer C`,
+`option B`, `(D)`), unicode math in solution text, first/second person, hedging,
+platform meta, ellipsis-as-reasoning, ≥15-word verbatim stem overlap. Full list in
+TMUA `CONTENT_SPEC.md` §1.
 
-Sections appear in this order, always. Headings are literal (`**The answer**` etc.) so the
-validator can find them.
+**Never name an option letter** — options shuffle and re-letter at render (`QuestionBank.jsx`).
 
-**2.3.1 — "The answer" · REQUIRED · 1–2 sentences**
-States the correct option **by content** and the single governing principle in the same breath.
-No working. If a student can't restate the principle from this line alone, the line is wrong.
-> *The correct choice is rows 2 and 3 only — energy converted in free fall is linear in the distance fallen, whereas displacement is quadratic in time.*
+### 2.3 Optional Mafs `diagram` (maths, Phase 3+)
 
-**2.3.2 — "The route" · REQUIRED · 3–8 sentences, or 2–5 numbered steps**
-The derivation. Numbered steps when the work is sequential; prose when it is a single argument.
-Each step starts with what you are *doing*, not what you are *writing* ("Convert the height drop
-into kinetic energy", not "We have KE = mgh"). One display equation maximum per step.
+```jsonc
+{
+  "diagram": {
+    "case": "curve-tangent",
+    "after_step": 2,
+    // case-specific givens only — code derives geometry
+  }
+}
+```
 
-**2.3.3 — "Where it goes wrong" · REQUIRED unless exempt · 1–3 sentences**
-One sentence per systematically-generated distractor, each of the form
-*<the wrong content>* ← *the specific error that produces it*. Reference by content only (§4).
-Exempt only when the distractors are undifferentiated arithmetic neighbours (e.g. options are
-`2.4, 2.6, 2.8, 3.0` with no distinct error behind each); in that case the section is omitted
-entirely rather than padded.
-
-**2.3.4 — "Faster in the exam" · OPTIONAL, strongly preferred · ≤2 sentences**
-See §2.5. If no faster route exists, say so in one clause and stop — do not invent one.
-
-**2.3.5 — "The trap" · OPTIONAL · exactly 1 sentence**
-The single word or condition in the stem that decides the question ("released *from rest*",
-"*excess* acid", "*ideal* gas", "at *constant pressure*"). Include only when there genuinely is
-one. A trap on every question trains students to hunt for traps that aren't there.
-
-Total target: **90–200 words.** Above 250 words the validator warns; a student who got it wrong
-under time pressure will not read 300 words.
+Eight typed cases: `circle-line`, `curve`, `curve-tangent`, `area-under-curve`,
+`trig-solutions`, `triangle`, `transformation`, `number-line`. Agents author givens
+only; never transcribe computed coordinates. Set `after_step` so the figure sits
+mid-solution. Skip Mafs when the stem already has `[DIAGRAM:]` / a paper PNG.
 
 ### 2.4 Maths typesetting, per module
 
 | Module | Display `$$…$$` | Inline `$…$` | Prose |
 |---|---|---|---|
-| maths1 / maths2 | 1–3 blocks. Any expression manipulated over ≥2 steps, or containing a fraction, integral, sum, matrix or limit. | Substituted values, single symbols, results. | The strategic sentence framing each step. |
-| physics | **≤2 blocks.** The governing equation once, in symbolic form. | The numeric substitution and the answer — inline, *with units*. | Dominant. Physics marks come from choosing the right relation, so the words carry more than the algebra. |
-| chemistry | Balanced equations and mole-ratio arithmetic only. | All species, always `\mathrm{}`: `$\mathrm{H_2SO_4}$`. `\ce{}` is **not available** (mhchem not loaded — do not use it). | Dominant for mechanism, equilibrium direction, periodicity. |
-| biology | **Zero, normally.** Only genetics ratios and rate/dilution calculations earn one. | Sparingly. | Near-total. A display block in a biology explanation is a code smell — the validator warns. |
+| maths1 / maths2 | 1–3 blocks per step when manipulating expressions | Substituted values, single symbols, results | Step framing |
+| physics | **≤2 blocks** total — governing equation once | Numeric substitution + answer with units | Dominant |
+| chemistry | Balanced equations only | Species in `\mathrm{}` — no `\ce{}` | Dominant |
+| biology | **Zero, normally** | Sparingly | Near-total |
 
-Rule across all modules: a display block is for an equation the student should *photograph
-mentally*. If it is a step, it is inline.
+All maths in `solution.*` must use LaTeX with braced arguments (`\sqrt{5}`, never `\sqrt 5`).
 
-### 2.5 Fast route vs rigorous derivation
+### 2.5 Legacy `technique` blob (fallback until Phase 4)
 
-**The fast route leads (goes in 2.3.4 and is referenced from 2.3.1) when any hold:**
-- options differ by an order of magnitude or by dimensions → **units/estimation** kills them;
-- options are `1 only / 2 only / 1 and 2 …` → **disproving one row eliminates ≥half** the set;
-- the question asks which is largest/smallest → **ordering beats computing**;
-- a symmetry, limiting case (`t→0`, `x→∞`), or sign check resolves it without algebra;
-- exactly one option is dimensionally consistent.
-
-**The rigorous derivation leads when:**
-- options are numerically close (within a factor of ~2) — elimination cannot separate them;
-- the question is "show that" / "the value of" with a unique numeric answer;
-- the concept gap is the actual point, and shortcutting it teaches nothing transferable.
-
-**Stated trade-off:** where these conflict we lead with the fast route and place the rigorous
-derivation beneath it in 2.3.2. A student who is out of time needs the discriminator; a student
-who has time will read on. We accept that this occasionally lets someone bank a right answer
-without full understanding — the miss-reason tags exist to catch that pattern over time.
+Existing `technique` strings remain valid during migration. Do **not** rely on
+`formatTechnique()` regex structure — new content must use `solution.steps`.
+The old §2.3 markdown-section structure (`**The answer**` / `**The route**` / …)
+inside `technique` is **retired**; it never landed in the bank at scale.
 
 ---
 

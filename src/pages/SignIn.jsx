@@ -29,9 +29,10 @@ export default function SignIn() {
     setBusy(true); setError(null)
     const { error: err } = await supabase.auth.signInWithOtp({
       email: email.trim().toLowerCase(),
+      options: { emailRedirectTo: window.location.origin },
     })
     setBusy(false)
-    if (err) setError('Something went wrong. Try again in a moment.')
+    if (err) setError(err.message || 'Something went wrong. Try again in a moment.')
     else setMagicSent(true)
   }, [email])
 
